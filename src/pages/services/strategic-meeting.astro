@@ -1,0 +1,312 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Cta from '../../components/Cta.astro';
+
+const topics = [
+  'הבנת סגנון ההשקעה שמתאים לך — תוך התייחסות לתקציב האישי, רמת שליטה טכנולוגית ורמת הסיכון שאת/ה מוכן/ה לקחת',
+  'סדר בכל המידע שמגיע אליך — הבחנה בין מה שנכון עבורך לבין מה שמבוסס על שיווק',
+  'סקירת האפשרויות לרכישת ביטקוין או מטבעות נוספים — הבדלים בין דרכי רכישה שונות',
+  'הסבר על ארנק אישי לעומת קנייה בבורסות ישראליות ובינלאומיות',
+  'בניית מסלול ברור להמשך — המלצות מותאמות אישית לפי שלב ההתחלה שלך',
+];
+
+const testimonials = [
+  { img: '/images/-2_optimized.jpeg', alt: 'המלצת לקוחה' },
+  { img: '/images/-_optimized.jpeg', alt: 'המלצת לקוחה' },
+  { img: '/images/-2_optimized.jpg', alt: 'המלצת לקוחה' },
+];
+---
+
+<BaseLayout
+  title="פגישת אסטרטגיה — כיוון ראשוני בקריפטו | Crypto Women"
+  description="פגישת אסטרטגיה אישית: הכוונה ראשונית לעולם הקריפטו וביטקוין. נבנה יחד מסלול ברור להשקעה בטוחה ומדויקת. עם קרן ולדמן חנן."
+>
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="container" style="text-align:center">
+      <span class="badge badge--accent">פגישה אישית</span>
+      <h1 class="page-hero-title">פגישת אסטרטגיה</h1>
+      <p class="page-hero-subtitle">
+        צריכים הכוונה ראשונית? נבנה יחד מסלול ברור להיכנס לעולם הקריפטו בצורה בטוחה ומדויקת
+      </p>
+    </div>
+  </section>
+
+  <!-- PAIN POINT -->
+  <section class="section pain-section">
+    <div class="container--content">
+      <div class="pain-inner">
+        <h2 class="pain-title">האם זה מוכר לך?</h2>
+        <div class="pain-questions">
+          <div class="pain-q">
+            <span class="pain-icon">🤔</span>
+            <p>תמיד רצית להיכנס לעולם הקריפטו, אבל לא היה לך ברור מאיפה להתחיל?</p>
+          </div>
+          <div class="pain-q">
+            <span class="pain-icon">❓</span>
+            <p>שאלות כמו "איך קונים?", "איפה שומרים?", "מה הדרך הכי בטוחה?" עדיין פתוחות?</p>
+          </div>
+        </div>
+        <p class="pain-solution">
+          פגישת האסטרטגיה נולדה בדיוק עבורך — משקיעים ומשקיעות בתחילת הדרך, שמרגישים שהעולם הזה מרתק, אבל גם מבלבל.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE DO -->
+  <section class="section topics-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">מה נעבור</span>
+        <h2>נושאים שנעבור עליהם בפגישה</h2>
+        <p class="section-desc">בסיום הפגישה תצא/י עם מסלול ברור, המלצות אישיות ותכנון שלב הרכישה הראשוני</p>
+      </div>
+
+      <div class="topics-list">
+        {topics.map((topic, i) => (
+          <div class="topic-item">
+            <span class="topic-num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+            <p class="topic-text">{topic}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA + IMAGE -->
+  <section class="section signup-section">
+    <div class="container">
+      <div class="signup-inner">
+        <div class="signup-text">
+          <h2>מוכן/ה לבניית תכנית ברורה?</h2>
+          <p>
+            בסיום הפגישה יהיה לך מסלול ברור — עם המלצות מותאמות אישית, תכנון שלב הרכישה והאחסון הראשוני, ודגשים חשובים שיאפשרו לך להיכנס לעולם הקריפטו בצורה בטוחה, שקולה ומדויקת.
+          </p>
+          <div class="signup-actions">
+            <a
+              href="https://meshulam.co.il/s/42e785b7-3d9c-3983-1c37-149ee04d5ffc"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn--primary btn--lg"
+            >
+              בול מה שחיפשתי
+            </a>
+            <a href="/contact" class="btn btn--secondary">בא לי שנדבר</a>
+          </div>
+        </div>
+
+        <div class="signup-img">
+          <img
+            src="/images/untitled-design-13_optimized.png"
+            alt="פגישת אסטרטגיה"
+            loading="lazy"
+            width="400"
+            height="400"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">ממליצות</span>
+        <h2>מה אמרו כאלו שעברו את התהליך?</h2>
+      </div>
+      <div class="testi-grid">
+        {testimonials.map((t) => (
+          <div class="testi-item">
+            <img
+              src={t.img}
+              alt={t.alt}
+              loading="lazy"
+              class="testi-img"
+              onerror="this.parentElement.style.display='none'"
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <Cta />
+</BaseLayout>
+
+<style>
+  .page-hero {
+    background: var(--gradient-hero);
+    padding-block: var(--space-20);
+  }
+  .page-hero-title {
+    font-size: var(--text-4xl);
+    font-weight: 900;
+    color: white;
+    margin-block: var(--space-4);
+  }
+  .page-hero-subtitle {
+    font-size: var(--text-lg);
+    color: rgba(255,255,255,0.85);
+    max-width: 55ch;
+    margin-inline: auto;
+  }
+
+  .pain-section { background: var(--color-bg-muted); }
+
+  .pain-inner { max-width: 65ch; margin-inline: auto; }
+
+  .pain-title {
+    font-size: var(--text-2xl);
+    color: var(--color-primary-dark);
+    margin-block-end: var(--space-6);
+    font-weight: 800;
+  }
+
+  .pain-questions {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    margin-block-end: var(--space-6);
+  }
+
+  .pain-q {
+    display: flex;
+    gap: var(--space-4);
+    align-items: flex-start;
+    background: white;
+    border-radius: var(--radius-md);
+    padding: var(--space-4) var(--space-5);
+    border: 1px solid var(--color-border-light);
+  }
+  .pain-icon { font-size: 1.5rem; flex-shrink: 0; }
+  .pain-q p { margin: 0; color: var(--color-text); line-height: 1.6; font-size: var(--text-base); }
+
+  .pain-solution {
+    font-size: var(--text-base);
+    color: var(--color-primary-dark);
+    font-weight: 600;
+    line-height: 1.7;
+    border-inline-start: 4px solid var(--color-accent);
+    padding-inline-start: var(--space-4);
+    margin: 0;
+  }
+
+  .topics-section { background: white; }
+
+  .section-header {
+    text-align: center;
+    margin-block-end: var(--space-10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-3);
+  }
+  .section-header h2 {
+    font-size: var(--text-2xl);
+    color: var(--color-primary-dark);
+    margin: 0;
+  }
+  .section-desc {
+    font-size: var(--text-base);
+    color: var(--color-text-muted);
+    max-width: 60ch;
+    margin: 0;
+  }
+
+  .topics-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    max-width: 800px;
+    margin-inline: auto;
+  }
+
+  .topic-item {
+    display: flex;
+    gap: var(--space-5);
+    align-items: flex-start;
+    background: var(--color-bg-muted);
+    border-radius: var(--radius-md);
+    padding: var(--space-4) var(--space-6);
+    border: 1px solid var(--color-border-light);
+  }
+
+  .topic-num {
+    font-size: var(--text-2xl);
+    font-weight: 900;
+    color: var(--color-primary-light);
+    opacity: 0.45;
+    flex-shrink: 0;
+    line-height: 1;
+  }
+
+  .topic-text {
+    font-size: var(--text-sm);
+    color: var(--color-text);
+    line-height: 1.65;
+    margin: 0;
+    padding-block-start: 2px;
+  }
+
+  .signup-section { background: var(--color-bg-muted); }
+
+  .signup-inner {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-12);
+    align-items: center;
+    background: white;
+    border-radius: var(--radius-xl);
+    padding: var(--space-12);
+    border: 1px solid var(--color-border-light);
+    box-shadow: var(--shadow-md);
+  }
+
+  .signup-text h2 {
+    font-size: var(--text-2xl);
+    color: var(--color-primary-dark);
+    margin-block-end: var(--space-4);
+  }
+  .signup-text p {
+    color: var(--color-text);
+    line-height: 1.7;
+    margin-block-end: var(--space-6);
+    max-width: 55ch;
+  }
+  .signup-actions {
+    display: flex;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+  }
+
+  .signup-img img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: var(--radius-xl);
+  }
+
+  .testimonials-section { background: white; }
+
+  .testi-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    justify-content: center;
+  }
+
+  .testi-img {
+    max-width: 220px;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+  }
+
+  @media (max-width: 768px) {
+    .signup-inner {
+      grid-template-columns: 1fr;
+    }
+    .signup-img { display: none; }
+  }
+</style>

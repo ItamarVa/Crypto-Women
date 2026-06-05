@@ -1,0 +1,329 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const appearances = [
+  {
+    title: 'תכנית פותחים שוק — ערוץ הכלכלה של ישראל',
+    desc: 'על הקורלציה בין שוק המניות לביטקוין, האם ביטקוין מהווה מצפן למצב השווקים? מתי תגיע נקודת המפנה שבה ביטקוין יהפוך למיינסטרים?',
+    link: 'https://www.youtube.com/watch?v=Qdl_9MxzzZo',
+    cta: 'לצפייה',
+    img: '/images/-1024x573.png',
+  },
+  {
+    title: 'כנס השקעות לצעירי דור ה-Y של ביזפורטל',
+    desc: 'אם היה לי את הידע שיש לי היום שהייתי בת 20 דברים היו יכולים להיראות אחרת. הגעתי לכנס להשמיע איך נכון לבנות את עצמכם כלכלית בדור של היום.',
+    link: 'https://www.youtube.com/watch?v=54vGrrJRb5Q',
+    cta: 'לצפייה',
+    img: '/images/-223-1024x683.jpg',
+  },
+  {
+    title: 'תכנית פותחים שוק — מהפכת הטוקניזציה',
+    desc: 'פרשנית כלכלית בתחום הקריפטו — על מהפכת הטוקניזציה ואיך היא הולכת לשנות את העולם עם העברת ערך ונכסים גלובלית על גבי הבלוקצ\'יין.',
+    link: 'https://www.instagram.com/reels/DHVN_5Lvbhx/',
+    cta: 'לצפייה',
+    img: '/images/-1024x573.png',
+  },
+  {
+    title: 'אירוע 16 שנה ליצירת המסמך הלבן של ביטקוין',
+    desc: 'ב-31 באוקטובר 2008 נולד חזון הביטקוין. שיחה על הדף הלבן, סאטושי, והמהפכה שהתחילה ב-9 עמודים בלבד — והיום משנה את העולם.',
+    link: 'https://www.youtube.com/watch?v=hMxaIWxVb4U',
+    cta: 'לצפייה',
+    img: '/images/screenshot-2024-11-20-112214.png',
+  },
+  {
+    title: 'מאקו — הביטקוין שוב בשיא',
+    desc: 'כתבה במאקו — איך להשקיע בצורה נכונה ולנהל סיכונים בתחום כל-כך מרתק, אבל רווי סיכונים. טיפים למשקיעים חדשים.',
+    link: 'https://www.mako.co.il/finances-money/Article-9899eb3b9c4d391027.htm',
+    cta: 'לקריאה',
+    img: '/images/makologonew2024_autoorient_i_optimized.jpg',
+  },
+  {
+    title: 'ישראל היום — הגנה מפני הונאות בקריפטו',
+    desc: 'כתבה על הגנה מפני הונאות וגניבות בתחום הקריפטו. קריאת חובה כדי לא ליפול בפח.',
+    link: 'https://www.israelhayom.co.il/business/article/17536778',
+    cta: 'לקריאה',
+    img: '/images/-_optimized.jpeg',
+  },
+  {
+    title: 'YNET — הכותרת',
+    desc: 'הביטקוין שובר שיאים וזינק ב-30% בשבועות האחרונים. ראיון על העלייה המטאורית ותחזיות לעתיד.',
+    link: 'https://open.spotify.com/episode/5Xk75wDFn5bgNT3ZUiIVqL',
+    cta: 'להאזנה',
+    img: '/images/-_optimized.jpeg',
+  },
+  {
+    title: 'Daily Crypto News — נשים בקריפטו',
+    desc: 'ראיון למגזין בינ"ל על הסיבות שבגללן יש פחות נשים בתחום הקריפטו, מה המחסומים ואיך קהילת קריפטו וומן עוזרת.',
+    link: 'https://dcndailycryptonews.substack.com/p/women-and-money-women-earn-15-more',
+    cta: 'לכתבה',
+    img: '/images/daily-crypto_optimized.jpg',
+  },
+  {
+    title: 'Fintech Leadher',
+    desc: 'איך הגעתי לתחום הקריפטו, על ביטקוין ו-Payments, שילוב נשים בבלוקצ\'יין והחלום הגדול לשנת 2024.',
+    link: 'https://open.spotify.com/episode/2DOJBWkJlsaqERsIYbXRCk',
+    cta: 'להאזנה',
+    img: '/images/whatsapp-image-2024-07-24-at-09_optimized.21.53_8bde77fe.jpg',
+  },
+  {
+    title: 'פודקאסט "ציפור פיננסית"',
+    desc: 'קריפטו מא\'-ת\', למה כדאי שלכל אחד ואחת יהיה ביטקוין, מהי תעודת סל, ולאן הולך תחום הבלוקצ\'יין.',
+    link: 'https://did.li/RC35q',
+    cta: 'להאזנה',
+    img: '/images/-_optimized.jpeg',
+  },
+  {
+    title: 'תכנית "סקיני מינוס"',
+    desc: 'מה הביא ביטקוין לעולם, האם הוא מקור הפשע? פרק שעוסק בחלק המהותי של ביטקוין ואיך התפתחו יתר המטבעות הדיגיטליים.',
+    link: 'https://open.spotify.com/episode/22UZ20knaR8SoNqoGWI4CI',
+    cta: 'להאזנה',
+    img: '/images/-_optimized.jpeg',
+  },
+  {
+    title: 'כנס Women in Blockchain',
+    desc: 'כנס נשים בשילוב חברות מובילות בתעשיית הבלוקצ\'יין בישראל. מטרה: לחשוף נשים לתחום ולהציע משרות רלוונטיות.',
+    link: '/blog/women-in-blockcahin',
+    cta: 'לכתבה',
+    img: '/images/dsc04322_optimized-scaled.jpg',
+  },
+  {
+    title: 'פאנל איגוד הביטקוין הישראלי',
+    desc: 'מזה Eigen Layer שמשגע את תחום הקריפטו, על מנכ"ל ביינאנס שנכנס לכלא ומזה בלנדר וארנק סמוראי.',
+    link: 'https://open.spotify.com/episode/4gU0WL3SceCckPXVUYaaNe',
+    cta: 'להאזנה',
+    img: '/images/-_optimized.jpeg',
+  },
+  {
+    title: 'פודקאסט קהילת YNOW',
+    desc: 'מה קורה עם ביטקוין, כל מה שצריך לדעת על אירוע החציה ומה ההיסטוריה יכולה ללמד על העתיד?',
+    link: 'https://open.spotify.com/episode/6d5VV9PPxShWVJbtpJNjmZ',
+    cta: 'להאזנה',
+    img: '/images/-ynow.jpeg',
+  },
+  {
+    title: 'פודקאסט "הפסיכולוגיה של הכסף"',
+    desc: 'על ההיבטים הפסיכולוגים של להשקיע בקריפטו, מה החסמים ואיך אפשר לצאת מאזורי הנוחות.',
+    link: 'https://open.spotify.com/episode/7n0I6MPIq9w9P1JEeqloFM',
+    cta: 'להאזנה',
+    img: '/images/-copy_optimized-1.jpeg',
+  },
+  {
+    title: 'פודקאסט "יוצאות מן הכלל"',
+    desc: 'עדי נודל אירחה אותי לפרק מרתק שהסברנו מה מביא ביטקוין לעולם ולמה ה-7/10 רק מדגיש את חשיבותו.',
+    link: 'https://open.spotify.com/episode/2kBBe2qChxgkEhP1wIaUTR',
+    cta: 'להאזנה',
+    img: '/images/whatsapp-image-2023-11-26-at-22_optimized_optimized.37.53.jpg',
+  },
+  {
+    title: 'פודקאסט "איגוד הביטקוין הישראלי"',
+    desc: 'למה הסביבה שלי חשבה שהשתגעתי שקניתי ביטקוין, על נשים בקהילת הקריפטו וחסמי כניסה לתחום.',
+    link: 'https://open.spotify.com/episode/0y0aq3LK5unZPrlhBJk98m',
+    cta: 'להאזנה',
+    img: '/images/-_optimized_optimized.png',
+  },
+  {
+    title: 'פודקאסט "משקיע תקרא לאחותך"',
+    desc: 'אורה אריאל "האופטימית" אירחה אותי לפרק שהסברתי לעומק איך ביטקוין ובלוקצ\'יין עובדים.',
+    link: 'https://open.spotify.com/episode/3KKjslZMiQ7iMgVFPiSSie',
+    cta: 'להאזנה',
+    img: '/images/screenshot-2023-12-13-004336_optimized.png',
+  },
+  {
+    title: 'הפקת סדרה — ממלכת הקריפטו (YNET)',
+    desc: 'סיוע ל-YNET בהפקת סדרה על תחום הקריפטו וסוחרים שחייהם השתנו בעקבות העולם הזה.',
+    link: 'https://www.ynet.co.il/economy/article/b1ipthoq3',
+    cta: 'לצפייה',
+    img: '/images/-_optimized.jpeg',
+  },
+  {
+    title: 'כתבה — הנשים בלב התעשייה',
+    desc: 'השראה נשית לכבוד יום האישה 2023 — נבחרתי לאחת מהנשים המשפיעות בתעשייה הישראלית.',
+    link: 'https://blog.bitsofgold.co.il/crypto-woman/',
+    cta: 'לכתבה',
+    img: '/images/-_optimized.jpeg',
+  },
+  {
+    title: 'אנשים ומחשבים — כנס קריפטו וומן',
+    desc: 'מגזין אנשים ומחשבים סיקרו את אירוע קהילת הנשים קריפטו וומן שהתקיים במאי 2023.',
+    link: 'https://www.pc.co.il/kehila/daily-zipi/391750/',
+    cta: 'לכתבה',
+    img: '/images/-_optimized.jpeg',
+  },
+];
+---
+
+<BaseLayout
+  title="מדיה — פרסומים, ראיונות ופודקאסטים | Crypto Women"
+  description="קרן ולדמן חנן בתקשורת: ראיונות, כתבות, פודקאסטים, הרצאות וכנסים בתחום הקריפטו, ביטקוין ובלוקצ'יין."
+>
+  <!-- HERO -->
+  <section class="media-hero">
+    <div class="container" style="text-align:center">
+      <span class="badge badge--accent">בתקשורת</span>
+      <h1 class="media-hero-title">מדיה</h1>
+      <p class="media-hero-sub">
+        פודקאסטים, כתבות, ראיונות והרצאות — קרן ולדמן חנן בתקשורת הישראלית והבינלאומית
+      </p>
+    </div>
+  </section>
+
+  <!-- GRID -->
+  <section class="section media-section">
+    <div class="container">
+      <div class="media-grid">
+        {appearances.map((item) => (
+          <article class="media-card">
+            <div class="media-card-img">
+              <img
+                src={item.img}
+                alt={item.title}
+                loading="lazy"
+                width="400"
+                height="225"
+                onerror="this.style.display='none'"
+              />
+            </div>
+            <div class="media-card-body">
+              <h2 class="media-card-title">{item.title}</h2>
+              <p class="media-card-desc">{item.desc}</p>
+              <a
+                href={item.link}
+                target={item.link.startsWith('http') ? '_blank' : undefined}
+                rel={item.link.startsWith('http') ? 'noopener noreferrer' : undefined}
+                class="media-card-link"
+              >
+                {item.cta} →
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta-strip">
+    <div class="container" style="text-align:center">
+      <h2 class="cta-title">מעוניינים להזמין את קרן לאירוע שלכם?</h2>
+      <p class="cta-sub">הרצאות לארגונים, כנסים, אקדמיה, ארגוני נשים ועוד</p>
+      <div class="cta-actions">
+        <a href="/services/lectures" class="btn btn--primary btn--lg">הרצאות ●</a>
+        <a href="/contact" class="btn btn--secondary btn--lg">צרו קשר</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .media-hero {
+    background: var(--gradient-hero);
+    padding-block: var(--space-20);
+  }
+  .media-hero-title {
+    font-size: var(--text-4xl);
+    font-weight: 900;
+    color: white;
+    margin-block: var(--space-4);
+  }
+  .media-hero-sub {
+    font-size: var(--text-lg);
+    color: rgba(255,255,255,0.85);
+    max-width: 60ch;
+    margin-inline: auto;
+  }
+
+  .media-section { background: var(--color-bg-muted); }
+
+  .media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--space-6);
+  }
+
+  .media-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--color-border-light);
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  .media-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .media-card-img {
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    background: var(--color-bg-muted);
+  }
+  .media-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  .media-card:hover .media-card-img img {
+    transform: scale(1.05);
+  }
+
+  .media-card-body {
+    padding: var(--space-5);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    flex: 1;
+  }
+
+  .media-card-title {
+    font-size: var(--text-base);
+    font-weight: 700;
+    color: var(--color-primary-dark);
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .media-card-desc {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    margin: 0;
+    flex: 1;
+  }
+
+  .media-card-link {
+    display: inline-block;
+    font-size: var(--text-sm);
+    font-weight: 700;
+    color: var(--color-primary);
+    text-decoration: none;
+    margin-block-start: auto;
+    transition: color 0.2s ease;
+  }
+  .media-card-link:hover { color: var(--color-accent); }
+
+  .cta-strip {
+    background: var(--gradient-hero);
+    padding-block: var(--space-16);
+  }
+  .cta-title {
+    font-size: var(--text-3xl);
+    font-weight: 900;
+    color: white;
+    margin-block-end: var(--space-3);
+  }
+  .cta-sub {
+    font-size: var(--text-lg);
+    color: rgba(255,255,255,0.8);
+    margin-block-end: var(--space-8);
+  }
+  .cta-actions {
+    display: flex;
+    gap: var(--space-4);
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+</style>

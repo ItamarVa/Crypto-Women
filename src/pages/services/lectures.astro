@@ -1,0 +1,376 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Cta from '../../components/Cta.astro';
+
+const topics = [
+  'ההיסטוריה של הכסף ועד לכסף דיגיטלי',
+  'יסודות הביטקוין',
+  'בלוקצ\'יין ושימושיו השונים',
+  'סקירה על שוק הקריפטו',
+  'אתריום וחוזים חכמים',
+  'התפתחות האינטרנט עד ל-WEB 3.0 ואיך בלוקצ\'יין משתלב',
+  'מגמות עתידיות',
+  'סיכונים והזדמנויות בתחום הקריפטו וממה להיזהר',
+];
+
+const audiences = [
+  'ארגונים וחברות',
+  'כנסים ואירועים',
+  'ערבי קהילות',
+  'אקדמיה',
+  'קורסים פיננסיים',
+  'ערבי טכנולוגיה',
+  'ארגוני נשים',
+  'ימי העשרה וחוגי בית',
+];
+---
+
+<BaseLayout
+  title="הרצאות — מעשה בביטקוין | Crypto Women"
+  description="הרצאת 'מעשה בביטקוין' — מסע בזמן להבנת ביטקוין, בלוקצ'יין וקריפטו. לארגונים, כנסים, ערבי קהילות ועוד. עם קרן ולדמן חנן."
+>
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="container" style="text-align:center">
+      <span class="badge badge--accent">הרצאות וסדנאות</span>
+      <h1 class="page-hero-title">הרצאה: "מעשה בביטקוין"</h1>
+      <p class="page-hero-subtitle">
+        מסע בזמן — מהיסטוריית הכסף ועד לביטקוין, בלוקצ'יין ומגמות עתידיות
+      </p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about-section">
+    <div class="container--content">
+      <div class="about-inner">
+        <div class="about-text">
+          <div class="section-tag">
+            <span class="badge">על ההרצאה</span>
+          </div>
+          <h2 class="about-title">מה תקבלו?</h2>
+          <p>
+            שנים האחרונות אנו עדים לכך שמטבע הביטקוין עולה בערכו בצורה חדה, גורם לעניין וסקרנות רבים ויחד איתו הביא לתעשייה שלמה של מטבעות דיגיטליים ועוד מילות באז כמו אתריום, חוזים חכמים, NFT ועוד.
+          </p>
+          <p>
+            המאזינים יעברו מסע בזמן על מנת להבין את ההיסטוריה של הכסף ואיך נולד מטבע הביטקוין, את שינוי התפיסה שהוא מביא ומיזמים חדשים בתחום הקריפטו.
+          </p>
+          <p>
+            במהלך ההרצאה נבין מהי טכנולוגיית הבלוקצ'יין, למה היא מהפכנית ואיך היא הולכת לשנות את העולם ומודלים עסקיים.
+          </p>
+          <p class="goal-box">
+            <strong>המטרה</strong> — להנגיש את עולם הביטקוין, בלוקצ'יין וקריפטו להמונים בצורה מופשטת ומעמיקה.
+          </p>
+          <div class="duration-badge">
+            <span class="duration-icon">⏱</span>
+            <span>משך ההרצאה — שעה וחצי</span>
+          </div>
+          <p class="workshop-note">
+            <strong>* ניתן לקיים סדנא מעשית</strong> — הכוללת תכנים פרקטיים של פתיחת ארנק ורכישת מטבעות דיגיטליים. משך הסדנא כשלוש שעות.
+          </p>
+        </div>
+
+        <div class="about-images">
+          <img
+            src="/images/bitcoin-106808_1920.jpg"
+            alt="ביטקוין"
+            loading="lazy"
+            class="lecture-img"
+          />
+          <img
+            src="/images/screenshot-2023-12-05-233627.png"
+            alt="הרצאת קריפטו"
+            loading="lazy"
+            class="lecture-img"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOPICS -->
+  <section class="section topics-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">תוכן</span>
+        <h2>נושאי ההרצאה</h2>
+        <p class="section-desc">מסלול מלא מיסודות ועד מגמות עתידיות</p>
+      </div>
+      <div class="topics-grid">
+        {topics.map((topic, i) => (
+          <div class="topic-item">
+            <span class="topic-num">{String(i + 1).padStart(2, '0')}</span>
+            <p class="topic-text">{topic}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- AUDIENCE + GALLERY -->
+  <section class="section audience-section">
+    <div class="container">
+      <div class="audience-inner">
+        <div class="audience-text">
+          <span class="badge">קהל היעד</span>
+          <h2 class="audience-title">כ-ו-ל-ם!</h2>
+          <p>לא נדרש ידע מקדים. ההרצאה מותאמת לכל גיל ורקע.</p>
+          <div class="audience-list">
+            {audiences.map((a) => (
+              <span class="audience-tag">{a}</span>
+            ))}
+          </div>
+        </div>
+
+        <div class="gallery">
+          <div class="gallery-grid">
+            <img src="/images/-1-215x300.jpg"   alt="הרצאה" loading="lazy" class="gallery-img" />
+            <img src="/images/-300x105.png"      alt="הרצאה" loading="lazy" class="gallery-img" />
+            <img src="/images/-3-300x156.jpg"    alt="הרצאה" loading="lazy" class="gallery-img" />
+            <img src="/images/-ex-libris-1-300x190.png" alt="הרצאה ב-Ex Libris" loading="lazy" class="gallery-img" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-card">
+        <div>
+          <h2 class="cta-card-title">מעוניינים להזמין הרצאה?</h2>
+          <p>צרו קשר ונתאים יחד את ההרצאה לקהל ולאירוע שלכם</p>
+        </div>
+        <div class="cta-actions">
+          <a href="/contact" class="btn btn--primary btn--lg">צרו קשר</a>
+          <a href="https://wa.me/972546227530" target="_blank" rel="noopener noreferrer" class="btn btn--secondary">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Cta />
+</BaseLayout>
+
+<style>
+  .page-hero {
+    background: var(--gradient-hero);
+    padding-block: var(--space-20);
+  }
+  .page-hero-title {
+    font-size: var(--text-4xl);
+    font-weight: 900;
+    color: white;
+    margin-block: var(--space-4);
+  }
+  .page-hero-subtitle {
+    font-size: var(--text-lg);
+    color: rgba(255,255,255,0.85);
+    max-width: 55ch;
+    margin-inline: auto;
+  }
+
+  .about-section { background: var(--color-bg-muted); }
+
+  .about-inner {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: var(--space-12);
+    align-items: start;
+  }
+
+  .section-tag { margin-block-end: var(--space-3); }
+
+  .about-title {
+    font-size: var(--text-2xl);
+    color: var(--color-primary-dark);
+    margin-block-end: var(--space-5);
+  }
+
+  .about-text p {
+    margin-block-end: var(--space-4);
+    line-height: 1.7;
+    color: var(--color-text);
+  }
+
+  .goal-box {
+    background: var(--gradient-card);
+    border: 1px solid var(--color-border);
+    border-inline-start: 4px solid var(--color-primary);
+    border-radius: var(--radius-md);
+    padding: var(--space-4) var(--space-5);
+    font-size: var(--text-base) !important;
+  }
+
+  .duration-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    background: var(--color-primary);
+    color: white;
+    padding: var(--space-2) var(--space-4);
+    border-radius: var(--radius-full);
+    font-size: var(--text-sm);
+    font-weight: 700;
+    margin-block: var(--space-4);
+  }
+  .duration-icon { font-size: 1rem; }
+
+  .workshop-note {
+    font-size: var(--text-sm) !important;
+    color: var(--color-text-muted) !important;
+    font-style: italic;
+  }
+
+  .about-images {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+  .lecture-img {
+    width: 100%;
+    border-radius: var(--radius-lg);
+    object-fit: cover;
+    max-height: 220px;
+  }
+
+  .topics-section { background: white; }
+
+  .section-header {
+    text-align: center;
+    margin-block-end: var(--space-12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-3);
+  }
+  .section-header h2 {
+    font-size: var(--text-3xl);
+    color: var(--color-primary-dark);
+    margin: 0;
+  }
+  .section-desc {
+    font-size: var(--text-lg);
+    color: var(--color-text-muted);
+    max-width: 50ch;
+    margin: 0;
+  }
+
+  .topics-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+    max-width: 800px;
+    margin-inline: auto;
+  }
+
+  .topic-item {
+    display: flex;
+    gap: var(--space-4);
+    align-items: center;
+    background: var(--color-bg-muted);
+    border-radius: var(--radius-md);
+    padding: var(--space-4) var(--space-5);
+    border: 1px solid var(--color-border-light);
+  }
+
+  .topic-num {
+    font-size: var(--text-xl);
+    font-weight: 900;
+    color: var(--color-primary-light);
+    opacity: 0.5;
+    flex-shrink: 0;
+  }
+
+  .topic-text {
+    font-size: var(--text-sm);
+    color: var(--color-text);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .audience-section { background: var(--color-bg-muted); }
+
+  .audience-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-12);
+    align-items: start;
+  }
+
+  .audience-title {
+    font-size: var(--text-3xl);
+    font-weight: 900;
+    color: var(--color-primary-dark);
+    margin-block: var(--space-3) var(--space-4);
+    letter-spacing: 0.1em;
+  }
+
+  .audience-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-block-start: var(--space-4);
+  }
+
+  .audience-tag {
+    display: inline-block;
+    background: white;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-full);
+    padding: var(--space-1) var(--space-4);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-primary-dark);
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-3);
+  }
+  .gallery-img {
+    width: 100%;
+    border-radius: var(--radius-md);
+    object-fit: cover;
+    aspect-ratio: 4/3;
+  }
+
+  .cta-section { background: white; }
+
+  .cta-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-8);
+    background: var(--gradient-hero);
+    border-radius: var(--radius-xl);
+    padding: var(--space-10) var(--space-12);
+    color: white;
+  }
+
+  .cta-card-title {
+    font-size: var(--text-2xl);
+    font-weight: 900;
+    margin-block-end: var(--space-2);
+  }
+  .cta-card p { color: rgba(255,255,255,0.85); margin: 0; }
+
+  .cta-actions {
+    display: flex;
+    gap: var(--space-3);
+    flex-shrink: 0;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 900px) {
+    .about-inner,
+    .audience-inner { grid-template-columns: 1fr; }
+    .topics-grid { grid-template-columns: 1fr; }
+    .cta-card {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+</style>
