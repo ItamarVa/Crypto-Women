@@ -1,0 +1,183 @@
+---
+export interface Props {
+  title: string;
+  description?: string;
+  href: string;
+  pubDate?: Date;
+  category?: string;
+  heroImage?: string;
+  featured?: boolean;
+}
+
+const {
+  title,
+  description,
+  href,
+  pubDate,
+  category,
+  heroImage,
+  featured = false,
+} = Astro.props;
+
+const formattedDate = pubDate
+  ? new Intl.DateTimeFormat('he-IL', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    }).format(new Date(pubDate))
+  : null;
+---
+
+<article class={`article-card ${featured ? 'article-card--featured' : ''}`}>
+  {heroImage && (
+    <a href={href} class="article-card__image-link" tabindex="-1" aria-hidden="true">
+      <div class="article-card__image-wrap">
+        <img
+          src={heroImage}
+          alt={title}
+          width="600"
+          height="340"
+          loading="lazy"
+          decoding="async"
+          class="article-card__image"
+        />
+      </div>
+    </a>
+  )}
+  <div class="article-card__body">
+    {category && <span class="badge">{category}</span>}
+    <h3 class="article-card__title">
+      <a href={href} class="article-card__title-link">{title}</a>
+    </h3>
+    {description && <p class="article-card__desc">{description}</p>}
+    <footer class="article-card__footer">
+      {formattedDate && (
+        <time datetime={pubDate?.toISOString()} class="article-card__date">
+          {formattedDate}
+        </time>
+      )}
+      <a href={href} class="article-card__read-more" aria-label={`קרא עוד על ${title}`}>
+        לקריאה
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true" class="arrow-icon">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </footer>
+  </div>
+</article>
+
+<style>
+  .article-card {
+    background: var(--gradient-card);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: all var(--transition-base);
+    height: 100%;
+  }
+
+  .article-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+    border-color: var(--color-border);
+  }
+
+  .article-card--featured {
+    border-color: var(--color-accent-light);
+    background: linear-gradient(145deg, #fff 0%, #FDF8EE 100%);
+  }
+
+  .article-card__image-link {
+    display: block;
+    overflow: hidden;
+  }
+
+  .article-card__image-wrap {
+    aspect-ratio: 16/9;
+    overflow: hidden;
+  }
+
+  .article-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+  }
+
+  .article-card:hover .article-card__image {
+    transform: scale(1.04);
+  }
+
+  .article-card__body {
+    padding: var(--space-6);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .article-card__title {
+    font-size: var(--text-lg);
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0;
+  }
+
+  .article-card__title-link {
+    color: var(--color-text);
+    transition: color var(--transition-fast);
+  }
+
+  .article-card__title-link:hover {
+    color: var(--color-primary);
+  }
+
+  .article-card__desc {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    line-height: 1.65;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0;
+    flex: 1;
+    max-width: 100%;
+  }
+
+  .article-card__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block-start: auto;
+    padding-block-start: var(--space-3);
+    border-block-start: 1px solid var(--color-border-light);
+  }
+
+  .article-card__date {
+    font-size: var(--text-xs);
+    color: var(--color-text-light);
+  }
+
+  .article-card__read-more {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-primary);
+    transition: gap var(--transition-fast), color var(--transition-fast);
+  }
+
+  .article-card__read-more:hover {
+    color: var(--color-accent-dark);
+    gap: var(--space-2);
+  }
+
+  /* Arrow mirrors in RTL — it should point LEFT (the reading direction "forward") */
+  .arrow-icon {
+    transform: scaleX(-1);
+  }
+</style>

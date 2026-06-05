@@ -1,0 +1,263 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Cta from '../../components/Cta.astro';
+
+const schoolerEscortUrl = 'https://meshulam.co.il/s/22a8fd8c-baa0-2254-4c7b-6259f5b0b273';
+
+const process = [
+  'איפיון לקוח ובניית אסטרטגיית תיק השקעה מותאם אישית',
+  'לימוד של תחום הקריפטו, ביטקוין ומטבעות נוספים',
+  'ליווי בפתיחת ארנק והדגמה כיצד משתמשים בו',
+  'מפתח פרטי וכיצד לאבטח את המטבעות בצורה הטובה ביותר',
+  'פתיחת חשבון מסחר לקניית מטבעות',
+  'ביצוע העברה של המטבעות לארנק הפרטי',
+  'התנהגות השוק, קריאת גרפים, פסיכולוגיית משקיעים, מיסוי וחוקי ברזל',
+];
+---
+
+<BaseLayout
+  title="ליווי פרטני — איתך עד הביטקוין הראשון | Crypto Women"
+  description="תכנית ליווי פרטנית ומותאמת אישית: מתיאוריה לפרקטיקה. פתיחת ארנק, קניית מטבעות, בניית אסטרטגיה. עם קרן ולדמן חנן."
+>
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="container" style="text-align:center">
+      <span class="badge badge--accent">שירות פרמיום</span>
+      <h1 class="page-hero-title">ליווי פרטני</h1>
+      <p class="page-hero-subtitle">
+        "איתך עד הביטקוין הראשון" — תכנית ליווי אישית שתיקח אותך מאפס לביטחון מלא
+      </p>
+    </div>
+  </section>
+
+  <!-- PAIN POINT -->
+  <section class="section pain-section">
+    <div class="container--content">
+      <div class="pain-inner">
+        <h2 class="pain-title">האם אתם מאלו שכל הזמן אומרים...</h2>
+        <div class="pain-quotes">
+          <blockquote class="pain-quote">"איך פספסתי את הרכבת?"</blockquote>
+          <blockquote class="pain-quote">"חבל שלא נכנסתי בזמן..."</blockquote>
+          <blockquote class="pain-quote">"הייתי רוצה, אבל לא מספיק מבין בזה..."</blockquote>
+        </div>
+        <p class="pain-text">
+          שני הימים בשנה בהם אי אפשר לעשות כלום זה אתמול ומחר. הגיע הזמן להצטרף למהפכה הפיננסית!
+        </p>
+        <p>
+          אם אין לך את הידע, האומץ והכלים לעשות זאת לבד, אני בהחלט מבינה את הפחדים והחששות — הייתי שם בעצמי. בכל זאת, זה עולם מלא הזדמנויות, ולצורך זה בדיוק נולדה התכנית "איתך עד הביטקוין הראשון".
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE DO -->
+  <section class="section process-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">מה נעבור יחד</span>
+        <h2>מה נעבור בתהליך האישי</h2>
+        <p class="section-desc">מתיאוריה לפרקטיקה — כל שלב עד שאת/ה עצמאי/ת לחלוטין</p>
+      </div>
+      <div class="process-list">
+        {process.map((step, i) => (
+          <div class="process-item">
+            <span class="process-num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+            <p class="process-text">{step}</p>
+          </div>
+        ))}
+      </div>
+      <div class="process-note">
+        <p>
+          <strong>התכנית כוללת:</strong> תכנים מוקלטים ושלושה מפגשים אישיים בזום — פגישת אסטרטגיה, פתיחת ארנק וקניית מטבעות, התנהגות שוק הקריפטו ומגמות.
+        </p>
+        <p>
+          בסיום התהליך יהיה לך את כל הידע והכלים לקנות ולאבטח את המטבעות בעצמך.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA CARD -->
+  <section class="section signup-section">
+    <div class="container">
+      <div class="signup-card">
+        <div class="signup-text">
+          <h2 class="signup-title">מוכן/ה להתחיל את המסע?</h2>
+          <p>
+            אני מחכה להתחלת המסע שלך ושיחד נכתוב את הפרק הבא בסיפור הקריפטו האישי שלך.
+          </p>
+        </div>
+        <div class="signup-actions">
+          <a href={schoolerEscortUrl} target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--lg">
+            בול מה שחיפשתי
+          </a>
+          <a href="/contact" class="btn btn--secondary">לעוד פרטים, צרו קשר</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Cta />
+</BaseLayout>
+
+<style>
+  .page-hero {
+    background: var(--gradient-hero);
+    padding-block: var(--space-20);
+  }
+  .page-hero-title {
+    font-size: var(--text-4xl);
+    font-weight: 900;
+    color: white;
+    margin-block: var(--space-4) var(--space-4);
+  }
+  .page-hero-subtitle {
+    font-size: var(--text-lg);
+    color: rgba(255,255,255,0.8);
+    max-width: 55ch;
+    margin-inline: auto;
+  }
+
+  .pain-section { background: var(--color-bg-muted); }
+
+  .pain-inner { max-width: 65ch; margin-inline: auto; }
+
+  .pain-title {
+    font-size: var(--text-2xl);
+    color: var(--color-primary-dark);
+    margin-block-end: var(--space-6);
+  }
+
+  .pain-quotes {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    margin-block-end: var(--space-6);
+  }
+
+  .pain-quote {
+    background: white;
+    border-inline-start: 4px solid var(--color-accent);
+    padding: var(--space-3) var(--space-5);
+    border-radius: var(--radius-md);
+    font-style: italic;
+    font-size: var(--text-lg);
+    color: var(--color-primary-dark);
+    font-weight: 600;
+  }
+
+  .pain-text {
+    font-size: var(--text-lg);
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-block-end: var(--space-5);
+  }
+
+  .process-section { background: white; }
+
+  .section-header {
+    text-align: center;
+    margin-block-end: var(--space-12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-3);
+  }
+  .section-header h2 {
+    font-size: var(--text-3xl);
+    color: var(--color-primary-dark);
+    margin: 0;
+  }
+  .section-desc {
+    font-size: var(--text-lg);
+    color: var(--color-text-muted);
+    max-width: 55ch;
+    margin: 0;
+  }
+
+  .process-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+    margin-block-end: var(--space-8);
+  }
+
+  .process-item {
+    display: flex;
+    gap: var(--space-4);
+    align-items: flex-start;
+    padding: var(--space-5);
+    background: var(--color-bg-muted);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border-light);
+  }
+
+  .process-num {
+    font-size: var(--text-2xl);
+    font-weight: 900;
+    color: var(--color-primary-light);
+    opacity: 0.5;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  .process-text {
+    font-size: var(--text-sm);
+    color: var(--color-text);
+    line-height: 1.6;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .process-note {
+    background: var(--gradient-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-6);
+    max-width: 700px;
+    margin-inline: auto;
+  }
+  .process-note p {
+    margin-block-end: var(--space-3);
+    font-size: var(--text-sm);
+    line-height: 1.7;
+    color: var(--color-text);
+  }
+  .process-note p:last-child { margin: 0; }
+
+  .signup-section { background: var(--color-bg-muted); }
+
+  .signup-card {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-8);
+    align-items: center;
+    background: white;
+    border-radius: var(--radius-xl);
+    padding: var(--space-12);
+    border: 1px solid var(--color-border-light);
+    box-shadow: var(--shadow-md);
+  }
+
+  .signup-title {
+    font-size: var(--text-2xl);
+    color: var(--color-primary-dark);
+    margin-block-end: var(--space-4);
+  }
+
+  .signup-actions {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 768px) {
+    .process-list { grid-template-columns: 1fr; }
+    .signup-card {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    .signup-actions { align-items: center; }
+  }
+</style>

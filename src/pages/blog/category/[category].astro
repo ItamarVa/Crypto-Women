@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ArticleCard from '../../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+  const categories = [...new Set(allPosts.map(p => p.data.category).filter(Boolean))];
+  return categories.map(cat => ({
+    params: { category: cat! },
+    props: { category: cat! },
+  }));
+}
+
+const { category } = Astro.props;
+const allPosts = await getCollection('blog', ({ data }) => !data.draft && data.category === category);
+const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout
+  title={`${category} — בלוג | Crypto Women`}
+  description={`מאמרים בקטגוריה ${category} — ביטקוין, קריפטו והשקעות מאת קרן ולדמן חנן`}
+>
+  <section class="page-hero">
+    <div class="container" style="text-align:center">
+      <a href="/blog" class="back-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+        חזרה לבלוג
+      </a>
+      <h1 class="page-hero-title">{category}</h1>
+      <p class="page-hero-subtitle">{posts.length} מאמרים בקטגוריה זו</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid-3">
+        {posts.map(post => (
+          <ArticleCard
+            title={post.data.title}
+            description={post.data.description}
+            href={`/blog/${post.id}`}
+            pubDate={post.data.pubDate}
+            category={post.data.category}
+            heroImage={post.data.heroImage}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero {
+    background: var(--gradient-hero);
+    padding-block: var(--space-16);
+  }
+  .page-hero-title {
+    font-size: var(--text-4xl);
+    font-weight: 900;
+    color: white;
+    margin-block: var(--space-4) var(--space-3);
+  }
+  .page-hero-subtitle {
+    font-size: var(--text-lg);
+    color: rgba(255,255,255,0.75);
+  }
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: rgba(255,255,255,0.7);
+    font-size: var(--text-sm);
+    text-decoration: none;
+    margin-block-end: var(--space-4);
+    transition: color var(--transition-fast);
+  }
+  .back-link:hover { color: white; }
+  .back-link svg { transform: scaleX(-1); }
+</style>

@@ -1,0 +1,264 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Cta from '../../components/Cta.astro';
+
+export async function getStaticPaths() {
+  const guides = await getCollection('guides', ({ data }) => !data.draft);
+  return guides.map(guide => ({
+    params: { slug: guide.id },
+    props: { guide },
+  }));
+}
+
+const { guide } = Astro.props;
+const { Content } = await render(guide);
+
+const allGuides = await getCollection('guides', ({ data }) => !data.draft);
+const sortedGuides = allGuides.sort((a, b) => a.data.order - b.data.order);
+const currentIdx = sortedGuides.findIndex(g => g.id === guide.id);
+const prevGuide = currentIdx > 0 ? sortedGuides[currentIdx - 1] : null;
+const nextGuide = currentIdx < sortedGuides.length - 1 ? sortedGuides[currentIdx + 1] : null;
+---
+
+<BaseLayout
+  title={`${guide.data.title} | Crypto Women`}
+  description={guide.data.description}
+>
+  <div class="guide-page">
+    <!-- BREADCRUMB -->
+    <div class="breadcrumb-bar">
+      <div class="container breadcrumb-inner">
+        <a href="/guides" class="breadcrumb-link">מדריכים</a>
+        <span class="breadcrumb-sep" aria-hidden="true">›</span>
+        <span class="breadcrumb-current">{guide.data.title}</span>
+      </div>
+    </div>
+
+    <!-- GUIDE HEADER -->
+    <section class="guide-header-section">
+      <div class="container--content">
+        <div class="guide-badge-wrap">
+          <span class="badge badge--accent">מדריך</span>
+        </div>
+        <h1 class="guide-title">{guide.data.title}</h1>
+        {guide.data.description && (
+          <p class="guide-lead">{guide.data.description}</p>
+        )}
+        <div class="guide-meta">
+          <div class="guide-author">
+            <img
+              src="/images/makologonew2024_autoorient_i_optimized.jpg"
+              alt="קרן ולדמן חנן"
+              width="40"
+              height="40"
+              class="guide-author-avatar"
+              loading="lazy"
+            />
+            <div>
+              <span class="guide-author-name">קרן ולדמן חנן</span>
+              {guide.data.pubDate && (
+                <time class="guide-date" datetime={guide.data.pubDate.toISOString()}>
+                  {new Intl.DateTimeFormat('he-IL', { year: 'numeric', month: 'long', day: 'numeric' }).format(guide.data.pubDate)}
+                </time>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTENT -->
+    <section class="guide-content-section">
+      <div class="container--content">
+        <div class="prose">
+          <Content />
+        </div>
+      </div>
+    </section>
+
+    <!-- NAVIGATION -->
+    <nav class="guide-nav" aria-label="ניווט בין מדריכים">
+      <div class="container guide-nav-inner">
+        {prevGuide ? (
+          <a href={`/guides/${prevGuide.id}`} class="guide-nav-btn guide-nav-btn--prev">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+            <div>
+              <span class="nav-label">מדריך הקודם</span>
+              <span class="nav-title">{prevGuide.data.title}</span>
+            </div>
+          </a>
+        ) : <div />}
+        {nextGuide ? (
+          <a href={`/guides/${nextGuide.id}`} class="guide-nav-btn guide-nav-btn--next">
+            <div>
+              <span class="nav-label">המדריך הבא</span>
+              <span class="nav-title">{nextGuide.data.title}</span>
+            </div>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true" style="transform:scaleX(-1)">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        ) : <div />}
+      </div>
+    </nav>
+
+    <Cta variant="minimal" />
+  </div>
+</BaseLayout>
+
+<style>
+  .guide-page { padding-block-end: 0; }
+
+  .breadcrumb-bar {
+    background: var(--color-bg-muted);
+    border-block-end: 1px solid var(--color-border-light);
+    padding-block: var(--space-3);
+  }
+
+  .breadcrumb-inner {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--text-sm);
+  }
+
+  .breadcrumb-link {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .breadcrumb-link:hover { text-decoration: underline; }
+
+  .breadcrumb-sep {
+    color: var(--color-text-light);
+  }
+
+  .breadcrumb-current {
+    color: var(--color-text-muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 40ch;
+  }
+
+  .guide-header-section {
+    padding-block: var(--space-12) var(--space-8);
+    border-block-end: 1px solid var(--color-border-light);
+  }
+
+  .guide-badge-wrap {
+    margin-block-end: var(--space-4);
+  }
+
+  .guide-title {
+    font-size: var(--text-4xl);
+    font-weight: 900;
+    color: var(--color-primary-dark);
+    line-height: 1.2;
+    margin-block-end: var(--space-4);
+  }
+
+  .guide-lead {
+    font-size: var(--text-lg);
+    color: var(--color-text-muted);
+    line-height: 1.7;
+    margin-block-end: var(--space-6);
+    max-width: 60ch;
+    max-width: 100%;
+  }
+
+  .guide-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+  }
+
+  .guide-author {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+  }
+
+  .guide-author-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--color-border);
+  }
+
+  .guide-author-name {
+    display: block;
+    font-weight: 600;
+    font-size: var(--text-sm);
+  }
+
+  .guide-date {
+    display: block;
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+  }
+
+  .guide-content-section {
+    padding-block: var(--space-12);
+  }
+
+  /* NAVIGATION */
+  .guide-nav {
+    background: var(--color-bg-muted);
+    border-block-start: 1px solid var(--color-border-light);
+    padding-block: var(--space-8);
+  }
+
+  .guide-nav-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-4);
+  }
+
+  .guide-nav-btn {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-4) var(--space-5);
+    background: white;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    color: inherit;
+    transition: all var(--transition-fast);
+    max-width: 45%;
+  }
+
+  .guide-nav-btn:hover {
+    border-color: var(--color-primary);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+
+  .guide-nav-btn--prev svg { transform: none; }
+  .guide-nav-btn--next { text-align: end; }
+
+  .nav-label {
+    display: block;
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    font-weight: 500;
+  }
+
+  .nav-title {
+    display: block;
+    font-size: var(--text-sm);
+    font-weight: 700;
+    color: var(--color-primary-dark);
+  }
+
+  @media (max-width: 640px) {
+    .guide-title { font-size: var(--text-3xl); }
+    .guide-nav-inner { flex-direction: column; }
+    .guide-nav-btn { max-width: 100%; }
+  }
+</style>

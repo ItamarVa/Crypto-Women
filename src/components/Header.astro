@@ -1,0 +1,402 @@
+---
+const navItems = [
+  { href: '/', label: 'בית' },
+  { href: '/about', label: 'עליי' },
+  {
+    href: '/course',
+    label: 'קורס הדגל',
+    children: [
+      { href: '/course', label: 'קורס קריפטו מאפס למאה – דיגיטלי' },
+      { href: '/course/live', label: 'קורס קריפטו מאפס למאה – מחזור לייב' },
+    ],
+  },
+  {
+    href: '/guides',
+    label: 'מדריכים',
+    children: [
+      { href: '/guides/bitcoin-hand-in-hand', label: 'ביטקוין יד ביד' },
+      { href: '/guides/how-to-buy-and-sell', label: 'איך קונים ומוכרים קריפטו' },
+      { href: '/guides/digital-wallet', label: 'הכל על ארנק דיגיטלי' },
+      { href: '/guides/hot-wallet-demo', label: 'הדגמת ארנק חם' },
+      { href: '/guides/tax', label: 'מה יש למס הכנסה להגיד' },
+      { href: '/guides/risk-management', label: 'כמה להשקיע ועל פיזור סיכונים' },
+      { href: '/guides/cold-wallet', label: 'איזה ארנק קר לבחור' },
+    ],
+  },
+  { href: '/blog', label: 'בלוג' },
+  {
+    href: '/services',
+    label: 'איך אני יכולה לעזור?',
+    children: [
+      { href: '/services/strategic-meeting', label: 'פגישת אסטרטגיה' },
+      { href: '/services/personal-escort', label: 'ליווי פרטני' },
+      { href: '/course', label: 'קורס קריפטו מאפס למאה' },
+      { href: '/services/lectures', label: 'הרצאות' },
+      { href: '/books', label: 'ספרונים קצרים' },
+    ],
+  },
+  { href: '/media', label: 'מדיה' },
+  { href: '/contact', label: 'צור קשר' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <!-- Logo -->
+    <a href="/" class="logo" aria-label="Crypto Women — חזרה לדף הבית">
+      <img
+        src="/images/logo.png"
+        alt="Crypto Women לוגו"
+        width="160"
+        height="48"
+        class="logo-img"
+        loading="eager"
+      />
+    </a>
+
+    <!-- Desktop Nav -->
+    <nav class="nav-desktop" aria-label="ניווט ראשי">
+      <ul class="nav-list" role="list">
+        {navItems.map((item) => (
+          <li class={`nav-item ${item.children ? 'has-dropdown' : ''}`}>
+            <a
+              href={item.href}
+              class={`nav-link ${currentPath === item.href ? 'nav-link--active' : ''}`}
+              aria-current={currentPath === item.href ? 'page' : undefined}
+            >
+              {item.label}
+              {item.children && (
+                <svg class="nav-arrow" width="12" height="8" viewBox="0 0 12 8" aria-hidden="true">
+                  <path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              )}
+            </a>
+            {item.children && (
+              <ul class="dropdown" role="list">
+                {item.children.map((child) => (
+                  <li>
+                    <a href={child.href} class="dropdown-link">
+                      {child.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+    <!-- CTA + Mobile Toggle -->
+    <div class="header-actions">
+      <a href="/course" class="btn btn--primary header-cta">לקורס הדגל</a>
+      <button
+        class="mobile-toggle"
+        aria-label="פתח תפריט ניווט"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        id="mobile-toggle"
+      >
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav aria-label="תפריט ניווט נייד">
+      <ul class="mobile-nav-list" role="list">
+        {navItems.map((item) => (
+          <li>
+            <a href={item.href} class={`mobile-nav-link ${currentPath === item.href ? 'mobile-nav-link--active' : ''}`}>
+              {item.label}
+            </a>
+            {item.children && (
+              <ul class="mobile-submenu" role="list">
+                {item.children.map((child) => (
+                  <li>
+                    <a href={child.href} class="mobile-submenu-link">
+                      {child.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    inset-block-start: 0;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-block-end: 1px solid var(--color-border-light);
+    box-shadow: 0 2px 20px rgba(91, 45, 142, 0.06);
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+  }
+
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-4);
+    width: 100%;
+  }
+
+  .logo {
+    flex-shrink: 0;
+    transition: opacity var(--transition-fast);
+  }
+
+  .logo:hover { opacity: 0.85; }
+
+  .logo-img {
+    height: 44px;
+    width: auto;
+  }
+
+  /* Desktop Nav */
+  .nav-desktop {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-item {
+    position: relative;
+  }
+
+  .nav-link {
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+    padding: var(--space-2) var(--space-3);
+    border-radius: var(--radius-md);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-text);
+    transition: all var(--transition-fast);
+    white-space: nowrap;
+  }
+
+  .nav-link:hover {
+    color: var(--color-primary);
+    background: var(--color-bg-muted);
+  }
+
+  .nav-link--active {
+    color: var(--color-primary);
+    font-weight: 700;
+  }
+
+  .nav-arrow {
+    transition: transform var(--transition-fast);
+    opacity: 0.6;
+  }
+
+  .has-dropdown:hover .nav-arrow {
+    transform: rotate(180deg);
+  }
+
+  /* Dropdown */
+  .dropdown {
+    position: absolute;
+    inset-block-start: calc(100% + 8px);
+    inset-inline-end: 0;
+    min-width: 240px;
+    background: white;
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    padding: var(--space-2);
+    list-style: none;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+    transition: all var(--transition-base);
+    z-index: 200;
+  }
+
+  .has-dropdown:hover .dropdown,
+  .has-dropdown:focus-within .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  .dropdown-link {
+    display: block;
+    padding: var(--space-2) var(--space-4);
+    border-radius: var(--radius-md);
+    font-size: 0.875rem;
+    color: var(--color-text);
+    transition: all var(--transition-fast);
+  }
+
+  .dropdown-link:hover {
+    background: var(--color-bg-muted);
+    color: var(--color-primary);
+    padding-inline-end: var(--space-6);
+  }
+
+  /* Header Actions */
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    flex-shrink: 0;
+  }
+
+  .header-cta {
+    padding: var(--space-2) var(--space-6);
+    font-size: 0.875rem;
+  }
+
+  /* Mobile Toggle */
+  .mobile-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    padding: var(--space-2);
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: var(--radius-sm);
+    transition: background var(--transition-fast);
+  }
+
+  .mobile-toggle:hover {
+    background: var(--color-bg-muted);
+  }
+
+  .hamburger-line {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: var(--color-text);
+    border-radius: 2px;
+    transition: all var(--transition-base);
+  }
+
+  /* Mobile Menu */
+  .mobile-menu {
+    position: absolute;
+    inset-block-start: var(--header-height);
+    inset-inline: 0;
+    background: white;
+    border-block-end: 1px solid var(--color-border-light);
+    box-shadow: var(--shadow-lg);
+    padding: var(--space-4);
+    max-height: calc(100vh - var(--header-height));
+    overflow-y: auto;
+  }
+
+  .mobile-menu[hidden] {
+    display: none;
+  }
+
+  .mobile-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mobile-nav-link {
+    display: block;
+    padding: var(--space-3) var(--space-4);
+    font-weight: 600;
+    color: var(--color-text);
+    border-radius: var(--radius-md);
+    transition: all var(--transition-fast);
+  }
+
+  .mobile-nav-link:hover,
+  .mobile-nav-link--active {
+    background: var(--color-bg-muted);
+    color: var(--color-primary);
+  }
+
+  .mobile-submenu {
+    list-style: none;
+    padding-inline-start: var(--space-4);
+    margin-block-start: var(--space-1);
+  }
+
+  .mobile-submenu-link {
+    display: block;
+    padding: var(--space-2) var(--space-4);
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    border-radius: var(--radius-sm);
+    transition: all var(--transition-fast);
+  }
+
+  .mobile-submenu-link:hover {
+    color: var(--color-primary);
+    background: var(--color-bg-muted);
+  }
+
+  @media (max-width: 1024px) {
+    .nav-desktop {
+      display: none;
+    }
+
+    .mobile-toggle {
+      display: flex;
+    }
+
+    .header-cta {
+      display: none;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .logo-img {
+      height: 36px;
+    }
+  }
+</style>
+
+<script>
+  const toggle = document.getElementById('mobile-toggle');
+  const menu = document.getElementById('mobile-menu');
+
+  toggle?.addEventListener('click', () => {
+    const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!isOpen));
+    menu?.toggleAttribute('hidden');
+    toggle.setAttribute('aria-label', isOpen ? 'פתח תפריט ניווט' : 'סגור תפריט ניווט');
+  });
+
+  // Close on ESC
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && toggle?.getAttribute('aria-expanded') === 'true') {
+      toggle.setAttribute('aria-expanded', 'false');
+      menu?.setAttribute('hidden', '');
+      toggle.setAttribute('aria-label', 'פתח תפריט ניווט');
+      toggle.focus();
+    }
+  });
+</script>

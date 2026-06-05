@@ -1,0 +1,558 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Cta from '../../components/Cta.astro';
+
+const schoolerUrl = 'https://my.schooler.biz/s/90488/cryptowomencourse-2';
+
+const modules = [
+  { num: '01', title: 'מיינדסט של משקיעה', desc: 'קבלי את האומץ להיות המשקיעה החדשה. לא ניתן להיכנס לעולם הקריפטו בלי המיינדסט הנכון.' },
+  { num: '02', title: 'היסטוריה של הכסף והקשר לביטקוין', desc: 'נחקור את המסלול של הכסף מן היישוב המוקדם ועד לביטקוין כיום ואיך הגענו לכאן.' },
+  { num: '03', title: 'היכרות עם עולם הבלוקצ\'יין', desc: 'העמקה בטכנולוגיית הבלוקצ\'יין, הבסיס של כל המטבעות הדיגיטליים.' },
+  { num: '04', title: 'סקירה של מטבעות דיגיטליים', desc: 'ביטקוין, אתריום, NFT, חוזים חכמים, מטבעות יציבים — מה מטרתם ואיך הם פועלים.' },
+  { num: '05', title: 'הכל על ארנקים דיגיטליים', desc: 'מהו ארנק דיגיטלי, סוגי ארנקים, מפתח פרטי, אבטחה, פתיחת ארנק חם בפועל.' },
+  { num: '06', title: 'דרכים לרכוש ולמכור קריפטו', desc: 'שיטות רכישה שונות, בורסות, עת הנכון לקנות, איך למזער סיכונים.' },
+  { num: '07', title: 'אסטרטגיית מסחר והשקעה', desc: 'איך לבחור אסטרטגיות, נתיידד עם גרפים, נבין התנהגות שוק ופסיכולוגית משקיעים.' },
+  { num: '08', title: 'מיסוי, ניהול סיכונים וחוקי ברזל', desc: 'איך להפחית סיכונים, היבטי מיסוי, וחוקי ברזל למשקיעה שחשוב להכיר.' },
+];
+
+const outcomes = [
+  { icon: '💡', title: 'השקעה מתוך ידע', desc: 'תחסכי לעצמך את הטעויות שכולם עושים. ידע וביטחון להשקיע נכון.' },
+  { icon: '🛠️', title: 'כלים פרקטיים', desc: 'ארגז כלים מקיף לפתיחת ארנק, קניית מטבעות, ניהול תיק — הכל בפועל.' },
+  { icon: '🧠', title: 'מיינדסט של משקיעת על', desc: 'חשיבה ואסטרטגיה שעובדת לאורך זמן, לא ספקולציות.' },
+];
+
+const suitableFor = [
+  'מי שרוצה לעשות צעדים בהשקעות ובקריפטו אך מפחד ולא יודע כיצד',
+  'מי שאין לו ידע בתחום ההשקעות או בקריפטו',
+  'מי שיש לו יכולת להשקיע לטווח רחוק',
+  'מי שרוצה לקנות מטבעות ולשכוח, בלי התעסקות יומיומית',
+  'גם אם יש לך ממש מעט כסף להשקעה',
+];
+
+const notSuitableFor = [
+  'מחפשות רווחים מהירים — אני לא מוכרת חלומות כאלה',
+  'מעוניינות במסחר יומי — אינני עוסקת בתחום זה',
+];
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Course',
+  name: 'קורס קריפטו וומן — מאפס למאה',
+  description: 'קורס מקיף על ביטקוין, בלוקצ\'יין וקריפטו מבית קרן ולדמן חנן',
+  provider: {
+    '@type': 'Organization',
+    name: 'Crypto Women',
+    url: 'https://cryptowomen-il.com',
+  },
+  inLanguage: 'he',
+};
+---
+
+<BaseLayout
+  title="קורס קריפטו וומן — מאפס למאה | Crypto Women"
+  description="קורס מקיף על ביטקוין, בלוקצ'יין וקריפטו — ידע תיאורטי, פרקטיקה ופסיכולוגיית משקיעים. מיועד לכל מי שרוצה להשקיע נכון ובטוח."
+  {structuredData}
+>
+  <!-- HERO -->
+  <section class="course-hero">
+    <div class="container course-hero-inner">
+      <div class="course-hero-text">
+        <span class="badge badge--accent">קורס הדגל</span>
+        <h1 class="course-hero-title">
+          קורס קריפטו וומן<br/>
+          <span class="gradient-text">מאפס למאה</span>
+        </h1>
+        <p class="course-hero-subtitle">
+          תחום הקריפטו נשמע לך כמו סינית? הקורס הזה הוא הגשמת חלום למי שרוצה להכיר ולהתמקם בעולם המטבעות הדיגיטליים והבלוקצ'יין.
+        </p>
+        <p class="course-hero-goal">
+          <strong>מטרת הקורס:</strong> מתן ידע מקיף, כלים ואסטרטגיות שיביאו אתכם להצלחה ותחושת ביטחון בעולם ההשקעות החדש.
+        </p>
+        <div class="course-cta-wrap">
+          <a href={schoolerUrl} target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--lg">
+            להרשמה לקורס
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true" style="transform:scaleX(-1)">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="/course/live" class="btn btn--secondary btn--lg">מחזור בלייב</a>
+        </div>
+      </div>
+      <div class="course-hero-visual" aria-hidden="true">
+        <div class="course-price-card">
+          <div class="price-card-inner">
+            <span class="price-label">השקעה בעצמך</span>
+            <div class="price-value">2,300 ₪</div>
+            <ul class="price-features">
+              <li>✓ גישה לכל החיים לכל התכנים</li>
+              <li>✓ מחזור לייב + שיעורים מוקלטים</li>
+              <li>✓ קבוצת וואטסאפ סגורה</li>
+              <li>✓ ליווי אישי ובהנחייה אישית</li>
+              <li>✓ גישה מיידית לקורס הדיגיטלי</li>
+            </ul>
+            <a href={schoolerUrl} target="_blank" rel="noopener noreferrer" class="btn btn--primary" style="width:100%;text-align:center">
+              YES, I DO 🚀
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURRICULUM -->
+  <section class="section curriculum-section" aria-labelledby="curriculum-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">סילבוס</span>
+        <h2 id="curriculum-heading">נושאים ותכנים</h2>
+        <p class="section-desc">8 מודולים מקיפים שיקחו אותך מאפס לביטחון מלא בעולם הקריפטו</p>
+      </div>
+      <div class="curriculum-grid">
+        {modules.map(m => (
+          <div class="curriculum-item">
+            <span class="curriculum-num" aria-hidden="true">{m.num}</span>
+            <div class="curriculum-content">
+              <h3 class="curriculum-title">{m.title}</h3>
+              <p class="curriculum-desc">{m.desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- OUTCOMES -->
+  <section class="section outcomes-section" aria-labelledby="outcomes-heading">
+    <div class="container">
+      <div class="section-header section-header--light">
+        <span class="badge">מה תקבלו</span>
+        <h2 id="outcomes-heading">עם מה תצאו בסוף הקורס?</h2>
+        <p class="section-desc" style="color: rgba(255,255,255,0.75)">הקורס יעסוק גם בתיאוריה וגם בפרקטיקה — כדי שתדעו להשקיע ולפעול בפועל</p>
+      </div>
+      <div class="outcomes-grid">
+        {outcomes.map(o => (
+          <div class="outcome-card">
+            <span class="outcome-icon" aria-hidden="true">{o.icon}</span>
+            <h3 class="outcome-title">{o.title}</h3>
+            <p class="outcome-desc">{o.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FOR WHOM -->
+  <section class="section suitability-section" aria-labelledby="suitable-heading">
+    <div class="container">
+      <h2 id="suitable-heading" class="section-center-title">למי מיועד הקורס?</h2>
+      <div class="suitability-grid">
+        <div class="suitability-col suitability-col--yes">
+          <div class="suitability-header">
+            <span aria-hidden="true">✅</span>
+            <h3>מתאים לך אם...</h3>
+          </div>
+          <ul class="suitability-list">
+            {suitableFor.map(item => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </div>
+        <div class="suitability-col suitability-col--no">
+          <div class="suitability-header">
+            <span aria-hidden="true">❌</span>
+            <h3>לא מתאים לך אם...</h3>
+          </div>
+          <ul class="suitability-list">
+            {notSuitableFor.map(item => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIVE COURSE CTA -->
+  <section class="section live-section" aria-labelledby="live-heading">
+    <div class="container live-inner">
+      <div>
+        <span class="badge badge--accent">חדש!</span>
+        <h2 id="live-heading">מחזור LIVE בהנחיה אישית</h2>
+        <p>
+          הקשבתי לרחשי לבכן שרוצות קורס שהוא בלייב ולא רק דיגיטלי. לכן אני משיקה מחזור שיתקיים בהנחייתי, בזום, 6 מפגשים.
+        </p>
+        <a href="/course/live" class="btn btn--primary" style="margin-block-start:var(--space-6)">לפרטי המחזור</a>
+      </div>
+      <div class="live-features">
+        {[
+          { icon: '📹', text: '6 מפגשים חיים בזום' },
+          { icon: '👥', text: 'קבוצת ווטסאפ סגורה' },
+          { icon: '♾️', text: 'גישה לכל החיים' },
+          { icon: '🤝', text: 'ליווי אישי' },
+        ].map(f => (
+          <div class="live-feature">
+            <span class="live-feature-icon" aria-hidden="true">{f.icon}</span>
+            <span>{f.text}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <Cta
+    title="מוכנה להתחיל?"
+    subtitle="הצטרפי לאלפי נשים וגברים שכבר למדו להשקיע בקריפטו בביטחון"
+    primaryHref={schoolerUrl}
+    primaryLabel="הרשמה לקורס עכשיו"
+    secondaryHref="/contact"
+    secondaryLabel="יש לי שאלה"
+  />
+</BaseLayout>
+
+<style>
+  .course-hero {
+    background: var(--gradient-hero);
+    padding-block: var(--space-20);
+  }
+
+  .course-hero-inner {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-12);
+    align-items: center;
+  }
+
+  .course-hero-title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 900;
+    color: white;
+    line-height: 1.15;
+    margin-block: var(--space-4) var(--space-4);
+  }
+
+  .course-hero-subtitle {
+    font-size: var(--text-lg);
+    color: rgba(255,255,255,0.8);
+    line-height: 1.7;
+    max-width: 55ch;
+    margin-block-end: var(--space-4);
+  }
+
+  .course-hero-goal {
+    font-size: var(--text-base);
+    color: rgba(255,255,255,0.75);
+    margin-block-end: var(--space-8);
+  }
+
+  .course-cta-wrap {
+    display: flex;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+  }
+
+  .course-price-card {
+    background: white;
+    border-radius: var(--radius-xl);
+    padding: var(--space-8);
+    min-width: 280px;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.3);
+  }
+
+  .price-label {
+    font-size: var(--text-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    letter-spacing: 0.1em;
+    display: block;
+    margin-block-end: var(--space-2);
+  }
+
+  .price-value {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--color-primary-dark);
+    margin-block-end: var(--space-6);
+  }
+
+  .price-features {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    margin-block-end: var(--space-6);
+  }
+
+  .price-features li {
+    font-size: var(--text-sm);
+    color: var(--color-text);
+    line-height: 1.5;
+  }
+
+  /* CURRICULUM */
+  .curriculum-section {
+    background: white;
+  }
+
+  .curriculum-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+
+  .curriculum-item {
+    display: flex;
+    gap: var(--space-4);
+    align-items: flex-start;
+    padding: var(--space-5);
+    background: var(--color-bg-muted);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border-light);
+    transition: all var(--transition-fast);
+  }
+
+  .curriculum-item:hover {
+    border-color: var(--color-primary-light);
+    background: white;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .curriculum-num {
+    font-size: var(--text-2xl);
+    font-weight: 900;
+    color: var(--color-primary-light);
+    line-height: 1;
+    flex-shrink: 0;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .curriculum-title {
+    font-size: var(--text-base);
+    font-weight: 700;
+    color: var(--color-primary-dark);
+    margin-block-end: var(--space-2);
+  }
+
+  .curriculum-desc {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  /* OUTCOMES */
+  .outcomes-section {
+    background: var(--gradient-hero);
+    color: white;
+  }
+
+  .outcomes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+  }
+
+  .outcome-card {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: var(--radius-lg);
+    padding: var(--space-8);
+    backdrop-filter: blur(8px);
+    text-align: center;
+    transition: background var(--transition-fast);
+  }
+
+  .outcome-card:hover {
+    background: rgba(255,255,255,0.15);
+  }
+
+  .outcome-icon {
+    font-size: 3rem;
+    display: block;
+    margin-block-end: var(--space-4);
+  }
+
+  .outcome-title {
+    font-size: var(--text-xl);
+    font-weight: 700;
+    color: var(--color-accent-light);
+    margin-block-end: var(--space-3);
+  }
+
+  .outcome-desc {
+    font-size: var(--text-sm);
+    color: rgba(255,255,255,0.8);
+    line-height: 1.6;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  /* SUITABILITY */
+  .suitability-section {
+    background: var(--color-bg-muted);
+  }
+
+  .section-center-title {
+    font-size: var(--text-3xl);
+    color: var(--color-primary-dark);
+    text-align: center;
+    margin-block-end: var(--space-12);
+  }
+
+  .suitability-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-6);
+  }
+
+  .suitability-col {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: var(--space-8);
+    border: 2px solid transparent;
+  }
+
+  .suitability-col--yes {
+    border-color: #A7F3D0;
+  }
+
+  .suitability-col--no {
+    border-color: #FECACA;
+  }
+
+  .suitability-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    margin-block-end: var(--space-6);
+  }
+
+  .suitability-header span {
+    font-size: 1.5rem;
+  }
+
+  .suitability-header h3 {
+    font-size: var(--text-lg);
+    font-weight: 700;
+    color: var(--color-primary-dark);
+  }
+
+  .suitability-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .suitability-list li {
+    font-size: var(--text-sm);
+    color: var(--color-text);
+    line-height: 1.6;
+    padding-inline-start: var(--space-4);
+    position: relative;
+  }
+
+  .suitability-list li::before {
+    content: '•';
+    position: absolute;
+    inset-inline-start: 0;
+    color: var(--color-primary);
+    font-weight: 700;
+  }
+
+  /* LIVE */
+  .live-section {
+    background: white;
+  }
+
+  .live-inner {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-12);
+    align-items: center;
+  }
+
+  .live-inner h2 {
+    font-size: var(--text-2xl);
+    color: var(--color-primary-dark);
+    margin-block: var(--space-3) var(--space-4);
+  }
+
+  .live-inner p {
+    color: var(--color-text-muted);
+    line-height: 1.7;
+    max-width: 55ch;
+    max-width: 100%;
+  }
+
+  .live-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-4);
+    min-width: 280px;
+  }
+
+  .live-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--space-2);
+    background: var(--color-bg-muted);
+    border-radius: var(--radius-md);
+    padding: var(--space-4);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .live-feature-icon {
+    font-size: 1.75rem;
+  }
+
+  /* SECTION HEADER VARIANTS */
+  .section-header {
+    text-align: center;
+    margin-block-end: var(--space-12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-3);
+  }
+
+  .section-header h2 {
+    font-size: var(--text-3xl);
+    color: var(--color-primary-dark);
+    margin: 0;
+  }
+
+  .section-header--light h2 {
+    color: white;
+  }
+
+  .section-desc {
+    font-size: var(--text-lg);
+    color: var(--color-text-muted);
+    max-width: 55ch;
+    margin: 0;
+  }
+
+  @media (max-width: 900px) {
+    .course-hero-inner,
+    .live-inner {
+      grid-template-columns: 1fr;
+    }
+    .course-price-card {
+      min-width: unset;
+    }
+    .curriculum-grid,
+    .outcomes-grid,
+    .suitability-grid {
+      grid-template-columns: 1fr;
+    }
+    .live-features {
+      min-width: unset;
+    }
+  }
+</style>

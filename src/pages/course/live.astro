@@ -1,0 +1,423 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Cta from '../../components/Cta.astro';
+
+const schoolerUrl = 'https://my.schooler.biz/s/69749/cryptowomencourse?utm_source=cryptowomen20';
+
+const lessons = [
+  { num: 1, title: 'מיינדסט של משקיעה מצליחה בקריפטו', desc: 'תודעת משקיעה, ניהול סיכונים, כמה להשקיע והגדרת פורטפוליו השקעה' },
+  { num: 2, title: 'הכל על ביטקוין', desc: 'כסף, ביטקוין, בלוקצ\'יין, סקירת שוק ומגמות עדכניות' },
+  { num: 3, title: 'מטבעות נוספים', desc: 'אתריום, חוזים חכמים, קטגוריות קריפטו מובילות, סקירת מטבעות מרכזיים' },
+  { num: 4, title: 'ארנקים דיגיטליים', desc: 'סוגי ארנקים ובחירת ארנק, אבטחת ארנק, טעויות נפוצות + פתיחת ארנק' },
+  { num: 5, title: 'דרכים לקנות קריפטו', desc: 'דרכי קנייה, מסחר והתנהלות בבורסה, התאמת דרך הקנייה, התנהלות מול הבנקים' },
+  { num: 6, title: 'איך להשקיע חכם', desc: 'פסיכולוגיית משקיעים, מחזורי שוק, אסטרטגיית השקעה, מיסוי וחוקי ברזל' },
+];
+
+const included = [
+  { icon: '📹', title: '6 מפגשים LIVE', desc: 'ימי שני 20:00–21:30 בזום, בהנחייתי האישית' },
+  { icon: '🎬', title: 'שיעורים מוקלטים', desc: 'גישה לכל ההקלטות לצפייה חוזרת בכל עת' },
+  { icon: '👥', title: 'קבוצת וואטסאפ סגורה', desc: 'תמיכה, מענה ושיח עם חברות הקורס לאורך כל הדרך' },
+  { icon: '♾️', title: 'גישה לכל החיים', desc: 'לכל תכני הקורס וגם לתכנים עתידיים' },
+  { icon: '🤝', title: 'ליווי אישי', desc: 'ובהנחייה אישית לאורך כל המסע' },
+  { icon: '📱', title: 'גישה מיידית', desc: 'לקורס הדיגיטלי מיד עם ההרשמה' },
+];
+---
+
+<BaseLayout
+  title="קורס LIVE — מחזור בלייב | Crypto Women"
+  description="הביטקוין עלה 120% ב-2024! קורס LIVE קריפטו בהנחיה אישית של קרן ולדמן חנן. 6 מפגשים בזום, ליווי אישי, גישה לכל החיים."
+>
+  <!-- HERO -->
+  <section class="course-hero">
+    <div class="container course-hero-inner">
+      <div class="course-hero-text">
+        <div class="hero-eyebrow">
+          <span class="badge badge--accent">חדש! LIVE</span>
+        </div>
+        <h1 class="course-hero-title">
+          הביטקוין עלה <span class="gradient-text">120%</span> ב-2024<br/>
+          הגיע הזמן שתעשי את זה נכון
+        </h1>
+        <p class="course-hero-subtitle">
+          יחד איתו עלה כל שוק הקריפטו! האם זה הזמן להשקיע? מה שבטוח — אם עושים את זה, עושים את זה מתוך ידע, הבנה וניהול סיכונים.
+        </p>
+        <p class="course-hero-note">
+          הפעם הקשבתי לרחשי לבכן שרוצות קורס בלייב ולא רק דיגיטלי.
+          לכן אני משיקה מחזור שיתקיים בהנחייתי, בבית שלכן — בזום.
+        </p>
+        <a href={schoolerUrl} target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--lg">
+          YES, I DO 🚀
+        </a>
+        <p class="course-hero-note" style="margin-block-start:var(--space-3); font-size: var(--text-xs)">
+          *מנוסח בלשון נקבה כדי לעודד עוד נשים, אך מיועד גם לגברים
+        </p>
+      </div>
+      <div class="price-wrap" aria-label="מחיר הקורס">
+        <div class="price-card">
+          <p class="price-label">השקעה בעצמך</p>
+          <div class="price-value">2,300 ₪</div>
+          <p class="price-sublabel">בלבד</p>
+          <ul class="price-features">
+            <li>✓ מחזור לייב + שיעורים מוקלטים</li>
+            <li>✓ קבוצת וואטסאפ סגורה</li>
+            <li>✓ גישה לכל החיים לכל התכנים</li>
+            <li>✓ ליווי אישי ובהנחייה אישית</li>
+            <li>✓ גישה מיידית לקורס הדיגיטלי</li>
+          </ul>
+          <a href={schoolerUrl} target="_blank" rel="noopener noreferrer" class="btn btn--primary" style="width:100%;text-align:center">
+            להרשמה עכשיו
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INCLUDED -->
+  <section class="section included-section" aria-labelledby="included-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">מה כלול</span>
+        <h2 id="included-heading">קורס LIVE דיגיטלי ובמעטפת קבוצתית</h2>
+        <p class="section-desc">עם כל החומרים אצלך בבית — ותמיכה לכל שאלה</p>
+      </div>
+      <div class="included-grid">
+        {included.map(item => (
+          <div class="included-item">
+            <span class="included-icon" aria-hidden="true">{item.icon}</span>
+            <div>
+              <h3 class="included-title">{item.title}</h3>
+              <p class="included-desc">{item.desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- LESSONS -->
+  <section class="section lessons-section" aria-labelledby="lessons-heading">
+    <div class="container">
+      <div class="section-header section-header--light">
+        <span class="badge">סילבוס</span>
+        <h2 id="lessons-heading">מה נלמד בכל שיעור?</h2>
+        <p class="section-desc" style="color: rgba(255,255,255,0.75)">שישה מפגשים ימי שני בשעה 20:00–21:30 בזום</p>
+      </div>
+      <div class="lessons-grid">
+        {lessons.map(lesson => (
+          <div class="lesson-card">
+            <span class="lesson-num" aria-hidden="true">{lesson.num}</span>
+            <div>
+              <h3 class="lesson-title">{lesson.title}</h3>
+              <p class="lesson-desc">{lesson.desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT KEREN -->
+  <section class="section about-section" aria-labelledby="about-heading">
+    <div class="container about-inner">
+      <div class="about-text">
+        <span class="badge">נעים מאוד</span>
+        <h2 id="about-heading" class="about-title">אני קרן ולדמן חנן</h2>
+        <p>מייסדת קהילת קריפטו וומן, בלוגרית, מרצה, משקיעה ומלמדת על קריפטו.</p>
+        <p>
+          את המסע שלי התחלתי לפני שבע שנים, שלא הבנתי כלום בכסף והשקעות. המשפט "קניתי ביטקוין" שמעתי מחברה — קרא לי לפעולה! מאז הפסקתי לשבת על הגדר.
+        </p>
+        <p>
+          עשיתי המון טעויות, שעלו לי הרבה מאוד כסף, נרתעתי מאוד, אבל לא התייאשתי. עם השנים הבנתי שיש דרך להצליח בקריפטו — וגיבשתי אסטרטגיה שטובה ועובדת לאורך זמן.
+        </p>
+        <blockquote class="about-quote">
+          "המחיר של לשבת על הגדר גבוה הרבה יותר מאשר לאזור אומץ ולעשות."
+        </blockquote>
+      </div>
+      <div class="about-honesty">
+        <div class="honesty-card">
+          <h3 class="honesty-title">חשוב לי להיות כנה</h3>
+          <div class="honesty-no">
+            <p>❌ אין קיצורי דרך</p>
+            <p>❌ אין התעשרות מהירה</p>
+            <p>❌ זה לא תמיד קל</p>
+          </div>
+          <div class="honesty-yes">
+            <p>✅ צריך סבלנות</p>
+            <p>✅ צריך ללמוד</p>
+            <p>✅ צריך שיטה ברורה</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Cta
+    title="מוכנה להצטרף למחזור הבא?"
+    subtitle="הצטרפי לאלפי נשים שכבר לומדות להשקיע בקריפטו בחכמה"
+    primaryHref={schoolerUrl}
+    primaryLabel="YES, I DO 🚀"
+    secondaryHref="/contact"
+    secondaryLabel="יש לי שאלה"
+  />
+</BaseLayout>
+
+<style>
+  .course-hero {
+    background: var(--gradient-hero);
+    padding-block: var(--space-20);
+  }
+
+  .course-hero-inner {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-12);
+    align-items: center;
+  }
+
+  .hero-eyebrow {
+    margin-block-end: var(--space-4);
+  }
+
+  .course-hero-title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 900;
+    color: white;
+    line-height: 1.2;
+    margin-block-end: var(--space-5);
+  }
+
+  .course-hero-subtitle {
+    font-size: var(--text-base);
+    color: rgba(255,255,255,0.8);
+    line-height: 1.7;
+    margin-block-end: var(--space-4);
+    max-width: 55ch;
+    max-width: 100%;
+  }
+
+  .course-hero-note {
+    font-size: var(--text-sm);
+    color: rgba(255,255,255,0.65);
+    margin-block-end: var(--space-6);
+    line-height: 1.6;
+  }
+
+  .price-wrap { flex-shrink: 0; }
+
+  .price-card {
+    background: white;
+    border-radius: var(--radius-xl);
+    padding: var(--space-8);
+    min-width: 260px;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.3);
+  }
+
+  .price-label {
+    font-size: var(--text-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    letter-spacing: 0.1em;
+    margin-block-end: var(--space-1);
+  }
+
+  .price-value {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--color-primary-dark);
+    line-height: 1;
+  }
+
+  .price-sublabel {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    margin-block: var(--space-1) var(--space-5);
+  }
+
+  .price-features {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    margin-block-end: var(--space-6);
+  }
+
+  .price-features li {
+    font-size: var(--text-sm);
+    color: var(--color-text);
+    line-height: 1.5;
+  }
+
+  /* INCLUDED */
+  .included-section { background: var(--color-bg-muted); }
+
+  .section-header {
+    text-align: center;
+    margin-block-end: var(--space-12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-3);
+  }
+  .section-header h2 {
+    font-size: var(--text-3xl);
+    color: var(--color-primary-dark);
+    margin: 0;
+  }
+  .section-header--light h2 { color: white; }
+  .section-desc {
+    font-size: var(--text-lg);
+    color: var(--color-text-muted);
+    max-width: 55ch;
+    margin: 0;
+  }
+
+  .included-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-5);
+  }
+
+  .included-item {
+    display: flex;
+    gap: var(--space-4);
+    align-items: flex-start;
+    background: white;
+    border-radius: var(--radius-md);
+    padding: var(--space-5);
+    border: 1px solid var(--color-border-light);
+  }
+
+  .included-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+  }
+
+  .included-title {
+    font-size: var(--text-base);
+    font-weight: 700;
+    color: var(--color-primary-dark);
+    margin-block-end: var(--space-1);
+  }
+
+  .included-desc {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    line-height: 1.5;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  /* LESSONS */
+  .lessons-section {
+    background: var(--gradient-hero);
+    color: white;
+  }
+
+  .lessons-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+
+  .lesson-card {
+    display: flex;
+    gap: var(--space-4);
+    align-items: flex-start;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: var(--radius-md);
+    padding: var(--space-5);
+    backdrop-filter: blur(8px);
+  }
+
+  .lesson-num {
+    font-size: var(--text-2xl);
+    font-weight: 900;
+    color: var(--color-accent-light);
+    line-height: 1;
+    flex-shrink: 0;
+    min-width: 2ch;
+  }
+
+  .lesson-title {
+    font-size: var(--text-base);
+    font-weight: 700;
+    color: white;
+    margin-block-end: var(--space-2);
+  }
+
+  .lesson-desc {
+    font-size: var(--text-sm);
+    color: rgba(255,255,255,0.75);
+    line-height: 1.5;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  /* ABOUT */
+  .about-section { background: var(--color-bg); }
+
+  .about-inner {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-12);
+    align-items: start;
+  }
+
+  .about-title {
+    font-size: var(--text-2xl);
+    color: var(--color-primary-dark);
+    margin-block: var(--space-3) var(--space-5);
+  }
+
+  .about-text p {
+    color: var(--color-text);
+    line-height: 1.7;
+    margin-block-end: var(--space-4);
+  }
+
+  .about-quote {
+    margin-block-start: var(--space-6);
+    padding-inline-start: var(--space-5);
+    border-inline-start: 4px solid var(--color-accent);
+    font-size: var(--text-lg);
+    font-style: italic;
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+
+  .honesty-card {
+    background: var(--gradient-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-8);
+    min-width: 260px;
+  }
+
+  .honesty-title {
+    font-size: var(--text-lg);
+    color: var(--color-primary-dark);
+    margin-block-end: var(--space-5);
+    text-align: center;
+  }
+
+  .honesty-no, .honesty-yes {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    font-size: var(--text-sm);
+    line-height: 1.5;
+    margin-block-end: var(--space-4);
+  }
+
+  .honesty-no p { color: #991B1B; }
+  .honesty-yes p { color: #065F46; }
+
+  @media (max-width: 900px) {
+    .course-hero-inner, .about-inner { grid-template-columns: 1fr; }
+    .price-card { min-width: unset; }
+    .included-grid { grid-template-columns: 1fr; }
+    .lessons-grid { grid-template-columns: 1fr; }
+  }
+</style>

@@ -1,0 +1,139 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allGuides = await getCollection('guides', ({ data }) => !data.draft);
+const guides = allGuides.sort((a, b) => a.data.order - b.data.order);
+---
+
+<BaseLayout
+  title="מדריכים — ביטקוין וקריפטו | Crypto Women"
+  description="מדריכים מפורטים ובחינם: איך קונים קריפטו, ארנק דיגיטלי, מיסוי, ניהול סיכונים ועוד. מאת קרן ולדמן חנן."
+>
+  <section class="page-hero">
+    <div class="container" style="text-align:center">
+      <span class="badge">בחינם</span>
+      <h1 class="page-hero-title">מדריכי קריפטו וומן</h1>
+      <p class="page-hero-subtitle">
+        כל מה שצריך לדעת כדי להתחיל — בחינם, בעברית, מהניסיון האמיתי
+      </p>
+    </div>
+  </section>
+
+  <section class="section guides-section">
+    <div class="container">
+      <div class="guides-grid">
+        {guides.map((guide, i) => (
+          <a href={`/guides/${guide.id}`} class="guide-card" aria-label={guide.data.title}>
+            <div class="guide-num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</div>
+            <div class="guide-content">
+              <h2 class="guide-title">{guide.data.title}</h2>
+              {guide.data.description && (
+                <p class="guide-desc">{guide.data.description}</p>
+              )}
+              <span class="guide-link" aria-hidden="true">לקריאה ←</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero {
+    background: var(--gradient-hero);
+    padding-block: var(--space-16);
+  }
+  .page-hero-title {
+    font-size: var(--text-4xl);
+    font-weight: 900;
+    color: white;
+    margin-block: var(--space-4) var(--space-3);
+  }
+  .page-hero-subtitle {
+    font-size: var(--text-lg);
+    color: rgba(255,255,255,0.8);
+    max-width: 50ch;
+    margin-inline: auto;
+  }
+
+  .guides-section { background: var(--color-bg); }
+
+  .guides-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6);
+  }
+
+  .guide-card {
+    display: flex;
+    gap: var(--space-5);
+    align-items: flex-start;
+    padding: var(--space-8);
+    background: white;
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    color: inherit;
+    transition: all var(--transition-base);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .guide-card::before {
+    content: '';
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    width: 4px;
+    height: 100%;
+    background: var(--gradient-accent);
+    transform: scaleY(0);
+    transition: transform var(--transition-base);
+  }
+
+  .guide-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+    border-color: var(--color-primary-light);
+  }
+
+  .guide-card:hover::before {
+    transform: scaleY(1);
+  }
+
+  .guide-num {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--color-primary-light);
+    opacity: 0.4;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  .guide-title {
+    font-size: var(--text-xl);
+    font-weight: 700;
+    color: var(--color-primary-dark);
+    margin-block-end: var(--space-3);
+  }
+
+  .guide-desc {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    margin: 0 0 var(--space-4);
+    max-width: 100%;
+  }
+
+  .guide-link {
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+
+  @media (max-width: 768px) {
+    .guides-grid { grid-template-columns: 1fr; }
+  }
+</style>

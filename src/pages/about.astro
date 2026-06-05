@@ -1,0 +1,343 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Cta from '../components/Cta.astro';
+---
+
+<BaseLayout
+  title="עליי — קרן ולדמן חנן | Crypto Women"
+  description="הסיפור שלי: מהנדסת שהפכה למשקיעת קריפטו, מרצה ומייסדת קהילת קריפטו וומן. קרן ולדמן חנן על הדרך, הטעויות וההצלחות."
+>
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container page-hero-inner">
+      <div class="page-hero-text">
+        <span class="badge">הסיפור שלי</span>
+        <h1 class="page-hero-title">נעים מאוד, אני קרן</h1>
+        <p class="page-hero-subtitle">
+          ואני ממש, אבל ממש שמחה שאת כאן. לפני כמה שנים הייתי בדיוק במצבך.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY SECTION -->
+  <section class="section story-section">
+    <div class="container story-inner">
+      <div class="story-text">
+        <h2 class="story-title">היוש, אני קרן</h2>
+        <p>
+          ואני ממש, אבל ממש שמחה שאת כאן. לפני כמה שנים הייתי בדיוק במצבך, חיפשתי השראה ללמוד על כסף ועל השקעות, היה לי חלום להיות משקיעת על חלל כדי שאוכל לדאוג לעתיד של משפחתי. מעולם לא הבנתי בכסף, איך הוא עובד, אבל תמיד ידעתי שיום אחד זה יקרה.
+        </p>
+        <p>
+          הרומן שלי עם ביטקוין התחיל אי שם ב-2017, מאז אני משקיעת קריפטו, חוקרת את התחום ומהופנטת ממנו, מלמדת ומלווה נשים (וגברים) שרוצות ללמוד איך להשקיע בקריפטו ובהשקעות העולם החדש.
+        </p>
+        <p>
+          בהכשרתי מהנדסת תעשיה וניהול ובעלת תואר שני במנהל עסקים, עם ניסיון עשיר בניהול פרויקטים במגזר הביטחוני.
+        </p>
+
+        <div class="story-highlights">
+          {[
+            { icon: '🎓', text: 'מהנדסת תעשיה וניהול + תואר שני MBA' },
+            { icon: '₿', text: '7+ שנות השקעה בביטקוין ובקריפטו' },
+            { icon: '👥', text: 'מייסדת קהילת קריפטו וומן' },
+            { icon: '🎤', text: 'מרצה ויוצרת תוכן בתחום הקריפטו' },
+          ].map(h => (
+            <div class="highlight-item">
+              <span class="highlight-icon" aria-hidden="true">{h.icon}</span>
+              <span class="highlight-text">{h.text}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div class="story-image-wrap">
+        <div class="story-image-frame">
+          <img
+            src="/images/whatsapp-image-2024-01-06-at-08_optimized.57.53.jpeg"
+            alt="קרן ולדמן חנן"
+            width="480"
+            height="640"
+            loading="eager"
+            class="story-portrait"
+            onerror="this.onerror=null; this.src='/images/makologonew2024_autoorient_i_optimized.jpg'"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT STARTED -->
+  <section class="section how-section">
+    <div class="container--content">
+      <h2 class="how-title">איך התחיל הרומן שלי עם קריפטו?</h2>
+      <div class="how-content">
+        <p>
+          בחופשת לידה עם ביתי הבכורה החלה להעסיק אותי המחשבה איך אוכל לדאוג לעתיד פיננסי טוב יותר לביתי ולמשפחתי. באותם ימים, חברה קרובה שלי סיפרה לי שהיא סוחרת במניות, קונה ומוכרת וחוזר חלילה.
+        </p>
+        <p>
+          יש משפט שאומר שאף פעם לא תזכרי מה אמרו לך, אבל תמיד תזכרי איך גרמו לך להרגיש. איני זוכרת מה היא ענתה לי, אבל אני זוכרת היטב איך היא גרמה לי להרגיש — <strong>שהיא עושה, שהיא מתנסה, שהיא בתנועה. ואני? יושבת על הגדר, רק רוצה ולא עושה כלום.</strong>
+        </p>
+        <p>
+          עד שיום אחד היא אמרה לי משפט פשוט, שעבורי היה מכונן: <em>"קניתי ביטקוין"</em>. מבלי להבין יותר מידי, החלטתי שזהו! אני קופצת למים בעולם ההשקעות. כולם חשבו שהשתגעתי, אבל אני? עפתי על עצמי בקטע אחר.
+        </p>
+        <p>
+          עשיתי גם הרבה טעויות שעלו לי הרבה כסף, אבל — אין טעויות, יש רק דיוק הדרך להצלחה. ביטקוין וקריפטו פתחו אותי לעולם ההשקעות בכלל ומאז אני עוסקת בנדלן בארץ ובחו"ל, בשוק ההון ובטח באהבתי הגדולה — קריפטו.
+        </p>
+        <blockquote class="story-quote">
+          "גם אם תחליטו לא להשקיע, תעשו זאת מתוך בחירה ולא מתוך פחד."
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- MESSAGE SECTION -->
+  <section class="section message-section">
+    <div class="container">
+      <div class="message-inner">
+        <div class="message-text">
+          <h2 class="message-title">מסר ממני אליכן</h2>
+          <p>
+            כולנו חוששות מתחומים שאנחנו לא מכירות ואין לנו ידע וניסיון בהם, זה מובן ולגיטימי לחלוטין. מה כן? תפתחו את הראש, תלמדו, תחקרו, תבינו את הבשורה שקריפטו מביא איתה ולמה זה מהפכני ומשהו גדול קורה פה.
+          </p>
+          <div class="message-tips">
+            {[
+              'לא צריך להיות טכנולוגית להתחיל להשקיע בקריפטו',
+              'לא צריך סכום כסף גדול — מומלץ להתחיל עם סכום קטן',
+              'אין השקעה בלי המיינדסט הנכון — קודם תשקיעו בעצמכן',
+              'ככל שלומדים יותר, פחות מפחדים',
+            ].map(tip => (
+              <div class="tip-item">
+                <span class="tip-check" aria-hidden="true">✓</span>
+                <span>{tip}</span>
+              </div>
+            ))}
+          </div>
+          <p>
+            אני מזמינה אתכן לקחת חלק בקהילה ששמה לעצמה לנפץ תקרות זכוכית, להביא יותר נשים לתחום ההשקעות והקריפטו ומאחלת לכן שתהפכו להיות משקיעות על חלל.
+          </p>
+        </div>
+        <div class="message-actions">
+          <h3 class="message-cta-title">מוכנה להתחיל?</h3>
+          <div class="message-cta-buttons">
+            <a href="/course" class="btn btn--primary btn--lg">לקורס הדגל</a>
+            <a href="/contact" class="btn btn--secondary">צרי קשר</a>
+            <a href="https://www.facebook.com/groups/cryptowomen.il" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">הצטרפי לקהילה</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Cta />
+</BaseLayout>
+
+<style>
+  .page-hero {
+    background: var(--gradient-hero);
+    padding-block: var(--space-20);
+  }
+
+  .page-hero-inner {
+    text-align: center;
+  }
+
+  .page-hero-title {
+    font-size: var(--text-4xl);
+    font-weight: 900;
+    color: white;
+    margin-block: var(--space-4) var(--space-4);
+  }
+
+  .page-hero-subtitle {
+    font-size: var(--text-lg);
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 50ch;
+    margin-inline: auto;
+  }
+
+  .story-section {
+    background: var(--color-bg);
+  }
+
+  .story-inner {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-16);
+    align-items: start;
+  }
+
+  .story-title {
+    font-size: var(--text-3xl);
+    color: var(--color-primary-dark);
+    margin-block-end: var(--space-6);
+  }
+
+  .story-text p {
+    margin-block-end: var(--space-4);
+    color: var(--color-text);
+    max-width: 65ch;
+    max-width: 100%;
+  }
+
+  .story-highlights {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-3);
+    margin-block-start: var(--space-8);
+  }
+
+  .highlight-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    background: var(--color-bg-muted);
+    border-radius: var(--radius-md);
+    padding: var(--space-3) var(--space-4);
+    font-size: var(--text-sm);
+    font-weight: 500;
+  }
+
+  .highlight-icon {
+    font-size: 1.25rem;
+    flex-shrink: 0;
+  }
+
+  .story-image-frame {
+    width: 320px;
+    height: 420px;
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    border: 3px solid var(--color-border);
+    box-shadow: var(--shadow-lg);
+    flex-shrink: 0;
+  }
+
+  .story-portrait {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+  }
+
+  .how-section {
+    background: var(--color-bg-muted);
+  }
+
+  .how-title {
+    font-size: var(--text-2xl);
+    color: var(--color-primary-dark);
+    margin-block-end: var(--space-8);
+    text-align: center;
+  }
+
+  .how-content p {
+    margin-block-end: var(--space-5);
+    line-height: 1.8;
+  }
+
+  .story-quote {
+    margin-block-start: var(--space-8);
+    padding-inline-start: var(--space-6);
+    border-inline-start: 4px solid var(--color-accent);
+    font-size: var(--text-lg);
+    font-style: italic;
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+
+  .message-section {
+    background: white;
+  }
+
+  .message-inner {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-16);
+    align-items: start;
+  }
+
+  .message-title {
+    font-size: var(--text-2xl);
+    color: var(--color-primary-dark);
+    margin-block-end: var(--space-5);
+  }
+
+  .message-text p {
+    margin-block-end: var(--space-5);
+    line-height: 1.8;
+  }
+
+  .message-tips {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    margin-block: var(--space-6);
+    padding: var(--space-6);
+    background: var(--color-bg-muted);
+    border-radius: var(--radius-lg);
+  }
+
+  .tip-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-3);
+    font-size: var(--text-sm);
+    line-height: 1.6;
+  }
+
+  .tip-check {
+    color: var(--color-primary);
+    font-weight: 900;
+    font-size: 1rem;
+    flex-shrink: 0;
+    margin-block-start: 2px;
+  }
+
+  .message-actions {
+    background: var(--gradient-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-8);
+    min-width: 280px;
+    position: sticky;
+    inset-block-start: calc(var(--header-height) + var(--space-6));
+  }
+
+  .message-cta-title {
+    font-size: var(--text-xl);
+    color: var(--color-primary-dark);
+    margin-block-end: var(--space-6);
+    text-align: center;
+  }
+
+  .message-cta-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .message-cta-buttons .btn {
+    text-align: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 900px) {
+    .story-inner,
+    .message-inner {
+      grid-template-columns: 1fr;
+    }
+
+    .story-image-frame {
+      width: 100%;
+      height: 350px;
+    }
+
+    .story-highlights {
+      grid-template-columns: 1fr;
+    }
+
+    .message-actions {
+      position: static;
+      min-width: unset;
+    }
+  }
+</style>

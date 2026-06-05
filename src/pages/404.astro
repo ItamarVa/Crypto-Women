@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="דף לא נמצא | Crypto Women" description="הדף המבוקש לא נמצא">
+  <section class="not-found-section">
+    <div class="container not-found-inner">
+      <div class="not-found-emoji" aria-hidden="true">₿</div>
+      <h1 class="not-found-title">404 — הדף לא נמצא</h1>
+      <p class="not-found-desc">
+        נראה שהדף שחיפשתם נעלם כמו מטבע קריפטו בשוק דובי. אל דאגה, אפשר לחזור הביתה.
+      </p>
+      <div class="not-found-actions">
+        <a href="/" class="btn btn--primary">חזרה לעמוד הבית</a>
+        <a href="/blog" class="btn btn--secondary">לבלוג</a>
+        <a href="/guides" class="btn btn--ghost">למדריכים</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .not-found-section {
+    min-height: calc(100vh - var(--header-height) - 200px);
+    display: flex;
+    align-items: center;
+    background: var(--gradient-hero);
+  }
+  .not-found-inner {
+    text-align: center;
+    padding-block: var(--space-20);
+  }
+  .not-found-emoji {
+    font-size: 5rem;
+    font-weight: 900;
+    color: var(--color-accent-light);
+    margin-block-end: var(--space-6);
+    line-height: 1;
+  }
+  .not-found-title {
+    font-size: var(--text-4xl);
+    font-weight: 900;
+    color: white;
+    margin-block-end: var(--space-4);
+  }
+  .not-found-desc {
+    font-size: var(--text-lg);
+    color: rgba(255,255,255,0.75);
+    max-width: 45ch;
+    margin-inline: auto;
+    margin-block-end: var(--space-8);
+    line-height: 1.7;
+  }
+  .not-found-actions {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+  }
+</style>

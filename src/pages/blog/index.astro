@@ -1,0 +1,168 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const categories = ['הכל', 'מיינדסט', 'השקעות', 'ביטקוין', "בלוקצ'יין", 'מדריך', 'כללי'];
+const categoryCounts: Record<string, number> = {};
+posts.forEach(p => {
+  const cat = p.data.category || 'כללי';
+  categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
+});
+---
+
+<BaseLayout
+  title="בלוג — ביטקוין, קריפטו והשקעות | Crypto Women"
+  description="מאמרים, תובנות וניתוחים על ביטקוין, קריפטו, בלוקצ'יין ומיינדסט של משקיעה. כתיבה מקצועית ואישית מאת קרן ולדמן חנן."
+>
+  <!-- PAGE HEADER -->
+  <section class="page-hero">
+    <div class="container" style="text-align:center">
+      <span class="badge">בלוג</span>
+      <h1 class="page-hero-title">מאמרים ותובנות</h1>
+      <p class="page-hero-subtitle">
+        תכנים מקצועיים ואישיים על השקעות, ביטקוין, בלוקצ'יין ומיינדסט
+      </p>
+    </div>
+  </section>
+
+  <!-- CATEGORY FILTER -->
+  <div class="category-bar">
+    <div class="container category-inner">
+      {categories.map(cat => (
+        <a
+          href={cat === 'הכל' ? '/blog' : `/blog/category/${cat}`}
+          class={`category-pill ${cat === 'הכל' ? 'category-pill--active' : ''}`}
+          aria-current={cat === 'הכל' ? 'page' : undefined}
+        >
+          {cat}
+          {cat !== 'הכל' && categoryCounts[cat] && (
+            <span class="category-count">{categoryCounts[cat]}</span>
+          )}
+          {cat === 'הכל' && (
+            <span class="category-count">{posts.length}</span>
+          )}
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <!-- POSTS GRID -->
+  <section class="section blog-grid-section">
+    <div class="container">
+      {posts.length > 0 ? (
+        <div class="grid-3">
+          {posts.map(post => (
+            <ArticleCard
+              title={post.data.title}
+              description={post.data.description}
+              href={`/blog/${post.id}`}
+              pubDate={post.data.pubDate}
+              category={post.data.category}
+              heroImage={post.data.heroImage}
+            />
+          ))}
+        </div>
+      ) : (
+        <div class="empty-state">
+          <p>אין מאמרים עדיין. חזרו בקרוב!</p>
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero {
+    background: var(--gradient-hero);
+    padding-block: var(--space-16);
+  }
+  .page-hero-title {
+    font-size: var(--text-4xl);
+    font-weight: 900;
+    color: white;
+    margin-block: var(--space-4) var(--space-3);
+  }
+  .page-hero-subtitle {
+    font-size: var(--text-lg);
+    color: rgba(255,255,255,0.8);
+    max-width: 50ch;
+    margin-inline: auto;
+  }
+
+  .category-bar {
+    background: white;
+    border-block-end: 1px solid var(--color-border-light);
+    position: sticky;
+    inset-block-start: var(--header-height);
+    z-index: 10;
+  }
+
+  .category-inner {
+    display: flex;
+    gap: var(--space-2);
+    overflow-x: auto;
+    padding-block: var(--space-4);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .category-inner::-webkit-scrollbar {
+    display: none;
+  }
+
+  .category-pill {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-4);
+    border-radius: var(--radius-full);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    white-space: nowrap;
+    text-decoration: none;
+    color: var(--color-text-muted);
+    border: 1.5px solid var(--color-border);
+    transition: all var(--transition-fast);
+    flex-shrink: 0;
+  }
+
+  .category-pill:hover {
+    color: var(--color-primary);
+    border-color: var(--color-primary-light);
+  }
+
+  .category-pill--active {
+    background: var(--color-primary);
+    color: white;
+    border-color: var(--color-primary);
+  }
+
+  .category-count {
+    background: rgba(255,255,255,0.2);
+    border-radius: var(--radius-full);
+    font-size: var(--text-xs);
+    padding: 1px 6px;
+    min-width: 20px;
+    text-align: center;
+  }
+
+  .category-pill:not(.category-pill--active) .category-count {
+    background: var(--color-bg-muted);
+    color: var(--color-text-muted);
+  }
+
+  .blog-grid-section {
+    background: var(--color-bg);
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: var(--space-20);
+    color: var(--color-text-muted);
+    font-size: var(--text-lg);
+  }
+</style>

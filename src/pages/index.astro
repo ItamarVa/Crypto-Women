@@ -1,0 +1,883 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import Cta from '../components/Cta.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const featuredPosts = allPosts
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 6);
+
+const guides = [
+  { title: 'איך קונים ומוכרים קריפטו', href: '/guides/how-to-buy-and-sell', icon: '🛒', desc: 'מהי הדרך הטובה ביותר לרכוש מטבעות וכיצד לבצע בפועל' },
+  { title: 'הכל על ארנקים דיגיטליים', href: '/guides/evreything-about-digital-wallet', icon: '👛', desc: 'כל מה שצריך לדעת על שמירת מטבעות קריפטו בבטחה' },
+  { title: 'מה יש למס הכנסה להגיד', href: '/guides/tax', icon: '📑', desc: 'מה מס הכנסה אומר על קריפטו ואיך להתנהל נכון' },
+  { title: 'ניהול סיכונים', href: '/guides/how-and-risks', icon: '⚖️', desc: 'כמה להשקיע ואיך לפזר סיכונים בצורה חכמה' },
+  { title: 'הדגמת ארנק חם', href: '/guides/digital-wallet-practical', icon: '🔑', desc: 'מדריך מעשי: פתיחת ארנק קריפטו צעד אחר צעד' },
+  { title: 'איזה ארנק קר לבחור', href: '/guides/cold-wallet-guide', icon: '🔒', desc: 'השוואה ובחירת הארנק הקר המתאים לאחסון קריפטו' },
+];
+
+const services = [
+  {
+    icon: '🎓',
+    title: 'קורס קריפטו וומן',
+    desc: 'קורס "קריפטו וומן" הוא לא רק קורס, אלא חוויה מעמיקה להבנת עולם הבלוקצ\'יין והקריפטו. מספק ידע תיאורטי מעמיק, פרקטיקה ופסיכולוגיית משקיעים — כל הכלים להשתלב, לצמוח ולהצליח.',
+    href: '/course',
+    cta: 'לפרטי הקורס',
+    featured: true,
+  },
+  {
+    icon: '🤝',
+    title: 'ליווי פרטני',
+    desc: 'מנסיוני עם משקיעים רבים, החשש הטכנולוגי וחוסר ההבנה בתחום יכולים להוות חסם כניסה. הליווי הפרטני ייתן לך ביטחון, ידע ואת האומץ לעשות את הצעד שחלמת עליו.',
+    href: '/services/personal-escort',
+    cta: 'לפרטים',
+  },
+  {
+    icon: '🎤',
+    title: 'הרצאות',
+    desc: 'הרצאות מרתקות על מסע הכסף, ביטקוין, בלוקצ\'יין ועתיד הכסף — לחברות, ארגונים ואירועים. נבין יחד את המהפכה שמתרחשת לנגד עינינו.',
+    href: '/services/lectures',
+    cta: 'לפרטים',
+  },
+];
+
+const community = [
+  { icon: '🌟', title: 'החזון', desc: 'קידום והעצמת נשים בתחום הקריפטו והמטבעות הדיגיטליים בעודו גדל ומתפתח, בין אם כמשקיעות ובין אם בתעשיה' },
+  { icon: '🎯', title: 'המטרה', desc: 'יצירת מרחב מאפשר, שמנגיש את התחום בצורה פשוטה, עשרות תכנים, לייבים ומדריכים' },
+  { icon: '🤝', title: 'נטוורקינג', desc: 'יצירת קשרים חברתיים והכרות עם נשים ואנשים מעוררי השראה, כנסים, אירועים ומפגשי השראה' },
+  { icon: '🎁', title: 'הטבות', desc: 'הטבות משתנות לחברי הקהילה ברכישת קריפטו, ארנקים דיגיטליים, כרטיסים לאירועים ועוד הטבות ייחודיות' },
+];
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Crypto Women',
+  url: 'https://cryptowomen-il.com',
+  description: "ביטקוין, בלוקצ'יין וקריפטו — ידע, מדריכים וקורסים",
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: 'https://cryptowomen-il.com/blog?q={search_term_string}',
+    'query-input': 'required name=search_term_string',
+  },
+};
+---
+
+<BaseLayout
+  title="Crypto Women — ביטקוין, בלוקצ'יין וקריפטו בעברית"
+  description="קרן ולדמן חנן מלמדת ביטקוין, בלוקצ'יין וקריפטו. קורס, מדריכים, מאמרים וליווי אישי — לכל מי שרוצה להשקיע בצורה בטוחה ונכונה."
+  {structuredData}
+>
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-orb hero-orb--1"></div>
+      <div class="hero-orb hero-orb--2"></div>
+      <div class="hero-orb hero-orb--3"></div>
+    </div>
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="hero-eyebrow">אישה, אמא, משקיעה, מרצה, משפיענית</p>
+        <h1 id="hero-heading" class="hero-title">
+          מעצבת עתיד שנשים<br/>הן <span class="gradient-text">חלק ממנו</span>
+        </h1>
+        <p class="hero-subtitle">
+          ביטקוין, בלוקצ'יין וקריפטו נשמעים מסובך? אני קרן ולדמן חנן, ואני כאן כדי לפשט, ללמד ולעזור לך לקחת את ההחלטות הפיננסיות הנכונות
+        </p>
+        <div class="hero-actions">
+          <a href="/course" class="btn btn--primary btn--lg">
+            לקורס הדגל
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true" style="transform:scaleX(-1)">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="/about" class="btn btn--ghost btn--lg">קצת עליי</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-image-frame">
+          <img
+            src="/images/-copy_optimized-1.jpeg"
+            alt="קרן ולדמן חנן — מייסדת Crypto Women"
+            width="480"
+            height="540"
+            loading="eager"
+            decoding="async"
+            class="hero-portrait"
+            onerror="this.onerror=null; this.src='/images/makologonew2024_autoorient_i_optimized.jpg'"
+          />
+        </div>
+        <div class="hero-float hero-float--btc">₿</div>
+        <div class="hero-float hero-float--years">7+ שנות ניסיון</div>
+        <div class="hero-float hero-float--students">1000+ משקיעים</div>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <span class="hero-scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- ABOUT / INTRO STRIP -->
+  <section class="intro-section section--sm" aria-labelledby="intro-heading">
+    <div class="container intro-inner">
+      <div class="intro-text">
+        <span class="badge">נעים מאוד</span>
+        <h2 id="intro-heading" class="intro-title">אני קרן ולדמן חנן</h2>
+        <p>
+          מאז שאני זוכרת את עצמי, תחום הכסף וההשקעות עניין אותי, מבלי שהיה לי שמץ של מושג בעולם הזה. אל עולם המטבעות הדיגיטליים נחשפתי ממש במקרה — בשיחה מקרית עם חברה אי שם ב-2017, זו גם הייתה ההשקעה הראשונה שעשיתי, פשוט קפצתי למים.
+        </p>
+        <p>
+          לא ידעתי כלום על כסף או השקעות, אבל היה לי חלום להיות משקיעת על חלל. מאז עברתי שינוי תודעה, התפתחות אישית גדולה והכרתי תחום מרתק ומהפכני, רווי בסיכונים אך מעבר לכך — מלא בהזדמנויות.
+        </p>
+        <p>
+          מזמינה אותך לפתוח את הראש, ללמוד ולהכיר — כי רק אם יוצאים למסע מגיעים למקומות נפלאים.
+        </p>
+        <a href="/about" class="btn btn--secondary">עוד עליי</a>
+      </div>
+      <div class="intro-values" aria-label="ערכי הקהילה">
+        {[
+          { icon: '🎯', title: 'השקעה מתוך ידע', desc: 'לא ספקולציות — ידע עמוק שמוביל להחלטות טובות יותר' },
+          { icon: '🛡️', title: 'בטוח ונכון', desc: 'שיטות מוכחות לניהול סיכונים ואבטחת מטבעות דיגיטליים' },
+          { icon: '❤️', title: 'קהילה תומכת', desc: 'אלפי נשים וגברים ברשת שלומדים ותומכים יחד' },
+        ].map(v => (
+          <div class="value-card">
+            <span class="value-icon" aria-hidden="true">{v.icon}</span>
+            <h3 class="value-title">{v.title}</h3>
+            <p class="value-desc">{v.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- GUIDES SECTION -->
+  <section class="section guides-section" aria-labelledby="guides-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge--accent">בחינם</span>
+        <h2 id="guides-heading">מדריכי קריפטו וומן</h2>
+        <p class="section-desc">כל מה שצריך לדעת כדי להתחיל — בחינם, בעברית, מהניסיון האמיתי</p>
+      </div>
+      <div class="grid-3">
+        {guides.map(g => (
+          <a href={g.href} class="guide-card" aria-label={g.title}>
+            <span class="guide-icon" aria-hidden="true">{g.icon}</span>
+            <h3 class="guide-title">{g.title}</h3>
+            <p class="guide-desc">{g.desc}</p>
+            <span class="guide-cta" aria-hidden="true">לקריאה ←</span>
+          </a>
+        ))}
+      </div>
+      <div class="section-footer">
+        <a href="/guides" class="btn btn--secondary">כל המדריכים</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMUNITY SECTION -->
+  <section class="section community-section" aria-labelledby="community-heading">
+    <div class="container">
+      <div class="section-header section-header--light">
+        <span class="badge">הקהילה</span>
+        <h2 id="community-heading">על קהילת קריפטו וומן</h2>
+      </div>
+      <div class="community-grid">
+        {community.map(item => (
+          <div class="community-card">
+            <span class="community-icon" aria-hidden="true">{item.icon}</span>
+            <h3 class="community-title">{item.title}</h3>
+            <p class="community-desc">{item.desc}</p>
+          </div>
+        ))}
+      </div>
+      <div class="community-cta">
+        <p class="community-cta-text">הצטרפי אלינו בפייסבוק</p>
+        <a
+          href="https://www.facebook.com/groups/cryptowomen.il"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn--primary"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+          </svg>
+          להצטרפות לקבוצה
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="section services-section" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">איך אני יכולה לעזור?</span>
+        <h2 id="services-heading">הדחיפה הקטנה מאחורי החלומות שלך</h2>
+        <p class="section-desc">בחרי את המסלול שמתאים לך — מקורס מקיף ועד ליווי אישי מותאם</p>
+      </div>
+      <div class="services-grid">
+        {services.map(s => (
+          <div class={`service-card${s.featured ? ' service-card--featured' : ''}`}>
+            {s.featured && <span class="service-badge">הכי פופולרי</span>}
+            <span class="service-icon" aria-hidden="true">{s.icon}</span>
+            <h3 class="service-title">{s.title}</h3>
+            <p class="service-desc">{s.desc}</p>
+            <a href={s.href} class={`btn ${s.featured ? 'btn--primary' : 'btn--secondary'}`}>
+              {s.cta}
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG SECTION -->
+  {featuredPosts.length > 0 && (
+    <section class="section blog-section" aria-labelledby="blog-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge">בלוג</span>
+          <h2 id="blog-heading">מאמרים ותובנות</h2>
+          <p class="section-desc">תכנים מקצועיים ואישיים על השקעות, ביטקוין ומיינדסט</p>
+        </div>
+        <div class="grid-3">
+          {featuredPosts.map(post => (
+            <ArticleCard
+              title={post.data.title}
+              description={post.data.description}
+              href={`/blog/${post.id}`}
+              pubDate={post.data.pubDate}
+              category={post.data.category}
+            />
+          ))}
+        </div>
+        <div class="section-footer">
+          <a href="/blog" class="btn btn--secondary">כל המאמרים</a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- SOCIAL FOLLOW -->
+  <section class="social-section section--sm" aria-labelledby="social-heading">
+    <div class="container">
+      <h2 id="social-heading" class="social-title">המשיכו לעקוב אחריי</h2>
+      <p class="social-desc">עדכונים, תובנות ותכנים בלעדיים ברשתות החברתיות</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/keren_crypto_women/" target="_blank" rel="noopener noreferrer" class="social-link social-link--instagram" aria-label="אינסטגרם">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+          אינסטגרם
+        </a>
+        <a href="https://www.facebook.com/keren.valdman" target="_blank" rel="noopener noreferrer" class="social-link social-link--facebook" aria-label="פייסבוק">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+          </svg>
+          פייסבוק
+        </a>
+        <a href="https://www.youtube.com/@cryptowomen_il" target="_blank" rel="noopener noreferrer" class="social-link social-link--youtube" aria-label="יוטיוב">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/>
+          </svg>
+          יוטיוב
+        </a>
+        <a href="https://wa.me/972546227530" target="_blank" rel="noopener noreferrer" class="social-link social-link--whatsapp" aria-label="וואטסאפ">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+          </svg>
+          וואטסאפ
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN CTA -->
+  <Cta />
+</BaseLayout>
+
+<style>
+  /* ===========================
+     HERO
+     =========================== */
+  .hero {
+    background: var(--gradient-hero);
+    position: relative;
+    overflow: hidden;
+    min-height: calc(100vh - var(--header-height, 72px));
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  .hero-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.2;
+  }
+
+  .hero-orb--1 {
+    width: 700px;
+    height: 700px;
+    background: var(--color-primary-light, #8B5CF6);
+    inset-block-start: -200px;
+    inset-inline-end: -150px;
+  }
+
+  .hero-orb--2 {
+    width: 450px;
+    height: 450px;
+    background: var(--color-accent, #C9A84C);
+    inset-block-end: -100px;
+    inset-inline-start: 50px;
+    opacity: 0.12;
+  }
+
+  .hero-orb--3 {
+    width: 350px;
+    height: 350px;
+    background: #4A90D9;
+    inset-block-start: 40%;
+    inset-inline-start: 35%;
+    opacity: 0.08;
+  }
+
+  .hero-inner {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-16, 4rem);
+    align-items: center;
+    padding-block: var(--space-20, 5rem);
+    flex: 1;
+  }
+
+  .hero-eyebrow {
+    font-size: var(--text-sm, 0.875rem);
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
+    margin-block-end: var(--space-3, 0.75rem);
+    letter-spacing: 0.02em;
+  }
+
+  .hero-title {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    font-weight: 900;
+    color: white;
+    line-height: 1.15;
+    margin-block-end: var(--space-6, 1.5rem);
+  }
+
+  .hero-subtitle {
+    font-size: var(--text-lg, 1.125rem);
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+    max-width: 50ch;
+    margin-block-end: var(--space-8, 2rem);
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: var(--space-4, 1rem);
+    flex-wrap: wrap;
+  }
+
+  .hero-visual {
+    position: relative;
+    flex-shrink: 0;
+  }
+
+  .hero-image-frame {
+    width: 380px;
+    height: 460px;
+    border-radius: var(--radius-xl, 1rem);
+    overflow: hidden;
+    border: 3px solid rgba(201, 168, 76, 0.35);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.4);
+  }
+
+  .hero-portrait {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+  }
+
+  .hero-float {
+    position: absolute;
+    background: white;
+    border-radius: var(--radius-md, 0.5rem);
+    padding: var(--space-2, 0.5rem) var(--space-4, 1rem);
+    font-weight: 700;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+  }
+
+  .hero-float--btc {
+    font-size: 2rem;
+    color: var(--color-accent-dark, #B8860B);
+    inset-block-start: 30px;
+    inset-inline-start: -55px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-float--years {
+    font-size: var(--text-sm, 0.875rem);
+    color: var(--color-primary-dark, #1A0A2E);
+    inset-block-start: 100px;
+    inset-inline-start: -130px;
+  }
+
+  .hero-float--students {
+    font-size: var(--text-sm, 0.875rem);
+    color: var(--color-primary-dark, #1A0A2E);
+    inset-block-end: 80px;
+    inset-inline-end: -60px;
+  }
+
+  .hero-scroll {
+    position: absolute;
+    inset-block-end: var(--space-8, 2rem);
+    inset-inline-start: 50%;
+    transform: translateX(50%);
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-scroll-line {
+    display: block;
+    width: 2px;
+    height: 40px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.5), transparent);
+    animation: scrollPulse 2s ease-in-out infinite;
+  }
+
+  @keyframes scrollPulse {
+    0%, 100% { opacity: 0.4; transform: scaleY(1); }
+    50% { opacity: 1; transform: scaleY(1.1); }
+  }
+
+  /* ===========================
+     INTRO SECTION
+     =========================== */
+  .intro-section {
+    background: var(--color-bg-muted, #F8F7FA);
+  }
+
+  .intro-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-16, 4rem);
+    align-items: start;
+  }
+
+  .intro-title {
+    font-size: var(--text-3xl, 1.875rem);
+    color: var(--color-primary-dark, #1A0A2E);
+    margin-block: var(--space-3, 0.75rem) var(--space-5, 1.25rem);
+  }
+
+  .intro-values {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4, 1rem);
+  }
+
+  .value-card {
+    background: white;
+    border-radius: var(--radius-md, 0.5rem);
+    padding: var(--space-5, 1.25rem) var(--space-6, 1.5rem);
+    border: 1px solid var(--color-border-light, #EDE9F5);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2, 0.5rem);
+  }
+
+  .value-icon {
+    font-size: 1.75rem;
+    line-height: 1;
+  }
+
+  .value-title {
+    font-size: var(--text-base, 1rem);
+    font-weight: 700;
+    color: var(--color-primary, #5B2D8E);
+  }
+
+  .value-desc {
+    font-size: var(--text-sm, 0.875rem);
+    color: var(--color-text-muted, #6B7280);
+    line-height: 1.5;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  /* ===========================
+     SECTION HEADER
+     =========================== */
+  .section-header {
+    text-align: center;
+    margin-block-end: var(--space-12, 3rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-3, 0.75rem);
+  }
+
+  .section-header h2 {
+    font-size: var(--text-3xl, 1.875rem);
+    color: var(--color-primary-dark, #1A0A2E);
+    margin: 0;
+  }
+
+  .section-header--light h2 {
+    color: white;
+  }
+
+  .section-desc {
+    font-size: var(--text-lg, 1.125rem);
+    color: var(--color-text-muted, #6B7280);
+    max-width: 55ch;
+    margin: 0;
+  }
+
+  .section-footer {
+    text-align: center;
+    margin-block-start: var(--space-8, 2rem);
+  }
+
+  /* ===========================
+     GUIDES
+     =========================== */
+  .guides-section {
+    background: white;
+  }
+
+  .guide-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3, 0.75rem);
+    padding: var(--space-6, 1.5rem);
+    background: white;
+    border: 1px solid var(--color-border-light, #EDE9F5);
+    border-radius: var(--radius-lg, 0.75rem);
+    transition: all 0.25s ease;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .guide-card::after {
+    content: '';
+    position: absolute;
+    inset-block-end: 0;
+    inset-inline-start: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, var(--color-primary, #5B2D8E), var(--color-accent, #C9A84C));
+    transform: scaleX(0);
+    transform-origin: start;
+    transition: transform 0.25s ease;
+  }
+
+  .guide-card:hover {
+    box-shadow: 0 12px 40px rgba(91, 45, 142, 0.15);
+    transform: translateY(-4px);
+    border-color: var(--color-primary-light, #8B5CF6);
+    color: inherit;
+  }
+
+  .guide-card:hover::after {
+    transform: scaleX(1);
+  }
+
+  .guide-icon {
+    font-size: 2.25rem;
+    line-height: 1;
+  }
+
+  .guide-title {
+    font-size: var(--text-lg, 1.125rem);
+    font-weight: 700;
+    color: var(--color-primary-dark, #1A0A2E);
+    margin: 0;
+  }
+
+  .guide-desc {
+    font-size: var(--text-sm, 0.875rem);
+    color: var(--color-text-muted, #6B7280);
+    line-height: 1.6;
+    margin: 0;
+    flex: 1;
+    max-width: 100%;
+  }
+
+  .guide-cta {
+    font-size: var(--text-sm, 0.875rem);
+    font-weight: 600;
+    color: var(--color-primary, #5B2D8E);
+    margin-block-start: auto;
+  }
+
+  /* ===========================
+     COMMUNITY
+     =========================== */
+  .community-section {
+    background: var(--gradient-hero, linear-gradient(135deg, #1A0A2E 0%, #5B2D8E 100%));
+    color: white;
+  }
+
+  .community-section .section-desc {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .community-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-6, 1.5rem);
+    margin-block-end: var(--space-12, 3rem);
+  }
+
+  .community-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius-lg, 0.75rem);
+    padding: var(--space-6, 1.5rem);
+    backdrop-filter: blur(8px);
+    text-align: center;
+    transition: background 0.25s ease;
+  }
+
+  .community-card:hover {
+    background: rgba(255, 255, 255, 0.12);
+  }
+
+  .community-icon {
+    font-size: 2.5rem;
+    display: block;
+    margin-block-end: var(--space-3, 0.75rem);
+  }
+
+  .community-title {
+    font-size: var(--text-lg, 1.125rem);
+    font-weight: 700;
+    color: var(--color-accent-light, #F5D78E);
+    margin-block-end: var(--space-3, 0.75rem);
+  }
+
+  .community-desc {
+    font-size: var(--text-sm, 0.875rem);
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.6;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .community-cta {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-4, 1rem);
+  }
+
+  .community-cta-text {
+    font-size: var(--text-lg, 1.125rem);
+    color: rgba(255, 255, 255, 0.85);
+    margin: 0;
+  }
+
+  /* ===========================
+     SERVICES
+     =========================== */
+  .services-section {
+    background: var(--color-bg-muted, #F8F7FA);
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6, 1.5rem);
+  }
+
+  .service-card {
+    background: white;
+    border: 1px solid var(--color-border-light, #EDE9F5);
+    border-radius: var(--radius-lg, 0.75rem);
+    padding: var(--space-8, 2rem);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4, 1rem);
+    position: relative;
+    transition: all 0.25s ease;
+  }
+
+  .service-card:hover {
+    box-shadow: 0 16px 48px rgba(91, 45, 142, 0.12);
+    transform: translateY(-4px);
+  }
+
+  .service-card--featured {
+    border-color: var(--color-primary, #5B2D8E);
+    background: linear-gradient(145deg, white 0%, #F8F4FE 100%);
+    box-shadow: 0 8px 32px rgba(91, 45, 142, 0.1);
+  }
+
+  .service-badge {
+    position: absolute;
+    inset-block-start: -13px;
+    inset-inline-start: 50%;
+    transform: translateX(50%);
+    background: linear-gradient(to left, var(--color-primary, #5B2D8E), var(--color-accent, #C9A84C));
+    color: white;
+    padding: var(--space-1, 0.25rem) var(--space-4, 1rem);
+    border-radius: 100px;
+    font-size: var(--text-xs, 0.75rem);
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .service-icon {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+
+  .service-title {
+    font-size: var(--text-xl, 1.25rem);
+    font-weight: 700;
+    color: var(--color-primary-dark, #1A0A2E);
+    margin: 0;
+  }
+
+  .service-desc {
+    font-size: var(--text-sm, 0.875rem);
+    color: var(--color-text-muted, #6B7280);
+    line-height: 1.65;
+    margin: 0;
+    flex: 1;
+    max-width: 100%;
+  }
+
+  /* ===========================
+     SOCIAL SECTION
+     =========================== */
+  .social-section {
+    background: white;
+    text-align: center;
+  }
+
+  .social-title {
+    font-size: var(--text-2xl, 1.5rem);
+    font-weight: 700;
+    color: var(--color-primary-dark, #1A0A2E);
+    margin-block-end: var(--space-2, 0.5rem);
+  }
+
+  .social-desc {
+    font-size: var(--text-base, 1rem);
+    color: var(--color-text-muted, #6B7280);
+    margin-block-end: var(--space-8, 2rem);
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-4, 1rem);
+    flex-wrap: wrap;
+  }
+
+  .social-link {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2, 0.5rem);
+    padding: var(--space-3, 0.75rem) var(--space-5, 1.25rem);
+    border-radius: var(--radius-md, 0.5rem);
+    font-size: var(--text-sm, 0.875rem);
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease;
+    border: 2px solid transparent;
+  }
+
+  .social-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+
+  .social-link--instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+  .social-link--facebook { background: #1877F2; }
+  .social-link--youtube { background: #FF0000; }
+  .social-link--whatsapp { background: #25D366; }
+
+  /* ===========================
+     RESPONSIVE
+     =========================== */
+  @media (max-width: 1100px) {
+    .hero-inner {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .hero-subtitle,
+    .hero-actions {
+      margin-inline: auto;
+      justify-content: center;
+    }
+
+    .hero-visual {
+      display: none;
+    }
+
+    .intro-inner {
+      grid-template-columns: 1fr;
+    }
+
+    .community-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .community-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .hero-title {
+      font-size: 2.25rem;
+    }
+
+    .social-links {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .social-link {
+      width: 100%;
+      max-width: 280px;
+      justify-content: center;
+    }
+  }
+</style>

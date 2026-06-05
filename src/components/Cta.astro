@@ -1,0 +1,141 @@
+---
+export interface Props {
+  title?: string;
+  subtitle?: string;
+  primaryHref?: string;
+  primaryLabel?: string;
+  secondaryHref?: string;
+  secondaryLabel?: string;
+  variant?: 'default' | 'minimal';
+}
+
+const {
+  title = 'מוכנה להתחיל את המסע שלך בקריפטו?',
+  subtitle = 'הצטרפי לאלפי נשים וגברים שכבר למדו איך להשקיע בצורה בטוחה ונכונה.',
+  primaryHref = '/course',
+  primaryLabel = 'לקורס הדגל',
+  secondaryHref = '/contact',
+  secondaryLabel = 'לדבר איתי',
+  variant = 'default',
+} = Astro.props;
+---
+
+<section class={`cta-section cta-section--${variant}`} aria-labelledby="cta-heading">
+  <div class="container cta-inner">
+    <div class="cta-content">
+      <h2 id="cta-heading" class="cta-title">{title}</h2>
+      {subtitle && <p class="cta-subtitle">{subtitle}</p>}
+      <div class="cta-actions">
+        <a href={primaryHref} class="btn btn--primary btn--lg">
+          {primaryLabel}
+        </a>
+        {secondaryHref && (
+          <a href={secondaryHref} class="btn btn--ghost">
+            {secondaryLabel}
+          </a>
+        )}
+      </div>
+    </div>
+    <!-- Decorative -->
+    <div class="cta-decoration" aria-hidden="true">
+      <div class="cta-ring cta-ring--1"></div>
+      <div class="cta-ring cta-ring--2"></div>
+      <div class="cta-ring cta-ring--3"></div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .cta-section {
+    background: var(--gradient-hero);
+    border-radius: var(--radius-xl);
+    margin-inline: var(--space-6);
+    margin-block: var(--space-20);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .cta-section--minimal {
+    border-radius: var(--radius-lg);
+    margin-inline: 0;
+    margin-block: var(--space-12);
+  }
+
+  .cta-inner {
+    padding-block: var(--space-16);
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .cta-section--minimal .cta-inner {
+    padding-block: var(--space-12);
+  }
+
+  .cta-title {
+    font-size: var(--text-3xl);
+    font-weight: 800;
+    color: white;
+    margin-block-end: var(--space-4);
+  }
+
+  .cta-subtitle {
+    font-size: var(--text-lg);
+    color: rgba(255,255,255,0.8);
+    margin-block-end: var(--space-8);
+    max-width: 50ch;
+    margin-inline: auto;
+  }
+
+  .cta-actions {
+    display: flex;
+    gap: var(--space-4);
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* Decorative rings */
+  .cta-decoration {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  .cta-ring {
+    position: absolute;
+    border-radius: var(--radius-full);
+    border: 1px solid rgba(201, 168, 76, 0.15);
+  }
+
+  .cta-ring--1 {
+    width: 300px;
+    height: 300px;
+    inset-block-start: -100px;
+    inset-inline-end: -80px;
+  }
+
+  .cta-ring--2 {
+    width: 200px;
+    height: 200px;
+    inset-block-end: -60px;
+    inset-inline-start: 60px;
+  }
+
+  .cta-ring--3 {
+    width: 150px;
+    height: 150px;
+    inset-block-start: 20px;
+    inset-inline-start: 200px;
+    border-color: rgba(201, 168, 76, 0.1);
+  }
+
+  @media (max-width: 640px) {
+    .cta-section {
+      margin-inline: var(--space-4);
+    }
+
+    .cta-title {
+      font-size: var(--text-2xl);
+    }
+  }
+</style>
