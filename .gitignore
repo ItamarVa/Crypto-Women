@@ -39,3 +39,6 @@ lighthouse-report/
 # embedding / graphify model cache (large binaries — never commit or deploy)
 .fastembed_cache/
 **/.fastembed_cache/
+
+# local dev preview config
+.claude/
