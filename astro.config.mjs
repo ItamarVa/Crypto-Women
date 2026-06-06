@@ -4,7 +4,8 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://cryptowomen-il.com',
+  site: 'https://itamarva.github.io',
+  base: '/Crypto-Women',
   output: 'static',
   prefetch: {
     prefetchAll: true,
