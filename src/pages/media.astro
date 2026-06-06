@@ -102,7 +102,7 @@ const appearances = [
     link: 'https://open.spotify.com/episode/6d5VV9PPxShWVJbtpJNjmZ',
     cta: 'להאזנה',
     img: '/images/-ynow.jpeg',
-    imgPos: 'top',
+    imgContain: true,
   },
   {
     title: 'פודקאסט "הפסיכולוגיה של הכסף"',
@@ -180,9 +180,10 @@ const appearances = [
         {appearances.map((item) => {
           const isLogoPlaceholder = item.img === '/images/5_optimized.jpg';
           const useContain = isLogoPlaceholder || item.imgContain;
+          const imgClass = ['media-card-img', useContain && 'media-card-img--contain', isLogoPlaceholder && 'media-card-img--logo'].filter(Boolean).join(' ');
           return (
           <article class="media-card">
-            <div class={`media-card-img${useContain ? ' media-card-img--contain' : ''}`}>
+            <div class={imgClass}>
               <img
                 src={withBase(item.img)}
                 alt={item.title}
@@ -288,6 +289,9 @@ const appearances = [
   }
   .media-card-img--contain img {
     object-fit: contain;
+    padding: 0;
+  }
+  .media-card-img--logo img {
     padding: var(--space-4);
   }
 
