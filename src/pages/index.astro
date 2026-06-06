@@ -106,12 +106,10 @@ const structuredData = {
             loading="eager"
             decoding="async"
             class="hero-portrait"
-            onerror={`this.onerror=null; this.src='${withBase('/images/makologonew2024_autoorient_i_optimized.jpg')}'`}
+            onerror={`this.onerror=null; this.src='${withBase('/images/whatsapp-image-2024-01-06-at-08_optimized.57.53.jpeg')}'`}
           />
         </div>
         <div class="hero-float hero-float--btc">₿</div>
-        <div class="hero-float hero-float--years">7+ שנות ניסיון</div>
-        <div class="hero-float hero-float--students">1000+ משקיעים</div>
       </div>
     </div>
     <div class="hero-scroll" aria-hidden="true">
@@ -427,28 +425,14 @@ const structuredData = {
   .hero-float--btc {
     font-size: 2rem;
     color: var(--color-accent-dark, #B8860B);
-    inset-block-start: 30px;
-    inset-inline-start: -55px;
+    inset-block-start: 24px;
+    inset-inline-start: 20px;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .hero-float--years {
-    font-size: var(--text-sm, 0.875rem);
-    color: var(--color-primary-dark, #1A0A2E);
-    inset-block-start: 100px;
-    inset-inline-start: -130px;
-  }
-
-  .hero-float--students {
-    font-size: var(--text-sm, 0.875rem);
-    color: var(--color-primary-dark, #1A0A2E);
-    inset-block-end: 80px;
-    inset-inline-end: -60px;
   }
 
   .hero-scroll {
@@ -834,7 +818,12 @@ const structuredData = {
     .hero-inner {
       grid-template-columns: 1fr;
       text-align: center;
+      justify-items: center;
+      gap: var(--space-10, 2.5rem);
     }
+
+    .hero-text { order: 2; }
+    .hero-visual { order: 1; }
 
     .hero-subtitle,
     .hero-actions {
@@ -843,7 +832,14 @@ const structuredData = {
     }
 
     .hero-visual {
-      display: none;
+      display: block;
+      margin-inline: auto;
+    }
+
+    .hero-image-frame {
+      width: min(300px, 78vw);
+      height: auto;
+      aspect-ratio: 380 / 460;
     }
 
     .intro-inner {

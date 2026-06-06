@@ -17,7 +17,7 @@ export interface Props {
 const {
   title,
   description = 'ביטקוין, בלוקצ\'יין וקריפטו — ידע, מדריכים וקורסים לנשים (וגברים) שרוצים להשקיע בצורה בטוחה ונכונה',
-  image = '/images/makologonew2024_autoorient_i_optimized.jpg',
+  image = '/images/5_optimized.jpg',
   ogType = 'website',
   noIndex = false,
   structuredData,
@@ -55,10 +55,9 @@ const fullTitle = title === 'Crypto Women' ? title : `${title} | Crypto Women`;
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href={withBase('/favicon.svg')} />
-    <link rel="icon" type="image/x-icon" href={withBase('/favicon.ico')} />
-    <link rel="apple-touch-icon" href={withBase('/favicon.svg')} />
+    <!-- Favicon (real Crypto Women logo) -->
+    <link rel="icon" type="image/jpeg" href={withBase('/images/5_optimized.jpg')} />
+    <link rel="apple-touch-icon" href={withBase('/images/5_optimized.jpg')} />
 
     <!-- Fonts preload -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />

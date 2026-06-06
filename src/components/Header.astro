@@ -49,14 +49,7 @@ const isActive = (href: string) => norm(withBase(href)) === norm(currentPath);
   <div class="container header-inner">
     <!-- Logo -->
     <a href={withBase('/')} class="logo" aria-label="Crypto Women — חזרה לדף הבית">
-      <img
-        src={withBase('/images/logo.jpg')}
-        alt="Crypto Women לוגו"
-        width="160"
-        height="48"
-        class="logo-img"
-        loading="eager"
-      />
+      <span class="logo-text">crypto<span class="logo-text-2">women</span></span>
     </a>
 
     <!-- Desktop Nav -->
@@ -166,9 +159,22 @@ const isActive = (href: string) => norm(withBase(href)) === norm(currentPath);
 
   .logo:hover { opacity: 0.85; }
 
-  .logo-img {
-    height: 44px;
-    width: auto;
+  .logo-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    color: #E6007A;
+    display: inline-flex;
+    gap: 0.28em;
+    align-items: baseline;
+    direction: ltr;
+  }
+  .logo-text-2 { color: #C71585; }
+
+  @media (max-width: 480px) {
+    .logo-text { font-size: 1.3rem; }
   }
 
   /* Desktop Nav */
@@ -375,31 +381,48 @@ const isActive = (href: string) => norm(withBase(href)) === norm(currentPath);
     }
   }
 
-  @media (max-width: 480px) {
-    .logo-img {
-      height: 36px;
-    }
-  }
 </style>
 
 <script>
-  const toggle = document.getElementById('mobile-toggle');
-  const menu = document.getElementById('mobile-menu');
+  function openMenu(toggle: HTMLElement, menu: HTMLElement) {
+    toggle.setAttribute('aria-expanded', 'true');
+    menu.removeAttribute('hidden');
+    toggle.setAttribute('aria-label', 'סגור תפריט ניווט');
+  }
+  function closeMenu(toggle: HTMLElement, menu: HTMLElement) {
+    toggle.setAttribute('aria-expanded', 'false');
+    menu.setAttribute('hidden', '');
+    toggle.setAttribute('aria-label', 'פתח תפריט ניווט');
+  }
 
-  toggle?.addEventListener('click', () => {
-    const isOpen = toggle.getAttribute('aria-expanded') === 'true';
-    toggle.setAttribute('aria-expanded', String(!isOpen));
-    menu?.toggleAttribute('hidden');
-    toggle.setAttribute('aria-label', isOpen ? 'פתח תפריט ניווט' : 'סגור תפריט ניווט');
-  });
+  function initMobileNav() {
+    const toggle = document.getElementById('mobile-toggle');
+    const menu = document.getElementById('mobile-menu');
+    if (!toggle || !menu) return;
+    // Guard against double-binding after client-side navigations
+    if (toggle.dataset.bound === '1') return;
+    toggle.dataset.bound = '1';
 
-  // Close on ESC
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && toggle?.getAttribute('aria-expanded') === 'true') {
-      toggle.setAttribute('aria-expanded', 'false');
-      menu?.setAttribute('hidden', '');
-      toggle.setAttribute('aria-label', 'פתח תפריט ניווט');
-      toggle.focus();
-    }
-  });
+    toggle.addEventListener('click', () => {
+      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+      if (isOpen) closeMenu(toggle, menu); else openMenu(toggle, menu);
+    });
+
+    // Close when a menu link is tapped
+    menu.addEventListener('click', (e) => {
+      if ((e.target as HTMLElement).closest('a')) closeMenu(toggle, menu);
+    });
+
+    // Close on ESC
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
+        closeMenu(toggle, menu);
+        toggle.focus();
+      }
+    });
+  }
+
+  // Run on first load AND after every View Transitions navigation
+  initMobileNav();
+  document.addEventListener('astro:page-load', initMobileNav);
 </script>
