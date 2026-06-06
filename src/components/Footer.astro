@@ -1,4 +1,6 @@
 ---
+import { withBase } from '../lib/url';
+
 const currentYear = new Date().getFullYear();
 
 const footerLinks = {
@@ -11,12 +13,12 @@ const footerLinks = {
     { href: '/books', label: 'ספרונים קצרים' },
   ],
   guides: [
-    { href: '/guides/bitcoin-hand-in-hand', label: 'ביטקוין יד ביד' },
     { href: '/guides/how-to-buy-and-sell', label: 'איך קונים ומוכרים' },
-    { href: '/guides/digital-wallet', label: 'ארנק דיגיטלי' },
+    { href: '/guides/evreything-about-digital-wallet', label: 'ארנק דיגיטלי' },
+    { href: '/guides/digital-wallet-practical', label: 'הדגמת ארנק חם' },
     { href: '/guides/tax', label: 'מיסוי קריפטו' },
-    { href: '/guides/cold-wallet', label: 'ארנק קר' },
-    { href: '/guides/risk-management', label: 'ניהול סיכונים' },
+    { href: '/guides/cold-wallet-guide', label: 'ארנק קר' },
+    { href: '/guides/how-and-risks', label: 'ניהול סיכונים' },
   ],
   blog: [
     { href: '/blog', label: 'כל המאמרים' },
@@ -63,8 +65,8 @@ const footerLinks = {
     <div class="container footer-grid">
       <!-- Brand Column -->
       <div class="footer-brand">
-        <a href="/" class="footer-logo" aria-label="Crypto Women — חזרה לדף הבית">
-          <img src="/images/logo-white.png" alt="Crypto Women" width="160" height="48" loading="lazy" />
+        <a href={withBase('/')} class="footer-logo" aria-label="Crypto Women — חזרה לדף הבית">
+          <span class="footer-logo-text">Crypto Women</span>
         </a>
         <p class="footer-tagline">
           ביטקוין, בלוקצ'יין וקריפטו — ידע ומדריכים לנשים (וגברים) שרוצים להשקיע בצורה בטוחה ונכונה
@@ -121,7 +123,7 @@ const footerLinks = {
         <h3 class="footer-col-title">שירותים</h3>
         <ul class="footer-link-list" role="list">
           {footerLinks.services.map((l) => (
-            <li><a href={l.href} class="footer-link">{l.label}</a></li>
+            <li><a href={withBase(l.href)} class="footer-link">{l.label}</a></li>
           ))}
         </ul>
       </div>
@@ -131,7 +133,7 @@ const footerLinks = {
         <h3 class="footer-col-title">מדריכים</h3>
         <ul class="footer-link-list" role="list">
           {footerLinks.guides.map((l) => (
-            <li><a href={l.href} class="footer-link">{l.label}</a></li>
+            <li><a href={withBase(l.href)} class="footer-link">{l.label}</a></li>
           ))}
         </ul>
       </div>
@@ -141,17 +143,17 @@ const footerLinks = {
         <h3 class="footer-col-title">בלוג</h3>
         <ul class="footer-link-list" role="list">
           {footerLinks.blog.map((l) => (
-            <li><a href={l.href} class="footer-link">{l.label}</a></li>
+            <li><a href={withBase(l.href)} class="footer-link">{l.label}</a></li>
           ))}
         </ul>
         <div style="margin-block-start: var(--space-4);">
-          <a href="/contact" class="footer-link font-bold">צור קשר</a>
+          <a href={withBase('/contact')} class="footer-link font-bold">צור קשר</a>
         </div>
         <div style="margin-block-start: var(--space-2);">
-          <a href="/about" class="footer-link font-bold">עליי</a>
+          <a href={withBase('/about')} class="footer-link font-bold">עליי</a>
         </div>
         <div style="margin-block-start: var(--space-2);">
-          <a href="/media" class="footer-link font-bold">מדיה</a>
+          <a href={withBase('/media')} class="footer-link font-bold">מדיה</a>
         </div>
       </div>
     </div>
@@ -199,9 +201,15 @@ const footerLinks = {
 
   .footer-logo:hover { opacity: 0.85; }
 
-  .footer-logo img {
-    height: 44px;
-    width: auto;
+  .footer-logo-text {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 0;
+    background: linear-gradient(90deg, #fff 0%, var(--color-accent-light, #f0d080) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .footer-tagline {

@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import Cta from '../components/Cta.astro';
 import { getCollection } from 'astro:content';
+import { withBase } from '../lib/url';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
 const featuredPosts = allPosts
@@ -86,26 +87,26 @@ const structuredData = {
           ביטקוין, בלוקצ'יין וקריפטו נשמעים מסובך? אני קרן ולדמן חנן, ואני כאן כדי לפשט, ללמד ולעזור לך לקחת את ההחלטות הפיננסיות הנכונות
         </p>
         <div class="hero-actions">
-          <a href="/course" class="btn btn--primary btn--lg">
+          <a href={withBase('/course')} class="btn btn--primary btn--lg">
             לקורס הדגל
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true" style="transform:scaleX(-1)">
               <path d="M5 12h14M12 5l7 7-7 7"/>
             </svg>
           </a>
-          <a href="/about" class="btn btn--ghost btn--lg">קצת עליי</a>
+          <a href={withBase('/about')} class="btn btn--ghost btn--lg">קצת עליי</a>
         </div>
       </div>
       <div class="hero-visual" aria-hidden="true">
         <div class="hero-image-frame">
           <img
-            src="/images/-copy_optimized-1.jpeg"
+            src={withBase('/images/-copy_optimized-1.jpeg')}
             alt="קרן ולדמן חנן — מייסדת Crypto Women"
             width="480"
             height="540"
             loading="eager"
             decoding="async"
             class="hero-portrait"
-            onerror="this.onerror=null; this.src='/images/makologonew2024_autoorient_i_optimized.jpg'"
+            onerror={`this.onerror=null; this.src='${withBase('/images/makologonew2024_autoorient_i_optimized.jpg')}'`}
           />
         </div>
         <div class="hero-float hero-float--btc">₿</div>
@@ -133,7 +134,7 @@ const structuredData = {
         <p>
           מזמינה אותך לפתוח את הראש, ללמוד ולהכיר — כי רק אם יוצאים למסע מגיעים למקומות נפלאים.
         </p>
-        <a href="/about" class="btn btn--secondary">עוד עליי</a>
+        <a href={withBase('/about')} class="btn btn--secondary">עוד עליי</a>
       </div>
       <div class="intro-values" aria-label="ערכי הקהילה">
         {[
@@ -161,7 +162,7 @@ const structuredData = {
       </div>
       <div class="grid-3">
         {guides.map(g => (
-          <a href={g.href} class="guide-card" aria-label={g.title}>
+          <a href={withBase(g.href)} class="guide-card" aria-label={g.title}>
             <span class="guide-icon" aria-hidden="true">{g.icon}</span>
             <h3 class="guide-title">{g.title}</h3>
             <p class="guide-desc">{g.desc}</p>
@@ -170,7 +171,7 @@ const structuredData = {
         ))}
       </div>
       <div class="section-footer">
-        <a href="/guides" class="btn btn--secondary">כל המדריכים</a>
+        <a href={withBase('/guides')} class="btn btn--secondary">כל המדריכים</a>
       </div>
     </div>
   </section>
@@ -223,7 +224,7 @@ const structuredData = {
             <span class="service-icon" aria-hidden="true">{s.icon}</span>
             <h3 class="service-title">{s.title}</h3>
             <p class="service-desc">{s.desc}</p>
-            <a href={s.href} class={`btn ${s.featured ? 'btn--primary' : 'btn--secondary'}`}>
+            <a href={withBase(s.href)} class={`btn ${s.featured ? 'btn--primary' : 'btn--secondary'}`}>
               {s.cta}
             </a>
           </div>
@@ -246,14 +247,14 @@ const structuredData = {
             <ArticleCard
               title={post.data.title}
               description={post.data.description}
-              href={`/blog/${post.id}`}
+              href={withBase(`/blog/${post.id}`)}
               pubDate={post.data.pubDate}
               category={post.data.category}
             />
           ))}
         </div>
         <div class="section-footer">
-          <a href="/blog" class="btn btn--secondary">כל המאמרים</a>
+          <a href={withBase('/blog')} class="btn btn--secondary">כל המאמרים</a>
         </div>
       </div>
     </section>

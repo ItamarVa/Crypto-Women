@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Cta from '../components/Cta.astro';
+import { withBase } from '../lib/url';
 ---
 
 <BaseLayout
@@ -52,13 +53,13 @@ import Cta from '../components/Cta.astro';
       <div class="story-image-wrap">
         <div class="story-image-frame">
           <img
-            src="/images/whatsapp-image-2024-01-06-at-08_optimized.57.53.jpeg"
+            src={withBase('/images/whatsapp-image-2024-01-06-at-08_optimized.57.53.jpeg')}
             alt="קרן ולדמן חנן"
             width="480"
             height="640"
             loading="eager"
             class="story-portrait"
-            onerror="this.onerror=null; this.src='/images/makologonew2024_autoorient_i_optimized.jpg'"
+            onerror={`this.onerror=null; this.src='${withBase('/images/makologonew2024_autoorient_i_optimized.jpg')}'`}
           />
         </div>
       </div>
@@ -118,8 +119,8 @@ import Cta from '../components/Cta.astro';
         <div class="message-actions">
           <h3 class="message-cta-title">מוכנה להתחיל?</h3>
           <div class="message-cta-buttons">
-            <a href="/course" class="btn btn--primary btn--lg">לקורס הדגל</a>
-            <a href="/contact" class="btn btn--secondary">צרי קשר</a>
+            <a href={withBase('/course')} class="btn btn--primary btn--lg">לקורס הדגל</a>
+            <a href={withBase('/contact')} class="btn btn--secondary">צרי קשר</a>
             <a href="https://www.facebook.com/groups/cryptowomen.il" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">הצטרפי לקהילה</a>
           </div>
         </div>

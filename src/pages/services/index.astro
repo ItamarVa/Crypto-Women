@@ -1,0 +1,199 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Cta from '../../components/Cta.astro';
+import { withBase } from '../../lib/url';
+
+const services = [
+  {
+    title: 'קורס קריפטו וומן',
+    href: '/course',
+    img: '/images/2-04092023.jpeg',
+    desc: 'קורס "קריפטו וומן" הוא לא רק קורס, אלא חוויה מעמיקה להבנת עולם הבלוקצ\'יין והקריפטו שמביא איתו מהפכה פיננסית. הקורס מספק ידע תיאורטי מעמיק, מלווה בפרקטיקה ואף נוגע בפסיכולוגיית משקיעים — כדי לתת לך את כל הכלים להשתלב, לצמוח ולהצליח.',
+    featured: true,
+    icon: '🎓',
+  },
+  {
+    title: 'ליווי פרטני',
+    href: '/services/personal-escort',
+    img: '/images/-scaled.jpg',
+    desc: 'החשש הטכנולוגי וחוסר ההבנה בתחום הקריפטו יכולים להוות חסם כניסה. הגיע הזמן לעשות את הצעד הראשון יחד, יד ביד — כך תוכלי להשקיע בביטחון, מתוך ידע וללא חשש, ולבנות תיק השקעות ארוך טווח.',
+    icon: '🤝',
+  },
+  {
+    title: 'פגישת אסטרטגיה',
+    href: '/services/strategic-meeting',
+    img: '/images/bitcoin-5222479_1280_optimized-1024x680.jpg',
+    desc: 'הפחד מהלא-נודע מונע מהרבה אנשים לעשות את הצעד הראשון. בפגישת האסטרטגיה נעשה סדר, נבין יחד מה מתאים לך, נבחן את האפשרויות ונבנה תכנית פעולה אישית שתיתן לך בהירות וביטחון לצאת לדרך.',
+    icon: '🎯',
+  },
+  {
+    title: 'הרצאות',
+    href: '/services/lectures',
+    img: '/images/3-.jpg',
+    desc: 'ביטקוין, אתריום, NFT ועוד מושגים הגיעו לאוזנינו מבלי שלמדנו עליהם. בהרצאות אשתף מהידע שלי על מסע הזמן של הכסף, איך נולד הביטקוין, מהו בלוקצ\'יין ולמה העולם הזה מהפכני — ונביט אל עתיד הכסף.',
+    icon: '🎤',
+  },
+  {
+    title: 'ספרונים קצרים',
+    href: '/books',
+    img: '/images/block_master_optimized.jpg',
+    desc: 'ידע מהיר במחיר שווה לכל כיס — ספרונים קצרים על בלוקצ\'יין, NFT ו-CBDC. מינימום מילים, מקסימום הבנה.',
+    icon: '📖',
+  },
+];
+---
+
+<BaseLayout
+  title="איך אני יכולה לעזור? — שירותים | Crypto Women"
+  description="קורס, ליווי פרטני, פגישת אסטרטגיה, הרצאות וספרונים — בחרי את המסלול שמתאים לך להיכנס לעולם הקריפטו בביטחון. עם קרן ולדמן חנן."
+>
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="container" style="text-align:center">
+      <span class="badge badge--accent">שירותים</span>
+      <h1 class="page-hero-title">איך אני יכולה לעזור?</h1>
+      <p class="page-hero-subtitle">
+        הדחיפה הקטנה מאחורי החלומות שלך — בחרי את המסלול שמתאים לך, מקורס מקיף ועד ליווי אישי
+      </p>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section services-section">
+    <div class="container">
+      <div class="services-list">
+        {services.map((s, i) => (
+          <article class={`service-row ${i % 2 === 1 ? 'service-row--reverse' : ''} ${s.featured ? 'service-row--featured' : ''}`}>
+            <a href={withBase(s.href)} class="service-img-link" tabindex="-1" aria-hidden="true">
+              <img
+                src={withBase(s.img)}
+                alt={s.title}
+                loading="lazy"
+                class="service-img"
+                onerror="this.closest('.service-row').classList.add('no-img')"
+              />
+            </a>
+            <div class="service-body">
+              {s.featured && <span class="badge badge--accent">הכי פופולרי</span>}
+              <h2 class="service-row-title">
+                <span class="service-emoji" aria-hidden="true">{s.icon}</span>
+                {s.title}
+              </h2>
+              <p class="service-row-desc">{s.desc}</p>
+              <a href={withBase(s.href)} class={`btn ${s.featured ? 'btn--primary' : 'btn--secondary'}`}>
+                למידע נוסף
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <Cta />
+</BaseLayout>
+
+<style>
+  .page-hero {
+    background: var(--gradient-hero);
+    padding-block: var(--space-20);
+  }
+  .page-hero-title {
+    font-size: var(--text-4xl);
+    font-weight: 900;
+    color: white;
+    margin-block: var(--space-4);
+  }
+  .page-hero-subtitle {
+    font-size: var(--text-lg);
+    color: rgba(255,255,255,0.85);
+    max-width: 58ch;
+    margin-inline: auto;
+  }
+
+  .services-section { background: var(--color-bg); }
+
+  .services-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-12);
+    max-width: 1000px;
+    margin-inline: auto;
+  }
+
+  .service-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-10);
+    align-items: center;
+    background: white;
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+  }
+  .service-row:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-3px);
+  }
+  .service-row--featured {
+    border-color: var(--color-accent-light, #e8cf8f);
+    box-shadow: 0 8px 30px rgba(201,168,76,0.12);
+  }
+  .service-row--reverse { direction: ltr; }
+  .service-row--reverse .service-body { direction: rtl; }
+
+  .service-img-link {
+    display: block;
+    height: 100%;
+    min-height: 260px;
+    overflow: hidden;
+  }
+  .service-img {
+    width: 100%;
+    height: 100%;
+    min-height: 260px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  .service-row:hover .service-img { transform: scale(1.04); }
+  .service-row.no-img .service-img-link { display: none; }
+  .service-row.no-img { grid-template-columns: 1fr; }
+
+  .service-body {
+    padding: var(--space-10);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    align-items: flex-start;
+  }
+
+  .service-row-title {
+    font-size: var(--text-2xl);
+    font-weight: 800;
+    color: var(--color-primary-dark);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+  }
+  .service-emoji { font-size: 1.6rem; }
+
+  .service-row-desc {
+    font-size: var(--text-base);
+    color: var(--color-text-muted);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .service-row,
+    .service-row--reverse {
+      grid-template-columns: 1fr;
+      direction: rtl;
+    }
+    .service-img-link { min-height: 200px; }
+    .service-body { padding: var(--space-8); }
+  }
+</style>

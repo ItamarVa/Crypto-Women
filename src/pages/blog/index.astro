@@ -2,16 +2,22 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import { getCollection } from 'astro:content';
+import { withBase } from '../../lib/url';
 
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
 const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-const categories = ['הכל', 'מיינדסט', 'השקעות', 'ביטקוין', "בלוקצ'יין", 'מדריך', 'כללי'];
 const categoryCounts: Record<string, number> = {};
 posts.forEach(p => {
   const cat = p.data.category || 'כללי';
   categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
 });
+// Only list categories that actually have posts (a category page is only
+// generated for categories present in the content — others would 404).
+const presentCategories = Object.keys(categoryCounts).sort(
+  (a, b) => categoryCounts[b] - categoryCounts[a]
+);
+const categories = ['הכל', ...presentCategories];
 ---
 
 <BaseLayout
@@ -34,7 +40,7 @@ posts.forEach(p => {
     <div class="container category-inner">
       {categories.map(cat => (
         <a
-          href={cat === 'הכל' ? '/blog' : `/blog/category/${cat}`}
+          href={cat === 'הכל' ? withBase('/blog') : withBase(`/blog/category/${cat}`)}
           class={`category-pill ${cat === 'הכל' ? 'category-pill--active' : ''}`}
           aria-current={cat === 'הכל' ? 'page' : undefined}
         >
@@ -59,7 +65,7 @@ posts.forEach(p => {
             <ArticleCard
               title={post.data.title}
               description={post.data.description}
-              href={`/blog/${post.id}`}
+              href={withBase(`/blog/${post.id}`)}
               pubDate={post.data.pubDate}
               category={post.data.category}
               heroImage={post.data.heroImage}

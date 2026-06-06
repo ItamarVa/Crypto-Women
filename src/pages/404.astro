@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/url';
 ---
 
 <BaseLayout title="דף לא נמצא | Crypto Women" description="הדף המבוקש לא נמצא">
@@ -11,9 +12,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         נראה שהדף שחיפשתם נעלם כמו מטבע קריפטו בשוק דובי. אל דאגה, אפשר לחזור הביתה.
       </p>
       <div class="not-found-actions">
-        <a href="/" class="btn btn--primary">חזרה לעמוד הבית</a>
-        <a href="/blog" class="btn btn--secondary">לבלוג</a>
-        <a href="/guides" class="btn btn--ghost">למדריכים</a>
+        <a href={withBase('/')} class="btn btn--primary">חזרה לעמוד הבית</a>
+        <a href={withBase('/blog')} class="btn btn--secondary">לבלוג</a>
+        <a href={withBase('/guides')} class="btn btn--ghost">למדריכים</a>
       </div>
     </div>
   </section>

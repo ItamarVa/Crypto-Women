@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Cta from '../../components/Cta.astro';
+import { withBase } from '../../lib/url';
 
 const schoolerEscortUrl = 'https://meshulam.co.il/s/22a8fd8c-baa0-2254-4c7b-6259f5b0b273';
 
@@ -91,7 +92,7 @@ const process = [
           <a href={schoolerEscortUrl} target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--lg">
             בול מה שחיפשתי
           </a>
-          <a href="/contact" class="btn btn--secondary">לעוד פרטים, צרו קשר</a>
+          <a href={withBase('/contact')} class="btn btn--secondary">לעוד פרטים, צרו קשר</a>
         </div>
       </div>
     </div>

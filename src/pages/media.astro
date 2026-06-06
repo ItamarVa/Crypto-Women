@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/url';
 
 const appearances = [
   {
@@ -175,7 +176,7 @@ const appearances = [
           <article class="media-card">
             <div class="media-card-img">
               <img
-                src={item.img}
+                src={withBase(item.img)}
                 alt={item.title}
                 loading="lazy"
                 width="400"
@@ -187,7 +188,7 @@ const appearances = [
               <h2 class="media-card-title">{item.title}</h2>
               <p class="media-card-desc">{item.desc}</p>
               <a
-                href={item.link}
+                href={item.link.startsWith('http') ? item.link : withBase(item.link)}
                 target={item.link.startsWith('http') ? '_blank' : undefined}
                 rel={item.link.startsWith('http') ? 'noopener noreferrer' : undefined}
                 class="media-card-link"
@@ -207,8 +208,8 @@ const appearances = [
       <h2 class="cta-title">מעוניינים להזמין את קרן לאירוע שלכם?</h2>
       <p class="cta-sub">הרצאות לארגונים, כנסים, אקדמיה, ארגוני נשים ועוד</p>
       <div class="cta-actions">
-        <a href="/services/lectures" class="btn btn--primary btn--lg">הרצאות ●</a>
-        <a href="/contact" class="btn btn--secondary btn--lg">צרו קשר</a>
+        <a href={withBase('/services/lectures')} class="btn btn--primary btn--lg">הרצאות ●</a>
+        <a href={withBase('/contact')} class="btn btn--secondary btn--lg">צרו קשר</a>
       </div>
     </div>
   </section>

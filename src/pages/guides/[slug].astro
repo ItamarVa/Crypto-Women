@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Cta from '../../components/Cta.astro';
+import { withBase } from '../../lib/url';
 
 export async function getStaticPaths() {
   const guides = await getCollection('guides', ({ data }) => !data.draft);
@@ -29,7 +30,7 @@ const nextGuide = currentIdx < sortedGuides.length - 1 ? sortedGuides[currentIdx
     <!-- BREADCRUMB -->
     <div class="breadcrumb-bar">
       <div class="container breadcrumb-inner">
-        <a href="/guides" class="breadcrumb-link">מדריכים</a>
+        <a href={withBase('/guides')} class="breadcrumb-link">מדריכים</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <span class="breadcrumb-current">{guide.data.title}</span>
       </div>
@@ -48,7 +49,7 @@ const nextGuide = currentIdx < sortedGuides.length - 1 ? sortedGuides[currentIdx
         <div class="guide-meta">
           <div class="guide-author">
             <img
-              src="/images/makologonew2024_autoorient_i_optimized.jpg"
+              src={withBase('/images/makologonew2024_autoorient_i_optimized.jpg')}
               alt="קרן ולדמן חנן"
               width="40"
               height="40"
@@ -81,7 +82,7 @@ const nextGuide = currentIdx < sortedGuides.length - 1 ? sortedGuides[currentIdx
     <nav class="guide-nav" aria-label="ניווט בין מדריכים">
       <div class="container guide-nav-inner">
         {prevGuide ? (
-          <a href={`/guides/${prevGuide.id}`} class="guide-nav-btn guide-nav-btn--prev">
+          <a href={withBase(`/guides/${prevGuide.id}`)} class="guide-nav-btn guide-nav-btn--prev">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
               <path d="M5 12h14M12 5l7 7-7 7"/>
             </svg>
@@ -92,7 +93,7 @@ const nextGuide = currentIdx < sortedGuides.length - 1 ? sortedGuides[currentIdx
           </a>
         ) : <div />}
         {nextGuide ? (
-          <a href={`/guides/${nextGuide.id}`} class="guide-nav-btn guide-nav-btn--next">
+          <a href={withBase(`/guides/${nextGuide.id}`)} class="guide-nav-btn guide-nav-btn--next">
             <div>
               <span class="nav-label">המדריך הבא</span>
               <span class="nav-title">{nextGuide.data.title}</span>

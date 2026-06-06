@@ -1,4 +1,6 @@
 ---
+import { withBase } from '../lib/url';
+
 const navItems = [
   { href: '/', label: 'בית' },
   { href: '/about', label: 'עליי' },
@@ -14,13 +16,12 @@ const navItems = [
     href: '/guides',
     label: 'מדריכים',
     children: [
-      { href: '/guides/bitcoin-hand-in-hand', label: 'ביטקוין יד ביד' },
       { href: '/guides/how-to-buy-and-sell', label: 'איך קונים ומוכרים קריפטו' },
-      { href: '/guides/digital-wallet', label: 'הכל על ארנק דיגיטלי' },
-      { href: '/guides/hot-wallet-demo', label: 'הדגמת ארנק חם' },
+      { href: '/guides/evreything-about-digital-wallet', label: 'הכל על ארנק דיגיטלי' },
+      { href: '/guides/digital-wallet-practical', label: 'הדגמה לשימוש בארנק חם' },
+      { href: '/guides/how-and-risks', label: 'כמה להשקיע ועל פיזור סיכונים' },
+      { href: '/guides/cold-wallet-guide', label: 'איזה ארנק קר לבחור' },
       { href: '/guides/tax', label: 'מה יש למס הכנסה להגיד' },
-      { href: '/guides/risk-management', label: 'כמה להשקיע ועל פיזור סיכונים' },
-      { href: '/guides/cold-wallet', label: 'איזה ארנק קר לבחור' },
     ],
   },
   { href: '/blog', label: 'בלוג' },
@@ -40,14 +41,16 @@ const navItems = [
 ];
 
 const currentPath = Astro.url.pathname;
+const norm = (p: string) => p.replace(/\/$/, '') || '/';
+const isActive = (href: string) => norm(withBase(href)) === norm(currentPath);
 ---
 
 <header class="site-header" id="site-header">
   <div class="container header-inner">
     <!-- Logo -->
-    <a href="/" class="logo" aria-label="Crypto Women — חזרה לדף הבית">
+    <a href={withBase('/')} class="logo" aria-label="Crypto Women — חזרה לדף הבית">
       <img
-        src="/images/logo.png"
+        src={withBase('/images/logo.jpg')}
         alt="Crypto Women לוגו"
         width="160"
         height="48"
@@ -62,9 +65,9 @@ const currentPath = Astro.url.pathname;
         {navItems.map((item) => (
           <li class={`nav-item ${item.children ? 'has-dropdown' : ''}`}>
             <a
-              href={item.href}
-              class={`nav-link ${currentPath === item.href ? 'nav-link--active' : ''}`}
-              aria-current={currentPath === item.href ? 'page' : undefined}
+              href={withBase(item.href)}
+              class={`nav-link ${isActive(item.href) ? 'nav-link--active' : ''}`}
+              aria-current={isActive(item.href) ? 'page' : undefined}
             >
               {item.label}
               {item.children && (
@@ -77,7 +80,7 @@ const currentPath = Astro.url.pathname;
               <ul class="dropdown" role="list">
                 {item.children.map((child) => (
                   <li>
-                    <a href={child.href} class="dropdown-link">
+                    <a href={withBase(child.href)} class="dropdown-link">
                       {child.label}
                     </a>
                   </li>
@@ -91,7 +94,7 @@ const currentPath = Astro.url.pathname;
 
     <!-- CTA + Mobile Toggle -->
     <div class="header-actions">
-      <a href="/course" class="btn btn--primary header-cta">לקורס הדגל</a>
+      <a href={withBase('/course')} class="btn btn--primary header-cta">לקורס הדגל</a>
       <button
         class="mobile-toggle"
         aria-label="פתח תפריט ניווט"
@@ -112,14 +115,14 @@ const currentPath = Astro.url.pathname;
       <ul class="mobile-nav-list" role="list">
         {navItems.map((item) => (
           <li>
-            <a href={item.href} class={`mobile-nav-link ${currentPath === item.href ? 'mobile-nav-link--active' : ''}`}>
+            <a href={withBase(item.href)} class={`mobile-nav-link ${isActive(item.href) ? 'mobile-nav-link--active' : ''}`}>
               {item.label}
             </a>
             {item.children && (
               <ul class="mobile-submenu" role="list">
                 {item.children.map((child) => (
                   <li>
-                    <a href={child.href} class="mobile-submenu-link">
+                    <a href={withBase(child.href)} class="mobile-submenu-link">
                       {child.label}
                     </a>
                   </li>

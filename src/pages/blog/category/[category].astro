@@ -2,6 +2,7 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import ArticleCard from '../../../components/ArticleCard.astro';
 import { getCollection } from 'astro:content';
+import { withBase } from '../../../lib/url';
 
 export async function getStaticPaths() {
   const allPosts = await getCollection('blog', ({ data }) => !data.draft);
@@ -23,7 +24,7 @@ const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.
 >
   <section class="page-hero">
     <div class="container" style="text-align:center">
-      <a href="/blog" class="back-link">
+      <a href={withBase('/blog')} class="back-link">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
           <path d="M5 12h14M12 5l7 7-7 7"/>
         </svg>
@@ -41,7 +42,7 @@ const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.
           <ArticleCard
             title={post.data.title}
             description={post.data.description}
-            href={`/blog/${post.id}`}
+            href={withBase(`/blog/${post.id}`)}
             pubDate={post.data.pubDate}
             category={post.data.category}
             heroImage={post.data.heroImage}

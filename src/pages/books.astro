@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/url';
 
 const books = [
   {
@@ -73,7 +74,7 @@ const books = [
           <article class="book-card">
             <a href={book.link} target="_blank" rel="noopener noreferrer" class="book-img-link">
               <img
-                src={book.img}
+                src={withBase(book.img)}
                 alt={book.title}
                 width="300"
                 height="470"

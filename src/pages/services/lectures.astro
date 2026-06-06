@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Cta from '../../components/Cta.astro';
+import { withBase } from '../../lib/url';
 
 const topics = [
   'ההיסטוריה של הכסף ועד לכסף דיגיטלי',
@@ -72,13 +73,13 @@ const audiences = [
 
         <div class="about-images">
           <img
-            src="/images/bitcoin-106808_1920.jpg"
+            src={withBase('/images/bitcoin-106808_1920.jpg')}
             alt="ביטקוין"
             loading="lazy"
             class="lecture-img"
           />
           <img
-            src="/images/screenshot-2023-12-05-233627.png"
+            src={withBase('/images/screenshot-2023-12-05-233627.png')}
             alt="הרצאת קריפטו"
             loading="lazy"
             class="lecture-img"
@@ -124,10 +125,10 @@ const audiences = [
 
         <div class="gallery">
           <div class="gallery-grid">
-            <img src="/images/-1-215x300.jpg"   alt="הרצאה" loading="lazy" class="gallery-img" />
-            <img src="/images/-300x105.png"      alt="הרצאה" loading="lazy" class="gallery-img" />
-            <img src="/images/-3-300x156.jpg"    alt="הרצאה" loading="lazy" class="gallery-img" />
-            <img src="/images/-ex-libris-1-300x190.png" alt="הרצאה ב-Ex Libris" loading="lazy" class="gallery-img" />
+            <img src={withBase('/images/-1-215x300.jpg')}   alt="הרצאה" loading="lazy" class="gallery-img" />
+            <img src={withBase('/images/-300x105.png')}      alt="הרצאה" loading="lazy" class="gallery-img" />
+            <img src={withBase('/images/-3-300x156.jpg')}    alt="הרצאה" loading="lazy" class="gallery-img" />
+            <img src={withBase('/images/-ex-libris-1-300x190.png')} alt="הרצאה ב-Ex Libris" loading="lazy" class="gallery-img" />
           </div>
         </div>
       </div>
@@ -143,7 +144,7 @@ const audiences = [
           <p>צרו קשר ונתאים יחד את ההרצאה לקהל ולאירוע שלכם</p>
         </div>
         <div class="cta-actions">
-          <a href="/contact" class="btn btn--primary btn--lg">צרו קשר</a>
+          <a href={withBase('/contact')} class="btn btn--primary btn--lg">צרו קשר</a>
           <a href="https://wa.me/972546227530" target="_blank" rel="noopener noreferrer" class="btn btn--secondary">WhatsApp</a>
         </div>
       </div>

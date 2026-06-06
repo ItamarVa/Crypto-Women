@@ -1,4 +1,6 @@
 ---
+import { withBase } from '../lib/url';
+
 export interface Props {
   title?: string;
   subtitle?: string;
@@ -26,11 +28,11 @@ const {
       <h2 id="cta-heading" class="cta-title">{title}</h2>
       {subtitle && <p class="cta-subtitle">{subtitle}</p>}
       <div class="cta-actions">
-        <a href={primaryHref} class="btn btn--primary btn--lg">
+        <a href={withBase(primaryHref)} class="btn btn--primary btn--lg">
           {primaryLabel}
         </a>
         {secondaryHref && (
-          <a href={secondaryHref} class="btn btn--ghost">
+          <a href={withBase(secondaryHref)} class="btn btn--ghost">
             {secondaryLabel}
           </a>
         )}

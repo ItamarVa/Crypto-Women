@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Cta from '../../components/Cta.astro';
+import { withBase } from '../../lib/url';
 
 const topics = [
   'הבנת סגנון ההשקעה שמתאים לך — תוך התייחסות לתקציב האישי, רמת שליטה טכנולוגית ורמת הסיכון שאת/ה מוכן/ה לקחת',
@@ -92,13 +93,13 @@ const testimonials = [
             >
               בול מה שחיפשתי
             </a>
-            <a href="/contact" class="btn btn--secondary">בא לי שנדבר</a>
+            <a href={withBase('/contact')} class="btn btn--secondary">בא לי שנדבר</a>
           </div>
         </div>
 
         <div class="signup-img">
           <img
-            src="/images/untitled-design-13_optimized.png"
+            src={withBase('/images/untitled-design-13_optimized.png')}
             alt="פגישת אסטרטגיה"
             loading="lazy"
             width="400"
@@ -120,7 +121,7 @@ const testimonials = [
         {testimonials.map((t) => (
           <div class="testi-item">
             <img
-              src={t.img}
+              src={withBase(t.img)}
               alt={t.alt}
               loading="lazy"
               class="testi-img"

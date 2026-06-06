@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { withBase } from '../../lib/url';
 
 const allGuides = await getCollection('guides', ({ data }) => !data.draft);
 const guides = allGuides.sort((a, b) => a.data.order - b.data.order);
@@ -24,7 +25,7 @@ const guides = allGuides.sort((a, b) => a.data.order - b.data.order);
     <div class="container">
       <div class="guides-grid">
         {guides.map((guide, i) => (
-          <a href={`/guides/${guide.id}`} class="guide-card" aria-label={guide.data.title}>
+          <a href={withBase(`/guides/${guide.id}`)} class="guide-card" aria-label={guide.data.title}>
             <div class="guide-num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</div>
             <div class="guide-content">
               <h2 class="guide-title">{guide.data.title}</h2>

@@ -2,6 +2,7 @@
 import { ClientRouter } from 'astro:transitions';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import { withBase } from '../lib/url';
 import '../styles/global.css';
 
 export interface Props {
@@ -16,14 +17,14 @@ export interface Props {
 const {
   title,
   description = 'ביטקוין, בלוקצ\'יין וקריפטו — ידע, מדריכים וקורסים לנשים (וגברים) שרוצים להשקיע בצורה בטוחה ונכונה',
-  image = '/images/og-default.jpg',
+  image = '/images/makologonew2024_autoorient_i_optimized.jpg',
   ogType = 'website',
   noIndex = false,
   structuredData,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const ogImage = new URL(image, Astro.site);
+const ogImage = new URL(withBase(image), Astro.site);
 const fullTitle = title === 'Crypto Women' ? title : `${title} | Crypto Women`;
 ---
 
@@ -55,8 +56,9 @@ const fullTitle = title === 'Crypto Women' ? title : `${title} | Crypto Women`;
     <meta name="twitter:image" content={ogImage} />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href={withBase('/favicon.svg')} />
+    <link rel="icon" type="image/x-icon" href={withBase('/favicon.ico')} />
+    <link rel="apple-touch-icon" href={withBase('/favicon.svg')} />
 
     <!-- Fonts preload -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />

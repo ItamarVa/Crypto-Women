@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Cta from '../../components/Cta.astro';
+import { withBase } from '../../lib/url';
 
 const schoolerUrl = 'https://my.schooler.biz/s/90488/cryptowomencourse-2';
 
@@ -75,7 +76,7 @@ const structuredData = {
               <path d="M5 12h14M12 5l7 7-7 7"/>
             </svg>
           </a>
-          <a href="/course/live" class="btn btn--secondary btn--lg">מחזור בלייב</a>
+          <a href={withBase('/course/live')} class="btn btn--secondary btn--lg">מחזור בלייב</a>
         </div>
       </div>
       <div class="course-hero-visual" aria-hidden="true">
@@ -181,7 +182,7 @@ const structuredData = {
         <p>
           הקשבתי לרחשי לבכן שרוצות קורס שהוא בלייב ולא רק דיגיטלי. לכן אני משיקה מחזור שיתקיים בהנחייתי, בזום, 6 מפגשים.
         </p>
-        <a href="/course/live" class="btn btn--primary" style="margin-block-start:var(--space-6)">לפרטי המחזור</a>
+        <a href={withBase('/course/live')} class="btn btn--primary" style="margin-block-start:var(--space-6)">לפרטי המחזור</a>
       </div>
       <div class="live-features">
         {[

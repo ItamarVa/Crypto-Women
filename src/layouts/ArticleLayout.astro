@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import Cta from '../components/Cta.astro';
+import { withBase } from '../lib/url';
 
 export interface Props {
   title: string;
@@ -48,7 +49,7 @@ const structuredData = {
     {heroImage && (
       <div class="article-hero">
         <img
-          src={heroImage}
+          src={withBase(heroImage)}
           alt={title}
           width="1200"
           height="630"
@@ -63,7 +64,7 @@ const structuredData = {
       <!-- Article Header -->
       <header class="article-header">
         {category && (
-          <a href={`/blog/category/${encodeURIComponent(category)}`} class="badge badge--accent">
+          <a href={withBase(`/blog/category/${category}`)} class="badge badge--accent">
             {category}
           </a>
         )}
@@ -72,7 +73,7 @@ const structuredData = {
         <div class="article-meta">
           <div class="article-author">
             <img
-              src="/images/logo.jpg"
+              src={withBase('/images/logo.jpg')}
               alt="קרן ולדמן חנן"
               width="40"
               height="40"
@@ -128,9 +129,7 @@ const structuredData = {
         <footer class="article-tags">
           <span class="tags-label">תגיות:</span>
           {tags.map(tag => (
-            <a href={`/blog/tag/${encodeURIComponent(tag)}`} class="badge">
-              {tag}
-            </a>
+            <span class="badge">{tag}</span>
           ))}
         </footer>
       )}
