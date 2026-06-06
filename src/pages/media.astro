@@ -43,14 +43,14 @@ const appearances = [
     desc: 'כתבה על הגנה מפני הונאות וגניבות בתחום הקריפטו. קריאת חובה כדי לא ליפול בפח.',
     link: 'https://www.israelhayom.co.il/business/article/17536778',
     cta: 'לקריאה',
-    img: '/images/-_optimized.jpeg',
+    img: '/images/5_optimized.jpg',
   },
   {
     title: 'YNET — הכותרת',
     desc: 'הביטקוין שובר שיאים וזינק ב-30% בשבועות האחרונים. ראיון על העלייה המטאורית ותחזיות לעתיד.',
     link: 'https://open.spotify.com/episode/5Xk75wDFn5bgNT3ZUiIVqL',
     cta: 'להאזנה',
-    img: '/images/-_optimized.jpeg',
+    img: '/images/5_optimized.jpg',
   },
   {
     title: 'Daily Crypto News — נשים בקריפטו',
@@ -71,14 +71,14 @@ const appearances = [
     desc: 'קריפטו מא\'-ת\', למה כדאי שלכל אחד ואחת יהיה ביטקוין, מהי תעודת סל, ולאן הולך תחום הבלוקצ\'יין.',
     link: 'https://did.li/RC35q',
     cta: 'להאזנה',
-    img: '/images/-_optimized.jpeg',
+    img: '/images/5_optimized.jpg',
   },
   {
     title: 'תכנית "סקיני מינוס"',
     desc: 'מה הביא ביטקוין לעולם, האם הוא מקור הפשע? פרק שעוסק בחלק המהותי של ביטקוין ואיך התפתחו יתר המטבעות הדיגיטליים.',
     link: 'https://open.spotify.com/episode/22UZ20knaR8SoNqoGWI4CI',
     cta: 'להאזנה',
-    img: '/images/-_optimized.jpeg',
+    img: '/images/5_optimized.jpg',
   },
   {
     title: 'כנס Women in Blockchain',
@@ -92,7 +92,7 @@ const appearances = [
     desc: 'מזה Eigen Layer שמשגע את תחום הקריפטו, על מנכ"ל ביינאנס שנכנס לכלא ומזה בלנדר וארנק סמוראי.',
     link: 'https://open.spotify.com/episode/4gU0WL3SceCckPXVUYaaNe',
     cta: 'להאזנה',
-    img: '/images/-_optimized.jpeg',
+    img: '/images/5_optimized.jpg',
   },
   {
     title: 'פודקאסט קהילת YNOW',
@@ -134,21 +134,21 @@ const appearances = [
     desc: 'סיוע ל-YNET בהפקת סדרה על תחום הקריפטו וסוחרים שחייהם השתנו בעקבות העולם הזה.',
     link: 'https://www.ynet.co.il/economy/article/b1ipthoq3',
     cta: 'לצפייה',
-    img: '/images/-_optimized.jpeg',
+    img: '/images/5_optimized.jpg',
   },
   {
     title: 'כתבה — הנשים בלב התעשייה',
     desc: 'השראה נשית לכבוד יום האישה 2023 — נבחרתי לאחת מהנשים המשפיעות בתעשייה הישראלית.',
     link: 'https://blog.bitsofgold.co.il/crypto-woman/',
     cta: 'לכתבה',
-    img: '/images/-_optimized.jpeg',
+    img: '/images/5_optimized.jpg',
   },
   {
     title: 'אנשים ומחשבים — כנס קריפטו וומן',
     desc: 'מגזין אנשים ומחשבים סיקרו את אירוע קהילת הנשים קריפטו וומן שהתקיים במאי 2023.',
     link: 'https://www.pc.co.il/kehila/daily-zipi/391750/',
     cta: 'לכתבה',
-    img: '/images/-_optimized.jpeg',
+    img: '/images/5_optimized.jpg',
   },
 ];
 ---
@@ -172,9 +172,11 @@ const appearances = [
   <section class="section media-section">
     <div class="container">
       <div class="media-grid">
-        {appearances.map((item) => (
+        {appearances.map((item) => {
+          const isLogoPlaceholder = item.img === '/images/5_optimized.jpg';
+          return (
           <article class="media-card">
-            <div class="media-card-img">
+            <div class={`media-card-img${isLogoPlaceholder ? ' media-card-img--logo' : ''}`}>
               <img
                 src={withBase(item.img)}
                 alt={item.title}
@@ -200,7 +202,8 @@ const appearances = [
               </div>
             </div>
           </article>
-        ))}
+          );
+        })}
       </div>
     </div>
   </section>
@@ -269,6 +272,16 @@ const appearances = [
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+  .media-card-img--logo {
+    background: #f5f0fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .media-card-img--logo img {
+    object-fit: contain;
+    padding: var(--space-4);
   }
 
   .media-card-body {
