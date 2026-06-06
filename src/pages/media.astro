@@ -58,6 +58,7 @@ const appearances = [
     link: 'https://dcndailycryptonews.substack.com/p/women-and-money-women-earn-15-more',
     cta: 'לכתבה',
     img: '/images/daily-crypto_optimized.jpg',
+    imgContain: true,
   },
   {
     title: 'Fintech Leadher',
@@ -65,6 +66,7 @@ const appearances = [
     link: 'https://open.spotify.com/episode/2DOJBWkJlsaqERsIYbXRCk',
     cta: 'להאזנה',
     img: '/images/whatsapp-image-2024-07-24-at-09_optimized.21.53_8bde77fe.jpg',
+    imgPos: 'top',
   },
   {
     title: 'פודקאסט "ציפור פיננסית"',
@@ -100,6 +102,7 @@ const appearances = [
     link: 'https://open.spotify.com/episode/6d5VV9PPxShWVJbtpJNjmZ',
     cta: 'להאזנה',
     img: '/images/-ynow.jpeg',
+    imgPos: 'top',
   },
   {
     title: 'פודקאסט "הפסיכולוגיה של הכסף"',
@@ -121,6 +124,7 @@ const appearances = [
     link: 'https://open.spotify.com/episode/0y0aq3LK5unZPrlhBJk98m',
     cta: 'להאזנה',
     img: '/images/-_optimized_optimized.png',
+    imgContain: true,
   },
   {
     title: 'פודקאסט "משקיע תקרא לאחותך"',
@@ -128,6 +132,7 @@ const appearances = [
     link: 'https://open.spotify.com/episode/3KKjslZMiQ7iMgVFPiSSie',
     cta: 'להאזנה',
     img: '/images/screenshot-2023-12-13-004336_optimized.png',
+    imgContain: true,
   },
   {
     title: 'הפקת סדרה — ממלכת הקריפטו (YNET)',
@@ -174,15 +179,17 @@ const appearances = [
       <div class="media-grid">
         {appearances.map((item) => {
           const isLogoPlaceholder = item.img === '/images/5_optimized.jpg';
+          const useContain = isLogoPlaceholder || item.imgContain;
           return (
           <article class="media-card">
-            <div class={`media-card-img${isLogoPlaceholder ? ' media-card-img--logo' : ''}`}>
+            <div class={`media-card-img${useContain ? ' media-card-img--contain' : ''}`}>
               <img
                 src={withBase(item.img)}
                 alt={item.title}
                 loading="lazy"
                 width="400"
                 height="225"
+                style={item.imgPos ? `object-position: ${item.imgPos}` : undefined}
                 onerror="this.style.display='none'"
               />
             </div>
@@ -273,13 +280,13 @@ const appearances = [
     height: 100%;
     object-fit: cover;
   }
-  .media-card-img--logo {
+  .media-card-img--contain {
     background: #f5f0fa;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .media-card-img--logo img {
+  .media-card-img--contain img {
     object-fit: contain;
     padding: var(--space-4);
   }
