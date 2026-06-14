@@ -1,0 +1,41 @@
+name: Refresh crypto news
+
+on:
+  schedule:
+    # Every 4 hours (UTC). Keeps the news page current with no manual work.
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Fetch latest news
+        run: node scripts/fetch-news.mjs
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- src/data/news.json; then
+            echo "No news changes."
+            exit 0
+          fi
+          git config user.name "crypto-women-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add src/data/news.json
+          git commit -m "chore(news): auto-refresh crypto news feed"
+          git push

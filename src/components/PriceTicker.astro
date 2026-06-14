@@ -1,0 +1,199 @@
+---
+// PriceTicker — live BTC / ETH price from CoinGecko (client-side, no key).
+// Renders skeleton at build; hydrates on load + refreshes every 60s.
+---
+
+<div class="ticker" id="price-ticker" role="region" aria-label="מחירי קריפטו חיים">
+  <div class="ticker-card ticker-card--main" data-coin="bitcoin">
+    <div class="ticker-head">
+      <span class="ticker-symbol">
+        <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true" class="coin-icon coin-btc">
+          <circle cx="16" cy="16" r="16" fill="#F7931A"/>
+          <path fill="#fff" d="M22 14.1c.3-1.9-1.2-2.9-3.2-3.6l.7-2.6-1.6-.4-.6 2.5c-.4-.1-.9-.2-1.3-.3l.6-2.5-1.6-.4-.7 2.6c-.3-.1-.7-.2-1-.2l-2.2-.6-.4 1.7s1.2.3 1.2.3c.7.2.8.6.8 1l-.8 3c0 .1 0 .1-.1.2h.1l-1 4.2c-.1.2-.3.5-.7.4 0 0-1.2-.3-1.2-.3l-.8 1.8 2.1.5c.4.1.8.2 1.1.3l-.7 2.7 1.6.4.7-2.6c.4.1.9.2 1.3.3l-.6 2.6 1.6.4.7-2.7c2.7.5 4.8.3 5.6-2.1.7-2-.0-3.1-1.4-3.8 1.1-.3 1.9-1 2.1-2.4zm-3.7 5.2c-.5 2-3.8.9-4.9.6l.9-3.5c1.1.3 4.5.8 4 2.9zm.5-5.3c-.4 1.8-3.2.9-4.1.7l.8-3.2c.9.2 3.8.6 3.3 2.5z"/>
+        </svg>
+        ביטקוין <span class="ticker-ticker">BTC</span>
+      </span>
+      <span class="ticker-change" data-field="change">—</span>
+    </div>
+    <div class="ticker-price" data-field="usd">$—</div>
+    <div class="ticker-sub" data-field="ils">₪—</div>
+  </div>
+
+  <div class="ticker-card" data-coin="ethereum">
+    <div class="ticker-head">
+      <span class="ticker-symbol">
+        <svg viewBox="0 0 32 32" width="22" height="22" aria-hidden="true" class="coin-icon">
+          <circle cx="16" cy="16" r="16" fill="#627EEA"/>
+          <path fill="#fff" fill-opacity=".9" d="M16 4v8.87l7.5 3.35z"/>
+          <path fill="#fff" d="M16 4 8.5 16.22 16 12.87z"/>
+          <path fill="#fff" fill-opacity=".9" d="M16 21.97V28l7.5-10.38z"/>
+          <path fill="#fff" d="M16 28v-6.03L8.5 17.62z"/>
+          <path fill="#fff" fill-opacity=".5" d="m16 20.57 7.5-4.35L16 12.87z"/>
+          <path fill="#fff" fill-opacity=".7" d="M8.5 16.22 16 20.57v-7.7z"/>
+        </svg>
+        אית'ריום <span class="ticker-ticker">ETH</span>
+      </span>
+      <span class="ticker-change" data-field="change">—</span>
+    </div>
+    <div class="ticker-price" data-field="usd">$—</div>
+    <div class="ticker-sub" data-field="ils">₪—</div>
+  </div>
+
+  <p class="ticker-meta">
+    <span class="live-dot" aria-hidden="true"></span>
+    מחיר חי · מתעדכן כל דקה · נתונים מ-CoinGecko
+  </p>
+</div>
+
+<style>
+  .ticker {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: var(--space-4);
+    align-items: stretch;
+  }
+  .ticker-meta {
+    grid-column: 1 / -1;
+    margin: 0;
+    font-size: var(--text-xs);
+    color: rgba(255, 255, 255, 0.65);
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+  }
+  .live-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #2ecc71;
+    box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.6);
+    animation: livePulse 2s infinite;
+  }
+  @keyframes livePulse {
+    0% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.5); }
+    70% { box-shadow: 0 0 0 8px rgba(46, 204, 113, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0); }
+  }
+  .ticker-card {
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--radius-lg);
+    padding: var(--space-5);
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+  }
+  .ticker-card--main {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(201, 168, 76, 0.35);
+  }
+  .ticker-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-2);
+  }
+  .ticker-symbol {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-weight: 700;
+    color: #fff;
+    font-size: var(--text-sm);
+  }
+  .ticker-ticker {
+    color: rgba(255, 255, 255, 0.55);
+    font-weight: 600;
+    font-size: 0.72rem;
+    direction: ltr;
+  }
+  .coin-icon { flex-shrink: 0; }
+  .ticker-price {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: var(--text-2xl);
+    color: #fff;
+    direction: ltr;
+    text-align: start;
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+  }
+  .ticker-card--main .ticker-price { font-size: var(--text-3xl); }
+  .ticker-sub {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: var(--text-sm);
+    direction: ltr;
+    text-align: start;
+    font-variant-numeric: tabular-nums;
+  }
+  .ticker-change {
+    font-weight: 700;
+    font-size: var(--text-sm);
+    direction: ltr;
+    font-variant-numeric: tabular-nums;
+    padding: 2px 8px;
+    border-radius: var(--radius-full);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.75);
+  }
+  .ticker-change.up { background: rgba(46, 204, 113, 0.18); color: #54e08a; }
+  .ticker-change.down { background: rgba(231, 76, 60, 0.18); color: #ff7a6b; }
+  .ticker-card.loading .ticker-price,
+  .ticker-card.loading .ticker-sub { opacity: 0.5; }
+
+  @media (max-width: 560px) {
+    .ticker { grid-template-columns: 1fr; }
+  }
+</style>
+
+<script>
+  const API =
+    'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=usd,ils&include_24hr_change=true';
+
+  const fmt = (n: number, currency: 'usd' | 'ils') =>
+    new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: currency === 'usd' ? 'USD' : 'ILS',
+      maximumFractionDigits: n >= 100 ? 0 : 2,
+    }).format(n);
+
+  async function loadPrices() {
+    const root = document.getElementById('price-ticker');
+    if (!root) return;
+    const cards = root.querySelectorAll<HTMLElement>('.ticker-card');
+    cards.forEach((c) => c.classList.add('loading'));
+    try {
+      const res = await fetch(API, { headers: { Accept: 'application/json' } });
+      if (!res.ok) throw new Error(String(res.status));
+      const data = await res.json();
+      cards.forEach((card) => {
+        const coin = card.dataset.coin!;
+        const d = data[coin];
+        if (!d) return;
+        const usd = card.querySelector<HTMLElement>('[data-field="usd"]')!;
+        const ils = card.querySelector<HTMLElement>('[data-field="ils"]')!;
+        const chg = card.querySelector<HTMLElement>('[data-field="change"]')!;
+        usd.textContent = fmt(d.usd, 'usd');
+        ils.textContent = fmt(d.ils, 'ils');
+        const change = d.usd_24h_change ?? 0;
+        chg.textContent = (change >= 0 ? '▲ ' : '▼ ') + Math.abs(change).toFixed(2) + '%';
+        chg.classList.toggle('up', change >= 0);
+        chg.classList.toggle('down', change < 0);
+        card.classList.remove('loading');
+      });
+    } catch {
+      cards.forEach((c) => c.classList.remove('loading'));
+    }
+  }
+
+  let timer: number | undefined;
+  function start() {
+    loadPrices();
+    clearInterval(timer);
+    timer = window.setInterval(loadPrices, 60000);
+  }
+  document.addEventListener('astro:page-load', start);
+  // also run on first direct load
+  if (document.getElementById('price-ticker')) start();
+</script>

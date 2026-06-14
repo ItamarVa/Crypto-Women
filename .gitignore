@@ -42,3 +42,7 @@ lighthouse-report/
 
 # local dev preview config
 .claude/
+
+# graphify tool output
+graphify-out/
+src/graphify-out/

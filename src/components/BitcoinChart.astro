@@ -1,0 +1,190 @@
+---
+// BitcoinChart — historical BTC price (CoinGecko), pan + wheel-zoom via
+// lightweight-charts. Range buttons 7/30/90/365/max. Client-only.
+---
+
+<div class="chart-wrap">
+  <div class="chart-toolbar">
+    <div class="chart-title-block">
+      <h3 class="chart-title">גרף ביטקוין היסטורי</h3>
+      <p class="chart-hint">גלגלו עם העכבר לזום · גררו להזזה</p>
+    </div>
+    <div class="range-buttons" role="group" aria-label="טווח זמן">
+      <button type="button" class="range-btn" data-days="7">שבוע</button>
+      <button type="button" class="range-btn" data-days="30">חודש</button>
+      <button type="button" class="range-btn is-active" data-days="90">3 חודשים</button>
+      <button type="button" class="range-btn" data-days="180">חצי שנה</button>
+      <button type="button" class="range-btn" data-days="365">שנה</button>
+    </div>
+  </div>
+  <div class="chart-box" id="btc-chart" aria-label="גרף מחיר ביטקוין" role="img"></div>
+  <div class="chart-status" id="btc-chart-status" hidden></div>
+</div>
+
+<style>
+  .chart-wrap {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-lg);
+    padding: var(--space-6);
+    box-shadow: var(--shadow-sm);
+  }
+  .chart-toolbar {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+    margin-block-end: var(--space-4);
+  }
+  .chart-title { font-size: var(--text-xl); margin: 0; color: var(--color-primary-dark); }
+  .chart-hint { margin: 0; font-size: var(--text-xs); color: var(--color-text-muted); }
+  .range-buttons {
+    display: inline-flex;
+    gap: 2px;
+    background: var(--color-bg-muted);
+    padding: 4px;
+    border-radius: var(--radius-full);
+  }
+  .range-btn {
+    border: none;
+    background: transparent;
+    color: var(--color-text-muted);
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: var(--space-2) var(--space-4);
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    white-space: nowrap;
+  }
+  .range-btn:hover { color: var(--color-primary); }
+  .range-btn.is-active {
+    background: var(--color-primary);
+    color: #fff;
+    box-shadow: var(--shadow-sm);
+  }
+  .chart-box { width: 100%; height: 380px; position: relative; }
+  .chart-status {
+    text-align: center;
+    color: var(--color-text-muted);
+    font-size: var(--text-sm);
+    padding: var(--space-4);
+  }
+  @media (max-width: 560px) {
+    .chart-box { height: 300px; }
+    .chart-toolbar { align-items: stretch; }
+    .range-buttons { width: 100%; justify-content: space-between; }
+    .range-btn { padding: var(--space-2) var(--space-2); flex: 1; }
+  }
+</style>
+
+<script>
+  import { createChart, AreaSeries, ColorType, type IChartApi, type ISeriesApi, type UTCTimestamp } from 'lightweight-charts';
+
+  const cache = new Map<string, { time: UTCTimestamp; value: number }[]>();
+  let chart: IChartApi | null = null;
+  let series: ISeriesApi<'Area'> | null = null;
+  let resizeObs: ResizeObserver | null = null;
+
+  async function fetchSeries(days: string) {
+    if (cache.has(days)) return cache.get(days)!;
+    const url = `https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=${days}`;
+    const res = await fetch(url, { headers: { Accept: 'application/json' } });
+    if (!res.ok) throw new Error(String(res.status));
+    const json = await res.json();
+    let last = 0;
+    const data = (json.prices as [number, number][])
+      .map(([ms, price]) => ({ time: Math.floor(ms / 1000) as UTCTimestamp, value: price }))
+      .filter((p) => {
+        if (p.time <= last) return false; // strictly ascending & unique
+        last = p.time;
+        return true;
+      });
+    cache.set(days, data);
+    return data;
+  }
+
+  function buildChart(el: HTMLElement) {
+    chart = createChart(el, {
+      layout: {
+        background: { type: ColorType.Solid, color: 'transparent' },
+        textColor: '#6B6B8A',
+        fontFamily: "'Heebo', sans-serif",
+        attributionLogo: false,
+      },
+      grid: {
+        vertLines: { color: 'rgba(226, 217, 243, 0.5)' },
+        horzLines: { color: 'rgba(226, 217, 243, 0.5)' },
+      },
+      rightPriceScale: { borderColor: 'rgba(226, 217, 243, 0.8)' },
+      timeScale: { borderColor: 'rgba(226, 217, 243, 0.8)', timeVisible: false, fixLeftEdge: true, fixRightEdge: true },
+      crosshair: { mode: 1 },
+      handleScroll: true,
+      handleScale: true,
+      localization: {
+        priceFormatter: (p: number) =>
+          '$' + new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(p),
+      },
+    });
+    series = chart.addSeries(AreaSeries, {
+      lineColor: '#5B2D8E',
+      topColor: 'rgba(123, 77, 184, 0.4)',
+      bottomColor: 'rgba(123, 77, 184, 0.02)',
+      lineWidth: 2,
+      priceLineVisible: false,
+    });
+    resizeObs = new ResizeObserver((entries) => {
+      for (const e of entries) chart?.applyOptions({ width: e.contentRect.width });
+    });
+    resizeObs.observe(el);
+  }
+
+  async function setRange(days: string, statusEl: HTMLElement) {
+    if (!series || !chart) return;
+    statusEl.hidden = false;
+    statusEl.textContent = 'טוען נתונים…';
+    try {
+      const data = await fetchSeries(days);
+      series.setData(data);
+      chart.timeScale().fitContent();
+      statusEl.hidden = true;
+    } catch {
+      statusEl.hidden = false;
+      statusEl.textContent = 'לא ניתן לטעון את הגרף כרגע. נסו לרענן.';
+    }
+  }
+
+  function destroy() {
+    resizeObs?.disconnect();
+    resizeObs = null;
+    chart?.remove();
+    chart = null;
+    series = null;
+  }
+
+  function init() {
+    const el = document.getElementById('btc-chart');
+    const statusEl = document.getElementById('btc-chart-status');
+    if (!el || !statusEl) return;
+    destroy(); // clean any prior instance after a View Transition
+    buildChart(el);
+
+    const buttons = document.querySelectorAll<HTMLButtonElement>('.range-btn');
+    buttons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        buttons.forEach((b) => b.classList.remove('is-active'));
+        btn.classList.add('is-active');
+        setRange(btn.dataset.days!, statusEl);
+      });
+    });
+
+    const active = document.querySelector<HTMLButtonElement>('.range-btn.is-active');
+    setRange(active?.dataset.days ?? '90', statusEl);
+  }
+
+  document.addEventListener('astro:page-load', init);
+  document.addEventListener('astro:before-swap', destroy);
+  if (document.getElementById('btc-chart')) init();
+</script>
