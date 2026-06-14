@@ -6,6 +6,7 @@ import { withBase } from '../lib/url';
 import news from '../data/news.json';
 
 type NewsItem = {
+  id: string;
   title: string;
   link: string;
   summary: string;
@@ -14,16 +15,17 @@ type NewsItem = {
   date: string | null;
   image: string | null;
   title_he?: string | null;
-  summary_he?: string | null;
+  brief_he?: string | null;
 };
 
 const items = (news.items as NewsItem[]) ?? [];
 
-// Prefer the Hebrew translation; fall back to the original text.
+// Prefer the original Hebrew content; fall back to the source snippet.
 const heTitle = (it: NewsItem) => it.title_he || it.title;
-const heSummary = (it: NewsItem) => it.summary_he || it.summary;
-// rtl when we have Hebrew (translated or native); else auto-detect.
+const heBrief = (it: NewsItem) => it.brief_he || it.summary;
+// rtl when we have Hebrew (generated or native source); else auto-detect.
 const dirFor = (it: NewsItem) => (it.title_he || it.lang === 'he' ? 'rtl' : 'auto');
+const articleHref = (it: NewsItem) => withBase(`/news/${it.id}`);
 const featured = items.slice(0, 3);
 const rest = items.slice(3);
 
@@ -82,22 +84,17 @@ const description =
         </div>
         <div class="highlights-grid">
           {featured.map((item, i) => (
-            <a
-              href={item.link}
-              class={`highlight-card ${i === 0 ? 'highlight-card--lead' : ''}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={articleHref(item)} class={`highlight-card ${i === 0 ? 'highlight-card--lead' : ''}`}>
               <div class="highlight-media">
-                {item.image ? (
-                  <img src={item.image} alt="" loading={i === 0 ? 'eager' : 'lazy'} onerror="this.closest('.highlight-media').classList.add('no-img')" />
-                ) : null}
-                <span class="highlight-fallback" style={`--c:${colorFor(item.source)}`}>{item.source}</span>
+                <span class="highlight-fallback" style={`--c:${colorFor(item.source)}`}>
+                  <span class="fallback-glyph" aria-hidden="true">₿</span>
+                  <span class="fallback-src">{item.source}</span>
+                </span>
               </div>
               <div class="highlight-content">
                 <span class="src-badge" style={`--c:${colorFor(item.source)}`}>{item.source}</span>
                 <h3 class="highlight-h" dir={dirFor(item)}>{heTitle(item)}</h3>
-                {i === 0 && heSummary(item) && <p class="highlight-desc" dir={dirFor(item)}>{heSummary(item)}</p>}
+                {i === 0 && heBrief(item) && <p class="highlight-desc" dir={dirFor(item)}>{heBrief(item)}</p>}
                 {item.date && <time class="news-time" datetime={item.date} data-ts={item.date}>{fmtDate(item.date)}</time>}
               </div>
             </a>
@@ -124,16 +121,17 @@ const description =
         </div>
         <div class="news-grid">
           {rest.map((item) => (
-            <a href={item.link} class="news-card" target="_blank" rel="noopener noreferrer">
+            <a href={articleHref(item)} class="news-card">
               <div class="news-card-media">
-                {item.image ? (
-                  <img src={item.image} alt="" loading="lazy" onerror="this.closest('.news-card-media').classList.add('no-img')" />
-                ) : null}
-                <span class="news-card-fallback" style={`--c:${colorFor(item.source)}`}>{item.source}</span>
+                <span class="news-card-fallback" style={`--c:${colorFor(item.source)}`}>
+                  <span class="fallback-glyph" aria-hidden="true">₿</span>
+                  <span class="fallback-src">{item.source}</span>
+                </span>
               </div>
               <div class="news-card-body">
                 <span class="src-badge src-badge--sm" style={`--c:${colorFor(item.source)}`}>{item.source}</span>
                 <h3 class="news-card-h" dir={dirFor(item)}>{heTitle(item)}</h3>
+                {heBrief(item) && <p class="news-card-brief" dir={dirFor(item)}>{heBrief(item)}</p>}
                 {item.date && <time class="news-time" datetime={item.date} data-ts={item.date}>{fmtDate(item.date)}</time>}
               </div>
             </a>
@@ -145,7 +143,7 @@ const description =
     <p class="news-updated">
       <span class="live-dot-sm" aria-hidden="true"></span>
       עודכן לאחרונה: {updatedLabel} · מתעדכן אוטומטית מספר פעמים ביום.
-      הכתבות מובאות מ-{news.sources.join(', ')} ומקושרות למקור המלא.
+      כל כתבה היא תקציר ופרשנות מקוריים בעברית מאת Crypto Women, עם קישור למקור המלא ({news.sources.join(', ')}).
     </p>
   </div>
 </BaseLayout>
@@ -273,17 +271,39 @@ const description =
     position: absolute;
     inset: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-weight: 800;
-    font-size: var(--text-lg);
+    gap: var(--space-1);
     color: #fff;
-    background: linear-gradient(135deg, var(--c), color-mix(in srgb, var(--c) 60%, #1A0A2E));
+    background: linear-gradient(135deg, var(--c), color-mix(in srgb, var(--c) 55%, #1A0A2E));
     direction: ltr;
+    overflow: hidden;
     z-index: 0;
   }
-  .highlight-media.no-img img,
-  .news-card-media.no-img img { display: none; }
+  .fallback-glyph {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1;
+    opacity: 0.9;
+  }
+  .highlight-card--lead .fallback-glyph { font-size: 5rem; }
+  .fallback-src {
+    font-weight: 700;
+    font-size: var(--text-sm);
+    letter-spacing: 0.02em;
+    opacity: 0.95;
+  }
+  .news-card-brief {
+    color: var(--color-text-muted);
+    font-size: var(--text-sm);
+    line-height: 1.55;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
   .highlight-content {
     padding: var(--space-5);
     display: flex;

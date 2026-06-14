@@ -91,6 +91,13 @@ function normalizeTitleKey(t) {
   return stripHtml(t).toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim().slice(0, 80);
 }
 
+// Stable short id from the article link — used for the internal page route.
+function hashId(s) {
+  let h = 5381;
+  for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) >>> 0;
+  return h.toString(36);
+}
+
 async function fetchFeed(feed) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
@@ -123,6 +130,7 @@ async function fetchFeed(feed) {
       const ts = pub ? Date.parse(pub) : NaN;
       const image = extractImage(itemXml, descHtml);
       items.push({
+        id: hashId(link),
         title,
         link,
         summary,
@@ -142,23 +150,51 @@ async function fetchFeed(feed) {
   }
 }
 
-// --- Hebrew translation via Gemini ----------------------------------
-// Translates a batch of non-Hebrew items in a single request. Returns an
-// array aligned to the input order: [{title_he, summary_he}, ...].
-// On any failure returns [] so the caller falls back to the original text.
-async function translateBatch(items) {
+// --- Original Hebrew content via Gemini ------------------------------
+// For each article we generate ORIGINAL Hebrew content (not a translation of
+// the copyrighted body) in the voice of the site owner, Keren Waldman Hanan:
+//   title_he      — Hebrew headline
+//   brief_he      — 1 short sentence for the card
+//   commentary_he — 2-3 short first-person paragraphs, as if Keren read the
+//                   story and is sharing it warmly with her community
+//   points_he[]   — 3-4 key takeaways
+//   meaning_he    — "what it means" — global + Israel angle if relevant
+// Grounded ONLY in the headline + RSS snippet we hold (we never copy the full
+// article). On any failure returns [] so the page falls back to the snippet.
+
+// Keren's voice, distilled from the site's own About/blog copy.
+const VOICE = `Write as Keren Waldman Hanan (קרן ולדמן חנן), founder of the "Crypto Women" (קריפטו וומן) community.
+Her voice: warm, personal, first-person feminine Hebrew, speaking directly to her community of women (and men) as "חברות"/"אתן".
+She demystifies crypto and investing, is encouraging and empowering, mission-driven (bringing more women into investing, "לנפץ תקרות זכוכית").
+She is an industrial engineer + MBA, crypto investor since 2017. Tone is intimate, optimistic, plain-spoken — never hype, never financial advice.
+Typical phrasing: "אני ממש שמחה שאת כאן", "לקפוץ למים", "ככל שלומדים יותר, פחות מפחדים", "תפתחו את הראש, תלמדו, תחקרו".`;
+
+async function generateBatch(items) {
   const key = process.env.GEMINI_API_KEY;
   if (!key || items.length === 0) return [];
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${key}`;
-  const payloadItems = items.map((it, i) => ({ i, title: it.title, summary: it.summary || '' }));
-  const prompt = `You are a professional Hebrew translator for a crypto-news site aimed at Israeli readers.
-Translate each item below to natural, journalistic Hebrew.
-Rules:
-- Keep well-known coins as Hebrew transliteration (Bitcoin→ביטקוין, Ethereum→את'ריום, Solana→סולנה).
-- Keep widely-used English terms that have no natural Hebrew equivalent as-is (DeFi, NFT, stablecoin, ETF, Web3).
-- Do NOT translate company names, product names, people's names, or tickers.
-- Keep it concise and faithful to the meaning; do not add information.
-- If a summary is empty, return an empty string for summary_he.
+  const payloadItems = items.map((it, i) => ({
+    i,
+    source: it.source,
+    title: it.title,
+    summary: it.summary || '',
+  }));
+  const prompt = `${VOICE}
+
+For EACH news item below, produce ORIGINAL Hebrew content. This is NOT a translation — write fresh content in Keren's voice based only on the provided headline and short snippet.
+
+Hard rules:
+- Ground everything ONLY in the provided title + summary. Do NOT invent facts, numbers, dates, quotes, or personal anecdotes. If the snippet is thin, keep it general and say what is reasonably implied — never fabricate.
+- This is editorial framing/education, not financial advice. No "buy/sell" recommendations.
+- Keep well-known coins as Hebrew (ביטקוין, את'ריום); keep terms like DeFi/NFT/stablecoin/ETF/Web3 as-is. Don't translate company/product/people names.
+
+For each item return:
+- title_he: a clear Hebrew headline (not clickbait).
+- brief_he: ONE short Hebrew sentence summarizing the story for a card.
+- commentary_he: 2-3 short paragraphs (use \\n\\n between them) in Keren's warm first-person voice, as if she read this and is sharing it with her community — what happened and why it's interesting.
+- points_he: array of 3-4 short Hebrew bullet takeaways.
+- meaning_he: 1-2 sentences — "מה זה אומר": the broader significance globally, and the angle for Israel if and only if there is a genuine one (otherwise keep it global).
+
 Return one object per input item, in the same order.
 Items:
 ${JSON.stringify(payloadItems, null, 2)}`;
@@ -166,14 +202,20 @@ ${JSON.stringify(payloadItems, null, 2)}`;
   const body = {
     contents: [{ parts: [{ text: prompt }] }],
     generationConfig: {
-      temperature: 0.3,
+      temperature: 0.6,
       responseMimeType: 'application/json',
       responseSchema: {
         type: 'ARRAY',
         items: {
           type: 'OBJECT',
-          properties: { title_he: { type: 'STRING' }, summary_he: { type: 'STRING' } },
-          required: ['title_he', 'summary_he'],
+          properties: {
+            title_he: { type: 'STRING' },
+            brief_he: { type: 'STRING' },
+            commentary_he: { type: 'STRING' },
+            points_he: { type: 'ARRAY', items: { type: 'STRING' } },
+            meaning_he: { type: 'STRING' },
+          },
+          required: ['title_he', 'brief_he', 'commentary_he', 'points_he', 'meaning_he'],
         },
       },
     },
@@ -195,18 +237,20 @@ ${JSON.stringify(payloadItems, null, 2)}`;
     const data = await res.json();
     const text = (data?.candidates?.[0]?.content?.parts || []).map((p) => p.text || '').join('');
     const arr = JSON.parse(text);
-    console.log(`  ✓ translated ${arr.length} items via ${GEMINI_MODEL}`);
+    console.log(`  ✓ generated Hebrew content for ${arr.length} items via ${GEMINI_MODEL}`);
     return Array.isArray(arr) ? arr : [];
   } catch (err) {
-    console.warn(`  ✗ translation failed: ${err.message}`);
+    console.warn(`  ✗ generation failed: ${err.message}`);
     return [];
   } finally {
     clearTimeout(timer);
   }
 }
 
-async function translateAll(all) {
-  // Reuse prior translations (cache by link) so we never re-translate / re-pay.
+const GEN_FIELDS = ['title_he', 'brief_he', 'commentary_he', 'points_he', 'meaning_he'];
+
+async function generateAll(all) {
+  // Reuse prior generated content (cache by link) so each article is done once.
   const prevByLink = new Map();
   try {
     const prev = JSON.parse(await readFile(OUT_FILE, 'utf-8'));
@@ -216,32 +260,29 @@ async function translateAll(all) {
   }
 
   for (const it of all) {
-    if (it.lang === 'he') {
-      it.title_he = null; // already Hebrew — render original
-      it.summary_he = null;
-      continue;
-    }
     const cached = prevByLink.get(it.link);
-    it.title_he = cached?.title_he ?? null;
-    it.summary_he = cached?.summary_he ?? null;
+    for (const f of GEN_FIELDS) it[f] = cached?.[f] ?? (f === 'points_he' ? [] : null);
   }
 
-  const todo = all.filter((it) => it.lang !== 'he' && !it.title_he);
+  const todo = all.filter((it) => !it.title_he);
   if (todo.length === 0) {
-    console.log('Translation: nothing new to translate.');
+    console.log('Hebrew content: nothing new to generate.');
     return;
   }
   if (!process.env.GEMINI_API_KEY) {
-    console.warn(`Translation: GEMINI_API_KEY not set — leaving ${todo.length} items untranslated.`);
+    console.warn(`Hebrew content: GEMINI_API_KEY not set — leaving ${todo.length} items as source snippet.`);
     return;
   }
-  console.log(`Translating ${todo.length} new item(s) to Hebrew…`);
-  const out = await translateBatch(todo);
+  console.log(`Generating Hebrew content for ${todo.length} new item(s)…`);
+  const out = await generateBatch(todo);
   todo.forEach((it, i) => {
-    const t = out[i];
-    if (t && t.title_he) {
-      it.title_he = t.title_he;
-      it.summary_he = t.summary_he || '';
+    const g = out[i];
+    if (g && g.title_he) {
+      it.title_he = g.title_he;
+      it.brief_he = g.brief_he || '';
+      it.commentary_he = g.commentary_he || '';
+      it.points_he = Array.isArray(g.points_he) ? g.points_he : [];
+      it.meaning_he = g.meaning_he || '';
     }
   });
 }
@@ -264,8 +305,8 @@ async function main() {
   all.sort((a, b) => (Date.parse(b.date || 0) || 0) - (Date.parse(a.date || 0) || 0));
   all = all.slice(0, MAX_ITEMS);
 
-  // Translate non-Hebrew items to Hebrew (cached by link; needs GEMINI_API_KEY)
-  await translateAll(all);
+  // Generate original Hebrew content (cached by link; needs GEMINI_API_KEY)
+  await generateAll(all);
 
   const sourcesOk = [...new Set(all.map((i) => i.source))];
 

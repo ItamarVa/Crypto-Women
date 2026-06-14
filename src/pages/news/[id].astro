@@ -1,0 +1,222 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { withBase } from '../../lib/url';
+import news from '../../data/news.json';
+
+type NewsItem = {
+  id: string;
+  title: string;
+  link: string;
+  summary: string;
+  source: string;
+  lang: string;
+  date: string | null;
+  image: string | null;
+  title_he?: string | null;
+  brief_he?: string | null;
+  commentary_he?: string | null;
+  points_he?: string[] | null;
+  meaning_he?: string | null;
+};
+
+export async function getStaticPaths() {
+  const items = (news.items as NewsItem[]) ?? [];
+  return items.map((item) => ({ params: { id: item.id }, props: { item } }));
+}
+
+const { item } = Astro.props as { item: NewsItem };
+
+const sourceColor: Record<string, string> = {
+  Decrypt: '#6C5CE7',
+  'The Defiant': '#00B894',
+  'Bitcoin Magazine': '#F7931A',
+  CoinDesk: '#0D74FF',
+  Cointelegraph: '#FAB617',
+  CryptoJungle: '#16A085',
+  'Bitcoin Embassy TLV': '#E6007A',
+};
+const accent = sourceColor[item.source] ?? '#5B2D8E';
+
+const title = item.title_he || item.title;
+const paragraphs = (item.commentary_he || item.summary || '')
+  .split(/\n\n+/)
+  .map((p) => p.trim())
+  .filter(Boolean);
+const points = item.points_he ?? [];
+const meaning = item.meaning_he || '';
+
+const dateFmt = new Intl.DateTimeFormat('he-IL', { dateStyle: 'long', timeStyle: 'short' });
+const dateLabel = item.date ? dateFmt.format(new Date(item.date)) : '';
+
+const description = (item.brief_he || item.summary || title).slice(0, 160);
+---
+
+<BaseLayout title={title} description={description}>
+  <article class="article">
+    <!-- Branded hero (no third-party media) -->
+    <header class="article-hero" style={`--accent:${accent}`}>
+      <div class="container article-hero-inner">
+        <a href={withBase('/news')} class="back-link">← לכל החדשות</a>
+        <span class="src-badge" style={`--c:${accent}`}>{item.source}</span>
+        <h1 class="article-title" dir="rtl">{title}</h1>
+        <div class="article-meta">
+          {dateLabel && <time datetime={item.date!}>{dateLabel}</time>}
+          <span class="article-byline">תקציר עברי מקורי · Crypto Women</span>
+        </div>
+      </div>
+      <div class="article-hero-glyph" aria-hidden="true">₿</div>
+    </header>
+
+    <div class="container--content article-body">
+      <p class="article-disclosure">
+        זהו תקציר ופרשנות מקוריים בעברית מאת Crypto Women — לא תרגום של הכתבה המלאה.
+        לכתבה המלאה והמקורית עברו למקור.
+      </p>
+
+      <div class="prose article-prose" dir="rtl">
+        {paragraphs.length > 0 ? (
+          paragraphs.map((p) => <p>{p}</p>)
+        ) : (
+          <p class="article-empty">התקציר המלא בעברית ייווצר בעדכון הקרוב. בינתיים אפשר לקרוא את הכתבה המלאה במקור למטה.</p>
+        )}
+      </div>
+
+      {points.length > 0 && (
+        <section class="article-points" dir="rtl">
+          <h2 class="article-h2">נקודות עיקריות</h2>
+          <ul>
+            {points.map((p) => <li>{p}</li>)}
+          </ul>
+        </section>
+      )}
+
+      {meaning && (
+        <section class="article-meaning" dir="rtl">
+          <h2 class="article-h2">מה זה אומר?</h2>
+          <p>{meaning}</p>
+        </section>
+      )}
+
+      <div class="article-source">
+        <a href={item.link} target="_blank" rel="noopener noreferrer" class="btn btn--primary">
+          קראו את הכתבה המלאה ב-{item.source}
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true" style="transform:scaleX(-1)">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+        <a href={withBase('/news')} class="btn btn--secondary">לכל החדשות</a>
+      </div>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .article-hero {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--accent), color-mix(in srgb, var(--accent) 55%, #1A0A2E));
+    padding-block: var(--space-16) var(--space-12);
+    color: #fff;
+  }
+  .article-hero-inner { position: relative; z-index: 1; }
+  .article-hero-glyph {
+    position: absolute;
+    inset-block-start: 50%;
+    inset-inline-start: 8%;
+    transform: translateY(-50%);
+    font-size: 16rem;
+    font-weight: 900;
+    line-height: 1;
+    opacity: 0.08;
+    pointer-events: none;
+    direction: ltr;
+  }
+  .back-link {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    margin-block-end: var(--space-4);
+  }
+  .back-link:hover { color: #fff; }
+  .src-badge {
+    display: inline-flex;
+    padding: 3px 12px;
+    border-radius: var(--radius-full);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    direction: ltr;
+  }
+  .article-title {
+    font-size: var(--text-3xl);
+    color: #fff;
+    margin-block: var(--space-4) var(--space-4);
+    max-width: 28ch;
+  }
+  .article-meta {
+    display: flex;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: var(--text-sm);
+  }
+  .article-byline { font-weight: 600; }
+
+  .article-body { padding-block: var(--space-12) var(--space-20); }
+  .article-disclosure {
+    background: var(--color-bg-muted);
+    border-inline-start: 3px solid var(--accent, var(--color-primary));
+    border-radius: var(--radius-md);
+    padding: var(--space-3) var(--space-4);
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    margin-block-end: var(--space-8);
+  }
+  .article-prose p {
+    font-size: var(--text-lg);
+    line-height: 1.9;
+    margin-block-end: var(--space-5);
+  }
+  .article-h2 {
+    font-size: var(--text-xl);
+    color: var(--color-primary-dark);
+    margin-block: var(--space-10) var(--space-4);
+  }
+  .article-points ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+  .article-points li {
+    position: relative;
+    padding-inline-start: var(--space-6);
+    line-height: 1.7;
+  }
+  .article-points li::before {
+    content: '◆';
+    position: absolute;
+    inset-inline-start: 0;
+    color: var(--color-accent);
+    font-size: 0.7rem;
+    inset-block-start: 0.45em;
+  }
+  .article-meaning {
+    background: var(--color-bg-muted);
+    border-radius: var(--radius-lg);
+    padding: var(--space-6);
+    margin-block-start: var(--space-8);
+  }
+  .article-meaning p { margin: 0; line-height: 1.8; }
+  .article-source {
+    display: flex;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+    margin-block-start: var(--space-12);
+    padding-block-start: var(--space-8);
+    border-block-start: 1px solid var(--color-border-light);
+  }
+</style>
