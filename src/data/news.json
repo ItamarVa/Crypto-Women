@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T08:08:54.586Z",
+  "updated": "2026-06-14T13:48:07.211Z",
   "count": 34,
   "sources": [
     "Decrypt",
@@ -7,6 +7,15 @@
     "Bitcoin Magazine"
   ],
   "items": [
+    {
+      "title": "Pokémon Card Sales Are Surging on Crypto Platforms—Just Don't Call It Gambling",
+      "link": "https://decrypt.co/370978/pokemon-cards-surging-crypto-platforms-gambling",
+      "summary": "Tokenized Pokémon card sales have skyrocketed over the past year, fueled by a wave of speculation and so-called gacha machines.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-06-14T13:01:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/pokemon-decrypt-style-03-gID_7.jpg"
+    },
     {
       "title": "US Government Orders Anthropic to Pull Claude Fable, Mythos AI Models",
       "link": "https://decrypt.co/371027/us-government-orders-anthropic-pull-claude-fable-mythos-ai-models",
@@ -231,15 +240,6 @@
       "lang": "en",
       "date": "2026-06-12T15:41:06.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/0a0c1344aa4ed2ef7961776b229c14994b12f600-2048x1152.png"
-    },
-    {
-      "title": "'Winter Is Over': Standard Chartered Calls Crypto Bottom as Bitcoin Recovers From $60K Fall",
-      "link": "https://decrypt.co/370907/winter-over-standard-chartered-calls-crypto-bottom-bitcoin-recovers-60k-fall",
-      "summary": "Standard Chartered analyst Geoff Kendrick suggests the crypto market has hit its lowest point following Bitcoin's recent drop below $60,000.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-06-12T15:16:08.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/06/decrypt-style-bitcoin-winter-gID_7.png"
     },
     {
       "title": "Sam Bankman-Fried Loses Appeal to Overturn FTX Fraud Conviction",
