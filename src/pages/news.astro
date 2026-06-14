@@ -13,9 +13,17 @@ type NewsItem = {
   lang: string;
   date: string | null;
   image: string | null;
+  title_he?: string | null;
+  summary_he?: string | null;
 };
 
 const items = (news.items as NewsItem[]) ?? [];
+
+// Prefer the Hebrew translation; fall back to the original text.
+const heTitle = (it: NewsItem) => it.title_he || it.title;
+const heSummary = (it: NewsItem) => it.summary_he || it.summary;
+// rtl when we have Hebrew (translated or native); else auto-detect.
+const dirFor = (it: NewsItem) => (it.title_he || it.lang === 'he' ? 'rtl' : 'auto');
 const featured = items.slice(0, 3);
 const rest = items.slice(3);
 
@@ -88,8 +96,8 @@ const description =
               </div>
               <div class="highlight-content">
                 <span class="src-badge" style={`--c:${colorFor(item.source)}`}>{item.source}</span>
-                <h3 class="highlight-h" dir="auto">{item.title}</h3>
-                {i === 0 && item.summary && <p class="highlight-desc" dir="auto">{item.summary}</p>}
+                <h3 class="highlight-h" dir={dirFor(item)}>{heTitle(item)}</h3>
+                {i === 0 && heSummary(item) && <p class="highlight-desc" dir={dirFor(item)}>{heSummary(item)}</p>}
                 {item.date && <time class="news-time" datetime={item.date} data-ts={item.date}>{fmtDate(item.date)}</time>}
               </div>
             </a>
@@ -125,7 +133,7 @@ const description =
               </div>
               <div class="news-card-body">
                 <span class="src-badge src-badge--sm" style={`--c:${colorFor(item.source)}`}>{item.source}</span>
-                <h3 class="news-card-h" dir="auto">{item.title}</h3>
+                <h3 class="news-card-h" dir={dirFor(item)}>{heTitle(item)}</h3>
                 {item.date && <time class="news-time" datetime={item.date} data-ts={item.date}>{fmtDate(item.date)}</time>}
               </div>
             </a>

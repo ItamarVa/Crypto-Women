@@ -31,6 +31,10 @@ const TIMEOUT_MS = 15000;
 const MAX_ITEMS = 60;
 const MAX_PER_SOURCE = 12;
 
+// Gemini (AI Studio) translation — only runs when GEMINI_API_KEY is set (CI).
+const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+const GEMINI_TIMEOUT_MS = 60000;
+
 // --- tiny helpers -------------------------------------------------
 
 function decodeEntities(s = '') {
@@ -138,6 +142,110 @@ async function fetchFeed(feed) {
   }
 }
 
+// --- Hebrew translation via Gemini ----------------------------------
+// Translates a batch of non-Hebrew items in a single request. Returns an
+// array aligned to the input order: [{title_he, summary_he}, ...].
+// On any failure returns [] so the caller falls back to the original text.
+async function translateBatch(items) {
+  const key = process.env.GEMINI_API_KEY;
+  if (!key || items.length === 0) return [];
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${key}`;
+  const payloadItems = items.map((it, i) => ({ i, title: it.title, summary: it.summary || '' }));
+  const prompt = `You are a professional Hebrew translator for a crypto-news site aimed at Israeli readers.
+Translate each item below to natural, journalistic Hebrew.
+Rules:
+- Keep well-known coins as Hebrew transliteration (Bitcoin→ביטקוין, Ethereum→את'ריום, Solana→סולנה).
+- Keep widely-used English terms that have no natural Hebrew equivalent as-is (DeFi, NFT, stablecoin, ETF, Web3).
+- Do NOT translate company names, product names, people's names, or tickers.
+- Keep it concise and faithful to the meaning; do not add information.
+- If a summary is empty, return an empty string for summary_he.
+Return one object per input item, in the same order.
+Items:
+${JSON.stringify(payloadItems, null, 2)}`;
+
+  const body = {
+    contents: [{ parts: [{ text: prompt }] }],
+    generationConfig: {
+      temperature: 0.3,
+      responseMimeType: 'application/json',
+      responseSchema: {
+        type: 'ARRAY',
+        items: {
+          type: 'OBJECT',
+          properties: { title_he: { type: 'STRING' }, summary_he: { type: 'STRING' } },
+          required: ['title_he', 'summary_he'],
+        },
+      },
+    },
+  };
+
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), GEMINI_TIMEOUT_MS);
+  try {
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+      signal: ctrl.signal,
+    });
+    if (!res.ok) {
+      console.warn(`  ✗ Gemini HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
+      return [];
+    }
+    const data = await res.json();
+    const text = (data?.candidates?.[0]?.content?.parts || []).map((p) => p.text || '').join('');
+    const arr = JSON.parse(text);
+    console.log(`  ✓ translated ${arr.length} items via ${GEMINI_MODEL}`);
+    return Array.isArray(arr) ? arr : [];
+  } catch (err) {
+    console.warn(`  ✗ translation failed: ${err.message}`);
+    return [];
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function translateAll(all) {
+  // Reuse prior translations (cache by link) so we never re-translate / re-pay.
+  const prevByLink = new Map();
+  try {
+    const prev = JSON.parse(await readFile(OUT_FILE, 'utf-8'));
+    for (const it of prev.items || []) if (it.link) prevByLink.set(it.link, it);
+  } catch {
+    /* no previous file */
+  }
+
+  for (const it of all) {
+    if (it.lang === 'he') {
+      it.title_he = null; // already Hebrew — render original
+      it.summary_he = null;
+      continue;
+    }
+    const cached = prevByLink.get(it.link);
+    it.title_he = cached?.title_he ?? null;
+    it.summary_he = cached?.summary_he ?? null;
+  }
+
+  const todo = all.filter((it) => it.lang !== 'he' && !it.title_he);
+  if (todo.length === 0) {
+    console.log('Translation: nothing new to translate.');
+    return;
+  }
+  if (!process.env.GEMINI_API_KEY) {
+    console.warn(`Translation: GEMINI_API_KEY not set — leaving ${todo.length} items untranslated.`);
+    return;
+  }
+  console.log(`Translating ${todo.length} new item(s) to Hebrew…`);
+  const out = await translateBatch(todo);
+  todo.forEach((it, i) => {
+    const t = out[i];
+    if (t && t.title_he) {
+      it.title_he = t.title_he;
+      it.summary_he = t.summary_he || '';
+    }
+  });
+}
+
 async function main() {
   console.log('Fetching crypto news feeds…');
   const results = await Promise.all(FEEDS.map(fetchFeed));
@@ -155,6 +263,9 @@ async function main() {
   // sort newest first; items without date sink to the bottom
   all.sort((a, b) => (Date.parse(b.date || 0) || 0) - (Date.parse(a.date || 0) || 0));
   all = all.slice(0, MAX_ITEMS);
+
+  // Translate non-Hebrew items to Hebrew (cached by link; needs GEMINI_API_KEY)
+  await translateAll(all);
 
   const sourcesOk = [...new Set(all.map((i) => i.source))];
 

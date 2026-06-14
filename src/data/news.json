@@ -1,14 +1,36 @@
 {
-  "updated": "2026-06-14T06:37:20.768Z",
+  "updated": "2026-06-14T14:27:01.720Z",
   "count": 47,
   "sources": [
     "Decrypt",
+    "CryptoJungle",
     "The Defiant",
     "Bitcoin Magazine",
-    "CryptoJungle",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "title": "Pokémon Card Sales Are Surging on Crypto Platforms—Just Don't Call It Gambling",
+      "link": "https://decrypt.co/370978/pokemon-cards-surging-crypto-platforms-gambling",
+      "summary": "Tokenized Pokémon card sales have skyrocketed over the past year, fueled by a wave of speculation and so-called gacha machines.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-06-14T13:01:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/pokemon-decrypt-style-03-gID_7.jpg",
+      "title_he": null,
+      "summary_he": null
+    },
+    {
+      "title": "לאחר ההנפקה המוצלחת בהיסטוריה: SpaceX נכנסת לטופ 10 החברות שמחזיקות ביטקוין",
+      "link": "https://www.cryptojungle.co.il/bitcoin-news/spacex-ipo-bitcoin-holdings-nasdaq/",
+      "summary": "חברת חקר החלל של אילון מאסק זינקה ב-20% ביומה הראשון בנאסד\"ק, שברה שיא גיוס היסטורי וחשפה אחזקת ביטקוין בשווי 1.2 מיליארד דולר The post לאחר ההנפקה המוצלחת בהיסטוריה: SpaceX נכנסת לטופ 10 החברות שמחזיקות ביטקוין…",
+      "source": "CryptoJungle",
+      "lang": "he",
+      "date": "2026-06-14T11:38:33.000Z",
+      "image": null,
+      "title_he": null,
+      "summary_he": null
+    },
     {
       "title": "US Government Orders Anthropic to Pull Claude Fable, Mythos AI Models",
       "link": "https://decrypt.co/371027/us-government-orders-anthropic-pull-claude-fable-mythos-ai-models",
@@ -16,7 +38,9 @@
       "source": "Decrypt",
       "lang": "en",
       "date": "2026-06-13T19:23:34.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/Trump-decrypt-style-04-gID_7.png"
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/Trump-decrypt-style-04-gID_7.png",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Google Sues Chinese Crime Group for Allegedly Using Gemini AI for Mass Phishing Scams",
@@ -25,7 +49,9 @@
       "source": "Decrypt",
       "lang": "en",
       "date": "2026-06-13T16:01:04.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-2-gID_7.png"
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-2-gID_7.png",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "AI Agent Rekts Dev on Bogus Scan, Leaves Them Begging for Crypto Donations",
@@ -34,7 +60,9 @@
       "source": "Decrypt",
       "lang": "en",
       "date": "2026-06-13T13:01:06.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2024/03/loser-shutterstock-gID_4.png"
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2024/03/loser-shutterstock-gID_4.png",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "CFTC Staff Give DCMs a Path to Convert Perpetual-Style Digital Commodity Futures Into True Perpetuals",
@@ -43,7 +71,9 @@
       "source": "The Defiant",
       "lang": "en",
       "date": "2026-06-12T22:39:22.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/d87e773b1153ab1a1cea758cd6a8dfd6224d397d-2048x1152.png"
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/d87e773b1153ab1a1cea758cd6a8dfd6224d397d-2048x1152.png",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "'Peirce Out': A Decade of Dissent",
@@ -52,7 +82,9 @@
       "source": "The Defiant",
       "lang": "en",
       "date": "2026-06-12T21:26:42.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/045bbf760eb07fd70d36b46d9aaa795ae01d8003-2048x1152.png"
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/045bbf760eb07fd70d36b46d9aaa795ae01d8003-2048x1152.png",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "CFTC Sues New Mexico to Block State Gaming Laws From Reaching Federally Regulated Prediction Markets",
@@ -61,7 +93,9 @@
       "source": "The Defiant",
       "lang": "en",
       "date": "2026-06-12T20:30:01.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/aeddfb32cc110b45a77e23e6050e97842c19b442-2048x1152.png"
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/aeddfb32cc110b45a77e23e6050e97842c19b442-2048x1152.png",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Standard Chartered Calls Crypto Bottom as Bitcoin Price Recovers From $59,000 Low",
@@ -70,7 +104,9 @@
       "source": "Bitcoin Magazine",
       "lang": "en",
       "date": "2026-06-12T20:00:19.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Standard-Chartered-Calls-Crypto-Bottom-as-Bitcoin-Price-Recovers-From-59000-Low.jpg"
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Standard-Chartered-Calls-Crypto-Bottom-as-Bitcoin-Price-Recovers-From-59000-Low.jpg",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "How Crypto Firms Will Own the Octagon at Trump's White House UFC Event",
@@ -79,7 +115,9 @@
       "source": "Decrypt",
       "lang": "en",
       "date": "2026-06-12T19:56:26.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-ufc-fight-gID_7.png"
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-ufc-fight-gID_7.png",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "AI Agents Still Can't Stop Prompt Injection Attacks, Researchers Warn",
@@ -88,7 +126,9 @@
       "source": "Decrypt",
       "lang": "en",
       "date": "2026-06-12T19:22:28.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Hacker-hack-decrypt-style-04-gID_7.jpg"
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Hacker-hack-decrypt-style-04-gID_7.jpg",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Gensler Files Brief Arguing Sports Prediction Markets Fall Outside CFTC Swap Rules",
@@ -97,7 +137,9 @@
       "source": "The Defiant",
       "lang": "en",
       "date": "2026-06-12T18:42:25.000Z",
-      "image": "https://cdn.thedefiant.io/gensler-kalshi-jpg-3c82794d-13ab-423f-9365-6c3f77becb98.jpg"
+      "image": "https://cdn.thedefiant.io/gensler-kalshi-jpg-3c82794d-13ab-423f-9365-6c3f77becb98.jpg",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Blockworks Acquires Messari in Deal Highlighting Crypto’s Data Consolidation Race",
@@ -106,7 +148,9 @@
       "source": "Bitcoin Magazine",
       "lang": "en",
       "date": "2026-06-12T18:41:15.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Blockworks-Acquires-Messari-in-Deal-Highlighting-Cryptos-Data-Consolidation-Race.jpg"
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Blockworks-Acquires-Messari-in-Deal-Highlighting-Cryptos-Data-Consolidation-Race.jpg",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Moonshot AI's Kimi Work Brings 300 AI Agents to Your Desktop",
@@ -115,7 +159,9 @@
       "source": "Decrypt",
       "lang": "en",
       "date": "2026-06-12T18:40:57.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/03/ai-agents-decrypt-style-gID_7.jpg"
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/03/ai-agents-decrypt-style-gID_7.jpg",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Bitcoin's Hidden Yield: Why Options Are Taking Over Crypto | David Lawant, Anchorage Digital",
@@ -124,7 +170,9 @@
       "source": "The Defiant",
       "lang": "en",
       "date": "2026-06-12T18:34:40.000Z",
-      "image": "https://cdn.thedefiant.io/thumbnail-episode3-converge-jpg-f83f7968-7f33-4c44-b312-774e32ee827b.jpg"
+      "image": "https://cdn.thedefiant.io/thumbnail-episode3-converge-jpg-f83f7968-7f33-4c44-b312-774e32ee827b.jpg",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Americans Fear Job Losses Due to AI But Hope for Cancer, Alzheimer’s Cures: Anthropic Survey",
@@ -133,7 +181,9 @@
       "source": "Decrypt",
       "lang": "en",
       "date": "2026-06-12T18:14:24.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-12-gID_7.png"
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-12-gID_7.png",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Crypto Firms Scrap Tokenized SpaceX Share Offerings as SPCX Surges After IPO",
@@ -142,7 +192,9 @@
       "source": "Decrypt",
       "lang": "en",
       "date": "2026-06-12T17:50:06.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Elon-Musk-decrypt-style-02-gID_7.png"
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Elon-Musk-decrypt-style-02-gID_7.png",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Coinbase Brings US-Regulated Gold and Silver Futures to 24/7 Trading, with Oil Next",
@@ -151,7 +203,9 @@
       "source": "The Defiant",
       "lang": "en",
       "date": "2026-06-12T17:48:21.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/07cddff88c022a3b3db2e4affaf4eb07be0ce8e7-2048x1152.png"
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/07cddff88c022a3b3db2e4affaf4eb07be0ce8e7-2048x1152.png",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Tennessee Man Indicted for Alleged Crypto Ponzi Scheme That Stole Millions From Investors",
@@ -160,7 +214,9 @@
       "source": "Decrypt",
       "lang": "en",
       "date": "2026-06-12T17:22:37.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/crypto-crime-decrypt-style-02-gID_7.jpg"
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/crypto-crime-decrypt-style-02-gID_7.jpg",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Iran-Linked Group That Hacked Kash Patel's Email Threatens World Cup With Hijacked FBI Drones",
@@ -169,7 +225,9 @@
       "source": "Decrypt",
       "lang": "en",
       "date": "2026-06-12T17:12:36.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/crime_hacker-gID_7.png"
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Bybit, Binance and Bitget Cancel Tokenized SpaceX Allocations as xStocks Fails to Deliver Shares",
@@ -178,7 +236,9 @@
       "source": "The Defiant",
       "lang": "en",
       "date": "2026-06-12T17:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/5383380f34c9016299515238e36bcc10b1eeb139-2048x1152.png"
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/5383380f34c9016299515238e36bcc10b1eeb139-2048x1152.png",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Blockworks Acquires Messari in Crypto Data Consolidation",
@@ -187,7 +247,9 @@
       "source": "The Defiant",
       "lang": "en",
       "date": "2026-06-12T16:50:34.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/cbcdf410d66d8ae821cb2d28e47170a5df5e3121-2048x1152.png"
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/cbcdf410d66d8ae821cb2d28e47170a5df5e3121-2048x1152.png",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Americans Traded Up to $34 Billion on Offshore Prediction Markets: Study",
@@ -196,7 +258,9 @@
       "source": "Decrypt",
       "lang": "en",
       "date": "2026-06-12T16:44:39.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt-style-polymarket-01-gID_7.png"
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt-style-polymarket-01-gID_7.png",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Hester Peirce Bids Farewell to the SEC After Nearly 30 Years",
@@ -205,7 +269,9 @@
       "source": "The Defiant",
       "lang": "en",
       "date": "2026-06-12T16:24:00.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/97c6191d945ac63bff8bbfa3e815c588ef10c024-2048x1152.png"
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/97c6191d945ac63bff8bbfa3e815c588ef10c024-2048x1152.png",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Q2 2026 Sets All-Time High for DeFi Hack Count With ~70 Exploits, $746M Stolen",
@@ -214,7 +280,9 @@
       "source": "The Defiant",
       "lang": "en",
       "date": "2026-06-12T15:45:48.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/9137bbf730864e039b404ac36d569fef94cc3c4f-2048x1152.png"
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/9137bbf730864e039b404ac36d569fef94cc3c4f-2048x1152.png",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "SpaceX Officially Joins Public Bitcoin Leaderboard as 8th Largest Holder With 18,712 BTC",
@@ -223,7 +291,9 @@
       "source": "Bitcoin Magazine",
       "lang": "en",
       "date": "2026-06-12T15:45:20.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/SpaceX-Officially-Joins-Public-Bitcoin-Leaderboard-as-8th-Largest-Holder-With-18712-BTC.jpg"
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/SpaceX-Officially-Joins-Public-Bitcoin-Leaderboard-as-8th-Largest-Holder-With-18712-BTC.jpg",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Second Circuit Affirms SBF’s Fraud Conviction and 25-Year Sentence",
@@ -232,16 +302,9 @@
       "source": "The Defiant",
       "lang": "en",
       "date": "2026-06-12T15:41:06.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/0a0c1344aa4ed2ef7961776b229c14994b12f600-2048x1152.png"
-    },
-    {
-      "title": "'Winter Is Over': Standard Chartered Calls Crypto Bottom as Bitcoin Recovers From $60K Fall",
-      "link": "https://decrypt.co/370907/winter-over-standard-chartered-calls-crypto-bottom-bitcoin-recovers-60k-fall",
-      "summary": "Standard Chartered analyst Geoff Kendrick suggests the crypto market has hit its lowest point following Bitcoin's recent drop below $60,000.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-06-12T15:16:08.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/06/decrypt-style-bitcoin-winter-gID_7.png"
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/0a0c1344aa4ed2ef7961776b229c14994b12f600-2048x1152.png",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Sam Bankman-Fried Loses Appeal to Overturn FTX Fraud Conviction",
@@ -250,7 +313,9 @@
       "source": "Bitcoin Magazine",
       "lang": "en",
       "date": "2026-06-12T14:45:21.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Sam-Bankman-Fried-Loses-Appeal-to-Overturn-FTX-Fraud-Conviction.jpg"
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Sam-Bankman-Fried-Loses-Appeal-to-Overturn-FTX-Fraud-Conviction.jpg",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "SpaceX Begins Nasdaq Trading With Tokenized Versions Mirroring Largest IPO in History",
@@ -259,7 +324,9 @@
       "source": "The Defiant",
       "lang": "en",
       "date": "2026-06-12T14:30:00.000Z",
-      "image": "https://cdn.thedefiant.io/money-rocket-jpg-46e11006-c8c8-427c-9c8c-a416a861c3b2.jpg"
+      "image": "https://cdn.thedefiant.io/money-rocket-jpg-46e11006-c8c8-427c-9c8c-a416a861c3b2.jpg",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Strategy Stock MSTR Offers Bitcoin Exposure At 18% Discount",
@@ -268,7 +335,9 @@
       "source": "Bitcoin Magazine",
       "lang": "en",
       "date": "2026-06-12T13:51:40.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Strategy-Stock-MSTR-Offers-Bitcoin-Exposure-At-18-Discount.jpg"
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Strategy-Stock-MSTR-Offers-Bitcoin-Exposure-At-18-Discount.jpg",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Metaplanet Acquires Siiibo Securities in Push to Build Bitcoin Financial Ecosystem",
@@ -277,7 +346,9 @@
       "source": "Bitcoin Magazine",
       "lang": "en",
       "date": "2026-06-12T13:32:45.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Metaplanet-Acquires-Siiibo-Securities-in-Push-to-Build-Bitcoin-Financial-Ecosystem.jpg"
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Metaplanet-Acquires-Siiibo-Securities-in-Push-to-Build-Bitcoin-Financial-Ecosystem.jpg",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Bukele’s Reform Makes El Salvador a Top Tax Haven: 0% on Foreign Income and Bitcoin Gains with Minimal Presence",
@@ -286,7 +357,9 @@
       "source": "Bitcoin Magazine",
       "lang": "en",
       "date": "2026-06-11T20:59:13.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/tn-2.webp"
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/tn-2.webp",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "U.S. Charges Two Men for $389 Million Bitcoin and Crypto Money Laundering Scheme Tied to Dark Web",
@@ -295,7 +368,9 @@
       "source": "Bitcoin Magazine",
       "lang": "en",
       "date": "2026-06-11T17:55:44.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/U.S.-Charges-Two-Men-for-389-Million-Bitcoin-and-Crypto-Money-Laundering-Scheme-Tied-to-Dark-Web.jpg"
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/U.S.-Charges-Two-Men-for-389-Million-Bitcoin-and-Crypto-Money-Laundering-Scheme-Tied-to-Dark-Web.jpg",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "BitGo Launches Lightning Earn to Let Institutions Put Bitcoin to Work on Lightning Network",
@@ -304,7 +379,9 @@
       "source": "Bitcoin Magazine",
       "lang": "en",
       "date": "2026-06-11T17:09:53.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2025/12/BitGo-Enables-Lightning-Network-Payments-Directly-from-Custody.jpg"
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2025/12/BitGo-Enables-Lightning-Network-Payments-Directly-from-Custody.jpg",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "Hungary Backs Away From Bitcoin and Crypto Criminalization in Regulatory U-Turn",
@@ -313,16 +390,9 @@
       "source": "Bitcoin Magazine",
       "lang": "en",
       "date": "2026-06-11T16:16:20.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Hungary-Backs-Away-From-Bitcoin-and-Crypto-Criminalization-in-Regulatory-U-Turn.jpg"
-    },
-    {
-      "title": "קרן a16z הובילה גיוס הון בסך 355 מיליון דולר לרשת קנטון",
-      "link": "https://www.cryptojungle.co.il/crypto-news/canton-network-a16z-355m/",
-      "summary": "הגיוס נעשה לפי שווי של כ-2 מיליארד דולר ומשך כמה מהמוסדות הפיננסיים הגדולים בעולם לחברת Digital Assets The post קרן a16z הובילה גיוס הון בסך 355 מיליון דולר לרשת קנטון appeared first on Crypto Jungle . ]]>",
-      "source": "CryptoJungle",
-      "lang": "he",
-      "date": "2026-06-11T14:40:18.000Z",
-      "image": null
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Hungary-Backs-Away-From-Bitcoin-and-Crypto-Criminalization-in-Regulatory-U-Turn.jpg",
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "עדכון: אסיפה כללית – איגוד הביטקוין הישראלי",
@@ -331,7 +401,9 @@
       "source": "Bitcoin Embassy TLV",
       "lang": "he",
       "date": "2026-04-20T12:19:27.000Z",
-      "image": null
+      "image": null,
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "כך תזהו הונאות התחזות לנציגי שירות של הבורסות",
@@ -340,7 +412,9 @@
       "source": "Bitcoin Embassy TLV",
       "lang": "he",
       "date": "2025-03-17T12:31:39.000Z",
-      "image": null
+      "image": null,
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "איך להימנע מעוקצי קריפטו ולהישאר בטוחים בעולם הדיגיטלי",
@@ -349,7 +423,9 @@
       "source": "Bitcoin Embassy TLV",
       "lang": "he",
       "date": "2025-01-28T07:55:20.000Z",
-      "image": null
+      "image": null,
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "איך חוזרים לבנק? פוסט מתגלגל ומאגר מידע",
@@ -358,7 +434,9 @@
       "source": "Bitcoin Embassy TLV",
       "lang": "he",
       "date": "2024-11-17T07:10:23.000Z",
-      "image": null
+      "image": null,
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "כתובות ת\"ש (תשלומים שקטים) – סוג חדש של כתובות בביטקוין",
@@ -367,7 +445,9 @@
       "source": "Bitcoin Embassy TLV",
       "lang": "he",
       "date": "2024-06-28T07:21:34.000Z",
-      "image": null
+      "image": null,
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "נותני שירותים ועזרה מול הבנקים",
@@ -376,7 +456,9 @@
       "source": "Bitcoin Embassy TLV",
       "lang": "he",
       "date": "2024-01-09T08:07:02.000Z",
-      "image": null
+      "image": null,
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "במהירות הבזק – פרק ב'",
@@ -385,7 +467,9 @@
       "source": "Bitcoin Embassy TLV",
       "lang": "he",
       "date": "2023-09-11T19:07:31.000Z",
-      "image": null
+      "image": null,
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "במהירות הבזק – פרק א'",
@@ -394,7 +478,9 @@
       "source": "Bitcoin Embassy TLV",
       "lang": "he",
       "date": "2023-09-11T19:06:30.000Z",
-      "image": null
+      "image": null,
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "סדנה להתקנת צומת ביטקוין + לייטנינג על בסיס Umbrel",
@@ -403,7 +489,9 @@
       "source": "Bitcoin Embassy TLV",
       "lang": "he",
       "date": "2023-08-16T20:03:15.000Z",
-      "image": null
+      "image": null,
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "חובת דיווח על אחזקת מטבעות דיגיטליים – שוב מחוץ לחוק ההסדרים",
@@ -412,7 +500,9 @@
       "source": "Bitcoin Embassy TLV",
       "lang": "he",
       "date": "2023-05-10T09:35:28.000Z",
-      "image": null
+      "image": null,
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "אורדינלס – לכל ביטקוין יש מספר שנתנו לו כוריו",
@@ -421,7 +511,9 @@
       "source": "Bitcoin Embassy TLV",
       "lang": "he",
       "date": "2023-03-09T07:00:44.000Z",
-      "image": null
+      "image": null,
+      "title_he": null,
+      "summary_he": null
     },
     {
       "title": "גרפיטי על שרשרת הבלוקים של ביטקוין",
@@ -430,7 +522,9 @@
       "source": "Bitcoin Embassy TLV",
       "lang": "he",
       "date": "2023-02-28T22:11:54.000Z",
-      "image": null
+      "image": null,
+      "title_he": null,
+      "summary_he": null
     }
   ]
 }

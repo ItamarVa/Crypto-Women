@@ -26,8 +26,12 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Fetch latest news
+      - name: Fetch latest news (+ Hebrew translation)
         run: node scripts/fetch-news.mjs
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Optional override; defaults to gemini-2.5-flash
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
 
       - name: Commit and deploy if changed
         env:
