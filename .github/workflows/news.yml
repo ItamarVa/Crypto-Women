@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: news-refresh
@@ -28,10 +29,12 @@ jobs:
       - name: Fetch latest news
         run: node scripts/fetch-news.mjs
 
-      - name: Commit if changed
+      - name: Commit and deploy if changed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if git diff --quiet -- src/data/news.json; then
-            echo "No news changes."
+            echo "No news changes — skipping."
             exit 0
           fi
           git config user.name "crypto-women-bot"
@@ -39,3 +42,6 @@ jobs:
           git add src/data/news.json
           git commit -m "chore(news): auto-refresh crypto news feed"
           git push
+          # A push by GITHUB_TOKEN does NOT trigger other workflows,
+          # so dispatch the deploy explicitly to publish the fresh data.
+          gh workflow run "Deploy to GitHub Pages" --ref main
