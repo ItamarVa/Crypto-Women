@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T17:14:06.900Z",
+  "updated": "2026-06-14T21:03:47.096Z",
   "count": 34,
   "sources": [
     "Decrypt",
@@ -7,6 +7,15 @@
     "Bitcoin Magazine"
   ],
   "items": [
+    {
+      "title": "Reve 2.0 Review: The Best AI Image Generator for Layout Control",
+      "link": "https://decrypt.co/371033/reve-2-review-best-ai-image-generator-layout-control",
+      "summary": "The startup that beat Midjourney at a penny per image is back with a 4K model that plans pictures like code—and refuses far less than its rivals",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-06-14T19:11:33.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/06/image14-gID_7.png"
+    },
     {
       "title": "Pokémon Card Sales Are Surging on Crypto Platforms—Just Don't Call It Gambling",
       "link": "https://decrypt.co/370978/pokemon-cards-surging-crypto-platforms-gambling",
@@ -195,15 +204,6 @@
       "lang": "en",
       "date": "2026-06-12T16:50:34.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/cbcdf410d66d8ae821cb2d28e47170a5df5e3121-2048x1152.png"
-    },
-    {
-      "title": "Americans Traded Up to $34 Billion on Offshore Prediction Markets: Study",
-      "link": "https://decrypt.co/370908/americans-traded-34-billion-offshore-prediction-markets-study",
-      "summary": "The study estimated Americans could end up wagering up to $133 billion annually on offshore prediction markets by 2030.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-06-12T16:44:39.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt-style-polymarket-01-gID_7.png"
     },
     {
       "title": "Hester Peirce Bids Farewell to the SEC After Nearly 30 Years",
