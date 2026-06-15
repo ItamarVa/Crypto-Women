@@ -37,13 +37,22 @@ const sourceColor: Record<string, string> = {
 };
 const accent = sourceColor[item.source] ?? '#5B2D8E';
 
+// Did Hebrew generation actually succeed for this item? If the API key was
+// invalid, out of budget, or errored, these stay empty and we fall back to
+// the original source snippet + a prominent link to the source.
+const hasHe = !!(item.commentary_he && item.commentary_he.trim());
 const title = item.title_he || item.title;
-const paragraphs = (item.commentary_he || item.summary || '')
+const titleDir = item.title_he || item.lang === 'he' ? 'rtl' : 'auto';
+const bodyDir = hasHe || item.lang === 'he' ? 'rtl' : 'auto';
+
+const bodyText = hasHe ? item.commentary_he! : item.summary || '';
+const paragraphs = bodyText
   .split(/\n\n+/)
   .map((p) => p.trim())
   .filter(Boolean);
-const points = item.points_he ?? [];
-const meaning = item.meaning_he || '';
+// points/meaning only when we actually generated them
+const points = hasHe ? item.points_he ?? [] : [];
+const meaning = hasHe ? item.meaning_he || '' : '';
 
 const dateFmt = new Intl.DateTimeFormat('he-IL', { dateStyle: 'long', timeStyle: 'short' });
 const dateLabel = item.date ? dateFmt.format(new Date(item.date)) : '';
@@ -58,7 +67,7 @@ const description = (item.brief_he || item.summary || title).slice(0, 160);
       <div class="container article-hero-inner">
         <a href={withBase('/news')} class="back-link">← לכל החדשות</a>
         <span class="src-badge" style={`--c:${accent}`}>{item.source}</span>
-        <h1 class="article-title" dir="rtl">{title}</h1>
+        <h1 class="article-title" dir={titleDir}>{title}</h1>
         <div class="article-meta">
           {dateLabel && <time datetime={item.date!}>{dateLabel}</time>}
           <span class="article-byline">תקציר עברי מקורי · Crypto Women</span>
@@ -69,15 +78,16 @@ const description = (item.brief_he || item.summary || title).slice(0, 160);
 
     <div class="container--content article-body">
       <p class="article-disclosure">
-        זהו תקציר ופרשנות מקוריים בעברית מאת Crypto Women — לא תרגום של הכתבה המלאה.
-        לכתבה המלאה והמקורית עברו למקור.
+        {hasHe
+          ? 'זהו תקציר ופרשנות מקוריים בעברית מאת Crypto Women — לא תרגום של הכתבה המלאה. לכתבה המלאה והמקורית עברו למקור.'
+          : 'להלן קטע מהמקור. לכתבה המלאה עברו למקור למטה.'}
       </p>
 
-      <div class="prose article-prose" dir="rtl">
+      <div class="prose article-prose" dir={bodyDir}>
         {paragraphs.length > 0 ? (
           paragraphs.map((p) => <p>{p}</p>)
         ) : (
-          <p class="article-empty">התקציר המלא בעברית ייווצר בעדכון הקרוב. בינתיים אפשר לקרוא את הכתבה המלאה במקור למטה.</p>
+          <p class="article-empty">לכתבה זו אין כרגע תקציר בעברית. עברו למקור למטה לכתבה המלאה.</p>
         )}
       </div>
 
