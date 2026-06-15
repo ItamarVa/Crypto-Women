@@ -1,12 +1,21 @@
 {
-  "updated": "2026-06-14T21:03:47.096Z",
+  "updated": "2026-06-15T03:32:10.407Z",
   "count": 34,
   "sources": [
-    "Decrypt",
     "The Defiant",
+    "Decrypt",
     "Bitcoin Magazine"
   ],
   "items": [
+    {
+      "title": "World Liberty Financial Pays UFC Freedom 250 Fighters in USD1 at White House",
+      "link": "https://thedefiant.io/news/cefi/world-liberty-financial-usd1-ufc-freedom-250-white-house",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-14T21:14:07.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/3181f7a85aede117fb410e4869c87b8cd9a5b02d-2048x1152.png"
+    },
     {
       "title": "Reve 2.0 Review: The Best AI Image Generator for Layout Control",
       "link": "https://decrypt.co/371033/reve-2-review-best-ai-image-generator-layout-control",
@@ -249,15 +258,6 @@
       "lang": "en",
       "date": "2026-06-12T14:45:21.000Z",
       "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Sam-Bankman-Fried-Loses-Appeal-to-Overturn-FTX-Fraud-Conviction.jpg"
-    },
-    {
-      "title": "SpaceX Begins Nasdaq Trading With Tokenized Versions Mirroring Largest IPO in History",
-      "link": "https://thedefiant.io/news/markets/spacex-begins-nasdaq-trading-with-tokenized-versions-mirroring-largest-ipo-in-history",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-12T14:30:00.000Z",
-      "image": "https://cdn.thedefiant.io/money-rocket-jpg-46e11006-c8c8-427c-9c8c-a416a861c3b2.jpg"
     },
     {
       "title": "Strategy Stock MSTR Offers Bitcoin Exposure At 18% Discount",
