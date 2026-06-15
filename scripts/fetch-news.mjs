@@ -38,12 +38,17 @@ const GEMINI_MODEL = process.env.GEMINI_MODEL || DEFAULT_GEMINI_MODEL;
 // GEMINI_MODEL var), automatically fall back to the default model.
 const MODEL_CANDIDATES = [...new Set([GEMINI_MODEL, DEFAULT_GEMINI_MODEL])];
 const GEMINI_TIMEOUT_MS = 90000;
+// Bump when the generated-content format changes — cached items whose stored
+// gen_v differs are regenerated once (then stay cached). v2 = full 450-700 word
+// original article + terms glossary (replaced the old short-summary format).
+const CONTENT_VERSION = 2;
 // Full-article fetch (richer source material for the original Hebrew summary).
 const ARTICLE_TIMEOUT_MS = 12000;
 const MAX_ARTICLE_CHARS = 5000;
-// Generate in small chunks so each Gemini request stays well under the timeout
-// (one big batch of 30+ articles with full text overruns 90s and aborts).
-const GEN_CHUNK_SIZE = Number(process.env.GEN_CHUNK_SIZE) || 6;
+// Generate in small chunks so each Gemini request stays well under the timeout.
+// The output is now a full 450-700 word article per item (much larger than the
+// old short summary), so we keep chunks small (4) to stay under the 90s timeout.
+const GEN_CHUNK_SIZE = Number(process.env.GEN_CHUNK_SIZE) || 4;
 
 // --- tiny helpers -------------------------------------------------
 
@@ -203,16 +208,18 @@ async function fetchArticleText(url) {
 }
 
 // --- Original Hebrew content via Gemini ------------------------------
-// For each article we generate ORIGINAL Hebrew content (not a translation of
-// the copyrighted body) in the voice of the site owner, Keren Waldman Hanan:
-//   title_he      — Hebrew headline
+// For each article we write a full ORIGINAL Hebrew article (NOT a translation
+// or close paraphrase of the copyrighted source) for the Crypto Women audience,
+// per the site owner's editorial brief:
+//   title_he      — original Hebrew headline (must differ from the source)
 //   brief_he      — 1 short sentence for the card
-//   commentary_he — 2-3 short first-person paragraphs, as if Keren read the
-//                   story and is sharing it warmly with her community
-//   points_he[]   — 3-4 key takeaways
-//   meaning_he    — "what it means" — global + Israel angle if relevant
-// Grounded ONLY in the headline + RSS snippet we hold (we never copy the full
-// article). On any failure returns [] so the page falls back to the snippet.
+//   commentary_he — the article itself: opener + body + short conclusion,
+//                   ~450-700 words, accessible, in Keren's warm community voice
+//   terms_he[]    — {term, explain} glossary for any jargon (may be empty)
+//   points_he[]   — 3-5 key takeaways / practical lessons
+//   meaning_he    — why this matters specifically to the readers/community
+// Grounded ONLY in the title + snippet (+ best-effort full text) we hold; we
+// never copy the source. On any failure returns [] so the page falls back.
 
 // Keren's voice, distilled from the site's own About/blog copy.
 const VOICE = `Write as Keren Waldman Hanan (קרן ולדמן חנן), founder of the "Crypto Women" (קריפטו וומן) community.
@@ -233,22 +240,33 @@ async function generateBatch(items) {
   }));
   const prompt = `${VOICE}
 
-For EACH news item below, produce ORIGINAL Hebrew content. This is NOT a translation — write fresh content in Keren's voice.
+TASK: For EACH news item below, write a complete, ORIGINAL Hebrew article for the Crypto Women community — readers who are curious about crypto, blockchain, tech and finance but are NOT necessarily technical experts. This is an original creation in Hebrew based on facts from the source: NOT a translation, NOT a close summary, NOT a near paraphrase.
 
-Each item may include "text": the article's main body fetched from the source. Use it as SOURCE MATERIAL to write a richer, accurate Hebrew summary and commentary.
-COPYRIGHT — critical: write entirely in your own words. Do NOT copy sentences or long phrases from "text"; never reproduce more than a few consecutive words verbatim. Summarize and reframe, do not republish. If "text" is empty, work from the title + summary only.
+Each item may include "text": the article's main body fetched from the source. Treat it ONLY as factual raw material.
 
-Hard rules:
-- Ground everything ONLY in the provided title/summary/text. Do NOT invent facts, numbers, dates, quotes, or personal anecdotes. If the source is thin, keep it general and say what is reasonably implied — never fabricate.
-- This is editorial framing/education, not financial advice. No "buy/sell" recommendations.
-- Keep well-known coins as Hebrew (ביטקוין, את'ריום); keep terms like DeFi/NFT/stablecoin/ETF/Web3 as-is. Don't translate company/product/people names.
+COPYRIGHT — non-negotiable. You MUST:
+- NOT translate the source word-for-word.
+- NOT rewrite it paragraph-by-paragraph.
+- NOT keep the source's structure or paragraph order.
+- NOT copy its headline, sentences, distinctive phrasings or original expressions; never reproduce more than a few consecutive words verbatim.
+- Use only the CORE FACTS and build an independent Hebrew article from them — your own framing, your own order, your own words.
+- For important factual claims, hedge carefully: "לפי הדיווח", "על פי הפרסום", or "לפי [source name]".
+- If a detail is not clearly in the source, do NOT add it and do NOT guess. If the source is thin, stay general — never fabricate facts, numbers, dates, quotes or anecdotes.
 
-For each item return:
-- title_he: a clear Hebrew headline (not clickbait).
-- brief_he: ONE short Hebrew sentence summarizing the story for a card.
-- commentary_he: 2-3 short paragraphs (use \\n\\n between them) in Keren's warm first-person voice, as if she read this and is sharing it with her community — what happened and why it's interesting.
-- points_he: array of 3-4 short Hebrew bullet takeaways.
-- meaning_he: 1-2 sentences — "מה זה אומר": the broader significance globally, and the angle for Israel if and only if there is a genuine one (otherwise keep it global).
+STYLE:
+- Clear, substantive and engaging; natural, professional, community Hebrew at eye level, no heavy jargon.
+- Comprehensive enough to convey the story, background and meaning — but not long or hard to read.
+- Don't be alarmist, but present risks honestly. Make no promises/guarantees. No exaggerated clickbait headlines. Don't present opinion as fact; if you offer interpretation, frame it as interpretation ("נראה ש…", "ייתכן ש…").
+- Educational framing, NOT financial advice. No buy/sell recommendations.
+- Keep well-known coins in Hebrew (ביטקוין, את'ריום); keep terms like DeFi/NFT/stablecoin/ETF/Web3 as-is. Don't translate company/product/people names.
+
+For each item return these fields (all Hebrew):
+- title_he: an ORIGINAL Hebrew headline that is NOT identical to the source headline.
+- brief_he: ONE short sentence summarizing the story, for a card.
+- commentary_he: the article body, 450-700 words, written as flowing paragraphs separated by \\n\\n. It must contain, in this order: (1) a short opener explaining what happened and why it matters; (2) the main body — the story, the key facts and the background; (3) a short closing paragraph with a clear takeaway. Write it in Keren's warm first-person community voice. Do NOT put a headline, bullet points, or the disclaimer inside this field.
+- terms_he: array of professional terms that appear, each {term: the term, explain: a one-line plain-Hebrew explanation}. Include only genuinely non-obvious terms; return an empty array if none are needed.
+- points_he: array of 3-5 short key points / practical takeaways for the crypto audience (only if it suits the topic; otherwise 3).
+- meaning_he: 1-2 sentences — why this specifically matters to the readers/community (the global significance, and the Israeli angle only if there is a genuine one).
 
 Return one object per input item, in the same order.
 Items:
@@ -257,7 +275,7 @@ ${JSON.stringify(payloadItems, null, 2)}`;
   const body = {
     contents: [{ parts: [{ text: prompt }] }],
     generationConfig: {
-      temperature: 0.6,
+      temperature: 0.7,
       responseMimeType: 'application/json',
       responseSchema: {
         type: 'ARRAY',
@@ -267,6 +285,14 @@ ${JSON.stringify(payloadItems, null, 2)}`;
             title_he: { type: 'STRING' },
             brief_he: { type: 'STRING' },
             commentary_he: { type: 'STRING' },
+            terms_he: {
+              type: 'ARRAY',
+              items: {
+                type: 'OBJECT',
+                properties: { term: { type: 'STRING' }, explain: { type: 'STRING' } },
+                required: ['term', 'explain'],
+              },
+            },
             points_he: { type: 'ARRAY', items: { type: 'STRING' } },
             meaning_he: { type: 'STRING' },
           },
@@ -315,7 +341,8 @@ ${JSON.stringify(payloadItems, null, 2)}`;
   return [];
 }
 
-const GEN_FIELDS = ['title_he', 'brief_he', 'commentary_he', 'points_he', 'meaning_he'];
+const GEN_FIELDS = ['title_he', 'brief_he', 'commentary_he', 'terms_he', 'points_he', 'meaning_he'];
+const ARRAY_FIELDS = new Set(['terms_he', 'points_he']);
 
 async function generateAll(all) {
   // Reuse prior generated content (cache by link) so each article is done once.
@@ -329,10 +356,13 @@ async function generateAll(all) {
 
   for (const it of all) {
     const cached = prevByLink.get(it.link);
-    for (const f of GEN_FIELDS) it[f] = cached?.[f] ?? (f === 'points_he' ? [] : null);
+    for (const f of GEN_FIELDS) it[f] = cached?.[f] ?? (ARRAY_FIELDS.has(f) ? [] : null);
+    it.gen_v = cached?.gen_v ?? null; // content-format version of the cached copy
   }
 
-  const todo = all.filter((it) => !it.title_he);
+  // Regenerate items that were never generated OR are on an older content
+  // format. Old content is kept as fallback if regeneration later fails.
+  const todo = all.filter((it) => !it.title_he || it.gen_v !== CONTENT_VERSION);
   if (todo.length === 0) {
     console.log('Hebrew content: nothing new to generate.');
     return;
@@ -358,8 +388,12 @@ async function generateAll(all) {
         it.title_he = g.title_he;
         it.brief_he = g.brief_he || '';
         it.commentary_he = g.commentary_he || '';
+        it.terms_he = Array.isArray(g.terms_he)
+          ? g.terms_he.filter((t) => t && t.term && t.explain)
+          : [];
         it.points_he = Array.isArray(g.points_he) ? g.points_he : [];
         it.meaning_he = g.meaning_he || '';
+        it.gen_v = CONTENT_VERSION;
         done++;
       }
     });

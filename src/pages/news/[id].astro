@@ -15,6 +15,7 @@ type NewsItem = {
   title_he?: string | null;
   brief_he?: string | null;
   commentary_he?: string | null;
+  terms_he?: { term: string; explain: string }[] | null;
   points_he?: string[] | null;
   meaning_he?: string | null;
 };
@@ -50,7 +51,8 @@ const paragraphs = bodyText
   .split(/\n\n+/)
   .map((p) => p.trim())
   .filter(Boolean);
-// points/meaning only when we actually generated them
+// terms/points/meaning only when we actually generated them
+const terms = hasHe ? item.terms_he ?? [] : [];
 const points = hasHe ? item.points_he ?? [] : [];
 const meaning = hasHe ? item.meaning_he || '' : '';
 
@@ -70,7 +72,7 @@ const description = (item.brief_he || item.summary || title).slice(0, 160);
         <h1 class="article-title" dir={titleDir}>{title}</h1>
         <div class="article-meta">
           {dateLabel && <time datetime={item.date!}>{dateLabel}</time>}
-          <span class="article-byline">תקציר עברי מקורי · Crypto Women</span>
+          <span class="article-byline">כתבה מקורית · Crypto Women</span>
         </div>
       </div>
       <div class="article-hero-glyph" aria-hidden="true">₿</div>
@@ -79,7 +81,7 @@ const description = (item.brief_he || item.summary || title).slice(0, 160);
     <div class="container--content article-body">
       <p class="article-disclosure">
         {hasHe
-          ? 'זהו תקציר ופרשנות מקוריים בעברית מאת Crypto Women — לא תרגום של הכתבה המלאה. לכתבה המלאה והמקורית עברו למקור.'
+          ? 'כתבה מקורית בעברית מאת Crypto Women, שנכתבה על בסיס העובדות מהמקור — אינה תרגום של הכתבה המקורית. לכתבה המקורית המלאה עברו למקור.'
           : 'להלן קטע מהמקור. לכתבה המלאה עברו למקור למטה.'}
       </p>
 
@@ -91,6 +93,27 @@ const description = (item.brief_he || item.summary || title).slice(0, 160);
         )}
       </div>
 
+      {terms.length > 0 && (
+        <section class="article-terms" dir="rtl">
+          <h2 class="article-h2">מושגים בקצרה</h2>
+          <dl>
+            {terms.map((t) => (
+              <div class="term-row">
+                <dt>{t.term}</dt>
+                <dd>{t.explain}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+      )}
+
+      {meaning && (
+        <section class="article-meaning" dir="rtl">
+          <h2 class="article-h2">למה זה חשוב לנו?</h2>
+          <p>{meaning}</p>
+        </section>
+      )}
+
       {points.length > 0 && (
         <section class="article-points" dir="rtl">
           <h2 class="article-h2">נקודות עיקריות</h2>
@@ -100,11 +123,15 @@ const description = (item.brief_he || item.summary || title).slice(0, 160);
         </section>
       )}
 
-      {meaning && (
-        <section class="article-meaning" dir="rtl">
-          <h2 class="article-h2">מה זה אומר?</h2>
-          <p>{meaning}</p>
-        </section>
+      {hasHe && (
+        <p class="article-attribution" dir="rtl">מבוסס על דיווח של {item.source}.</p>
+      )}
+
+      {hasHe && (
+        <p class="article-disclaimer" dir="rtl">
+          המידע בכתבה נועד להעשרה ולמידה בלבד ואינו מהווה ייעוץ השקעות, ייעוץ פיננסי, ייעוץ משפטי או
+          המלצה לבצע פעולה כלשהי. לפני קבלת החלטות פיננסיות מומלץ להתייעץ עם גורם מקצועי מוסמך.
+        </p>
       )}
 
       <div class="article-source">
@@ -221,6 +248,42 @@ const description = (item.brief_he || item.summary || title).slice(0, 160);
     margin-block-start: var(--space-8);
   }
   .article-meaning p { margin: 0; line-height: 1.8; }
+
+  /* Term glossary — compact definition rows */
+  .article-terms dl {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+  .article-terms .term-row {
+    padding: var(--space-3) var(--space-4);
+    background: var(--color-bg-muted);
+    border-radius: var(--radius-md);
+    border-inline-start: 3px solid var(--accent, var(--color-primary));
+  }
+  .article-terms dt {
+    font-weight: 700;
+    color: var(--color-primary-dark);
+    margin-block-end: 2px;
+  }
+  .article-terms dd { margin: 0; line-height: 1.6; color: var(--color-text); }
+
+  .article-attribution {
+    margin-block-start: var(--space-10);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-text-muted);
+  }
+  .article-disclaimer {
+    margin-block-start: var(--space-4);
+    padding: var(--space-4);
+    background: var(--color-bg-muted);
+    border-radius: var(--radius-md);
+    font-size: var(--text-sm);
+    line-height: 1.7;
+    color: var(--color-text-muted);
+  }
   .article-source {
     display: flex;
     gap: var(--space-3);
