@@ -40,7 +40,10 @@ const MODEL_CANDIDATES = [...new Set([GEMINI_MODEL, DEFAULT_GEMINI_MODEL])];
 const GEMINI_TIMEOUT_MS = 90000;
 // Full-article fetch (richer source material for the original Hebrew summary).
 const ARTICLE_TIMEOUT_MS = 12000;
-const MAX_ARTICLE_CHARS = 6000;
+const MAX_ARTICLE_CHARS = 5000;
+// Generate in small chunks so each Gemini request stays well under the timeout
+// (one big batch of 30+ articles with full text overruns 90s and aborts).
+const GEN_CHUNK_SIZE = Number(process.env.GEN_CHUNK_SIZE) || 6;
 
 // --- tiny helpers -------------------------------------------------
 
@@ -344,19 +347,25 @@ async function generateAll(all) {
   const withText = todo.filter((it) => it._fullText).length;
   console.log(`  full text obtained for ${withText}/${todo.length}`);
 
-  console.log(`Generating Hebrew content for ${todo.length} new item(s)…`);
-  const out = await generateBatch(todo);
-  todo.forEach((it, i) => {
-    const g = out[i];
-    if (g && g.title_he) {
-      it.title_he = g.title_he;
-      it.brief_he = g.brief_he || '';
-      it.commentary_he = g.commentary_he || '';
-      it.points_he = Array.isArray(g.points_he) ? g.points_he : [];
-      it.meaning_he = g.meaning_he || '';
-    }
-    delete it._fullText; // transient — never persisted to news.json
-  });
+  console.log(`Generating Hebrew content for ${todo.length} new item(s) in chunks of ${GEN_CHUNK_SIZE}…`);
+  let done = 0;
+  for (let c = 0; c < todo.length; c += GEN_CHUNK_SIZE) {
+    const chunk = todo.slice(c, c + GEN_CHUNK_SIZE);
+    const out = await generateBatch(chunk);
+    chunk.forEach((it, j) => {
+      const g = out[j];
+      if (g && g.title_he) {
+        it.title_he = g.title_he;
+        it.brief_he = g.brief_he || '';
+        it.commentary_he = g.commentary_he || '';
+        it.points_he = Array.isArray(g.points_he) ? g.points_he : [];
+        it.meaning_he = g.meaning_he || '';
+        done++;
+      }
+    });
+  }
+  for (const it of todo) delete it._fullText; // transient — never persisted
+  console.log(`  Hebrew content written for ${done}/${todo.length} items.`);
 }
 
 async function main() {
