@@ -31,9 +31,12 @@ const TIMEOUT_MS = 15000;
 const MAX_ITEMS = 60;
 const MAX_PER_SOURCE = 12;
 
-// Gemini (AI Studio) translation — only runs when GEMINI_API_KEY is set (CI).
+// Gemini (AI Studio) — only runs when GEMINI_API_KEY is set (CI).
 const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
-const GEMINI_TIMEOUT_MS = 60000;
+const GEMINI_TIMEOUT_MS = 90000;
+// Full-article fetch (richer source material for the original Hebrew summary).
+const ARTICLE_TIMEOUT_MS = 12000;
+const MAX_ARTICLE_CHARS = 6000;
 
 // --- tiny helpers -------------------------------------------------
 
@@ -150,6 +153,48 @@ async function fetchFeed(feed) {
   }
 }
 
+// --- Full-article fetch (heuristic readability, dependency-free) ------
+// Extracts the main readable text of an article page. Best-effort: returns ''
+// on paywall/block/timeout so the caller falls back to the RSS snippet.
+function extractReadable(html) {
+  let region = '';
+  const art = html.match(/<article[\s\S]*?<\/article>/i);
+  if (art) region = art[0];
+  else {
+    const main = html.match(/<main[\s\S]*?<\/main>/i);
+    region = main ? main[0] : html;
+  }
+  region = region
+    .replace(/<(script|style|noscript|svg|header|footer|nav|aside|form)\b[\s\S]*?<\/\1>/gi, ' ')
+    .replace(/<!--[\s\S]*?-->/g, ' ');
+  return stripHtml(region);
+}
+
+async function fetchArticleText(url) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), ARTICLE_TIMEOUT_MS);
+  try {
+    const res = await fetch(url, {
+      signal: ctrl.signal,
+      redirect: 'follow',
+      headers: {
+        'User-Agent': 'CryptoWomenBot/1.0 (+https://itamarva.github.io/Crypto-Women)',
+        Accept: 'text/html,application/xhtml+xml',
+      },
+    });
+    if (!res.ok) return '';
+    const ct = res.headers.get('content-type') || '';
+    if (!ct.includes('html')) return '';
+    const html = await res.text();
+    const text = extractReadable(html);
+    return text.length > 400 ? text.slice(0, MAX_ARTICLE_CHARS) : '';
+  } catch {
+    return '';
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 // --- Original Hebrew content via Gemini ------------------------------
 // For each article we generate ORIGINAL Hebrew content (not a translation of
 // the copyrighted body) in the voice of the site owner, Keren Waldman Hanan:
@@ -178,13 +223,17 @@ async function generateBatch(items) {
     source: it.source,
     title: it.title,
     summary: it.summary || '',
+    text: (it._fullText || '').slice(0, MAX_ARTICLE_CHARS),
   }));
   const prompt = `${VOICE}
 
-For EACH news item below, produce ORIGINAL Hebrew content. This is NOT a translation — write fresh content in Keren's voice based only on the provided headline and short snippet.
+For EACH news item below, produce ORIGINAL Hebrew content. This is NOT a translation — write fresh content in Keren's voice.
+
+Each item may include "text": the article's main body fetched from the source. Use it as SOURCE MATERIAL to write a richer, accurate Hebrew summary and commentary.
+COPYRIGHT — critical: write entirely in your own words. Do NOT copy sentences or long phrases from "text"; never reproduce more than a few consecutive words verbatim. Summarize and reframe, do not republish. If "text" is empty, work from the title + summary only.
 
 Hard rules:
-- Ground everything ONLY in the provided title + summary. Do NOT invent facts, numbers, dates, quotes, or personal anecdotes. If the snippet is thin, keep it general and say what is reasonably implied — never fabricate.
+- Ground everything ONLY in the provided title/summary/text. Do NOT invent facts, numbers, dates, quotes, or personal anecdotes. If the source is thin, keep it general and say what is reasonably implied — never fabricate.
 - This is editorial framing/education, not financial advice. No "buy/sell" recommendations.
 - Keep well-known coins as Hebrew (ביטקוין, את'ריום); keep terms like DeFi/NFT/stablecoin/ETF/Web3 as-is. Don't translate company/product/people names.
 
@@ -273,6 +322,12 @@ async function generateAll(all) {
     console.warn(`Hebrew content: GEMINI_API_KEY not set — leaving ${todo.length} items as source snippet.`);
     return;
   }
+  // Pull full article text in parallel (best-effort; falls back to snippet).
+  console.log(`Fetching full text for ${todo.length} article(s)…`);
+  await Promise.all(todo.map(async (it) => { it._fullText = await fetchArticleText(it.link); }));
+  const withText = todo.filter((it) => it._fullText).length;
+  console.log(`  full text obtained for ${withText}/${todo.length}`);
+
   console.log(`Generating Hebrew content for ${todo.length} new item(s)…`);
   const out = await generateBatch(todo);
   todo.forEach((it, i) => {
@@ -284,6 +339,7 @@ async function generateAll(all) {
       it.points_he = Array.isArray(g.points_he) ? g.points_he : [];
       it.meaning_he = g.meaning_he || '';
     }
+    delete it._fullText; // transient — never persisted to news.json
   });
 }
 
