@@ -32,7 +32,11 @@ const MAX_ITEMS = 60;
 const MAX_PER_SOURCE = 12;
 
 // Gemini (AI Studio) — only runs when GEMINI_API_KEY is set (CI).
-const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+const DEFAULT_GEMINI_MODEL = 'gemini-2.5-flash';
+const GEMINI_MODEL = process.env.GEMINI_MODEL || DEFAULT_GEMINI_MODEL;
+// Try the configured model first; if it's unavailable (e.g. a retired/typo'd
+// GEMINI_MODEL var), automatically fall back to the default model.
+const MODEL_CANDIDATES = [...new Set([GEMINI_MODEL, DEFAULT_GEMINI_MODEL])];
 const GEMINI_TIMEOUT_MS = 90000;
 // Full-article fetch (richer source material for the original Hebrew summary).
 const ARTICLE_TIMEOUT_MS = 12000;
@@ -217,7 +221,6 @@ Typical phrasing: "אני ממש שמחה שאת כאן", "לקפוץ למים",
 async function generateBatch(items) {
   const key = process.env.GEMINI_API_KEY;
   if (!key || items.length === 0) return [];
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${key}`;
   const payloadItems = items.map((it, i) => ({
     i,
     source: it.source,
@@ -270,30 +273,43 @@ ${JSON.stringify(payloadItems, null, 2)}`;
     },
   };
 
-  const ctrl = new AbortController();
-  const timer = setTimeout(() => ctrl.abort(), GEMINI_TIMEOUT_MS);
-  try {
-    const res = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(body),
-      signal: ctrl.signal,
-    });
-    if (!res.ok) {
-      console.warn(`  ✗ Gemini HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
+  // Try each candidate model; on "model unavailable" fall through to the next.
+  for (const model of MODEL_CANDIDATES) {
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`;
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), GEMINI_TIMEOUT_MS);
+    try {
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+        signal: ctrl.signal,
+      });
+      if (res.ok) {
+        const data = await res.json();
+        const text = (data?.candidates?.[0]?.content?.parts || []).map((p) => p.text || '').join('');
+        const arr = JSON.parse(text);
+        console.log(`  ✓ generated Hebrew content for ${arr.length} items via ${model}`);
+        return Array.isArray(arr) ? arr : [];
+      }
+      const errText = await res.text();
+      const modelUnavailable =
+        res.status === 404 || /not found|not supported|unknown name|is not available/i.test(errText);
+      if (modelUnavailable && model !== MODEL_CANDIDATES[MODEL_CANDIDATES.length - 1]) {
+        console.warn(`  ↪ model "${model}" unavailable (HTTP ${res.status}) — falling back to default…`);
+        continue; // try next candidate
+      }
+      // Other errors (invalid key 400/401, quota 429, …) — fail gracefully.
+      console.warn(`  ✗ Gemini HTTP ${res.status} (${model}): ${errText.slice(0, 200)}`);
       return [];
+    } catch (err) {
+      console.warn(`  ✗ generation failed (${model}): ${err.message}`);
+      return [];
+    } finally {
+      clearTimeout(timer);
     }
-    const data = await res.json();
-    const text = (data?.candidates?.[0]?.content?.parts || []).map((p) => p.text || '').join('');
-    const arr = JSON.parse(text);
-    console.log(`  ✓ generated Hebrew content for ${arr.length} items via ${GEMINI_MODEL}`);
-    return Array.isArray(arr) ? arr : [];
-  } catch (err) {
-    console.warn(`  ✗ generation failed: ${err.message}`);
-    return [];
-  } finally {
-    clearTimeout(timer);
   }
+  return [];
 }
 
 const GEN_FIELDS = ['title_he', 'brief_he', 'commentary_he', 'points_he', 'meaning_he'];
