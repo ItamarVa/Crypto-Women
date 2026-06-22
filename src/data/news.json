@@ -1,12 +1,661 @@
 {
-  "updated": "2026-06-22T09:42:43.180Z",
-  "count": 34,
+  "updated": "2026-06-22T16:49:26.049Z",
+  "count": 46,
   "sources": [
     "Decrypt",
+    "Bitcoin Magazine",
     "The Defiant",
-    "Bitcoin Magazine"
+    "Cointelegraph"
   ],
   "items": [
+    {
+      "id": "3rr45d",
+      "title": "Bank of England Eases Stablecoin Rules, Swaps Holding Caps for £40B ‘Guardrail’",
+      "link": "https://decrypt.co/371783/bank-of-england-eases-stablecoin-rules-swaps-holding-caps-for-40b-guardrail",
+      "summary": "The BoE scrapped individual holding caps for a £40 billion per-coin issuance limit and will let issuers hold more reserves in government debt.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-06-22T16:43:17.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/bank-of-england-decrypt-style-02-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1740qyd",
+      "title": "Bitcoin Network Activity Hits Highest Level Since 2024: CryptoQuant",
+      "link": "https://bitcoinmagazine.com/news/bitcoin-network-activity-hit-highest-level",
+      "summary": "Bitcoin Magazine Bitcoin Network Activity Hits Highest Level Since 2024: CryptoQuant Bitcoin network activity has surged to its highest level since 2024, with daily transactions topping 800,000, but CryptoQuant says the…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-06-22T16:42:35.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Bitcoin-Network-Activity-Hits-Highest-Level-Since-2024-CryptoQuant-.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1yy0v4y",
+      "title": "“Trust Me Bro” Cryptography Is Not Enough. That Is Exactly Why Qastle Exists.",
+      "link": "https://bitcoinmagazine.com/takes/trust-me-bro-cryptography-is-not-enough-that-is-exactly-why-qastle-exists",
+      "summary": "Bitcoin Magazine “Trust Me Bro” Cryptography Is Not Enough. That Is Exactly Why Qastle Exists. Qastle Wallet responds to Bitcoin 2026 criticism, addressing quantum risk, post-quantum cryptography, true entropy, and the…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-06-22T16:31:13.000Z",
+      "image": "https://www.youtube.com/embed/599q92C7lqc",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "kgzwg5",
+      "title": "Re7 Labs Opens $223K USDC Compensation Pool for USR Exploit Victims",
+      "link": "https://thedefiant.io/news/defi/re7-labs-223k-usdc-compensation-pool-usr-exploit-victims",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-22T16:09:04.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/d271961821a2a7931a7dd54458ebdf353d897c4f-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1lugc79",
+      "title": "World Liberty Financial's USD1 Supply Grows 9.7% in a Week to $4.85 Billion",
+      "link": "https://thedefiant.io/news/markets/world-liberty-financial-usd1-supply-grows-9-percent-week-485b",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-22T15:54:01.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/5b25a5ad14cb6fc31251990db8e2808b92727f6c-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1xoq3t8",
+      "title": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "summary": "",
+      "source": "Cointelegraph",
+      "lang": "en",
+      "date": "2026-06-22T15:48:49.000Z",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/oil-bitcoin-petrol-fuel.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "muax4a",
+      "title": "1,200 Tech Companies Tell Senate to Pass CLARITY Act as Lummis Calls Code-as-Crime Risk an 'Absurdity'",
+      "link": "https://thedefiant.io/converge/regulation/1200-tech-companies-clarity-act-lummis-absurdity-developers",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-22T15:41:36.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/5ada2da74eecce87b2f146afd753f8e9bc2ae46e-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "vmkncc",
+      "title": "Ethereum Layer-2 Taiko Warns Users to Withdraw Bridge Funds After Security Breach",
+      "link": "https://decrypt.co/371769/ethereum-layer-2-taiko-withdraw-bridge-funds-security-breach",
+      "summary": "Researchers estimate more than $1.7 million was stolen after attackers allegedly exploited Taiko's proof verification process.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-06-22T15:31:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Ethereum-decrypt-style-03-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "iqs81m",
+      "title": "ENS DAO Opens Temp Check on Handing Treasury and Day-to-Day Authority to ENS Foundation",
+      "link": "https://thedefiant.io/news/defi/ens-dao-temp-check-empowering-ens-foundation-treasury-handover",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-22T15:21:41.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/7cf9e6d54cb2f1af81d3aaea9485204a29e9af16-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "jyh81a",
+      "title": "Tom Lee’s BitMine Adds $92 Million in Ethereum, Hits 4.7% of Total Supply",
+      "link": "https://decrypt.co/371766/tom-lee-bitmine-92-million-ethereum-supply",
+      "summary": "The leading Ethereum treasury firm inched closer to its goal of accumulating 5% of the ETH circulating supply.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-06-22T15:18:30.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/tom-lee-decrypt-style-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "v4cxnb",
+      "title": "Morning Minute: Bitcoin at $65,000 as Iran Deal Wobbles",
+      "link": "https://decrypt.co/371759/morning-minute-bitcoin-at-65000-as-iran-deal-wobbles",
+      "summary": "Macro uncertainty, STRC finding a new low and another $227M in ETF outflows weren't enough to keep Bitcoin down over the past week.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-06-22T15:17:46.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "17q3yl9",
+      "title": "Morgan Stanley Files Amended S-1s for Spot Solana and Ethereum Trusts",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/morgan-stanley-files-amended-s-1s-for-spot-solana-and-ethereum-trusts",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-22T14:56:43.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/2fdeb79fe7f76e110a9cd327dabd4f7315c81f92-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1dkrull",
+      "title": "Strategy Pads Cash Reserves to $1.4B After STRC's Stumble",
+      "link": "https://decrypt.co/371763/strategy-pads-cash-reserves-to-1-4b-after-strcs-stumble",
+      "summary": "Michael Saylor’s firm topped up its USD cash reserve to $1.4 billion as it made its smallest Bitcoin buy since selling 32 BTC three weeks ago",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-06-22T14:55:32.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/michael-saylor-microstrategy-youtube-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1vm1268",
+      "title": "Jaredfromsubway.eth, Ethereum's Most Active Sandwich Bot, Drained for $7.5M Over the Weekend",
+      "link": "https://thedefiant.io/news/hacks/jaredfromsubway-eth-mev-bot-drained-7-5-million-counter-mev-honeypot",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-22T14:55:05.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/023824224d0107781ac9ef3a6e57b8a60b4c955d-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "jk1e96",
+      "title": "Dormant Wallet Tied to HashFlare Fraud Moves 10,600 ETH Worth $18.5M",
+      "link": "https://thedefiant.io/news/hacks/hashflare-scam-wallet-moves-10600-eth-18m-zachxbt-dormant",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-22T14:34:12.000Z",
+      "image": "https://cdn.thedefiant.io/hashflare-jpg-b6606a29-16f7-4738-b8ed-f4445d895529.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1olor24",
+      "title": "Why Google search can be a crypto wallet risk",
+      "link": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "summary": "",
+      "source": "Cointelegraph",
+      "lang": "en",
+      "date": "2026-06-22T14:30:00.000Z",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/why-google-search-can-be-a-crypto-wallet-risk.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1dfa5dq",
+      "title": "ICE and OKX Form Joint Venture to Connect NYSE Infrastructure With 120 Million Crypto Users",
+      "link": "https://bitcoinmagazine.com/news/ice-and-okx-form-crypto-to-connect-nyse",
+      "summary": "Bitcoin Magazine ICE and OKX Form Joint Venture to Connect NYSE Infrastructure With 120 Million Crypto Users A new ICE-OKX joint venture creates a regulated bridge between traditional finance and crypto, giving OKX's…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-06-22T14:17:43.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/ICE-and-OKX-Form-Joint-Venture-to-Connect-NYSE-Infrastructure-With-120-Million-Crypto-Users.jpg",
+      "title_he": "גשר חדש בין וול סטריט לקריפטו: ICE ו-OKX מתחברות",
+      "brief_he": "חברת ICE, בעלת הבורסה בניו יורק, ובורסת הקריפטו OKX מקימות מיזם משותף ליצירת גשר מפוקח בין שוקי ההון המסורתיים לעולם הקריפטו.",
+      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש שמחה לשתף אתכן בחדשות מרגשות שממשיכות לארוג את הקשר בין עולם ההשקעות המסורתי, זה שכולנו מכירות מהבנקים ומוול סטריט, לבין עולם הקריפטו והבלוקצ'יין שאנחנו כל כך אוהבות. לאחרונה, פורסם שחברת Intercontinental Exchange (ICE), שהיא הבעלים של הבורסה המפורסמת של ניו יורק (NYSE), הקימה מיזם משותף עם בורסת הקריפטו הגדולה OKX. המטרה? ליצור גשר מפוקח ומוסדר שיחבר בין התשתיות הפיננסיות הוותיקות לבין האקוסיסטם המתפתח של הקריפטו.\n\nלפי הדיווחים, המיזם המשותף הזה, שיהיה רשום כמתווך וסוחר בארצות הברית, יאפשר ל-120 מיליון המשתמשים של OKX גישה לשוקי החוזים העתידיים של ICE ולמניות הנסחרות ב-NYSE בפורמט טוקני. זהו צעד משמעותי מאוד, כי הוא מכניס את התשתיות הפיננסיות הגלובליות, שהן עמוד השדרה של שוקי ההון המסורתיים, ישירות לסביבות המסחר של הקריפטו, וזה קורה בקנה מידה חסר תקדים.\n\nהקשר בין ICE ל-OKX לא חדש. במרץ האחרון, ICE השקיעה בחברה, מה שהניח את היסודות לשיתוף הפעולה התפעולי הזה. זה מראה איך שחקנים גדולים מהעולם המסורתי מבינים את הפוטנציאל של הטכנולוגיה ומחפשים דרכים להשתלב בה בצורה אחראית ומפוקחת.\n\nאז מה זה אומר בשבילנו, קהילת קריפטו וומן? לדעתי, זה עוד סימן ברור לכך שהעולם הפיננסי מתבגר ומשתלב. ככל שיותר גופים מוסדיים ורגולטוריים נכנסים לתמונה, כך נוצרים יותר נתיבים בטוחים ונגישים להשקעה בקריפטו. זה לא אומר שצריך לקפוץ למים בלי לדעת לשחות, אבל זה בהחלט פותח דלתות ומוריד חסמים. ככל שלומדים יותר, פחות מפחדים, והיכולת שלנו, כנשים, להשפיע ולפרוץ תקרות זכוכית בעולם ההשקעות רק גדלה.\n\nהשילוב הזה יכול להביא יותר יציבות ושקיפות לשוק הקריפטו, וגם להציע הזדמנויות חדשות למשקיעים. זכרו, המטרה היא לא רק להבין את הטכנולוגיה, אלא גם להשתמש בה כדי ליצור עתיד פיננסי טוב יותר, שבו יש יותר שוויון הזדמנויות. תפתחו את הראש, תלמדו, תחקרו, ותראו איך אתן יכולות להיות חלק מהמהפכה הזו.\n\n\nנקודות למחשבה:\n*  ההתקרבות בין הפיננסים המסורתיים לקריפטו צוברת תאוצה.\n*  מיזמים משותפים כאלה יכולים להגביר את הנגישות והלגיטימיות של שוקי הקריפטו.\n*  הרגולציה היא עדיין גורם מרכזי, אך שיתופי פעולה כאלה מראים דרך להתמודדות איתה.\n*  הבנה של המגמות האלה חיונית לכל מי שרוצה לנווט בעולם ההשקעות המתפתח.",
+      "terms_he": [],
+      "points_he": [
+        "התקרבות בין שוקי הון מסורתיים לקריפטו באמצעות מיזם משותף של ICE ו-OKX.",
+        "המיזם יאפשר גישה של 120 מיליון משתמשי OKX לשוקי ICE ולמניות NYSE טוקניזציה.",
+        "צעד זה מעיד על התבגרות שוק הקריפטו ועל יצירת גשרים מוסדרים יותר.",
+        "השילוב צפוי להגביר נגישות, שקיפות והזדמנויות חדשות למשקיעים."
+      ],
+      "meaning_he": "שיתוף פעולה זה בין ICE ל-OKX מהווה ציון דרך משמעותי בהבאת שוקי ההון המסורתיים והקריפטו קרוב יותר זה לזה. זה מראה שהעולם הפיננסי מתפתח ומשתלב, ומדגיש את החשיבות של הבנת הגשרים הללו עבור הקהילה שלנו, במיוחד נשים, כדי להרחיב את ההזדמנויות הפיננסיות.",
+      "gen_v": 2
+    },
+    {
+      "id": "j80rtb",
+      "title": "Bitcoin Price Rises Above $65,000 as ETF Outflows Slow, Iran Deal and Fed Pull in Opposite Directions",
+      "link": "https://bitcoinmagazine.com/markets/bitcoin-price-rises-above-65000-etf",
+      "summary": "Bitcoin Magazine Bitcoin Price Rises Above $65,000 as ETF Outflows Slow, Iran Deal and Fed Pull in Opposite Directions Bitcoin price climbed above $65,000 as easing ETF outflows and a U.S.-Iran peace deal provided…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-06-22T14:11:30.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Bitcoin-Price-Rises-Above-65000-as-ETF-Outflows-Slow-Iran-Deal-and-Fed-Pull-in-Opposite-Directions.jpg",
+      "title_he": "ביטקוין חוצה את ה-65,000 דולר: בין דאגות אינפלציה להסכם שלום",
+      "brief_he": "מחיר הביטקוין עלה מעל 65,000 דולר, מושפע מירידה בזרימת הכספים מקרנות הסל ומסימנים להסכם שלום בין ארה\"ב לאיראן, לצד חששות מהעלאות ריבית.",
+      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש שמחה שאתן כאן, כי יש לנו הרבה על מה לדבר בעולם הקריפטו! השבוע האחרון היה מלא בתנודות מעניינות במחיר הביטקוין, שהצליח לחצות שוב את רף ה-65,000 דולר. כמו תמיד, התנועות הללו הן תוצאה של שילוב מורכב של גורמים, חלקם קשורים ישירות לשוק הקריפטו וחלקם מושפעים מהכלכלה הגלובלית והמצב הגיאופוליטי.\n\nלפי הדיווחים, אחד הגורמים שתמכו בעליית המחיר הוא ההתקדמות בשיחות השלום בין ארה\"ב לאיראן. ההסכם, שאמור לסיים תקופה של עימותים, גרם לירידה במחירי הנפט ולתחושה של הקלה גיאופוליטית. באופן מסורתי, חדשות כאלה נוטות להרים את מצב הרוח בשווקים, כולל שוק הקריפטו, שנתפס לעיתים כנכס 'סיכון'.\n\nמנגד, התמונה הכלכלית העולמית עדיין מורכבת. עם כניסתו של יו\"ר הפדרל ריזרב החדש, קווין וורש, ישנה דאגה גוברת מהאפשרות של העלאות ריבית נוספות בארה\"ב. האינפלציה עדיין גבוהה מהיעד, והפד מבהיר שהוא מחויב להחזירה למסלול. העלאות ריבית נוטות להעיק על נכסי סיכון כמו ביטקוין, מכיוון שהן מייקרות את עלות הכסף ומגבירות את האטרקטיביות של השקעות סולידיות יותר.\n\nגורם נוסף שמשפיע על המחיר הוא זרימת הכספים מקרנות הסל (ETF) של ביטקוין בארה\"ב. אמנם נרשמה ירידה בזרימת הכספים החוצה בשבוע האחרון, מה שמהווה סימן חיובי מסוים, אך סך הכספים שמשכו משקיעים מקרנות אלו לאורך זמן עדיין משמעותי. זה מראה שהמשקיעים עדיין זהירים, למרות התנודות החיוביות.\n\nחשוב לי להדגיש, כפי שאני תמיד אומרת, שאנחנו לא נותנות המלצות פיננסיות. המטרה שלנו היא ללמוד, להבין את המגמות, ולהיות מוכנות. ככל שלומדים יותר, פחות מפחדים, והידע הזה הוא הכוח שלנו. השילוב של גורמים גיאופוליטיים, מדיניות מוניטרית והתנהגות המשקיעים יוצר את התמונה המורכבת שאנו רואות כיום.\n\nהשוק עדיין תנודתי, והוא מושפע מגורמים רבים. מה שחשוב לנו הוא להבין את הדינמיקה הזו, להישאר מעודכנות, ולחקור בעצמנו. תפתחו את הראש, תלמדו, ותראו איך אתן יכולות לקבל החלטות מושכלות שישרתו את המטרות הפיננסיות שלכן.\n\n\nנקודות למחשבה:\n*  השפעת גורמים גיאופוליטיים (כמו הסכם שלום) על שוקי הקריפטו.\n*  הקשר בין החלטות הפדרל ריזרב (העלאות ריבית) למחיר הביטקוין.\n*  החשיבות של מעקב אחר זרימת הכספים לקרנות סל של ביטקוין.\n*  השוק נותר תנודתי ומושפע משילוב מורכב של גורמים.",
+      "terms_he": [],
+      "points_he": [
+        "מחיר הביטקוין עלה מעל 65,000 דולר, מושפע מחדשות גיאופוליטיות חיוביות.",
+        "חששות מהעלאות ריבית אפשריות מצד הפדרל ריזרב מהווים גורם לחץ על השוק.",
+        "זרימת הכספים מקרנות הסל של ביטקוין עדיין מדאיגה, אך קצב היציאה הואט.",
+        "השוק מציג תנודתיות גבוהה המושפעת משילוב של גורמים מקרו-כלכליים וגיאופוליטיים."
+      ],
+      "meaning_he": "התנודות במחיר הביטקוין ממחישות את הקשר ההדוק בין שוקי הקריפטו לגורמים מאקרו-כלכליים וגיאופוליטיים גלובליים. עבור הקהילה שלנו, זה מדגיש את הצורך בהבנה רחבה של השוק, ולא רק של הטכנולוגיה עצמה, כדי לנווט בו בצורה מושכלת.",
+      "gen_v": 2
+    },
+    {
+      "id": "voz204",
+      "title": "Enso launches RWA app and trading for over 500 tokenized assets",
+      "link": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "summary": "",
+      "source": "Cointelegraph",
+      "lang": "en",
+      "date": "2026-06-22T14:00:00.000Z",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-what-are-tokenized-commodities-2.jpg",
+      "title_he": "Enso משיקה אפליקציה חדשה לנכסים מוחשיים טוקניים",
+      "brief_he": "חברת Enso השיקה אפליקציה חדשה המאפשרת מסחר ביותר מ-500 נכסים מוחשיים (RWA) שהונפקו כטוקנים על הבלוקצ'יין.",
+      "commentary_he": "חברות וחברים יקרים,\n\nאני כל כך שמחה לשתף אתכן בחדשות שממשיכות להראות לנו איך טכנולוגיית הבלוקצ'יין משנה את פני העולם הפיננסי, ובפרט איך היא מאפשרת להביא נכסים 'מסורתיים' לעולם הדיגיטלי. לאחרונה, פורסם שחברת Enso השיקה אפליקציה חדשה שמאפשרת מסחר בלמעלה מ-500 נכסים מוחשיים (Real World Assets - RWA) שהונפקו כטוקנים על הבלוקצ'יין.\n\nמה זה בעצם אומר? הרעיון של RWA הוא לקחת נכסים מהעולם האמיתי, כמו נדל\"ן, זהב, אומנות, או אפילו אג\"ח, ולהפוך אותם לטוקנים דיגיטליים על הבלוקצ'יין. זה מאפשר לסחור בהם בצורה יעילה יותר, בשקיפות גבוהה יותר, ולעיתים קרובות גם בחלקים קטנים יותר (שבריריות), מה שהופך אותם לנגישים יותר למשקיעים.\n\nההשקה של Enso היא צעד משמעותי בתחום הזה. האפליקציה החדשה שלהם נועדה לפשט את התהליך של השקעה ב-RWA טוקניים, ולאפשר למשקיעים גישה למגוון רחב של נכסים. זהו חלק מהמגמה הגדולה של \"טוקניזציה\" (Tokenization), שמשנה את הדרך בה אנו חושבים על בעלות והשקעה.\n\nאני תמיד אומרת לכן – ככל שלומדים יותר, פחות מפחדים. התחום של RWA אולי נשמע מורכב, אבל הוא למעשה מנסה לגשר בין העולם הפיננסי המוכר לנו לבין הטכנולוגיות החדשות. זהו תחום עם פוטנציאל עצום להגברת הנזילות, הורדת עלויות, והרחבת הגישה להשקעות.\n\nהשקת אפליקציה כזו היא עוד הוכחה שהתחום הזה מתפתח במהירות ונעשה נגיש יותר. המטרה של קהילת קריפטו וומן היא בדיוק זו – להבין את ההתפתחויות הללו, ללמוד עליהן, ולראות איך אנחנו יכולות לנצל אותן לטובתנו. זה חלק מהחזון שלי לנפץ תקרות זכוכית ולאפשר ליותר נשים להיכנס לעולם ההשקעות, גם בתחומים שנראים חדשניים ומורכבים.\n\nאז מה המסר שלי מכאן? תפתחו את הראש, תחקרו את התחום של RWA, ותראו איך הטכנולוגיה הזו יכולה לפתוח בפניכן עולם חדש של אפשרויות השקעה. זה לא חייב להיות מסובך, והרבה פעמים, ההבנה הבסיסית היא המפתח.\n\n\nנקודות למחשבה:\n*  התפתחות תחום הנכסים המוחשיים הטוקניים (RWA) כמגמה מרכזית בפינטק.\n*  אפליקציית Enso מקלה על השקעה במגוון רחב של RWA טוקניים.\n*  טוקניזציה של נכסים בעולם האמיתי מגבירה נזילות, שקיפות ונגישות.\n*  התחום מציע הזדמנויות חדשות למשקיעים ומקרב את עולם ההשקעות המסורתי לטכנולוגיית הבלוקצ'יין.",
+      "terms_he": [],
+      "points_he": [
+        "חברת Enso השיקה אפליקציה חדשה למסחר ב-RWA טוקניים.",
+        "האפליקציה מאפשרת גישה למגוון רחב של נכסים מהעולם האמיתי שהונפקו כטוקנים.",
+        "הטוקניזציה של נכסים מגבירה נזילות, שקיפות ונגישות להשקעות.",
+        "זהו צעד משמעותי בקירוב העולם הפיננסי המסורתי לטכנולוגיית הבלוקצ'יין."
+      ],
+      "meaning_he": "ההתפתחות בתחום ה-RWA, כפי שמודגם על ידי ההשקה של Enso, מראה כיצד טכנולוגיית הבלוקצ'יין משנה את הדרך בה אנו תופסים ומשקיעים בנכסים. זהו תחום שפותח הזדמנויות חדשות ומרחיב את הנגישות להשקעות, ובכך תורם למטרתנו להעצים נשים בעולם הפיננסים.",
+      "gen_v": 2
+    },
+    {
+      "id": "4n2ou",
+      "title": "Here’s what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "summary": "",
+      "source": "Cointelegraph",
+      "lang": "en",
+      "date": "2026-06-22T13:50:31.000Z",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg",
+      "title_he": "סיכום חדשות קריפטו: מגמות ועדכונים מרכזיים",
+      "brief_he": "סקירה קצרה של העדכונים האחרונים בעולם הקריפטו, כולל התפתחויות טכנולוגיות, תנודות שוק ואירועים משמעותיים.",
+      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש שמחה שאתן כאן, כי היום אני רוצה לעשות לכן קצת סדר בבלאגן של חדשות הקריפטו. העולם הזה מתקדם כל כך מהר, שיש מצב שפספסתן כמה עדכונים חשובים. אז בואו נצלול פנימה ונבין מה קרה לאחרונה, בלי להיכנס ליותר מדי פרטים טכניים, אבל כן להבין את המשמעות.\n\nאנחנו רואות המשך מגמה של שילוב בין עולם הפיננסים המסורתי לעולם הקריפטו. כפי שדיברנו לא מזמן, שחקנים גדולים מבינים את הפוטנציאל של הטכנולוגיה ומחפשים דרכים לחבר בין העולמות. זה בא לידי ביטוי במיזמים משותפים, בהשקעות, וביצירת גשרים מפוקחים.\n\nבמקביל, אנחנו ממשיכות לראות התפתחויות טכנולוגיות מרתקות. תחומים כמו DeFi (מימון מבוזר) ו-NFTs (אסימונים בלתי ניתנים להחלפה) ממשיכים להתפתח, ומופיעים כלים ופלטפורמות חדשות שמאפשרים לנו לעשות דברים שלא היו אפשריים בעבר. חשוב לזכור שגם בתחומים אלו, כמו בכל השקעה, יש סיכונים, וחשוב ללמוד ולהבין לפני שקופצים למים.\n\nגם שוק המטבעות הדיגיטליים עצמו ממשיך להיות תנודתי. ראינו לאחרונה תנודות משמעותיות במחיר הביטקוין, שהושפעו מגורמים כלכליים וגיאופוליטיים. זה מזכיר לנו תמיד שהשקעה בקריפטו דורשת סבלנות, הבנה של השוק, ויכולת להתמודד עם תנודות.\n\nאני תמיד אומרת לכן – ככל שלומדים יותר, פחות מפחדים. המטרה שלנו ב'קריפטו וומן' היא בדיוק זו: לפרק את המורכבות, להנגיש את המידע, ולעזור לנו, ובמיוחד לנשים, להרגיש בנוח ובטוח בעולם ההשקעות הדיגיטליות. אנחנו רוצות לנפץ תקרות זכוכית ולפתוח הזדמנויות חדשות.\n\nאז מה התובנה המרכזית? העולם הפיננסי משתנה במהירות, והקריפטו נמצא בחזית השינוי הזה. חשוב להישאר מעודכנות, ללמוד, לחקור, ולפתוח את הראש לאפשרויות החדשות. אל תפחדו לשאול שאלות, להתייעץ, ולהיות חלק מהקהילה הזו שבה אנחנו תומכות אחת בשנייה.\n\n\nנקודות למחשבה:\n*  המשך ההתכנסות בין עולם הפיננסים המסורתי לעולם הקריפטו.\n*  התפתחויות טכנולוגיות בתחומי DeFi, NFT וה-RWA משנים את פני ההשקעות.\n*  שוק הקריפטו עדיין תנודתי ומושפע מגורמים גלובליים.\n*  החשיבות של למידה מתמדת והבנה של הסיכונים וההזדמנויות.",
+      "terms_he": [],
+      "points_he": [
+        "שילוב הולך וגובר בין פיננסים מסורתיים לקריפטו, עם יצירת גשרים מפוקחים.",
+        "התפתחויות טכנולוגיות בתחומי DeFi, NFT ו-RWA ממשיכות להרחיב את האפשרויות.",
+        "שוק הקריפטו נותר תנודתי, ומושפע מגורמים כלכליים וגיאופוליטיים.",
+        "הדגש על למידה, הבנת סיכונים והעצמה של נשים בעולם ההשקעות הדיגיטליות."
+      ],
+      "meaning_he": "העדכונים האחרונים מראים שהעולם הפיננסי עובר טרנספורמציה משמעותית, כאשר הקריפטו נמצא בליבת השינוי. עבור הקהילה שלנו, זה מדגיש את החשיבות של להישאר מעודכנות, ללמוד באופן פעיל, ולהשתמש בידע זה כדי להרחיב את ההזדמנויות הפיננסיות שלנו ולנפץ תקרות זכוכית.",
+      "gen_v": 2
+    },
+    {
+      "id": "1s9576x",
+      "title": "Social trading platform Fomo raises $75M, reaches $550M valuation",
+      "link": "https://cointelegraph.com/news/fomo-raise-series-b-trading-app-550m-valuation?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "summary": "",
+      "source": "Cointelegraph",
+      "lang": "en",
+      "date": "2026-06-22T13:42:45.000Z",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-the-vc-dominated-crypto-funding-model-needs-a-reboot.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1rpxspi",
+      "title": "Andrew Cuomo Tapped to Co-Chair OKX-ICE Crypto Joint Venture",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/andrew-cuomo-co-chair-okx-ice-crypto-joint-venture",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-22T13:29:28.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/698f845d47c139e4cc3594fc94e13a35489e5d9c-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "pzlpml",
+      "title": "Bank of England Publishes Policy Statement and Draft Rules for Systemic Stablecoins",
+      "link": "https://thedefiant.io/converge/regulation/bank-of-england-publishes-policy-statement-and-draft-rules-for-systemic-stablecoins",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-22T13:29:21.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/f71e82871d0f267808571ad764129ed5da3879e3-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1oazsde",
+      "title": "Strategy adds $300M to USD Reserve, acquires 520 BTC",
+      "link": "https://cointelegraph.com/news/strategy-300-million-usd-reserve-acquires-520-btc?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "summary": "",
+      "source": "Cointelegraph",
+      "lang": "en",
+      "date": "2026-06-22T13:27:40.000Z",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-what-are-bitcoin-escrow-services-and-how-do-they-work-strategyb.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "p8ct9",
+      "title": "Strive (ASST) Buys 759 Bitcoin for $50 Million, Treasury Reaches 19,864 BTC",
+      "link": "https://bitcoinmagazine.com/news/strive-asst-buys-759-bitcoin-for-50-mil",
+      "summary": "Bitcoin Magazine Strive (ASST) Buys 759 Bitcoin for $50 Million, Treasury Reaches 19,864 BTC Strive purchased 759 BTC for roughly $50 million last week, boosting its holdings to 19,864 BTC and outpacing Strategy's 520…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-06-22T13:21:27.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/05/Strive-ASST-Buys-1109-Bitcoin-Lifts-Holdings-to-16500-BTC.jpg",
+      "title_he": "סטראטג'י (MSTR) ממשיכה להגדיל את אחזקות הביטקוין שלה",
+      "brief_he": "חברת סטראטג'י, בראשותו של מייקל סיילור, רוכשת 520 ביטקוין נוספים ומגדילה את עתודות הדולר שלה.",
+      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש שמחה שאתן כאן איתי היום, כי יש לנו חדשות מרעישות מעולם הקריפטו ששווה להכיר. חברת סטראטג'י (Strategy), זו שבראשה עומד מייקל סיילור, ממשיכה באסטרטגיית ההשקעה האגרסיבית שלה בביטקוין. לפי הדיווחים האחרונים, החברה רכשה השבוע 520 ביטקוין נוספים, בהשקעה של כ-35 מיליון דולר. הרכישה הזו מגדילה את סך אחזקות הביטקוין של החברה לכ-847,363 מטבעות.\n\nמה עוד חדש? סטראטג'י גם הגדילה את עתודות הדולר שלה בכ-335 מיליון דולר, והן עומדות כעת על 1.4 מיליארד דולר. הצעד הזה נועד, בין היתר, לתמוך בהתחייבויות גדלות הקשורות לתוכניות המניות המועדפות שלה. החברה גייסה את הכסף הזה באמצעות מכירת מניות רגילות. חשוב להבין שזה לא רק כסף מזומן, אלא חלק ממבנה פיננסי מורכב שהחברה בונה סביב אחזקות הביטקוין שלה.\n\nאז מה הסיפור מאחורי זה? מייקל סיילור הוא דמות מוכרת מאוד בעולם הביטקוין, ואנחנו מכירים אותו כאחד התומכים הנלהבים והמשקיעים הגדולים ביותר בביטקוין מבין החברות הציבוריות. הוא מאמין שהביטקוין הוא העתיד, והוא משקיע בו לטווח ארוך מאוד. הרכישות השבועיות האלה הן חלק מאסטרטגיה ארוכת טווח, והן מראות שהחברה לא מוותרת על רכישת ביטקוין, גם כשהמחירים עולים. למעשה, המחיר הממוצע לרכישה השבוע היה בסביבות 67,068 דולר למטבע. למרות שהחברה הפסידה כ-9.8 מיליארד דולר על הנייר לפי הערכות, סיילור לא מראה סימני נסיגה.\n\nהחברה משתמשת במגוון דרכים לגייס הון, כולל מכירת מניות, הנפקת מניות מועדפות, ואפילו רכישה חוזרת של אג\"ח להמרה. כל המנגנונים האלה נועדו לתמוך באסטרטגיית ההשקעה המרכזית שלהם בביטקוין. חשוב לזכור שסטראטג'י היא לא רק חברה שמשקיעה בביטקוין, אלא היא הפכה למעין 'אוצר' לביטקוין בעצמה, כשהיא מחזיקה בכמות עצומה של המטבע הדיגיטלי הזה. זה מעניין לראות איך חברה גדולה כל כך ממנפת את הנכס הדיגיטלי הזה.\n\nהמסר העיקרי שאני רוצה לקחת מהסיפור הזה הוא כמה חשוב להבין את האסטרטגיה ארוכת הטווח. סטראטג'י לא קונה ביטקוין בשביל רווח מהיר, אלא מתוך אמונה עמוקה בנכס. זה מזכיר לנו שככל שלומדים יותר על השוק ועל הנכסים, כך פחות מפחדים. חשוב שתפתחו את הראש, תלמדו, תחקרו – ומי יודע, אולי גם אתן תמצאו את האסטרטגיה הנכונה עבורכן.\n\nאז מה אנחנו לוקחות מהסיפור הזה?\n1.  **התמדה באסטרטגיה:** סטראטג'י ממשיכה לרכוש ביטקוין באופן עקבי, גם כשהמחירים תנודתיים.\n2.  **גיוון מקורות מימון:** החברה משתמשת במגוון כלים פיננסיים כדי לתמוך באסטרטגיית ההשקעה שלה.\n3.  **ראיית לטווח ארוך:** ההשקעה בביטקוין נתפסת כהשקעה ארוכת טווח, לא כספקולציה קצרת טווח.\n4.  **חברות מוסדיות כמשקיעות:** הגדלת האחזקות של חברות גדולות בביטקוין מעידה על אמון גובר בנכס.\n\nלמה זה משנה לנו? זה מראה לנו שגם חברות גדולות ומוסדיות רואות בביטקוין נכס אסטרטגי לטווח ארוך. זה מחזק את הלגיטימציה של ביטקוין כשכבת נכסים חדשה, ומעודד אותנו, הנשים, להמשיך וללמוד, להשקיע ולנפץ תקרות זכוכית בעולם הפיננסים והטכנולוגיה. זכרו, ככל שלומדים יותר, פחות מפחדים!",
+      "terms_he": [],
+      "points_he": [
+        "סטראטג'י רוכשת 520 ביטקוין נוספים.",
+        "החברה מגדילה את עתודות הדולר שלה ל-1.4 מיליארד דולר.",
+        "המטרה היא תמיכה באסטרטגיה ארוכת טווח של השקעה בביטקוין.",
+        "החברה ממשיכה להגדיל את אחזקות הביטקוין שלה למרות תנודות בשוק."
+      ],
+      "meaning_he": "המשך ההשקעות המסיביות של חברות כמו סטראטג'י בביטקוין מחזק את מעמדו כנכס לטווח ארוך ומעודד יותר משקיעים, כולל נשים, להיכנס לתחום. זהו צעד חשוב בדרך לנפץ תקרות זכוכית פיננסיות.",
+      "gen_v": 2
+    },
+    {
+      "id": "mefpr6",
+      "title": "Michael Saylor’s Strategy (MSTR) Buys 520 Bitcoin, Raises USD Reserve to $1.4 Billion",
+      "link": "https://bitcoinmagazine.com/news/michael-saylors-strategy-buys-520-bitcoin",
+      "summary": "Bitcoin Magazine Michael Saylor’s Strategy (MSTR) Buys 520 Bitcoin, Raises USD Reserve to $1.4 Billion Strategy purchased 520 bitcoin for $35 million last week, increasing its holdings to 847,363 BTC while raising its…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-06-22T13:16:43.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Strategy-MSTR-Sells-Bitcoin-for-First-Time-in-Years-as-Bitcoin-Price-Tumbles.jpg",
+      "title_he": "חברת Strive מגדילה משמעותית את אחזקות הביטקוין שלה",
+      "brief_he": "חברת Strive רוכשת 759 ביטקוין בהשקעה של 50 מיליון דולר, ומגדילה את סך אחזקותיה ל-19,864 ביטקוין.",
+      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש שמחה שאתן כאן איתי היום, כי יש לנו חדשות מרעישות מעולם הקריפטו ששווה להכיר. חברת Strive, שמוכרת גם בטיקר שלה ASST, ממשיכה להגדיל את אחזקות הביטקוין שלה. בשבוע האחרון, החברה רכשה 759 ביטקוין במחיר ממוצע של כ-65,850 דולר למטבע, בהשקעה כוללת של כ-50 מיליון דולר. רכישה זו מגדילה את סך אחזקות הביטקוין של החברה לכ-19,864 מטבעות.\n\nהנתון הזה מעניין במיוחד כי הוא מראה על האצה באסטרטגיית הצבירה של החברה. בשבועות שקדמו לכך, Strive רכשה כמויות קטנות יותר של ביטקוין – 32 מטבעות בשבוע אחד ו-73 בשבוע שלאחריו, בהשקעה כוללת של כ-6.8 מיליון דולר. הקפיצה לרכישה של 759 מטבעות מראה חזרה לקצב צבירה מהיר יותר, מה שמרמז על ביטחון גובר מצד החברה בנכס.\n\nמה עוד חדש? Strive גם הגדילה את המזומנים ושווי המזומנים שלה מ-141.4 מיליון דולר ל-144.5 מיליון דולר. זה נעשה באמצעות תוכנית גיוס ההון שלה, שמאפשרת לה למכור מניות בשוק. בנוסף, מספר מניותיה עלה בכ-1.9 מיליון. זה מראה שהחברה לא רק משקיעה בביטקוין, אלא גם מנהלת את המבנה הפיננסי שלה בצורה אקטיבית.\n\nחשוב להבין את ההקשר של Strive. החברה נכנסה לתחום חברות האוצר של ביטקוין (Bitcoin Treasury) בינואר 2026, דרך מיזוג עם חברה אחרת שהכניסה 5,048 ביטקוין למאזן שלה. מאז, החברה צומחת במהירות. היא כבר חצתה את רף 15,000 הביטקוין בתחילת מאי, ובאחד השבועות אף השקיעה כ-185 מיליון דולר ברכישת כ-2,500 מטבעות – אחת הרכישות הגדולות בהיסטוריה הקצרה שלה כחברה ציבורית.\n\nהמודל העסקי של Strive מעניין. החברה משתמשת בתוכנית מניות מועדפות (SATA Preferred Stock) שמציעה דיבידנד צמוד לביטקוין, בשיעור נוכחי של 13% לשנה. הכסף שנגייס דרך התוכנית הזו מושקע בחזרה בביטקוין. זה דומה למבנה של חברות אחרות, אבל Strive רואה בביטקוין לא רק עתודת אוצר, אלא את המדד המרכזי לכל החלטות הקצאת ההון שלה.\n\nנכון לעכשיו, אחזקות הביטקוין של Strive שוות כ-1.27 מיליארד דולר. כמו חברות אחרות, גם Strive נמצאת כרגע 'מתחת למים' מבחינת מחיר הרכישה הממוצע שלה, אבל זה לא עוצר אותה. עם יעד של 4.2 מיליארד דולר בקופת המזומנים שלה, נראה שהחברה מתכננת להמשיך לצבור ביטקוין בקצב מהיר.\n\nאז מה המסר העיקרי לקהילה שלנו? אנחנו רואות שגם חברות חדשות יחסית בתחום, כמו Strive, מאמצות אסטרטגיות השקעה ארוכות טווח בביטקוין. זה מראה את הגידול וההתפתחות של שוק הקריפטו ואת האמון הגובר בביטקוין כנכס. אני תמיד אומרת לכן: תפתחו את הראש, תלמדו, תחקרו – כי ככל שלומדים יותר, פחות מפחדים. יש כאן הזדמנויות מדהימות, וחשוב שנהיה חלק מהן.\n\nמה אנחנו לוקחות מהסיפור הזה?\n1.  **קצב צבירה מואץ:** Strive מגדילה משמעותית את רכישות הביטקוין שלה.\n2.  **מודל עסקי חדשני:** שימוש במניות מועדפות צמודות ביטקוין לגיוס הון.\n3.  **ביטחון בטווח הארוך:** החברה רואה בביטקוין נכס אסטרטגי לטווח ארוך.\n4.  **תחרות גוברת:** Strive מתחרה ואף עוקפת חברות ותיקות יותר ברכישת ביטקוין.\n\nלמה זה משנה לנו? זה מדגים את האבולוציה של שוק ההשקעות המוסדיות בקריפטו, ומראה כיצד נשים יכולות למצוא את מקומן ולהוביל בתחום זה. ההשקעות הללו מחזקות את מעמדו של הביטקוין ומעודדות אותנו, הקהילה, להמשיך וללמוד, להשתלב ולנפץ תקרות זכוכית.",
+      "terms_he": [],
+      "points_he": [
+        "Strive רכשה 759 ביטקוין, הגדלת אחזקותיה ל-19,864 BTC.",
+        "החברה מגדילה את קצב הצבירה שלה לאחר תקופה של רכישות קטנות יותר.",
+        "ההשקעה ממומנת בחלקה באמצעות תוכנית מניות מועדפות עם דיבידנד צמוד ביטקוין.",
+        "Strive מתמקדת בראייה ארוכת טווח ומחשיבה את הביטקוין כנכס אסטרטגי."
+      ],
+      "meaning_he": "האסטרטגיה האגרסיבית של Strive ברכישת ביטקוין מחזקת את מגמת הכניסה של חברות מוסדיות לנכסים דיגיטליים ומעודדת נשים להיות שותפות פעילות בעולם ההשקעות, תוך בניית עתיד פיננסי עצמאי.",
+      "gen_v": 2
+    },
+    {
+      "id": "15wbrds",
+      "title": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
+      "link": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "summary": "",
+      "source": "Cointelegraph",
+      "lang": "en",
+      "date": "2026-06-22T12:26:58.000Z",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-digitized-europe-the-shift-to-a-cashless-world2.jpg",
+      "title_he": "האירו בבינה מלאכותית: האם ה-AI הולך לשנות את כללי המשחק?",
+      "brief_he": "בינה מלאכותית (AI) משפיעה יותר ויותר על שוק הקריפטו, ומעלה שאלות לגבי עתיד המסחר, הפיתוח והאבטחה.",
+      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש שמחה שאתן כאן איתי היום, כי יש לנו נושא מרתק לדבר עליו – השפעתה של הבינה המלאכותית (AI) על עולם הקריפטו. זה תחום שמתפתח במהירות מסחררת, ואני רוצה שנבין יחד איך הוא משפיע עלינו ועל העתיד של הטכנולוגיה הפיננסית.\n\nהבינה המלאכותית כבר מזמן הפסיקה להיות מדע בדיוני. היא כאן, והיא משפיעה על כל תחומי החיים, כולל שוק הקריפטו. אז איך זה בא לידי ביטוי? ראשית, בתחום המסחר. אלגוריתמים מבוססי AI יכולים לנתח כמויות עצומות של נתונים בזמן אמת – מחירים, חדשות, סנטימנט ברשתות חברתיות – ולבצע עסקאות באופן אוטומטי. זה יכול להוביל למסחר יעיל יותר, אך גם להגביר תנודתיות אם האלגוריתמים מגיבים באופן דומה למידע.\n\nשנית, בתחום הפיתוח. AI יכול לסייע למפתחים לכתוב קוד בצורה מהירה ומדויקת יותר, לזהות באגים פוטנציאליים, ואפילו ליצור חוזים חכמים מורכבים. זה יכול להאיץ את הפיתוח של פלטפורמות DeFi, NFTs, וטכנולוגיות Web3 חדשות.\n\nשלישית, באבטחה. AI יכול לשמש לזיהוי הונאות ופעילויות חשודות ברשת הבלוקצ'יין, מה שיכול להפוך את המערכות לבטוחות יותר. מצד שני, גם האקרים יכולים להשתמש ב-AI כדי למצוא פרצות אבטחה חדשות, מה שיוצר מרוץ חימוש טכנולוגי מתמיד.\n\nההשפעה הזו מתחילה להיראות גם בנתונים. למרות שהדיווחים הספציפיים שאני קוראת לא תמיד מפרטים, ברור שהשילוב בין AI לקריפטו הוא כיוון מרכזי. ישנם פרויקטים שמבוססים כולו על שילוב כזה, למשל, מטבעות קריפטוגרפיים שנועדו לתמוך בפיתוח AI, או פלטפורמות שמציעות יכולות AI למשקיעי קריפטו.\n\nאבל כמו בכל טכנולוגיה חדשה, יש גם אתגרים וסיכונים. אנחנו צריכות להיות מודעות לכך ש-AI יכול להחריף פערים קיימים, למשל, אם רק חברות גדולות יוכלו להרשות לעצמן להשתמש בכלים המתקדמים ביותר. כמו כן, שאלות אתיות לגבי שימוש בנתונים וקבלת החלטות אוטומטית עדיין פתוחות.\n\nהמסר שלי לכן הוא חד וברור: אל תפחדו מהטכנולוגיה הזו, אלא תלמדו אותה. הבינה המלאכותית כאן כדי להישאר, והיא הולכת לשנות את הדרך שבה אנו עובדים, משקיעים ומתקשרים. ככל שנבין אותה טוב יותר, כך נוכל לרתום אותה לטובתנו, לנפץ תקרות זכוכית ולהיות חלק מהמהפכה הבאה.\n\nאז מה אנחנו לוקחות מהסיפור הזה?\n1.  **מסחר חכם יותר:** AI משפר את יכולות ניתוח הנתונים והביצוע של עסקאות בשוק הקריפטו.\n2.  **פיתוח מואץ:** AI מסייע למפתחים ליצור טכנולוגיות בלוקצ'יין וחוזים חכמים חדשים.\n3.  **אבטחה משופרת (ופוטנציאל סיכון):** AI יכול לזהות הונאות, אך גם לשמש למתקפות.\n4.  **הזדמנויות חדשות:** שילוב AI וקריפטו פותח דלתות לפרויקטים ויישומים חדשניים.\n\nלמה זה משנה לנו? כי אנחנו רוצות להיות בחזית החדשנות, להבין את הכלים שיעצבו את העתיד הפיננסי שלנו, ולהבטיח שנשים יהיו חלק משמעותי מהשינוי הזה, לא רק כמשתמשות אלא גם כיוצרות ומובילות. זה הזמן שלנו לפתוח את הראש, ללמוד, לחקור ולהיות מוכנות לעידן ה-AI בקריפטו.",
+      "terms_he": [],
+      "points_he": [
+        "AI משנה את פני המסחר בקריפטו באמצעות ניתוח נתונים אוטומטי.",
+        "הטכנולוגיה מסייעת בפיתוח מהיר יותר של חוזים חכמים ויישומי Web3.",
+        "AI משמש לשיפור האבטחה, אך גם עלול להוות סיכון.",
+        "שילוב AI וקריפטו פותח אפשרויות חדשות ודורש למידה והסתגלות."
+      ],
+      "meaning_he": "השילוב של בינה מלאכותית וקריפטו הוא המנוע של החדשנות הפיננסית הבאה. ככל שנבין את הכלים הללו טוב יותר, נוכל לרתום אותם לטובתנו, להגביר את הביטחון הפיננסי שלנו, ולהבטיח שנשים יובילו את השינוי ולא רק ייגררו אחריו.",
+      "gen_v": 2
+    },
+    {
+      "id": "1x0mbcv",
+      "title": "Bitcoin 'Resilient' After Hawkish Fed, But No 'Return of Demand': Analysts",
+      "link": "https://decrypt.co/371760/bitcoin-resilient-after-hawkish-fed-but-no-return-of-demand-analysts",
+      "summary": "With ETF outflows persisting and selling \"nearly exhausted,\" analysts say Bitcoin is range-bound and waiting for a catalyst.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-06-22T12:12:25.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin_chart-gID_7.png",
+      "title_he": "הביטקוין מראה חוסן מול החלטות הפד, אך הביקוש עדיין נמוך",
+      "brief_he": "למרות החלטות הריבית של הפדרל ריזרב, הביטקוין שומר על יציבות, אך חסר לו 'טריגר' להחזרת הביקושים.",
+      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש שמחה שאתן כאן איתי היום, כי יש לנו עדכון חשוב בנוגע לשוק הקריפטו, ובמיוחד לגבי הביטקוין. בשבוע האחרון, שוקי הפיננסים העולמיים עקבו בדריכות אחר החלטות הפדרל ריזרב (הבנק המרכזי של ארה\"ב) בנוגע לריבית. למרות שההחלטות היו 'ניציות' (כלומר, נוטות להעלאת ריבית או לשמירה על ריבית גבוהה), הביטקוין הפגין חוסן מפתיע.\n\nאז מה זה אומר? בדרך כלל, העלאות ריבית או סימנים לכך שהריבית תישאר גבוהה לאורך זמן, נחשבות לחדשות שליליות עבור נכסים שנחשבים 'מסוכנים' יותר, כמו ביטקוין. הסיבה היא שכאשר הריבית עולה, השקעות שנחשבות בטוחות יותר, כמו אגרות חוב ממשלתיות, הופכות לאטרקטיביות יותר. זה גורם למשקיעים להעביר כסף מהשקעות מסוכנות יותר אל הבטוחות, מה שיכול להוריד את המחירים של נכסים כמו ביטקוין.\n\nאבל הפעם, זה לא קרה. הביטקוין הצליח לשמור על רמת המחירים שלו, למרות ההצהרות ה'ניציות' של הפד. אנליסטים מסבירים את זה בכמה גורמים. ראשית, השוק כבר היה מוכן לחדשות האלה, והן למעשה 'תומחרו' במחירים עוד לפני ההודעה הרשמית. שנית, ייתכן שהשחקנים המוסדיים הגדולים, אלו שמשקיעים סכומים עצומים, ממשיכים לראות בביטקוין נכס לטווח ארוך, ולכן אינם מושפעים באופן דרמטי מתנודות קצרות טווח.\n\nעם זאת, חשוב להיות מציאותיות. למרות החוסן הזה, אין עדיין סימנים לחזרה משמעותית של ביקוש. הפודקאסטים והניתוחים שאני קוראת מדברים על כך שהביטקוין נמצא כרגע ב'טווח מחירים' (Range-bound), כלומר, הוא נסחר בתנודות לא גדולות, ומחכה ל'טריגר' – אירוע או חדשה שיכולים להניע אותו למעלה או למטה באופן משמעותי. ה'טריגר' הזה יכול להיות שינוי במדיניות הפד, התפתחויות רגולטוריות, או אימוץ רחב יותר של טכנולוגיות קריפטו.\n\nאנליסטים מציינים גם את המשך היציאות (outflows) מכספי ה-ETF של ביטקוין. למרות שהיציאות האלו פחתו, הן עדיין קיימות ומעידות על כך שהמשקיעים הקטנים יותר עדיין מהססים להיכנס לשוק בכמויות גדולות. יחד עם זאת, יש גם אופטימיות מסוימת לגבי העובדה שהיציאות 'כמעט מוצו', כלומר, רוב המשקיעים שרצו למכור כבר מכרו, מה שיכול להצביע על התייצבות עתידית.\n\nאז מה המסר העיקרי לקהילה שלנו? חשוב להבין שהשוק הפיננסי מורכב ומושפע מגורמים רבים. ביטקוין, למרות היותו נכס חדש יחסית, מראה סימני בגרות ויכולת להתמודד עם לחצים ממערכת הפיננסים המסורתית. אבל, אנחנו עדיין בשלב שבו השוק מחפש כיוון ברור. לכן, זה הזמן להישאר מעודכנות, ללמוד, ולא לפעול בפזיזות. ככל שלומדים יותר, פחות מפחדים, ויותר קל לנו לקבל החלטות מושכלות.\n\nאז מה אנחנו לוקחות מהסיפור הזה?\n1.  **חוסן מפתיע:** הביטקוין הראה עמידות להחלטות ה'ניציות' של הפדרל ריזרב.\n2.  **המתנה לטריגר:** השוק עדיין ממתין לגורם שיניע את המחירים באופן משמעותי.\n3.  **יציאות מ-ETF:** למרות הפחתה, עדיין יש יציאות מכספי ETF, מה שמצביע על זהירות.\n4.  **פוטנציאל התייצבות:** סיום מכירות המוניות עלול להצביע על התייצבות קרובה.\n\nלמה זה משנה לנו? זה מראה לנו שהשוק של נכסים דיגיטליים הופך למורכב יותר ויותר, ומושפע מאירועים כלכליים גלובליים. הבנת הדינמיקה הזו חיונית כדי שנוכל לנווט אותה בהצלחה, להגן על ההשקעות שלנו, ולנפץ תקרות זכוכית פיננסיות. זה הזמן שלנו להיות חכמות, סבלניות, ולהמשיך ללמוד.",
+      "terms_he": [],
+      "points_he": [
+        "הביטקוין הפגין חוסן למרות החלטות הריבית של הפדרל ריזרב.",
+        "השוק עדיין במצב של המתנה ל'טריגר' שיניע את המחירים.",
+        "היציאות מכספי ETF של ביטקוין נמשכות, אך בקצב פוחת.",
+        "השוק מחכה לסימנים ברורים לחזרה של ביקוש משמעותי."
+      ],
+      "meaning_he": "הבנת הדינמיקה בין החלטות כלכליות גלובליות לבין שוק הקריפטו היא קריטית. חוסן הביטקוין מעיד על בגרותו, ומזכיר לנו שנשים משקיעות צריכות להישאר מעודכנות, ללמוד, ולפעול בחוכמה כדי להשיג עצמאות פיננסית.",
+      "gen_v": 2
+    },
+    {
+      "id": "qsyfrj",
+      "title": "These XRP price charts hint at potential 25% relief rally in July",
+      "link": "https://cointelegraph.com/markets/these-xrp-price-charts-hint-at-a-potential-25-relief-rally-in-july?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "summary": "",
+      "source": "Cointelegraph",
+      "lang": "en",
+      "date": "2026-06-22T11:39:19.000Z",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-what-are-pivot-points-and-how-does-pivot-trading-work-ripple.jpg",
+      "title_he": "האם XRP בדרך לעלייה של 25%? מבט על הגרפים",
+      "brief_he": "ניתוח טכני של מחירי XRP מצביע על פוטנציאל לעלייה קצרת טווח, אך חשוב לזכור את התנודתיות.",
+      "commentary_he": "חברות וחברים יקרים, אני ממש שמחה שאתן כאן היום כדי לדבר על אחד הנושאים שתמיד מעוררים עניין - תנודות מחירים בשוק הקריפטו. הפעם, המבט שלנו מופנה אל XRP, המטבע הדיגיטלי של חברת Ripple. לפי דיווחים שונים, ניתוחים טכניים של גרפי המחירים של XRP מצביעים על אפשרות לעלייה של כ-25% בחודש יולי. חשוב לי להדגיש שוב, כפי שאני תמיד אומרת, שאנחנו לא נותנות ולא מקבלות ייעוץ פיננסי. התחום הזה תמיד היה ותמיד יהיה תנודתי, וניתוחים טכניים הם רק כלי אחד מני רבים שמשמשים סוחרים כדי לנסות לחזות תנועות עתידיות. \n\nהניתוחים הללו מתבססים על תבניות גרפיות ואינדיקטורים טכניים, כמו תמיכה והתנגדות, ממוצעים נעים ורמות Fibonacci. על פי הניתוחים, נראה שיש סימנים המצביעים על כך ש-XRP עשוי לחוות \"ראלי הקלה\" (relief rally) - עלייה זמנית במחיר לאחר תקופה של ירידות או דשדוש. המספרים שמופיעים, כמו 25%, הם בהחלט מסקרנים, אך כפי שאנו יודעות, בשוק הקריפטו כל תרחיש אפשרי, וחשוב לגשת אליו בזהירות ובצורה מושכלת. \n\nהרקע של XRP, כפי שחלקכן אולי יודעות, קשור קשר הדוק לחברת Ripple ולניסיונותיה לפתח פתרונות תשלום חוצי גבולות מבוססי בלוקצ'יין. ההתפתחויות המשפטיות סביב Ripple מול הרשות לניירות ערך האמריקאית (SEC) השפיעו רבות על מחיר המטבע לאורך השנים, וכל התפתחות בתחום זה משפיעה באופן מיידי על תנועות המחיר. לכן, כל ניתוח טכני צריך להילקח בערבון מוגבל, תוך התחשבות גם בגורמים פונדמנטליים ורגולטוריים. \n\nאז מה אנחנו לוקחות מהסיפור הזה? ראשית, שוק הקריפטו הוא דינמי ומשתנה ללא הרף. שנית, ניתוחים טכניים יכולים לספק תובנות, אך הם אינם ערובה להצלחה. שלישית, וכאן הנקודה החשובה ביותר עבורנו, ככל שלומדים יותר, פחות מפחדים. חשוב להמשיך ללמוד, לחקור ולהבין את הכלים השונים שעומדים לרשותנו, מבלי לקבל החלטות פזיזות. המטרה שלנו היא להבין את השוק, לא לנצח אותו. תפתחו את הראש, תחקרו, ותזכרו תמיד את המשימה שלנו - להביא עוד נשים לעולם ההשקעות והטכנולוגיה.",
+      "terms_he": [],
+      "points_he": [
+        "ניתוחים טכניים מצביעים על פוטנציאל לעליית מחיר של XRP.",
+        "השוק תנודתי וכל ניתוח טכני אינו מבטיח תוצאות.",
+        "התפתחויות רגולטוריות משפיעות משמעותית על מחירי מטבעות קריפטו.",
+        "המשך למידה והבנה הם המפתח להתמודדות עם שוק הקריפטו."
+      ],
+      "meaning_he": "העניין במחירי XRP ממחיש את הדינמיות והפוטנציאל בשוק הקריפטו, ומדגיש את החשיבות של הבנה מעמיקה ולא רק הסתמכות על תרשימים. עבורנו, הקהילה, זהו תזכורת להמשיך ללמוד ולחקור, תוך פיתוח חשיבה ביקורתית.",
+      "gen_v": 2
+    },
+    {
+      "id": "1bpkgii",
+      "title": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
+      "link": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "summary": "",
+      "source": "Cointelegraph",
+      "lang": "en",
+      "date": "2026-06-22T11:16:52.000Z",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-bank-of-england-warns-stablecoins-could-break-the-uk-banking-system.jpg",
+      "title_he": "הבנק המרכזי של אנגליה מרכך את הכללים ל-Stablecoins",
+      "brief_he": "הבנק המרכזי של אנגליה מציג גישה חדשה ל-stablecoins, עם הגבלת היקף הנפקה של 40 מיליארד ליש\"ט, צעד שנועד לאזן חדשנות עם יציבות.",
+      "commentary_he": "חברות וחברים יקרים, אני תמיד שמחה לחלוק אתכם חדשות מעולם הפינטק והקריפטו, במיוחד כשהן נוגעות לרגולציה ולדרכים שבהן טכנולוגיות חדשות משתלבות בעולם הפיננסי המסורתי. הפעם, העיניים שלנו נשואות לבריטניה, שם הבנק המרכזי, Bank of England, הכריז על עדכון משמעותי במדיניות שלו בנוגע ל-stablecoins. \n\nעל פי הדיווחים, הבנק המרכזי הבריטי החליט להקל מעט את הכללים סביב ה-stablecoins, אך במקביל הציב תקרת הנפקה של 40 מיליארד ליש\"ט. מה זה אומר בעצם? stablecoins הם מטבעות דיגיטליים שמטרתם לשמור על ערך יציב, לרוב צמוד למטבע פיאט כמו הדולר או הליש\"ט. הם מהווים גשר חשוב בין עולם הקריפטו לעולם הפיננסים המסורתי, ומשמשים ככלי חשוב ב-DeFi ובמסחר. \n\nההחלטה של הבנק המרכזי משקפת ניסיון למצוא את האיזון הנכון. מצד אחד, הם מכירים בפוטנציאל של הטכנולוגיה הזו לחדשנות ויעילות במערכת התשלומים. מצד שני, הם חייבים להבטיח את היציבות הפיננסית ואת ההגנה על הצרכנים. לכן, ההקלות שהם מציעים נועדו לאפשר לחברות לפתח ולספק שירותי stablecoin, אך תחת פיקוח ובקרה. \n\nתקרת ההנפקה של 40 מיליארד ליש\"ט היא נתון משמעותי. היא קובעת גבול עליון להיקף הכסף הדיגיטלי שניתן יהיה להנפיק תחת הפיקוח החדש. זהו צעד שנועד למנוע סיכונים מערכתיים פוטנציאליים, שכן הנפקה בלתי מבוקרת של stablecoins בהיקפים גדולים עלולה להשפיע על שוקי הפיננסים הרחבים יותר. בנוסף, הכללים החדשים עשויים לדרוש מיצרני stablecoins לעמוד בדרישות מחמירות יותר של שמירת עתודות, שקיפות וניהול סיכונים. \n\nמה אנחנו יכולות ללמוד מזה? ראשית, הרגולציה סביב קריפטו וטכנולוגיות פיננסיות חדשות מתפתחת כל הזמן, והיא חיונית ליצירת אמון וביטחון. שנית, stablecoins הם כלי חשוב בעולם הדיגיטלי, אך יש להבין את הסיכונים הכרוכים בהם ואת המסגרת הרגולטורית שחלה עליהם. שלישית, המודל הבריטי עשוי להוות השראה למדינות אחרות, והוא מראה כיצד ניתן לשלב חדשנות עם שמירה על יציבות. \n\nאז מה המסר העיקרי? אנחנו צריכות להמשיך לעקוב אחרי ההתפתחויות הרגולטוריות, כי הן משפיעות ישירות על עתיד ההשקעות שלנו ועל האופן שבו אנו משתמשות בכלים הדיגיטליים. חשוב לזכור תמיד את העיקרון שלמדנו: ככל שלומדים יותר, פחות מפחדים. תמשיכו לחקור, לשאול שאלות, ולהיות חלק מהשינוי.",
+      "terms_he": [],
+      "points_he": [
+        "הבנק המרכזי של אנגליה מרכך כללים ל-stablecoins אך מציב תקרת הנפקה.",
+        "הרגולציה נועדה לאזן בין חדשנות פיננסית ליציבות מערכתית.",
+        "Stablecoins הם גשר בין עולם הקריפטו לפיננסים המסורתיים.",
+        "התפתחות רגולטורית היא מפתח לאמון ובטיחות בשוק הקריפטו."
+      ],
+      "meaning_he": "ההתפתחויות הרגולטוריות סביב stablecoins בבריטניה מדגימות את המאמץ העולמי להסדיר את שוק הקריפטו, תוך הכרה בפוטנציאל שלו. עבור קהילת 'קריפטו וומן', זהו סימן שהשוק מתבגר, והבנת הרגולציה היא קריטית להשקעות מושכלות.",
+      "gen_v": 2
+    },
+    {
+      "id": "awikab",
+      "title": "$1.9M in Fake Bets Drove Polymarket Hype: WSJ",
+      "link": "https://decrypt.co/371756/1-9m-in-fake-bets-drove-polymarket-hype-wsj",
+      "summary": "A Wall Street Journal probe found none of the roughly $1.9 million in bets shown across 1,100-plus creator videos were real.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-06-22T10:53:16.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/polymarket-decrypt-style-gID_7.jpg",
+      "title_he": "הונאה ב-Polymarket: מיליוני דולרים ב'הימורים' שלא היו",
+      "brief_he": "תחקיר של ה-WSJ חושף כי הימורים לכאורה בסך 1.9 מיליון דולר בפלטפורמת Polymarket היו למעשה מזויפים, מה שהעלה שאלות לגבי שקיפות.",
+      "commentary_he": "חברות וחברים יקרים, היום אני רוצה לדבר איתכן על נושא שנוגע בלב העשייה שלנו - האמינות והשקיפות בעולם הדיגיטלי. כולנו נמשכות לפלטפורמות חדשניות, אבל חשוב תמיד לשמור על עין ביקורתית. לאחרונה, עלה סיפור מעניין ומטריד לגבי פלטפורמת ההימורים מבוססת הקריפטו Polymarket, שעל פי דיווחים, הייתה במרכזו של תחקיר שחשף הונאה. \n\nעל פי תחקיר של ה-Wall Street Journal, נראה שסכום של כ-1.9 מיליון דולר, שהוצג כהימורים שבוצעו בפלטפורמה על ידי יוצרי תוכן, לא היה אמיתי כלל. התחקיר בדק למעלה מ-1,100 סרטונים של יוצרי תוכן שהציגו את ההימורים הללו, וגילה כי לא מדובר בכסף אמיתי שהושקע, אלא ב'הימורים' פיקטיביים שנועדו ליצור באזז והייפ סביב הפלטפורמה. \n\nPolymarket היא פלטפורמה המאפשרת למשתמשים להמר על אירועים עתידיים, כמו תוצאות בחירות, מהלכים בשוק הקריפטו, או אירועים אקטואליים אחרים. היא פועלת על גבי בלוקצ'יין, וההימורים מתבצעים באמצעות מטבעות קריפטו. הרעיון הוא ליצור שוק חיזוי יעיל, שבו ניתן לנצל מידע ודעות שונות כדי להעריך את הסתברות האירועים. אך במקרה זה, נראה שהאמצעים ששימשו ליצירת הבאזז היו מטעים. \n\nהסיפור הזה מעלה כמה נקודות חשובות עבורנו. ראשית, החשיבות של בדיקת עובדות (fact-checking) ושל הבנת המקורות שלנו. כאשר אנו נתקלות במידע או בהבטחות מפתות, במיוחד בתחום הפיננסי והטכנולוגי, תמיד כדאי לבדוק לעומק. שנית, הוא מדגיש את האתגרים של שקיפות ואמינות בפלטפורמות חדשות, גם כאלו שפועלות על טכנולוגיית בלוקצ'יין, שלכאורה אמורה להיות שקופה. שלישית, הוא מזכיר לנו את הפער בין 'הייפ' לבין מציאות. יצירת באזז היא דבר אחד, אך בניית אמון על בסיס פעילות אמיתית היא דבר אחר לגמרי. \n\nמה המסר המרכזי שאני רוצה להעביר לכן? תמיד תפעלו מתוך סקרנות בריאה, אך גם מתוך שיקול דעת. כשאתן נתקלות בפלטפורמות או בסיפורים שנראים טוב מכדי להיות אמיתיים, אל תהססו לחקור. ככל שלומדים יותר, פחות מפחדים, אבל חשוב ללמוד גם כיצד לזהות סימני אזהרה. המטרה שלנו היא לבנות עתיד פיננסי שוויוני ונגיש, וזה מתחיל בהבנה מעמיקה ובזהירות הראויה.",
+      "terms_he": [],
+      "points_he": [
+        "תחקיר גילה כי הימורים לכאורה בפלטפורמת Polymarket היו פיקטיביים.",
+        "הפעילות המטעה נועדה ליצור הייפ סביב הפלטפורמה.",
+        "הסיפור מדגיש את חשיבות בדיקת העובדות והזהירות בעולם הדיגיטלי.",
+        "שקיפות ואמינות הן אתגרים מרכזיים בפלטפורמות חדשות."
+      ],
+      "meaning_he": "הפרשה ב-Polymarket היא תזכורת חשובה לכך שגם בעולם הבלוקצ'יין, שקיפות אינה מובנת מאליה, וכי יש צורך בבדיקה קפדנית של פעילות. עבור קהילת 'קריפטו וומן', זה מחזק את הצורך בחשיבה ביקורתית ובהבנה מעמיקה של הפלטפורמות בהן אנו בוחרות להשתמש או להשקיע בהן.",
+      "gen_v": 2
+    },
+    {
+      "id": "68cx9u",
+      "title": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
+      "link": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "summary": "",
+      "source": "Cointelegraph",
+      "lang": "en",
+      "date": "2026-06-22T10:52:50.000Z",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-scammers-demand-crypto-from-stranded-ships.jpg",
+      "title_he": "רבעון שני 2026: הרבעון המסוכן ביותר בהיסטוריה של פריצות קריפטו?",
+      "brief_he": "רבעון שני של 2026 נרשם כרבעון עם מספר הפריצות הגבוה ביותר בהיסטוריה של שוק הקריפטו, עם 83 אירועים, מה שמדגיש את הסיכונים המתמשכים.",
+      "commentary_he": "חברות וחברים יקרים, כשאנחנו מדברות על עולם הקריפטו, אנחנו תמיד מדגישות את הפוטנציאל העצום, את החדשנות ואת ההזדמנויות. אבל חשוב לא פחות, ואולי אף יותר, לדבר גם על הצדדים הפחות זוהרים - הסיכונים, האתגרים והאבטחה. היום אני רוצה לשתף אתכן בממצאים מטרידים לגבי היקף הפריצות בשוק הקריפטו. \n\nעל פי נתונים שפורסמו, הרבעון השני של שנת 2026 (אפריל-יוני) נרשם כרבעון עם מספר הפריצות הגבוה ביותר בהיסטוריה של שוק הקריפטו. במהלך שלושה חודשים אלו, אירעו לא פחות מ-83 אירועי פריצה שונים. זהו נתון שמצביע על מגמה מדאיגה של עלייה באיומי אבטחה בעולם הנכסים הדיגיטליים. \n\nחשוב להבין מה עומד מאחורי המספרים הללו. פריצות קריפטו יכולות להתרחש במגוון דרכים: גניבת מפתחות פרטיים, מתקפות על בורסות קריפטו, פריצות לפרויקטי DeFi, גניבת NFT, או ניצול פרצות אבטחה בחוזים חכמים. כל פריצה כזו עלולה לגרום לנזקים כספיים של מיליוני ואף מיליארדי דולרים, ולפגוע באמון הציבור בטכנולוגיה. \n\nהעובדה שרבעון אחד מצטבר למספר כה גבוה של אירועים היא תמרור אזהרה. זה לא אומר שהטכנולוגיה עצמה פסולה, אלא שהיא עדיין בשלבי התפתחות, ושהאתגרים בתחום האבטחה הם משמעותיים. ייתכן שהעלייה במספר הפריצות נובעת גם מהגידול הכללי בהיקף הפעילות בשוק הקריפטו - ככל שיותר כסף ומפתחים מעורבים, כך גדלים גם התמריצים והיכולות של תוקפים. \n\nמה אנחנו צריכות לקחת מהנתונים הללו? ראשית, ביטחון וזהירות הם ערכי עליון בכל מה שקשור להשקעות דיגיטליות. כשאנחנו משקיעות, אנחנו חייבות לוודא שאנחנו נוקטות בכל הצעדים האפשריים כדי להגן על הנכסים שלנו - שימוש בארנקים קרים, אימות דו-שלבי, וזהירות מפני פישינג והונאות. שנית, חשוב לזכור את המשימה שלנו: 'לנפץ תקרות זכוכית'. זה כולל גם בניית אמון בסביבה בטוחה יותר. ככל שנבין טוב יותר את הסיכונים, נוכל גם לתרום לפתרונות ולדרוש סטנדרטים גבוהים יותר של אבטחה מהפלטפורמות. \n\nהנתונים לגבי הרבעון השני של 2026 הם תזכורת לכך שהמסע שלנו בעולם הקריפטו דורש למידה מתמדת, ערנות והשקעה בחינוך לאבטחה. רק כך נוכל להבטיח שהעתיד הפיננסי הדיגיטלי יהיה לא רק חדשני, אלא גם בטוח ושוויוני לכולנו.",
+      "terms_he": [],
+      "points_he": [
+        "הרבעון השני של 2026 רשם את מספר הפריצות הגבוה ביותר בהיסטוריית הקריפטו (83 אירועים).",
+        "הנתון מדגיש את האתגרים המתמשכים בתחום אבטחת הנכסים הדיגיטליים.",
+        "יש לנקוט באמצעי זהירות מחמירים להגנה על נכסי קריפטו.",
+        "הגידול בפעילות בשוק מגביר את התמריצים והיכולות של תוקפים."
+      ],
+      "meaning_he": "מספר הפריצות הגבוה ברבעון השני של 2026 הוא תזכורת חשובה לכך שהחדשנות בעולם הקריפטו מגיעה עם סיכוני אבטחה משמעותיים. עבור קהילת 'קריפטו וומן', זה מדגיש את החשיבות הקריטית של חינוך לאבטחה, זהירות ודרישה לסטנדרטים גבוהים יותר מהפלטפורמות.",
+      "gen_v": 2
+    },
+    {
+      "id": "1g2t5n0",
+      "title": "US dollar strength hits highest since May 2025: Five things to know in Bitcoin this week",
+      "link": "https://cointelegraph.com/markets/us-dollar-strength-hits-highest-since-may-2025-five-things-to-know-in-bitcoin-this-week?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "summary": "",
+      "source": "Cointelegraph",
+      "lang": "en",
+      "date": "2026-06-22T10:13:05.000Z",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/crypto-fiat-mirror-new-dollar1.jpg",
+      "title_he": "הדולר מתחזק: מה זה אומר לביטקוין?",
+      "brief_he": "הדולר האמריקאי מגיע לשיא שלא נראה מאז מאי 2025, וזה משפיע על שוקי הקריפטו.",
+      "commentary_he": "חברות וחברים יקרים, אני ממש שמחה שאתן כאן איתי היום כדי לדבר על מה שקורה בעולם הקריפטו. שבוע שעבר דיברנו על ההתפתחויות המעניינות בתחום ה-ETFs, והשבוע אני רוצה להתמקד בגורם מקרו-כלכלי שיש לו השפעה לא מבוטלת על שוקי ההון בכלל, ועל שוק הקריפטו בפרט: עוצמתו של הדולר האמריקאי.\n\nלפי הדיווחים, הדולר האמריקאי חזר להתחזק לאחרונה, ומגיע לרמות שלא נראו מאז מאי 2025. מה זה אומר בעצם? כשהדולר מתחזק, הוא הופך להיות אטרקטיבי יותר למשקיעים ברחבי העולם. זה יכול לגרום לכסף לזרום מנכסים אחרים, כמו מניות, אג\"ח, ואפילו קריפטו, אל הדולר. במילים פשוטות, כשהדולר חזק, משקיעים נוטים להרגיש בטוחים יותר להחזיק בו, מה שמוריד את הביקוש לנכסים אחרים.\n\nאיך זה משפיע על ביטקוין? ביטקוין, ולמעשה רוב שוק הקריפטו, נסחר בדרך כלל מול הדולר. כשהדולר חזק, הוא יכול להפעיל לחץ כלפי מטה על מחיר הביטקוין. משקיעים שרואים את הדולר מתחזק עשויים להעדיף למכור את הביטקוין שלהם כדי לקנות דולרים, מה שמגביר את ההיצע של ביטקוין בשוק ומוריד את מחירו. בנוסף, התחזקות הדולר יכולה להקשות על חברות וגופים פיננסיים גדולים להיכנס לשוק הקריפטו, כיוון שהם צריכים להמיר כסף דולרי לנכסים דיגיטליים, פעולה שהופכת ליקרה יותר כשהדולר חזק.\n\nחשוב לזכור שזהו רק גורם אחד מבין רבים שמשפיעים על שוק הקריפטו. ישנם גורמים נוספים כמו רגולציה, אימוץ טכנולוגי, חדשנות בתחום ה-DeFi וה-NFTs, ואירועים גלובליים. אבל כן, התחזקות הדולר היא בהחלט נקודה למעקב. ככל שלומדים יותר על הגורמים השונים שמשפיעים על השווקים, כך פחות מפחדים ומבינים את התמונה הגדולה.\n\nאז מה אנחנו לוקחות מכאן? ראשית, חשוב להבין את הקשר בין המטבעות הפיאט המסורתיים, ובפרט הדולר, לבין שוק הקריפטו. שנית, להבין שהשוק הוא דינמי ומושפע מגורמים רבים. זה לא אומר שצריך להיבהל, אלא להישאר מעודכנות, להמשיך ללמוד ולחקור. תמיד תזכרו, ככל שלומדים יותר, פחות מפחדים.",
+      "terms_he": [],
+      "points_he": [
+        "הדולר האמריקאי מתחזק, מה שיכול להשפיע על שוקי ההון.",
+        "התחזקות הדולר עשויה להוריד את הביקוש לנכסים כמו ביטקוין.",
+        "חשוב להבין את הקשר בין מטבעות פיאט לקריפטו.",
+        "להישאר מעודכנות וללמוד על הגורמים המשפיעים על השוק."
+      ],
+      "meaning_he": "הבנת המקרו-כלכלה, כמו התחזקות הדולר, חיונית להבנת התנודות בשוק הקריפטו. זה מראה איך העולם הפיננסי המסורתי והחדש קשורים זה בזה.",
+      "gen_v": 2
+    },
+    {
+      "id": "ex9fzu",
+      "title": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
+      "link": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "summary": "",
+      "source": "Cointelegraph",
+      "lang": "en",
+      "date": "2026-06-22T08:58:43.000Z",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-the-crypto-act-explained-regulation-south-korea.jpg",
+      "title_he": "דרום קוריאה מרחיבה את 'כלל הנסיעה' להעברות קריפטו קטנות",
+      "brief_he": "דרום קוריאה מתכננת להרחיב את דרישות ה-Travel Rule גם להעברות קריפטו קטנות יותר, במטרה להילחם בהלבנת הון.",
+      "commentary_he": "חברות וחברים יקרים, ברוכים הבאים לפינה שלנו על חדשות עולם הקריפטו. הפעם אנחנו צוללות לדרום קוריאה, שם יש התפתחות מעניינת בתחום הרגולציה של מטבעות דיגיטליים. הרשויות שם מתכננות להרחיב את מה שנקרא 'כלל הנסיעה' (Travel Rule) גם להעברות קריפטו בסכומים קטנים יותר, ולא רק להעברות גדולות כפי שהיה נהוג עד כה.\n\nאז מה זה בעצם 'כלל הנסיעה'? זהו תקנה בינלאומית שמחייבת בורסות קריפטו ונותני שירותים פיננסיים אחרים לשתף מידע על השולח והמקבל של העברות נכסים דיגיטליים, בדומה לאופן שבו מידע מועבר בהעברות בנקאיות מסורתיות. המטרה העיקרית של הכלל הזה היא למנוע הלבנת הון, מימון טרור ופעילויות פיננסיות בלתי חוקיות אחרות. עד כה, הכלל הזה יושם בעיקר על העברות בסכומים משמעותיים, אבל כעת, בדרום קוריאה, יש כוונה להרחיב אותו גם להעברות קטנות יותר, מה שיכול להשפיע על מגוון רחב יותר של משתמשים.\n\nהמהלך הזה הוא חלק ממגמה עולמית גוברת של רגולציה על שוק הקריפטו. ממשלות רבות ברחבי העולם מנסות למצוא את האיזון הנכון בין קידום חדשנות בתחום לבין הצורך להגן על המשקיעים ועל המערכת הפיננסית מפני סיכונים. ההרחבה של 'כלל הנסיעה' נועדה להגביר את השקיפות ולאפשר למעקב יעיל יותר אחר זרימת הכספים הדיגיטליים. זה יכול להקשות על גורמים עוינים להשתמש במטבעות קריפטו למטרות פליליות.\n\nמה המשמעות של זה עבורנו, הקהילה? מצד אחד, זה יכול להגביר את האמון בשוק הקריפטו בטווח הארוך, כשהוא נתפס כבטוח יותר ופחות נתון למניפולציות. מצד שני, זה עלול להוסיף בירוקרטיה ועלויות תפעול לבורסות, וייתכן שישפיע על חוויית המשתמש, במיוחד בעסקאות קטנות ותכופות. חשוב לזכור שזוהי מגמה מתמשכת, וסביר שנראה צעדים דומים במדינות נוספות בעתיד.\n\nהמסר כאן הוא ברור: עולם הקריפטו הופך ליותר ויותר ממוסד, וזה כולל גם את הצד הרגולטורי. ככל שאנחנו לומדות יותר על הטכנולוגיה ועל הכללים סביבה, כך אנחנו יכולות לנווט בה בצורה בטוחה יותר. תמיד כדאי להיות מודעות לשינויים רגולטוריים, כי הם יכולים להשפיע על הדרך שבה אנו משתמשות ומשקיעות בקריפטו.",
+      "terms_he": [],
+      "points_he": [
+        "דרום קוריאה מרחיבה את 'כלל הנסיעה' להעברות קריפטו קטנות.",
+        "המטרה היא למנוע הלבנת הון ופעילות בלתי חוקית.",
+        "המהלך הוא חלק ממגמה עולמית של רגולציה על קריפטו.",
+        "הרחבת הכלל עשויה להגביר אמון אך גם להוסיף בירוקרטיה."
+      ],
+      "meaning_he": "התפתחות זו מדגישה את המעבר של הקריפטו מ'מערב פרוע' לעולם מוסדר יותר. הבנת הרגולציה חיונית לכל מי שרוצה להשתתף בשוק הזה באופן אחראי.",
+      "gen_v": 2
+    },
     {
       "id": "17iojth",
       "title": "Inception Labs' Mercury 2 AI Beats Google's DiffusionGemma at Its Own Game",
@@ -140,28 +789,6 @@
       "gen_v": 2
     },
     {
-      "id": "ihbgf9",
-      "title": "House Republican Introduces Insider Trading Bill to Ban Lawmaker Prediction Market Bets",
-      "link": "https://decrypt.co/371705/house-republican-insider-trading-bill-ban-lawmaker-prediction-market",
-      "summary": "The bill is meant to curb potential insider trading, blocking lawmakers and family members from policy-related prediction market bets.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-06-19T19:36:09.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/US-Capitol-decrypt-style-02-gID_7.png",
-      "title_he": "האם חברי קונגרס צריכים להמר על עתיד המדינה?",
-      "brief_he": "מוצע חוק חדש בארה\"ב שיאסור על פוליטיקאים ובני משפחותיהם להשתתף בשוקי חיזוי המבוססים על אירועים פוליטיים.",
-      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש שמחה שאתן כאן, כי היום אנחנו צוללות לנושא שמצד אחד נשמע קצת מורכב, אבל מצד שני נוגע בליבת העניין של שקיפות ואתיקה בעולם הפיננסי והטכנולוגי – שוקי חיזוי (prediction markets) והקשר שלהם לפוליטיקה.\n\nלאחרונה, על פי דיווחים, חבר קונגרס רפובליקני בארצות הברית הציע חוק חדש שמטרתו למנוע שימוש לרעה במידע פנים. החוק, אם יעבור, יאסור על חברי קונגרס ובני משפחותיהם להשתתף בשוקי חיזוי שקשורים לאירועים פוליטיים או להחלטות ממשלתיות. הרעיון הוא למנוע מצב שבו מידע פנימי, שאינו זמין לציבור הרחב, משמש להשגת רווחים בשווקים הללו. חשוב להבין מהם שוקי חיזוי: אלו פלטפורמות שבהן אנשים יכולים להמר על התוצאות העתידיות של אירועים, כמו בחירות, החלטות חקיקה, או אפילו אירועים כלכליים. הערך של הנכסים בשוקים אלו משקף את ההסתברות שהמשתתפים מייחסים להתרחשות אירוע מסוים. המבקרים של החוק טוענים שהוא מיותר, שכן חוקים קיימים כבר אוסרים על סחר פנים, אך התומכים רואים בו צעד הכרחי להגברת השקיפות והאמון.\n\nההצעה הזו מעוררת דיון מעניין על הגבולות בין השקעה, הימור ושימוש במידע. בעולם הקריפטו והבלוקצ'יין, שבו שקיפות וביזור הם ערכי יסוד, הנושא הזה מקבל משמעות נוספת. האם שוקי חיזוי הם כלי לגיטימי לניתוח מגמות, או שהם פתח לניצול לרעה? החוק המוצע לא כולל התייחסות מפורשת לפקידי הבית הלבן, מה שמעלה שאלות נוספות לגבי היקף היישום והכוונות מאחורי החקיקה. זה מזכיר לנו כמה חשוב להבין את הרגולציה שמתפתחת סביב טכנולוגיות חדשות, ואיך היא מנסה לאזן בין חדשנות להגנה על הציבור.\n\nאז מה אנחנו לוקחות מזה? ראשית, שקיפות ואתיקה הן לא רק מילים יפות, אלא עקרונות שצריכים להנחות כל פעילות פיננסית, במיוחד כשמדובר במידע רגיש. שנית, עולם ההשקעות והטכנולוגיה נמצא כל הזמן בתנועה, ורגולציה חדשה נולדת כדי להתמודד עם אתגרים מתפתחים. חשוב להישאר מעודכנות, לפתוח את הראש, וללמוד. ככל שלומדים יותר, פחות מפחדים, וזה בדיוק מה שאנחנו עושות כאן ב'קריפטו וומן'.\n\nהמסר שלי אליכן הוא פשוט: תמשיכו לחקור, לשאול שאלות, ולהיות מעורבות. העתיד נכתב היום, וחשוב שנהיה חלק מהשיח הזה, לא רק כמשקיעות, אלא גם כאזרחיות מודעות.",
-      "terms_he": [],
-      "points_he": [
-        "הוצעה חקיקה בארה\"ב לאיסור השתתפות פוליטיקאים בשוקי חיזוי הקשורים לפעילותם.",
-        "המטרה היא למנוע שימוש במידע פנים להשגת רווחים.",
-        "ההצעה מעלה דיון על הגבולות בין השקעה, הימור ושימוש במידע.",
-        "שקיפות ואתיקה הן עקרונות מפתח בהתפתחות הרגולציה סביב שווקים פיננסיים חדשים."
-      ],
-      "meaning_he": "ההתפתחויות הרגולטוריות סביב שוקי חיזוי מדגישות את החשיבות של שקיפות ואתיקה בעולם הפיננסי המתפתח. חשוב שנכיר את הדיונים הללו, שכן הם משפיעים על האופן שבו טכנולוגיות חדשות משתלבות בכלכלה.",
-      "gen_v": 2
-    },
-    {
       "id": "7741oq",
       "title": "Sonic Labs Founders Including Andre Cronje Quit Board as New CEO Pledges to Get '1% Better' Daily",
       "link": "https://thedefiant.io/news/blockchains/sonic-labs-founders-including-andre-cronje-quit-board-as-new-ceo-pledges-to-get-1-better-daily",
@@ -206,50 +833,6 @@
       "gen_v": 2
     },
     {
-      "id": "1p9x867",
-      "title": "GPT-5.6 Rumors Heat Up as Users Swear ChatGPT Suddenly Got Smarter",
-      "link": "https://decrypt.co/371699/openai-gpt-5-6-chatgpt-stealth-testing-rumors",
-      "summary": "Many AI users are convinced that OpenAI is quietly running GPT-5.6 inside ChatGPT. OpenAI isn't confirming anything.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-06-19T18:15:55.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/ChatGPT-gID_7.jpg",
-      "title_he": "האם ChatGPT השתדרג בסתר? מה זה אומר לנו?",
-      "brief_he": "משתמשים מדווחים על שיפורים משמעותיים ב-ChatGPT, מה שמעלה ספקולציות על גרסה מתקדמת יותר.",
-      "commentary_he": "חברות וחברים יקרים, מה שלומכן? אני ממש שמחה שאתן כאן איתי היום, כי יש לנו נושא מרתק לדבר עליו – עולם הבינה המלאכותית שמתפתח בקצב מסחרר, ואיך הוא נוגע גם בעולם הקריפטו והטכנולוגיה שאנחנו כל כך אוהבות.\n\nלאחרונה, אני שומעת המון דיבורים בקהילה, וגם בעצמי הרגשתי את זה, ש-ChatGPT פתאום נהיה הרבה יותר חכם. משתמשים מכל העולם מספרים שהמודל הנוכחי, זה שאנחנו משתמשות בו מדי יום, פשוט מגיב טוב יותר, מבין שאלות מורכבות יותר, ומספק תשובות מדויקות וחדות יותר. זה כל כך בולט, שרבים מתחילים להאמין ש-OpenAI, החברה שמאחורי ChatGPT, כבר משלבת בסתר את הגרסה הבאה, GPT-5.6, בתוך הפלטפורמות הקיימות שלה. זה לא רשמי, כמובן, אבל התחושה הזו חזקה מאוד.\n\nלמה זה חשוב לנו? כי אנחנו חיים בעידן שבו AI ובלוקצ'יין הולכים יד ביד. ככל שמודלי ה-AI מתקדמים, כך גדלות היכולות שלהם לסייע לנו במחקר, בניתוח נתונים, ואפילו בפיתוח של יישומים חדשים בעולם ה-Web3. דמיינו לעצמכן AI שיכול לעזור לכם לנתח מגמות בשוק הקריפטו בצורה יעילה יותר, או אפילו לכתוב קוד חכם יותר עבור חוזים חכמים. זה לא מדע בדיוני, זה העתיד שמתקרב אלינו במהירות.\n\nההתפתחות הזו מזכירה לי את הפעם הראשונה שהתחלתי להשקיע בקריפטו ב-2017. גם אז, הרבה דברים היו חדשים ולא ברורים, אבל ככל שלמדתי יותר, הבנתי את הפוטנציאל העצום. אותו דבר קורה כאן. אם GPT-5.6 באמת כבר כאן, זה סימן שהטכנולוגיה מתקדמת בקצב שאולי אפילו אנחנו לא תמיד מצליחות לעקוב אחריו. זה קורא לנו לפתוח את הראש, להישאר סקרניות, ולהמשיך ללמוד.\n\nהמסר שלי אליכן היום הוא פשוט: אל תפחדו מהשינויים. התפתחות ה-AI היא הזדמנות אדירה עבורנו, כקהילה, להבין טוב יותר את העולם הטכנולוגי שסביבנו, ולמצוא דרכים חדשות להשתלב בו. ככל שנבין יותר, כך נרגיש יותר בנוח 'לקפוץ למים' ולהשתמש בכלים החדשים האלה לטובתנו, בין אם זה ללמידה, להשקעה, או ליצירת משהו חדש. תמשיכו לחקור, לשאול שאלות, ולהיות חלק מהמהפכה הזו. אני ממש גאה בכן על הדרך שאתן עושות, ועל הסקרנות האינסופית שלכן.",
-      "terms_he": [],
-      "points_he": [
-        "משתמשים מדווחים על שיפורים משמעותיים ב-ChatGPT.",
-        "יש ספקולציות ש-OpenAI כבר משלבת את GPT-5.6 באופן סודי.",
-        "התקדמות ה-AI פותחת הזדמנויות חדשות בעולם הקריפטו וה-Web3.",
-        "חשוב להישאר סקרניות, ללמוד ולהתעדכן בהתפתחויות הטכנולוגיות."
-      ],
-      "meaning_he": "התקדמות מהירה בתחום ה-AI יכולה להשפיע על כלים ופלטפורמות שאנו משתמשות בהם, ופותחת פוטנציאל חדש לשילוב טכנולוגיות מתקדמות בחיינו ובהשקעותינו.",
-      "gen_v": 2
-    },
-    {
-      "id": "1mvz7n2",
-      "title": "The 5 Largest Publicly Traded Solana Treasury Firms",
-      "link": "https://decrypt.co/339551/5-largest-publicly-traded-solana-treasury-firms",
-      "summary": "Institutions are gobbling up Solana for their balance sheets. These are the top publicly traded treasuries.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-06-19T17:40:59.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/solana-decrypt-style-01-gID_7.png",
-      "title_he": "חברות ציבוריות מגדילות אחזקות סולנה: מי מובילה את הדרך?",
-      "brief_he": "חברות ציבוריות משקיעות בסולנה (SOL) ומחזיקות אותה במאזנים שלהן, מה שמצביע על אמון גובר בנכס.",
-      "commentary_he": "חברות, חברות וחברים יקרים, מה שלומכן? אני ממש שמחה שאתן כאן איתי היום כדי לדבר על עוד נושא מרתק מעולם הקריפטו. הפעם, אנחנו צוללות לעומק ההשקעות של חברות ציבוריות גדולות ב-Solana (SOL). אתן יודעות כמה אני מאמינה בלנפץ תקרות זכוכית, וזה נכון גם בעולם ההשקעות – להביא עוד נשים, עוד אנשים, שירגישו בנוח להבין ולהשקיע. כשחברות גדולות, כאלה שנסחרות בבורסה, בוחרות להחזיק נכס קריפטוגרפי כמו סולנה במאזנים שלהן, זה סימן מאוד מעניין.\n\nלפי דיווחים בתחום, יש כמה חברות ציבוריות שהפכו להיות המחזיקות הגדולות ביותר של סולנה. זה לא סתם 'לשחק' עם קריפטו, אלא להכניס אותו ממש לתוך הפעילות העסקית והפיננסית שלהן. סולנה, אם אתן לא מכירות, היא פלטפורמת בלוקצ'יין שנועדה להיות מהירה וסקלאבילית, כלומר, היא יכולה להתמודד עם הרבה מאוד פעולות בו-זמנית. היא הפכה בשנים האחרונות לאחת המתחרות הבולטות של את'ריום.\n\nההשקעה הזו מצד חברות ציבוריות היא לא דבר של מה בכך. זה מעיד על אמון גובר מצד גופים פיננסיים מסורתיים בטכנולוגיה של הבלוקצ'יין וביכולות של פרויקטים ספציפיים כמו סולנה. זה יכול להיות סימן לכך שהתעשייה מתבגרת, ושהיא הופכת ליותר ויותר מקובלת בקרב המשקיעים המוסדיים. כמובן, כמו בכל השקעה, ישנם סיכונים. מחירי הקריפטו תנודתיים מאוד, והחזקת נכסים כאלה במאזן יכולה להשפיע על הדוחות הכספיים של החברות.\n\nאז מה אנחנו לומדות מזה? ראשית, זה מדגיש את החשיבות של מחקר והבנה. ככל שלומדים יותר, פחות מפחדים. אם חברות גדולות בוחנות את סולנה ומשקיעות בה, זה אומר שיש להן סיבות טובות לכך, והן כנראה עשו את הבדיקות שלהן. שנית, זה מראה שהשוק מתפתח. מה שהיה פעם נישה מטורפת, הופך להיות חלק מהשיח הפיננסי המרכזי. זה מעודד אותנו, הקהילה שלנו, להמשיך ללמוד, לחקור, ואולי אפילו למצוא הזדמנויות שמתאימות לנו.\n\nהמסר שלי אליכן הוא תמיד זהה: תפתחו את הראש, תלמדו, תחקרו. אל תפחדו מקריפטו. תראו איך גופים גדולים משקיעים, זה לא אומר שאתן צריכות לרוץ לקנות, אבל זה בהחלט אומר שכדאי להבין מה קורה שם. ההשקעות הללו הן הצבעת אמון בטכנולוגיה, ואנחנו צריכות להיות חלק מהשיחה הזו. תמשיכו להיות סקרניות, כי בסקרנות טמון הכוח.",
-      "terms_he": [],
-      "points_he": [
-        "חברות ציבוריות גדולות מגדילות את אחזקותיהן בסולנה (SOL).",
-        "השקעות אלו מצביעות על אמון גובר בטכנולוגיית הבלוקצ'יין ובפרויקטים ספציפיים.",
-        "התפתחות זו מעידה על התבגרות שוק הקריפטו וקבלתו הגוברת בקרב משקיעים מוסדיים.",
-        "חשוב להמשיך ללמוד ולחקור את התחום, גם כשגופים גדולים משקיעים בו."
-      ],
-      "meaning_he": "ההשקעות של חברות ציבוריות בנכסי קריפטו כמו סולנה מראות שהתחום הופך לבשל יותר ומוכר בקרב שחקנים פיננסיים גדולים, וזה מחזק את הצורך שלנו להבין את המגמות הללו.",
-      "gen_v": 2
-    },
-    {
       "id": "18bu4si",
       "title": "AWS Plugs Coinbase's x402 Into CloudFront, Letting Publishers Charge AI Agents in USDC",
       "link": "https://thedefiant.io/news/defi/aws-cloudfront-coinbase-x402-ai-agents-usdc-base",
@@ -272,72 +855,6 @@
       "gen_v": 2
     },
     {
-      "id": "ag4beg",
-      "title": "Strive Blames Leverage Liquidations After SATA and Bitcoin Giant Strategy's STRC Plunge",
-      "link": "https://decrypt.co/371686/strive-blames-leverage-liqidations-sata-bitcoin-giant-strategy-strc-plunge",
-      "summary": "The disastrous day for Bitcoin firms' preferred equity offerings may have been due to unwinding of leveraged positions in STRC and SATA.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-06-19T16:32:20.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
-      "title_he": "האם תעודות הסל של ביטקוין הן הסיבה לקריסת STRC?",
-      "brief_he": "דיווח חדש מעלה ספקולציות שהקריסה של STRC ותעודות דומות נבעה ממימושי מינופים, ולא בהכרח מהחדשות על תעודות סל.",
-      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש שמחה שאתן כאן, מוכנות לצלול איתי אל תוך עולם הקריפטו וההשקעות. היום אני רוצה לדבר איתכן על משהו שקרה לאחרונה וגרם להרבה כותרות, אבל אולי גרסתו האמיתית קצת שונה ממה שחשבנו. מדובר על STRC, סוג של מכשיר השקעה שקשור לביטקוין, שחווה ירידה משמעותית.\n\nלפי דיווחים שונים, הירידה הזו לא בהכרח נבעה מהחדשות האחרונות על אישור תעודות סל (ETFs) של ביטקוין בארצות הברית. חשוב לזכור שתעודות סל הן כלי השקעה מסורתי, והן מאפשרות למשקיעים להיחשף למחיר הביטקוין מבלי להחזיק בו ישירות. האישור שלהן היה אירוע משמעותי, אבל נראה שהוא לא הגורם הישיר לקריסה של STRC.\n\nאז מה כן גרם לירידה? לפי הדיווחים, הבעיה העיקרית הייתה מינופים. הרבה משקיעים, וגם חברות, השתמשו בכסף שהם לא באמת היו צריכים כדי להגדיל את ההשקעות שלהם. כשמחיר הנכסים יורד, המינוף הזה יכול לעבוד נגדך ולהוביל למה שנקרא 'מימושי מינוף' (leverage liquidations). זה אומר שהפוזיציות שלהם נסגרו אוטומטית כדי לכסות את החוב, מה שדחף את המחירים עוד יותר למטה.\n\nחשבו על זה כמו על בלון. אם אתן מנפחות אותו יותר מדי, הוא יכול להתפוצץ. כך גם עם מינוף – כשהשוק תנודתי, הוא יכול להפוך את היתרון לחיסרון גדול.\n\nמה אפשר ללמוד מזה? ראשית, חשוב תמיד להבין באיזה מכשיר השקעה אתן משתמשות. STRC, למשל, הוא לא ביטקוין ישיר, אלא מכשיר מורכב יותר, ולכן הוא יכול להתנהג אחרת. שנית, מינוף הוא חרב פיפיות. הוא יכול להגדיל רווחים, אבל גם להגדיל הפסדים בצורה דרמטית. כמתחילות בעולם ההשקעות, אני תמיד ממליצה לכן להתחיל בלי מינוף, או עם מינוף מינימלי, ולהתמקד בלמידה והבנה של השוק.\n\nהמסר החשוב ביותר הוא: ככל שלומדים יותר, פחות מפחדים. אל תתנו לכותרות להטעות אתכן. תחקרו, תשאלו שאלות, ותקפצו למים בזהירות ובביטחון. אני כאן כדי ללוות אתכן בדרך.",
-      "terms_he": [],
-      "points_he": [
-        "הקריסה של STRC לא בהכרח קשורה ישירות לאישור תעודות הסל של ביטקוין.",
-        "הגורם המרכזי לירידה היה ככל הנראה מימושי מינוף (leverage liquidations).",
-        "מינוף יכול להגדיל רווחים אך גם להגדיל הפסדים בצורה דרמטית.",
-        "חשוב להבין את מכשיר ההשקעה הספציפי ולא להניח שהוא מתנהג כמו הנכס הבסיסי."
-      ],
-      "meaning_he": "האירוע מדגיש את החשיבות של הבנת הסיכונים והמנגנונים מאחורי מכשירי השקעה מורכבים, במיוחד כשמדובר בשוק תנודתי כמו קריפטו. חשוב למשקיעים, ובמיוחד לנשים שרוצות לנפץ תקרות זכוכית פיננסיות, להבין את ההבדלים בין נכסים ישירים למכשירים נגזרים.",
-      "gen_v": 2
-    },
-    {
-      "id": "1wic1mk",
-      "title": "CLARITY Act Reaches Senate Floor With House Ready to Move Fast; Seven-Democrat Math Becomes the Gate",
-      "link": "https://thedefiant.io/news/regulation/clarity-act-senate-floor-seven-democrat-math-house-fast-follow",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-19T16:24:53.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/af27af12c3d774536d7cf39a9df1b6bf9b86cbb7-2048x1152.png",
-      "title_he": "האם הרגולציה של הקריפטו בישראל מתקדמת? הצצה לחוק CLARITY בסנאט האמריקאי",
-      "brief_he": "חוק CLARITY, שמטרתו להגדיר את סיווג הנכסים הדיגיטליים, הגיע לשלב הצבעה בסנאט האמריקאי, מה שעשוי להשפיע גם על הרגולציה הגלובלית.",
-      "commentary_he": "חברות וחברים יקרים,\n\nאני כל כך מתרגשת לשתף אתכן בהתפתחויות מרגשות בתחום הרגולציה של נכסים דיגיטליים, שמשפיעות על כל מי שמתעניין בעולם הקריפטו וה-Web3. אתן יודעות כמה חשוב לי שנבין את הכללים, את ההזדמנויות ואת הסיכונים, ולכן אני רוצה להביא לכן הצצה למה שקורה בארצות הברית, שם מתרחשים צעדים משמעותיים.\n\nהשבוע, חוק בשם CLARITY Act הגיע לשולחן הסנאט האמריקאי, מוכן להצבעה. מה זה בעצם אומר? החוק הזה נועד לעשות סדר ולהגדיר בצורה ברורה מהו כל סוג של נכס דיגיטלי – האם הוא נחשב לסחורה (commodity), כמו ביטקוין, או שהוא נחשב לנייר ערך (security), כמו מניות. ההבחנה הזו היא קריטית, כי היא קובעת אילו רגולטורים יהיו אחראים על כל סוג נכס – האם ה-CFTC (הוועדה למסחר בחוזים עתידיים) או ה-SEC (רשות ניירות ערך). לפי הדיווח, ביטקוין, ואולי גם את'ריום, יסווגו כסחורות, מה שישים אותם תחת פיקוח ה-CFTC, תחום שהתעשייה רוצה כבר שנים.\n\nלמה זה כל כך חשוב לנו? כי כשהכללים ברורים, יש יותר ודאות. ודאות מושכת השקעות, מעודדת חדשנות ומאפשרת לנו, המשקיעים הקטנים, להיכנס לשוק בביטחון רב יותר. כשמדובר בתעשייה שמתפתחת כל כך מהר, חוסר בהירות רגולטורי יכול להאט את הצמיחה ולפגוע במשקיעים.\n\nהדרך לחקיקה לא פשוטה. החוק הזה צריך לעבור מכשול משמעותי בסנאט – הוא זקוק ל-60 קולות כדי לעבור את הפילבסטר, מה שאומר שהוא חייב לגייס לפחות שבעה קולות דמוקרטיים, מעבר לקולות הרפובליקנים. ישנם מאמצים רבים מאחורי הקלעים כדי לגשר על הפער הזה, עם דיונים על סעיפים שונים כמו טיפול בהטיות ניגוד עניינים, רגולציית stablecoins, ומניעת הלבנת הון.\n\nאבל מה שמרגש במיוחד הוא שהבית התחתון (House) כבר העביר גרסה דומה של החוק עם תמיכה דמוקרטית רחבה. זה מראה שיש רצון אמיתי, גם אם מורכב, לקדם את התחום.\n\nמעבר לחוק עצמו, אנחנו רואים גם פעילות מעניינת מצד שחקנים מרכזיים. למשל, CME Group, בורסת הנגזרים הגדולה בעולם, מתכננת לתבוע את ה-CFTC על אישור חוזים עתידיים פרפטואליים (perpetual futures) של קלשי (Kalshi). לטענתם, החוזים הללו צריכים להיות מסווגים כ'סוואפים' (swaps) ולא כחוזים עתידיים רגילים, מה שישנה את כללי הרגולציה והמיסוי. זה מראה כמה המאבק על הגדרת המוצרים הפיננסיים בעולם הקריפטו הוא עז.\n\nמה המסר שלנו? שהעולם מתחיל להבין את הפוטנציאל העצום של נכסים דיגיטליים, ושהרגולטורים מנסים, גם אם לאט, להתאים את עצמם. חשוב לנו להיות מעודכנות, ללמוד את המושגים החדשים, ולראות כיצד ההתפתחויות הגלובליות הללו עשויות להשפיע גם על השוק המקומי שלנו.\n\nתפתחו את הראש, תלמדו, תחקרו. הדרך לרגולציה ברורה היא ארוכה, אבל כל צעד קדימה הוא ניצחון עבור התעשייה כולה, ועבורנו כמשקיעות.",
-      "terms_he": [],
-      "points_he": [
-        "חוק CLARITY בארה\"ב נועד להגדיר סיווגים רגולטוריים לנכסים דיגיטליים (סחורה מול נייר ערך).",
-        "החוק עשוי להעביר את הפיקוח על ביטקוין ואת'ריום לידי ה-CFTC.",
-        "המעבר בסנאט דורש גיוס תמיכה דמוקרטית משמעותית.",
-        "התקדמות רגולטורית בארה\"ב עשויה להשפיע על שווקי קריפטו גלובליים."
-      ],
-      "meaning_he": "התקדמות החקיקה בארה\"ב, במיוחד הגדרת נכסים דיגיטליים, חיונית ליצירת סביבת השקעות יציבה ובטוחה יותר. זהו צעד חשוב לקראת שילוב מוסדי רחב יותר של קריפטו, שיכול להועיל גם למשקיעים פרטיים הרוצים לנפץ תקרות זכוכית פיננסיות.",
-      "gen_v": 2
-    },
-    {
-      "id": "bywfw0",
-      "title": "CME Group to Sue CFTC Over Perpetual Futures Approval, Citing Dodd-Frank Swaps Definition",
-      "link": "https://thedefiant.io/news/regulation/cme-group-sue-cftc-perpetual-futures-approval-dodd-frank-swaps-definition",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-19T16:23:26.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/e9f88927419da75ce7a7382a8636211a55516b60-2048x1152.png",
-      "title_he": "קלשי (Kalshi) שוק החיזוי: לקראת הנפקה ראשונה לציבור?",
-      "brief_he": "קלשי, בורסת חיזויים מובילה בארה\"ב, שוקלת הנפקה ראשונה לציבור (IPO) לאור צמיחה מרשימה בהכנסותיה.",
-      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש שמחה שאתן כאן, מוכנות לצלול איתי לעוד פינה מרתקת בעולם הפיננסים והטכנולוגיה. היום אני רוצה לדבר איתכן על חברה בשם קלשי (Kalshi), שהיא לא בדיוק חברת קריפטו קלאסית, אבל היא בהחלט מייצגת חדשנות בתחום הפיננסים וקשורה לעולם הרגולציה של נכסים דיגיטליים, כפי שראינו בחדשות האחרונות.\n\nקלשי היא למעשה בורסת חיזויים. תחשבו על זה כמקום שבו אפשר לסחור על התוצאות של אירועים בעולם האמיתי – החלטות של הבנק המרכזי, תוצאות ספורט, אירועים פוליטיים, וכן הלאה. זהו שוק שצומח במהירות, וקלשי היא כיום השחקנית הדומיננטית בו בארצות הברית, עם נתח שוק של למעלה מ-90%.\n\nמה שמרשים במיוחד הוא הדיווח האחרון שקלשי בוחנת אפשרות להנפקה ראשונה לציבור (IPO) בשנים 2027 או 2028. זה קורה אחרי שההכנסות שלה זינקו באופן מדהים, ועברו את רף ה-2 מיליארד דולר בשנה! זהו גידול של פי שלושה מאז נובמבר האחרון. הנתונים האלה מרשימים מאוד, במיוחד בהתחשב בכך שהחברה הוקמה רק בשנת 2020.\n\nהצמיחה הזו לא הגיעה משום מקום. היא נבעה בין היתר מהצלחתה המשפטית של קלשי. במשך שנים, החברה נלחמה ברגולטורים, במיוחד ה-CFTC, כדי לקבל אישור לסחור על תוצאות של אירועים פוליטיים. בסופו של דבר, בית משפט פסק לטובתה בסוף 2024, מה שפתח לה שוק חדש ורווחי.\n\nהחדשות על ההנפקה הפוטנציאלית מגיעות אחרי שקלשי גייסה לאחרונה סבב גיוס ענק של מיליארד דולר, לפי שווי של 22 מיליארד דולר – פי שניים מהשווי שלה בתחילת השנה. בין המשקיעים בסבב הזה ניתן למצוא שמות מוכרים מאוד מעולם הטכנולוגיה וההשקעות, כמו Sequoia Capital, Andreessen Horowitz, Paradigm, וגם ARK Invest של קת'י ווד.\n\nמה זה אומר לנו? ראשית, זה מראה שיש עניין גובר בכלים פיננסיים חדשניים, גם כאלה שלא קשורים ישירות לקריפטו, אבל מבוססים על טכנולוגיה ורגולציה. שנית, זה מדגיש את החשיבות של התמודדות עם הרגולציה. קלשי הצליחה לפרוץ דרך בזכות הלחימה המשפטית שלה, והיום היא נהנית ממעמד מוסדר.\n\nהאם זה קשור לקריפטו? בהחלט. כפי שראינו בחדשות על ה-CLARITY Act ועל התביעה של CME Group נגד ה-CFTC, יש מאבק מתמשך על הגדרת מוצרים פיננסיים חדשים, כולל אלה שקשורים לנכסים דיגיטליים. קלשי, כחברה שסוחרת על אירועים, עשויה להפוך למקום שבו גם חוזים עתידיים של קריפטו ימצאו את מקומם, או לפחות להשפיע על הדיון הרגולטורי.\n\nהמסר שלי אליכן הוא פשוט: תפתחו את הראש, תלמדו על מגוון רחב של כלים פיננסיים ושווקים חדשים. גם אם זה לא קריפטו ישירות, ההבנה של הדינמיקות האלה תעזור לכן לנווט טוב יותר בעולם הפיננסים המשתנה. מי יודע, אולי בעתיד גם אנחנו נראה הנפקות דומות של חברות קריפטו ישראליות.",
-      "terms_he": [],
-      "points_he": [
-        "קלשי, בורסת חיזויים מובילה בארה\"ב, שוקלת הנפקה ראשונה לציבור (IPO).",
-        "החברה מציגה צמיחה מרשימה בהכנסות, עם הכנסות שנתיות שחצו את רף ה-2 מיליארד דולר.",
-        "הצלחתה של קלשי קשורה גם לניצחונות משפטיים שאפשרו לה לסחור על תוצאות אירועים פוליטיים.",
-        "החדשות מדגישות את הפוטנציאל של שווקים פיננסיים חדשניים ואת חשיבות ההתמודדות עם רגולציה."
-      ],
-      "meaning_he": "סיפורה של קלשי ממחיש כיצד חדשנות פיננסית, גם אם אינה קריפטו טהור, יכולה להגיע להצלחה מסחררת ולהנפקה מכובדת. זה מעודד אותנו לחשוב מחוץ לקופסה ולבחון הזדמנויות השקעה מגוונות, תוך הבנת הרגולציה והמנגנונים העומדים מאחוריהן.",
-      "gen_v": 2
-    },
-    {
       "id": "1dunw6n",
       "title": "Prediction Market Kalshi Eyes IPO as Revenue Hits $2 Billion",
       "link": "https://bitcoinmagazine.com/news/prediction-market-kalshi-eyes-ipo",
@@ -357,48 +874,6 @@
         "התביעה משקפת מאבק על הגדרת מוצרים פיננסיים חדשים בעולם הקריפטו."
       ],
       "meaning_he": "המאבק המשפטי סביב סיווג חוזים פרפטואליים מדגיש את המורכבות הרגולטורית של שוקי הקריפטו. הבנת ההבדלים בין סוגי מכשירים פיננסיים היא קריטית למשקיעים, במיוחד לנשים המבקשות להגדיל את האוריינות הפיננסית שלהן ולנפץ תקרות זכוכית.",
-      "gen_v": 2
-    },
-    {
-      "id": "19i72w5",
-      "title": "Amazon Won't Release Sam Altman Film 'Artificial' Following $50 Billion OpenAI Investment",
-      "link": "https://decrypt.co/371682/amazon-wont-release-sam-altman-film-50-billion-openai-investment",
-      "summary": "Amazon is pulling out of \"Artificial,\" a film about Sam Altman's brief ouster from OpenAI, not long after investing $50 billion in the firm.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-06-19T15:06:59.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-sam-altman-3-gID_7.png",
-      "title_he": "אמזון מבטלת פרויקט סרטי על סם אלטמן בעקבות ההשקעה באופנהיימר",
-      "brief_he": "אמזון ביטלה פרויקט סרטים על סם אלטמן, מנכ\"ל OpenAI, זמן קצר לאחר השקעה של 50 מיליארד דולר בחברה.",
-      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש שמחה שאתן כאן, כי היום אנחנו מדברות על משהו שקצת חורג מהמסכים שלנו, אבל עדיין קשור לעולם הטכנולוגיה וההשקעות שאנחנו כל כך אוהבות לחקור. הסיפור הזה נוגע באמזון, ענקית הקמעונאות והטכנולוגיה, ובהחלטה שלה לבטל פרויקט סרטים שעסק בסם אלטמן, האיש שמוביל את OpenAI, החברה שמאחורי ChatGPT.\n\nלפי הדיווחים, אמזון החליטה לא להמשיך עם סרט דוקומנטרי בשם \"Artificial\", שעסק בתקופה הסוערת שבה אלטמן הודח זמנית מתפקידו כמנכ\"ל OpenAI. ההחלטה הזו הגיעה ממש לא הרבה זמן אחרי שאמזון (או ליתר דיוק, Amazon Studios) השקיעה סכום עתק של 50 מיליארד דולר בחברת Microsoft, שגם היא שותפה משמעותית ב-OpenAI. זה מעניין לחשוב על הקשרים האלה – איך השקעה ענקית בתחום ה-AI משפיעה על החלטות בתחום התוכן והמדיה. נראה שבעולם הטכנולוגיה, הכל קשור להכל, וההשקעות הגדולות יכולות להשפיע על פרויקטים שנראים רחוקים.\n\nמה זה אומר לנו? זה מראה לנו כמה עולם ה-AI הוא מרכזי ומשפיע, לא רק על האופן שבו אנחנו עובדות או חוקרות טכנולוגיות חדשות, אלא גם על התעשיות המסורתיות כמו קולנוע. ההשקעה של 50 מיליארד דולר ב-Microsoft, שהיא משקיעה גדולה ב-OpenAI, היא סימן ברור לכמה חברות ענק רואות ב-AI את העתיד. במקביל, הביטול של הפרויקט על אלטמן יכול לרמוז על רגישות מסוימת מצד אמזון או רצון להימנע מסיכונים תדמיתיים, אולי סביב הדרך שבה אלטמן התנהל בתקרית ההדחה. זה מזכיר לנו שגם בעולם הטכנולוגיה המתקדם ביותר, ישנם תמיד שיקולים עסקיים, פוליטיים ותדמיתיים.\n\nאז מה התובנה שלנו מהסיפור הזה? ראשית, שה-AI הוא לא רק טרנד חולף, אלא כוח משנה מציאות שמשפיע על כל תחומי החיים והעסקים. שנית, שככל שאנחנו לומדות יותר על הטכנולוגיות האלה, אנחנו מבינות את ההקשרים הרחבים יותר – איך השקעות ענק, שותפויות אסטרטגיות והחלטות עסקיות קטנות כגדולות, מעצבות את העתיד שאנחנו בונות. אני תמיד אומרת שככל שלומדים יותר, פחות מפחדים, וזה נכון גם להבנת הדינמיקה המורכבת של עולם הטכנולוגיה וההשקעות.\n\nאז תמשיכו לחקור, לשאול שאלות, ולפתוח את הראש לעולמות החדשים האלה. מי יודע אילו עוד סיפורים מרתקים נגלה.",
-      "terms_he": [],
-      "points_he": [
-        "השקעת ענק של אמזון ב-Microsoft, שותפה של OpenAI, משפיעה על פרויקטי תוכן.",
-        "עולם ה-AI הופך למרכזי ומשפיע על תעשיות שונות, כולל מדיה ובידור.",
-        "ההחלטות העסקיות בעולם הטכנולוגיה מורכבות ומושפעות משיקולים רבים."
-      ],
-      "meaning_he": "הסיפור הזה מדגים איך השקעות ענקיות בטכנולוגיות כמו AI משפיעות על תעשיות שלמות ועל החלטות עסקיות, גם בתחומים שנראים רחוקים. עבורנו, זה תזכורת להבין את ההקשרים הרחבים של הטכנולוגיה שאנו חוקרות.",
-      "gen_v": 2
-    },
-    {
-      "id": "3hmr74",
-      "title": "Anime Girls Could Steal Your Crypto as Wallpaper Malware Targets Steam Gamers",
-      "link": "https://decrypt.co/371632/anime-girls-steal-crypto-wallpaper-malware-targets-steam-gamers",
-      "summary": "Researchers found malicious Wallpaper Engine downloads on Steam Workshop distributing infostealers, backdoors, and account-hijacking malware.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-06-19T14:39:56.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/06/decrypt-style-anime-girl-wallet-gID_7.png",
-      "title_he": "תוכנת טפט פוגעת בגיימרים: גניבת קריפטו דרך Steam",
-      "brief_he": "תוכנת טפט פופולרית ב-Steam התגלתה כמפיצה נוזקות שמטרתן לגנוב מידע וגישה לחשבונות קריפטו של משתמשים.",
-      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש שמחה שאתן כאן, כי היום אנחנו מדברות על נושא שנוגע ישירות לאבטחה בעולם הדיגיטלי, ואיך זה קשור גם לעולם הקריפטו שלנו. הסיפור הזה נוגע לגיימרים, אבל המסר רלוונטי לכולנו – איך נוזקות יכולות להגיע ממקומות לא צפויים ולפגוע בארנקים הדיגיטליים שלנו.\n\nלפי מחקרים שפורסמו, חוקרים גילו שתוכנת טפט (Wallpaper Engine) פופולרית מאוד בקרב משתמשי Steam, פלטפורמת המשחקים המקוונת, מכילה בתוכה נוזקות מסוכנות. הנוזקות האלה, שמופצות דרך ה-Steam Workshop (המאגר של תוספות ותכנים למשחקים), יכולות לגרום נזק רב. הן כוללות 'גונבי מידע' (infostealers) שמטרתם לגנוב פרטים אישיים ופיננסיים, 'דלתות אחוריות' (backdoors) שמאפשרות לתוקפים גישה למחשב, ואפילו נוזקות שמטרתן לגנוב חשבונות (account-hijacking).\n\nמה זה אומר לנו? זה מראה כמה חשוב להיות ערניות למה שאנחנו מורידות ומתקינות במחשבים שלנו, גם אם זה נראה תמים כמו תוכנת טפט. Steam היא פלטפורמה ענקית, וה-Steam Workshop מאפשר למשתמשים לשתף תכנים, אך זה גם פותח פתח לתוקפים להפיץ קוד זדוני. נוזקות מסוג 'infostealer' הן סכנה ממשית לעולם הקריפטו, מכיוון שהן יכולות לגנוב את המפתחות הפרטיים (private keys) או את פרטי הגישה לארנקים דיגיטליים, ובכך לאפשר לתוקפים לגנוב את כל הנכסים שלנו. זה מדגיש את החשיבות של אבטחה ברמה הגבוהה ביותר, לא רק של הארנק עצמו, אלא גם של המכשירים שאנחנו משתמשות בהם כדי לגשת אליו.\n\nאז מה התובנה שלנו? ראשית, תמיד לחשוד ולהיות סקפטיות לגבי תוכנות או קבצים שמגיעים ממקורות לא מוכרים או לא רשמיים, גם אם הם פופולריים. שנית, חשוב להשתמש בתוכנות אנטי-וירוס מעודכנות, ולבצע סריקות קבועות. שלישית, בכל הנוגע לנכסי קריפטו, ההמלצה החמה ביותר היא להשתמש בארנקים קרים (hardware wallets) לאחסון של סכומים משמעותיים, ולהפריד בין המכשירים המשמשים לגלישה כללית לבין המכשירים המשמשים לניהול הנכסים הדיגיטליים שלנו. ככל שלומדים יותר על דרכי הפעולה של התוקפים, כך אנחנו יכולות להגן על עצמנו טוב יותר. תפתחו את הראש, תלמדו, תחקרו – ותמיד תפעלו בזהירות!\n\nהמסר הוא ברור: בעולם הדיגיטלי, אבטחה היא לא מותרות, אלא הכרח. אל תתנו ל'מראה' התמים של תוכנה או משחק להטעות אתכם. שמרו על עצמכן ועל הנכסים הדיגיטליים שלכן.",
-      "terms_he": [],
-      "points_he": [
-        "תוכנות טפט פופולריות ב-Steam עלולות להכיל נוזקות שמטרתן לגנוב מידע וחשבונות.",
-        "נוזקות מסוג 'infostealer' מהוות סכנה ישירה לארנקים דיגיטליים ולנכסי קריפטו.",
-        "חשוב לנקוט באמצעי אבטחה מחמירים: סריקות אנטי-וירוס, שימוש בארנקים קרים והפרדת מכשירים."
-      ],
-      "meaning_he": "הסיפור הזה מדגיש את החשיבות הקריטית של אבטחה דיגיטלית בעולם הקריפטו, ומראה איך נוזקות יכולות להגיע ממקורות לא צפויים. עבורנו, זו תזכורת מתמדת להיות ערניות ולנקוט את כל אמצעי הזהירות להגנה על הנכסים שלנו.",
       "gen_v": 2
     },
     {
@@ -445,28 +920,6 @@
       "gen_v": 2
     },
     {
-      "id": "1c6swm8",
-      "title": "Ethereum Foundation Loses Second Co-Executive Director as Hsiao-Wei Wang Steps Down",
-      "link": "https://thedefiant.io/news/people/ethereum-foundation-hsiao-wei-wang-resigns-co-executive-director",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-19T14:00:00.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/7afec4d05ded6d1b24c514ebcf3d3d0fe5166eb8-2048x1152.png",
-      "title_he": "שינויים בהנהלת קרן את'ריום: מה המשמעות?",
-      "brief_he": "עזיבה שנייה של בכיר בקרן את'ריום מעלה שאלות לגבי יציבות ההנהלה והמימון העתידי.",
-      "commentary_he": "חברות יקרות, היום אני רוצה לדבר איתכן על משהו שקורה בליבת עולם הקריפטו, וזה תמיד טוב שנבין את התמונה הגדולה. לאחרונה פורסם כי הוואי וואנג, שותפה-מנהלת בקרן את'ריום (Ethereum Foundation), הודיעה על התפטרותה. זוהי לא סתם עוד עזיבה; זו הפרישה השנייה של שותף-מנהל בקרן בתוך ארבעה חודשים בלבד, ומגיעה לאחר גל של עזיבות בכירים נוספים בחמשת החודשים האחרונים.\n\nוואנג, שהייתה חלק מהקרן מאז 2017 והפכה לשותפה-מנהלת בתחילת 2025, הסבירה שהחלטתה נובעת מהרצון לבלות יותר זמן עם משפחתה, אך הדגישה שהיא נשארת חלק מקהילת את'ריום הרחבה. היא ציינה כי תקופת החופשה שלה העניקה לה פרספקטיבה מחודשת על סדרי העדיפויות שלה. ויטליק בוטרין, אחד ממייסדי את'ריום, תיאר את תפקיד השותף-מנהל כ\"אולי התפקיד המאתגר ביותר בקרן את'ריום, ובאחד הזמנים המאתגרים ביותר עבור את'ריום\".\n\nהעזיבה של וואנג מצטרפת לעזיבה של שותף-מנהל נוסף, טומאש סטנצ'אק, שהודיע על פרישתו בפברואר. בסך הכל, לפחות שמונה דמויות בכירות עזבו את הקרן בתקופה האחרונה. הדבר מעלה שאלות לגבי היציבות והכיוון העתידי של הארגון, למרות שבוטרין עצמו הציג את המצב כ'איפוס הנהגה' מכוון, שמטרתו ליצור קרן קטנה וממוקדת יותר.\n\nבמקביל לחדשות על עזיבות הבכירים, ישנם גם דיווחים על אתגרים במימון. לפי הערכות של גורמים שעבדו בעבר בקרן, קיים פער שנתי של כ-30 מיליון דולר במימון קבוצות הפיתוח של הלקוחות, החוקרים ופרויקטי התיאום של הפרוטוקול. פער זה מיוחס בעיקר לסיום תוכנית התמריצים ללקוחות (Client Incentive Program) באפריל, ללא הודעה על תוכנית חלופית, וכן לשינוי במדיניות האוצר של הקרן. חשוב לציין שהקרן עצמה לא פרסמה תגובה רשמית בנוגע לעזיבתה של וואנג, מעבר לפוסט שהיא פרסמה.\n\nמה כל זה אומר לנו? בתור משקיעות וחברות קהילה, חשוב לנו להבין את המבנה והיציבות של הגופים המרכזיים מאחורי טכנולוגיות כמו את'ריום. שינויים בהנהלה, במיוחד בנקודות זמן קריטיות, יכולים להשפיע על קצב הפיתוח והחדשנות. יחד עם זאת, חשוב לזכור שאת'ריום היא פרויקט קהילתי ענק, ושינויים אלו לא בהכרח מעידים על סוף הדרך, אלא אולי על התאמות נדרשות. ככל שלומדים יותר על המבנים הללו, כך פחות מפחדים משינויים.\n\nהמסר שלי הוא להמשיך לעקוב, להבין את ההקשר, ולא להיבהל מכל שינוי. הקהילה של את'ריום חזקה, והפיתוח ממשיך. תמשיכו ללמוד, לחקור, ולהיות חלק מהמסע הזה. אני גאה בכן על הסקרנות והרצון להבין את כל הרבדים של עולם הקריפטו.",
-      "terms_he": [],
-      "points_he": [
-        "הוואי וואנג, שותפה-מנהלת בקרן את'ריום, התפטרה מתפקידה.",
-        "זוהי העזיבה השנייה של שותף-מנהל בקרן בחודשים האחרונים.",
-        "ישנם דיווחים על פערים במימון הפעילות השוטפת של הקרן.",
-        "השינויים מעלים שאלות לגבי יציבות ההנהלה והכיוון העתידי של הפרויקט."
-      ],
-      "meaning_he": "עזיבות בכירים בקרן את'ריום מעלות שאלות לגבי יציבותה התפעולית והפיננסית, ומזכירות לנו את החשיבות של הבנת המבנים התומכים בפרויקטים טכנולוגיים גדולים.",
-      "gen_v": 2
-    },
-    {
       "id": "19bu8ld",
       "title": "Franklin Templeton Files for Two ETFs That Reinvest Stock Dividends Into Bitcoin",
       "link": "https://bitcoinmagazine.com/news/franklin-templeton-files-two-etfs-bitcoin",
@@ -507,372 +960,6 @@
         "המהלך משקף את האינטגרציה הגוברת של קריפטו בעולם הפיננסים המסורתי."
       ],
       "meaning_he": "השקת תעודות סל חדשניות אלו על ידי פרנקלין טמפלטון מראה כיצד שחקנים פיננסיים גדולים משלבים בצורה יצירתית נכסים דיגיטליים במוצרים מסורתיים, מה שמקל על משקיעים להיחשף לביטקוין.",
-      "gen_v": 2
-    },
-    {
-      "id": "14y5th2",
-      "title": "Texas Brothers Plead Guilty to $8M Armed Crypto Kidnapping",
-      "link": "https://decrypt.co/371665/texas-brothers-plead-guilty-to-8m-armed-crypto-kidnapping",
-      "summary": "Isiah and Raymond Garcia held a Minnesota family at gunpoint for eight hours and forced the father to transfer over $8 million in crypto.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-06-19T11:14:40.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Judge-gID_7.png",
-      "title_he": "אימה ואלימות: פרשת חטיפה וסחיטה של 8 מיליון דולר בקריפטו",
-      "brief_he": "שני אחים מטקסס הודו בחטיפה וסחיטה של משפחה באיומי נשק, במטרה לגנוב מהם 8 מיליון דולר בביטקוין.",
-      "commentary_he": "חברות וחברים יקרים, אני ממש שמחה שאתן כאן היום, כי יש לי סיפור מטריד שחשוב שנדבר עליו. לצערנו, עולם הקריפטו, כמו כל תחום חדשני ומתפתח, אינו חף מסיכונים, וחלקם יכולים להיות קיצוניים ומסוכנים. לאחרונה, שני אחים מטקסס, איזייה וריימונד גרסיה, הודו באשמה בחטיפה וסחיטה של משפחה אחרת, במטרה לגנוב מהם סכום אסטרונומי של 8 מיליון דולר בביטקוין. \n\nעל פי הדיווחים, האחים החזיקו בני משפחה תחת איומי אקדח במשך שמונה שעות ארוכות. במהלך הזמן הזה, הם אילצו את האב להעביר להם את הכספים בצורת מטבעות קריפטוגרפיים. זהו מקרה מזעזע שמזכיר לנו את הצד האפל שיכול להתקיים לצד הטכנולוגיה המדהימה שאנו חוקרים ולומדים עליה. חשוב לזכור שגם בעולם הדיגיטלי, איומים פיזיים ופשיעה עדיין קיימים, וצריך תמיד לשמור על ערנות.\n\nהסיפור הזה, למרות שהוא קיצוני, מדגיש כמה נקודות חשובות. ראשית, הוא מזכיר לנו את הערך הפוטנציאלי של נכסי קריפטו, מה שמושך גם גורמים עברייניים. שנית, הוא מדגיש את הצורך באמצעי אבטחה והגנה, גם אם אנו עוסקים בנכסים דיגיטליים. שלישית, הוא מעלה שאלות לגבי האחריות של פלטפורמות וגורמים שונים במניעת פשעים מסוג זה. \n\nאנחנו כאן בקהילת 'קריפטו וומן' שואפים להביא כמה שיותר נשים (וגברים, כמובן!) לעולם ההשקעות והטכנולוגיה, מתוך אמונה שכשמבינים, פחות מפחדים. ככל שלומדים יותר, כך אפשר לזהות סיכונים ולהתגונן מפניהם. המטרה שלנו היא לטפח הבנה עמוקה, לא רק של ההזדמנויות, אלא גם של האתגרים והסכנות. חשוב להבין את הסיכונים, לא להיכנס לפאניקה, אלא ללמוד איך לנווט בעולם הזה בבטחה.\n\nהמסר המרכזי מהמקרה הזה הוא ברור: עולם הקריפטו מרתק ומלא פוטנציאל, אך דורש מאיתנו אחריות, זהירות ולמידה מתמדת. כמו בכל תחום, יש אנשים טובים ויש אנשים שמנסים לנצל את המצב. אל תתנו למקרים כאלה להרתיע אתכם מללמוד ולחקור, אבל תמיד היו מודעים לסביבה שלכם ולסיכונים האפשריים. תמשיכו ללמוד, תפתחו את הראש, ותחקרו את התחום הזה בזהירות ובחוכמה.",
-      "terms_he": [],
-      "points_he": [
-        "ההודאה של האחים גרסיה בחטיפה וסחיטה של 8 מיליון דולר בקריפטו.",
-        "החשיבות של מודעות לסיכונים פיזיים ופשיעה גם בעולם הדיגיטלי.",
-        "הצורך בלמידה מתמדת וזהירות בעת השקעה או התעסקות בנכסי קריפטו."
-      ],
-      "meaning_he": "מקרה קיצוני זה מזכיר לנו שהעולם הדיגיטלי אינו מנותק מהמציאות הפיזית, וכי יש לנקוט אמצעי זהירות מפני פשיעה. זה מדגיש את החשיבות של למידה והבנה מעמיקה של הסיכונים, לצד ההזדמנויות, בעולם הקריפטו.",
-      "gen_v": 2
-    },
-    {
-      "id": "162hbl1",
-      "title": "Fable's Shutdown Hands Crypto Its Case for Decentralized AI",
-      "link": "https://thedefiant.io/news/blockchains/fable-s-shutdown-hands-crypto-its-case-for-decentralized-ai",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-18T21:19:39.000Z",
-      "image": "https://cdn.thedefiant.io/de-ai-png-9aff14bb-39ca-4353-a7d4-ad5be1463a96.png",
-      "title_he": "סגירת Fable מדגישה את הצורך ב-AI מבוזר",
-      "brief_he": "סגירתה הפתאומית של חברת ה-AI המרכזית Fable מחזקת את הטיעון בעד פיתוח מערכות בינה מלאכותית מבוזרות.",
-      "commentary_he": "חברות וחברים יקרים, אני שמחה שאתן כאן איתי היום לשיחה על נושא שמאחד שני עולמות מרתקים: בינה מלאכותית (AI) ועולם הקריפטו וה-Web3. לאחרונה, שמענו על סגירתה הפתאומית של Fable, חברה שפיתחה טכנולוגיות AI מתקדמות, וזה מעלה שאלות חשובות לגבי עתיד התחום.\n\nFable, שזכתה להשקעות משמעותיות וצברה מוניטין בתחום ה-AI, סגרה את שעריה באופן בלתי צפוי. הסיבות המדויקות לסגירה אינן ברורות לחלוטין, אך האירוע הזה מדגיש את הסיכונים הטמונים במודלים ריכוזיים בעולם הטכנולוגיה, ובפרט בתחום ה-AI שמתפתח במהירות כה גדולה. כאשר חברה כה משמעותית, שמחזיקה בידע ובטכנולוגיה קריטיים, נסגרת, זה יכול להשפיע באופן דרמטי על לקוחותיה, שותפיה, ואף על המשך הפיתוח בתחום.\n\nכאן נכנס לתמונה עולם הקריפטו וה-Web3. אחד העקרונות המרכזיים של הטכנולוגיות הללו הוא הפיזור (Decentralization) – היכולת לפעול ללא תלות בגורם מרכזי אחד. בעולם ה-AI, מודל מבוזר יכול לאפשר פיתוח, בעלות ושליטה שיתחלקו בין משתתפים רבים, במקום להיות מרוכזים בידי חברה אחת. זה יכול להגביר את העמידות של המערכות, להבטיח המשכיות גם אם גורם אחד נכשל, ולפתוח אפשרויות חדשות לשיתוף פעולה וחדשנות.\n\nהסגירה של Fable היא תזכורת כואבת לכך שטכנולוגיות ריכוזיות, למרות יתרונותיהן הראשוניים, טומנות בחובן סיכונים. הן תלויות בהחלטות עסקיות, במימון, ובניהול של גורם אחד. לעומת זאת, פיתוח AI מבוזר, המבוסס על עקרונות הבלוקצ'יין, יכול להציע אלטרנטיבה יציבה ובטוחה יותר בטווח הארוך. זה מאפשר ליצור מערכות AI שקופות יותר, שניתן לבחון את פעולתן, ושתלויות בקהילה ולא בחברה בודדת.\n\nאז מה הצעד הבא עבורנו? חשוב שנמשיך ללמוד ולהבין את היתרונות של מודלים מבוזרים, גם בתחום ה-AI. זהו זמן מצוין לבחון כיצד טכנולוגיות כמו בלוקצ'יין, קריפטו ו-AI יכולות להשתלב ליצירת פתרונות חדשניים, עמידים ושיתופיים. אני מזמינה אתכן להמשיך לחקור את האפשרויות הללו, ולחשוב כיצד נוכל, כקהילה, לתרום לבניית עתיד טכנולוגי שוויוני, שקוף ומבוזר יותר. כי ככל שנבין יותר, כך נוכל להשפיע יותר.",
-      "terms_he": [],
-      "points_he": [
-        "סגירתה הפתאומית של חברת ה-AI המרכזית Fable מדגישה את הסיכונים במודלים ריכוזיים.",
-        "האירוע מחזק את הטיעון בעד פיתוח מערכות AI מבוזרות.",
-        "מודלים מבוזרים מציעים עמידות, המשכיות ושליטה משותפת.",
-        "השילוב של AI עם טכנולוגיות Web3 יכול ליצור מערכות AI שקופות ויציבות יותר."
-      ],
-      "meaning_he": "סגירתה של Fable מדגימה את הפגיעות של מערכות AI ריכוזיות ומחזקת את הצורך באלטרנטיבות מבוזרות. עבור קהילת הקריפטו, זה מהווה הזדמנות לחקור את הפוטנציאל של שילוב AI עם טכנולוגיות Web3 ליצירת מערכות AI עמידות, שקופות ונגישות יותר.",
-      "gen_v": 2
-    },
-    {
-      "id": "i0r0qu",
-      "title": "BlackRock Executive Calls Bitcoin “Too Big to Ignore”, Discusses New Bitcoin Premium Income ETF",
-      "link": "https://bitcoinmagazine.com/news/blackrock-executive-calls-bitcoin-too-big",
-      "summary": "Bitcoin Magazine BlackRock Executive Calls Bitcoin “Too Big to Ignore”, Discusses New Bitcoin Premium Income ETF BlackRock's new BITA ETF uses a covered-call strategy on its spot Bitcoin ETF holdings to generate monthly…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-06-18T19:53:25.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/04/BlackRock-Posts-Massive-Bitcoin-ETF-Inflows-as-Morgan-Stanley-Debuts-MSBT-With-Strong-Early-Demand.jpg",
-      "title_he": "בלאקרוק: ביטקוין \"גדול מדי מכדי להתעלם ממנו\" – ETF חדש עם הכנסה שוטפת",
-      "brief_he": "בלאקרוק משיקה קרן סל חדשה על ביטקוין (BITA) המשתמשת באסטרטגיית מכירת אופציות כדי לייצר הכנסה חודשית למשקיעים.",
-      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש שמחה שאתן איתי היום, כי יש לנו חדשות מרגשות מעולם ההשקעות המוסדיות, שמראות עד כמה ביטקוין הופך לחלק אינטגרלי מהשיח הפיננסי העולמי.\n\nבלאקרוק, ענקית ניהול הנכסים הגדולה בעולם, עם למעלה מ-10 טריליון דולר בניהול, משיקה מוצר השקעה חדש המבוסס על ביטקוין. ג'ייקובס, סמנכ\"ל בכיר בבלאקרוק, אמר בראיון שהם רואים בביטקוין 'גדול מכדי להתעלם ממנו'. אמירה כזו מצד גוף פיננסי בסדר גודל כזה היא לא פחות ממהפכנית, והיא משקפת את השינוי הדרמטי בתפיסה של ביטקוין – מנכס ספקולטיבי ונישתי, לנכס לגיטימי ומשמעותי בארנז הפיננסי.\n\nהמוצר החדש, הנקרא iShares Bitcoin Premium Income ETF (סימול: BITA), נועד למשוך משקיעים מסורתיים שעד כה נרתעו מהתנודתיות של ביטקוין. איך הוא עושה זאת? הוא משלב שתי אסטרטגיות: ראשית, הוא מחזיק חשיפה לביטקוין דרך ה-ETF של בלאקרוק עצמה (IBIT). שנית, הוא מוכר אופציות 'at the money' על חלק מהפורטפוליו (בדרך כלל 25% עד 35%). הפרמיה שמתקבלת ממכירת האופציות האלה מחולקת למשקיעים כהכנסה שוטפת, באופן חודשי.\n\nמה המשמעות של זה? בלאקרוק מנסה להפוך את התנודתיות, שהיא אחד החסרונות המרכזיים של ביטקוין בעיני משקיעים רבים, למקור הכנסה. לפי ג'ייקובס, האסטרטגיה הזו מכוונת לתשואה שנתית של בין 15% ל-25%. כמובן, התשואה בפועל תלויה ברמת התנודתיות של ביטקוין בזמן נתון. ככל שהתנודתיות גבוהה יותר, כך הפרמיה על האופציות גבוהה יותר, וההכנסה השוטפת גדלה. החיסרון? הגבלה של פוטנציאל הרווח אם ביטקוין ירשום עליות חדות מאוד.\n\nג'ייקובס תיאר מספר סוגי משקיעים שיכולים ליהנות מ-BITA: משקיעים שמחפשים הכנסה שוטפת, מחזיקי ביטקוין לטווח ארוך שרוצים לייצר מזומנים בתקופות של דשדוש או ירידות, ואף מנהלי תיקים מוסדיים שזקוקים לנכסים שמייצרים תזרים מזומנים כדי להצדיק הקצאה בתיק ההשקעות שלהם. עד היום, נכסים כמו ביטקוין, זהב או כסף, שלא מייצרים תזרים מזומנים, היו קשים להכללה בתיקים מסוימים.\n\nההשקה הזו היא עוד הוכחה לכך שביטקוין אינו רק 'שחקן' חדש בשוק, אלא חלק חשוב מהנוף הפיננסי המודרני. העובדה שבלאקרוק, עם הניסיון והמוניטין שלה, בונה מוצרים חדשניים סביב ביטקוין, מעידה על אמון עמוק בפוטנציאל של הנכס.\n\nמה המסר שלנו? המסר הוא שוב, ככל שלומדים יותר, פחות מפחדים. העולם הפיננסי מתפתח, וגופים גדולים כמו בלאקרוק מאמצים טכנולוגיות ונכסים חדשים. זה לא אומר שצריך למהר ולהשקיע, אלא שחשוב להבין את המגמות, את הכלים החדשים שנוצרים, ואת המשמעות שלהם עבורנו. תפתחו את הראש, תחקרו את המוצרים החדשים האלה, הבינו איך הם עובדים ומה הסיכונים והיתרונות שלהם. הלמידה הזו היא הכוח שלנו, והיא זו שתאפשר לנו לנפץ תקרות זכוכית פיננסיות.",
-      "terms_he": [
-        {
-          "term": "בלאקרוק",
-          "explain": "חברת ניהול הנכסים הגדולה בעולם, המנהלת טריליוני דולרים."
-        },
-        {
-          "term": "ETF",
-          "explain": "ראשי תיבות של Exchange Traded Fund, קרן סל הנסחרת בבורסה."
-        },
-        {
-          "term": "IBIT",
-          "explain": "ה-ETF של בלאקרוק על ביטקוין ספוט."
-        },
-        {
-          "term": "BITA",
-          "explain": "קרן הסל החדשה של בלאקרוק המשלבת ביטקוין והכנסה מאופציות."
-        },
-        {
-          "term": "אופציות",
-          "explain": "חוזים המעניקים את הזכות, אך לא את החובה, לקנות או למכור נכס במחיר מסוים עד תאריך מסוים."
-        },
-        {
-          "term": "הכנסה שוטפת",
-          "explain": "תשלומים קבועים המתקבלים כתוצאה מהשקעה, כגון ריבית או דיבידנדים."
-        }
-      ],
-      "points_he": [
-        "בלאקרוק משיקה ETF חדש על ביטקוין (BITA) המייצר הכנסה שוטפת.",
-        "המוצר משלב החזקת ביטקוין עם אסטרטגיית מכירת אופציות.",
-        "המטרה היא למשוך משקיעים מסורתיים על ידי הפחתת התנודתיות וייצור הכנסה.",
-        "בלאקרוק רואה בביטקוין נכס 'גדול מכדי להתעלם ממנו'.",
-        "המוצר מיועד למשקיעים המחפשים הכנסה, מחזיקים לטווח ארוך, ומשקיעים מוסדיים."
-      ],
-      "meaning_he": "ההשקה של מוצר השקעה חדשני על ידי בלאקרוק מדגישה את הלגיטימציה הגוברת של ביטקוין כשכבת נכס מרכזית, ומציעה דרכים חדשות ונגישות יותר למשקיעים מסורתיים להיחשף אליו, תוך התמודדות עם תנודתיות.",
-      "gen_v": 2
-    },
-    {
-      "id": "uzi197",
-      "title": "Ondo Finance Adds 173 Tokenized Stocks and ETFs, Taking Catalog Past 430 Assets Across Three Chains",
-      "link": "https://thedefiant.io/converge/defi/ondo-finance-adds-173-tokenized-stocks-etfs-430-assets-three-chains",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-18T19:49:54.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/13b4aebbe1aeb694096342f5b00dd9ae22fc2154-2048x1152.png",
-      "title_he": "הבורסה נפגשת עם הבלוקצ'יין: מניות ותעודות סל על השרשרת",
-      "brief_he": "חברת Ondo Finance מרחיבה את היצע הנכסים הדיגיטליים על הבלוקצ'יין, ומנגישה למשקיעים מגוון רחב יותר של ניירות ערך מסורתיים.",
-      "commentary_he": "חברות וחברים יקרים,\n\nאיזה כיף לפגוש אתכם שוב! היום אני רוצה לדבר איתכן על מגמה מרתקת שמתחילה לצבור תאוצה בעולם שלנו – ה-RWA, או Real World Assets. כלומר, נכסים מהעולם האמיתי שמוצאים את דרכם אל הבלוקצ'יין. ונדמה שחברת Ondo Finance לוקחת את זה צעד אחד קדימה.\n\nלפי הדיווח, Ondo Finance הוסיפה לאחרונה 173 מניות חדשות ותעודות סל (ETFs) מסורתיות לפלטפורמת ה-Ondo Global Markets שלה. זה אומר שהקטלוג שלהם עבר את ה-430 נכסים שונים, הזמינים כעת על גבי שלוש רשתות בלוקצ'יין מרכזיות: את'ריום, סולנה ו-BNB Chain. זה לא מעט, נכון?.\n\nמה זה בעצם אומר? זה אומר שמשקיעים מחוץ לארצות הברית יכולים כעת לגשת באופן דיגיטלי, על הבלוקצ'יין, למניות של חברות טכנולוגיה גדולות בתחומי הבינה המלאכותית, רובוטיקה, מחשוב קוונטי, ואפילו חברות בתעשיית הביטחון. בנוסף, נוספו גם תעודות סל אקטיביות של בלקרוק ואסטרטגיות הכנסה הכוללות אופציות. כל אלו נכסים שבדרך כלל היו נגישים רק למשקיעים מוסדיים או כאלה עם גישה מיוחדת.\n\nהפלטפורמה של Ondo Global Markets פועלת כך שכל טוקן מגובה באופן מלא (1:1) בנייר הערך המקורי, שנרכש ומוחזק על ידי ברוקר רשום בארה\"ב. הטוקנים האלה עוקבים אחר התשואה הכוללת של הנכס, כולל דיבידנדים, וניתן להנפיק או לפדות אותם בכל עת בימי חול. החברה הזו חצתה לא מזמן את רף מיליארד הדולר בנכסים תחת ניהול (TVL), וזה מרשים מאוד בהתחשב בכך שהיא פועלת פחות משמונה חודשים.\n\nמה שמעניין במיוחד הוא הגישה הרב-שרשרתית. Ondo Finance לא מגבילה את עצמה לרשת אחת, אלא מנגישה את הנכסים על פני את'ריום, סולנה ו-BNB Chain. זה מונע ריכוזיות יתר של נזילות ברשת אחת ומאפשר ליותר משתמשים גישה.\n\nאז מה המשמעות של כל זה עבורנו, חברות? זהו צעד משמעותי בדרך למה שמכונה Web3, שבו הגבולות בין העולם הפיננסי המסורתי (TradFi) לעולם הפיננסים המבוזר (DeFi) מיטשטשים יותר ויותר. היכולת להחזיק, לסחור ולהשתמש בניירות ערך מסורתיים כטוקנים על הבלוקצ'יין פותחת אפשרויות חדשות למשקיעים, מגבירה שקיפות ומייעלת תהליכים. זה לא אומר לקפוץ למים בלי להבין, חלילה, אבל זה בהחלט פותח את הראש לאפשרויות חדשות.\n\nהמסר שלי אליכן הוא ברור: תמשיכו ללמוד, לחקור ולהבין את ההתפתחויות האלה. ככל שנבין טוב יותר את הכלים החדשים האלה, כך נוכל לקבל החלטות מושכלות יותר ולהיות חלק מהעתיד הפיננסי. הרצון שלי הוא שננפץ תקרות זכוכית, וגישה שוויונית יותר לנכסים פיננסיים היא חלק חשוב מכך.",
-      "terms_he": [
-        {
-          "term": "RWA",
-          "explain": "ראשי תיבות של Real World Assets – נכסים מהעולם האמיתי, כמו מניות או נדל\"ן, המיוצגים כטוקנים על הבלוקצ'יין."
-        },
-        {
-          "term": "ETFs",
-          "explain": "תעודות סל – קרנות סל הנסחרות בבורסה, העוקבות אחר מדד מסוים או סל נכסים."
-        },
-        {
-          "term": "DeFi",
-          "explain": "ראשי תיבות של Decentralized Finance – מערכת פיננסית מבוזרת המבוססת על טכנולוגיית בלוקצ'יין."
-        },
-        {
-          "term": "Web3",
-          "explain": "הדור הבא של האינטרנט, המבוסס על טכנולוגיות בלוקצ'יין, קריפטוגרפיה וביזור."
-        },
-        {
-          "term": "TVL",
-          "explain": "ראשי תיבות של Total Value Locked – סך כל הנכסים הנעולים בפרוטוקול DeFi, המעיד על הפופולריות והאמון בו."
-        }
-      ],
-      "points_he": [
-        "חברת Ondo Finance מנגישה מניות ותעודות סל אמריקאיות כטוקנים על הבלוקצ'יין.",
-        "הפלטפורמה זמינה כעת על גבי את'ריום, סולנה ו-BNB Chain, ומציעה מעל 430 נכסים.",
-        "המהלך מרחיב את הגישה של משקיעים בינלאומיים לשוקי ההון המסורתיים.",
-        "הטוקניזציה של נכסי העולם האמיתי (RWA) היא מגמה צומחת בעולם הקריפטו."
-      ],
-      "meaning_he": "המהלך של Ondo Finance מדגים את הפוטנציאל של טוקניזציית נכסי העולם האמיתי (RWA) ליצירת גשר בין הפיננסים המסורתיים לעולם הבלוקצ'יין, ומנגיש למשקיעים מגוון רחב יותר של אפשרויות השקעה.",
-      "gen_v": 2
-    },
-    {
-      "id": "s4kffp",
-      "title": "Backpack's Tokenized SpaceX Token on Solana Crosses 10,000 Holders, Nearly Double xStocks' SPCXx",
-      "link": "https://thedefiant.io/converge/defi/backpack-s-tokenized-spacex-token-on-solana-crosses-10-000-holders-nearly-double-xstocks-spcxx",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-18T19:19:47.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/9807b363c78729b90c79cb27abebb0c7cfe88f98-2048x1152.png",
-      "title_he": "האם מניית SpaceX בבלוקצ'יין? הכירו את הטרנד החדש בסולנה",
-      "brief_he": "טוקנים המייצגים מניות של חברות כמו SpaceX מתחילים לצבור פופולריות ברשת סולנה, ומציעים דרכים חדשות להשקעה וסחר.",
-      "commentary_he": "חברות וחברים יקרים, מה שלומכן? קרן ולדמן חנן כאן, מהקהילה שלנו, 'קריפטו וומן'. היום אני רוצה לשתף אתכן במשהו שמרתק אותי במיוחד – האופן שבו טכנולוגיית הבלוקצ'יין, ובפרט רשת סולנה (Solana), מתחילה לגשר על הפער בין העולם הפיננסי המסורתי לעולם הקריפטו. דיברנו לא פעם על NFT, על DeFi, ועל איך אנחנו יכולות לנפץ תקרות זכוכית בעולם ההשקעות. עכשיו, בואו נדבר על מניות.\n\nהשבוע התפרסם שסוג חדש של טוקנים, המייצגים מניות של חברות מוכרות כמו SpaceX, צובר תאוצה ברשת סולנה. אחד הטוקנים הללו, שנקרא SPCX והונפק על ידי Backpack Securities, חצה את רף 10,000 הבעלים ברשת. זה מספר מרשים, במיוחד בהשוואה למתחרים, ומצביע על עניין גובר במוצרים פיננסיים מבוססי בלוקצ'יין.\n\nאז מה בעצם קורה כאן? חברות כמו Backpack Securities מנפיקות טוקנים דיגיטליים שעל הנייר מגובים במניות אמיתיות של חברות. במקרה של SPCX, כל טוקן מייצג מניה אחת של SpaceX, שהחברה מנפיקת הבלוקצ'יין רוכשת ומחזיקה עבור הלקוחות. היתרון הגדול הוא שאפשר לסחור בטוקנים הללו על גבי רשת סולנה, מה שהופך את התהליך למהיר, זול ונגיש יותר מאשר במסחר במניות דרך ברוקר מסורתי.\n\nמה שמיוחד בגישה של Backpack, לפי הדיווחים, הוא שהם מאפשרים למחזיקי הטוקנים לממש אותם ולקבל את המניה האמיתית לחשבון הברוקר שלהם, דרך מערכות מקובלות כמו ACATS ו-DTCC. זה הבדל משמעותי מפתרונות אחרים, כמו למשל אלו שמציעה חברת xStocks, שם, לפי הדיווח, מימוש הטוקן מזכה במזומן ולא במניה עצמה. המנכ\"ל של Backpack, ארמני פרנטה, מדגיש את ההבדל הזה וטוען שהמודל שלהם נותן למשקיעים בעלות אמיתית על המניה, ולא רק זכות לקבלת תשלום במזומן.\n\nחשוב להבין שזהו תחום חדשני, וגם מעט אפור מבחינה רגולטורית. מניות של חברות פרטיות, או כאלו שרק לאחרונה הונפקו בבורסה, הן נכסים מורכבים. ההנפקה של SpaceX בנאסד\"ק הוסיפה מימד חדש, אך עדיין קיימים אתגרים רגולטוריים באופן שבו ניתן להציג חשיפה למניות כאלו על גבי הבלוקצ'יין.\n\nההתפתחות הזו בסולנה, עם טוקנים המגובים במניות, היא דוגמה מרתקת לאופן שבו הבלוקצ'יין יכול להרחיב את אפשרויות ההשקעה שלנו. זה פותח דלתות להשקעות שהיו בעבר נגישות רק למשקיעים מוסדיים או בעלי הון גבוה. כמובן, כמו בכל השקעה, חשוב להבין את הסיכונים, את המבנה של הטוקן, ואת ההבדלים בין הפתרונות השונים.\n\nהמסר שלי אליכן הוא להמשיך לחקור ולהבין את ההתפתחויות הללו. העולם הפיננסי משתנה לנגד עינינו, והבלוקצ'יין הוא חלק מרכזי בשינוי הזה. תפתחו את הראש, תלמדו, תחקרו – זו הדרך שלנו לנפץ תקרות זכוכית ולהבטיח את עתידנו הפיננסי.",
-      "terms_he": [],
-      "points_he": [
-        "טוקנים המייצגים מניות אמיתיות של חברות כמו SpaceX נסחרים ברשת סולנה.",
-        "הטוקנים מציעים דרך חדשה ונגישה להשקעה במניות, עם פוטנציאל לעמלות נמוכות יותר.",
-        "קיימים הבדלים מבניים ורגולטוריים בין פתרונות שונים המציעים חשיפה למניות דרך הבלוקצ'יין.",
-        "התפתחות זו מעידה על התקדמות בתחום ה-tokenization של נכסים מסורתיים."
-      ],
-      "meaning_he": "היכולת להשקיע בטוקנים המגובים במניות דרך הבלוקצ'יין מרחיבה את אפשרויות ההשקעה ומנגישה נכסים מסורתיים לקהל רחב יותר. זהו צעד נוסף לקראת פירוק מחסומים בעולם הפיננסים.",
-      "gen_v": 2
-    },
-    {
-      "id": "1bl4k42",
-      "title": "Strategy's STRC Falls to Record Low, Squeezing a Bitcoin Funding Channel",
-      "link": "https://thedefiant.io/news/markets/strategy-s-strc-falls-to-record-low-squeezing-a-bitcoin-funding-channel",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-18T18:48:29.000Z",
-      "image": "https://cdn.thedefiant.io/strc-png-5e1a4c55-187f-4c47-b665-7cd9a23487e2.png",
-      "title_he": "האם מניית Strategy בדרך לקריסה? סימן מדאיג בשוק הקריפטו",
-      "brief_he": "מניית STRC של חברת Strategy, אחת מהחזקות הביטקוין הגדולות בעולם, ירדה לשפל חדש, מה שמעורר שאלות לגבי יכולתה לממן את רכישות הביטקוין העתידיות.",
-      "commentary_he": "חברות וחברים יקרים, קרן ולדמן חנן כאן, מהקהילה האהובה שלנו, 'קריפטו וומן'. היום אני רוצה לדבר אתכן על נושא שנוגע ישירות לחברות שמשקיעות בביטקוין, ועל סימן מדאיג שקיבלנו לאחרונה מהשוק. אנחנו תמיד מדברות על חשיבות המחקר, על הבנת הסיכונים, ועל איך לא ליפול למלכודות. אז בואו נצלול לעומק.\n\nהסיפור מתרחש סביב חברת Strategy (לשעבר MicroStrategy), שהיא אחת מהחברות הציבוריות המחזיקות בכמות הגדולה ביותר של ביטקוין בעולם. כידוע, Strategy משתמשת במודל עסקי שבו היא רוכשת ביטקוין ורושמת אותו במאזן שלה, תוך גיוס הון דרך הנפקת מניות מועדפות, כמו מניית STRC.\n\nלאחרונה, מניית STRC הגיעה לשפל חדש, כשהיא נסחרת במחיר נמוך משמעותית מהערך המתוכנן שלה (כ-15% מתחת ל-100 דולר). זהו מצב מדאיג, מכיוון שהמודל של Strategy תלוי ביכולתה למכור את מניות STRC במחיר קרוב לערך הנקוב שלהן, כדי לממן את רכישת הביטקוין.\n\nכשמניית STRC יורדת מתחת לערך המתוכנן, זה מקשה על החברה לגייס את ההון הדרוש. כלומר, היא מקבלת פחות כסף עבור כל מניה שהיא מוכרת. זה יוצר לחץ על תזרים המזומנים של החברה, במיוחד לאור העובדה שהיא צריכה לממן גם את הדיבידנדים למחזיקי STRC.\n\nלמעשה, לפי הדיווחים, Strategy נאלצה לאחרונה למכור ביטקוין בפעם הראשונה מאז 2022, כדי לכסות את תשלומי הדיבידנדים. אמנם מדובר במכירה קטנה יחסית לכמות הביטקוין הכוללת שהחברה מחזיקה, אך היא מהווה שינוי מגמה משמעותי עבור חברה שמיצבה את עצמה כרוכשת נטו של ביטקוין.\n\nהירידה במחיר STRC מתרחשת גם על רקע ירידות בשוק הקריפטו בכלל, ובירידה במחיר הביטקוין עצמו, שנסחר כעת במחיר נמוך מהמחיר הממוצע שבו Strategy רכשה את רוב אחזקותיה.\n\nמה אנחנו יכולות ללמוד מזה? ראשית, שגם חברות גדולות ומובילות בתחום הקריפטו חשופות לתנודתיות השוק, ושיש להן אתגרים תפעוליים ופיננסיים. שנית, שחשוב תמיד לבדוק את המודל העסקי של כל חברה שבה אנו שוקלות להשקיע, ואת האופן שבו היא מנהלת את הסיכונים שלה.\n\nהירידה במניית STRC היא תזכורת לכך ששוק הקריפטו, למרות הפוטנציאל העצום שלו, עדיין דינמי ודורש מאיתנו, כמשקיעות, ערנות, ידע והבנה מעמיקה. אל תיתנו לתנודתיות להבהיל אתכן, אבל בהחלט תשתמשו בה כסיבה נוספת ללמוד, לחקור ולהבין לעומק את כל ההיבטים של ההשקעות שלכן. זכרו, ככל שלומדים יותר, פחות מפחדים.",
-      "terms_he": [],
-      "points_he": [
-        "מניית STRC של חברת Strategy ירדה לשפל חדש, מתחת לערך המתוכנן שלה.",
-        "הירידה מקשה על Strategy לגייס הון למימון רכישות ביטקוין עתידיות.",
-        "החברה נאלצה למכור ביטקוין לאחרונה כדי לממן תשלומי דיבידנדים.",
-        "התנודתיות בשוק הקריפטו משפיעה גם על חברות גדולות המחזיקות בביטקוין."
-      ],
-      "meaning_he": "הירידה במניית STRC של Strategy מהווה תזכורת לתנודתיות בשוק הקריפטו ולהשפעתה על חברות המתבססות על השקעה בביטקוין. זה מדגיש את החשיבות של הבנת המודלים העסקיים וניהול הסיכונים.",
-      "gen_v": 2
-    },
-    {
-      "id": "1lkscm9",
-      "title": "STRC Is Junk Credit in a Bitcoin Costume, and Retail Is Holding $8.8 Billion of It",
-      "link": "https://bitcoinmagazine.com/markets/strc-is-junk-credit-in-a-bitcoin-costume-and-retail-is-holding-8-8-billion-of-it",
-      "summary": "Bitcoin Magazine STRC Is Junk Credit in a Bitcoin Costume, and Retail Is Holding $8.8 Billion of It There is now $15 billion sitting in three securities being marketed to bitcoin holders as the safer, smarter way to…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-06-18T18:04:43.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/STRC-fotor-2026061813245.png",
-      "title_he": "השקעות בביטקוין: מה מסתתר מאחורי ההבטחות הנוצצות?",
-      "brief_he": "מוצר פיננסי חדש מבטיח חשיפה לביטקוין עם תשואה גבוהה, אך טומן בחובו סיכונים משמעותיים למשקיעים הקטנים.",
-      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש שמחה שאתן כאן, מוכנות לצלול איתי לעולם המרתק של הקריפטו והטכנולוגיה. היום אני רוצה לדבר איתכן על משהו שראיתי לאחרונה, שגורם לי להרגיש צורך עז להדליק לכן נורה אדומה, אבל בצורה הכי תומכת ומפרגנת שיש. לפעמים, כשמבטיחים לנו הרים וגבעות, במיוחד בעולם ההשקעות, כדאי לעצור לרגע, לנשום עמוק, ולשאול את השאלות הנכונות.\n\nלאחרונה, על פי דיווחים, ישנם שלושה מוצרים פיננסיים חדשים בשווי של כ-15 מיליארד דולר, שמשווקים למשקיעי ביטקוין. ההבטחה? דרך \"בטוחה\" ו\"חכמה\" יותר לקבל חשיפה לביטקוין, עם הבטחות לתשואה של 11.5%, מיסוי נוח, ותמיכה בביטקוין. נשמע מפתה, נכון? הבעיה היא, שכפי שמתברר, התיאור הזה רחוק מהמציאות, ולפי הדיווחים, המוצרים הללו הם למעשה סוג של אשראי זבל, עטוף בעטיפה נוצצת של ביטקוין.\n\nהמוצר המרכזי שנדון הוא STRC. על פי הפרסומים, מדובר במניה מועדפת (preferred equity) ללא תאריך פירעון, שאינה מגובה בשום מטבע ביטקוין ממשי. הדיבידנד, כלומר התשואה המובטחת, הוא דיסקרציוני – מה שאומר שהדירקטוריון יכול להחליט להפסיק אותו בכל רגע, ללא הודעה מוקדמת. דירוג האשראי של החברה עצמה הוא B-, דירוג שמוגדר כ\"זבל\" (junk). כלומר, ההבטחות על \"גיבוי בביטקוין\" ו\"סיכון דמוי שוק הכסף\" פשוט לא נכונות. זהו מוצר אשראי ספקולטיבי, שמוצג באריזה של הכנסה בטוחה.\n\nהסיכון הגדול יותר, לפי הניתוחים, הוא במנגנון המימון של המוצר. התחייבויות הדיבידנד השנתיות של STRC (מעל 1.2 מיליארד דולר) גבוהות משמעותית מההכנסות השוטפות של החברה (כ-477 מיליון דולר). הפער הזה לא מכוסה מהרווחים, אלא ממימון חיצוני – הנפקת מניות חדשות של STRC או דילול בעלי המניות הרגילים של החברה האם (MSTR). זהו מעגל קסמים שעלול לקרוס ברגע שהמחיר של STRC יירד, למשל עקב ירידה בביטקוין, הורדת דירוג, או סגירת שוקי ההון. אין תוכנית גיבוי, אין שעבוד על ביטקוין, אין מספיק תזרים מזומנים. רק תלות בהנפקות הבאות.\n\nהנתונים המדאיגים ביותר הם ריכוזיות הבעלות. על פי הדיווח, כ-82.7% מבעלי המניות הם משקיעים פרטיים (retail), המחזיקים בכ-8.8 מיליארד דולר מתוך כ-10.7 מיליארד דולר שהונפקו. זהו ריכוז סיכון עצום בידיים של משקיעים שאינם מוסדיים, שייתכן ולא מבינים את מלוא המשמעות של המוצר בו הם מחזיקים.\n\nאז מה אנחנו לוקחות מזה? ככל שלומדים יותר, פשוט פחות מפחדים. חשוב תמיד לבדוק את הבסיס של כל השקעה, במיוחד כשהיא מגיעה עם הבטחות גדולות. אל תתביישו לשאול שאלות, לחפש את האותיות הקטנות, ולהבין את הסיכונים. בעולם הקריפטו, כמו בכל דבר, השקעה מושכלת היא המפתח. תפתחו את הראש, תלמדו, תחקרו, ואל תתנו להבטחות ריקות להסיט אתכן מהדרך הנכונה. אנחנו כאן כדי ללמוד ולצמוח יחד, בבטחה.",
-      "terms_he": [
-        {
-          "term": "preferred equity",
-          "explain": "סוג של מניות בחברה שנותנות זכויות מועדפות על פני מניות רגילות, אך ללא זכויות הצבעה."
-        },
-        {
-          "term": "junk credit",
-          "explain": "דירוג אשראי נמוך המעיד על סיכון גבוה לאי-פירעון של חוב."
-        },
-        {
-          "term": "discretionary dividend",
-          "explain": "דיבידנד שהחברה אינה מחויבת לשלם, וההחלטה לגביו נתונה לשיקול דעת הדירקטוריון."
-        },
-        {
-          "term": "retail investors",
-          "explain": "משקיעים פרטיים, שאינם מוסדיים."
-        }
-      ],
-      "points_he": [
-        "מוצרים פיננסיים חדשים מבטיחים חשיפה לביטקוין, אך עשויים להיות מסוכנים.",
-        "הבטחות לתשואה גבוהה וביטחון עלולות להסתיר סיכונים משמעותיים.",
-        "חשוב לבדוק את מבנה המוצר, את הסיכונים ואת הבעלות לפני השקעה.",
-        "משקיעים פרטיים מחזיקים ברוב הסיכון במוצרים מסוג זה."
-      ],
-      "meaning_he": "הסיפור מדגיש את החשיבות של הבנה מעמיקה של מוצרים פיננסיים חדשים, במיוחד אלו הקשורים לקריפטו, כדי למנוע הפסדים מיותרים למשקיעים פרטיים. זה מחזק את הצורך שלנו בקהילה ללמוד, לחקור ולהבין לעומק לפני שקופצים למים.",
-      "gen_v": 2
-    },
-    {
-      "id": "t0hi4f",
-      "title": "Bitcoin Price Falls to $62,000 as Hawkish Fed Shift Raises Risk of Deeper Pullback",
-      "link": "https://bitcoinmagazine.com/markets/bitcoin-price-falls-to-62000-as-hawkish",
-      "summary": "Bitcoin Magazine Bitcoin Price Falls to $62,000 as Hawkish Fed Shift Raises Risk of Deeper Pullback Bitcoin price fell to around $62,000 after a hawkish Federal Reserve outlook dampened risk appetite. This post Bitcoin…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-06-18T16:48:06.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Bitcoin-Price-Falls-to-62000-as-Hawkish-Fed-Shift-Raises-Risk-of-Deeper-Pullback.jpg",
-      "title_he": "האם המשקיעים הקטנים מתחרטים על ההשקעה ב-STRC?",
-      "brief_he": "משקיעים קטנים שנמשכו לתשואות הגבוהות של המניה STRC, חווים כעת תנודתיות חריפה שמעוררת חששות.",
-      "commentary_he": "שלום לכולן, אני ממש שמחה שאתן כאן איתי כדי לדבר על עוד היבט מעניין בעולם ההשקעות, הפעם קצת מחוץ לקריפטו הקלאסי, אבל עם השלכות שאנחנו צריכות להכיר. אנחנו הולכות לדבר על מניה בשם STRC, שהפכה פופולרית בקרב משקיעים קטנים, בעיקר בגלל הבטחות לתשואות גבוהות. \n\nאז מה קרה? לפי הדיווחים, משקיעים רבים, כאלה שאנחנו מכירות מהקהילה שלנו – אנשים רגילים שרוצים להגדיל את החסכונות שלהם – נמשכו למניה STRC. הסיבה העיקרית הייתה התשואות הכפולות (double-digit yields) שהיא הציעה. בעולם של ריביות נמוכות יחסית, הבטחה לתשואה כזו היא מפתה מאוד. \n\nאבל, וכאן מגיע ה\"אבל\" הגדול, נראה שהמניה הזו התגלתה כלא יציבה במיוחד. הדיווחים מדברים על תנודתיות גבוהה, כלומר, המחיר שלה עולה ויורד בצורה דרמטית. מה שהתחיל כהשקעה מבטיחה, הפך עבור חלק מהמשקיעים למקור לחץ וחשש. זה מזכיר לנו מאוד את התנודתיות שאנחנו לפעמים חוות בשוק הקריפטו, אבל חשוב לזכור שגם בשווקים המסורתיים יש סיכונים. \n\nהאם זו מניה חדשה? לא בהכרח. המונח \"preferred stock\" (מניה מועדפת) מרמז שמדובר בסוג מסוים של ניירות ערך, שיש לו מאפיינים שונים ממניות רגילות. מניות מועדפות לעיתים מציעות דיבידנד קבוע, מה שיכול להסביר את התשואות הגבוהות שהובטחו, אך הן בדרך כלל פחות תנודתיות ממניות רגילות, אלא אם כן יש גורמים אחרים שמשפיעים. במקרה הזה, נראה שהתנודתיות גבוהה מהצפוי. \n\nמה אנחנו יכולות ללמוד מזה? זהו שיעור חשוב על חשיבות המחקר והבנה של מה אנחנו קונות. תשואות גבוהות תמיד מגיעות עם סיכון גבוה יותר. חשוב לא רק להסתכל על המספרים הנוצצים, אלא להבין את המנגנון מאחורי ההשקעה, את החברה עצמה, ואת הסיכונים הפוטנציאליים. \n\nזה גם מחזק את החשיבות של פיזור השקעות. במקום לשים את כל הכסף שלנו במקום אחד, גם אם הוא נראה מבטיח, כדאי לפזר את ההשקעות על פני סוגים שונים של נכסים – קריפטו, מניות, אגרות חוב, אולי אפילו נדל\"ן – כדי להקטין את הסיכון הכולל. \n\nהמסר שלי אליכן הוא לא לפחד לקפוץ למים, אבל לקפוץ בזהירות. תחקרו, תלמדו, ותמיד תשאלו שאלות. ככל שלומדים יותר, כך פחות מפחדים, וזה מה שמאפשר לנו לקבל החלטות מושכלות יותר, בין אם זה בשוק הקריפטו ובין אם בשווקים אחרים. זכרו, המטרה שלנו היא לבנות עתיד כלכלי יציב ובטוח, וזה דורש גישה חכמה וסבלנית.",
-      "terms_he": [],
-      "points_he": [
-        "משקיעים קטנים הושפעו מהבטחות לתשואות גבוהות במניה STRC.",
-        "המניה STRC מציגה תנודתיות גבוהה, מה שמעורר דאגה.",
-        "תשואות גבוהות לרוב כרוכות בסיכון גבוה יותר.",
-        "חשיבות המחקר המעמיק ופיזור ההשקעות נכונה גם בשווקים מסורתיים."
-      ],
-      "meaning_he": "הסיפור של STRC מדגיש כיצד הבטחות לתשואות גבוהות יכולות למשוך משקיעים, אך מדגיש גם את חשיבות הבנת הסיכונים והתנודתיות. זהו שיעור חשוב עבור כל מי שמעוניין להרחיב את מעגל ההשקעות שלו, מעבר לקריפטו בלבד.",
-      "gen_v": 2
-    },
-    {
-      "id": "ksepb7",
-      "title": "Federal Reserve Moves to Close Stablecoin Loopholes With New Customer ID Rules",
-      "link": "https://bitcoinmagazine.com/news/federal-reserve-moves-to-close-stablecoin",
-      "summary": "Bitcoin Magazine Federal Reserve Moves to Close Stablecoin Loopholes With New Customer ID Rules The Federal Reserve proposed requiring stablecoin issuers to verify customer identities before account opening or direct…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-06-18T15:31:09.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Federal-Reserve-Moves-to-Close-Stablecoin-Loopholes-With-New-Customer-ID-Rules.jpg",
-      "title_he": "האם ביטקוין יגיע ל-145,000 דולר עד אוקטובר? מבט ביקורתי על תחזיות מ-4chan",
-      "brief_he": "תחזית פסימית במיוחד לביטקוין שפורסמה בפורום 4chan מעוררת דיון, אך מומלצים זהירות רבה.",
-      "commentary_he": "חברות וחברים יקרים,\n\nאני כל כך שמחה שאתן כאן, מוכנות לצלול איתי לעוד פינה מרתקת בעולם הקריפטו. היום נדבר על משהו שמעורר הרבה עניין וגם לא מעט ספקנות: תחזיות מחיר דרמטיות לביטקוין, במיוחד כשהן מגיעות ממקורות פחות צפויים. לאחרונה, עלתה ברשת תחזית מטורפת שטוענת שביטקוין עשוי להגיע ל-145,000 דולר עוד לפני סוף אוקטובר.\n\nהתחזית הזו, על פי הדיווחים, מקורה בפורום המוכר בשם 4chan. למי שלא מכיר, 4chan הוא לוח מודעות אינטרנטי אנונימי שידוע בתוכן הפרובוקטיבי והלא-צפוי שלו. התחזית הספציפית הזו זכתה לכינוי 'crazy accurate' (מדויק בטירוף) בגלל הצלחות עבר לכאורה של משתמשים בפורום לתת תחזיות שוק מדויקות. עם זאת, חשוב מאוד לגשת למידע כזה בזהירות רבה, ואני אסביר למה.\n\nראשית, צריך להבין את הטבע של 4chan. הפלטפורמה מעודדת אנונימיות מוחלטת, מה שמקשה מאוד על אימות מקורות או על הבנת המניעים מאחורי פרסומים. כל אחד יכול לפרסם כל דבר, ללא כל אחריות. אמנם היו מקרים שבהם תיאוריות או תחזיות שהתחילו באנונימיות צברו תאוצה, אך חשוב לזכור שרוב התוכן שם הוא ספקולטיבי, בדיוני, או אפילו זדוני בכוונה.\n\nשנית, תחזיות מחיר, במיוחד כאלה שמצביעות על קפיצות קיצוניות בזמן קצר, הן לרוב חסרות בסיס מוצק. שוק הקריפטו, למרות שהוא יכול להיות תנודתי מאוד, מושפע ממגוון רחב של גורמים: חדשות מאקרו-כלכליות, התפתחויות טכנולוגיות, רגולציה, אימוץ על ידי מוסדות, ואפילו סנטימנט ציבורי. תחזית שמבוססת רק על 'תחושה' או על 'תצפית אקראית' מפורום אנונימי, ללא ניתוח כלכלי או טכני מעמיק, היא בדרך כלל לא אמינה.\n\nהאם זה אומר שביטקוין לא יכול להגיע ל-145,000 דולר? אי אפשר לדעת בוודאות. השוק הזה מלא בהפתעות. אבל הדרך שבה התחזית הזו הגיעה אלינו – מאנונימיות מוחלטת בפורום כמו 4chan – היא סיבה טובה מאוד להטיל בה ספק. אנחנו ב'קריפטו וומן' דוגלות בלמידה, במחקר עצמאי, ובהסתמכות על מקורות מידע אמינים ומבוססים. התלהבות רגעית או 'באזז' תקשורתי לא אמורים להחליף ניתוח שקול.\n\nאז מה אנחנו לוקחות מזה? תמיד נהיה סקרניות, נפתח את הראש, אבל גם נהיה ביקורתיות. אל תתנו לתחזיות קיצוניות, במיוחד כשהן מגיעות ממקורות מפוקפקים, להשפיע על החלטות ההשקעה שלכן. הדרך הטובה ביותר להצליח בעולם הקריפטו היא באמצעות למידה מתמשכת, הבנה של הסיכונים, וגישה שקולה ומחושבת. אל תקפצו למים בלי לבדוק את עומקם, ובוודאי שלא על סמך שמועות מפורומים אנונימיים.\n\nהמסר כאן הוא פשוט: בעוד סקרנות היא חשובה, קבלת החלטות השקעה צריכה להתבסס על מחקר מעמיק ומקורות מידע אמינים, ולא על תחזיות ספקולטיביות מלוחות מודעות אנונימיים.",
-      "terms_he": [],
-      "points_he": [
-        "תחזית פסימית במיוחד טוענת שביטקוין יגיע ל-145,000 דולר עד אוקטובר.",
-        "מקור התחזית הוא פורום אנונימי בשם 4chan, הידוע בתוכן ספקולטיבי.",
-        "יש לגשת לתחזיות כאלו בזהירות רבה בשל אנונימיות המקור וחוסר הבסיס הכלכלי.",
-        "ההמלצה היא להסתמך על מחקר עצמאי ומקורות מידע אמינים לקבלת החלטות השקעה."
-      ],
-      "meaning_he": "הידיעה מדגישה את החשיבות של ביקורתיות וסקרנות בריאה בעולם הקריפטו, במיוחד אל מול מידע שמופץ ברשת ללא ביסוס. היא מזכירה לנו כקהילה לא להיסחף אחרי 'באזז' ולבסס את ההחלטות שלנו על ידע אמיתי.",
-      "gen_v": 2
-    },
-    {
-      "id": "blrd9u",
-      "title": "Cap Labs CAP Token Auction Closes at $106 Million FDV With 5.5x Oversubscription",
-      "link": "https://thedefiant.io/news/defi/cap-labs-cap-token-auction-106m-fdv-oversubscription",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-18T14:06:36.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/a5600df1f2e98245597e1295d0627802a1b2876d-2048x1152.png",
-      "title_he": "הצלחה מסחררת למכירת הטוקן של Cap Labs: 106 מיליון דולר בשווי מלא",
-      "brief_he": "פרוטוקול ה-Stablecoin Cap Labs השלים בהצלחה מכרז לטוקן ה-CAP שלו, שגייס 16.4 מיליון דולר והגיע לשווי שוק מלא של 106 מיליון דולר.",
-      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש שמחה שאתן כאן, כי היום אנחנו מדברות על עוד צעד מרתק בעולם ה-DeFi וה-Web3, תחום שבו חדשנות היא שם המשחק. לפי דיווחים, פלטפורמת Cap Labs, המפתחת פרוטוקול Stablecoin חדשני, סיימה לאחרונה בהצלחה מכרז פומבי לטוקן הניהול שלה, CAP. האירוע הזה משך תשומת לב רבה, כשהוא גייס 16.4 מיליון דולר והגיע לשווי שוק מלא (FDV) של 106 מיליון דולר, עם יותר מ-1,000 הצעות וביקוש יתר של פי 5.5.\n\nאז מה זה בעצם Cap Labs? מדובר בפרוטוקול שמתמקד ביצירת Stablecoins, שהם מטבעות דיגיטליים שמטרתם לשמור על ערך יציב, לרוב צמוד לדולר האמריקאי. הייחוד של Cap Labs הוא שה-Stablecoin שלה, cUSD, מגובה בסל של Stablecoins מפוקחים כמו USDC, PYUSD, וגם ב-BUIDL של BlackRock ו-BENJI של Franklin Templeton. בנוסף, משתמשים שמפקידים cUSD יכולים לקבל stcUSD, גרסה שמייצרת תשואה. המודל שלהם מבוסס על הפרדה בין יצירת תשואה לניהול סיכונים, באמצעות שלושה גורמים: מפעילי המערכת (Operators) שמבצעים אסטרטגיות תשואה, משתמשי ה-Restaking (כמו ב-EigenLayer) שמגבים את המפעילים, והמחזיקים של cUSD ו-stcUSD שממוקמים בראש שרשרת הסיכון.\n\nהמכרז לטוקן CAP, שנסגר במחיר של 0.011 דולר לטוקן, הוא אירוע משמעותי עבור הפרוטוקול. טוקן CAP נועד להעניק למחזיקים בו זכויות ניהול (governance) על פרמטרים מרכזיים בפרוטוקול, כמו הרכב הנכסים הרזרביים, תנאי הלוואה, ועמלות. העובדה שהמכרז היה מוצלח כל כך, עם ביקוש גבוה משמעותית מההיצע, מעידה על אמון רב מצד הקהילה והמשקיעים בפוטנציאל של Cap Labs. זה גם מראה את הכוח של מודל המכרז הריכוזי (batch auction), שמאפשר לרכז ביקוש אמיתי ולהימנע מ'מלחמות גז' (gas wars) שמאפיינות מכירות מסוג 'כל הקודם זוכה'.\n\nההצלחה הזו מגיעה על רקע גיוס מרשים של 11 מיליון דולר במימון ראשוני שבוצע באפריל 2025, עם משקיעים מובילים כמו Franklin Templeton ו-Susquehanna. בנוסף, הפרוטוקול דיווח על צמיחה מרשימה באימוץ של הלוואות on-chain. כל אלה מצביעים על Traction חזק ועל תמיכה משמעותית מצד גופים פיננסיים מסורתיים וגם שחקנים מרכזיים בעולם הקריפטו.\n\nכאן, בקהילת 'קריפטו וומן', אנחנו תמיד מחפשות ללמוד על פרויקטים חדשניים שיכולים להביא עוד נשים וגברים לעולם ההשקעות והטכנולוגיה. Cap Labs מייצג חדשנות בתחום ה-Stablecoins וה-DeFi, ומציע מודל שמנסה להפוך את השימוש במטבעות דיגיטליים ליציב ובטוח יותר, תוך יצירת תשואה. ההצלחה של מכרז הטוקן היא עדות לכך שהשוק מזהה את הפוטנציאל.\n\nמה זה אומר לנו? זה מראה שה-DeFi ממשיך להתפתח, ויש מקום לכלים חדשים שמטרתם לייצב את השוק ולהציע תשואה. חשוב להמשיך לעקוב אחרי פרויקטים כאלה, להבין את המודלים שלהם, ואת הדרכים שבהן הם מתמודדים עם סיכונים. ככל שנלמד יותר, כך נהיה בטוחות יותר בקבלת החלטות ההשקעה שלנו.\n\nהמסר המרכזי מהסיפור הזה הוא שהחדשנות ב-DeFi לא עוצרת, ופרויקטים כמו Cap Labs מציעים פתרונות מעניינים לשוק ה-Stablecoins. ההצלחה במכרז הטוקן היא צעד חשוב עבורם, ומצביעה על עניין גובר בפתרונות פיננסיים מבוזרים ויציבים.",
-      "terms_he": [],
-      "points_he": [
-        "Cap Labs, המפתחת פרוטוקול Stablecoin, השלימה בהצלחה מכרז לטוקן ה-CAP.",
-        "המכרז גייס 16.4 מיליון דולר והגיע לשווי שוק מלא של 106 מיליון דולר.",
-        "הפרוטוקול מציע Stablecoin (cUSD) הנתמך בסל של Stablecoins מפוקחים.",
-        "ההצלחה מעידה על אמון השוק בפוטנציאל של Cap Labs ובחדשנות בתחום ה-DeFi."
-      ],
-      "meaning_he": "ההצלחה של Cap Labs במכרז הטוקן מדגימה את ההתפתחות המואצת של תחום ה-DeFi ואת הצורך בפתרונות Stablecoin יציבים וחדשניים. זה רלוונטי במיוחד עבורנו, כקהילה ששואפת להבין ולנצל את ההזדמנויות בעולם הפיננסים החדש.",
-      "gen_v": 2
-    },
-    {
-      "id": "1vzxj4g",
-      "title": "CME Group to Sue CFTC Over Bitcoin Perpetual Futures Approval in Clash Over Dodd-Frank Classification",
-      "link": "https://bitcoinmagazine.com/news/cme-group-to-sue-cftc-over-bitcoin",
-      "summary": "Bitcoin Magazine CME Group to Sue CFTC Over Bitcoin Perpetual Futures Approval in Clash Over Dodd-Frank Classification CME Group plans to sue the CFTC over its approval of bitcoin perpetual futures, arguing the…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-06-18T13:50:00.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/CME-Group-to-Sue-CFTC-Over-Bitcoin-Perpetual-Futures-Approval-in-Clash-Over-Dodd-Frank-Classification.jpg",
-      "title_he": "CME נגד ה-CFTC: קרב משפטי על עתיד חוזי הפיוצ'רס של ביטקוין",
-      "brief_he": "בורסת ה-CME מתכננת לתבוע את הרגולטור האמריקאי (CFTC) בנוגע לאישור חוזים עתידיים של ביטקוין ללא תאריך פקיעה, בטענה שהם סוואפים ולא פיוצ'רס.",
-      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש שמחה לשתף אתכן בחדשות מרתקות מעולם הרגולציה של הקריפטו בארצות הברית, שיש להן השפעה פוטנציאלית על כל השוק. CME Group, אחת מבורסות הנגזרים הגדולות בעולם, הודיעה כי היא מתכננת להגיש תביעה נגד ה-Commodity Futures Trading Commission (CFTC), הרגולטור האמריקאי האחראי על שוקי הנגזרים. המחלוקת המרכזית נוגעת לאישור של חוזים עתידיים על ביטקוין ללא תאריך פקיעה, המכונים \"perpetual futures\" או \"perps\".\n\nמה בעצם קורה כאן? ה-CFTC אישר לאחרונה לפלטפורמת המסחר Kalshi להציע חוזים עתידיים על ביטקוין ללא תאריך פקיעה. זהו צעד תקדימי בארצות הברית, שכן מוצרים דומים פופולריים מאוד בבורסות קריפטו בינלאומיות, אך מעולם לא אושרו במסגרת הרגולטורית האמריקאית. ה-CME, שבעצמה מציעה חוזים עתידיים על ביטקוין (עם תאריך פקיעה), רואה בכך תחרות ובעיה רגולטורית.\n\nהטענה המרכזית של ה-CME, כפי שהובעה על ידי המנכ\"ל היוצא טרנס דאפי, היא שחוזים עתידיים ללא תאריך פקיעה אינם \"חוזים עתידיים\" (futures) כלל, אלא \"סוואפים\" (swaps) לפי חוק דוד-פרנק (Dodd-Frank Act), חוק רגולציה פיננסית משמעותי בארה\"ב. ההבחנה הזו היא קריטית, מכיוון שלחוזים מסוג סוואפ יש דרישות שונות מבחינת רישום, דיווח, וסליקה, בהשוואה לחוזים עתידיים מסורתיים. דאפי מסביר שעל פי החוק, כאשר שני צדדים מחליפים תשלומים, זה מוגדר כסוואפ.\n\nה-CFTC, מצידו, טוען שהאישור נועד להביא חלק משמעותי משוק הנגזרים של הקריפטו תחת פיקוח רגולטורי אמריקאי, מה שיכול להגביר את השקיפות והיציבות. יו\"ר ה-CFTC, מייקל סליג, אף הגדיר את התביעה של CME כ\"חסרת בסיס\" (frivolous) והביע נכונות להתמודד עם הטענות בבית המשפט.\n\nהקרב המשפטי הזה מעלה שאלות מהותיות לגבי האופן שבו מוצרי קריפטו מורכבים יסווגו ויוסדרו בארה\"ב. חוזים ללא תאריך פקיעה, הכוללים לעיתים קרובות מינוף גבוה, הם כלי מסחר פופולרי אך גם מסוכן. האם הם צריכים להיות מפוקחים כמו חוזים עתידיים מסורתיים, או כסוג אחר של נגזרים? התשובה לשאלה זו תשפיע על הדרך שבה חברות קריפטו יוכלו להציע מוצרים אלו בעתיד, ועל מידת הגישה של משקיעים אמריקאים אליהם.\n\nמה המשמעות עבורנו? זה מראה את המורכבות של הרגולציה בעולם הקריפטו, ואת המאבקים שמתנהלים מאחורי הקלעים בין גופים פיננסיים מסורתיים לבין שחקנים חדשים. חשוב שנבין את ההבדלים בין סוגי המוצרים הפיננסיים השונים, ואת ההשלכות של החלטות רגולטוריות על השוק כולו. ככל שלומדים יותר, פחות מפחדים. זה הזמן שלנו, כקהילה, להמשיך ללמוד, לחקור, ולפתח את ההבנה שלנו בנושאים האלה, כדי שנוכל לקבל החלטות מושכלות.\n\nהמסר המרכזי הוא שהמאבק המשפטי בין CME ל-CFTC מדגיש את חוסר הבהירות הרגולטורית סביב מוצרי קריפטו מורכבים בארה\"ב, וכיצד סיווג משפטי יכול להשפיע באופן דרמטי על השוק ועל הנגישות של מוצרים אלו למשקיעים.",
-      "terms_he": [
-        {
-          "term": "חוזים עתידיים (Futures)",
-          "explain": "הסכמים לקנייה או מכירה של נכס במחיר ובתאריך מוסכמים מראש, עם תאריך פקיעה מוגדר."
-        },
-        {
-          "term": "סוואפ (Swap)",
-          "explain": "הסכם פיננסי בין שני צדדים להחלפת תזרימי מזומנים או התחייבויות, לרוב ללא תאריך פקיעה קבוע."
-        },
-        {
-          "term": "חוק דוד-פרנק (Dodd-Frank Act)",
-          "explain": "חוק רגולציה פיננסית משמעותי בארה\"ב, שהוטל בעקבות המשבר הפיננסי של 2008, ומסדיר מגוון רחב של מוצרים ושירותים פיננסיים."
-        },
-        {
-          "term": "נגזרים (Derivatives)",
-          "explain": "מכשירים פיננסיים שערכם נגזר מערכו של נכס בסיס (כמו ביטקוין, מטבעות, סחורות וכו')."
-        }
-      ],
-      "points_he": [
-        "CME Group תובעת את ה-CFTC האמריקאי על אישור חוזים עתידיים של ביטקוין ללא תאריך פקיעה.",
-        "ה-CME טוענת שהחוזים הללו הם למעשה \"סוואפים\" (swaps) ולא \"חוזים עתידיים\" (futures) לפי חוק דוד-פרנק.",
-        "ה-CFTC רואה באישור צעד חשוב להבאת שוק הנגזרים של הקריפטו תחת פיקוח.",
-        "הסיווג המשפטי של מוצרי קריפטו מורכבים הוא נושא רגיש ומשפיע על עתיד השוק."
-      ],
-      "meaning_he": "הסכסוך המשפטי בין CME ל-CFTC מדגיש את המאבק המתמשך על עיצוב הרגולציה של שוקי הקריפטו, וכיצד הבדלים בסיווג משפטי יכולים להשפיע על חדשנות ועל הנגישות של מוצרים פיננסיים דיגיטליים.",
-      "gen_v": 2
-    },
-    {
-      "id": "1ebufvu",
-      "title": "Zama, Morpho and Steakhouse Open First Confidential USDC Yield Vault on Ethereum",
-      "link": "https://thedefiant.io/news/defi/zama-morpho-steakhouse-confidential-usdc-yield-vault-ethereum",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-17T21:19:15.000Z",
-      "image": "https://cdn.thedefiant.io/2026-06-17-17-19-32-jpg-67cdeabf-ec2b-44f7-a5dd-cfc4c2d7d8f0.jpg",
-      "title_he": "שירותי DeFi חדשניים: USDC מאובטח וסודי ב-Ethereum",
-      "brief_he": "פרויקט חדש משלב בין יציבות ה-USDC לפרטיות ב-Ethereum, ומציע דרך חדשה להרוויח תשואה על נכסים דיגיטליים.",
-      "commentary_he": "חברות וחבריי היקרים,\n\nאני ממש שמחה שאתן כאן, מוכנות לצלול איתי לעוד חידוש מרתק מעולם ה-DeFi (מימון מבוזר). הפעם, מדובר בשילוב מתוחכם שמטרתו להגביר את הפרטיות והאבטחה סביב נכסי קריפטו, תוך שמירה על יציבות. בואו נבין מה זה אומר.\n\nהחדשות הטובות מגיעות מכמה שחקניות מרכזיות בתחום: Zama, Morpho ו-Steakhouse. הן השיקו יחד מה שהן מכנות \"Vault\" (כספת) ראשון מסוגו עבור USDC על גבי רשת Ethereum, והוא מבוסס על טכנולוגיית הצפנה מתקדמת שנקראת \"Zero-Knowledge Proofs\" (הוכחות אפס ידע). בואו נפרק את זה:\n\nקודם כל, USDC. זוהי אחת מ'סטייבל-קוינס' (stablecoins) הפופולריות ביותר. סטייבל-קוין הוא מטבע דיגיטלי שמטרתו לשמור על ערך יציב, לרוב צמוד לדולר האמריקאי. זה הופך אותו לכלי שימושי מאוד בעולם הקריפטו, שבו התנודתיות יכולה להיות גבוהה. כשאנחנו משתמשות ב-USDC, אנחנו רוצות להיות בטוחות בערך שלו.\n\nעכשיו, מה חדש כאן? ה-Vault החדש הזה מאפשר למשתמשים להפקיד את ה-USDC שלהם ו\"להרוויח עליו תשואה\" (yield). זה אומר שהכסף שלכן יכול לעבוד בשבילכן, להניב רווחים נוספים, בדומה לפיקדון בנקאי או השקעה אחרת. אבל כאן נכנסת לתמונה טכנולוגיית ה-Zero-Knowledge Proofs. טכנולוגיה זו מאפשרת לאמת מידע מבלי לחשוף את המידע עצמו. במילים פשוטות, אפשר להוכיח שמשהו נכון, מבלי לגלות את הפרטים הסודיים שמאחוריו.\n\nלמה זה חשוב? בעולם ה-DeFi, שבו רוב הפעילות מתבצעת על גבי בלוקצ'יין ציבורי כמו Ethereum, המידע על עסקאות והחזקות הוא שקוף. זה מצוין לשקיפות, אבל פחות טוב לפרטיות. באמצעות הוכחות אפס ידע, ה-Vault החדש יכול לאמת את הפעולות שמתבצעות (למשל, שאתן באמת מחזיקות ב-USDC ושאתן זכאיות לתשואה) מבלי לחשוף לכולם כמה כסף יש לכן, מאיפה הוא הגיע, או לאן הוא הולך. זהו צעד משמעותי לקידום פרטיות בעולם ה-DeFi.\n\nהפרויקט הזה משלב בין שלושה גורמים מובילים: Zama מתמחה בהצפנה מתקדמת (במיוחד Zero-Knowledge), Morpho היא פלטפורמה מוכרת למימון מבוזר, ו-Steakhouse היא חברת השקעות קריפטו. השילוב הזה מבטיח שה-Vault יהיה גם חדשני טכנולוגית וגם ינוהל בצורה מקצועית ובטוחה.\n\nהבשורה הגדולה היא שאנחנו רואות פיתוחים שמנסים לפתור בעיות אמיתיות בעולם הקריפטו – הצורך בפרטיות, באבטחה וביכולת להרוויח תשואה על הנכסים שלנו, כל זאת מבלי לוותר על היתרונות של טכנולוגיית הבלוקצ'יין. זהו צעד חשוב בדרך להפוך את ה-DeFi ליותר נגיש ובטוח לכולם.\n\nהמסר שלי אליכן, חברות, הוא להמשיך ולפתוח את הראש לחידושים האלה. ה-DeFi מתפתח במהירות, והטכנולוגיות החדשות כמו Zero-Knowledge Proofs הן אלו שיעצבו את העתיד. ככל שנלמד ונבין אותן, כך נוכל להשתמש בהן בצורה מושכלת ובטוחה יותר.",
-      "terms_he": [],
-      "points_he": [
-        "הושק Vault חדש ל-USDC על רשת Ethereum המשתמש בטכנולוגיית Zero-Knowledge Proofs.",
-        "ה-Vault מאפשר להרוויח תשואה על USDC תוך שמירה על פרטיות המשתמשים.",
-        "הפרויקט הוא שיתוף פעולה בין חברות טכנולוגיה ופיננסים מובילות בתחום הקריפטו.",
-        "החדשנות טמונה בשילוב של סטייבל-קוין יציב עם פרטיות מוגברת ב-DeFi."
-      ],
-      "meaning_he": "השקת Vault פרטי ל-USDC ב-Ethereum היא דוגמה מצוינת לאופן שבו טכנולוגיות חדשות כמו Zero-Knowledge Proofs יכולות לשפר את הפרטיות והשימושיות של DeFi. זה מקדם את האימוץ של הפיננסים המבוזרים.",
-      "gen_v": 2
-    },
-    {
-      "id": "z8xhow",
-      "title": "Fed Signals Possible Rate Hikes as Kevin Warsh Opens ‘New Chapter’ at Central Bank",
-      "link": "https://bitcoinmagazine.com/news/fed-signals-rate-hikes-as-kevin-warsh",
-      "summary": "Bitcoin Magazine Fed Signals Possible Rate Hikes as Kevin Warsh Opens ‘New Chapter’ at Central Bank The Federal Reserve kept rates unchanged but signaled potential rate hikes under new Chair Kevin Warsh as inflation…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-06-17T19:50:23.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/05/Senate-Confirms-Bitcoin-Friendly-Kevin-Warsh-As-Fed-Chair-Ahead-of-Clarity-Act-Vote.jpg",
-      "title_he": "הבנק המרכזי בארה\"ב מסמן אפשרות להעלאת ריבית; הביטקוין מגיב בירידה",
-      "brief_he": "הפדרל ריזרב השאיר את הריבית ללא שינוי אך רמז על אפשרות להעלאות עתידיות, מה שהביא לירידות בשוקי המניות והקריפטו.",
-      "commentary_he": "חברות וחברים יקרים,\n\nאני רוצה לשתף אתכן בחדשות כלכליות חשובות שמגיעות מארצות הברית, ויש להן השפעה ישירה גם על עולם הקריפטו, ובפרט על הביטקוין. הפדרל ריזרב, הבנק המרכזי של ארה\"ב, קיים לאחרונה את ישיבתו וקיבל החלטות שמשפיעות על הכלכלה כולה.\n\nמה בעצם קרה? הפדרל ריזרב החליט להשאיר את הריבית ללא שינוי, כפי שרבים ציפו. הריבית נשארה בטווח שבין 3.50% ל-3.75%. אולם, מה שמשך את תשומת הלב הוא המסר שבא מהפדרל ריזרב לגבי העתיד. בניגוד לציפיות שהיו להורדות ריבית קרובות, ההצהרות החדשות והתחזיות המעודכנות מצביעות על דאגה מחודשת בנוגע לאינפלציה, ועל נכונות גוברת של קובעי המדיניות להעלות את הריבית בהמשך השנה. לפי התחזיות החדשות, הריבית צפויה להגיע ל-3.8% בסוף 2026, עלייה לעומת התחזית הקודמת.\n\nהשינוי הזה במדיניות נובע מדאגות לגבי המשך לחצי האינפלציה בכלכלה האמריקאית. גורמים כמו סכסוכים גיאופוליטיים והעלייה במחירי האנרגיה תורמים למצב. למרות זאת, הפדרל ריזרב ציין שהפעילות הכלכלית עדיין מתרחבת בקצב מוצק, והדגיש את מחויבותו להחזרת היציבות במחירים.\n\nהתגובה של השווקים לא איחרה לבוא. מיד לאחר ההודעה, מחיר הביטקוין ירד מכ-66,000 דולר לכ-64,000 דולר, והמניות המובילות כמו ה-S&P 500 וה-Nasdaq 100 ירדו גם הן. זה ממחיש עד כמה שוקי ההון והקריפטו רגישים להחלטות של הבנק המרכזי.\n\nהיבט נוסף שמעניין בהקשר הזה הוא כניסתו לתפקיד של יו\"ר הפדרל ריזרב החדש, קווין וורש. הוא סימן את הישיבה הזו כ'פרק חדש' במדיניות הבנק, והדגיש את החשיבות של גמישות והתאמה לנתונים הכלכליים המשתנים. וורש גם רמז על פתיחות לשימוש במקורות מידע אלטרנטיביים וניתוחים מתקדמים יותר בקבלת החלטות, ואף ציין את ההשפעה הגוברת של בינה מלאכותית על הכלכלה.\n\nמה המשמעות עבורנו? ההודעה הזו מסמנת שהתקופה של ריביות נמוכות מאוד אולי מסתיימת, לפחות לעת עתה. העלאות ריבית פוטנציאליות יכולות להשפיע על זמינות הכסף להשקעות, ולגרום למשקיעים להיות זהירים יותר. זה מחזק את החשיבות של ניהול סיכונים נכון, של גיוון תיק ההשקעות, ושל הבנה מעמיקה של הסביבה הכלכלית. ככל שלומדים יותר, כך פחות מפחדים, וגם החלטות כלכליות מורכבות כאלה הופכות להזדמנות ללמידה.",
-      "terms_he": [],
-      "points_he": [
-        "הפדרל ריזרב השאיר את הריבית ללא שינוי אך רמז על העלאות ריבית עתידיות.",
-        "האינפלציה וההתפתחויות הגיאופוליטיות משפיעות על החלטות הבנק המרכזי.",
-        "הביטקוין והשווקים המסורתיים הגיבו בירידות להודעת הפדרל ריזרב.",
-        "השינויים במדיניות המוניטרית מחייבים זהירות והתאמה מצד משקיעים."
-      ],
-      "meaning_he": "החלטות הפדרל ריזרב הן בעלות השפעה גלובלית על שוקי ההון והקריפטו. עבור הקהילה שלנו, זהו תזכורת לכך שההשקעות שלנו מושפעות מגורמים מאקרו-כלכליים, ומחזק את הצורך להבין את המתרחש בעולם הפיננסים המסורתי.",
       "gen_v": 2
     }
   ]
