@@ -1,13 +1,385 @@
 {
-  "updated": "2026-06-26T17:43:34.600Z",
+  "updated": "2026-06-26T21:15:52.293Z",
   "count": 46,
   "sources": [
+    "Bitcoin Magazine",
     "Decrypt",
     "The Defiant",
-    "Bitcoin Magazine",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "1edy10z",
+      "title": "Galaxy Research Cuts CLARITY Act Passage Odds to 50-50 as Senate Clock Runs Out",
+      "link": "https://bitcoinmagazine.com/news/galaxy-research-cuts-clarity-act-passage",
+      "summary": "Bitcoin Magazine Galaxy Research Cuts CLARITY Act Passage Odds to 50-50 as Senate Clock Runs Out Galaxy Research cut its odds of the Senate passing the CLARITY Act to 50-50, citing dwindling time before Congress's…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-06-26T20:48:42.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/04/100-Crypto-Firms-Urge-Senate-to-Advance-Clarity-Act.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1ypzyg6",
+      "title": "Wall Street's Next Tokenization Test: BlackRock-Backed Securitize's Market Debut",
+      "link": "https://decrypt.co/372249/wall-street-next-tokenization-test-blackrock-backed-securitize-ipo",
+      "summary": "Securitize expects to begin trading next week under the ticker symbol “SECZ,” following the completion of a merger with a blank-check firm.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-06-26T20:47:44.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/01/nyse-decrypt-style-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "krh19r",
+      "title": "17 Democratic Senators Seek to Bar CFTC From Funding Prediction-Market State Lawsuits",
+      "link": "https://thedefiant.io/news/regulation/17-democratic-senators-bar-cftc-funding-prediction-market-state-lawsuits",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-26T20:45:50.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/103cad472bc6d46dc13bb89ccbd34875c29c81f1-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1s6jq9f",
+      "title": "Why Wall Street's Biggest Traders Are Abandoning Crypto for Prediction Markets | Alex Momot",
+      "link": "https://thedefiant.io/podcasts-and-videos/videos/why-wall-street-s-biggest-traders-are-abandoning-crypto-for-prediction-markets-or-alex-momot",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-26T20:37:06.000Z",
+      "image": "https://cdn.thedefiant.io/thumbnail-episode2-v3-jpg-52564081-30b9-45fd-ae3f-26bd72427137.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1j1827k",
+      "title": "Tokenized Asset Value Stalls Even as Stock Token Holders Surge",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/tokenized-asset-value-stalls-even-as-stock-token-holders-surge",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-26T20:16:02.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/871e50b8d36d65062c989249a249e61cd16c3f9e-2048x1152.png",
+      "title_he": "האם הגיע הזמן להאט את הקצב? טוקניזציה של נכסים אמיתיים",
+      "brief_he": "ערך נכסים אמיתיים מבוססי טוקן יורד לראשונה מזה תקופה, אך מספר המחזיקים ממשיך לעלות.",
+      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש שמחה שאתן כאן, כי היום אנחנו צוללות לעולם מרתק של טוקניזציה של נכסים אמיתיים (Real World Assets - RWA). זה נושא חם בעולם הקריפטו, שמחבר בין הפיננסים המסורתיים (TradFi) לחדשנות של הבלוקצ'יין. בשבועות האחרונים, על פי דיווחים, ראינו האטה מסוימת בצמיחה של ערך הנכסים המבוזרים הללו, שירד בכ-1.4% והגיע לכ-31.5 מיליארד דולר. זו הפעם הראשונה מזה זמן רב שאנחנו רואות ירידה ולא עלייה, מה שבהחלט מעורר מחשבה.\n\nאז מה זה בעצם RWA? תחשבו על נכסים מהעולם האמיתי – כמו אגרות חוב ממשלתיות, נדל\"ן, או אפילו סחורות – שמיוצגים כטוקנים על הבלוקצ'יין. זה מאפשר להם להיות סחירים ונגישים יותר, לפתוח אפשרויות חדשות להשקעה ולגיוס הון. התחום הזה צמח בקצב מסחרר בשנה האחרונה, כששחקניות גדולות כמו בלקרוק, פרנקלין טמפלטון וג'יי.פי. מורגן נכנסו אליו. אבל עכשיו, נראה שהקצב המטורף הזה מתחיל להתמתן, לפחות מבחינת הערך הכספי.\n\nמה שמעניין במיוחד, הוא שבזמן שהערך הכספי של הנכסים המבוזרים יורד, מספר האנשים שמחזיקים בהם דווקא ממשיך לעלות. לפי הנתונים, חלה עלייה של כ-14% במספר המחזיקים הייחודיים, כשהקפיצה הגדולה ביותר נרשמה בטוקניזציה של מניות. כ-36% יותר אנשים החזיקו במניות מבוססות טוקן בחודש האחרון. זה מצביע על כך שיותר ויותר אנשים, כנראה מהקהל הקמעונאי, נכנסים לתחום הזה. ייתכן שהירידה בערך הכספי נובעת מירידות במחירי הנכסים הבסיסיים, כמו מניות וסחורות, ולאו דווקא מיציאה של משקיעים מהשוק.\n\nהפער הזה בין עלייה במספר המחזיקים לירידה בערך הכספי יכול להיות סימן למשהו חשוב. זה יכול להעיד על כך שהשוק מתחיל להיות יותר נגיש לקהל רחב יותר, שמשקיע סכומים קטנים יותר, בעוד שההשקעות המוסדיות הגדולות, כמו באגרות חוב ממשלתיות, אולי עוברות האטה. השאלה הגדולה היא האם המשקיעים החדשים הללו ימשיכו להביא איתם צמיחה מחודשת בערך, או שההאטה תימשך.\n\nאז מה אפשר לקחת מזה? קודם כל, זה מראה שהטוקניזציה של נכסים אמיתיים היא עדיין תחום מתפתח, עם עליות ומורדות. שנית, העלייה במספר המחזיקים, במיוחד במניות, מעידה על עניין גובר מצד משקיעים פרטיים. זה מחזק את התפיסה שלי שכשמסבירים את הדברים בצורה פשוטה ומנגישים את הטכנולוגיה, יותר אנשים, ובפרט יותר נשים, יכולים ורוצים להצטרף לעולם הזה. ככל שלומדים יותר, פחות מפחדים, וזה בדיוק מה שאנחנו עושות כאן ב'קריפטו וומן'. אז אל תפחדו לקפוץ למים, ללמוד, לחקור ולהבין את ההזדמנויות החדשות שנפתחות בפנינו. תמיד זכרו, זו לא המלצה פיננסית, אלא הזמנה להרחיב את הידע והאפשרויות שלכן.",
+      "terms_he": [
+        {
+          "term": "Real World Assets (RWA)",
+          "explain": "נכסים מהעולם האמיתי (כמו נדל\"ן או מניות) המיוצגים כטוקנים על הבלוקצ'יין."
+        },
+        {
+          "term": "TradFi",
+          "explain": "ראשי תיבות של Traditional Finance - הפיננסים המסורתיים."
+        },
+        {
+          "term": "טוקניזציה",
+          "explain": "תהליך המרת נכסים (פיזיים או פיננסיים) לייצוג דיגיטלי על הבלוקצ'יין."
+        },
+        {
+          "term": "בלוקצ'יין",
+          "explain": "רשת מבוזרת וציבורית של רשומות דיגיטליות, המשמשת בסיס למטבעות קריפטוגרפיים."
+        },
+        {
+          "term": "קמעונאי",
+          "explain": "משקיעים פרטיים קטנים, בניגוד למשקיעים מוסדיים גדולים."
+        }
+      ],
+      "points_he": [
+        "ערך הנכסים האמיתיים המבוזרים (RWA) ירד מעט, סימן ראשון לירידה לאחר תקופה ארוכה של צמיחה.",
+        "מספר המחזיקים בנכסים אלו, במיוחד במניות מבוססות טוקן, עלה משמעותית.",
+        "הפער מצביע על כניסה של משקיעים חדשים, ככל הנראה מהקהל הקמעונאי, לצד האטה אפשרית בהשקעות מוסדיות.",
+        "התחום עדיין מתפתח, וחשוב להמשיך ללמוד ולהבין את המגמות החדשות."
+      ],
+      "meaning_he": "ההתפתחות הזו מראה שהטוקניזציה של נכסים מהעולם האמיתי הופכת נגישה יותר ויותר, ומעניקה הזדמנויות חדשות למשקיעים פרטיים. זהו צעד נוסף לקראת שילוב רחב יותר של טכנולוגיית הבלוקצ'יין בעולם הפיננסי המסורתי.",
+      "gen_v": 2
+    },
+    {
+      "id": "1asrnv1",
+      "title": "Base Suffers Second Chain Halt in 24 Hours, Complicating B20 Activation Window",
+      "link": "https://thedefiant.io/news/blockchains/base-second-chain-halt-24-hours-b20-activation-window",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-26T19:59:08.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/8e39e735f36e918eb9c6b2bc61bc678af5dc9960-2048x1152.png",
+      "title_he": "האם רשת Base יציבה מספיק? תקלה חוזרת מעכבת השקת טכנולוגיה חדשה",
+      "brief_he": "רשת הבלוקצ'יין Base חוותה שתי השבתות בייצור בלוקים תוך 24 שעות, מה שהשפיע על השקת סטנדרט טוקנים חדש.",
+      "commentary_he": "חברות וחברים יקרים,\n\nאני רוצה לדבר איתכן היום על משהו שקרה לאחרונה ברשת Base, שהיא רשת שכבת-2 (Layer 2) של את'ריום, שפותחה על ידי קואינבייס. זה סיפור שממחיש לנו עד כמה חשוב לבדוק את היציבות והאמינות של רשתות בלוקצ'יין, במיוחד כשהן משיקות טכנולוגיות חדשות.\n\nבשבוע שעבר, רשת Base חוותה שתי השבתות בייצור בלוקים בפרק זמן קצר מאוד – פעם אחת למשך כשעתיים, ופעם שנייה לכ-14 דקות בלבד. מה שמעניין הוא שההשבתה השנייה הגיעה עם סימפטומים דומים לראשונה, מה שמרמז שהבעיה המקורית לא נפתרה לחלוטין. תקלה כזו, שבה ייצור הבלוקים נפסק, משפיעה על כל הפעילות ברשת, כולל העברת כספים ומשיכות.\n\nההשבתות הללו הגיעו ברגע קריטי במיוחד עבור רשת Base. הן התרחשו ממש סמוך להשקת 'Beryl', שדרוג מערכת מתוכנן, וחשוב מכך, בסמוך להפעלת 'B20 Activation Registry'. תקן B20 הזה הוא חידוש משמעותי שנועד לאפשר ניהול מתקדם של טוקנים, במיוחד עבור stablecoins ונכסים אמיתיים מבוססי טוקן (RWA). הוא מוסיף פונקציות כמו בקרת הנפקה מבוססת הרשאות, הגבלות העברה ויכולת 'להקפיא' טוקנים, כל זאת תוך שמירה על תאימות מלאה לסטנדרט ERC-20 המוכר. ההשבתות גרמו לדחייה בלוח הזמנים של ההשקה, ועיכבו את הפעלת התקן החדש.\n\nהעובדה שהתקלה חזרה על עצמה מעלה שאלות לגבי יציבות הרשת והיכולת לפתור בעיות באופן יסודי. כשהשבתות מתרחשות, מנהלי הרשת צריכים לאתחל מחדש את ה'נודים' (השרתים שמנהלים את הרשת) כדי שהיא תחזור לפעול. זה יכול להיות תהליך מורכב, וכמובן, כל השבתה פוגעת באמון המשתמשים.\n\nאז מה אנחנו יכולות ללמוד מזה? ראשית, גם רשתות שנראות יציבות ומפותחות, כמו Base שפותחה על ידי קואינבייס, יכולות לחוות תקלות. זה מזכיר לנו שוב את החשיבות של מחקר (DYOR - Do Your Own Research) ובדיקת יציבות הרשתות שאנחנו בוחרות להשתמש בהן. שנית, השקת טכנולוגיות חדשות, כמו תקן B20, היא תמיד מורכבת, והיא דורשת תשתית יציבה ואמינה. זה מחזק את הצורך בסבלנות ובהבנה שתחום הקריפטו עדיין מתפתח, ויש בו אתגרים טכנולוגיים.\n\nהמסר שלי אליכן הוא פשוט: תמיד תפתחו את הראש, תלמדו על הטכנולוגיות החדשות, אבל גם תהיו מודעות לסיכונים ולחוסר הוודאות. חשוב לבדוק את היציבות של הרשתות, להבין את הפונקציונליות של הטוקנים החדשים, ובעיקר – לא לקפוץ למים בלי להבין את עומקם. אנחנו כאן כדי ללמוד יחד, להבין את החדשות ולהפוך את עולם הקריפטו ליותר נגיש ומובן לכולנו.",
+      "terms_he": [
+        {
+          "term": "Layer 2 (שכבה 2)",
+          "explain": "רשת בלוקצ'יין הפועלת מעל רשת ראשית (כמו את'ריום) כדי לשפר מהירות ויעילות."
+        },
+        {
+          "term": "קואינבייס (Coinbase)",
+          "explain": "בורסת קריפטו גדולה וחברה מובילה בתחום."
+        },
+        {
+          "term": "Stablecoin",
+          "explain": "מטבע קריפטוגרפי שמחירו צמוד לנכס יציב, לרוב מטבע פיאט כמו דולר."
+        },
+        {
+          "term": "ERC-20",
+          "explain": "סטנדרט פופולרי ליצירת טוקנים הניתנים להחלפה הדדית על רשת את'ריום."
+        },
+        {
+          "term": "נודים (Nodes)",
+          "explain": "מחשבים המחוברים לרשת בלוקצ'יין ומאמתים טרנזקציות."
+        }
+      ],
+      "points_he": [
+        "רשת Base חוותה שתי השבתות בייצור בלוקים בפרק זמן קצר, מה שמעלה שאלות לגבי יציבותה.",
+        "התקלות עיכבו את השקת תקן הטוקנים החדש B20, המיועד ל-stablecoins ונכסים מבוססי טוקן.",
+        "האירועים מדגישים את החשיבות של בדיקת יציבות ואמינות רשתות בלוקצ'יין לפני שימוש נרחב.",
+        "התפתחות הטכנולוגיה בקריפטו כרוכה באתגרים, וחשוב לגשת אליה בזהירות ועם הבנה."
+      ],
+      "meaning_he": "תקלות ברשתות בלוקצ'יין כמו Base מזכירות לנו את החשיבות של יציבות טכנולוגית, במיוחד כשמשיקים טכנולוגיות חדשות כמו ניהול מתקדם של טוקנים. זה מחזק את הצורך שלנו כקהילה להישאר מעודכנות ומודעות לאתגרים.",
+      "gen_v": 2
+    },
+    {
+      "id": "iro6eu",
+      "title": "Linux Foundation, Tech Giants Launch Akrites to Defend Open Source Against AI-Powered Attacks",
+      "link": "https://decrypt.co/372244/linux-foundation-tech-giants-akrites-defend-open-source-ai-attacks",
+      "summary": "A coalition of 19 organizations—including every major AI lab and Wall Street banks—just built the security team that open-source maintainers never had.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-06-26T19:23:37.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2020/08/ethereum-classic-labs-blockchain-security-gID_7.jpg",
+      "title_he": "הגנה על קוד פתוח: יוזמה חדשה נגד התקפות AI",
+      "brief_he": "גופים מובילים בתעשיית הטכנולוגיה והפיננסים הקימו צוות אבטחה חדש להגנה על פרויקטי קוד פתוח מפני התקפות מבוססות בינה מלאכותית.",
+      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש מתרגשת לשתף אתכן בחדשות מרגשות מהחזית הטכנולוגית! כולנו יודעות כמה חשוב קוד פתוח לעולם הטכנולוגיה, ואיך הוא מאפשר חדשנות ושיתוף פעולה. אבל ככל שהטכנולוגיה מתקדמת, כך גם האיומים עליה גוברים. לאחרונה, הושקה יוזמה חדשה בשם Akrites, המאגדת 19 ארגונים מובילים, כולל חברות ענק בתחום הבינה המלאכותית ובנקים גדולים בוול סטריט, כדי להגן על פרויקטי קוד פתוח מפני התקפות חדשות.\n\nהאיום החדש והמשמעותי ביותר הוא התקפות המבוססות על בינה מלאכותית (AI). כלי AI מתקדמים יכולים לשמש לתקיפת קוד פתוח בדרכים שלא הכרנו בעבר – למשל, על ידי יצירת קוד זדוני מתוחכם, או על ידי ניצול חולשות בקוד באופן אוטומטי ומהיר. עד היום, פרויקטי קוד פתוח רבים, שמהווים את התשתית לכל כך הרבה טכנולוגיות שאנו משתמשים בהן, הסתמכו על מתנדבים או צוותים קטנים להגנה עליהם. Akrites באה למלא את החלל הזה ולהעניק להם את הגיבוי והכלים הדרושים.\n\nהקואליציה הזו, שמובילה קרן לינוקס (Linux Foundation) – גוף מוכר ומוערך בתחום הקוד הפתוח – כוללת שמות כמו גוגל, מיקרוסופט, אמזון, OpenAI, מטא, וגם בנקים גדולים כמו ג'יי.פי. מורגן ו-Goldman Sachs. השילוב הזה של חברות טכנולוגיה ענקיות, מעבדות AI מובילות ומוסדות פיננסיים מראה כמה הנושא הזה קריטי לכולם. המטרה היא ליצור צוות אבטחה מקצועי ומתקדם, שיספק הגנה, יזהה פרצות ויפתח כלים חדשים שיעזרו למפתחי קוד פתוח לשמור על הפרויקטים שלהם בטוחים.\n\nזהו צעד חשוב מאוד, כי קוד פתוח הוא הבסיס להרבה מהחדשנות בעולם הטכנולוגיה, כולל בתחום הקריפטו וה-Web3. ככל שטכנולוגיות אלו מתפתחות, כך גובר הצורך להבטיח את האבטחה שלהן. יוזמה כמו Akrites יכולה לעזור 'לנפץ תקרות זכוכית' גם בתחום אבטחת הסייבר, ולהבטיח שפרויקטים חיוניים לא יפלו קורבן לתקיפות חדשות.\n\nאז מה המסר שלי אליכן? ראשית, תמיד חשוב להבין את החשיבות של אבטחה בעולם הדיגיטלי, במיוחד כשאנחנו עוסקות בטכנולוגיות חדשות כמו AI ובלוקצ'יין. שנית, היו מודעות לכך שגם טכנולוגיות ותיקות ומוכרות כמו קוד פתוח עוברות שינויים והתאמות לאתגרים חדשים. העובדה שכל כך הרבה גופים מובילים מתגייסים למשימה הזו היא סימן חיובי לאופטימיות ולשיתוף פעולה בעולם הטכנולוגיה. תמשיכו ללמוד, לחקור ולהיות חלק מהשינוי!",
+      "terms_he": [
+        {
+          "term": "קוד פתוח (Open Source)",
+          "explain": "תוכנה שקוד המקור שלה זמין לציבור, ניתן לצפייה, שימוש, שינוי והפצה."
+        },
+        {
+          "term": "בינה מלאכותית (AI)",
+          "explain": "תחום במדעי המחשב העוסק ביצירת מערכות המסוגלות לבצע משימות הדורשות בדרך כלל אינטליגנציה אנושית."
+        },
+        {
+          "term": "קרן לינוקס (Linux Foundation)",
+          "explain": "ארגון ללא מטרות רווח המקדם פיתוח של קוד פתוח, בעיקר סביב מערכת ההפעלה לינוקס."
+        },
+        {
+          "term": "Web3",
+          "explain": "הדור הבא של האינטרנט, המבוסס על טכנולוגיות בלוקצ'יין, פיזור כוח ובעלות משתמשים."
+        }
+      ],
+      "points_he": [
+        "הושקה יוזמה חדשה בשם Akrites, המאגדת 19 ארגונים מובילים להגנה על קוד פתוח.",
+        "היוזמה נועדה להתמודד עם איומי אבטחה חדשים, בעיקר כאלה המבוססים על בינה מלאכותית (AI).",
+        "פרויקטי קוד פתוח מהווים תשתית קריטית לטכנולוגיות רבות, כולל בתחום הקריפטו.",
+        "ההתגייסות של חברות טכנולוגיה ובנקים גדולים מדגישה את חשיבות אבטחת הקוד הפתוח."
+      ],
+      "meaning_he": "הגנה על קוד פתוח מפני התקפות AI היא קריטית לעתיד הטכנולוגיה, כולל עולם הקריפטו וה-Web3, שחלקים נרחבים ממנו מבוססים על קוד פתוח. זהו צעד משמעותי להבטחת יציבות וביטחון של התשתיות הדיגיטליות.",
+      "gen_v": 2
+    },
+    {
+      "id": "1nl4bbh",
+      "title": "Senators Demand Answers From CFTC Over Alleged Polymarket Deceptive Advertising",
+      "link": "https://decrypt.co/372239/senators-demand-answers-cftc-polymarket-deceptive-advertising",
+      "summary": "Senators are seeking answers from the CFTC about recent allegations of deceptive marketing from Polymarket.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-06-26T19:18:41.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/cftc-decrypt-style-01-gID_7.jpg",
+      "title_he": "האם Polymarket מטעה משקיעים? סנאטורים דורשים תשובות",
+      "brief_he": "סנאטורים בארה\"ב פנו לרגולטור הפיננסי בבקשה לחקור טענות על פרסום מטעה מצד פלטפורמת המסחר Polymarket.",
+      "commentary_he": "חברות וחברים יקרים,\n\nהיום אני רוצה לדבר איתכן על נושא שנוגע ללב ליבה של ההשקעה והאמון בעולם הפיננסי, ובפרט בעולם הקריפטו וה-DeFi – פרסום אחראי ושקיפות. לאחרונה, עלו טענות נגד פלטפורמת המסחר Polymarket, העוסקת בחוזים על אירועים עתידיים, בטענה שהיא השתמשה בפרסום מטעה. בעקבות זאת, קבוצת סנאטורים אמריקאים פנתה לרגולטור הפיננסי (CFTC) וביקשה לחקור את הנושא לעומק.\n\nPolymarket היא פלטפורמה שמאפשרת למשתמשים להמר על תוצאות של אירועים עתידיים – החל מתוצאות בחירות ועד לאירועי ספורט ושווקי קריפטו. היא פועלת על בסיס בלוקצ'יין, מה שאמור להבטיח שקיפות וביזור. עם זאת, הטענות האחרונות נוגעות לאופן שבו הפלטפורמה הציגה את עצמה ואת הסיכונים הכרוכים בהשקעה בה. הסנאטורים מבקשים מה-CFTC לבדוק האם הפרסומים של Polymarket היו מטעים, והאם הם יצרו רושם מוטעה לגבי אופי ההשקעות או הסיכונים הכרוכים בהן, במיוחד בהקשר של הימורים או מכירת ניירות ערך לא רשומים.\n\nזהו סיפור שממחיש עד כמה חשוב לנו, כמשקיעים וכחברי קהילה, להיות ערניים. בעולם הקריפטו, שבו החדשנות מהירה והרגולציה עדיין מתפתחת, קל ליפול קורבן להבטחות שווא או לפרסום שאינו מדויק. פלטפורמות כמו Polymarket, גם אם הן פועלות על בסיס טכנולוגיה חדשנית, חייבות לפעול בסטנדרטים גבוהים של שקיפות ואחריות.\n\nהפנייה של הסנאטורים ל-CFTC היא צעד חשוב שמדגיש את הפיקוח הגובר מצד הרגולטורים על שוק הקריפטו. זה מראה שהם מודעים לסיכונים הפוטנציאליים, ושואפים להגן על המשקיעים. אנחנו, ב'קריפטו וומן', תמיד מעודדות אתכן ללמוד, לחקור ולהבין לעומק כל השקעה או פלטפורמה שאתן נתקלות בה. ככל שלומדים יותר, פחות מפחדים, וחשוב מכך – אנחנו יכולות לזהות סימני אזהרה.\n\nאז מה אפשר לקחת מזה? קודם כל, תמיד תהיו סקרניות ובדקו את הדברים לעומק. אם משהו נשמע טוב מדי מכדי להיות אמיתי, כנראה שזה כך. שנית, חשוב להבין את ההבדל בין השקעה לבין הימור, ולבחור את המסלול שמתאים לכם. לבסוף, כשהרגולטורים מתחילים להתערב, זה סימן שהתחום מתבגר, וזה יכול להביא ליציבות גדולה יותר בעתיד, אך גם לדרישות מחמירות יותר. המשימה שלנו היא להמשיך ללמוד, להרחיב את הידע שלנו ולהיות משקיעות חכמות ומודעות.",
+      "terms_he": [
+        {
+          "term": "Polymarket",
+          "explain": "פלטפורמת מסחר בחוזים על אירועים עתידיים, המבוססת על בלוקצ'יין."
+        },
+        {
+          "term": "CFTC",
+          "explain": "Commodity Futures Trading Commission - הוועדה למסחר בחוזים עתידיים בארה\"ב, רגולטור פיננסי."
+        },
+        {
+          "term": "חוזים על אירועים עתידיים",
+          "explain": "הסכמים המבוססים על התוצאה של אירוע עתידי מסוים."
+        },
+        {
+          "term": "בלוקצ'יין",
+          "explain": "רשת מבוזרת וציבורית של רשומות דיגיטליות, המשמשת בסיס למטבעות קריפטוגרפיים."
+        },
+        {
+          "term": "DeFi",
+          "explain": "ראשי תיבות של Decentralized Finance - פיננסים מבוזרים, המבוססים על טכנולוגיית בלוקצ'יין."
+        }
+      ],
+      "points_he": [
+        "סנאטורים בארה\"ב דורשים מה-CFTC לחקור את Polymarket בחשד לפרסום מטעה.",
+        "Polymarket היא פלטפורמה למסחר בחוזים על אירועים עתידיים, הפועלת על בסיס בלוקצ'יין.",
+        "הטענות נוגעות לאופן הצגת הסיכונים והאופי של ההשקעות בפלטפורמה.",
+        "הדרישה לחקירה מדגישה את הפיקוח הרגולטורי הגובר על שוק הקריפטו."
+      ],
+      "meaning_he": "המקרה של Polymarket מדגיש את החשיבות של שקיפות ואחריות מצד פלטפורמות קריפטו, ואת הפיקוח הרגולטורי הגובר. זה מחזק את הצורך שלנו כמשקיעות להיות ביקורתיות, לחקור לעומק ולהבין את הסיכונים.",
+      "gen_v": 2
+    },
+    {
+      "id": "1q70hx2",
+      "title": "Canton Network Tops Blockchain Fee Rankings With $60M in 30 Days",
+      "link": "https://thedefiant.io/converge/blockchains/canton-network-tops-blockchain-fee-rankings-60m-30-days",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-26T19:07:41.000Z",
+      "image": "https://cdn.thedefiant.io/2026-05-20-15-23-16-jpg-1df5512c-5239-48a8-9412-1c5749c695a1.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1qm0wnb",
+      "title": "Bipartisan Senators Ask CFTC Chair Whether Agency Is Investigating Polymarket's Fake-Bet Campaign",
+      "link": "https://thedefiant.io/news/regulation/bipartisan-senators-ask-cftc-chair-whether-agency-is-investigating-polymarkets-fake-bet-campaign",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-26T19:07:38.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/ce4e186661db29e77ef19af83c16cc386d279758-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1okgaq0",
+      "title": "OpenAI Rolls Out GPT-5.6—But Only for Some Users Due to Trump Admin",
+      "link": "https://decrypt.co/372238/openai-rolls-out-gpt-5-6-limited-access-trump-admin",
+      "summary": "OpenAI introduced the GPT-5.6 family of AI models on Friday, but only limited users can access them for now thanks to the U.S. government.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-06-26T19:06:06.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/openai-decrypt-style-02-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1uqhmzt",
+      "title": "Securitize Goes Public on NYSE July 2 With $400M From SPAC Merger",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/securitize-nyse-spac-400m-secz-july-2-cantor-equity",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-26T19:04:43.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/7263d33578c236cc8dc663b327f39f1185de4a9e-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1h3q5ra",
+      "title": "StablecoinX Begins Nasdaq Trading as First Public ENA Treasury Vehicle",
+      "link": "https://thedefiant.io/converge/cefi/stablecoinx-begins-nasdaq-trading-first-public-ena-treasury-vehicle",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-26T19:04:40.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/ded673daaeabfd863dd00a04d5a7997e75b959b1-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "f1oqha",
+      "title": "Spanish Regulator Says No Extensions for EU Crypto Deadline as Binance Remains Unlicensed",
+      "link": "https://decrypt.co/372230/spanish-regulator-no-extensions-eu-crypto-deadline-binance",
+      "summary": "Crypto firms operating in the European Union will be forced to cease operations if they do not obtain a MiCA license by July 1.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-06-26T18:02:22.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1xkx470",
+      "title": "This AI Agent Survived 6,000 Hack Attempts—Here’s How",
+      "link": "https://decrypt.co/372221/ai-agent-openclaw-6000-hack-attempts",
+      "summary": "Fernando Irarrázaval posted his OpenClaw assistant's inbox to Hacker News and watched Claude Opus 4.6 hold off thousands of attackers.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-06-26T18:01:47.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "vn0tqb",
+      "title": "Billionaire Investor Jeremy Grantham: Bitcoin Will ‘Dwindle Away With a Whimper’",
+      "link": "https://bitcoinmagazine.com/news/billionaire-jeremy-grantham-bitcoin",
+      "summary": "Bitcoin Magazine Billionaire Investor Jeremy Grantham: Bitcoin Will ‘Dwindle Away With a Whimper’ Jeremy Grantham doubled down on his long-standing Bitcoin skepticism, predicting the cryptocurrency will \"dwindle away…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-06-26T17:57:49.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Billionaire-Investor-Jeremy-Grantham-Bitcoin-Will-Dwindle-Away-With-a-Whimper.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "1mnv3uk",
       "title": "Kalshi Scores FIFA World Cup Spotlight as Prediction Market Trading Surges to Record",
@@ -105,13 +477,18 @@
       "lang": "en",
       "date": "2026-06-26T16:18:14.000Z",
       "image": "https://cdn.thedefiant.io/sophon-jpg-e3a4e254-0670-4c62-a071-80f3ee3b5306.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
+      "title_he": "מעבר ל-Base: סיפורה של Sophon",
+      "brief_he": "פרויקט הבלוקצ'יין Sophon נוטש את הרשת שלו על zkSync ועובר לבנות אפליקציות צרכניות על רשת Base של Coinbase.",
+      "commentary_he": "חברות וחברים יקרים,\n\nלפעמים בעולם הקריפטו, פרויקטים עוברים שינויים דרמטיים, וזה בדיוק מה שקרה לאחרונה לפרויקט בשם Sophon. הם החליטו לסגור את רשת ה-Layer 2 שלהם שבנויה על zkSync, ולפנות לדרך חדשה לגמרי – בניית אולפן אפליקציות צרכניות, אבל הפעם על רשת Base של Coinbase. זה סיפור מעניין שמראה לנו כמה מהר הדברים יכולים להשתנות בעולם הזה, וגם כמה חשוב לבחור את הפלטפורמה הנכונה.\n\nSophon התחילה את דרכה כרשת Layer 2 (או אפילו Layer 3) על גבי zkSync, עם חזון ברור: להיות פלטפורמה ממוקדת גיימינג וצרכנים. הם הצליחו לגייס לא פחות מ-60 מיליון דולר דרך מכירת \"צמתים\" (nodes), מודל שמאפשר לקונים לקבל נתח בתשתיות הרשת בתמורה להשקעה ראשונית. נשמע מבטיח, נכון? אבל המציאות הייתה קצת שונה. למרות הגיוס המרשים, הרשת לא הצליחה למשוך מספיק משתמשים. על פי הדיווחים, היו לה פחות מ-200 משתמשים פעילים ביום, והיא ייצרה בקושי כ-30 דולר בעמלות יומיות. המספרים האלה, מול סכום הגיוס, בהחלט מעלים שאלות.\n\nמה שמעניין עוד יותר הוא שהמהלך הזה מגיע אחרי שגם Matter Labs, החברה שמאחורי zkSync, ביצעה שינוי כיוון וצמצמה את צוותה, תוך התמקדות בפלטפורמת הפרטיות שלה, Prividium. זה מותיר את האקוסיסטם של zkSync קצת בלי תמיכה מרכזית לפרויקטים צרכניים.\n\nאז מה עושים ב-Sophon? הם לא מוותרים, אלא משנים כיוון. הסטודיו החדש שלהם, שנקרא Soph+, יתמקד בפיתוח חוויות צרכניות חדשות בעולם הקריפטו וה-AI. הם מאמינים במה שהם מכנים \"entertainment finance\" – הרעיון שכסף, כמו כושר ומשחקים, יהפוך לשכבת בידור ולא רק לכלי שימושי. המוצר הראשון שלהם הוא Pyre, כרטיס תשלום עם מכניקה של חיוב מתוזמן ומשחקי. הם מתכננים לבנות את כל זה על Base, הרשת של Coinbase, שנחשבת כיום לאחת הפלטפורמות המובילות והיציבות יותר.\n\nהמעבר הזה של Sophon הוא עוד דוגמה למגמה רחבה יותר של התאמה ושינוי בעולם ה-Layer 2. אנחנו רואים פרויקטים קטנים יותר שמתקשים למצוא את מקומם, וצריכים להסתגל לתנאי השוק המשתנים. הבחירה ב-Base היא הימור על פלטפורמה מבוססת עם נזילות גבוהה, במקום לנסות לבנות קהל משתמשים מאפס על רשת ייעודית.\n\nאז מה אנחנו יכולות ללמוד מכל זה? ראשית, עולם הקריפטו דינמי מאוד, ופרויקטים צריכים להיות גמישים ומוכנים להשתנות. שנית, הבחירה בפלטפורמה הנכונה לבניית מוצרים היא קריטית להצלחה. Base, בזכות התמיכה של Coinbase והקהילה הגדלה, נראית כמו בחירה חכמה כרגע עבור פרויקטים שרוצים להגיע לקהל רחב. זה מעודד לראות פרויקטים כמו Sophon לא מוותרים, אלא מוצאים דרכים חדשות לחדש ולהביא ערך.\n\nתפתחו את הראש, תחקרו, ותזכרו שככל שלומדים יותר, פחות מפחדים. אני ממש שמחה שאתן כאן איתי במסע הזה!",
       "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "points_he": [
+        "פרויקט Sophon סוגר את רשת ה-Layer 2 שלו על zkSync.",
+        "הפרויקט יתמקד כעת בפיתוח אפליקציות צרכניות על רשת Base של Coinbase.",
+        "המעבר נובע מקשיים במשיכת משתמשים וייצור הכנסות ברשת המקורית.",
+        "החברה מאמינה במודל 'entertainment finance' ובונה מוצרים חדשים בתחום."
+      ],
+      "meaning_he": "השינוי של Sophon מדגיש את האתגרים וההזדמנויות בעולם ה-Layer 2, ומראה את החשיבות של בחירת פלטפורמה חזקה כמו Base לפיתוח מוצרים חדשניים. זהו שיעור חשוב עבור כל מי שמתעניין בבניית עתיד ה-Web3.",
+      "gen_v": 2
     },
     {
       "id": "78la6u",
@@ -122,30 +499,18 @@
       "lang": "en",
       "date": "2026-06-26T16:04:47.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/5b2021b6d08bfd551e6da71971f59fc156e2ab1c-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
+      "title_he": "רשת Base חוזרת לפעולה לאחר השבתה קצרה",
+      "brief_he": "רשת ה-Layer 2 של Coinbase, Base, חזרה לפעילות מלאה לאחר שהושבתה למשך כשעתיים עקב תקלה שגרמה להפסקת הפקת בלוקים.",
+      "commentary_he": "חברות וחברים יקרים,\n\nלפעמים, אפילו ברשתות הבלוקצ'יין הכי מבוססות, דברים יכולים להשתבש. לאחרונה, רשת Base, אותה פלטפורמת Layer 2 ש-Coinbase מפתחת, חוותה השבתה קצרה למשך כשעתיים. זה קרה ביום חמישי האחרון, והפסיק את הפקת הבלוקים ברשת. החדשות הטובות הן שהם הצליחו לפתור את הבעיה והרשת חזרה לפעילות תקינה, אבל זה מעלה שוב את השאלות לגבי המודל של מפעיל יחיד (sequencer) ברשתות הללו.\n\nמה בדיוק קרה? על פי הדיווחים, הבעיה החלה כאשר בלוק מסוים ברשת התגלה כלא תקין. הבלוק הזה, שנקרא \"invalid block\", גרם לתקלה במנגנון שנקרא \"consensus fault\", ובגלל זה הרשת הפסיקה לייצר בלוקים חדשים. חשוב להבין שברשתות כמו Base, ישנו \"מפעיל\" מרכזי שאחראי על סדר הפעולות ועל יצירת הבלוקים. כשהוא נתקל בבעיה, כמו במקרה הזה, כל הרשת נעצרת, למרות שהכספים של המשתמשים נשארים בטוחים.\n\nהצוות של Base זיהה את הבעיה במהירות, בידד את הבלוק הבעייתי, ועבד על תיקון. תוך כשעתיים, הם הצליחו לחדש את הפקת הבלוקים, והרשת חזרה לפעילות רגילה. הם גם ציינו שכל הכספים של המשתמשים היו ונותרו בטוחים לאורך כל התקרית. מעניין לציין שהאירוע הזה קרה ממש לפני עדכון מתוכנן של הרשת (hardfork בשם Beryl), שהופעל כמתוכנן מיד לאחר שהבעיה נפתרה.\n\nהאירוע הזה, למרות שהיה קצר, מעלה שוב את הדיון על \"סיכון המפעיל\" (sequencer risk). רוב רשתות ה-Layer 2 הגדולות, כולל Base, מסתמכות על מפעיל יחיד שאחראי על סדר העסקאות. זה יעיל ומהיר, אבל כשמשהו משתבש אצל המפעיל הזה, כל הרשת מושפעת. Base היא אחת הרשתות הגדולות ביותר בעולם ה-Layer 2, עם למעלה מ-4 מיליארד דולר בנכסים נעולים, כך שהשבתה כזו יכולה להשפיע על הרבה מאוד שירותים, בורסות ופלטפורמות שנבנו עליה.\n\nהצוות של Base מודע לסיכון הזה, והם עובדים על פתרונות. הם כבר עשו צעדים בכיוון של פיזור הסיכון, למשל עם שדרוג Azul שהציג \"multi-proofs\" ודחף את הרשת לקראת \"שלב 2\" של בגרות הרשת, שמגביל את כוחה של כל גורם יחיד. הם הבטיחו לפרסם דוח מפורט (post-mortem) שיסביר לעומק מה קרה ואיך למנוע זאת בעתיד.\n\nאז מה בעצם הסיפור כאן? ראשית, גם ברשתות הבלוקצ'יין המתקדמות ביותר, ישנם סיכונים ותקלות אפשריות. שנית, הדיון על ריכוזיות לעומת ביזור הוא תמיד רלוונטי בעולם הקריפטו. Base, למרות ההשבתה, מוכיחה שהיא יכולה להתאושש במהירות. זה שיעור חשוב עבורנו, כמשתמשים ומשקיעים, להבין את המורכבות של הרשתות בהן אנו משתמשים, ולהיות מודעים לסיכונים, אבל גם לראות את המאמצים המתמשכים לשפר את היציבות והביזור.\n\nאני תמיד אומרת: ככל שלומדים יותר, פחות מפחדים. זה נכון גם לגבי הבנת התקלות הטכניות. אני ממש שמחה שאתן איתי כאן כדי ללמוד ולהתפתח ביחד!",
       "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1csztuf",
-      "title": "Why Wall Street's Biggest Traders Are Abandoning Crypto for Prediction Markets | Alex Momot",
-      "link": "https://thedefiant.io/podcasts-and-videos/podcast/why-wall-street-s-biggest-traders-are-abandoning-crypto-for-prediction-markets-or-alex-momot",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-26T15:50:56.000Z",
-      "image": "https://cdn.thedefiant.io/thumbnail-episode2-v3-jpg-52564081-30b9-45fd-ae3f-26bd72427137.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "points_he": [
+        "רשת Base חוותה השבתה של כשעתיים עקב תקלה בבלוק.",
+        "ההשבתה הדגישה את הסיכון הטמון במפעיל יחיד (sequencer) ברשתות Layer 2.",
+        "הכספים של המשתמשים נשארו בטוחים לאורך כל התקרית.",
+        "צוות Base פועל לשיפור יציבות הרשת ופיזור הסיכון."
+      ],
+      "meaning_he": "התקלה ברשת Base היא תזכורת חשובה לכך שגם פלטפורמות מבוססות יכולות לחוות קשיים טכניים, ומדגישה את החשיבות של הבנת הסיכונים והמאמצים לשיפור הביזור בעולם הקריפטו. זה רלוונטי במיוחד למי שמשתמש או שוקל להשתמש בפלטפורמות Layer 2.",
+      "gen_v": 2
     },
     {
       "id": "bfg67i",
@@ -156,115 +521,18 @@
       "lang": "en",
       "date": "2026-06-26T15:33:49.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/strategy-logo-x-twitter-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
+      "title_he": "מייקל סיילור מתמודד עם ירידות במניות MicroStrategy",
+      "brief_he": "מניות MicroStrategy (MSTR) והמניות המועדפות שלה (STRC) צונחות לשפל של 52 שבועות, ומייקל סיילור מגיב בביטחון באשר לאסטרטגיה ארוכת הטווח של החברה המבוססת על ביטקוין.",
+      "commentary_he": "חברות וחברים יקרים,\n\nבעולם הקריפטו, אנחנו רגילים לתנודתיות, אבל הפעם אנחנו מדברים על חברה שהפכה את הביטקוין לליבת האסטרטגיה שלה – MicroStrategy. לאחרונה, מניות החברה, כולל המניות המועדפות (preferred shares), הגיעו לשפל חדש של 52 שבועות, מה שגרר תגובה ממייסד החברה, מייקל סיילור.\n\nסיילור, שדוגל באסטרטגיית החזקת ביטקוין לטווח ארוך, צייץ לאחרונה ברשת X (לשעבר טוויטר) שהוא מאמין שהתנודתיות היא \"מבחן\" לכל מבנה הון. הוא הדגיש שהחברה נשארת ממוקדת בביטקוין, מקפידה על הקצאת הון דיסציפלינרית, איכות אשראי ויצירת ערך לטווח ארוך. הוא גם הביע הערכה למשקיעים והבטיח להמשיך לפעול בשקיפות ונחישות. הציוץ הזה הגיע בזמן שמניות MSTR איבדו חלק ניכר מערכן, ומניות STRC (המניות המועדפות) נסחרו בהנחה משמעותית של כ-26% מתחת לערכן הנקוב.\n\nמה גרם לירידות האלה? המצב הכלכלי הכללי והירידות האחרונות במחיר הביטקוין, שירד מתחת לרמת ה-60,000 דולר לראשונה מאז אוקטובר 2024. כתוצאה מכך, ההחזקות העצומות של ביטקוין של MicroStrategy (כ-847,363 מטבעות ביטקוין במחיר ממוצע של 75,680 דולר למטבע) הפכו להפסד נייר גדול מאוד, המוערך ביותר מ-14 מיליארד דולר.\n\nהמודל העסקי של MicroStrategy מבוסס במידה רבה על הנחה שהשוק יתמחר את מניות החברה (MSTR) במחיר גבוה יותר מערך הביטקוין שברשותה (premium). כאשר המניה נסחרת מתחת לערך הביטקוין (מתחת ל-NAV), קשה יותר לחברה לגייס הון חדש באמצעות הנפקת מניות או אג\"ח מועדפות, מכיוון שהיא אינה יכולה לגייס כסף בתנאים נוחים.\n\nבנוסף לירידות במחיר הביטקוין, ישנם גם לחצים על מבנה ההון של החברה. התחייבויות הדיבידנד השנתיות על המניות המועדפות של החברה גדלו באופן משמעותי, בעוד שעתודות המזומנים שלה ירדו. דיווחים אחרונים אף ציינו שהלחץ על החברה גובר, ויש קריאות להפסיק את רכישות הביטקוין ולבנות מחדש את עתודות המזומנים.\n\nחשוב לזכור ש- MicroStrategy היא חברה ציבורית, והמניות שלה מושפעות מגורמים רבים, כולל תנודות בשוק הקריפטו, מצב הכלכלה הכללית, וביצועי החברה עצמה. למרות הירידות הנוכחיות, מייקל סיילור נותר אופטימי לגבי האסטרטגיה ארוכת הטווח. זהו תזכורת לכך שגם השקעות שנראות 'בטוחות' יחסית בעולם הקריפטו (כמו חברות שמחזיקות ביטקוין) עדיין כרוכות בסיכונים.\n\nאז מה המסר כאן? ראשית, תנודתיות היא חלק בלתי נפרד מהשקעות, במיוחד כשמדובר בביטקוין ובחברות הקשורות אליו. שנית, חשוב להבין את המודל העסקי של החברות בהן משקיעים, ואת הסיכונים הכרוכים בו. ולבסוף, כפי שמראה סיילור, חשוב לשמור על חזון ארוך טווח ולהאמין באסטרטגיה, גם בזמנים מאתגרים. אני ממש שמחה שאתן איתי כדי ללמוד ולהבין את כל ההיבטים האלה!",
       "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "17dzuws",
-      "title": "Binance Tells EU Users It Will Wind Down Services as MiCA Deadline Hits",
-      "link": "https://thedefiant.io/news/regulation/binance-tells-eu-users-wind-down-services-mica-deadline",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-26T15:17:49.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/5cf59641d0d3f1841b3de0a4889e993e2a0adec7-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1dju0f4",
-      "title": "BitGo Cuts Nearly 15% of Staff Six Months After IPO, Refocuses on Stablecoins and AI",
-      "link": "https://thedefiant.io/converge/people/bitgo-cuts-15-percent-staff-ipo-stablecoins-ai",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-26T15:16:16.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/28bfe91c78e2cafd1f4c971c12ce37ebf313c291-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "pc0puf",
-      "title": "Strategy Executives Issue Coordinated Investor Reassurances as STRC Hits Record Lows",
-      "link": "https://thedefiant.io/news/markets/strategy-executives-issue-coordinated-investor-reassurances-as-strc-hits-record-lows",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-26T15:09:42.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/a9a18796175135bc6e46004fb1b4461ce615f97c-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1pd6ndg",
-      "title": "Tether's USDT Closes In on Ether for No. 2 Crypto Spot by Market Cap",
-      "link": "https://thedefiant.io/news/markets/tether-usdt-closes-in-ether-no-2-crypto-market-cap",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-26T15:07:44.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/2b45c87feb915dbb671ac09e561cd716116d7468-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1posr2m",
-      "title": "Securities Probe Lands on Strategy as MSTR Sinks and STRC Slips Below Par",
-      "link": "https://thedefiant.io/news/markets/strategy-securities-probe-mstr-two-year-low-strc-below-par",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-26T14:51:39.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/f9ab99a0d8bebcff4641e595fba08683c0131449-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "13podiv",
-      "title": "Kalshi Seeks $40B Valuation Seven Weeks After $22B Raise",
-      "link": "https://thedefiant.io/news/cefi/kalshi-seeks-40b-valuation-seven-weeks-after-22b-raise",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-26T14:46:38.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/361fd774ff11cb572e47847254e758f63f70502a-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "points_he": [
+        "מניות MicroStrategy (MSTR) והמניות המועדפות (STRC) צנחו לשפל של 52 שבועות.",
+        "הירידות נובעות מירידות במחיר הביטקוין והשפעתן על מאזן החברה.",
+        "מייקל סיילור מביע ביטחון באסטרטגיית החזקת הביטקוין לטווח ארוך.",
+        "המודל העסקי של החברה תלוי בתמחור פרמיה מעל ערך הביטקוין המוחזק."
+      ],
+      "meaning_he": "סיפורה של MicroStrategy מדגים את הקשר ההדוק בין מחיר הביטקוין לביצועי חברות המאמצות אותו כאסטרטגיה מרכזית, ומציג את האתגרים הכרוכים במינוף חוב להחזקת נכסים תנודתיים. זהו שיעור חשוב עבור כל מי שבוחן השקעות עקיפות בביטקוין.",
+      "gen_v": 2
     },
     {
       "id": "1jeq5xr",
@@ -367,72 +635,6 @@
       "gen_v": 2
     },
     {
-      "id": "1leqd0j",
-      "title": "Aave's Kulechov Disputes Report, Says Firm Won't Sell AAVE at '70%' Discount",
-      "link": "https://thedefiant.io/news/defi/aave-s-kulechov-disputes-report-says-firm-won-t-sell-aave-at-70-discount",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-25T21:20:47.000Z",
-      "image": "https://cdn.thedefiant.io/aave-jpg-a6a7a736-ae97-4853-9602-0713c09a6ae0.jpg",
-      "title_he": "Aave: האם הדיווח על מכירת AAVE במחיר מוזל נכון?",
-      "brief_he": "מייסד Aave, סטנילב קולצ'וב, מכחיש דיווחים על מכירת כמות גדולה של אסימוני AAVE במחיר נמוך משמעותית משווי השוק.",
-      "commentary_he": "היי חברות וחברים יקרים,\n\nאני ממש שמחה שאתן כאן איתי היום. אנחנו ממשיכים במסע שלנו ללמוד ולהבין את העולם המורכב של הקריפטו, והפעם נתמקד באחד הפרויקטים הבולטים בתחום ה-DeFi: Aave. לאחרונה התפרסם דיווח שעורר לא מעט תגובות, לגבי מכירה אפשרית של כמות גדולה של אסימוני AAVE, המטבע של הפלטפורמה, במחיר נמוך באופן משמעותי. אבל, כמו שקורה לא פעם בעולם הזה, הסיפור קיבל תפנית.\n\nאז מה קרה? לפי הדיווח המקורי, נטען כי אדם או גוף מסוים מכר כמות גדולה של אסימוני AAVE, מה שעלול היה להעיד על לחץ מכירתי או על חוסר אמון בפרויקט. המחיר המוזכר היה נמוך בכ-70% משווי השוק באותו זמן. ידיעה כזו יכולה להשפיע על סנטימנט השוק ולגרום למשקיעים לחשוש. אולם, כמעט מיד לאחר הפרסום, הגיעו ההכחשות.\n\nמייסד Aave, סטנילב קולצ'וב (Stani Kulechov), פרסם תגובה ברורה בה הכחיש את הדיווח. הוא הבהיר שהמידע אינו נכון וכי אין כוונה למכור אסימוני AAVE במחיר כה נמוך. ההכחשה הזו חשובה במיוחד, שכן היא מגיעה מהאדם שעומד בראש הפרויקט ויש לו את המידע המדויק ביותר. בעולם הקריפטו, שמועות והפצת מידע לא מדויק יכולות להוביל לתנודות משמעותיות, ולכן חשוב מאוד לבדוק את המקורות ולקבל מידע מאומת.\n\nלמה זה נושא שמעניין אותנו? Aave היא אחת מפלטפורמות ה-DeFi המובילות, המאפשרת למשתמשים להלוות ולקחת הלוואות של נכסים דיגיטליים. הצלחתה ויציבותה חשובות לכל מי שמתעניין בעולם הפיננסים המבוזר. דיווחים על מכירות גדולות, גם אם הם לא נכונים, יכולים להעיד על החששות שקיימים בשוק לגבי תנודתיות או לגבי היכולת של פרויקטים לשמור על ערכם. ההכחשה של קולצ'וב, לעומת זאת, מחזקת את האמון בפרויקט ומראה שההנהלה מודעת לחשיבות התקשורת השקופה עם הקהילה.\n\nאז מה המסר העיקרי כאן? בעולם הקריפטו, כמו בכל שוק פיננסי, חשוב לגשת למידע בביקורתיות. לא כל מה שמתפרסם הוא בהכרח נכון, וחשוב תמיד לחפש אישורים ממקורות אמינים, ובמיוחד מהגורמים הרשמיים של הפרויקטים עצמם. ההכחשה הזו היא תזכורת לכך שהשוק יכול להיות תנודתי, ושהבנה מעמיקה של הפרויקטים והתפתחותם היא המפתח לקבלת החלטות מושכלות. ככל שלומדים יותר, פחות מפחדים, וגם מזהים שמועות כשהן מופצות.\n\nאני מזמינה אתכן להמשיך לעקוב אחרי פרויקטים שמעניינים אתכן, לבדוק את המקורות שלכן, ולהיות חלק פעיל בקהילה. הבנה וסקרנות הן הכלים החשובים ביותר שלנו.",
-      "terms_he": [],
-      "points_he": [
-        "דווח ראשוני טען כי אסימוני AAVE נמכרו במחיר נמוך משמעותית (כ-70% מתחת לשווי השוק).",
-        "מייסד Aave, סטנילב קולצ'וב, הכחיש את הדיווח באופן נחרץ.",
-        "ההכחשה מדגישה את החשיבות של קבלת מידע מאומת מהמקורות הרשמיים בפרויקטים.",
-        "השוק יכול להיות מושפע משמועות, ולכן נדרשת גישה ביקורתית למידע."
-      ],
-      "meaning_he": "האירוע סביב Aave ממחיש את החשיבות של דיווח מדויק ותקשורת שקופה בעולם הקריפטו, ומדגיש את הצורך של המשקיעים לבדוק מקורות מידע ולא להסתמך על שמועות.",
-      "gen_v": 2
-    },
-    {
-      "id": "77zz2x",
-      "title": "Anthropic Urges Congress to Crack Down on AI Distillation By Chinese Rivals",
-      "link": "https://decrypt.co/372130/anthropic-urges-congress-crack-down-ai-distillation-chinese-rivals",
-      "summary": "Anthropic alleged that Alibaba-affiliated operators used nearly 25,000 fraudulent accounts to generate 28.8 million Claude exchanges.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-06-25T21:13:37.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/06/decrypt-style-anthropic-dario-amodei-2-gID_7.png",
-      "title_he": "Anthropic קוראת לקונגרס: עצרו את 'גניבת' הבינה המלאכותית על ידי סין",
-      "brief_he": "חברת Anthropic לבינה מלאכותית פונה לקונגרס האמריקאי בדרישה לטפל באופן מיידי בתופעת 'זיקוק' מודלים מתקדמים על ידי גורמים סיניים.",
-      "commentary_he": "היי חברות וחברים יקרים,\n\nאני ממש שמחה שאתן כאן איתי, כי היום אנחנו נוגעים בנושא שמשלב שני עולמות מרתקים שמשפיעים על העתיד שלנו: בינה מלאכותית (AI) והקשר שלה לטכנולוגיות מתקדמות וגלובליות. חברת Anthropic, שהיא חלוצה בתחום הבינה המלאכותית ומוכרת בזכות המודל שלה Claude, פנתה לאחרונה לקונגרס האמריקאי בבקשה דחופה לפעול נגד תופעה מדאיגה.\n\nמה בעצם קורה כאן? Anthropic טוענת שגורמים הקשורים לחברות סיניות, כמו Alibaba, משתמשים בטקטיקות שמכונות 'זיקוק' (distillation) כדי 'לגנוב' טכנולוגיה של מודלי AI מתקדמים. ה'זיקוק' הזה מתייחס לתהליך שבו מודל AI גדול וחזק (ה'מודל המורה') משמש לאימון מודל AI קטן יותר (ה'מודל התלמיד'), כך שהמודל הקטן יחסית יפעל בצורה דומה למודל הגדול. הבעיה היא, לפי Anthropic, שנעשה שימוש בטכניקה הזו באופן לא חוקי, תוך ניצול לרעה של ממשקים ותשתיות.\n\nAnthropic טוענת שהם זיהו שימוש נרחב בחשבונות מזויפים – יותר מ-24,800 חשבונות כאלה – שנוצרו על ידי מפעילים הקשורים לחברות סיניות. באמצעות החשבונות האלה, בוצעו כ-28.8 מיליון שיחות עם המודל Claude שלהם. המטרה, לפי החברה, הייתה לאמן מודלי AI סיניים על בסיס הטכנולוגיה והידע של Anthropic, מבלי לשלם על כך או לקבל אישור. זהו למעשה ניסיון להשיג יתרון טכנולוגי באמצעות שיטות מפוקפקות, מה שעלול לפגוע בתחרות ההוגנת ובפיתוח העצמאי של טכנולוגיות AI בארה\"ב.\n\nלמה זה חשוב לנו? אנחנו חיים בעידן שבו בינה מלאכותית משנה את העולם במהירות מסחררת. היא משפיעה על תעשיות, על שווקים, וגם על הדרך שבה אנחנו משקיעים ולומדים. כאשר חברות מובילות כמו Anthropic משקיעות משאבים עצומים בפיתוח טכנולוגיות פורצות דרך, חשוב להגן על הקניין הרוחני שלהן ולוודא שיש תחרות הוגנת. אם טכנולוגיות מתקדמות 'נלקחות' בקלות, זה עלול לפגוע בתמריץ ליצירה וחדשנות, וליצור פערים טכנולוגיים שקשה לסגור.\n\nהקריאה של Anthropic לקונגרס היא קריאה למערכת הבינלאומית להסדיר את השימוש ב-AI, להגן על חדשנות, ולוודא שפיתוחים טכנולוגיים מתקדמים לא מנוצלים לרעה. זהו מאבק על עתיד התעשייה, ועל הדרך שבה טכנולוגיות שישפיעו על כולנו יפותחו וינוהלו.\n\nאז מה המסר שאנחנו יכולות לקחת מזה? ראשית, עולם הבינה המלאכותית הוא דינמי ותחרותי מאוד, וחשוב להיות מודעות למתרחש בו. שנית, התקשורת בין חברות טכנולוגיה לממשלות הופכת קריטית יותר ויותר להסדרת התחום. ככל שלומדים יותר על התחומים האלה, אנחנו מבינות טוב יותר את ההשפעות שלהם על העולם הפיננסי והטכנולוגי, ועל ההזדמנויות והסיכונים שהם מציבים. תפתחו את הראש, תחקרו, ותזכרו שהבנה היא הכוח שלנו.",
-      "terms_he": [],
-      "points_he": [
-        "חברת Anthropic טוענת שגורמים סיניים משתמשים ב'זיקוק' מודלים כדי לגנוב טכנולוגיית AI מתקדמת.",
-        "החברה זיהתה שימוש נרחב בחשבונות מזויפים לאימון מודלים סיניים על בסיס המודל Claude שלה.",
-        "Anthropic פנתה לקונגרס האמריקאי בבקשה לטפל בתופעה זו.",
-        "הדרישה נועדה להגן על תחרות הוגנת ועל החדשנות בתחום הבינה המלאכותית."
-      ],
-      "meaning_he": "האירוע סביב Anthropic מדגיש את המורכבות של פיתוח AI גלובלי, ואת הצורך בהסדרה ובהגנה על קניין רוחני כדי להבטיח תחרות הוגנת וחדשנות. זה נושא שצפוי להשפיע רבות על עתיד הטכנולוגיה והכלכלה.",
-      "gen_v": 2
-    },
-    {
-      "id": "13qrt7g",
-      "title": "Polymarket to Refund Users After Scammers Swipe Millions in Website Exploit",
-      "link": "https://decrypt.co/372129/polymarket-refund-users-scammers-swipe-millions-website-exploit",
-      "summary": "Hackers infiltrated Polymarket’s website via a compromised third-party vendor, the company said, swiping millions in crypto from users.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-06-25T21:02:40.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/polymarket-decrypt-style-gID_7.jpg",
-      "title_he": "הונאה ב-Polymarket: מיליוני דולרים נגנבו עקב פריצה",
-      "brief_he": "פלטפורמת ההימורים על אירועים Polymarket ספגה פריצה דרך ספק צד שלישי, ונגנבו ממנה מיליוני דולרים בקריפטו.",
-      "commentary_he": "חברות וחברים יקרים, אחד הנושאים החשובים ביותר בעולם הקריפטו הוא אבטחה. אנחנו כל הזמן שומעים על טכנולוגיות חדשות ומרגשות, אבל חשוב לא לשכוח את הצדדים הפחות נעימים, כמו הונאות ופריצות. השבוע הגיעו אלינו חדשות מדאיגות לגבי פלטפורמת Polymarket, שהיא סוג של זירת מסחר או הימורים על אירועים עתידיים, שבה משתמשים יכולים להמר על התוצאות של אירועים פוליטיים, כלכליים ועוד, באמצעות מטבעות קריפטוגרפיים.\n\nלפי הדיווחים, Polymarket נפלה קורבן למתקפת סייבר מתוחכמת, שבה נגנבו מהמשתמשים סכומים של מיליוני דולרים בקריפטו. מה שמיוחד בסיפור הזה, וגם מדאיג במיוחד, הוא שהפריצה לא בוצעה ישירות למערכות של Polymarket, אלא דרך ספק חיצוני שהחברה משתמשת בו. זה נקרא 'ספק צד שלישי', והוא יכול להיות כל דבר – החל מספק שירותי ענן, דרך חברת תוכנה שפיתחה כלים עבורם, ועד לספק שירותי שיווק. כאשר ספק כזה נפרץ, הפריצה יכולה להתפשט גם למערכות של הלקוחות שלו.\n\nהאירוע הזה מדגיש נקודה קריטית בעולם הדיגיטלי: שרשרת האספקה של הטכנולוגיה. אף חברה לא פועלת בוואקום. כולן מסתמכות על שירותים וכלים של חברות אחרות. כל חיבור כזה הוא פתח פוטנציאלי לפריצה. Polymarket אמרה שהיא תפצה את המשתמשים שנפגעו, וזה צעד חשוב של אחריות, אבל הנזק כבר נגרם. זה מזכיר לנו שוב, שככל שלומדים יותר על האבטחה בעולם הקריפטו, כך מבינים את הסיכונים טוב יותר.\n\nמה אנחנו יכולות ללמוד מזה? ראשית, גם בפלטפורמות שנראות חדשניות ומרגשות, תמיד יש סיכון. שנית, כשאתן משתמשות בפלטפורמות קריפטו, כדאי לבדוק מי הם הספקים שהן עובדות איתם, ואילו אמצעי אבטחה הם נוקטים. זה אולי נשמע טכני, אבל הבנה בסיסית של הנושא יכולה לחסוך לנו הרבה כאב ראש. תפתחו את הראש, תחקרו, ותשאלו שאלות. אל תמהרו 'לקפוץ למים' בפלטפורמה חדשה בלי להבין את הסיכונים.\n\nהמסר שלי אליכן הוא להישאר ערניות. עולם הקריפטו מציע הזדמנויות מדהימות, אבל הוא גם דורש מאיתנו זהירות וחוכמה. השקיעו בלימוד, שאלו שאלות, והגנו על הנכסים שלכן. כך נוכל להמשיך ולגדול יחד, מתוך הבנה וביטחון.",
-      "terms_he": [],
-      "points_he": [
-        "פלטפורמת Polymarket נפרצה דרך ספק צד שלישי.",
-        "נגנבו מיליוני דולרים בקריפטו מהמשתמשים.",
-        "האירוע מדגיש את הסיכונים באבטחת שרשרת האספקה הטכנולוגית.",
-        "חשוב לבדוק את אמצעי האבטחה של פלטפורמות קריפטו וספקיהן."
-      ],
-      "meaning_he": "מתקפת הסייבר על Polymarket מדגישה את החשיבות הקריטית של אבטחה בעולם הדיגיטלי, במיוחד כשמדובר בספקי צד שלישי. עבורנו, כקהילה המעורבת בטכנולוגיות חדשות, זו תזכורת חשובה להיות ערניות ולחקור לעומק את הסיכונים.",
-      "gen_v": 2
-    },
-    {
       "id": "m97qp6",
       "title": "Strategy Stock (MSTR) Nearly Craters Another 10% as Securities Lawsuit Lands",
       "link": "https://bitcoinmagazine.com/markets/strategy-stock-mstr-craters-another-10",
@@ -453,29 +655,6 @@
         "הסיפור מדגיש את הקשר בין מחירי קריפטו לשוקי ההון המסורתיים ואת חשיבות הניתוח והמחקר."
       ],
       "meaning_he": "הסיפור של MSTR ממחיש את הקשר ההדוק בין שוקי הקריפטו המסורתיים, ומדגיש את התנודתיות והסיכונים הכרוכים בהשקעה ישירה במטבעות דיגיטליים דרך חברות ציבוריות. הוא מזכיר לנו, כמשקיעות, את החשיבות של הבנת המבנה הפיננסי של החברות בהן אנו שוקלות להשקיע.",
-      "gen_v": 2
-    },
-    {
-      "id": "mxnpu9",
-      "title": "SBI Holdings Says $289 Million Bitbank Deal Will Make It Japan's Largest Crypto Exchange",
-      "link": "https://decrypt.co/372117/sbi-holdings-289-million-bitbank-deal-japan-largest-crypto-exchange",
-      "summary": "SBI Holdings has agreed to a nearly $289 million deal to acquire crypto exchange Bitbank, pending regulatory approval.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-06-25T19:42:54.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/01/bitcoin-yen-decrypt-style-new-gID_7.jpg",
-      "title_he": "SBI Holdings רוכשת את Bitbank: יפן מקבלת בורסת קריפטו ענקית?",
-      "brief_he": "חברת SBI Holdings היפנית הודיעה על הסכם לרכישת בורסת הקריפטו Bitbank תמורת כ-289 מיליון דולר, בעסקה שעשויה להפוך אותה לבורסת הקריפטו הגדולה ביפן.",
-      "commentary_he": "חברות וחברים יקרים, אני ממש שמחה שאתן איתי היום כדי לדבר על התפתחויות מרתקות בעולם הקריפטו, במיוחד כשזה נוגע לשווקים גלובליים. חדשות מעניינות מגיעות מיפן: קבוצת הפיננסים הגדולה SBI Holdings הודיעה על הסכם לרכישת בורסת הקריפטו Bitbank, תמורת סכום נאה של כ-289 מיליון דולר. העסקה הזו, אם תאושר על ידי הרגולטורים, צפויה להפוך את SBI Holdings לשחקנית הדומיננטית ביותר בשוק הקריפטו היפני.\n\nלמה זה סיפור חשוב? ובכן, יפן היא אחת הכלכלות הגדולות בעולם, ויש לה היסטוריה מעניינת עם מטבעות דיגיטליים. מצד אחד, היא הייתה בין המדינות הראשונות לאמץ רגולציה ברורה לתחום הקריפטו, מה שהוביל להקמת בורסות מפוקחות. מצד שני, היא גם ידעה תקופות של חוסר ודאות וחששות לאחר פריצות גדולות שאירעו בעבר. לכן, כל התפתחות משמעותית בשוק הקריפטו היפני היא בעלת חשיבות בינלאומית.\n\nSBI Holdings היא קבוצה פיננסית ענקית ביפן, עם פעילויות מגוונות בתחומי הבנקאות, ניירות ערך, ביטוח ועוד. היא כבר פעילה בתחום הקריפטו דרך זרועות שונות, כולל השקעות בבורסות אחרות ופיתוח שירותים הקשורים למטבעות דיגיטליים. רכישת Bitbank, שהיא אחת הבורסות המובילות ביפן, היא צעד אסטרטגי ברור שמטרתו לחזק את מעמדה בשוק הזה.\n\nBitbank עצמה נחשבת לבורסה אמינה ובטוחה, עם ממשק ידידותי למשתמש ודגש על אבטחת נכסי הלקוחות. היא מציעה מגוון רחב של מטבעות דיגיטליים למסחר, וצברה קהל לקוחות נאמן לאורך השנים. השילוב של הניסיון והמשאבים של SBI Holdings עם הפעילות הקיימת של Bitbank עשוי ליצור סינרגיה משמעותית.\n\nמה זה אומר עבורנו? ראשית, זה מראה שהשוק היפני ממשיך להתפתח ולהתבגר. רכישה בסדר גודל כזה מעידה על אמון מצד גופים פיננסיים גדולים בפוטנציאל של שוק הקריפטו, למרות התנודתיות והאתגרים הרגולטוריים. שנית, זה עשוי להוביל לחדשנות נוספת בתחום, עם שירותים חדשים ונגישים יותר למשקיעים ביפן, ואולי גם בעולם.\n\nכמובן, כמו בכל עסקה גדולה, חשוב לעקוב אחר ההתפתחויות הרגולטוריות ולוודא שהרכישה אכן תאושר. אבל באופן כללי, זוהי חדשה מעודדת שמראה שהשוק הגלובלי של מטבעות דיגיטליים ממשיך לצמוח ולהתפתח, גם אם לפעמים זה קורה קצת מתחת לרדאר שלנו. תפתחו את הראש, תלמדו, תחקרו – תמיד יש מה לגלות!",
-      "terms_he": [],
-      "points_he": [
-        "קבוצת הפיננסים היפנית SBI Holdings רוכשת את בורסת הקריפטו Bitbank.",
-        "סכום העסקה מוערך בכ-289 מיליון דולר.",
-        "הרכישה צפויה להפוך את SBI Holdings לשחקנית הקריפטו הגדולה ביותר ביפן.",
-        "העסקה מעידה על אמון בשוק הקריפטו היפני ועל המשך התפתחותו.",
-        "האישור הרגולטורי הוא שלב הכרחי להשלמת הרכישה."
-      ],
-      "meaning_he": "ההתפתחות ביפן, שבה חברת פיננסים גדולה רוכשת בורסת קריפטו משמעותית, מראה על התבגרות ואימוץ של שוק המטבעות הדיגיטליים. זהו סימן חיובי להתפתחות גלובלית של התחום, ומדגיש את החשיבות של הבנת השווקים השונים והרגולציות שלהם.",
       "gen_v": 2
     },
     {
@@ -500,57 +679,6 @@
       ],
       "meaning_he": "הסיפור של אימוץ הביטקוין באפריקה הוא הוכחה לכך שהטכנולוגיה יכולה להיות כלי רב עוצמה להעצמה כלכלית וצמצום פערים. הוא מראה כיצד ביטקוין יכול להוות פתרון מעשי עבור מי שנדחק לשולי המערכת הפיננסית המסורתית, ומעניק השראה לקהילה שלנו להבין את ההשפעה הרחבה של הטכנולוגיה.",
       "gen_v": 2
-    },
-    {
-      "id": "1p7iv4u",
-      "title": "Coinbase-Backed Ethereum Network Base Recovers After Block Production Issue",
-      "link": "https://decrypt.co/372110/coinbase-ethereum-network-base-recovers-block-production-issue",
-      "summary": "Ethereum layer-2 network Base was down for more than two hours as it ran into an issue with block production ahead of a planned upgrade.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-06-25T19:19:05.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/base-decrypt-style-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1jxabjs",
-      "title": "Story Protocol Rebrands as Data Network in AI Training Pivot After IP Token Falls 98%",
-      "link": "https://decrypt.co/372107/story-protocol-rebrands-data-network-ai-training-pivot",
-      "summary": "Intellectual property network Story Protocol has shifted its focus to a new opportunity in training data for artificial intelligence.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-06-25T19:11:36.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/AI-decrypt-style-03-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1k6bmja",
-      "title": "CoinEx Denies 'Knowledge' of Aiding Sanctioned Iran Crypto Market in $3.8 Billion Disconnect",
-      "link": "https://decrypt.co/372104/coinex-denies-knowledge-aiding-sanctioned-iran-crypto-market",
-      "summary": "TRM Labs said it uncovered over $3.84 billion in crypto flows between CoinEx and a web of more than 60 sanctioned Iranian platforms.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-06-25T18:49:21.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/01/iran-bitcoin-decrypt-style-02-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
     },
     {
       "id": "1g4w0ih",
@@ -629,40 +757,6 @@
       ],
       "meaning_he": "הטמעת Stratum V2 בכריית ביטקוין היא צעד משמעותי לקראת רשת מבוזרת יותר. זה מראה כיצד חדשנות טכנולוגית יכולה לחזק את עקרונות הליבה של ביטקוין, כמו פיזור כוח והתנגדות לצנזורה.",
       "gen_v": 2
-    },
-    {
-      "id": "1jtz1ur",
-      "title": "Bitcoin Price Flash Crashes from $61,000 to $58,000 as Market Waits For Support",
-      "link": "https://bitcoinmagazine.com/markets/bitcoin-price-crashes-from-61000-to-58000",
-      "summary": "Bitcoin Magazine Bitcoin Price Flash Crashes from $61,000 to $58,000 as Market Waits For Support Bitcoin price plunged from $61,000 to $58,000 in a sharp sell-off this morning. This post Bitcoin Price Flash Crashes from…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-06-25T14:27:34.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Bitcoin-Price-Flash-Crashes-from-61000-to-58000-as-Market-Waits-For-Support.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "w82m76",
-      "title": "SBI Holdings Agrees to Acquire Japanese Crypto Exchange Bitbank in $288.6 Million Deal",
-      "link": "https://bitcoinmagazine.com/news/sbi-holdings-agrees-to-acquire-bitbank",
-      "summary": "Bitcoin Magazine SBI Holdings Agrees to Acquire Japanese Crypto Exchange Bitbank in $288.6 Million Deal SBI Holdings will acquire Japanese crypto exchange Bitbank for 46.7 billion yen ($288.6 million), creating Japan’s…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-06-25T14:22:29.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/SBI-Holdings-Agrees-to-Acquire-Japanese-Crypto-Exchange-Bitbank-in-288.6-Million-Deal.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
     },
     {
       "id": "1hhw895",
