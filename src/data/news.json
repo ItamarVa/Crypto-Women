@@ -1,14 +1,48 @@
 {
-  "updated": "2026-06-25T21:26:23.977Z",
+  "updated": "2026-06-26T02:45:14.056Z",
   "count": 58,
   "sources": [
+    "Cointelegraph",
     "The Defiant",
     "Decrypt",
-    "Cointelegraph",
     "Bitcoin Magazine",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "1iabffs",
+      "title": "BitGo cuts 15% of staff to sharpen focus on AI, stablecoins",
+      "link": "https://cointelegraph.com/news/crypto-infrastructure-firm-bitgo-lays-off-15-of-staff?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "summary": "",
+      "source": "Cointelegraph",
+      "lang": "en",
+      "date": "2026-06-26T00:41:02.000Z",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/layoffs-fired-human-resource-hr-leaving-quit-box.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "tbnb2",
+      "title": "Does Botanix’s failure prove Bitcoiners don’t care about DeFi?",
+      "link": "https://cointelegraph.com/features/does-botanixs-failure-prove-bitcoiners-dont-care-about-defi?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "summary": "",
+      "source": "Cointelegraph",
+      "lang": "en",
+      "date": "2026-06-25T23:09:10.000Z",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-quantum-computers-could-bring-lost-bitcoin-back-to-life-heres-how-1.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "1leqd0j",
       "title": "Aave's Kulechov Disputes Report, Says Firm Won't Sell AAVE at '70%' Discount",
@@ -506,50 +540,6 @@
       "points_he": [],
       "meaning_he": null,
       "gen_v": null
-    },
-    {
-      "id": "fiqv8o",
-      "title": "Bitcoin drops to $58K on high US PCE inflation as trader sees 'manipulation'",
-      "link": "https://cointelegraph.com/markets/bitcoin-drops-to-58-on-pce-highs?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "summary": "",
-      "source": "Cointelegraph",
-      "lang": "en",
-      "date": "2026-06-25T15:34:45.000Z",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-180325-is-bitcoin-price-going-crash-again.jpg",
-      "title_he": "ביטקוין צולל: מה גורם לתנודות במחיר?",
-      "brief_he": "מדד המחירים של ההוצאות על צריכה אישית בארה\"ב עלה, והשפיע לרעה על מחיר הביטקוין.",
-      "commentary_he": "חברות וחברים יקרים,\n\nשמחה לפגוש אתכן כאן שוב, במיוחד כשאנחנו מתמודדות עם תנודות בשוק הקריפטו. לאחרונה, ראינו ירידה במחיר הביטקוין, שהגיע עד לכ-58,000 דולר. חשוב להבין מה קורה מאחורי הקלעים, כי ככל שלומדים יותר, פחות מפחדים.\n\nהירידה האחרונה במחיר הביטקוין, לפי הדיווחים, קשורה לעלייה במדד המחירים של ההוצאות על צריכה אישית (PCE) בארצות הברית. המדד הזה הוא אחד המדדים המועדפים על ידי הפדרל ריזרב למעקב אחר אינפלציה. כשהמדד עולה, זה יכול לרמוז על לחצים אינפלציוניים גוברים, מה שעלול להוביל את הבנק המרכזי לשקול העלאות ריבית או השארת הריבית גבוהה לזמן ממושך יותר. במילים פשוטות, כשהכסף הופך ליקר יותר, משקיעים נוטים להיות פחות מוכנים לקחת סיכונים, וזה משפיע גם על שוקי הקריפטו.\n\nהתגובה של השוק הייתה מיידית. סוחרים ומשקיעים החלו למכור, מתוך חשש מההשלכות של אינפלציה גבוהה על הכלכלה ועל הנכסים ה",
-      "terms_he": [],
-      "points_he": [
-        "האינפלציה בארה\"ב משפיעה על מחירי הנכסים.",
-        "עלייה במדד PCE עשויה להצביע על לחצים אינפלציוניים.",
-        "שוקי ההון והקריפטו רגישים להחלטות ריבית של הבנק המרכזי.",
-        "חשוב להבין את הגורמים הכלכליים שמשפיעים על השווקים."
-      ],
-      "meaning_he": "התנודות במחירי הביטקוין מראות את הקשר ההולך ומתהדק בין שוק הקריפטו לכלכלה הגלובלית. זה מדגיש את הצורך בהבנה מעמיקה של המאקרו-כלכלה.",
-      "gen_v": 2
-    },
-    {
-      "id": "vyxeub",
-      "title": "Why Wall Street values some crypto firms for AI power, not just crypto",
-      "link": "https://cointelegraph.com/learn/galaxy-digital-ai-infrastructure-valuation?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-      "summary": "",
-      "source": "Cointelegraph",
-      "lang": "en",
-      "date": "2026-06-25T15:00:00.000Z",
-      "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-213298-galaxy-digital-stock-tokenized-solana.jpg",
-      "title_he": "וול סטריט מגלה את כוח ה-AI: לא רק קריפטו!",
-      "brief_he": "חברות קריפטו מסוימות זוכות להערכה בוול סטריט בזכות יכולות ה-AI שלהן, ולא רק בזכות פעילותן בתחום הקריפטו.",
-      "commentary_he": "חברות וחברים יקרים,\n\nהיום אני רוצה לדבר איתכן על מגמה מרתקת שמתרחשת בוול סטריט, מגמה שבה ההבחנה בין חברות קריפטו לחברות טכנולוגיה מתחילה להיטשטש. מסתבר שחלק מחברות הקריפטו, ואני מדגישה – לא כולן – זוכות להערכה רבה מצד משקיעים מוסדיים בוול סטריט, לא רק בגלל פעילותן בתחום הבלוקצ'יין והקריפטו, אלא בעיקר בזכות הטכנולוגיה והיכולות שלהן בתחום הבינה המלאכותית (AI).\n\nמה זה אומר בעצם? זה אומר שחברות שמפתחות תשתיות, פלטפורמות או פתרונות שקשורים ל-AI, בין אם הן מתמקדות בקריפטו ובין אם לאו, יכולות למצוא עניין רב מצד משקיעים גדולים. המשקיעים הללו מחפשים את החברות שיכולות להוביל את מהפכת ה-AI, בין אם זה באמצעות פיתוח שבבים, אלגוריתמים מתקדמים, או פתרונות מחשוב ענן יעילים. ישנן חברות קריפטו שכבר מזמן עוסקות בפיתוחים טכנולוגיים מתקדמים, כאלה שיכולים לשמש גם בתחום ה-AI, כמו למשל פתרונות מחשוב מבוזר או ניהול דאטה בצורה מאובטחת ויעילה.\n\nההתמקדות הזו ב-AI משקפת את ההבנה שבינה מלאכותית היא לא רק טרנד חולף, אלא טכנולוגיה משבשת שתשנה את פני התעשייה כולה. עבור חברות קריפטו, זה יכול להיות הזדמנות אדירה. הן יכולות למנף את הידע והטכנולוגיה שפיתחו בתחום הבלוקצ'יין, כמו יכולות עיבוד מידע, אבטחה ורשתות מבוזרות, וליישם אותן בפיתוחים בתחום ה-AI. זה פותח בפניהן שווקים חדשים ומרחיב את בסיס המשקיעים הפוטנציאליים שלהן.\n\nמה זה אומר לנו, כקהילה? זה אומר שאנחנו צריכות לפקוח עין על חברות שפועלות בשני התחומים הללו. לא כל חברה שמתעסקת בקריפטו בהכרח תרוויח מהמגמה הזו, אבל חברות עם בסיס טכנולוגי חזק, שמשקיעות במחקר ופיתוח בתחומי ה-AI, עשויות להיות מעניינות במיוחד. כדאי לבדוק את הפרויקטים הללו, להבין את הטכנולוגיה שמאחוריהם, ולהבין כיצד הם מתכננים לשלב בין עולם הקריפטו לבין עולם ה-AI המתפתח.\n\nלסיכום, המגמה הזו מזכירה לנו שהעולם הטכנולוגי הוא דינמי ומשתנה כל הזמן. חשוב להישאר מעודכנות, להבין את המגמות הגדולות, ולבחון כיצד הן יכולות להשפיע על ההשקעות שלנו ועל עתיד התעשייה. תפתחו את הראש, תלמדו, תחקרו – תמיד יש עוד מה לגלות!",
-      "terms_he": [],
-      "points_he": [
-        "חברות קריפטו עם יכולות AI זוכות להערכה בוול סטריט.",
-        "המשקיעים מחפשים חברות שמובילות את מהפכת ה-AI.",
-        "טכנולוגיות בלוקצ'יין יכולות להשתלב עם פיתוחים בתחום ה-AI.",
-        "ההתמקדות ב-AI פותחת שווקים חדשים לחברות קריפטו."
-      ],
-      "meaning_he": "ההצלחה של חברות קריפטו בתחום ה-AI מדגימה את הפוטנציאל הסינרגטי בין טכנולוגיות חדשניות. זה מראה איך חדשנות בתחום אחד יכולה לפתוח דלתות בתחומים אחרים, ולהרחיב את ההשפעה של טכנולוגיות הבלוקצ'יין.",
-      "gen_v": 2
     },
     {
       "id": "1xvkc65",
