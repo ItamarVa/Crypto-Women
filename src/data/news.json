@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T09:58:55.757Z",
+  "updated": "2026-06-27T13:19:38.223Z",
   "count": 46,
   "sources": [
     "The Defiant",
@@ -8,6 +8,23 @@
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "1c1r79r",
+      "title": "Aave Advances Automated AAVE Buyback Overhaul With Aavenomics 3.0",
+      "link": "https://thedefiant.io/news/defi/aave-advances-automated-aave-buyback-overhaul-aavenomics-3-0",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-06-27T10:48:02.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/1ff8341ed8d0636f730dc5ea77af033f2940d716-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "ax24",
       "title": "MoneyGram CEO on rolling out MGUSD to its 60 million users, globally",
@@ -418,23 +435,6 @@
       ],
       "meaning_he": "התקרית סביב Polymarket מדגישה את האתגרים הרגולטוריים והאתיים בעידן הדיגיטלי, במיוחד כאשר פלטפורמות חוצות גבולות. זהו תזכורת חשובה לכך שגם בעולם הקריפטו, אחריות, שקיפות והגנה על הצרכן הם עקרונות יסוד.",
       "gen_v": 2
-    },
-    {
-      "id": "1qm0wnb",
-      "title": "Bipartisan Senators Ask CFTC Chair Whether Agency Is Investigating Polymarket's Fake-Bet Campaign",
-      "link": "https://thedefiant.io/news/regulation/bipartisan-senators-ask-cftc-chair-whether-agency-is-investigating-polymarkets-fake-bet-campaign",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-06-26T19:07:38.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/ce4e186661db29e77ef19af83c16cc386d279758-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
     },
     {
       "id": "1okgaq0",
