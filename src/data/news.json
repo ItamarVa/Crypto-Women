@@ -1,13 +1,64 @@
 {
-  "updated": "2026-07-02T10:31:51.160Z",
+  "updated": "2026-07-02T13:44:46.142Z",
   "count": 46,
   "sources": [
     "Decrypt",
-    "The Defiant",
     "Bitcoin Magazine",
+    "The Defiant",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "7l0dre",
+      "title": "Metaplanet Adds 2,823 Bitcoin in Q2 as Buying Pace Cools",
+      "link": "https://decrypt.co/372670/metaplanet-adds-2823-bitcoin-in-q2-as-buying-pace-cools",
+      "summary": "The Japanese firm's 43,000-BTC stack now sits well below its cost basis, and it has leaned on debt over equity to keep buying.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-07-02T13:11:16.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/12/japan-yen-bitcoin-decrypt-style-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1gsblrx",
+      "title": "Metaplanet Adds 2,823 Bitcoin, Reaches 43,000 BTC and Becomes World’s Third-Largest Corporate Treasury",
+      "link": "https://bitcoinmagazine.com/news/metaplanet-adds-2823-bitcoin-reaches-43000",
+      "summary": "Bitcoin Magazine Metaplanet Adds 2,823 Bitcoin, Reaches 43,000 BTC and Becomes World’s Third-Largest Corporate Treasury Metaplanet added 2,823 BTC in the second quarter to reach 43,000 Bitcoin, becoming the world's…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-07-02T12:23:39.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/07/Metaplanet-Adds-2823-Bitcoin-Reaches-43000-BTC-and-Becomes-Worlds-Third-Largest-Corporate-Treasury.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1ngoktj",
+      "title": "Morning Minute: Robinhood Debuts 'Robinhood Chain'",
+      "link": "https://decrypt.co/372667/morning-minute-robinhood-debuts-robinhood-chain",
+      "summary": "The market liked it with HOOD shares jumping 8% and their crypto perp dex partner up even more. Plus crypto's latest unicorn is crowned.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-07-02T12:06:26.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/robinhood-vlad-tenev-decrypt-style-01-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "12a7755",
       "title": "Scattered Spider Suspect Extradited to US Over $8M Crypto Ransom Demand",
@@ -708,28 +759,6 @@
       "gen_v": 2
     },
     {
-      "id": "cpgjvx",
-      "title": "Anthropic Bringing Claude Fable 5 Back Online as US Lifts Export Controls",
-      "link": "https://decrypt.co/372524/anthropic-bringing-claude-fable-5-back-online-us-lifts-export-controls",
-      "summary": "The Trump administration reversed its shutdown order after weeks of talks, with Anthropic tying Fable 5's return to a new safety classifier and other moves.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-07-01T16:24:07.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-anthropic-claude-gID_7.jpg",
-      "title_he": "ה-AI מתגבר: הבינה המלאכותית שוב חוזרת למרכז הבמה",
-      "brief_he": "לאחר התערבות ממשלתית, מודל ה-AI המתקדם Claude Fable 5 חוזר לפעילות, ומדגיש את החשיבות של איזון בין חדשנות לבטיחות.",
-      "commentary_he": "חברות וחברים יקרים,\n\nאיזו דרמה קטנה בעולם הטכנולוגיה! אתן זוכרות איך כל כך דיברנו על הפוטנציאל של AI, ואיך הוא משתלב עם עולם הקריפטו וה-Web3? אז הנה סיפור שממחיש בדיוק את המתח הזה בין קידמה לרגולציה. חברת Anthropic, שמתמחה בפיתוח מודלי בינה מלאכותית, הודיעה לאחרונה שהיא מחזירה את מודל ה-AI שלה, Claude Fable 5, לפעילות מלאה. זה קרה לאחר שהממשל האמריקאי, תחת ממשל טראמפ, הורה על הפסקת הפעילות שלו לפני מספר שבועות.\n\nהסיפור הזה מעניין במיוחד כי הוא מדגים את האתגרים שנוצרים כשטכנולוגיה מתקדמת מאוד, כמו AI, פוגשת את הצורך בפיקוח ובטיחות. לפי הדיווחים, ההחלטה להפסיק את פעילות המודל נבעה מחששות בנוגע ליכולותיו והשלכותיו הפוטנציאליות. אולם, לאחר שבועות של דיונים ומשא ומתן, נראה שהושגה פשרה. Anthropic הצליחה לשכנע את הרשויות שהיא נוקטת בצעדים מחמירים להבטחת בטיחות המודל, כולל פיתוח של 'מסווג בטיחות' (safety classifier) חדשני, שנועד לנטר ולמנוע שימוש לרעה ביכולותיו.\n\nהחזרה של Claude Fable 5 לפעילות, כעת עם דגש מוגבר על בטיחות, היא הזדמנות מצוינת עבורנו לחשוב על הדברים הבאים: ראשית, ההתקדמות המהירה של AI היא בלתי ניתנת לעצירה. אנחנו רואים איך הטכנולוגיה הזו משתלבת בכל תחומי החיים, וגם בעולם הקריפטו – למשל, באופטימיזציה של חוזים חכמים, בניתוח נתונים, ואפילו בפיתוח אסטרטגיות השקעה. שנית, הסיפור הזה מזכיר לנו שחדשנות טכנולוגית חייבת ללכת יד ביד עם אחריות. היכולות של AI הן עצומות, ולכן חשוב שיהיו מנגנונים שיבטיחו שהן לא ישמשו לרעה. הדרך שבה Anthropic פעלה – לשתף פעולה עם הרשויות, לפתח כלים חדשים לבטיחות – היא דוגמה חשובה לאיזון הזה.\n\nמה זה אומר מבחינתנו, הקהילה? זהו תזכורת מצוינת לכך שעלינו להישאר סקרניות לגבי טכנולוגיות חדשות, אך גם ביקורתיות ואחראיות. עלינו להבין את הפוטנציאל של AI, אך גם את הסיכונים. חשוב להבין איך טכנולוגיות אלו יכולות להשפיע על עולם ההשקעות והפיננסים, וגם על החיים שלנו באופן כללי. ככל שנלמד יותר, נהיה מצוידות טוב יותר להתמודד עם השינויים ולהפיק מהם את המיטב.\n\nהמסר המרכזי הוא שהתפתחות ה-AI היא תהליך מתמשך, שדורש איזון עדין בין קידמה טכנולוגית לבין הבטחת בטיחות ואחריות חברתית. חשוב שנמשיך לעקוב אחר ההתפתחויות הללו ולהבין את השלכותיהן.",
-      "terms_he": [],
-      "points_he": [
-        "מודלי AI מתקדמים דורשים פיקוח ובטיחות הדוקים.",
-        "התקדמות טכנולוגית חייבת ללכת יד ביד עם אחריות חברתית.",
-        "שיתוף פעולה בין חברות טכנולוגיה לרשויות הוא חיוני.",
-        "הבנת הפוטנציאל והסיכונים של AI חשובה לקהילת הקריפטו."
-      ],
-      "meaning_he": "ההתפתחויות בתחום ה-AI, כמו גם הממשקים שלו עם עולם הקריפטו, מדגישות את הצורך בהבנה מעמיקה של טכנולוגיות חדשות ואחריות בשימוש בהן. זה רלוונטי במיוחד לקהילה שלנו, שחוקרת את הגבולות החדשים של טכנולוגיה ופיננסים.",
-      "gen_v": 2
-    },
-    {
       "id": "1q430tx",
       "title": "Citi Slashes Bitcoin Target to $82,000 as ETF Money Heads for the Exits",
       "link": "https://bitcoinmagazine.com/news/citi-slashes-bitcoin-target-to-82000",
@@ -783,45 +812,6 @@
       "gen_v": 2
     },
     {
-      "id": "1gmxzhh",
-      "title": "Forward Industries Shares Spike as Leading Solana Treasury Adds $38 Million in SOL",
-      "link": "https://decrypt.co/372519/forward-industries-shares-spike-solana-treasury-adds-38-million",
-      "summary": "Shares in top Solana treasury firm Forward Industries are jumping Wedesday after announcing that it added over 500,000 SOL to its stash.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-07-01T15:09:05.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/solana-decrypt-style-03-gID_7.png",
-      "title_he": "סולאנה מחזקת את מאגרי ה-SOL: עלייה חדה במניות Forward Industries",
-      "brief_he": "חברת Forward Industries, המחזיקה בנכסים דיגיטליים, דיווחה על רכישת כמות גדולה של מטבעות SOL, מה שהוביל לעלייה במחיר מנייתה.",
-      "commentary_he": "חברות וחברים יקרים,\n\nאני ממש שמחה לחלוק איתכן חדשות שמראות איך שחקנים מרכזיים בעולם הקריפטו ממשיכים להאמין בפוטנציאל של הטכנולוגיה. לאחרונה, חברת Forward Industries, שהיא למעשה אחת מבעלות המאגרים הגדולים של מטבעות SOL (הקריפטו של רשת סולאנה), דיווחה על רכישה משמעותית. היא הוסיפה ל'כספת' הדיגיטלית שלה למעלה מ-500,000 מטבעות SOL, מהלך ששווה עשרות מיליוני דולרים. כצפוי, הידיעה הזו גרמה לעלייה חדה במחיר מניית החברה בבורסה.\n\nהחדשות הללו חשובות כי הן משקפות אמון רב מצד גופים גדולים ברשת סולאנה וביעילותה. סולאנה (Solana) היא רשת בלוקצ'יין מהירה ויעילה, שזוכה לפופולריות גוברת, במיוחד עבור יישומים בתחום ה-DeFi (מימון מבוזר) ו-NFTs (אסימונים בלתי ניתנים להחלפה). העובדה שחברה כמו Forward Industries, שמחזיקה כמות גדולה של SOL, מגדילה את ההחזקות שלה, מעידה על אסטרטגיה לטווח ארוך ועל ציפייה לעליית ערך עתידית של המטבע.\n\nההשפעה על מניית החברה היא דוגמה קלאסית לאיך שוקי ההון מגיבים להודעות משמעותיות מעולם הקריפטו. כאשר חברה ציבורית, הנסחרת בבורסה, מגדילה את אחזקותיה בנכס דיגיטלי, זה נתפס כסימן חיובי על ידי המשקיעים. הם רואים בכך הבעת אמון של הנהלת החברה בפוטנציאל הטכנולוגיה והמטבע הספציפי, מה שמוביל לעלייה בביקוש למניותיה.\n\nחשוב לזכור שגם בעולם הקריפטו, כמו בכל שוק פיננסי, קיימים סיכונים. רכישת מטבעות קריפטוגרפיים, גם על ידי חברות גדולות, טומנת בחובה תנודתיות ואי-ודאות. רשת סולאנה, למרות יתרונותיה, מתמודדת גם היא עם אתגרים, כמו בעיות יציבות שחוותה בעבר. לכן, גם כשאנחנו רואות חדשות חיוביות כאלו, חשוב לשמור על פרספקטיבה, להבין את הסיכונים, ולא לקבל החלטות השקעה על סמך כותרות בלבד.\n\nאז מה המסר שלנו? ראשית, זה מרגש לראות את ההתפתחות של רשתות כמו סולאנה ואת האמון הגובר בהן מצד שחקנים מוסדיים. שנית, זה מדגים את הקשר ההדוק בין עולם הקריפטו לשוקי המניות המסורתיים. ככל שנמשיך ללמוד, לחקור ולהבין את הדינמיקה הזו, נוכל לנווט טוב יותר בעולם הפיננסי המתפתח. אני תמיד אומרת: תפתחו את הראש, תחקרו, ותראו איך אתן יכולות להיות חלק מהעתיד הזה!",
-      "terms_he": [
-        {
-          "term": "SOL",
-          "explain": "המטבע הדיגיטלי של רשת סולאנה, המשמש לתשלום עמלות וכהשקעה."
-        },
-        {
-          "term": "DeFi",
-          "explain": "מימון מבוזר: מערכת פיננסית המבוססת על בלוקצ'יין, ללא צורך בגופים מתווכים מסורתיים."
-        },
-        {
-          "term": "NFTs",
-          "explain": "אסימונים בלתי ניתנים להחלפה: נכסים דיגיטליים ייחודיים המייצגים בעלות על פריט מסוים."
-        },
-        {
-          "term": "Forward Industries",
-          "explain": "חברה הנסחרת בבורסה, המחזיקה במאגרים גדולים של מטבעות דיגיטליים, כולל SOL."
-        }
-      ],
-      "points_he": [
-        "חברת Forward Industries רכשה כמות גדולה של מטבעות SOL (רשת סולאנה).",
-        "המהלך הוביל לעלייה במחיר מניית החברה בבורסה.",
-        "הוא מעיד על אמון גובר ברשת סולאנה וביעילותה.",
-        "החדשות מדגימות את הקשר בין שוקי הקריפטו לשוקי ההון המסורתיים."
-      ],
-      "meaning_he": "ההשקעה המשמעותית של Forward Industries ב-SOL מחזקת את מעמדה של רשת סולאנה כפלטפורמה מובילה, ומדגימה את הדרך שבה פעילות בשוק הקריפטו יכולה להשפיע ישירות על מניות של חברות ציבוריות.",
-      "gen_v": 2
-    },
-    {
       "id": "67rco8",
       "title": "SEC’s Peirce Sees Clarity Act Passing This Summer as Crypto Rules Take Shape",
       "link": "https://bitcoinmagazine.com/news/secs-peirce-sees-clarity-act-passing",
@@ -858,41 +848,6 @@
         "הדגש הוא על שווקים פתוחים, חינוך פיננסי והגנה מפני הונאות."
       ],
       "meaning_he": "התקדמות הרגולציה בארה\"ב, אם תצא לפועל, עשויה ליצור סביבה בטוחה וברורה יותר להשקעות בנכסים דיגיטליים. זהו צעד חשוב בהבשלת השוק ובהנגשתו לקהל רחב יותר, כולל נשים, המעוניינות להשקיע וללמוד.",
-      "gen_v": 2
-    },
-    {
-      "id": "1m4h7mj",
-      "title": "Taiwan Passes Crucial Crypto Law With Licensing Rules, Stablecoin Framework",
-      "link": "https://bitcoinmagazine.com/news/taiwan-passes-crucial-crypto-law",
-      "summary": "Bitcoin Magazine Taiwan Passes Crucial Crypto Law With Licensing Rules, Stablecoin Framework Taiwan passed its first comprehensive crypto law, creating a licensing regime for virtual asset firms, establishing stablecoin…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-07-01T14:07:47.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/07/Taiwan-Passes-Crucial-Crypto-Law-With-Licensing-Rules-Stablecoin-Framework.jpg",
-      "title_he": "טייוואן עושה צעד היסטורי: חוק קריפטו מקיף אושר, עם כללים לרישוי ומטבעות יציבים.",
-      "brief_he": "טייוואן אישרה חוק קריפטו ראשון מסוגו, המקים מסגרת רגולטורית ברורה לעסקי קריפטו ומטבעות יציבים, עם קנסות משמעותיים לאי-ציות.",
-      "commentary_he": "חברות וחברים יקרים,\n\nאני כל כך שמחה לחלוק איתכן חדשות מעודדות מהחזית הרגולטורית! טייוואן, אי קטן באסיה עם כלכלה טכנולוגית מתקדמת, עשתה צעד משמעותי קדימה באימוץ עולם הקריפטו. לאחרונה, בית המחוקקים שלה אישר חוק מקיף ראשון מסוגו, שמטרתו להסדיר את שוק הנכסים הדיגיטליים במדינה. זהו צעד חשוב שמראה מגמה גלובלית של ממשלות שמנסות להבין ולשלב את הטכנולוגיה הזו בצורה אחראית.\n\nאז מה החוק החדש אומר? ראשית, הוא מקים מסגרת רישוי ברורה לכל ספקי שירותי הנכסים הדיגיטליים (Virtual Asset Service Providers) הפועלים במדינה. זה אומר שחברות כמו בורסות קריפטו, פלטפורמות מסחר, שירותי משמורת והלוואות, יצטרכו לקבל אישור מהרגולטור הפיננסי של טייוואן (FSC) כדי לפעול באופן חוקי. זה צעד שנועד להגביר את השקיפות והאבטחה, ולהגן על המשקיעים מפני חברות לא רשמיות או הונאות.\n\nנקודה נוספת ומרכזית בחוק היא המסגרת הרגולטורית הראשונה למטבעות יציבים (stablecoins). לפי הדיווח, מנפיקי מטבעות יציבים יצטרכו לקבל אישור גם מהבנק המרכזי וגם מה-FSC, להחזיק רזרבות מלאות עבור המטבעות שהם מנפיקים, ולהיות כפופים לביקורות קבועות. בנוסף, החוק מגביל את ההנפקה של מטבעות יציבים מקומיים לבנקים בלבד, מה שמחבר את הענף המתפתח הזה למערכת הפיננסית המסורתית והמוכרת.\n\nהחוק גם לא חוסך בעונשים. לפי הפרסום, הפעלת שירותי קריפטו ללא רישיון, או הנפקת מטבע יציב ללא אישור, עלולה להוביל לעונשי מאסר של עד שבע שנים וקנסות כבדים. עבירות כמו הונאה ומניפולציות שוק נושאות עונשים חמורים אף יותר. המטרה היא ברורה: ליצור סביבה בטוחה למשקיעים, מבלי לחנוק את החדשנות.\n\nזה מרגש לראות איך מדינות ברחבי העולם, וטייוואן בפרט, מתקדמות לעבר הסדרה ברורה של עולם הקריפטו. זה מראה שהטכנולוגיה הזו אינה רק טרנד חולף, אלא חלק מהעתיד הפיננסי. כמובן, תמיד חשוב לזכור שגם במסגרת רגולטורית, השקעה בקריפטו כרוכה בסיכונים, והבנה מעמיקה היא המפתח.",
-      "terms_he": [
-        {
-          "term": "נכסים דיגיטליים",
-          "explain": "נכסים המבוססים על טכנולוגיית בלוקצ'יין, כגון מטבעות קריפטוגרפיים ו-NFTs."
-        },
-        {
-          "term": "מטבעות יציבים (stablecoins)",
-          "explain": "מטבעות קריפטוגרפיים שמחירם צמוד לנכס יציב, כמו הדולר האמריקאי."
-        },
-        {
-          "term": "FSC (Financial Supervisory Commission)",
-          "explain": "הרשות הפיקוח הפיננסי של טייוואן."
-        }
-      ],
-      "points_he": [
-        "טייוואן אישרה חוק קריפטו מקיף, הכולל רישוי לספקי שירותי נכסים דיגיטליים.",
-        "החוק מציג מסגרת רגולטורית ראשונה למטבעות יציבים (stablecoins).",
-        "מופעלים עונשים משמעותיים, כולל מאסר, על פעילות לא מורשית.",
-        "החוק נועד לאזן בין הגנה על משקיעים לבין עידוד חדשנות בתחום."
-      ],
-      "meaning_he": "החקיקה בטייוואן היא דוגמה נוספת למגמה גלובלית של הסדרת שוק הקריפטו, ומצביעה על התבגרות התחום. זה מחזק את הלגיטימיות של הטכנולוגיה ומספק ודאות רבה יותר למשקיעים ולחברות, צעד שאנו, כקהילה, מברכות עליו.",
       "gen_v": 2
     },
     {
