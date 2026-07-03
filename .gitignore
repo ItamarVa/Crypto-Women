@@ -47,5 +47,6 @@ lighthouse-report/
 graphify-out/
 src/graphify-out/
 
-# blog auto-import ledger (machine-local source paths)
+# blog auto-import ledger (machine-local source paths) + watcher log
 scripts/.blog-imported.json
+scripts/watcher/watcher.log

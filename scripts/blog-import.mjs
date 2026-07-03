@@ -48,8 +48,14 @@ const SUPPORTED = new Set([
 // Google-native Drive files are JSON pointer stubs, not real content.
 const GOOGLE_STUBS = new Set(['.gdoc', '.gsheet', '.gslides']);
 
-const log = (...a) => console.log(...a);
-const warn = (...a) => console.warn('  ⚠', ...a);
+// Mirror all output to a log file too — when the watcher runs as a headless
+// scheduled task there is no console, so the log is the only way to see errors.
+const LOG_FILE = path.join(__dirname, 'watcher', 'watcher.log');
+function fileLog(line) {
+  try { fs.appendFileSync(LOG_FILE, `[${new Date().toISOString()}] ${line}\n`); } catch { /* ignore */ }
+}
+const log = (...a) => { const s = a.join(' '); console.log(s); fileLog(s); };
+const warn = (...a) => { const s = a.join(' '); console.warn('  ⚠', s); fileLog('WARN ' + s); };
 
 // ── helpers ────────────────────────────────────────────────────────────────
 
@@ -248,7 +254,9 @@ function publish(result) {
     return;
   }
   try {
-    git(['add', '--', result.file, LEDGER_PATH]);
+    // Only stage the blog post. The ledger (scripts/.blog-imported.json) is
+    // gitignored/machine-local — adding it makes `git add` error out and abort.
+    git(['add', '--', result.file]);
     // Nothing staged? bail quietly.
     try {
       git(['diff', '--cached', '--quiet']);
@@ -270,7 +278,8 @@ function publish(result) {
     }
     log(`  ↑ published ${result.slug} → deploy triggered.`);
   } catch (e) {
-    warn(`git publish failed for ${result.slug}: ${String(e.message).slice(0, 200)}`);
+    const detail = [e.message, e.stderr, e.stdout].filter(Boolean).join(' | ').replace(/\s+/g, ' ');
+    warn(`git publish failed for ${result.slug}: ${detail.slice(0, 500)}`);
   }
 }
 
