@@ -63,9 +63,13 @@ const MAX_ARTICLE_CHARS = 5000;
 // old short summary), so we keep chunks small (4) to stay under the 90s timeout.
 const GEN_CHUNK_SIZE = Number(process.env.GEN_CHUNK_SIZE) || 3;
 // Reject a generated article that came back too short so it isn't marked as done
-// — the previous content stays visible and it retries next run. Set near the 500
-// target (with slack) to enforce the length requirement, not just catch truncation.
-const MIN_COMMENTARY_WORDS = 470;
+// — the previous content stays visible and it retries next run. gemini-2.5-flash
+// caps out around 420-470 words even with the 5-paragraph scaffolding (it under-
+// produces, not truncates), so a 470 floor rejected most generations. Set to 450:
+// a realistic floor for flash that's still far above the old ~390, per the user's
+// choice to keep flash rather than pay for gemini-2.5-pro. Raise this only if the
+// model is upgraded.
+const MIN_COMMENTARY_WORDS = 450;
 
 // --- tiny helpers -------------------------------------------------
 
