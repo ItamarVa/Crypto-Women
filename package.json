@@ -9,7 +9,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "blog:import": "node scripts/blog-import.mjs",
+    "blog:watch": "node scripts/blog-import.mjs --watch"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.18",
@@ -17,5 +19,8 @@
     "astro": "^6.4.4",
     "lightweight-charts": "^5.2.0",
     "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "chokidar": "^5.0.0"
   }
 }

@@ -50,7 +50,11 @@ const GEMINI_TIMEOUT_MS = 90000;
 // v4 = fixes v3 truncation (gemini-2.5-flash "thinking" ate the output-token
 // budget → short/empty articles); thinking capped + maxOutputTokens raised +
 // a length guard that rejects short generations.
-const CONTENT_VERSION = 4;
+// v5 = length adherence: v4 was NOT token-truncated (maxOutputTokens is huge) —
+// gemini-2.5-flash simply under-produced (~390 words avg, all < 500). Prompt now
+// scaffolds five distinct developed paragraphs + a firm ~600 target, and the
+// length guard is raised so short generations retry instead of passing.
+const CONTENT_VERSION = 5;
 // Full-article fetch (richer source material for the original Hebrew summary).
 const ARTICLE_TIMEOUT_MS = 12000;
 const MAX_ARTICLE_CHARS = 5000;
@@ -58,9 +62,10 @@ const MAX_ARTICLE_CHARS = 5000;
 // The output is now a full 450-700 word article per item (much larger than the
 // old short summary), so we keep chunks small (4) to stay under the 90s timeout.
 const GEN_CHUNK_SIZE = Number(process.env.GEN_CHUNK_SIZE) || 3;
-// Reject a generated article that came back too short (truncated/empty JSON) so
-// it isn't marked as done — the old content stays as fallback and it retries.
-const MIN_COMMENTARY_WORDS = 300;
+// Reject a generated article that came back too short so it isn't marked as done
+// — the previous content stays visible and it retries next run. Set near the 500
+// target (with slack) to enforce the length requirement, not just catch truncation.
+const MIN_COMMENTARY_WORDS = 470;
 
 // --- tiny helpers -------------------------------------------------
 
@@ -277,11 +282,12 @@ STYLE:
 - Educational framing, NOT financial advice. No buy/sell recommendations.
 - Keep well-known coins in Hebrew (ביטקוין, את'ריום); keep terms like DeFi/NFT/stablecoin/ETF/Web3 as-is. Don't translate company/product/people names.
 - Vary tone, opening and structure across the different items — do NOT reuse a template, a stock opener, or a formulaic closing sentence.
+- LENGTH IS PART OF THE TASK: every article must be a full 500-700 word piece (about five developed paragraphs). Short 300-400 word write-ups will be rejected. Reach real depth through concrete detail and context — never through padding or repetition.
 
 For each item return these fields (all Hebrew):
 - title_he: an ORIGINAL Hebrew headline that is NOT identical to the source headline.
 - brief_he: ONE short sentence summarizing the story, for a card.
-- commentary_he: the article body, 500-700 words (never under 500), written as flowing paragraphs separated by \\n\\n. It must contain, in this order: (1) a short opener explaining what happened and why it matters; (2) the main body — the story, the key facts, the concrete figures, and the background; (3) a short closing paragraph with a clear takeaway. Write in the measured, professional community voice described above — not gushing, no formulaic self-reminders. Do NOT put a headline, bullet points, or the disclaimer inside this field.
+- commentary_he: the article body — a DEVELOPED piece of 500-700 words, TARGET ~600. This is a hard requirement: a 300-400 word summary is NOT acceptable; keep writing until the article is genuinely full. Write it as FIVE substantial paragraphs (each a real, multi-sentence paragraph, not one line), separated by \\n\\n, each covering a DISTINCT facet so the article naturally reaches full length: (1) an opener — what happened and why it matters to the reader; (2) the core facts and the concrete figures from the source (prices, %, sums, dates, valuations), attributed; (3) the background and context that make the story understandable to a non-expert; (4) the wider picture — implications, the risks presented honestly, or a second angle; (5) a short closing paragraph with a clear, grounded takeaway. Develop each paragraph fully with explanation — do NOT stop short. Write in the measured, professional community voice described above — not gushing, no formulaic self-reminders. Do NOT put a headline, bullet points, or the disclaimer inside this field.
 - terms_he: array of professional terms that appear, each {term: the term, explain: a one-line plain-Hebrew explanation}. Include only genuinely non-obvious terms; return an empty array if none are needed.
 - points_he: array of 3-5 short key points / practical takeaways for the crypto audience (only if it suits the topic; otherwise 3).
 - meaning_he: 1-2 sentences — why this specifically matters to the readers/community (the global significance, and the Israeli angle only if there is a genuine one).

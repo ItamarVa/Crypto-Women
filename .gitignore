@@ -46,3 +46,6 @@ lighthouse-report/
 # graphify tool output
 graphify-out/
 src/graphify-out/
+
+# blog auto-import ledger (machine-local source paths)
+scripts/.blog-imported.json
