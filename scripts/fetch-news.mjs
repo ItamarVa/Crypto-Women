@@ -32,6 +32,10 @@ const MAX_ITEMS = 60;
 const MAX_PER_SOURCE = 12;
 
 // Gemini (AI Studio) — only runs when GEMINI_API_KEY is set (CI).
+// gemini-2.5-flash is the quality/speed sweet spot for a 500-700 word original
+// article with data. flash-lite is too thin for this; pro risks the 90s timeout.
+// NOTE: a repo Variable GEMINI_MODEL overrides this — set it to gemini-2.5-flash
+// (or delete it) so the feed uses this model.
 const DEFAULT_GEMINI_MODEL = 'gemini-2.5-flash';
 const GEMINI_MODEL = process.env.GEMINI_MODEL || DEFAULT_GEMINI_MODEL;
 // Try the configured model first; if it's unavailable (e.g. a retired/typo'd
@@ -40,8 +44,10 @@ const MODEL_CANDIDATES = [...new Set([GEMINI_MODEL, DEFAULT_GEMINI_MODEL])];
 const GEMINI_TIMEOUT_MS = 90000;
 // Bump when the generated-content format changes — cached items whose stored
 // gen_v differs are regenerated once (then stay cached). v2 = full 450-700 word
-// original article + terms glossary (replaced the old short-summary format).
-const CONTENT_VERSION = 2;
+// original article + terms glossary. v3 = more measured/professional tone (less
+// gushing first-person, no formulaic self-reminders), 500-700 words, includes
+// concrete figures from the source.
+const CONTENT_VERSION = 3;
 // Full-article fetch (richer source material for the original Hebrew summary).
 const ARTICLE_TIMEOUT_MS = 12000;
 const MAX_ARTICLE_CHARS = 5000;
@@ -221,12 +227,16 @@ async function fetchArticleText(url) {
 // Grounded ONLY in the title + snippet (+ best-effort full text) we hold; we
 // never copy the source. On any failure returns [] so the page falls back.
 
-// Keren's voice, distilled from the site's own About/blog copy.
-const VOICE = `Write as Keren Waldman Hanan (קרן ולדמן חנן), founder of the "Crypto Women" (קריפטו וומן) community.
-Her voice: warm, personal, first-person feminine Hebrew, speaking directly to her community of women (and men) as "חברות"/"אתן".
-She demystifies crypto and investing, is encouraging and empowering, mission-driven (bringing more women into investing, "לנפץ תקרות זכוכית").
-She is an industrial engineer + MBA, crypto investor since 2017. Tone is intimate, optimistic, plain-spoken — never hype, never financial advice.
-Typical phrasing: "אני ממש שמחה שאת כאן", "לקפוץ למים", "ככל שלומדים יותר, פחות מפחדים", "תפתחו את הראש, תלמדו, תחקרו".`;
+// The Crypto Women editorial voice — professional and measured (updated per the
+// site owner's feedback: less gushing, no formulaic self-reminders).
+const VOICE = `Write for the "Crypto Women" (קריפטו וומן) community, founded by Keren Waldman Hanan (קרן ולדמן חנן) — an industrial engineer + MBA and crypto investor since 2017.
+The voice is a knowledgeable, level-headed guide: professional, clear and quietly warm, but MEASURED — never gushing, never hype. You explain crypto, blockchain and investing at eye level to readers (women and men) who are curious but not necessarily technical.
+Write mostly in a calm, informative, journalistic register. A light touch of community warmth is fine (an occasional "אנחנו", a direct address) but keep it restrained and grown-up — the substance carries the piece, not the emotion.
+AVOID, strictly:
+- Effusive excitement: "אני ממש שמחה", "אני מתרגשת", "כמה מרגש", exclamation-heavy openings.
+- Terms of endearment / over-familiarity: "חברות יקרות", "אוהבת אתכן", "מתוקות".
+- Formulaic personal reminders or stock reflective sentences reused across articles — e.g. anything like "אני מזכירה לעצמי תמיד…", "כמו שאני תמיד אומרת…". Vary every opener and closer; never fall into a repeated template.
+Stay educational — never financial advice.`;
 
 async function generateBatch(items) {
   const key = process.env.GEMINI_API_KEY;
@@ -254,16 +264,18 @@ COPYRIGHT — non-negotiable. You MUST:
 - If a detail is not clearly in the source, do NOT add it and do NOT guess. If the source is thin, stay general — never fabricate facts, numbers, dates, quotes or anecdotes.
 
 STYLE:
-- Clear, substantive and engaging; natural, professional, community Hebrew at eye level, no heavy jargon.
-- Comprehensive enough to convey the story, background and meaning — but not long or hard to read.
-- Don't be alarmist, but present risks honestly. Make no promises/guarantees. No exaggerated clickbait headlines. Don't present opinion as fact; if you offer interpretation, frame it as interpretation ("נראה ש…", "ייתכן ש…").
+- Clear, substantive and professional; natural community Hebrew at eye level, measured tone, no heavy jargon and no gushing.
+- Comprehensive: convey the full story, the background and the meaning. Prefer depth and concrete detail over emotion.
+- INCLUDE THE NUMBERS: whenever the source gives concrete figures — prices, percentages, dates, sums, amounts raised, market caps, user counts, valuations — weave the important ones into the article; they are what make it credible and useful. Always attribute them ("לפי הדיווח", "על פי הפרסום"). NEVER invent, round-guess or extrapolate a number that isn't in the source.
+- Don't be alarmist, but present risks honestly. Make no promises/guarantees. No clickbait headlines. Don't present opinion as fact; frame interpretation as interpretation ("נראה ש…", "ייתכן ש…").
 - Educational framing, NOT financial advice. No buy/sell recommendations.
 - Keep well-known coins in Hebrew (ביטקוין, את'ריום); keep terms like DeFi/NFT/stablecoin/ETF/Web3 as-is. Don't translate company/product/people names.
+- Vary tone, opening and structure across the different items — do NOT reuse a template, a stock opener, or a formulaic closing sentence.
 
 For each item return these fields (all Hebrew):
 - title_he: an ORIGINAL Hebrew headline that is NOT identical to the source headline.
 - brief_he: ONE short sentence summarizing the story, for a card.
-- commentary_he: the article body, 450-700 words, written as flowing paragraphs separated by \\n\\n. It must contain, in this order: (1) a short opener explaining what happened and why it matters; (2) the main body — the story, the key facts and the background; (3) a short closing paragraph with a clear takeaway. Write it in Keren's warm first-person community voice. Do NOT put a headline, bullet points, or the disclaimer inside this field.
+- commentary_he: the article body, 500-700 words (never under 500), written as flowing paragraphs separated by \\n\\n. It must contain, in this order: (1) a short opener explaining what happened and why it matters; (2) the main body — the story, the key facts, the concrete figures, and the background; (3) a short closing paragraph with a clear takeaway. Write in the measured, professional community voice described above — not gushing, no formulaic self-reminders. Do NOT put a headline, bullet points, or the disclaimer inside this field.
 - terms_he: array of professional terms that appear, each {term: the term, explain: a one-line plain-Hebrew explanation}. Include only genuinely non-obvious terms; return an empty array if none are needed.
 - points_he: array of 3-5 short key points / practical takeaways for the crypto audience (only if it suits the topic; otherwise 3).
 - meaning_he: 1-2 sentences — why this specifically matters to the readers/community (the global significance, and the Israeli angle only if there is a genuine one).

@@ -84,18 +84,20 @@ const description =
         </div>
         <div class="highlights-grid">
           {featured.map((item, i) => (
-            <a href={articleHref(item)} class={`highlight-card ${i === 0 ? 'highlight-card--lead' : ''}`}>
-              <div class="highlight-media">
-                <span class="highlight-fallback" style={`--c:${colorFor(item.source)}`}>
-                  <span class="fallback-glyph" aria-hidden="true">₿</span>
-                  <span class="fallback-src">{item.source}</span>
-                </span>
-              </div>
-              <div class="highlight-content">
+            <a
+              href={articleHref(item)}
+              class={i === 0 ? 'feat-lead' : 'feat-side'}
+              style={`--c:${colorFor(item.source)}`}
+              dir={dirFor(item)}
+            >
+              {i === 0 && <span class="feat-watermark" aria-hidden="true">₿</span>}
+              <div class="feat-inner">
                 <span class="src-badge" style={`--c:${colorFor(item.source)}`}>{item.source}</span>
-                <h3 class="highlight-h" dir={dirFor(item)}>{heTitle(item)}</h3>
-                {i === 0 && heBrief(item) && <p class="highlight-desc" dir={dirFor(item)}>{heBrief(item)}</p>}
-                {item.date && <time class="news-time" datetime={item.date} data-ts={item.date}>{fmtDate(item.date)}</time>}
+                <h3 class={i === 0 ? 'feat-lead-h' : 'feat-side-h'}>{heTitle(item)}</h3>
+                {i === 0 && heBrief(item) && <p class="feat-dek">{heBrief(item)}</p>}
+                {item.date && (
+                  <time class="news-time" datetime={item.date} data-ts={item.date}>{fmtDate(item.date)}</time>
+                )}
               </div>
             </a>
           ))}
@@ -121,17 +123,11 @@ const description =
         </div>
         <div class="news-grid">
           {rest.map((item) => (
-            <a href={articleHref(item)} class="news-card">
-              <div class="news-card-media">
-                <span class="news-card-fallback" style={`--c:${colorFor(item.source)}`}>
-                  <span class="fallback-glyph" aria-hidden="true">₿</span>
-                  <span class="fallback-src">{item.source}</span>
-                </span>
-              </div>
+            <a href={articleHref(item)} class="news-card" style={`--c:${colorFor(item.source)}`} dir={dirFor(item)}>
               <div class="news-card-body">
                 <span class="src-badge src-badge--sm" style={`--c:${colorFor(item.source)}`}>{item.source}</span>
-                <h3 class="news-card-h" dir={dirFor(item)}>{heTitle(item)}</h3>
-                {heBrief(item) && <p class="news-card-brief" dir={dirFor(item)}>{heBrief(item)}</p>}
+                <h3 class="news-card-h">{heTitle(item)}</h3>
+                {heBrief(item) && <p class="news-card-brief">{heBrief(item)}</p>}
                 {item.date && <time class="news-time" datetime={item.date} data-ts={item.date}>{fmtDate(item.date)}</time>}
               </div>
             </a>
@@ -222,77 +218,107 @@ const description =
     font-variant-numeric: tabular-nums;
   }
 
-  /* HIGHLIGHTS */
+  /* HIGHLIGHTS — text-first editorial (no images) */
   .highlights-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     grid-template-rows: auto auto;
     gap: var(--space-5);
   }
-  .highlight-card {
+
+  /* Lead: a filled, source-tinted feature tile carrying real content */
+  .feat-lead {
+    grid-row: 1 / 3;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    min-height: 340px;
+    border-radius: var(--radius-lg);
+    color: #fff;
+    background: linear-gradient(150deg, var(--c), color-mix(in srgb, var(--c) 52%, #1A0A2E));
+    box-shadow: var(--shadow-md);
+    transition: transform var(--transition-base), box-shadow var(--transition-base);
+  }
+  .feat-lead:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+    color: #fff;
+  }
+  .feat-watermark {
+    position: absolute;
+    inset-block-end: -3rem;
+    inset-inline-end: -1.5rem;
+    font-size: 15rem;
+    font-weight: 900;
+    line-height: 1;
+    opacity: 0.1;
+    pointer-events: none;
+    direction: ltr;
+  }
+  .feat-lead .feat-inner {
+    position: relative;
+    z-index: 1;
+    margin-block-start: auto; /* anchor content to the bottom */
     display: flex;
     flex-direction: column;
+    gap: var(--space-3);
+    padding: var(--space-8);
+    width: 100%;
+  }
+  .feat-lead .src-badge { background: rgba(255, 255, 255, 0.22); }
+  .feat-lead-h {
+    font-size: var(--text-3xl);
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    max-width: 20ch;
+  }
+  .feat-dek {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.88);
+    font-size: var(--text-base);
+    line-height: 1.6;
+    max-width: 42ch;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .feat-lead .news-time { color: rgba(255, 255, 255, 0.75); }
+
+  /* Side highlights: light cards with a source-color accent bar */
+  .feat-side {
+    position: relative;
+    display: flex;
     background: var(--color-bg-card);
     border: 1px solid var(--color-border-light);
+    border-inline-start: 4px solid var(--c);
     border-radius: var(--radius-lg);
-    overflow: hidden;
     box-shadow: var(--shadow-sm);
     transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
     color: inherit;
   }
-  .highlight-card:hover {
+  .feat-side:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
-    border-color: var(--color-primary);
     color: inherit;
   }
-  .highlight-card--lead {
-    grid-row: 1 / 3;
-  }
-  .highlight-media {
-    position: relative;
-    aspect-ratio: 16 / 9;
-    background: var(--color-bg-muted);
-    overflow: hidden;
-  }
-  /* Lead card spans two rows — let the image fill the extra height
-     instead of stretching the text block and leaving a gap. */
-  .highlight-card--lead .highlight-media { aspect-ratio: auto; flex: 1 1 auto; min-height: 320px; }
-  .highlight-card--lead .highlight-content { flex: 0 0 auto; }
-  .highlight-media img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: relative;
-    z-index: 1;
-  }
-  .highlight-fallback,
-  .news-card-fallback {
-    position: absolute;
-    inset: 0;
+  .feat-side .feat-inner {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: var(--space-1);
-    color: #fff;
-    background: linear-gradient(135deg, var(--c), color-mix(in srgb, var(--c) 55%, #1A0A2E));
-    direction: ltr;
+    gap: var(--space-2);
+    padding: var(--space-5);
+    width: 100%;
+  }
+  .feat-side-h {
+    font-size: var(--text-lg);
+    line-height: 1.35;
+    margin: 0;
+    color: var(--color-text);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
     overflow: hidden;
-    z-index: 0;
-  }
-  .fallback-glyph {
-    font-size: 3.5rem;
-    font-weight: 900;
-    line-height: 1;
-    opacity: 0.9;
-  }
-  .highlight-card--lead .fallback-glyph { font-size: 5rem; }
-  .fallback-src {
-    font-weight: 700;
-    font-size: var(--text-sm);
-    letter-spacing: 0.02em;
-    opacity: 0.95;
   }
   .news-card-brief {
     color: var(--color-text-muted);
@@ -303,26 +329,6 @@ const description =
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-  }
-  .highlight-content {
-    padding: var(--space-5);
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-3);
-    flex: 1;
-  }
-  .highlight-h {
-    font-size: var(--text-lg);
-    line-height: 1.35;
-    margin: 0;
-    color: var(--color-text);
-  }
-  .highlight-card--lead .highlight-h { font-size: var(--text-xl); }
-  .highlight-desc {
-    color: var(--color-text-muted);
-    font-size: var(--text-sm);
-    margin: 0;
-    line-height: 1.6;
   }
   .news-time { margin-block-start: auto; }
 
@@ -337,6 +343,7 @@ const description =
     flex-direction: column;
     background: var(--color-bg-card);
     border: 1px solid var(--color-border-light);
+    border-inline-start: 4px solid var(--c);
     border-radius: var(--radius-lg);
     overflow: hidden;
     box-shadow: var(--shadow-sm);
@@ -346,32 +353,18 @@ const description =
   .news-card:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
-    border-color: var(--color-primary);
     color: inherit;
   }
-  .news-card-media {
-    position: relative;
-    aspect-ratio: 16 / 9;
-    background: var(--color-bg-muted);
-    overflow: hidden;
-  }
-  .news-card-media img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: relative;
-    z-index: 1;
-  }
   .news-card-body {
-    padding: var(--space-4);
+    padding: var(--space-5);
     display: flex;
     flex-direction: column;
     gap: var(--space-2);
     flex: 1;
   }
   .news-card-h {
-    font-size: var(--text-base);
-    line-height: 1.4;
+    font-size: var(--text-lg);
+    line-height: 1.35;
     margin: 0;
     color: var(--color-text);
     /* clamp to 3 lines */
@@ -407,7 +400,8 @@ const description =
     .news-hero-inner { grid-template-columns: 1fr; gap: var(--space-8); }
     .news-lead { max-width: none; }
     .highlights-grid { grid-template-columns: 1fr; }
-    .highlight-card--lead { grid-row: auto; }
+    .feat-lead { grid-row: auto; min-height: 260px; }
+    .feat-lead-h { font-size: var(--text-2xl); }
   }
 </style>
 
