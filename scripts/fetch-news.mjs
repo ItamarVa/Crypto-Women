@@ -47,14 +47,20 @@ const GEMINI_TIMEOUT_MS = 90000;
 // original article + terms glossary. v3 = more measured/professional tone (less
 // gushing first-person, no formulaic self-reminders), 500-700 words, includes
 // concrete figures from the source.
-const CONTENT_VERSION = 3;
+// v4 = fixes v3 truncation (gemini-2.5-flash "thinking" ate the output-token
+// budget → short/empty articles); thinking capped + maxOutputTokens raised +
+// a length guard that rejects short generations.
+const CONTENT_VERSION = 4;
 // Full-article fetch (richer source material for the original Hebrew summary).
 const ARTICLE_TIMEOUT_MS = 12000;
 const MAX_ARTICLE_CHARS = 5000;
 // Generate in small chunks so each Gemini request stays well under the timeout.
 // The output is now a full 450-700 word article per item (much larger than the
 // old short summary), so we keep chunks small (4) to stay under the 90s timeout.
-const GEN_CHUNK_SIZE = Number(process.env.GEN_CHUNK_SIZE) || 4;
+const GEN_CHUNK_SIZE = Number(process.env.GEN_CHUNK_SIZE) || 3;
+// Reject a generated article that came back too short (truncated/empty JSON) so
+// it isn't marked as done — the old content stays as fallback and it retries.
+const MIN_COMMENTARY_WORDS = 300;
 
 // --- tiny helpers -------------------------------------------------
 
@@ -288,6 +294,12 @@ ${JSON.stringify(payloadItems, null, 2)}`;
     contents: [{ parts: [{ text: prompt }] }],
     generationConfig: {
       temperature: 0.7,
+      // gemini-2.5-flash runs "thinking" by default, which eats the output-token
+      // budget and truncated the JSON (articles came out short/empty). Cap the
+      // thinking budget and give the output plenty of room for a full 500-700
+      // word article per item (chunk of a few).
+      thinkingConfig: { thinkingBudget: 2048 },
+      maxOutputTokens: 24576,
       responseMimeType: 'application/json',
       responseSchema: {
         type: 'ARRAY',
@@ -396,7 +408,8 @@ async function generateAll(all) {
     const out = await generateBatch(chunk);
     chunk.forEach((it, j) => {
       const g = out[j];
-      if (g && g.title_he) {
+      const words = g?.commentary_he ? g.commentary_he.trim().split(/\s+/).length : 0;
+      if (g && g.title_he && words >= MIN_COMMENTARY_WORDS) {
         it.title_he = g.title_he;
         it.brief_he = g.brief_he || '';
         it.commentary_he = g.commentary_he || '';
@@ -407,6 +420,8 @@ async function generateAll(all) {
         it.meaning_he = g.meaning_he || '';
         it.gen_v = CONTENT_VERSION;
         done++;
+      } else if (g && g.title_he) {
+        console.warn(`  ↪ skipped "${it.source}" — commentary too short (${words} words); keeping fallback, will retry.`);
       }
     });
   }
