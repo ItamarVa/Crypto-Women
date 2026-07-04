@@ -16,9 +16,15 @@ type NewsItem = {
   image: string | null;
   title_he?: string | null;
   brief_he?: string | null;
+  commentary_he?: string | null;
 };
 
-const items = (news.items as NewsItem[]) ?? [];
+// Only surface items that have a successfully generated Hebrew article. Items
+// that failed to translate stay in news.json (retried on every run) but are kept
+// behind the scenes — we never show a raw English snippet in the feed.
+const items = ((news.items as NewsItem[]) ?? []).filter(
+  (it) => !!(it.commentary_he && it.commentary_he.trim()),
+);
 
 // Prefer the original Hebrew content; fall back to the source snippet.
 const heTitle = (it: NewsItem) => it.title_he || it.title;

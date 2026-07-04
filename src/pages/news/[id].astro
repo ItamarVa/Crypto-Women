@@ -22,7 +22,12 @@ type NewsItem = {
 
 export async function getStaticPaths() {
   const items = (news.items as NewsItem[]) ?? [];
-  return items.map((item) => ({ params: { id: item.id }, props: { item } }));
+  // Build a page only for items that have a generated Hebrew article. Untranslated
+  // items stay in news.json (retried each run) but get no public page — they are
+  // held behind the scenes until translation succeeds.
+  return items
+    .filter((item) => !!(item.commentary_he && item.commentary_he.trim()))
+    .map((item) => ({ params: { id: item.id }, props: { item } }));
 }
 
 const { item } = Astro.props as { item: NewsItem };

@@ -54,10 +54,26 @@ const GEMINI_TIMEOUT_MS = 90000;
 // gemini-2.5-flash simply under-produced (~390 words avg, all < 500). Prompt now
 // scaffolds five distinct developed paragraphs + a firm ~600 target, and the
 // length guard is raised so short generations retry instead of passing.
-const CONTENT_VERSION = 5;
+// v6 = source-material fix: 52% of source pages returned blocked/thin text
+// (The Defiant = Cloudflare 403, Decrypt = body outside <article> → 32 chars),
+// so the model had almost nothing to write from and padded with term-glossary
+// filler. extractReadable now falls back to a global <p> scan, and blocked/thin
+// pages are re-fetched through a reader proxy (r.jina.ai). The prompt also now
+// forbids turning the article into a glossary and caps the term list. Bumping
+// the version regenerates cached items once against the richer source text.
+const CONTENT_VERSION = 6;
 // Full-article fetch (richer source material for the original Hebrew summary).
 const ARTICLE_TIMEOUT_MS = 12000;
 const MAX_ARTICLE_CHARS = 5000;
+// A real browser UA — some CDNs serve a fuller page than to a bot UA.
+const BROWSER_UA =
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
+// Below this many chars we treat the direct fetch as blocked/thin and try the
+// reader proxy instead.
+const MIN_USABLE_ARTICLE_CHARS = 600;
+// Reader proxy renders JS and clears common bot walls (Cloudflare 403); it's
+// slower, so give it a longer timeout.
+const READER_TIMEOUT_MS = 20000;
 // Generate in small chunks so each Gemini request stays well under the timeout.
 // The output is now a full 450-700 word article per item (much larger than the
 // old short summary), so we keep chunks small (4) to stay under the 90s timeout.
@@ -190,20 +206,32 @@ async function fetchFeed(feed) {
 // Extracts the main readable text of an article page. Best-effort: returns ''
 // on paywall/block/timeout so the caller falls back to the RSS snippet.
 function extractReadable(html) {
-  let region = '';
-  const art = html.match(/<article[\s\S]*?<\/article>/i);
-  if (art) region = art[0];
-  else {
-    const main = html.match(/<main[\s\S]*?<\/main>/i);
-    region = main ? main[0] : html;
-  }
-  region = region
+  // Drop non-content elements up front so both paths below work on clean markup.
+  const clean = html
     .replace(/<(script|style|noscript|svg|header|footer|nav|aside|form)\b[\s\S]*?<\/\1>/gi, ' ')
     .replace(/<!--[\s\S]*?-->/g, ' ');
-  return stripHtml(region);
+  let region = '';
+  const art = clean.match(/<article[\s\S]*?<\/article>/i);
+  if (art) region = art[0];
+  else {
+    const main = clean.match(/<main[\s\S]*?<\/main>/i);
+    region = main ? main[0] : clean;
+  }
+  let text = stripHtml(region);
+  // Some sites (e.g. Decrypt) hydrate the body OUTSIDE a semantic <article>/<main>
+  // tag, so the region above strips down to almost nothing. Fall back to a global
+  // paragraph scan: collect every <p> that holds real prose and join them.
+  if (text.length < MIN_USABLE_ARTICLE_CHARS) {
+    const paras = [...clean.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
+      .map((m) => stripHtml(m[1]))
+      .filter((t) => t.length > 40);
+    const pText = paras.join('\n\n');
+    if (pText.length > text.length) text = pText;
+  }
+  return text;
 }
 
-async function fetchArticleText(url) {
+async function fetchDirect(url) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), ARTICLE_TIMEOUT_MS);
   try {
@@ -211,21 +239,54 @@ async function fetchArticleText(url) {
       signal: ctrl.signal,
       redirect: 'follow',
       headers: {
-        'User-Agent': 'CryptoWomenBot/1.0 (+https://itamarva.github.io/Crypto-Women)',
+        'User-Agent': BROWSER_UA,
         Accept: 'text/html,application/xhtml+xml',
+        'Accept-Language': 'en-US,en;q=0.9',
       },
     });
     if (!res.ok) return '';
     const ct = res.headers.get('content-type') || '';
     if (!ct.includes('html')) return '';
-    const html = await res.text();
-    const text = extractReadable(html);
-    return text.length > 400 ? text.slice(0, MAX_ARTICLE_CHARS) : '';
+    return extractReadable(await res.text());
   } catch {
     return '';
   } finally {
     clearTimeout(timer);
   }
+}
+
+// Reader proxy (Jina) — renders JS and clears bot walls (e.g. The Defiant's
+// Cloudflare 403). Free service; we send only public article URLs, never data.
+// Returns the article prose (strips the proxy's own metadata header).
+async function fetchViaReader(url) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), READER_TIMEOUT_MS);
+  try {
+    const res = await fetch('https://r.jina.ai/' + url, {
+      signal: ctrl.signal,
+      redirect: 'follow',
+      headers: { Accept: 'text/plain', 'User-Agent': BROWSER_UA },
+    });
+    if (!res.ok) return '';
+    let text = await res.text();
+    const marker = text.indexOf('Markdown Content:');
+    if (marker !== -1) text = text.slice(marker + 'Markdown Content:'.length);
+    return stripHtml(text);
+  } catch {
+    return '';
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function fetchArticleText(url) {
+  let text = await fetchDirect(url);
+  // Direct fetch blocked (403) or thin (JS-rendered shell) → try the reader proxy.
+  if (text.length < MIN_USABLE_ARTICLE_CHARS) {
+    const viaReader = await fetchViaReader(url);
+    if (viaReader.length > text.length) text = viaReader;
+  }
+  return text.length > 400 ? text.slice(0, MAX_ARTICLE_CHARS) : '';
 }
 
 // --- Original Hebrew content via Gemini ------------------------------
@@ -291,8 +352,8 @@ STYLE:
 For each item return these fields (all Hebrew):
 - title_he: an ORIGINAL Hebrew headline that is NOT identical to the source headline.
 - brief_he: ONE short sentence summarizing the story, for a card.
-- commentary_he: the article body — a DEVELOPED piece of 500-700 words, TARGET ~600. This is a hard requirement: a 300-400 word summary is NOT acceptable; keep writing until the article is genuinely full. Write it as FIVE substantial paragraphs (each a real, multi-sentence paragraph, not one line), separated by \\n\\n, each covering a DISTINCT facet so the article naturally reaches full length: (1) an opener — what happened and why it matters to the reader; (2) the core facts and the concrete figures from the source (prices, %, sums, dates, valuations), attributed; (3) the background and context that make the story understandable to a non-expert; (4) the wider picture — implications, the risks presented honestly, or a second angle; (5) a short closing paragraph with a clear, grounded takeaway. Develop each paragraph fully with explanation — do NOT stop short. Write in the measured, professional community voice described above — not gushing, no formulaic self-reminders. Do NOT put a headline, bullet points, or the disclaimer inside this field.
-- terms_he: array of professional terms that appear, each {term: the term, explain: a one-line plain-Hebrew explanation}. Include only genuinely non-obvious terms; return an empty array if none are needed.
+- commentary_he: the article body — a DEVELOPED piece of 500-700 words, TARGET ~600. This is a hard requirement: a 300-400 word summary is NOT acceptable; keep writing until the article is genuinely full. Write it as FIVE substantial paragraphs (each a real, multi-sentence paragraph, not one line), separated by \\n\\n, each covering a DISTINCT facet so the article naturally reaches full length: (1) an opener — what happened and why it matters to the reader; (2) the core facts and the concrete figures from the source (prices, %, sums, dates, valuations), attributed; (3) the background and context that make the story understandable to a non-expert; (4) the wider picture — implications, the risks presented honestly, or a second angle; (5) a short closing paragraph with a clear, grounded takeaway. Develop each paragraph fully with real substance — do NOT stop short. Write it as a flowing NEWS FEATURE: tell the story — what happened, the concrete figures, the context and the implications. Do NOT turn the article into a glossary or a chain of term-definitions; if a term genuinely needs clarifying, do it in half a sentence inline and move straight on. The depth and length must come from facts, context and analysis — NEVER from explaining jargon or from padding. Write in the measured, professional community voice described above — not gushing, no formulaic self-reminders. Do NOT put a headline, bullet points, or the disclaimer inside this field.
+- terms_he: a SMALL optional glossary — an array of AT MOST 3 genuinely non-obvious professional terms, each {term: the term, explain: a one-line plain-Hebrew explanation}. Strongly PREFER an empty array; never list more than 3, and never include terms that are obvious from context or already well-known (ביטקוין, בורסה, ארנק). The article body must stand on its own without this list.
 - points_he: array of 3-5 short key points / practical takeaways for the crypto audience (only if it suits the topic; otherwise 3).
 - meaning_he: 1-2 sentences — why this specifically matters to the readers/community (the global significance, and the Israeli angle only if there is a genuine one).
 
