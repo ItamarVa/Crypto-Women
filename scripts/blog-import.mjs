@@ -93,6 +93,10 @@ const GOOGLE_SA_KEY = process.env.GOOGLE_SA_KEY || path.join(__dirname, 'watcher
 // Cloud edits to a Google Doc DON'T touch the local stub, so chokidar never fires
 // for them — we poll Drive's modifiedTime on this interval to catch online edits.
 const GDOC_POLL_MS = Number(process.env.BLOG_GDOC_POLL_MS) || 10 * 60 * 1000;
+// Periodic self-healing rescan: catches events missed while Google Drive wasn't
+// mounted yet (the S4U task starts at boot; Drive only starts at user login), and
+// re-mirrors any backup that couldn't be written because G:\ wasn't up.
+const CATCHUP_MS = Number(process.env.BLOG_CATCHUP_MS) || 15 * 60 * 1000;
 
 const gdriveEnabled = () => fs.existsSync(GOOGLE_SA_KEY);
 
@@ -346,6 +350,23 @@ function mirrorToBackup(slug, content) {
     fs.writeFileSync(path.join(BACKUP_DIR, slug + '.md'), content);
   } catch (e) {
     warn(`backup write failed for ${slug}: ${String(e.message).slice(0, 120)}`);
+  }
+}
+
+/** Re-mirror any live post missing from the backup. Heals the case where the
+ *  backup (G:\My Drive) wasn't mounted yet when the post was first written —
+ *  e.g. the watcher started at boot before Google Drive came up post-login. */
+function healBackups() {
+  try {
+    ensureDir(BACKUP_DIR);
+    for (const name of fs.readdirSync(BLOG_DIR)) {
+      if (!name.endsWith('.md')) continue;
+      if (fs.existsSync(path.join(BACKUP_DIR, name))) continue;
+      mirrorToBackup(name.replace(/\.md$/, ''), fs.readFileSync(path.join(BLOG_DIR, name), 'utf8'));
+      log(`  ⧉ backup healed: ${name}`);
+    }
+  } catch (e) {
+    warn(`backup heal skipped (backup not available?): ${String(e.message).slice(0, 120)}`);
   }
 }
 
@@ -706,9 +727,10 @@ async function watch() {
   log(`   backup → ${BACKUP_DIR}`);
   log(`   date overrides → ${DATE_CSV}`);
   // Catch deletions that happened while the watcher was off (guarded internally),
-  // then apply any date overrides and refresh the CSV.
+  // then apply any date overrides, heal any missing backups, and refresh the CSV.
   reconcileDeletions(ledger);
   applyDateOverrides(ledger);
+  healBackups();
   writeOverridesCsv(ledger);
   const watcher = chokidar.watch(INBOX, {
     ignoreInitial: false,
@@ -765,6 +787,31 @@ async function watch() {
     }, GDOC_POLL_MS);
     timer.unref?.();
   }
+
+  // Self-healing rescan: import anything chokidar missed (e.g. files that only
+  // appeared once Google Drive mounted after login) and heal missing backups.
+  log(`   self-healing rescan → every ${Math.round(CATCHUP_MS / 60000)} min`);
+  const catchTimer = setInterval(() => {
+    try {
+      if (!fs.existsSync(INBOX)) {
+        warn('rescan: inbox not available yet (Drive not mounted?) — skipping.');
+        return;
+      }
+      for (const file of walk(INBOX)) {
+        // .gdoc changes are handled by the Drive poll above; skip here to avoid
+        // re-exporting every doc each pass. The overrides CSV isn't a post.
+        if (path.extname(file).toLowerCase() === '.gdoc' || isOverridesCsv(file)) continue;
+        onUpsert(file); // the hash guard makes unchanged files a no-op
+      }
+      reconcileDeletions(ledger);
+      healBackups();
+      applyDateOverrides(ledger);
+      writeOverridesCsv(ledger);
+    } catch (e) {
+      warn(`rescan: ${String(e.message).slice(0, 160)}`);
+    }
+  }, CATCHUP_MS);
+  catchTimer.unref?.();
 }
 
 /** One-time: mirror the existing posts into the inbox (by category) + backup,
