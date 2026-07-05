@@ -4,6 +4,7 @@ description: ""
 pubDate: 2024-09-25
 category: "בלוקצ'יין"
 tags: []
+draft: false
 ---
 
 # כנס שילוב נשים בתעשיית הבלוקצ'יין

@@ -4,6 +4,7 @@ description: ""
 pubDate: 2024-10-09
 category: "מיינדסט"
 tags: []
+draft: false
 ---
 
 - מחבר: [Crypto Women](https://cryptowomen-il.com/author/jdvxjymy/)

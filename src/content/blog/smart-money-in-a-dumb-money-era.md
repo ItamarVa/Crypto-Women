@@ -4,6 +4,7 @@ description: ""
 pubDate: 2025-03-09
 category: "השקעות"
 tags: []
+draft: false
 ---
 
 - מחבר: [Crypto Women](https://cryptowomen-il.com/author/jdvxjymy/)

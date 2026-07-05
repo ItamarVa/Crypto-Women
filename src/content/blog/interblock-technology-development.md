@@ -4,6 +4,7 @@ description: ""
 pubDate: 2024-07-02
 category: "בלוקצ'יין"
 tags: []
+draft: false
 ---
 
 - מחבר: [Crypto Women](https://cryptowomen-il.com/author/jdvxjymy/)

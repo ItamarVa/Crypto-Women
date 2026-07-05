@@ -4,6 +4,7 @@ description: ""
 pubDate: 2023-12-19
 category: "ביטקוין"
 tags: []
+draft: false
 ---
 
 - מחבר: [Crypto Women](https://cryptowomen-il.com/author/jdvxjymy/)
