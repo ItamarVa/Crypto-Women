@@ -7,7 +7,7 @@
 
 | בתיקייה | באתר |
 |---------|------|
-| מסמך **חדש** (Word/PDF/MD/TXT…) בתת-תיקיית קטגוריה | נוצר מאמר חדש |
+| מסמך **חדש** (Word/PDF/MD/TXT/**Google Doc**…) בתת-תיקיית קטגוריה | נוצר מאמר חדש |
 | מסמך קיים **שהשתנה** | המאמר מתעדכן (+ תאריך עדכון) |
 | מסמך **שנמחק** מהתיקייה | המאמר יורד מהאתר (אחרי גיבוי) |
 
@@ -50,10 +50,30 @@
 אם יש בה הרבה פחות מסמכים מהצפוי (Drive באמצע סנכרון), או אם נדרשות יותר מ-5 מחיקות
 בבת אחת (משתנה `BLOG_MAX_DELETE`). במקרים כאלה נרשמת אזהרה ל-`watcher.log` ואין מחיקה.
 
+## Google Docs (`.gdoc`) — פרסום אוטומטי
+קובץ `.gdoc` בתיקייה הוא רק **מצביע** ל-Google Docs (JSON, בלי תוכן). כשמוגדר
+מפתח **service-account** של Google Drive, ה-watcher מייצא את המסמך האמיתי ל-`.docx`
+דרך Drive API ומפרסם אותו כמו כל מסמך אחר — בלי ייצוא ידני.
+
+**עריכה אונליין:** עריכת המסמך ב-Google Docs לא נוגעת בקובץ המקומי, לכן ה-watcher
+בודק את Drive כל 10 דקות (`BLOG_GDOC_POLL_MS`) ומעדכן מאמרים ששונו אונליין.
+**תאריך פרסום** נלקח מתאריך היצירה ב-Drive (מדויק יותר מתאריך הסנכרון המקומי).
+
+### התקנה חד-פעמית (פעם אחת בלבד)
+1. [Google Cloud Console](https://console.cloud.google.com/) → צור/בחר פרויקט → הפעל **Google Drive API**.
+2. **IAM & Admin → Service Accounts** → צור service account → **Keys → Add key → JSON** → הורד.
+3. שמור את קובץ ה-JSON כ-**`scripts/watcher/gdrive-sa.json`** (כבר ב-`.gitignore` — סוד, לא נדחף).
+4. העתק את כתובת האימייל של ה-service account (למשל `xxx@project.iam.gserviceaccount.com`).
+5. ב-Google Drive של קרן: **שתף** את התיקייה `Blog - Crypto Women` עם אותו אימייל (הרשאת **Viewer**). זה מספיק — כל מסמך בתת-התיקיות יורש את השיתוף.
+
+זהו. משתנה סביבה `GOOGLE_SA_KEY` יכול להצביע על נתיב אחר במקום ברירת המחדל.
+בלי המפתח — קבצי `.gdoc` פשוט מדולגים עם אזהרה ל-`watcher.log` (שאר הסנכרון תקין).
+
 ## דרישות (מותקנות במחשב זה)
 `node`, `git`, `uv` + `markitdown` (`uv tool install "markitdown[all]"`).
+ל-`.gdoc`: חבילת `google-auth-library` (מותקנת) + `gdrive-sa.json` (ראה למעלה).
 
 ## הערות
-- מסמכי **Google Docs** מקומיים (`.gdoc`) הם קיצור-דרך בלבד — יש לייצא ל-`.docx`/`.pdf`.
+- `.gsheet` / `.gslides` (Sheets/Slides) מדולגים — אינם מאמרי בלוג.
 - לוג הרצה: `watcher.log` (בתיקייה זו).
 - לעצירה זמנית של הפרסום האוטומטי: `stop-watcher.bat`.

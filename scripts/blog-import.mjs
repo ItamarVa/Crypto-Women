@@ -80,7 +80,20 @@ const SUPPORTED = new Set([
   '.html', '.htm', '.pptx', '.rtf', '.odt', '.xlsx',
 ]);
 // Google-native Drive files are JSON pointer stubs, not real content.
-const GOOGLE_STUBS = new Set(['.gdoc', '.gsheet', '.gslides']);
+// .gdoc (Docs) we CAN publish — the Drive API exports it to .docx (see below);
+// .gsheet/.gslides aren't blog articles and stay skipped.
+const GOOGLE_STUBS = new Set(['.gsheet', '.gslides']);
+
+// A Google Doc (.gdoc) is a JSON pointer, not text. When a Drive service-account
+// key is present we export the real doc to .docx via the Drive API and publish it
+// like any other document; without the key we skip it with a helpful warning.
+const GDOC_EXPORT = path.join(__dirname, 'watcher', 'gdoc-export.mjs');
+const GOOGLE_SA_KEY = process.env.GOOGLE_SA_KEY || path.join(__dirname, 'watcher', 'gdrive-sa.json');
+// Cloud edits to a Google Doc DON'T touch the local stub, so chokidar never fires
+// for them — we poll Drive's modifiedTime on this interval to catch online edits.
+const GDOC_POLL_MS = Number(process.env.BLOG_GDOC_POLL_MS) || 10 * 60 * 1000;
+
+const gdriveEnabled = () => fs.existsSync(GOOGLE_SA_KEY);
 
 // Mirror all output to a log file too — when the watcher runs as a headless
 // scheduled task there is no console, so the log is the only way to see errors.
@@ -232,6 +245,45 @@ function convert(file) {
   }
 }
 
+// ── Google Docs (.gdoc) export via Drive API ─────────────────────────────────
+
+/** The doc id lives inside the .gdoc JSON stub Drive writes locally. */
+function readGdocId(file) {
+  try { return JSON.parse(fs.readFileSync(file, 'utf8')).doc_id || null; }
+  catch { return null; }
+}
+
+/** Run the export subprocess; returns Drive metadata {name, createdTime, modifiedTime}. */
+function runGdocExport(args) {
+  const stdout = execFileSync(process.execPath, [GDOC_EXPORT, '--key', GOOGLE_SA_KEY, ...args], {
+    encoding: 'utf8', windowsHide: true, maxBuffer: 8 * 1024 * 1024,
+  });
+  return JSON.parse(stdout.trim().split('\n').pop());
+}
+
+/** Cheap metadata-only fetch — used by the poller to detect upstream edits. */
+function gdocMeta(id) {
+  return runGdocExport(['--id', id, '--meta-only']);
+}
+
+/** Export a Google Doc to a temp .docx, convert to Markdown, return {raw, meta}. */
+function gdocToMarkdown(file) {
+  const id = readGdocId(file);
+  if (!id) { warn(`"${path.basename(file)}" — no doc_id in the .gdoc stub.`); return null; }
+  const tmp = path.join(os.tmpdir(), `gdoc-${id}.docx`);
+  try {
+    const meta = runGdocExport(['--id', id, '--out', tmp]);
+    const raw = convert(tmp);
+    return { raw, meta };
+  } catch (e) {
+    const detail = (e.stderr || e.message || '').toString().replace(/\s+/g, ' ').slice(0, 200);
+    warn(`Google Doc export failed "${path.basename(file)}": ${detail}`);
+    return null;
+  } finally {
+    try { fs.rmSync(tmp, { force: true }); } catch { /* may not exist */ }
+  }
+}
+
 function loadLedger() {
   try { return JSON.parse(fs.readFileSync(LEDGER_PATH, 'utf8')); }
   catch { return {}; }
@@ -377,16 +429,31 @@ function processFile(file, ledger) {
   const base = path.basename(file);
 
   if (base.startsWith('~$') || ext === '.tmp' || ext === '.crdownload') return null;
-  if (GOOGLE_STUBS.has(ext)) {
-    warn(`skipping Google stub "${base}" — export it to .docx or .pdf into the folder.`);
-    return null;
-  }
-  if (!SUPPORTED.has(ext)) return null;
 
+  const isGdoc = ext === '.gdoc';
+  let gmeta = null;
+  let raw;
+  if (isGdoc) {
+    if (!gdriveEnabled()) {
+      warn(`skipping Google Doc "${base}" — Drive service-account key missing (scripts/watcher/gdrive-sa.json). See watcher/README.md.`);
+      return null;
+    }
+    const r = gdocToMarkdown(file);
+    if (!r) return null;
+    raw = r.raw;
+    gmeta = r.meta;
+  } else if (GOOGLE_STUBS.has(ext)) {
+    warn(`skipping Google stub "${base}" — Sheets/Slides aren't blog articles.`);
+    return null;
+  } else if (!SUPPORTED.has(ext)) {
+    return null;
+  } else {
+    // Markdown is read directly (avoids markitdown mangling existing frontmatter);
+    // everything else is converted to Markdown first.
+    const md = ext === '.md' || ext === '.markdown';
+    raw = md ? fs.readFileSync(file, 'utf8') : convert(file);
+  }
   const isMd = ext === '.md' || ext === '.markdown';
-  // Markdown is read directly (avoids markitdown mangling existing frontmatter);
-  // everything else is converted to Markdown first.
-  const raw = isMd ? fs.readFileSync(file, 'utf8') : convert(file);
   if (!raw || raw.trim().length < 40) {
     warn(`skipping "${base}" — no usable text.`);
     return null;
@@ -431,7 +498,10 @@ function processFile(file, ledger) {
     const fallbackTitle = humanize(path.basename(base, ext));
     const t = extractTitleAndBody(raw, fallbackTitle);
     body = t.body;
-    const pubDate = prev ? new Date(prev.pubDate) : creationDate(file);
+    // A Google Doc's real creation date lives in Drive metadata, not the local
+    // stub's birthtime; prefer it so the first publish gets the true date.
+    const firstDate = gmeta?.createdTime ? new Date(gmeta.createdTime) : creationDate(file);
+    const pubDate = prev ? new Date(prev.pubDate) : firstDate;
     data = {
       title: t.title,
       description: makeExcerpt(body),
@@ -460,7 +530,7 @@ function processFile(file, ledger) {
   fs.writeFileSync(outFile, content);
   mirrorToBackup(slug, content);
 
-  ledger[file] = { slug, hash, pubDate: isoDate(basePubDate) };
+  ledger[file] = { slug, hash, pubDate: isoDate(basePubDate), ...(gmeta ? { gmodified: gmeta.modifiedTime } : {}) };
   saveLedger(ledger);
 
   const action = prev ? 'update' : 'import';
@@ -493,7 +563,10 @@ function reconcileDeletions(ledger) {
     warn('inbox missing — skipping deletion sync (safety).');
     return;
   }
-  const supported = [...walk(INBOX)].filter((f) => SUPPORTED.has(path.extname(f).toLowerCase()));
+  const supported = [...walk(INBOX)].filter((f) => {
+    const e = path.extname(f).toLowerCase();
+    return SUPPORTED.has(e) || e === '.gdoc';
+  });
   if (supported.length === 0) {
     warn('inbox has no documents — skipping deletion sync (Drive may be unsynced).');
     return;
@@ -619,7 +692,8 @@ async function watch() {
     }
   };
   const onUnlink = async (file) => {
-    if (!SUPPORTED.has(path.extname(file).toLowerCase())) return;
+    const e = path.extname(file).toLowerCase();
+    if (!SUPPORTED.has(e) && e !== '.gdoc') return;
     const entry = ledger[file];
     if (!entry) return; // not a document we imported
     // Drive can remove+re-add a file mid-sync — confirm it's really gone.
@@ -630,6 +704,31 @@ async function watch() {
   };
   watcher.on('add', onUpsert).on('change', onUpsert).on('unlink', onUnlink);
   watcher.on('error', (e) => warn(`watcher error: ${e}`));
+
+  // Editing a Google Doc online never rewrites the local .gdoc stub, so chokidar
+  // won't see it. Poll Drive's modifiedTime for tracked Google Docs and re-import
+  // the ones that changed upstream. Cheap: a metadata-only call per doc.
+  if (gdriveEnabled()) {
+    log(`   gdoc cloud-edit poll → every ${Math.round(GDOC_POLL_MS / 60000)} min`);
+    const timer = setInterval(() => {
+      for (const [file, entry] of Object.entries(ledger)) {
+        if (path.extname(file).toLowerCase() !== '.gdoc' || !fs.existsSync(file)) continue;
+        try {
+          const id = readGdocId(file);
+          if (!id) continue;
+          const meta = gdocMeta(id);
+          if (entry.gmodified && meta.modifiedTime === entry.gmodified) continue; // unchanged upstream
+          log(`  ⟳ Google Doc changed online: ${path.basename(file)}`);
+          onUpsert(file); // re-export + republish (the hash guard prevents no-op writes)
+          // Advance the marker even if content was identical, so we don't re-check forever.
+          if (ledger[file]) { ledger[file].gmodified = meta.modifiedTime; saveLedger(ledger); }
+        } catch (e) {
+          warn(`gdoc poll "${path.basename(file)}": ${String(e.message).slice(0, 160)}`);
+        }
+      }
+    }, GDOC_POLL_MS);
+    timer.unref?.();
+  }
 }
 
 /** One-time: mirror the existing posts into the inbox (by category) + backup,

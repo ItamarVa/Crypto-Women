@@ -50,3 +50,5 @@ src/graphify-out/
 # blog auto-import ledger (machine-local source paths) + watcher log
 scripts/.blog-imported.json
 scripts/watcher/watcher.log
+# Google Drive service-account key (secret — never commit)
+scripts/watcher/gdrive-sa.json
