@@ -13,8 +13,8 @@ REM     AppData\Roaming is NOT, because S4U doesn't load the roaming profile) --
 set "MARKITDOWN_BIN=D:\AI Projects\Crypto Women\tools\markitdown-venv\Scripts\markitdown.exe"
 
 cd /d "D:\AI Projects\Crypto Women\crypto-women-site"
-echo Starting Crypto Women blog watcher...
-echo Inbox: D:\AI Projects\Crypto Women\Blog - Crypto Women
+echo Starting Crypto Women blog CLOUD sync (pulls straight from Google Drive)...
+echo Source: Google Drive folder (no login / Drive-for-Desktop needed)
 echo (Close this window or run stop-watcher.bat to stop.)
 echo.
-node scripts\blog-import.mjs --watch
+node scripts\blog-import.mjs --drive

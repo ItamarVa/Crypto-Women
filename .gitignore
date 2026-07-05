@@ -47,8 +47,9 @@ lighthouse-report/
 graphify-out/
 src/graphify-out/
 
-# blog auto-import ledger (machine-local source paths) + watcher log
+# blog auto-import ledgers (machine-local) + watcher log
 scripts/.blog-imported.json
+scripts/.blog-drive-ledger.json
 scripts/watcher/watcher.log
 # Google Drive service-account key (secret — never commit)
 scripts/watcher/gdrive-sa.json

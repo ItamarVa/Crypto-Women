@@ -38,20 +38,33 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { listBlogFiles, exportDocMarkdown, downloadText, downloadBinary, DOC_MIME } from './watcher/drive-client.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..');
 // BLOG_OUT / BLOG_LEDGER let tests point these at a sandbox; production uses the defaults.
 const BLOG_DIR = process.env.BLOG_OUT || path.join(REPO_ROOT, 'src', 'content', 'blog');
 const LEDGER_PATH = process.env.BLOG_LEDGER || path.join(__dirname, '.blog-imported.json');
+// Cloud mode keeps its OWN ledger (keyed by Drive file id, not local path).
+const DRIVE_LEDGER_PATH = process.env.BLOG_DRIVE_LEDGER || path.join(__dirname, '.blog-drive-ledger.json');
+// The active ledger file — swapped to DRIVE_LEDGER_PATH when running cloud mode.
+let LEDGER_FILE = LEDGER_PATH;
 
 const INBOX = process.env.BLOG_INBOX || 'D:\\AI Projects\\Crypto Women\\Blog - Crypto Women';
-// Backup folder INSIDE Google Drive (G:\My Drive) — off-machine, survives a disk
-// failure, visible to Keren on drive.google.com. Keeps every article, forever.
-const BACKUP_DIR = process.env.BLOG_BACKUP || 'G:\\My Drive\\Blog Backup - Crypto Women';
+// Local backup folder on D: — always available at boot (no login needed, unlike
+// G:\My Drive which mounts only at user login). GitHub is the off-machine backup
+// (every post is committed with full history). Keeps every article, forever.
+const BACKUP_DIR = process.env.BLOG_BACKUP || 'D:\\AI Projects\\Crypto Women\\Blog Backup - Crypto Women';
 const NO_GIT = process.env.BLOG_NO_GIT === '1';
 const WATCH = process.argv.includes('--watch');
 const EXPORT = process.argv.includes('--export');
+// Cloud mode: pull the blog folder straight from Google Drive (no dependency on
+// Google Drive for Desktop / user login). This is the production mode.
+const DRIVE = process.argv.includes('--drive');
+const DRIVE_ONCE = process.argv.includes('--drive-once'); // one sync pass, then exit (testing)
+const DRIVE_SEED = process.argv.includes('--drive-seed'); // one-time: map current posts, no rewrite
+const DRIVE_FOLDER_ID = process.env.BLOG_DRIVE_FOLDER_ID || '1jg4ie1Cae6tRqPughuD6FKOiOCeLGL9x';
+const DRIVE_POLL_MS = Number(process.env.BLOG_DRIVE_POLL_MS) || 5 * 60 * 1000;
 // Never auto-delete more than this many posts in one reconciliation pass.
 const MAX_DELETE_PER_RUN = Number(process.env.BLOG_MAX_DELETE) || 5;
 // Give Drive a moment before treating an unlink as a real deletion.
@@ -325,11 +338,11 @@ function gdocToMarkdown(file) {
 }
 
 function loadLedger() {
-  try { return JSON.parse(fs.readFileSync(LEDGER_PATH, 'utf8')); }
+  try { return JSON.parse(fs.readFileSync(LEDGER_FILE, 'utf8')); }
   catch { return {}; }
 }
 function saveLedger(l) {
-  fs.writeFileSync(LEDGER_PATH, JSON.stringify(l, null, 2) + '\n');
+  fs.writeFileSync(LEDGER_FILE, JSON.stringify(l, null, 2) + '\n');
 }
 
 function uniqueSlug(base, wantedFile) {
@@ -478,7 +491,95 @@ function handleOverridesChanged(ledger) {
   writeOverridesCsv(ledger);
 }
 
-// ── core: process a single file ──────────────────────────────────────────────
+// ── core: turn extracted Markdown into a published post ──────────────────────
+
+/**
+ * Shared post-writer used by BOTH the local watcher and the cloud (Drive) sync.
+ * Given already-extracted Markdown `raw`, decide the metadata/slug, write the
+ * post, mirror the backup, record the ledger, and publish. Change-detection
+ * (hash) and unchanged-skip happen here too.
+ * @returns {null | {slug, file, action}}
+ */
+function commitPost({ raw, isMd, folderCat, prev, sourceKey, ledger, createdTimeHint, slugSeed, hashSeed, extraLedger, label }) {
+  if (!raw || raw.trim().length < 40) {
+    warn(`skipping "${label || slugSeed}" — no usable text.`);
+    return null;
+  }
+  const hash = sha256(raw);
+  if (prev && prev.hash === hash) return null; // unchanged
+
+  const cat = CATEGORIES.has(folderCat) ? folderCat : DEFAULT_CATEGORY;
+  const parsed = isMd ? parseFrontmatter(raw) : null;
+  const hasFm = !!(parsed && parsed.data && parsed.data.title);
+
+  let data;
+  let body;
+  let slug;
+
+  if (hasFm) {
+    // Markdown with real frontmatter → preserve its metadata; the FOLDER wins for
+    // category (the user's "category = sub-folder" rule).
+    body = parsed.body;
+    const category = CATEGORIES.has(folderCat)
+      ? folderCat
+      : (CATEGORIES.has(parsed.data.category) ? parsed.data.category : DEFAULT_CATEGORY);
+    const fmDate = parsed.data.pubDate;
+    const pubDate = fmDate instanceof Date && !Number.isNaN(fmDate.getTime())
+      ? fmDate
+      : (prev ? new Date(prev.pubDate) : createdTimeHint);
+    data = {
+      ...parsed.data,
+      category,
+      pubDate,
+      description: parsed.data.description || makeExcerpt(body),
+      tags: Array.isArray(parsed.data.tags) ? parsed.data.tags : [],
+      updatedDate: prev ? new Date() : parsed.data.updatedDate,
+      draft: !!parsed.data.draft,
+    };
+    slug = prev?.slug || slugSeed;
+    slug = uniqueSlug(slug, path.join(BLOG_DIR, slug + '.md'));
+  } else {
+    // A Google Doc / docx / frontmatter-less source → generate metadata.
+    const t = extractTitleAndBody(raw, humanize(slugSeed));
+    body = t.body;
+    const pubDate = prev ? new Date(prev.pubDate) : createdTimeHint;
+    data = {
+      title: t.title,
+      description: makeExcerpt(body),
+      pubDate,
+      updatedDate: prev ? new Date() : undefined,
+      category: cat,
+      tags: [],
+      draft: false,
+    };
+    slug = prev?.slug;
+    if (!slug) {
+      const fromName = slugify(slugSeed);
+      slug = fromName || `post-${isoDate(pubDate)}-${shortHash(hashSeed)}`;
+      slug = uniqueSlug(slug, null);
+    }
+  }
+
+  // The ledger keeps the ORIGINAL date; a CSV override (if any) only affects the
+  // date written into the post, so overrides survive edits and are reversible.
+  const basePubDate = data.pubDate;
+  const ov = loadOverrides()[slug];
+  const effDate = ov ? new Date(ov) : basePubDate;
+
+  const outFile = path.join(BLOG_DIR, slug + '.md');
+  const content = `${serializeFrontmatter({ ...data, pubDate: effDate })}\n\n${body}\n`;
+  fs.writeFileSync(outFile, content);
+  mirrorToBackup(slug, content);
+
+  ledger[sourceKey] = { slug, hash, pubDate: isoDate(basePubDate), ...(extraLedger || {}) };
+  saveLedger(ledger);
+
+  const action = prev ? 'update' : 'import';
+  log(`  ✓ ${action}: "${data.title}"  →  blog/${slug}.md  [${data.category}, ${isoDate(effDate)}${ov ? ' override' : ''}]`);
+  return { slug, file: outFile, action };
+}
+
+// ── core: process a single LOCAL file ────────────────────────────────────────
 
 /** @returns {null | {slug, file, action}} */
 function processFile(file, ledger) {
@@ -511,88 +612,19 @@ function processFile(file, ledger) {
     raw = md ? fs.readFileSync(file, 'utf8') : convert(file);
   }
   const isMd = ext === '.md' || ext === '.markdown';
-  if (!raw || raw.trim().length < 40) {
-    warn(`skipping "${base}" — no usable text.`);
-    return null;
-  }
-
-  const hash = sha256(raw);
-  const prev = ledger[file];
-  if (prev && prev.hash === hash) return null; // unchanged
-
-  const folderCat = categoryFor(file);
-  const parsed = isMd ? parseFrontmatter(raw) : null;
-  const hasFm = !!(parsed && parsed.data && parsed.data.title);
-
-  let data;
-  let body;
-  let slug;
-
-  if (hasFm) {
-    // Markdown with real frontmatter → preserve its metadata; the FOLDER wins for
-    // category (the user's "category = sub-folder" rule).
-    body = parsed.body;
-    const category = CATEGORIES.has(folderCat)
-      ? folderCat
-      : (CATEGORIES.has(parsed.data.category) ? parsed.data.category : DEFAULT_CATEGORY);
-    const fmDate = parsed.data.pubDate;
-    const pubDate = fmDate instanceof Date && !Number.isNaN(fmDate.getTime())
-      ? fmDate
-      : (prev ? new Date(prev.pubDate) : creationDate(file));
-    data = {
-      ...parsed.data,
-      category,
-      pubDate,
-      description: parsed.data.description || makeExcerpt(body),
-      tags: Array.isArray(parsed.data.tags) ? parsed.data.tags : [],
-      updatedDate: prev ? new Date() : parsed.data.updatedDate,
-      draft: !!parsed.data.draft,
-    };
-    slug = prev?.slug || path.basename(base, ext); // a .md's filename is its slug
-    slug = uniqueSlug(slug, path.join(BLOG_DIR, slug + '.md'));
-  } else {
-    // docx/pdf/txt or a frontmatter-less .md → generate metadata.
-    const fallbackTitle = humanize(path.basename(base, ext));
-    const t = extractTitleAndBody(raw, fallbackTitle);
-    body = t.body;
-    // A Google Doc's real creation date lives in Drive metadata, not the local
-    // stub's birthtime; prefer it so the first publish gets the true date.
-    const firstDate = gmeta?.createdTime ? new Date(gmeta.createdTime) : creationDate(file);
-    const pubDate = prev ? new Date(prev.pubDate) : firstDate;
-    data = {
-      title: t.title,
-      description: makeExcerpt(body),
-      pubDate,
-      updatedDate: prev ? new Date() : undefined,
-      category: folderCat,
-      tags: [],
-      draft: false,
-    };
-    slug = prev?.slug;
-    if (!slug) {
-      const fromName = slugify(path.basename(base, ext));
-      slug = fromName || `post-${isoDate(pubDate)}-${shortHash(file)}`;
-      slug = uniqueSlug(slug, null);
-    }
-  }
-
-  // The ledger keeps the ORIGINAL date; a CSV override (if any) only affects the
-  // date written into the post, so overrides survive edits and are reversible.
-  const basePubDate = data.pubDate;
-  const ov = loadOverrides()[slug];
-  const effDate = ov ? new Date(ov) : basePubDate;
-
-  const outFile = path.join(BLOG_DIR, slug + '.md');
-  const content = `${serializeFrontmatter({ ...data, pubDate: effDate })}\n\n${body}\n`;
-  fs.writeFileSync(outFile, content);
-  mirrorToBackup(slug, content);
-
-  ledger[file] = { slug, hash, pubDate: isoDate(basePubDate), ...(gmeta ? { gmodified: gmeta.modifiedTime } : {}) };
-  saveLedger(ledger);
-
-  const action = prev ? 'update' : 'import';
-  log(`  ✓ ${action}: "${data.title}"  →  blog/${slug}.md  [${data.category}, ${isoDate(effDate)}${ov ? ' override' : ''}]`);
-  return { slug, file: outFile, action };
+  return commitPost({
+    raw,
+    isMd,
+    folderCat: categoryFor(file),
+    prev: ledger[file],
+    sourceKey: file,
+    ledger,
+    createdTimeHint: gmeta?.createdTime ? new Date(gmeta.createdTime) : creationDate(file),
+    slugSeed: path.basename(base, ext),
+    hashSeed: file,
+    extraLedger: gmeta ? { gmodified: gmeta.modifiedTime } : undefined,
+    label: base,
+  });
 }
 
 /** Remove a post whose source document was deleted (its backup copy is kept). */
@@ -845,17 +877,185 @@ function exportExisting() {
   log(`Exported ${n} existing post(s) → inbox + backup, seeded ledger, wrote ${path.basename(DATE_CSV)}.`);
 }
 
+// ── cloud sync: pull the blog folder straight from Google Drive ──────────────
+
+/** Import/update one file fetched from Drive. @returns {Promise<null|{slug,file,action}>} */
+async function processDriveFile(f, ledger) {
+  const ext = path.extname(f.name).toLowerCase();
+  const isDoc = f.mimeType === DOC_MIME;
+  const prev = ledger[f.id];
+  // Drive gives us a reliable per-file modifiedTime → skip untouched files cheaply.
+  if (prev && prev.modifiedTime === f.modifiedTime) return null;
+
+  let raw;
+  let isMd = false;
+  if (isDoc) {
+    raw = await exportDocMarkdown(f.id, GOOGLE_SA_KEY);
+  } else if (ext === '.md' || ext === '.markdown') {
+    raw = await downloadText(f.id, GOOGLE_SA_KEY);
+    isMd = true;
+  } else if (SUPPORTED.has(ext)) {
+    const tmp = path.join(os.tmpdir(), `drive-${f.id}${ext}`);
+    try {
+      await downloadBinary(f.id, tmp, GOOGLE_SA_KEY);
+      raw = convert(tmp);
+    } finally {
+      try { fs.rmSync(tmp, { force: true }); } catch { /* ignore */ }
+    }
+  } else {
+    return null; // .gsheet/.gslides and other non-article types
+  }
+
+  return commitPost({
+    raw,
+    isMd,
+    folderCat: f.category,
+    prev,
+    sourceKey: f.id,
+    ledger,
+    createdTimeHint: f.createdTime ? new Date(f.createdTime) : new Date(),
+    slugSeed: isDoc ? f.name : path.basename(f.name, ext),
+    hashSeed: f.id,
+    extraLedger: { modifiedTime: f.modifiedTime, name: f.name },
+    label: f.name,
+  });
+}
+
+/** Delete posts whose Drive source vanished — same safety lock as the local sync. */
+function reconcileDriveDeletions(seenIds, ledger) {
+  if (seenIds.size === 0) {
+    warn('Drive listing empty — skipping deletion sync (safety).');
+    return;
+  }
+  const tracked = Object.keys(ledger).length;
+  if (tracked > 0 && seenIds.size < tracked * 0.5) {
+    warn(`Drive returned ${seenIds.size} files vs ${tracked} tracked — skipping deletion sync (partial listing?).`);
+    return;
+  }
+  const orphans = Object.entries(ledger).filter(([id]) => !seenIds.has(id));
+  if (orphans.length === 0) return;
+  if (orphans.length > MAX_DELETE_PER_RUN) {
+    warn(`${orphans.length} tracked files vanished (> limit ${MAX_DELETE_PER_RUN}) — skipping bulk deletion for safety.`);
+    return;
+  }
+  log(`Reconciling ${orphans.length} Drive deletion(s)…`);
+  for (const [id, entry] of orphans) removePost(entry.slug, id, ledger);
+}
+
+/** One full sync pass: list the Drive folder, import changes, prune deletions. */
+async function syncFromDrive(ledger) {
+  let files;
+  try {
+    files = await listBlogFiles(DRIVE_FOLDER_ID, GOOGLE_SA_KEY);
+  } catch (e) {
+    // A failed listing must NOT be read as "everything deleted" — skip this cycle.
+    warn(`Drive list failed — skipping this cycle: ${String(e.message).slice(0, 160)}`);
+    return;
+  }
+  const seen = new Set();
+  let changed = 0;
+  for (const f of files) {
+    seen.add(f.id);
+    try {
+      const res = await processDriveFile(f, ledger);
+      if (res) { publishChange(res.file, `blog: ${res.action} ${res.slug}`); changed++; }
+    } catch (e) {
+      warn(`Drive file "${f.name}": ${String(e.message).slice(0, 160)}`);
+    }
+  }
+  reconcileDriveDeletions(seen, ledger);
+  healBackups();
+  applyDateOverrides(ledger);
+  writeOverridesCsv(ledger);
+  if (changed) log(`Drive sync: ${changed} post(s) imported/updated.`);
+}
+
+/**
+ * One-time migration: seed the Drive ledger so switching to cloud mode does NOT
+ * rewrite the already-published posts. Maps each Drive file to its current
+ * published slug (byte-stable) and records the CURRENT content hash + modifiedTime
+ * so the first cloud sync treats everything as unchanged and only acts on genuinely
+ * new/edited docs afterwards. Google Docs are mapped to their existing slug via the
+ * old local ledger (so no duplicate post and no URL change).
+ */
+async function driveSeed() {
+  LEDGER_FILE = DRIVE_LEDGER_PATH;
+  if (!gdriveEnabled()) { warn('seed needs the Drive service-account key. Aborting.'); process.exitCode = 1; return; }
+  // Map Google-Doc name → existing published slug, from the OLD local ledger.
+  let oldLedger = {};
+  try { oldLedger = JSON.parse(fs.readFileSync(LEDGER_PATH, 'utf8')); } catch { /* none */ }
+  const docSlugByName = {};
+  for (const [key, entry] of Object.entries(oldLedger)) {
+    if (key.toLowerCase().endsWith('.gdoc')) {
+      docSlugByName[path.basename(key, path.extname(key))] = entry.slug;
+    }
+  }
+  const files = await listBlogFiles(DRIVE_FOLDER_ID, GOOGLE_SA_KEY);
+  const ledger = {};
+  let seeded = 0;
+  let unmatched = 0;
+  for (const f of files) {
+    const ext = path.extname(f.name).toLowerCase();
+    const isDoc = f.mimeType === DOC_MIME;
+    if (!isDoc && !SUPPORTED.has(ext)) continue;
+    let slug;
+    let raw;
+    if (isDoc) {
+      slug = docSlugByName[f.name];
+      if (!slug) { unmatched++; continue; } // unknown Doc → let the first sync import it fresh
+      raw = await exportDocMarkdown(f.id, GOOGLE_SA_KEY);
+    } else {
+      slug = path.basename(f.name, ext);
+      if (!fs.existsSync(path.join(BLOG_DIR, slug + '.md'))) { unmatched++; continue; }
+      raw = (ext === '.md' || ext === '.markdown') ? await downloadText(f.id, GOOGLE_SA_KEY) : null;
+    }
+    const pub = path.join(BLOG_DIR, slug + '.md');
+    const pubDate = fs.existsSync(pub)
+      ? isoDate(parseFrontmatter(fs.readFileSync(pub, 'utf8')).data.pubDate || new Date())
+      : (f.createdTime ? isoDate(new Date(f.createdTime)) : isoDate(new Date()));
+    ledger[f.id] = { slug, hash: raw != null ? sha256(raw) : null, pubDate, modifiedTime: f.modifiedTime, name: f.name };
+    seeded++;
+  }
+  saveLedger(ledger);
+  log(`Drive-ledger seeded: ${seeded} post(s) mapped to current state (${unmatched} left for first sync). No posts rewritten.`);
+}
+
+/** Cloud mode: poll Google Drive directly. No dependency on Drive-for-Desktop
+ *  or user login — runs headless from boot. */
+async function driveWatch() {
+  LEDGER_FILE = DRIVE_LEDGER_PATH;
+  if (!gdriveEnabled()) {
+    warn('cloud mode needs the Drive service-account key (scripts/watcher/gdrive-sa.json). Aborting.');
+    process.exitCode = 1;
+    return;
+  }
+  ensureDir(BACKUP_DIR);
+  const ledger = loadLedger();
+  log(`☁ Drive cloud sync every ${Math.round(DRIVE_POLL_MS / 60000)} min → folder ${DRIVE_FOLDER_ID}`);
+  log(`   backup → ${BACKUP_DIR}`);
+  log(`   date overrides → ${DATE_CSV}`);
+  await syncFromDrive(ledger);
+  if (DRIVE_ONCE) { log('Drive one-shot done.'); return; }
+  const timer = setInterval(() => {
+    syncFromDrive(ledger).catch((e) => warn(`Drive sync cycle failed: ${String(e.message).slice(0, 160)}`));
+  }, DRIVE_POLL_MS);
+  timer.unref?.();
+}
+
 // ── entry ────────────────────────────────────────────────────────────────────
 
 const invokedDirectly =
   path.resolve(process.argv[1] || '') === path.resolve(fileURLToPath(import.meta.url));
 if (invokedDirectly) {
   if (EXPORT) exportExisting();
+  else if (DRIVE_SEED) driveSeed();
+  else if (DRIVE || DRIVE_ONCE) driveWatch();
   else if (WATCH) watch();
   else oneShot();
 }
 
 export {
-  parseFrontmatter, serializeFrontmatter, processFile, reconcileDeletions,
+  parseFrontmatter, serializeFrontmatter, processFile, commitPost, reconcileDeletions,
   parseCsv, parseUserDate, loadOverrides, writeOverridesCsv, applyDateOverrides,
+  syncFromDrive, processDriveFile,
 };
