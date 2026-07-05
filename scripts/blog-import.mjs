@@ -46,8 +46,9 @@ const BLOG_DIR = process.env.BLOG_OUT || path.join(REPO_ROOT, 'src', 'content', 
 const LEDGER_PATH = process.env.BLOG_LEDGER || path.join(__dirname, '.blog-imported.json');
 
 const INBOX = process.env.BLOG_INBOX || 'D:\\AI Projects\\Crypto Women\\Blog - Crypto Women';
-// Synced backup folder (sibling of the inbox) — keeps every article, forever.
-const BACKUP_DIR = process.env.BLOG_BACKUP || 'D:\\AI Projects\\Crypto Women\\Blog Backup - Crypto Women';
+// Backup folder INSIDE Google Drive (G:\My Drive) — off-machine, survives a disk
+// failure, visible to Keren on drive.google.com. Keeps every article, forever.
+const BACKUP_DIR = process.env.BLOG_BACKUP || 'G:\\My Drive\\Blog Backup - Crypto Women';
 const NO_GIT = process.env.BLOG_NO_GIT === '1';
 const WATCH = process.argv.includes('--watch');
 const EXPORT = process.argv.includes('--export');
@@ -94,6 +95,33 @@ const GOOGLE_SA_KEY = process.env.GOOGLE_SA_KEY || path.join(__dirname, 'watcher
 const GDOC_POLL_MS = Number(process.env.BLOG_GDOC_POLL_MS) || 10 * 60 * 1000;
 
 const gdriveEnabled = () => fs.existsSync(GOOGLE_SA_KEY);
+
+// markitdown must be invoked without relying on PATH: under the headless task
+// (S4U) neither `uv` nor its bin dir is on PATH. The ~/.local/bin/markitdown.exe
+// shim is a uv "trampoline" that ALSO fails there ("failed to canonicalize script
+// path"), so we call the uv-tool venv's real python.exe with `-m markitdown` —
+// an absolute interpreter with no trampoline, which works headless.
+function resolveMarkitdown() {
+  if (process.env.MARKITDOWN_BIN) return { cmd: process.env.MARKITDOWN_BIN, pre: [] };
+  // Under S4U the loaded profile can be incomplete, so os.homedir()/USERPROFILE
+  // may not resolve to C:\Users\<user>. Try several bases; existsSync is a plain
+  // filesystem check, so the real path is found regardless of a bad env.
+  let username = 'Valdman';
+  try { username = os.userInfo().username || username; } catch { /* keep default */ }
+  const bases = [
+    os.homedir(),
+    process.env.USERPROFILE,
+    path.join(process.env.SystemDrive || 'C:', '\\Users', username),
+    `C:\\Users\\${username}`,
+  ].filter(Boolean);
+  const rel = ['AppData', 'Roaming', 'uv', 'tools', 'markitdown', 'Scripts', 'python.exe'];
+  for (const b of bases) {
+    const venvPy = path.join(b, ...rel);
+    if (fs.existsSync(venvPy)) return { cmd: venvPy, pre: ['-m', 'markitdown'] };
+  }
+  return null;
+}
+const MARKITDOWN = resolveMarkitdown();
 
 // Mirror all output to a log file too — when the watcher runs as a headless
 // scheduled task there is no console, so the log is the only way to see errors.
@@ -149,7 +177,10 @@ function extractTitleAndBody(md, fallbackTitle) {
     // A real heading — use it as the title and drop it from the body so the
     // article page (which already renders the title) isn't doubled.
     const body = lines.slice(i + 1).join('\n').trim();
-    return { title: headingMatch[1].trim(), body };
+    // Drive exports the H1 as `# **Title**`; strip wrapping bold/italic markers
+    // so the title isn't literally "**...**".
+    const title = headingMatch[1].trim().replace(/^[*_]+/, '').replace(/[*_]+$/, '').trim();
+    return { title: title || headingMatch[1].trim(), body };
   }
   // No heading: keep the body fully intact, take the title from the filename.
   return { title: fallbackTitle, body: md.replace(/\r\n/g, '\n').trim() };
@@ -230,12 +261,17 @@ function convert(file) {
   const env = { ...process.env, PYTHONUTF8: '1', PYTHONIOENCODING: 'utf-8' };
   const opts = { encoding: 'utf8', maxBuffer: 32 * 1024 * 1024, windowsHide: true, env };
   try {
-    // Prefer the uv-managed tool (installed with the [all] extras). A bare
-    // `markitdown` may point at an install missing those, so it's only a fallback.
-    try {
-      execFileSync('uv', ['tool', 'run', 'markitdown', file, '-o', out], opts);
-    } catch {
-      execFileSync('markitdown', [file, '-o', out], opts);
+    // Prefer the stable absolute exe — the ONLY form that works under the headless
+    // task (PATH lacks uv and the uv-tool bin). Fall back to PATH lookups only on
+    // dev machines where the exe couldn't be resolved.
+    if (MARKITDOWN) {
+      execFileSync(MARKITDOWN.cmd, [...MARKITDOWN.pre, file, '-o', out], opts);
+    } else {
+      try {
+        execFileSync('uv', ['tool', 'run', 'markitdown', file, '-o', out], opts);
+      } catch {
+        execFileSync('markitdown', [file, '-o', out], opts);
+      }
     }
     return fs.readFileSync(out, 'utf8');
   } catch (e) {
@@ -266,14 +302,14 @@ function gdocMeta(id) {
   return runGdocExport(['--id', id, '--meta-only']);
 }
 
-/** Export a Google Doc to a temp .docx, convert to Markdown, return {raw, meta}. */
+/** Export a Google Doc straight to Markdown (Drive does the conversion), {raw, meta}. */
 function gdocToMarkdown(file) {
   const id = readGdocId(file);
   if (!id) { warn(`"${path.basename(file)}" — no doc_id in the .gdoc stub.`); return null; }
-  const tmp = path.join(os.tmpdir(), `gdoc-${id}.docx`);
+  const tmp = path.join(os.tmpdir(), `gdoc-${id}.md`);
   try {
     const meta = runGdocExport(['--id', id, '--out', tmp]);
-    const raw = convert(tmp);
+    const raw = fs.readFileSync(tmp, 'utf8');
     return { raw, meta };
   } catch (e) {
     const detail = (e.stderr || e.message || '').toString().replace(/\s+/g, ' ').slice(0, 200);

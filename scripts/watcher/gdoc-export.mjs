@@ -8,8 +8,11 @@
  * headless forever. The doc (or its containing folder) must be shared with the
  * service-account e-mail — see scripts/watcher/README.md.
  *
- *   node gdoc-export.mjs --id <docId> --key <sa.json> --out <path.docx>
+ *   node gdoc-export.mjs --id <docId> --key <sa.json> --out <path.md>
  *   node gdoc-export.mjs --id <docId> --key <sa.json> --meta-only
+ *
+ * The doc is exported as Markdown by Drive itself (mimeType text/markdown) — no
+ * markitdown needed, which also avoids the headless-task PATH/venv problems.
  *
  * On success prints ONE line of JSON to stdout: {name, createdTime, modifiedTime}.
  * On failure exits non-zero with the reason on stderr.
@@ -17,7 +20,7 @@
 import fs from 'node:fs';
 import { GoogleAuth } from 'google-auth-library';
 
-const DOCX_MIME = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
+const MD_MIME = 'text/markdown';
 const SCOPES = ['https://www.googleapis.com/auth/drive.readonly'];
 
 function arg(name) {
@@ -52,7 +55,7 @@ async function main() {
     }
     const expUrl =
       `https://www.googleapis.com/drive/v3/files/${encodeURIComponent(id)}/export` +
-      `?mimeType=${encodeURIComponent(DOCX_MIME)}`;
+      `?mimeType=${encodeURIComponent(MD_MIME)}`;
     const er = await fetch(expUrl, { headers: authHeader });
     if (!er.ok) throw new Error(`export ${er.status}: ${(await er.text()).slice(0, 200)}`);
     fs.writeFileSync(out, Buffer.from(await er.arrayBuffer()));
