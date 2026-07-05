@@ -71,8 +71,9 @@
 בלי המפתח — קבצי `.gdoc` פשוט מדולגים עם אזהרה ל-`watcher.log` (שאר הסנכרון תקין).
 
 ## דרישות (מותקנות במחשב זה)
-`node`, `git`, `uv` + `markitdown` (`uv tool install "markitdown[all]"`).
-ל-`.gdoc`: חבילת `google-auth-library` (מותקנת) + `gdrive-sa.json` (ראה למעלה).
+`node`, `git`.
+- **markitdown ל-Word/PDF:** מותקן ב-venv על **D:** — `D:\AI Projects\Crypto Women\tools\markitdown-venv` — ו-`start-watcher.bat` מצביע אליו עם `MARKITDOWN_BIN`. ⚠️ **חובה על D: (או נתיב אחר שה-task רואה), לא ב-`AppData\Roaming`:** תחת S4U ה-roaming profile לא נטען, אז markitdown שהותקן ב-`uv tool` לא נגיש ל-task. לשחזור: `<Local-Python>\python.exe -m venv "D:\...\tools\markitdown-venv"` ואז `...\Scripts\python.exe -m pip install "markitdown[all]"`.
+- **ל-`.gdoc`:** `google-auth-library` (מותקנת) + `gdrive-sa.json` (ראה למעלה). Google Docs לא צריכים markitdown כלל (ייצוא Markdown ישיר מ-Drive).
 
 ## הערות
 - `.gsheet` / `.gslides` (Sheets/Slides) מדולגים — אינם מאמרי בלוג.

@@ -8,6 +8,10 @@ REM --- kill any existing watcher first (no duplicates) ---
 echo Stopping any existing watcher...
 powershell -NoProfile -Command "Get-CimInstance Win32_Process | Where-Object { $_.CommandLine -like '*blog-import.mjs*' } | ForEach-Object { Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue }"
 
+REM --- markitdown on D: (reachable under the S4U task; the uv-tool venv in
+REM     AppData\Roaming is NOT, because S4U doesn't load the roaming profile) ---
+set "MARKITDOWN_BIN=D:\AI Projects\Crypto Women\tools\markitdown-venv\Scripts\markitdown.exe"
+
 cd /d "D:\AI Projects\Crypto Women\crypto-women-site"
 echo Starting Crypto Women blog watcher...
 echo Inbox: D:\AI Projects\Crypto Women\Blog - Crypto Women
