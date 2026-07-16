@@ -32,11 +32,11 @@ const MAX_ITEMS = 60;
 const MAX_PER_SOURCE = 12;
 
 // Gemini (AI Studio) — only runs when GEMINI_API_KEY is set (CI).
-// gemini-2.5-flash is the quality/speed sweet spot for a 500-700 word original
-// article with data. flash-lite is too thin for this; pro risks the 90s timeout.
-// NOTE: a repo Variable GEMINI_MODEL overrides this — set it to gemini-2.5-flash
+// gemini-3.1-flash-lite lowers generation cost while keeping a stable model for
+// 500-700 word original articles with data. Pro models risk the 90s timeout.
+// NOTE: a repo Variable GEMINI_MODEL overrides this — set it to gemini-3.1-flash-lite
 // (or delete it) so the feed uses this model.
-const DEFAULT_GEMINI_MODEL = 'gemini-2.5-flash';
+const DEFAULT_GEMINI_MODEL = 'gemini-3.1-flash-lite';
 const GEMINI_MODEL = process.env.GEMINI_MODEL || DEFAULT_GEMINI_MODEL;
 // Try the configured model first; if it's unavailable (e.g. a retired/typo'd
 // GEMINI_MODEL var), automatically fall back to the default model.
@@ -365,10 +365,9 @@ ${JSON.stringify(payloadItems, null, 2)}`;
     contents: [{ parts: [{ text: prompt }] }],
     generationConfig: {
       temperature: 0.7,
-      // gemini-2.5-flash runs "thinking" by default, which eats the output-token
-      // budget and truncated the JSON (articles came out short/empty). Cap the
-      // thinking budget and give the output plenty of room for a full 500-700
-      // word article per item (chunk of a few).
+      // Keep the thinking budget bounded so it cannot consume the output-token
+      // budget, and leave plenty of room for a full 500-700 word article per
+      // item (chunk of a few).
       thinkingConfig: { thinkingBudget: 2048 },
       maxOutputTokens: 24576,
       responseMimeType: 'application/json',

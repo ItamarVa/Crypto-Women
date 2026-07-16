@@ -30,7 +30,7 @@ jobs:
         run: node scripts/fetch-news.mjs
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          # Optional override; defaults to gemini-2.5-flash
+          # Optional override; defaults to gemini-3.1-flash-lite
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
 
       - name: Commit and deploy if changed
