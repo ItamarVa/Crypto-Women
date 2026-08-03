@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-03T14:25:36.676Z",
+  "updated": "2026-08-03T17:48:04.679Z",
   "count": 46,
   "sources": [
     "The Defiant",
-    "Bitcoin Magazine",
     "Decrypt",
+    "Bitcoin Magazine",
     "Bitcoin Embassy TLV"
   ],
   "items": [
@@ -15,7 +15,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-08-03T14:23:40.000Z",
+      "date": "2026-08-03T17:45:47.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/fdef45599dea86c691711289270dffbce565e387-2048x1152.png",
       "title_he": "הבנק המרכזי האירופי מזהיר: האם הסטייבלקוינס מאיימים על יציבות הבנקים?",
       "brief_he": "בכיר ב-ECB מזהיר כי המעבר לתשלומים דיגיטליים וסטייבלקוינס עלול לפגוע בפיקדונות הבנקאיים ומציע את האירו הדיגיטלי כפתרון.",
@@ -46,7 +46,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-08-03T14:23:40.000Z",
+      "date": "2026-08-03T17:45:47.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/7db2f292ede907c610e48df98d0a40982fc25e31-2048x1152.png",
       "title_he": "eToro מרחיבה את אחיזתה ב-DeFi: השקעה אסטרטגית בבורסת נגזרים בשרשרת וחיבור ל-Zengo",
       "brief_he": "חברת המסחר eToro השקיעה אסטרטגית בבורסת הנגזרים המבוזרת Extended, ותשלב את פעילותה עם ארנק המשמורת העצמית Zengo שרכשה מוקדם יותר השנה, כחלק מהתרחבותה לתחום הפיננסים המבוזרים.",
@@ -69,7 +69,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-08-03T14:23:40.000Z",
+      "date": "2026-08-03T17:45:47.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/6fd20d68bba96be814ab2004b323fddc055f9474-2048x1152.png",
       "title_he": "NEAR משנה כיוון: הצבעה מכרעת מבטלת את תגמול הגז למפתחים",
       "brief_he": "קהילת NEAR אישרה בהצבעה ביטול תגמול עמלות הגז למפתחים, מהלך שישרוף את כל העמלות וישנה את מודל התמריצים בפרוטוקול.",
@@ -92,7 +92,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-08-03T14:23:40.000Z",
+      "date": "2026-08-03T17:45:47.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/ec93ce02ec7d678bb47464f556224646c00f354a-2048x1152.png",
       "title_he": "הצטברות את'ריום בהיקף משמעותי: משמעויות למבנה השוק",
       "brief_he": "דיווח מצביע על כך שגוף בשם BitMine הוסיף לאחרונה 73 מיליון דולר בביטקוין, מה שהגדיל את החזקותיו לכ-4.8% מסך היצע האת'ריום.",
@@ -115,7 +115,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-08-03T14:23:40.000Z",
+      "date": "2026-08-03T17:45:47.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/faf5f386f92fdd61ddaf4a6756311d8e3fc6f1e0-2048x1152.png",
       "title_he": "EDX Markets מגייסת 76 מיליון דולר בסבב C: צעד קדימה לקריפטו מוסדי",
       "brief_he": "פלטפורמת המסחר המוסדית EDX Markets השלימה סבב גיוס הון C בסך 76 מיליון דולר בהובלת SBI Holdings, לקידום תשתיות נכסים דיגיטליים.",
@@ -138,7 +138,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-08-03T14:23:40.000Z",
+      "date": "2026-08-03T17:45:47.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/9cb48b7ad61af1254dcdca0be2ca83b0dcaf25c4-2048x1152.png",
       "title_he": "מכירת מניות נדירה בטתר: הצצה לחברת המטבע היציב הדומיננטית",
       "brief_he": "ריצ'רד הית'קוט, לשעבר סמנכ\"ל ההשקעות הראשי של טתר, מתכנן למכור חלק מאחזקותיו בחברת המטבע היציב המובילה, מה שמספק הצצה נדירה למבנה הבעלות שלה.",
@@ -152,6 +152,195 @@
         "האירוע מדגיש את החשיבות של שקיפות בשוק הקריפטו, במיוחד אצל מנפיקי מטבעות יציבים מרכזיים."
       ],
       "meaning_he": "האירוע מספק תובנה נדירה לגבי מבנה הבעלות של חברת טתר, אחת השחקניות המשפיעות ביותר בשוק הקריפטו, וכיצד בכירים מנהלים את נכסיהם לאחר עזיבה. עבור הקהילה, זוהי הזדמנות להבין טוב יותר את הדינמיקה הפנימית של חברות קריפטו גדולות ואת האתגרים סביב שקיפות בתחום.",
+      "gen_v": 6
+    },
+    {
+      "id": "tp6w5x",
+      "title": "Crypto Privacy Tools Serve ‘Essential Protective Functions’: Report by ChangeNOW, CoinRabbit",
+      "link": "https://decrypt.co/374838/crypto-privacy-tools-serve-essential-protective-functions-report-by-changenow-coinrabbit",
+      "summary": "Authoritarian oppression, corporate treasuries and “wrench attacks” make up the privacy case in a new report from ChangeNOW and CoinRabbit.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-03T17:31:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/08/privacy-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "mk7s24",
+      "title": "Crypto Clarity Act Risks More Delay As Recess Looms",
+      "link": "https://bitcoinmagazine.com/news/crypto-clarity-act-risks-more-delay",
+      "summary": "Bitcoin Magazine Crypto Clarity Act Risks More Delay As Recess Looms Lamakers will break for over one month this week — the Clarity Act may not get a vote before then. This post Crypto Clarity Act Risks More Delay As…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-08-03T17:21:38.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Crypto-Clarity-Act-Risks-Delay.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "11a5m6h",
+      "title": "Solo Bitcoin Miner Hits Jackpot, Scoring $200K BTC Reward",
+      "link": "https://decrypt.co/374859/solo-bitcoin-miner-hits-jackpot-scoring-200k-btc-reward",
+      "summary": "CKPool's developer put the winner's hashrate at a “wildly variable” peak of 100 PH, noting that it was probably rented.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-03T17:12:08.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/bitcoin-miners-decrypt-style-01-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1xjhke6",
+      "title": "Strategy Sells 1,638 Bitcoin for $105M, Splits Proceeds Between Dividends and STRC Buyback",
+      "link": "https://thedefiant.io/news/cefi/strategy-sells-1-638-bitcoin-for-105m-splits-proceeds-between-dividends-and-strc-buyback",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-08-03T16:41:40.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/3a8dc52912c5d1183f81ceb66e1d0f45de74287d-2048x1152.png",
+      "title_he": "האסטרטגיה של American Bitcoin: כרייה מאסיבית וצבירת עתודות בתקופה של תנודתיות",
+      "brief_he": "חברת הכרייה American Bitcoin מדווחת על הגדלת עתודות הביטקוין שלה ל-8,002 מטבעות, תוך התמודדות עם אתגרים פיננסיים מורכבים בשוק התנודתי.",
+      "commentary_he": "בעולם שבו כריית מטבעות דיגיטליים הופכת למשימה תעשייתית רחבת היקף, חברות הציבוריות בתחום נדרשות לאזן בין צרכים תפעוליים שוטפים לבין שאיפה ארוכת טווח לצבירת נכסים. המקרה של American Bitcoin, חברת בת של Hut 8, מהווה דוגמה מאלפת לאופן שבו שחקנית מרכזית בשוק מנסה ליישם מודל של כרייה תעשייתית בשילוב עם החזקה אסטרטגית של ביטקוין במאזן. עבור משקיעים ומתעניינים בתחום, המהלכים של חברות אלו מספקים הצצה לאופן שבו הדינמיקה של השוק משפיעה על יצרניות הביטקוין הגדולות, המושפעות לא רק ממחיר המטבע עצמו אלא גם מעלויות האנרגיה והתשתית הנדרשות להפעלת הציוד המורכב.\n\nעל פי הדיווחים האחרונים של החברה לרבעון השני של השנה, American Bitcoin הצליחה להגדיל את עתודות הביטקוין שלה ל-8,002 מטבעות, שווי המוערך בכ-512 מיליון דולר. מדובר בעלייה של כ-14% לעומת סוף הרבעון הראשון, אז החזיקה החברה ב-7,021 מטבעות. העלייה הזו נרשמה במקביל לייצור שיא של 932 מטבעות במהלך הרבעון. מבחינה פיננסית, הכנסות החברה מפעילות כרייה עלו ל-67 מיליון דולר, בהשוואה ל-62.1 מיליון דולר ברבעון הקודם, כאשר עלות הכרייה הממוצעת למטבע נותרה יציבה יחסית, סביב 36,500 דולר, למרות עלויות אנרגיה משתנות. עם זאת, החברה דיווחה על הפסד נקי של 57.2 מיליון דולר, נתון המהווה שיפור מסוים לעומת הפסד של 81.8 מיליון דולר שדווח ברבעון הראשון של השנה.\n\nהמודל העסקי של החברה מבוסס על התפיסה שביטקוין הוא נכס הון בעל פוטנציאל צמיחה משמעותי, שערכו לאורך זמן אמור לעלות על עלויות ההון והתפעול. בבסיס הדברים עומדת ההנחה כי השקעה בתשתית כרייה מאסיבית מאפשרת לחברה לייצר את המטבע בעצמה, במקום לרכוש אותו מהשוק. עם זאת, התחום אינו חופשי מסיכונים תפעוליים ופיננסיים. העובדה שהחברה נדרשה לבצע מהלך של איחוד מניות (Reverse Stock Split) ביחס של 1 ל-15 בחודש יולי האחרון, נועדה להבטיח עמידה בתנאי הסף של בורסת הנאסד\"ק, לאחר שמחיר המניה הגיע לרמות נמוכות במיוחד בהשוואה לשיא שרשמה לאחר ההנפקה. מהלך כזה מדגיש את הפער לעיתים בין ההצלחה התפעולית בכריית המטבע לבין האופן שבו השוק מתמחר את מניות החברות הללו.\n\nהתמונה הרחבה יותר מעידה על מגמה של מעבר ממוקד צר בכרייה לניהול תשתית אנרגטית רחבה יותר. עזיבתו של נשיא החברה והסמנכ\"ל הכספים בפועל, מאט פרוסאק, לטובת חברה העוסקת בתשתית אנרגיה ובינה מלאכותית, מסמנת את השינוי בסדר העדיפויות בתעשייה. כיום, המשאב המוגבל ביותר אינו בהכרח הגישה לציוד כרייה, אלא הגישה לחשמל זמין וזול, והיכולת לתמוך במרכזי נתונים שמשמשים גם לכריית ביטקוין וגם ליישומי AI. עבור חברות בתחום, היכולת לנצל את התשתית הקיימת למטרות נוספות עשויה להיות המפתח לשרידות וצמיחה בשנים הבאות, במיוחד בתקופות שבהן מחיר הביטקוין חווה תנודתיות משמעותית.\n\nלסיכום, הסיפור של American Bitcoin משקף את האתגרים וההזדמנויות של חברות הכרייה הגדולות כיום. בעוד שהנהלת החברה מביעה אופטימיות בנוגע ליכולת לייצר ערך לטווח ארוך דרך צבירת המטבעות ושיפור היעילות התפעולית, המשקיעים נדרשים לבחון את הנתונים בזהירות. ההסתמכות על כרייה תעשייתית כרוכה בחשיפה גבוהה למחירי האנרגיה ולרגולציה של שוקי ההון, מה שהופך את החזקת המניות בחברות אלו למורכבת יותר מהחזקה ישירה של הנכס הדיגיטלי עצמו. הבנה של המנגנונים הפיננסיים הללו, לצד המגמות הטכנולוגיות בעולם האנרגיה, היא חיונית לכל מי שמבקש לעקוב אחר התפתחות שוק הקריפטו מנקודת מבט מושכלת ומקצועית.",
+      "terms_he": [],
+      "points_he": [
+        "החזקות ביטקוין ככלי אסטרטגי: חברות כרייה משלבות כיום כרייה פעילה עם צבירת עתודות לטווח ארוך.",
+        "חשיבות עלויות הייצור: עלות הכרייה למטבע היא מדד קריטי לרווחיות של כל חברת כרייה בשוק תנודתי.",
+        "השפעת האנרגיה על התעשייה: התחרות על תשתיות חשמל ומרכזי נתונים הופכת למנוע צמיחה שחורג רק מעולם הקריפטו לטובת AI.",
+        "סיכוני מניות כרייה: מניות של חברות כרייה מושפעות לעיתים מגורמים בורסאיים (כמו עמידה בתקנות נאסד\"ק) בנפרד ממחיר הביטקוין עצמו."
+      ],
+      "meaning_he": "המקרה מדגים את הקשר המורכב בין כריית ביטקוין לתשתיות אנרגיה, ומדגיש עבור המשקיעים את ההבדל המהותי בין החזקת מטבע לבין השקעה בחברה תעשייתית שכרייתו היא פעילותה המרכזית.",
+      "gen_v": 6
+    },
+    {
+      "id": "1p7k8w5",
+      "title": "Trump Family’s American Bitcoin Tops 8,000 BTC After Record Mining Quarter",
+      "link": "https://decrypt.co/374850/trump-american-bitcoin-8000-btc-record-mining-quarter",
+      "summary": "The Hut 8 subsidiary increased its Bitcoin holdings by 14% in the second quarter even as Bitcoin’s price fell.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-03T16:29:15.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/eric-trump-decrypt-style-01-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "iyosii",
+      "title": "'I Did Everything Right': Coldcard Victims Recount Losing Life Savings",
+      "link": "https://thedefiant.io/news/hacks/i-did-everything-right-coldcard-victims-recount-losing-life-savings",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-08-03T15:55:47.000Z",
+      "image": "https://cdn.thedefiant.io/coldcard-victims-thumbnail-jpg-f3bee843-5f3e-44cb-b658-ad90b2cf1646.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1xfej6c",
+      "title": "Tom Lee’s Bitmine Buys More Ethereum, Adds to Stock Buyback",
+      "link": "https://decrypt.co/374836/tom-lee-bitmine-buys-more-ethereum-adds-stock-buyback",
+      "summary": "The crypto treasury company says it added another 10,399 ETH last week, bringing its holdings to nearly 5.8 million ETH as it pushes toward its goal of owning 5% of Ethereum's circulating supply.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-03T15:31:43.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/11/tom-lee-decrypt-style-03-1-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1ftw1yh",
+      "title": "Strategy Sells Bitcoin After Five Weeks Without Buying",
+      "link": "https://bitcoinmagazine.com/news/strategy-sells-bitcoin-after-buying-pause",
+      "summary": "Bitcoin Magazine Strategy Sells Bitcoin After Five Weeks Without Buying The company had held off buying Bitcoin before the sale, instead focusing on strengthening its cash balance. This post Strategy Sells Bitcoin After…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-08-03T15:17:39.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/04/Strategys-MSTR-Michael-Saylor-Says-STRC-is-Going-Viral-After-8.5-Billion-Run‑Up-scaled.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1ocm8g7",
+      "title": "The $114 Trillion Question: How DTCC Is Tokenizing the Entire U.S. Market",
+      "link": "https://thedefiant.io/podcasts-and-videos/podcast/the-usd114-trillion-question-how-dtcc-is-tokenizing-the-entire-u-s-market",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-08-03T15:08:10.000Z",
+      "image": "https://cdn.thedefiant.io/thumbnail-jpg-d566ea7d-dde8-47a2-bf7b-9c87401e298c.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1cte5we",
+      "title": "Coldcard Thefts Near $114 Million as Fourth Attack Wave Hits",
+      "link": "https://thedefiant.io/news/security/coldcard-thefts-near-usd114-million-as-fourth-attack-wave-hits",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-08-03T15:02:19.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/824d3b1c81947f30b31de531acf6b1eb0b69fbf4-2048x1152.png",
+      "title_he": "פרצת האבטחה ב-Coldcard: השלכות על עולם המשמורת העצמית",
+      "brief_he": "גל פריצות רחב היקף בארנקי חומרה מסוג Coldcard הביא לאובדן של מעל 114 מיליון דולר בביטקוין, ומעלה שאלות מהותיות על אבטחת מידע בתחום הקריפטו.",
+      "commentary_he": "עולם ה-Self-custody, המבוסס על התפיסה שלפיה המשתמש הוא הריבון הבלעדי על נכסיו הדיגיטליים, חווה בימים האחרונים טלטלה משמעותית. דיווחים מצביעים על גל פריצות מתמשך ומתוחכם שפגע במשתמשי ארנקי החומרה Coldcard, מכשיר שנחשב עד כה לאחד הכלים המאובטחים ביותר בשוק. האירוע הזה אינו רק סיפור על אובדן כספי, אלא תזכורת לכך שגם הפתרונות שנחשבים ל'תקן הזהב' של אבטחת הביטקוין אינם חסינים מפני תקלות טכניות עמוקות, וכי האחריות על ניהול הסיכונים נותרת תמיד בידי המשתמש הקצה, גם כאשר הוא מסתמך על חומרה ייעודית.\n\nעל פי נתונים שהוצגו על ידי חברת המחקר Galaxy Research, היקף הגניבות נאמד נכון למועד הדיווח בכ-114 מיליון דולר. אלכס תורן, ראש מחלקת המחקר ב-Galaxy, ציין כי הפעילות העבריינית התרחשה במספר גלים של תקיפות, כאשר הגל הרביעי החל במהלך סוף השבוע האחרון. הממצאים מצביעים על כך שמעל 1,300 מטבעות ביטקוין נמשכו מתוך כ-4,585 כתובות ארנק שונות. חברת Coinkite, היצרנית של Coldcard, אישרה כי התקיפות התאפשרו בשל פגם בקושחה (Firmware) של מכשירי ה-Mk3, שיוצרו החל ממרץ 2021. הפגם גרם לכך שהמכשיר עשה שימוש במחולל מספרים אקראיים מבוסס תוכנה, במקום להסתמך על רכיב החומרה המיועד לכך, מה שהפך את מפתחות הגישה לניתנים לניחוש על ידי תוקפים.\n\nברמה הטכנית, מדובר בשינוי קריטי באופן שבו הארנק מייצר את ה-Seed phrase של המשתמש. בגרסאות המושפעות, החל מגרסה 4.0.1, הקוד נסוג למנגנון אקראיות חלש יותר, מה שהוריד את רמת האבטחה של המפתח מ-128 ביט ל-40 ביט בלבד. המשמעות היא שהאקרים הצליחו לשחזר מפתחות פרטיים של משתמשים מבלי להזדקק לגישה פיזית למכשיר עצמו. עבור רבים מהמשתמשים, מדובר בסיטואציה מורכבת במיוחד: הם פעלו לפי כללי הזהירות המקובלים, שמרו את הארנק במצב לא מקוון (Air-gapped), ועדיין גילו כי הכספים שלהם נעלמו בגלל פגם מובנה בקוד שאמור היה להגן עליהם.\n\nהשלכות האירוע רחבות ועמוקות יותר מאשר גניבה של נכסים בלבד. חברת Coinkite הודתה כי ייתכן שגורמים עוינים השתמשו בבינה מלאכותית כדי לסרוק את קוד המקור הפתוח של הקושחה ולזהות את נקודת התורפה הזו, מה שמעיד על עליית מדרגה ביכולות הטכנולוגיות של תוקפים בעולם הבלוקצ'יין. החברה נקטה בצעדים חריפים בתגובה, כולל השמדת מלאי קיים של דגמים פגיעים ועצירת משלוחים של מוצרים מסוימים, תוך שהיא מודה כי מדובר באחד האירועים הקשים בתולדותיה. מומחי אבטחה מחברת Block הצטרפו למאמצי החקירה ודיווחו כי הם עובדים בשיתוף פעולה עם רשויות אכיפת החוק בניסיון להתחקות אחר עקבות המטבעות שנגנבו.\n\nעבור הקהילה שלנו, מדובר בשיעור חשוב על חשיבות הדינמיות בניהול סיכונים. אבטחה בעולם הקריפטו היא תהליך מתמשך ולא מצב סטטי שניתן להשיג פעם אחת. גם אם בחרתם בפתרון משמורת עצמית איכותי, הבנה של עדכוני אבטחה, מעקב אחר פרסומים רשמיים של יצרני חומרה, ושמירה על ערנות לדיווחים טכניים הם חלק בלתי נפרד מהתחזוקה של תיק השקעות דיגיטלי. האירוע הנוכחי מדגיש את הצורך בבחינה ביקורתית של כל כלי שאנו משתמשים בו, ומזכיר לנו כי בעולם שבו הקוד הוא החוק, גם לטעויות אנוש בתכנון המערכות עלולות להיות השלכות פיננסיות משמעותיות ובלתי הפיכות.",
+      "terms_he": [
+        {
+          "term": "Firmware (קושחה)",
+          "explain": "תוכנה המוטמעת בתוך חומרה ייעודית ומנהלת את פעולתה הבסיסית."
+        },
+        {
+          "term": "PRNG (מחולל מספרים אקראיים מבוסס תוכנה)",
+          "explain": "אלגוריתם המייצר סדרות של מספרים הנראים אקראיים, אך עלולים להיות צפויים אם אינם מבוססים על מקור אנטרופיה חזק מספיק."
+        }
+      ],
+      "points_he": [
+        "חשיבות העדכון השוטף של קושחת ארנקי חומרה כדי למנוע פרצות אבטחה מוכרות.",
+        "הבנה שגם פתרונות 'Cold Storage' אינם חסינים מבאגים טכניים בייצור.",
+        "הצורך לעקוב אחר הודעות רשמיות של יצרני ארנקים בעת פרסום על פגיעויות במערכות שלהם.",
+        "הכרה בכך ששימוש בבינה מלאכותית על ידי תוקפים הופך את אבטחת הקוד למורכבת ומהירה יותר מאי פעם."
+      ],
+      "meaning_he": "האירוע מדגיש כי משמורת עצמית דורשת לא רק החזקת חומרה, אלא גם מעקב פעיל אחר סיכוני אבטחה טכניים, ומזכיר שאין פתרון שחסין לחלוטין מתקלות.",
       "gen_v": 6
     },
     {
@@ -373,32 +562,6 @@
       "gen_v": 6
     },
     {
-      "id": "3wuic1",
-      "title": "Google Yanks Google Earth AI Image Tool a Day After Launch Over Deepfake Fears",
-      "link": "https://decrypt.co/374805/google-yanks-google-earth-ai-image-tool-deepfake-fears",
-      "summary": "The Nano Banana tool let users generate fake satellite scenes from a text prompt, alarming investigators who rely on Google Earth to verify breaking news and atrocities.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-07-31T20:32:50.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-1-gID_7.png",
-      "title_he": "הדילמה של גוגל: כלי ה-AI ב-Google Earth והסכנה במידע כוזב",
-      "brief_he": "גוגל השביתה כלי בינה מלאכותית ב-Google Earth לאחר שהתברר כי הוא מאפשר יצירת תמונות לוויין מזויפות ברמת אמינות גבוהה.",
-      "commentary_he": "ענקית הטכנולוגיה גוגל חוותה מבוכה תפעולית לאחרונה, כאשר נאלצה להסיר כלי בינה מלאכותית חדש מ-Google Earth פחות מ-24 שעות לאחר השקתו. הכלי, שהתבסס על מודל ה-Nano Banana של החברה, נועד לאפשר למשתמשים לייצר תמונות של מיקומים ברחבי העולם על בסיס הנחיות טקסטואליות פשוטות. עם זאת, בתוך יום אחד בלבד מההשקה ב-30 ביולי, הועלו טענות חריפות מצד עיתונאים וחוקרים בתחום המודיעין בקוד פתוח, שהצביעו על הפוטנציאל ההרסני של הכלי ביצירת תמונות לוויין מזויפות שנראות אמינות לחלוטין. עבור משתמשי הקצה, מדובר בסיפור הממחיש את הפער שבין היכולת הטכנולוגית המרשימה לבין האחריות האתית הנדרשת בעידן שבו האמת הופכת למושג גמיש.\n\nעל פי הפרסומים, הבעיה המרכזית נגעה ליכולת של הכלי לייצר אירועים שלא התרחשו במציאות. חוקרים וגופי תקשורת כמו NPR ו-404 Media הוכיחו כי ניתן להשתמש בכלי כדי ליצור תמונות של אזורי אסון, כגון שריפות במתקנים אסטרטגיים באיראן, הצפות בבירת ארה\"ב, או הצבת פליטים בגבולות רגישים. חוקר המודיעין Henk van Ess דיווח כי הצליח לייצר ללא כל חסימה תמונות של מתקנים גרעיניים במיקומים שונים. התמונות הללו, שנוצרו בלחיצת כפתור, היו עלולות להטעות גורמים רבים ולייצר בהלה או מידע כוזב בזמן אמת, מה שהוביל את גוגל להחלטה המיידית להשבית את הפיצ'ר כדי לבנות מנגנוני הגנה מחמירים יותר.\n\nהחשיבות של Google Earth ככלי עבודה אינה מסתכמת בשימוש של הדיוטות לטיולים וירטואליים. מזה שנים, כלי זה משמש עיתונאים, חוקרי זכויות אדם וגופים בינלאומיים לאימות אירועים בשטח, במיוחד באזורי קונפליקט שבהם הגישה מוגבלת. כאשר כלי כזה הופך למחולל של זיופים אמינים, הוא מערער את הבסיס שעליו נשענת העבודה העיתונאית והמחקרית. כפי שהזהיר החוקר Jake Godin, היכולת לייצר זיופים בקלות עלולה להוביל למצב שבו ממשלות או גורמים בעלי אינטרס יטענו כי תמונות לוויין אמיתיות המציגות הפרות או פשעים הן למעשה תמונות שנוצרו על ידי בינה מלאכותית, ובכך יערערו את האמינות של כל תיעוד ויזואלי עתידי.\n\nגוגל ניסתה בתחילה להמעיט בחומרת הדברים, תוך שהיא מציינת כי לכל תמונה מתווסף סימן מים דיגיטלי מסוג SynthID, המעיד על כך שהיא נוצרה על ידי בינה מלאכותית. אולם, המבקרים טענו ובצדק כי רוב המשתמשים אינם בודקים סימני מים לפני שהם משתפים תמונות ברשתות החברתיות, שם המידע הכוזב מתפשט במהירות האור. המקרה הזה מעלה שאלות נוקבות לגבי האחריות של חברות הטכנולוגיה: האם עליהן להשיק כלים טכנולוגיים מתקדמים לפני שהן בוחנות את ההשלכות החברתיות הרחבות שלהם? נראה שגוגל, כמו חברות רבות אחרות, נמצאת במירוץ חימוש טכנולוגי שבו לעיתים המהירות באה על חשבון הבטיחות.\n\nלסיום, האירוע הזה מהווה תזכורת חשובה לכולנו: גם כאשר הטכנולוגיה מציעה כלים מרתקים ונוחים, עלינו לשמור על רמה גבוהה של ספקנות צרכנית. בעולם שבו תמונות לוויין – שנחשבו בעבר למקור האמת האולטימטיבי – ניתנות לייצור מלאכותי, האחריות לאימות המידע עוברת אלינו, המשתמשים. גוגל הבטיחה להשיב את היכולת רק לאחר שתטמיע מנגנוני הגנה הדוקים יותר, אך ללא לוח זמנים ברור. עד אז, כדאי לזכור שכל מה שאנו רואים ברשת צריך להילקח בערבון מוגבל, גם אם הוא נראה כצילום לוויין מהימן.",
-      "terms_he": [
-        {
-          "term": "SynthID",
-          "explain": "טכנולוגיית סימון מים דיגיטלית המוטמעת בקבצים שנוצרו על ידי בינה מלאכותית לזיהוי מקורם."
-        }
-      ],
-      "points_he": [
-        "הצורך הקריטי באימות מידע בעידן שבו בינה מלאכותית יכולה לייצר תמונות ריאליסטיות.",
-        "השפעת הטכנולוגיה על עבודת מחקר עיתונאית ואמינות של מקורות מידע.",
-        "האחריות האתית של חברות טכנולוגיה בהשקת כלים בעלי פוטנציאל לשימוש לרעה."
-      ],
-      "meaning_he": "המקרה מדגיש את השחיקה באמון הציבור במידע ויזואלי ומציב אתגר משמעותי בפני גופים הנשענים על נתוני לוויין לאימות עובדות.",
-      "gen_v": 6
-    },
-    {
       "id": "1ai2947",
       "title": "Metronome Discloses $15.7 Million Synth Shortfall, Blames Oracle Lag in Swap Module",
       "link": "https://thedefiant.io/news/defi/metronome-discloses-usd15-7-million-synth-shortfall-blames-oracle-lag-in-swap-module",
@@ -427,40 +590,6 @@
       ],
       "meaning_he": "הפסיקה בגרמניה מהווה תקדים חשוב לאופן שבו חברות טכנולוגיה יצטרכו לנהל את מאגרי הנתונים שלהן בעתיד, תוך דגש על ציות לחוקי הקניין הרוחני.",
       "gen_v": 6
-    },
-    {
-      "id": "1adz50a",
-      "title": "AI Music Company Suno Loses Copyright Case in Germany",
-      "link": "https://decrypt.co/374802/suno-ai-music-copyright-case-germany",
-      "summary": "The decision requires AI companies to license copyrighted music used to train models and generate songs, marking another legal win for music rights holders in Europe.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-07-31T20:03:22.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Ai_music2-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1trpiws",
-      "title": "US Is Banning Foreign Robots—Even Roombas",
-      "link": "https://decrypt.co/374799/fcc-bans-foreign-humanoid-robots-china-roombas",
-      "summary": "New restrictions block future models of foreign-made robots and connected power inverters from receiving FCC approval after U.S. national security agencies warned they could pose cybersecurity and supply chain risks.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-07-31T19:43:24.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/test-2-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
     },
     {
       "id": "1x5f4kn",
@@ -497,23 +626,6 @@
       "gen_v": null
     },
     {
-      "id": "97m3qm",
-      "title": "Tether Reports $1.5B Q2 Profit as USDT Supply Grows, Gold Holdings Rise",
-      "link": "https://decrypt.co/374796/tether-reports-1-5b-q2-profit-usdt-supply-grows",
-      "summary": "The latest attestation offers a snapshot of the assets backing the world's largest stablecoin, including U.S. Treasuries, repo agreements, and more than 146 metric tons of gold.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-07-31T17:10:49.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-conf-paolo-ardonio-tether-decrypt-style-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "hcxsbi",
       "title": "US Closes in on Iran’s Strait of Hormuz Bitcoin Insurance Policy, Sanctions Companies",
       "link": "https://bitcoinmagazine.com/news/us-sanctions-iran-companies-using-bitcoin",
@@ -529,54 +641,6 @@
       "points_he": [],
       "meaning_he": null,
       "gen_v": null
-    },
-    {
-      "id": "gbtwmu",
-      "title": "Coinbase Says Revenue From Its Base Layer 2 Fell Despite Record Volume",
-      "link": "https://thedefiant.io/news/cefi/coinbase-says-revenue-from-its-base-layer-2-fell-despite-record-volume",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-07-31T16:06:01.000Z",
-      "image": "https://cdn.thedefiant.io/base-revenue-thumbnail-jpg-0033cf32-d063-49a6-bbd0-3c1d1e37bdb2.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1uunoyk",
-      "title": "Bitcoin Lags Stock Rally After Hawkish Fed Hold",
-      "link": "https://thedefiant.io/news/markets/bitcoin-lags-stock-rally-after-hawkish-fed-hold",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-07-31T15:26:42.000Z",
-      "image": "https://cdn.thedefiant.io/btc-lag-fed-thumbnail-jpg-89114311-7b1f-4bdc-819d-47ddfffd1656.jpg",
-      "title_he": "עדכון אבטחה קריטי למשתמשי ארנקי Coldcard",
-      "brief_he": "התגלתה פרצת אבטחה משמעותית בארנקי חומרה מסוג Coldcard, המחייבת את המשתמשים לפעול מיידית כדי להגן על נכסיהם.",
-      "commentary_he": "בתחום ניהול הנכסים הדיגיטליים באופן עצמאי, אבטחה אינה רק המלצה אלא יסוד קיומי. בימים האחרונים עלה לכותרות דיווח מדאיג בנוגע לארנקי חומרה מסדרת Coldcard, מוצר הנחשב לאחד הכלים הפופולריים והאמינים בקרב הקהילה המקצועית. על פי פרסומים רשמיים מצד החברה, התגלתה פגיעות במנגנון יצירת הזרע (Seed phrase) במגוון דגמים, ביניהם MK2, MK3, MK4, MK5 ו-Q. מדובר באירוע בעל משמעות רבה עבור כל מי שמחזיק את הביטקוין שלו באחסון קר, ומחייב התייחסות רצינית ופעולה מהירה כדי להבטיח שהנכסים נותרים בשליטה מלאה של בעליהם. חשוב לגשת למידע הזה בשיקול דעת, לבחון את המצב האישי שלכם, ולפעול בהתאם להנחיות הרשמיות שפורסמו על ידי היצרנית Coinkite.\n\nהליבה של הבעיה טמונה בתהליך יצירת האקראיות (Entropy) של מפתחות הגישה. על פי הדיווחים, באגים בגרסאות קושחה מסוימות גרמו לכך שהארנק לא השתמש במחולל המספרים האקראיים האמיתי של החומרה כפי שהיה אמור, אלא במנגנון חלופי שהפיק תוצאות פחות אקראיות. כתוצאה מכך, מפתחות פרטיים שנוצרו בתנאים אלו הפכו פגיעים לניסיונות פיצוח באמצעות כוח גס (Brute-force). על פי הנתונים הזמינים, כ-1,000 מטבעות ביטקוין כבר זוהו ככאלו שזזו מהארנקים המושפעים כתוצאה מניצול הפרצה הזו. מדובר בנתון משמעותי המדגיש כי אין מדובר בתיאוריה בלבד, אלא באיום פעיל וממשי שדורש התייחסות מיידית מצד כל משתמש קצה.\n\nכדי להבין את הרקע הטכני, חשוב לזכור שארנק חומרה נועד לייצר מפתח פרטי מתוך רצף אקראי לחלוטין. כאשר האקראיות הזו פגומה או ניתנת לניחוש, רמת האבטחה של הארנק יורדת באופן דרמטי. משתמשים שהשתמשו בשיטת ה-Dice roll (הטלת קוביות פיזית ליצירת הזרע) הונחו כי הם בטוחים יותר, שכן הם סיפקו את האקראיות בעצמם, אך מי שהסתמך על יצירה אוטומטית של המכשיר בפרק הזמן הרלוונטי נמצא בסיכון גבוה. ההנחיה החד משמעית למי שאינו בטוח במקור הזרע שלו או שמשתמש בגרסאות קושחה ישנות היא להעביר את הכספים לכתובת חדשה שנוצרה באופן מאובטח, או לעבור לארנק חומרה אחר באופן זמני עד להסדרת העניין.\n\nההשלכות של אירוע כזה רחבות הרבה מעבר למקרה הספציפי של Coldcard. הן מזכירות לנו שגם כלי האבטחה המתקדמים ביותר עשויים לסבול מתקלות קוד או טעויות אנוש בתכנון. עבור הקהילה שלנו, השיעור החשוב כאן הוא הצורך בפיזור סיכונים ובניטור מתמיד של עדכוני אבטחה. לא כדאי להניח ש\"הגדרתי ושכחתי\" היא אסטרטגיה בת-קיימא בעולם הבלוקצ'יין. גם כשמדובר בחברות בעלות מוניטין גבוה, חובת הבדיקה נשארת אצל המשתמש הסופי. מומלץ להחזיק בגיבויים מחוץ למכשיר הראשי ולהשתמש בפתרונות ריבוי חתימות (Multisig) במידת האפשר, כדי להוסיף שכבת הגנה נוספת למקרה שאחד המכשירים נכשל.\n\nלסיכום, אם אתם משתמשים ב-Coldcard, עליכם להקדיש זמן בימים הקרובים כדי לוודא את מצב הארנק שלכם. בדקו את הגרסה שברשותכם, עקבו אחר ההנחיות הרשמיות של Coinkite, ואל תהססו לבצע העברה של הכספים לארנק חדש אם יש לכם ספק קל שבקלים לגבי בטיחות המפתח שלכם. השקט הנפשי שלכם שווה את המאמץ הטכני הכרוך בכך. זכרו שבעולם הזה, האחריות על הכספים היא אישית ובלעדית, ופעולה נכונה בזמן יכולה למנוע אובדן מיותר. הישארו מעודכנים, פעלו בזהירות, ואל תמהרו לקבל החלטות מתוך פאניקה – פעלו בצורה מושכלת ומדודה.",
-      "terms_he": [
-        {
-          "term": "Entropy",
-          "explain": "מדד לאקראיות; ככל שהערך גבוה יותר, כך המפתח הפרטי קשה יותר לניחוש או לפיצוח."
-        },
-        {
-          "term": "BIP-39",
-          "explain": "תקן המגדיר כיצד נוצר רצף מילים (Seed) המשמש לשחזור ארנקי ביטקוין."
-        }
-      ],
-      "points_he": [
-        "יש לבדוק מיידית את גרסת הקושחה של מכשיר ה-Coldcard שברשותכם מול ההנחיות הרשמיות של היצרן.",
-        "במידה וקיימת אי-ודאות לגבי אבטחת הזרע (Seed), יש להעביר את הנכסים לארנק חומרה אחר או לכתובת חדשה שנוצרה באמינות גבוהה.",
-        "מומלץ להסתמך על שיטת 'הטלת קוביות' (Dice rolls) ליצירת אקראיות נוספת בעת יצירת ארנקים חדשים.",
-        "יש לעקוב אחר ערוצי התקשורת הרשמיים של החברה כדי לקבל את עדכוני האבטחה האחרונים."
-      ],
-      "meaning_he": "האירוע מדגיש שגם פתרונות האבטחה המובילים בתעשייה אינם חסינים מטעויות, מה שמחייב את המשקיעים בקהילה לאמץ גישת ניהול סיכונים אקטיבית וביקורתית.",
-      "gen_v": 6
     },
     {
       "id": "12eyuyw",
@@ -628,92 +692,6 @@
       "points_he": [],
       "meaning_he": null,
       "gen_v": null
-    },
-    {
-      "id": "18g9ctt",
-      "title": "Polygon Turns Kansai Electric Loyalty Points Into JPYC Spending",
-      "link": "https://thedefiant.io/news/tokens/polygon-turns-kansai-electric-loyalty-points-into-jpyc-spending",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-07-30T21:31:21.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/cf3c385bd2f793e7a0c4fc439a371a85499a3628-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "dggmk4",
-      "title": "Bitcoin Treasury Strategy Posts $8.2B Loss As BTC Price Suffered",
-      "link": "https://bitcoinmagazine.com/news/bitcoin-treasury-strategy-posts-loss",
-      "summary": "Bitcoin Magazine Bitcoin Treasury Strategy Posts $8.2B Loss As BTC Price Suffered The Bitcoin treasury company posted massive losses but aims to continue making digital credit a \"new asset class.\" This post Bitcoin…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-07-30T21:00:08.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Strategy-MSTR-Sells-Bitcoin-for-First-Time-in-Years-as-Bitcoin-Price-Tumbles.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1glvt6b",
-      "title": "ENS Scales Back Plan to Move DAO Treasury Control to New Foundation",
-      "link": "https://thedefiant.io/news/nfts-and-web3/ens-scales-back-plan-to-move-dao-treasury-control-to-new-foundation",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-07-30T20:48:30.000Z",
-      "image": "https://cdn.thedefiant.io/ens-dao-thumbnail-jpg-b12e9263-b67e-4a5d-9a41-3ee6492c933c.jpg",
-      "title_he": "ריי דליו והביטקוין: המורכבות שמאחורי הקצאת אחוז בודד",
-      "brief_he": "המשקיע המיליארדר ריי דליו מציג עמדה שקולה ומסויגת כלפי ביטקוין, תוך שהוא מקצה לו נתח קטן בלבד מתיק ההשקעות שלו לטובת זהב.",
-      "commentary_he": "בעולם ההשקעות המסורתי, מעטים השמות המעוררים הדים כמו ריי דליו, מייסד קרן הגידור ברידג'ווטר (Bridgewater Associates). דליו, הידוע בגישתו המחושבת לניהול סיכונים וניתוח מאקרו-כלכלי, סיפק לאחרונה הצצה נוספת לתפיסתו לגבי נכסים דיגיטליים. בראיון שהעניק לפודקאסט 'Diary of a CEO' בסוף יולי 2026, דליו לא היסס להבהיר כי בעוד שהביטקוין מצא את דרכו לתיק ההשקעות שלו, הוא נותר שחקן משני בלבד. עבור המשקיע הפרטי, הדברים של דליו משמשים תזכורת לכך שגם בעידן של אימוץ מוסדי גובר, המפתח להשקעה מושכלת נותר פיזור סיכונים שמרני וקפדני, הרחק מהתלהבות רגעית או ספקולציות חסרות בסיס.\n\nעל פי הדיווח, דליו חשף כי שיעור החשיפה שלו לביטקוין בתיק ההשקעות עומד על אחוז אחד בלבד. מדובר בנתון זהה לזה שדיווח עליו בשנה שעברה, מה שמעיד על יציבות בתפיסתו ולא על שינוי אסטרטגי דרמטי. דליו הדגיש במהלך הדיון כי הוא מעדיף באופן מובהק את הזהב כמקלט בטוח, תוך שהוא מצביע פיזית על מטילי זהב במהלך ההקלטה. הנימוקים שלו נותרו עקביים עם עמדותיו לאורך השנים: הוא רואה בביטקוין סוג של כסף שאינו ניתן להדפסה, אך בו בזמן הוא מצביע על איומים טכנולוגיים ורגולטוריים פוטנציאליים, דוגמת הסיכון הטמון בפיתוח מחשוב קוונטי שעלול לערער את אבטחת הרשת, וכן את היכולת של ממשלות להטיל מיסוי או להגביל את השימוש בנכס.\n\nכדי להבין את הרקע לעמדתו, יש לחזור אחורה בזמן. עוד בשנת 2020, דליו הביע סקפטיות רבה כלפי הביטקוין וטען כי התנודתיות הגבוהה שלו הופכת אותו לבלתי מתאים לשמש ככסף במובן הקלאסי. הוא טען אז כי ממשלות מחזיקות בכוח רב מדי בכל הנוגע לרגולציה של נכסים דיגיטליים, וכי בנקים מרכזיים לא יחזיקו בביטקוין משום שהם מעדיפים שליטה מלאה ופרטיות בעסקאות שלהם. הראייה של דליו היא כזו המעמידה את המדינה והרגולטור במרכז התמונה, ולכן הוא רואה בזהב נכס יציב יותר שאינו כפוף לאותם סיכונים טכנולוגיים או משפטיים שלדעתו מרחפים מעל המטבעות הדיגיטליים.\n\nעם זאת, התמונה הכוללת בשווקים הפיננסיים מורכבת הרבה יותר. בעוד דליו שומר על מרחק ביטחון, ענקיות פיננסיות אחרות בוול סטריט, כמו בלקרוק (BlackRock), נוקטות בגישה שונה בתכלית. לארי פינק, מנכ\"ל בלקרוק, התבטא בשנים האחרונות בחיוב רב כלפי הביטקוין, תוך שהוא מכנה אותו 'נכס בינלאומי' ואף משווה אותו לגרסה דיגיטלית של זהב. הפער בין עמדתו של דליו לבין המגמה המוסדית המתרחבת מדגיש את חוסר ההסכמה שעדיין קיים בקרב בכירי הכלכלנים בנוגע לתפקידו של הביטקוין במערכת המוניטרית העולמית. עבור המשקיע הממוצע, מדובר בשיעור חשוב: גם בקרב המוחות הגדולים ביותר, אין קונצנזוס, והחלטה על הקצאת נכסים צריכה לנבוע מהבנה אישית של רמת הסיכון שכל אחד מוכן לקבל על עצמו.\n\nלסיכום, דבריו של דליו אינם מהווים המלצה לפעולה, אלא עדות לגישה שמרנית ומדודה. העובדה שמשקיע בסדר גודל כזה בוחר להחזיק אחוז בודד בלבד בביטקוין, מעידה על כך שגם אלו המכירים בערכו הטכנולוגי של הנכס, עדיין רואים בו רכיב ספקולטיבי בתוך תיק רחב ומאוזן. האסטרטגיה הנכונה, כפי שמשתקף מהתנהלותו של דליו, אינה טמונה בחיפוש אחר הנכס שיביא להתעשרות מהירה, אלא בבניית תמהיל השקעות שמשלב בין מסורת לחדשנות, תוך שמירה על עין פקוחה על הסיכונים הסביבתיים והרגולטוריים.",
-      "terms_he": [],
-      "points_he": [
-        "הקצאת נכסים שמרנית: השקעה בביטקוין כאחוז קטן מתיק השקעות רחב מאפשרת חשיפה לחדשנות ללא חשיפה לסיכון יתר.",
-        "הערכת סיכונים מוסדית: משקיעים גדולים שוקלים לא רק את פוטנציאל התשואה, אלא גם סיכונים טכנולוגיים כמו מחשוב קוונטי ורגולציה ממשלתית.",
-        "גיוון בתיק: החזקת נכסים מסורתיים כגון זהב לצד נכסים דיגיטליים נתפסת לעיתים קרובות כאסטרטגיית גידור מאוזנת."
-      ],
-      "meaning_he": "העמדה של דליו מדגישה כי גם בקרב משקיעים מוסדיים בכירים, הביטקוין נבחן תחת זכוכית מגדלת של ניהול סיכונים מאקרו-כלכלי ולא רק כנכס ספקולטיבי. עבור הקהילה שלנו, זהו שיעור חשוב על חשיבות המידתיות והבנת התמונה הרחבה של השווקים.",
-      "gen_v": 6
-    },
-    {
-      "id": "1fkeqdf",
-      "title": "Legendary Investor Ray Dalio Still Holds Bitcoin — But Only 1% of His Portfolio",
-      "link": "https://bitcoinmagazine.com/news/ray-dalio-prefers-gold-over-bitcoin",
-      "summary": "Bitcoin Magazine Legendary Investor Ray Dalio Still Holds Bitcoin — But Only 1% of His Portfolio Ray Dalio still prefers the precious metal over \"digital gold.\" This post Legendary Investor Ray Dalio Still Holds Bitcoin…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-07-30T19:57:05.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2025/11/Ray-Dalio-Reaffirms-Bitcoin-Skepticism-Says-He-Still-Holds-Just-1-Allocation.jpg",
-      "title_he": "ריי דליו והביטקוין: מבט שמרני על שילוב נכסים דיגיטליים בתיק השקעות מסורתי",
-      "brief_he": "המשקיע הוותיק ריי דליו ממשיך להחזיק בביטקוין בהיקף מצומצם של כאחוז אחד מתיק ההשקעות שלו, תוך העדפה מופגנת לזהב כאפיק גידור.",
-      "commentary_he": "העמדה של ריי דליו, מייסד קרן הגידור ברידג'ווטר (Bridgewater Associates), כלפי עולם הקריפטו מהווה אינדיקציה מעניינת להלך הרוח בקרב הדרג הבכיר של עולם הפיננסים המסורתי. בראיון שהתקיים בסוף יולי 2026 בפודקאסט 'Diary of a CEO', שטח דליו את משנתו המעודכנת בנוגע לנכסים דיגיטליים. עבור משקיעים המנסים להבין כיצד גופים מוסדיים ומשקיעי ענק תופסים את הביטקוין, דבריו מספקים זווית ראייה שקולה, המאזנת בין הכרה בחדשנות הטכנולוגית לבין חששות עמוקים מסיכונים מבניים ורגולטוריים. דליו אינו מבטל את הביטקוין כלאחר יד, אך הוא מציב אותו בהיררכיה שונה לחלוטין מזו של הזהב, אותו הוא ממשיך לראות כעוגן המרכזי לשימור ערך.\n\nעל פי הדיווח, דליו אישר כי הביטקוין מהווה נכון לעכשיו רק כאחוז אחד מתיק ההשקעות הכולל שלו. נתון זה נשאר עקבי עם חשיפות קודמות שסיפק בשנה שעברה, מה שמעיד על גישה שמרנית ומדודה שאינה נוטה לשינויים דרמטיים. במהלך השיחה, דליו פירט את הסיבות המרכזיות להסתייגותו מהגדלת החשיפה לנכס. הוא הצביע על איומים טכנולוגיים פוטנציאליים, דוגמת מחשוב קוונטי העלול לפגוע באבטחת הרשת, וכן על הסיכון הממשי מצד ממשלות. לשיטתו של דליו, היכולת של מדינות להטיל מיסוי, לנטר תנועות או להגביל את השימוש במטבעות דיגיטליים היא נקודת תורפה משמעותית, במיוחד כאשר מדובר בנכס שמתיימר להיות מחוץ לשליטת הבנקים המרכזיים.\n\nחשוב להבין את הרקע להתפתחות עמדתו של דליו. עוד בשנת 2020, הוא הביע ספקנות רבה וטען כי הביטקוין תנודתי מדי מכדי לשמש ככלי כספי יעיל. מאז, הוא עבר תהליך של למידה והכרה בערכו של הנכס, אך הוא מעולם לא אימץ את הגישה האופטימית שמאפיינת את תומכי הקריפטו הנלהבים. בעוד שדמויות מפתח אחרות בוול סטריט, כמו לארי פינק מבלקרוק, מגדירים את הביטקוין כ'זהב דיגיטלי' ואף מקדמים אותו כנכס גלובלי משמעותי, דליו נותר נאמן למודלים הכלכליים הקלאסיים שלו. עבורו, הזהב הפיזי נותר הבחירה המועדפת בשל ההיסטוריה הארוכה שלו והיותו נכס שאינו תלוי בתשתית טכנולוגית שעלולה להיפרץ או להיות מוסדרת באופן דורסני.\n\nהדיון שמעורר דליו מדגיש את המתח המובנה בין הכלכלה המבוזרת לבין המערכות המדינתיות. הבנקים המרכזיים, על פי דליו, זקוקים לפרטיות ושליטה מלאה על עסקאותיהם, מה שמוביל אותם להתרחק מנכסים שקופים ומבוזרים כמו הביטקוין. זוהי נקודת מבט שמשקיעים צריכים לקחת בחשבון: גם אם הטכנולוגיה מבטיחה חופש, המציאות הפוליטית והכלכלית עשויה להציב חסמים שמשפיעים על הנזילות והשימושיות של הנכס בטווח הארוך. החשש של דליו אינו נובע מחוסר הבנה של הפרוטוקול, אלא מהבנה מעמיקה של יחסי הכוחות בין טכנולוגיה לבין ריבונות מדינית.\n\nלסיכום, העמדה של דליו משמשת תזכורת לכך שניהול תיק השקעות מורכב אינו דורש בהכרח אמונה עיוורת בנכס אחד. עבור משקיעים מן השורה, הדוגמה של דליו מלמדת על חשיבות הפיזור והצבת גבולות גזרה לכל אפיק השקעה. החזקה של אחוז בודד בתיק אינה מהווה הבעת אמון מוחלטת בביטקוין כעתיד הפיננסי, אלא יותר כניסוי מבוקר בנכס מסוג חדש. בבואנו לבחון את המקום של הקריפטו בתיק האישי שלנו, כדאי לאמץ את הגישה המדודה הזו: הכרה בפוטנציאל של הנכס, תוך שמירה על רמת סיכון מחושבת שלא תעמיד את היציבות הכלכלית האישית שלנו למבחן מול תנודתיות שוק או שינויים רגולטוריים בלתי צפויים.",
-      "terms_he": [
-        {
-          "term": "מחשוב קוונטי",
-          "explain": "טכנולוגיית מחשוב עתידנית בעלת עוצמת עיבוד אדירה, שעלולה בעתיד לאתגר את אלגוריתמי ההצפנה הקיימים של רשתות בלוקצ'יין."
-        },
-        {
-          "term": "גידור",
-          "explain": "אסטרטגיית השקעה שנועדה להפחית סיכונים בתיק על ידי החזקת נכסים שונים שמתנהגים בצורה הפוכה או מגינים מפני ירידות ערך."
-        }
-      ],
-      "points_he": [
-        "החזקה מוגבלת של אחוז בודד מהתיק משקפת ניהול סיכונים שמרני מול נכס תנודתי.",
-        "התלות בתשתית טכנולוגית והשפעת רגולציה ממשלתית הם סיכונים מרכזיים שיש לקחת בחשבון.",
-        "העדפת זהב על פני ביטקוין מדגישה את ההבדל בין נכס מוחשי היסטורי לנכס דיגיטלי חדשני.",
-        "הכרה בחדשנות הטכנולוגית אינה מחייבת אימוץ מלא של הנכס בתיק ההשקעות."
-      ],
-      "meaning_he": "עבור הקהילה שלנו, מדובר בתזכורת לכך שגם משקיעים מובילים בעולם בוחרים בחשיפה מתונה ומבוקרת לביטקוין, מה שמאשש את הצורך בניהול סיכונים אחראי ולא רגשי.",
-      "gen_v": 6
     },
     {
       "id": "1hhw895",
