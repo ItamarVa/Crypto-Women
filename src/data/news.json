@@ -1,13 +1,30 @@
 {
-  "updated": "2026-08-06T06:27:46.991Z",
+  "updated": "2026-08-06T10:35:36.600Z",
   "count": 46,
   "sources": [
-    "The Defiant",
     "Decrypt",
+    "The Defiant",
     "Bitcoin Magazine",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "1w5ixwk",
+      "title": "Bitcoin AI Security Audit Files 4,962 Findings Across 390 Projects",
+      "link": "https://decrypt.co/375029/bitcoin-ai-security-audit-files-4962-findings-across-390-projects",
+      "summary": "A volunteer group is pointing AI agents at Bitcoin project codebases and says 720 of the issues it has filed are high severity or critical.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-06T09:43:34.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-pixel-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "28vp73",
       "title": "Uniswap Ships A Memecoin Launchpad On Robinhood Chain, Topped By $FRONG Token Minted Six Days Early",
@@ -425,23 +442,6 @@
       "lang": "en",
       "date": "2026-08-05T12:09:32.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2026/08/jim-cramer-decrypt-style-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "py43za",
-      "title": "Ethereum Proposal Would Burn Staking Rewards to Zero if Half of ETH Is Staked",
-      "link": "https://decrypt.co/374944/ethereum-proposal-would-burn-staking-rewards-to-zero-if-half-of-eth-is-staked",
-      "summary": "The incentive to stake beyond half the supply would disappear at activation, with the yield cut phasing in over 18 months.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-05T11:29:23.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/ethereum-decrypt-style-07-gID_7.jpg",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
