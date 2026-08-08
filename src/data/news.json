@@ -1,13 +1,64 @@
 {
-  "updated": "2026-08-07T20:36:37.870Z",
+  "updated": "2026-08-08T01:08:46.259Z",
   "count": 46,
   "sources": [
+    "Bitcoin Magazine",
     "Decrypt",
     "The Defiant",
-    "Bitcoin Magazine",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "1g1drl",
+      "title": "Trump Media Pulls Back From Crypto Deals: Report",
+      "link": "https://bitcoinmagazine.com/news/trump-media-pulls-back-from-crypto-deals",
+      "summary": "Bitcoin Magazine Trump Media Pulls Back From Crypto Deals: Report Trump Media wants to focus on other business ventures, according to an Axios report. This post Trump Media Pulls Back From Crypto Deals: Report first…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-08-07T21:15:05.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Trump-Media.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "170756u",
+      "title": "Trump Media Abandons Crypto Treasury, Prediction Market Ventures",
+      "link": "https://decrypt.co/375166/trump-media-abandons-crypto-treasury-prediction-market",
+      "summary": "Truth Social's parent company is unwinding two major Crypto.com deals as new leadership shifts its focus to media, data licensing, and a planned merger with fusion energy company TAE.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-07T21:05:59.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-02-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1dgrnn7",
+      "title": "Senators Cynthia Lummis and Angela Alsobrooks Say Bipartisan Work on Clarity Act Continues Despite Delays",
+      "link": "https://bitcoinmagazine.com/news/lummis-alsobrooks-work-on-clarity-act",
+      "summary": "Bitcoin Magazine Senators Cynthia Lummis and Angela Alsobrooks Say Bipartisan Work on Clarity Act Continues Despite Delays The long-awaited crypto Clarity Act bill has been stalled. Still, lawmakers from both parties…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-08-07T20:42:33.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Senators-Cynthia-Lummis-and-Angela-Alsobrooks-Say-Bipartisan-Work-on-Clarity-Act-Continues-Despite-Delays.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "kwj4al",
       "title": "Treasury Sanctions Crypto Exchanges It Says Laundered Millions for Iran",
@@ -48,13 +99,18 @@
       "lang": "en",
       "date": "2026-08-07T20:20:36.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/37c802b40b3a6009bca01af84ee41e16d5d80e60-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
+      "title_he": "אבטחת מידע ב-BTCPay Server: דגשים קריטיים למשתמשים ולמנהלי שרתים",
+      "brief_he": "פלטפורמת התשלומים מבוססת הביטקוין BTCPay Server דיווחה על פרצת אבטחה משמעותית וקראה למשתמשים לעדכן את גרסת המערכת ללא דיחוי.",
+      "commentary_he": "בתחום התשלומים מבוססי הביטקוין, פלטפורמות המאפשרות ניהול עצמי של תשתית סליקה הן אבן יסוד עבור עסקים וארגונים המבקשים להימנע מתלות בגופים מרכזיים. השבוע, הפרויקט המוביל בתחום זה, BTCPay Server, פרסם התרעה על פרצת אבטחה קריטית המנוצלת באופן פעיל על ידי תוקפים. עבור כל מי שמנהל שרת תשלומים עצמאי, מדובר באירוע המחייב טיפול מיידי. חשיבות הנושא טמונה בעובדה שמדובר בתשתית שנועדה לאפשר קבלת תשלומים ישירות ללא מתווך; כאשר פרצה כזו מתגלה, היכולת של המשתמש להגיב במהירות היא המחסום האחרון בין שמירה על הנכסים לבין חשיפתם לגישה בלתי מורשית. מדובר בתזכורת נוספת לכך שבעולם ה-Web3, האחריות על אבטחת השרת והקוד היא חלק בלתי נפרד מהחופש הטכנולוגי שאנו בוחרים לאמץ.\n\nעל פי הדיווח של Decrypt, צוות הפיתוח של BTCPay Server קרא למנהלי שרתים לבצע עדכון גרסה מיידי לגרסה 2.4.2, ולבצע אימות של העדכון דרך תחתית הממשק בשרת. במידה ואין באפשרותם של מנהלי המערכות לבצע את העדכון באופן מיידי, ההמלצה החד-משמעית של החברה היא להשבית את שרת ה-BTCPay לחלוטין כדי למנוע גישה לא מורשית עד להשלמת התיקון. מעבר לעדכון התוכנה, נדרשים המשתמשים לנקוט בצעדים טכניים נוספים, הכוללים החלפה של הרשאות המכונות \"macaroons\", יצירה מחדש של קובץ ה-macaroons.db, ורענון מחרוזות האימות עבור כל שירותי ה-Lightning Network המחוברים לשרת. במקרים בהם נוצר ארנק \"חם\" (Hot wallet) על גבי הפלטפורמה, הומלץ למשתמשים להעביר את הכספים משם בהקדם וליצור ארנק חדש לחלוטין, שכן ייתכן שהמפתחות נחשפו.\n\nהפרויקט עצמו הוקם מתוך מטרה לספק פתרון קוד פתוח, מאובטח ונטול צנזורה, אך הדינמיקה של עולם התוכנה מציבה אתגרים מתמידים. בשונה מבורסות ריכוזיות שבהן האחריות הביטחונית מוטלת על גוף אחד, BTCPay Server מסתמך על כך שהמשתמשים מריצים את התשתית בעצמם. הפגיעות הנוכחית דווחה על ידי חברי ה-Bitcoin Red Team, קבוצה של חוקרי אבטחה המתמקדים באיתור חולשות במערכת האקולוגית של הביטקוין. העובדה שחולשה כזו התגלתה ודווחה מדגישה את חשיבות קיומם של מאמצי אבטחה קהילתיים ובלתי תלויים, שכן הם אלו שמאפשרים לתקן את המערכת לפני שייגרם נזק רחב היקף למשתמשי הקצה.\n\nהאירוע הנוכחי מצטרף למגמה רחבה יותר שמעוררת דאגה בקרב מפתחים ואנשי אבטחה: השימוש הגובר בכלי בינה מלאכותית (AI) לצורך מציאת פרצות בקוד. על פי הפרסומים, לאחרונה דווח על מספר מקרים בהם כלי AI סייעו לחוקרים או לתוקפים לאתר חולשות מורכבות במהירות גבוהה משמעותית מזו של צוותי פיתוח אנושיים. כך למשל, במאי האחרון נעשה שימוש במודל Claude Opus 4.8 כדי לחשוף פגיעות ישנה ברשת Zcash שאפשרה יצירת מטבעות ללא הגבלה, ובאוגוסט האחרון הועלו חשדות שכלים דומים שימשו לניצול פרצה בקושחה של מכשירי Coinkite, מה שהוביל לגניבת ביטקוין בשווי של מעל 100 מיליון דולר. גם ספקית ה-swap של ביטקוין, Boltz, נאלצה להשבית שירותים לאחרונה עקב מתקפות שבוצעו בסיוע בינה מלאכותית, מה שמצביע על כך שהמרוץ הטכנולוגי בין אלו המאבטחים את המערכות לבין אלו המנסים לנצלן הופך אינטנסיבי מאי פעם.\n\nלסיכום, עבור מי שבוחר להשתמש בכלים מתקדמים לניהול עצמי של נכסים, המקרה הנוכחי של BTCPay Server הוא תזכורת לכך שערנות טכנית היא חובה. אין בנמצא פתרון שחסין לחלוטין מטעויות קוד או מפרצות, והיכולת להגיב להתרעות אבטחה, לעקוב אחר עדכוני גרסה ולנהל את הגישה לשרתים בצורה מושכלת היא מה שמבדיל בין שימוש בטוח לבין חשיפה לסיכונים מיותרים. הקהילה הטכנולוגית ממשיכה להוכיח כי היכולת לזהות ולתקן חולשות בזמן אמת היא המפתח לשרידות של מערכות פיננסיות מבוזרות, אך בטווח הקצר, האחריות האישית של המשתמש והמנהל היא המגן הראשון והחשוב ביותר.",
       "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "points_he": [
+        "יש לוודא עדכון גרסה ל-2.4.2 באופן מיידי בשרתי BTCPay.",
+        "במידה ולא ניתן לעדכן, יש להשבית את השרת כדי למנוע גישה לא מורשית.",
+        "מומלץ לרענן הרשאות macaroons ולהעביר כספים מארנקים חמים שנחשפו.",
+        "השימוש ב-AI למציאת פרצות קוד הופך לתופעה רווחת, מה שמחייב קצב עדכונים מהיר יותר."
+      ],
+      "meaning_he": "האירוע ממחיש את הצורך בערנות טכנית מתמדת בניהול תשתיות ביטקוין עצמאיות, במיוחד בעידן שבו כלי בינה מלאכותית מזרזים את זיהוי הפרצות על ידי גורמים עוינים.",
+      "gen_v": 6
     },
     {
       "id": "1l05ohw",
@@ -377,23 +433,6 @@
       "gen_v": null
     },
     {
-      "id": "1h8xw3s",
-      "title": "MyTrade Founder Fined $10K Over Bots That Wash Traded 60 Cryptocurrencies",
-      "link": "https://decrypt.co/375085/mytrade-founder-fined-10k-over-bots-that-wash-traded-60-cryptocurrencies",
-      "summary": "Liu Zhou told undercover agents the objective was to make other buyers lose money, according to the Justice Department.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-07T10:37:41.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Judge-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "1rafk37",
       "title": "Bitcoin’s BIP110 Moment: Three Possible Scenarios",
       "link": "https://bitcoinmagazine.com/technical/bitcoins-bip110-moment-three-possible-scenarios",
@@ -570,28 +609,6 @@
       "gen_v": null
     },
     {
-      "id": "vhjadj",
-      "title": "The End of the Closed-Source Era Is at Hand: Obscurity Was Never Security",
-      "link": "https://bitcoinmagazine.com/technical/the-end-of-the-closed-source-era-is-at-hand-obscurity-was-never-security",
-      "summary": "Bitcoin Magazine The End of the Closed-Source Era Is at Hand: Obscurity Was Never Security The Coldcard hack is a preview. When machines can read what humans couldn't (or just didn't), closed source stops being a…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-08-06T18:43:13.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/07/AIs-Bitcoin-Moment-Why-the-Open-Source-Fight-Looks-Like-Crypto-Back-in-2014.jpg",
-      "title_he": "פרצת האבטחה ב-Coldcard: מדוע עידן ה-Closed Source מגיע לקיצו",
-      "brief_he": "חשיפת פרצת אבטחה משמעותית בארנק חומרה פופולרי ממחישה כיצד טכנולוגיית בינה מלאכותית משנה את חוקי המשחק בתחום אבטחת המידע.",
-      "commentary_he": "בעולם אבטחת הנכסים הדיגיטליים, המושג \"ביטחון באמצעות עמימות\" (Security by Obscurity) היה לאורך שנים אבן יסוד עבור יצרניות חומרה רבות. ההנחה הייתה שקוד סגור, שאינו נגיש לבדיקה ציבורית רחבה, מהווה חסם בפני תוקפים פוטנציאליים. אולם, האירועים האחרונים סביב ארנק החומרה Coldcard מטלטלים את התפיסה הזו ומציבים סימני שאלה כבדים על אסטרטגיית הפיתוח של חברות רבות בתחום הקריפטו. כאשר מכונות, ובמיוחד מודלי בינה מלאכותית מתקדמים, מסוגלים כיום לקרוא ולנתח קוד מהר יותר וביסודיות רבה יותר מכל אדם, היתרון שהיה טמון בעבר בחוסר הגישה של הציבור לקוד המקור הופך לנטל מסוכן.\n\nעל פי הדיווח ב-Bitcoin Magazine, פרצה שנתגלתה בגרסת הקושחה של Coldcard אפשרה לתוקפים להטות את תהליך יצירת הזרע (Seed) לשימוש במחולל מספרים אקראיים חלש, במקום במקור האנטרופיה החומרתי המיועד. הטעות, שהושרשה בקוד עוד במרץ 2021, נותרה חבויה במשך חמש שנים תמימות. התוצאות היו הרסניות: על פי נתוני Galaxy Research, התוקפים הצליחו להשתלט על 4,585 כתובות ביטקוין, כששווי הנכסים שנגנבו נאמד בכ-90 מיליון דולר. הנתונים מצביעים על כך שמדובר במתקפה מתמשכת שסופה עדיין אינו נראה באופק, כאשר החשש המרכזי הוא ששימוש בכלי AI אפשר לתוקפים לזהות את הפרצה בקוד הפתוח למחצה של החברה במהירות שיא.\n\nההקשר הרחב של האירוע נוגע לשאלה כיצד אנו תופסים \"קוד סגור\". במציאות הטכנולוגית הנוכחית, כל תוכנה שרצה על מעבד חייבת להציג את הוראותיה למכונה ברגע הביצוע. הטענה שקוד סגור מגן על המשתמש נשחקת אל מול העובדה שכלים מודרניים מאפשרים היום לבצע הנדסה לאחור (Decompilation) לכל קובץ בינארי, ולהפוך אותו לקריא עבור מכונות. כפי שראינו במקרים של פתרון בעיות מתמטיות מורכבות שהיו פתוחות עשרות שנים – כמו השערת היעקוביאן או השערת המרחק של ארדש – מודלי שפה ובינה מלאכותית מציגים יכולת ניתוח חסרת תקדים. אם מודלים אלו מסוגלים לפתור בעיות מתמטיות סבוכות בשעות, משימת זיהוי פרצת אבטחה בקוד הופכת למשימה פשוטה בהרבה.\n\nהשלכות האירוע חורגות מעבר למוצר הספציפי של Coinkite. הן מעלות דרישה חדשה מהשוק: שקיפות מלאה. אם בעבר חברות יכלו להסתתר מאחורי רישיונות קנייניים או מודלים של \"source-available\" כדי להגן על הקניין הרוחני שלהן, כיום נראה כי הציבור והמשתמשים ידרשו בדיקות קוד פתוחות (Open Source) אמיתיות, הניתנות לאימות על ידי הקהילה הרחבה ולא רק על ידי אלגוריתמים של חברות סגורות. הסיכון הממשי כיום אינו רק בפרצה עצמה, אלא בתחושת הביטחון המוטעית שמעניק מוצר שלא עבר ביקורת עמיתים שקופה. חברות שימשיכו להסתמך על עמימות כמרכיב הגנה מרכזי עשויות למצוא את עצמן מול מציאות שבה המוניטין שלהן נשחק במהירות מרגע שאלגוריתם חיצוני יחשוף את חולשותיהן.\n\nלסיכום, האירוע ב-Coldcard משמש תזכורת לכך שאבטחה אינה מצב סטטי, אלא תהליך מתמשך של עדכון ובדיקה. עבור משתמשים, המסר ברור: הסתמכות על חומרה היא צעד חשוב, אך היא אינה פוטרת את המשתמש מהצורך להבין את רמת השקיפות של הטכנולוגיה שבה הוא משתמש. במציאות שבה בינה מלאכותית הופכת לכלי נשק בידי תוקפים, השקיפות היא ההגנה הטובה ביותר שנותרה לנו. עלינו לבחון מחדש את האמון שאנו נותנים במערכות סגורות ולתעדף כלים המבוססים על קוד פתוח וניתן לאימות.",
-      "terms_he": [],
-      "points_he": [
-        "הסתמכות על אבטחה באמצעות עמימות הופכת למסוכנת בעידן ה-AI.",
-        "קוד סגור אינו מונע ממכונות לבצע הנדסה לאחור ולחשוף פרצות.",
-        "יש להעדיף פתרונות המציעים שקיפות קוד מלאה וביקורת עמיתים ציבורית.",
-        "אבטחת נכסים דורשת ערנות מתמדת לפרסומים על עדכוני אבטחה."
-      ],
-      "meaning_he": "האירוע מסמל את סוף עידן ה'קופסה השחורה' באבטחת קריפטו, ומדגיש כי שקיפות קוד היא תנאי הכרחי לשרידות של מוצרי אבטחה בעידן ה-AI.",
-      "gen_v": 6
-    },
-    {
       "id": "11rdetk",
       "title": "Sentora Opens A Lending Vault Against Wellington's First Native Onchain Credit Strategy",
       "link": "https://thedefiant.io/converge/defi/sentora-opens-a-lending-vault-against-wellingtons-first-native-onchain-credit-strategy",
@@ -600,23 +617,6 @@
       "lang": "en",
       "date": "2026-08-06T18:40:17.000Z",
       "image": "https://cdn.thedefiant.io/deeds-thumbnail-jpg-f5d14164-92b6-40ce-9727-240cb18c58fa.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1oqeo8j",
-      "title": "Breez Drops New Bitcoin App Which Doubles As Wallet and Developer Toolkit",
-      "link": "https://bitcoinmagazine.com/news/breez-drops-new-bitcoin-app",
-      "summary": "Bitcoin Magazine Breez Drops New Bitcoin App Which Doubles As Wallet and Developer Toolkit The app, Glow, allows developers to see what's working under the hood with the Lightning wallet so they can build their own…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-08-06T17:38:13.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Breez-Drops-New-Bitcoin-App-Which-Doubles-As-Wallet-and-Developer-Toolkit.jpg",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
