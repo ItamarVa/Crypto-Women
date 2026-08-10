@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T12:55:25.699Z",
+  "updated": "2026-08-10T16:49:25.447Z",
   "count": 46,
   "sources": [
     "Decrypt",
@@ -8,6 +8,142 @@
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "1vyhhro",
+      "title": "Web3 Is Building Financial Freedom Only for People Who Can Afford Mistakes",
+      "link": "https://decrypt.co/375226/web3-is-building-financial-freedom-only-for-people-who-can-afford-mistakes",
+      "summary": "When the same mistake recurs across many users, it stops being client error and becomes product data, argues ChangeNOW's Pauline Shangett.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-10T16:25:28.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/08/money-bitcoin-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "5t0qnv",
+      "title": "Strategy Sells Bitcoin Again For Cash Buffer, STRC Buyback",
+      "link": "https://bitcoinmagazine.com/news/strategy-sells-more-bitcoin-for-cash-pile",
+      "summary": "Bitcoin Magazine Strategy Sells Bitcoin Again For Cash Buffer, STRC Buyback Strategy now hasn't bought Bitcoin since June as the company focuses on having a cash cushion. This post Strategy Sells Bitcoin Again For Cash…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-08-10T16:17:33.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/01/Strategy-MSTR-Stock-Soars-10-Above-189-as-Bitcoin-Nears-100000-1.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "gd9513",
+      "title": "BIP-110 Bitcoin Fork Stalls at Two Blocks as Its Only Miner Quits",
+      "link": "https://thedefiant.io/news/blockchains/bip-110-bitcoin-fork-stalls-at-two-blocks-as-its-only-miner-quits",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-08-10T16:15:22.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/133a1a4c1aa912f46590907e1684a7a1cd431ace-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "12imszy",
+      "title": "XRP Price Weakens as Crypto Market Awaits Clarity",
+      "link": "https://decrypt.co/375214/xrp-price-weakens-crypto-market-awaits-clarity",
+      "summary": "XRP is trading just above $1.00, still pinned under a death cross, as the legislative tailwind that lifted it in July loses steam.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-10T16:11:20.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/xrp-decrypt-style-whatever-number-it-is-1-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "oxqz3u",
+      "title": "Hackers Drain $8 Million From Crypto Exchange Across Two Blockchains",
+      "link": "https://decrypt.co/375213/hackers-drain-8-million-from-crypto-platform-coinsbuy",
+      "summary": "The attacker moved funds across Tron and Ethereum before routing millions through crypto exchanges, while later wallet activity offers clues about how the breach occurred.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-10T15:56:30.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "gif0sn",
+      "title": "BIP-110 Fork Stalls at Two Blocks as Bitcoin Miners Refuse to Follow",
+      "link": "https://bitcoinmagazine.com/news/bip110-stalls-bitcoin-miners-do-not-follow",
+      "summary": "Bitcoin Magazine BIP-110 Fork Stalls at Two Blocks as Bitcoin Miners Refuse to Follow A controversial proposal — supported by the Knots community — aimed at clearing up spam on the Bitcoin network, attempted to fork on…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-08-10T15:12:36.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/BIP-110-Fork-Stalls-at-Two-Blocks-as-Miners-Refuse-to-Follow.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "be6ca8",
+      "title": "OpenAI Says Its Next AI Model Astra May Be Too Dangerous, Pauses Development",
+      "link": "https://decrypt.co/375210/openai-pause-astra-ai-model-critical-cyber-capabilities",
+      "summary": "OpenAI says its next major model may be dangerous enough to write its own cyberweapons, and it's pulling back until the safeguards catch up.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-10T15:03:07.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/openai-decrypt-style-02-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "qfpkw0",
+      "title": "Tom Lee's Bitmine Buys $14M in Ethereum as Cash Falls to $104M",
+      "link": "https://decrypt.co/375201/tom-lees-bitmine-buys-14m-in-ethereum-as-cash-falls-to-104m",
+      "summary": "Bitmine has reported 4.8% of the supply for five straight weeks, leaving its 'Alchemy of 5%' target roughly 230,000 tokens away.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-10T14:12:12.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/ethereum-decrypt-style-05-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "1qd1qr5",
       "title": "Morning Minute: Bitcoin ETFs See Biggest Inflows Since May",
@@ -128,40 +264,6 @@
       "gen_v": null
     },
     {
-      "id": "g23z50",
-      "title": "Senate Keeps Clarity Act Alive With Crypto Bill Vote Set for September",
-      "link": "https://decrypt.co/375174/senate-keeps-clarity-act-alive-with-crypto-bill-vote-set-for-september",
-      "summary": "Senate Majority Leader John Thune filed the motion to proceed early Saturday, setting up a mid-September showdown.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-08T16:33:02.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/US-Capitol-decrypt-style-01-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1qg8xfi",
-      "title": "Robinhood Crypto Chief Explains Why There Are 'Two Wolves' Inside Robinhood Chain",
-      "link": "https://decrypt.co/375158/robinhood-crypto-two-wolves-robinhood-chain-rwa-meme-coins",
-      "summary": "“We want to show customers that we care about what they care about,\" Robinhood head of crypto Johann Kerbrat told Decrypt.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-08T14:01:05.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/Johann-Kerbat-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "1g1drl",
       "title": "Trump Media Pulls Back From Crypto Deals: Report",
       "link": "https://bitcoinmagazine.com/news/trump-media-pulls-back-from-crypto-deals",
@@ -193,23 +295,6 @@
       "gen_v": 6
     },
     {
-      "id": "170756u",
-      "title": "Trump Media Abandons Crypto Treasury, Prediction Market Ventures",
-      "link": "https://decrypt.co/375166/trump-media-abandons-crypto-treasury-prediction-market",
-      "summary": "Truth Social's parent company is unwinding two major Crypto.com deals as new leadership shifts its focus to media, data licensing, and a planned merger with fusion energy company TAE.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-07T21:05:59.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-02-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "1dgrnn7",
       "title": "Senators Cynthia Lummis and Angela Alsobrooks Say Bipartisan Work on Clarity Act Continues Despite Delays",
       "link": "https://bitcoinmagazine.com/news/lummis-alsobrooks-work-on-clarity-act",
@@ -225,37 +310,6 @@
       "points_he": [],
       "meaning_he": null,
       "gen_v": null
-    },
-    {
-      "id": "kwj4al",
-      "title": "Treasury Sanctions Crypto Exchanges It Says Laundered Millions for Iran",
-      "link": "https://decrypt.co/375163/treasury-sanctions-crypto-exchanges-laundered-millions-iran",
-      "summary": "The U.S. Treasury sanctioned two crypto exchanges it says laundered millions of dollars for Iran's Revolutionary Guard, naming a Georgia- and UAE-based operator and an Iran-based platform.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-07T20:28:33.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/01/iran-bitcoin-decrypt-style-02-gID_7.jpg",
-      "title_he": "אכיפה אמריקאית על זירות מסחר בקריפטו: המאבק בהלבנת כספים איראנית",
-      "brief_he": "משרד האוצר האמריקאי הטיל סנקציות על שתי בורסות קריפטו בטענה ששימשו להלבנת כספים עבור גורמים המקושרים למשמרות המהפכה באיראן.",
-      "commentary_he": "בתחילת אוגוסט 2026, נקט משרד האוצר האמריקאי צעד משמעותי במערכה הכלכלית המכונה \"Economic Fury\", כאשר הטיל סנקציות על שתי זירות מסחר במטבעות דיגיטליים. המהלך מסמן את העמקת המעורבות של הרגולטור האמריקאי בזירת הנכסים הדיגיטליים, לא רק בהיבטי הגנת משקיעים, אלא ככלי אסטרטגי במאבק נגד רשתות מימון טרור עולמיות. עבור המשתמש הממוצע בקהילת הקריפטו, האירוע הזה מהווה תזכורת לכך שהטכנולוגיה, על אף היותה מבוזרת וגלובלית, אינה חסינה מפני זרועות האכיפה של המעצמות, במיוחד כאשר היא נרתמת לשימוש בתשתיות פיננסיות צללים המפירות סנקציות בינלאומיות באופן שיטתי.\n\nלפי הודעת משרד האוצר, במוקד הסנקציות עומדת בורסת Shelbit, שפעלה ממדינות שונות ובראשה עמד סיאוואש קייוואנפור, אזרח בעל אזרחויות דומיניקה ואפגניסטן. על פי הפרסום, ארנקים דיגיטליים המקושרים לכוחות הביטחון האיראניים העבירו מעל מיליון דולר בנכסים דיגיטליים לבורסה זו, אשר בתורה החזירה מעל שני מיליון דולר לארנקים איראניים, וביצעה העברות נוספות של כשני מיליון דולר לבורסת Nobitex האיראנית – גוף שכבר היה נתון לסנקציות קודמות. במקביל, הוטלו סנקציות על בורסה נוספת בשם Aban Tether, שלפי הדיווחים עיבדה מיליוני דולרים בעסקאות מול פלטפורמות איראניות מוכרות אחרות. היקף הפעילות שנחשף מדגים את המורכבות של רשתות אלו, כאשר רק בחודש מאי האחרון הקפיאה ארה\"ב כ-131 מיליון דולר בנכסים דיגיטליים הקשורים לאיראן, ומאז תחילת הקמפיין הכולל דווח על תפיסה של כמיליארד דולר בנכסים דומים.\n\nהרקע לפעילות זו נעוץ בניסיונות של גורמים מדינתיים לעקוף את המערכת הבנקאית המסורתית באמצעות שימוש בנכסים דיגיטליים. בעוד שהקריפטו מאפשר העברות מהירות וחוצות גבולות ללא צורך במתווכים בנקאיים, הוא גם מייצר עקבות דיגיטליים שניתן לעקוב אחריהם באמצעים מתוחכמים. הרשויות האמריקאיות משתמשות ברשימת ה-SDN (Specially Designated Nationals), רשימה שחורה המנתקת גופים אלו מהמערכת הפיננסית האמריקאית באופן מוחלט. כל נכס של אותם גופים הנוגע בטריטוריה או במערכת פיננסית אמריקאית מוקפא מיידית, וחברות זרות שבוחרות להמשיך ולסחור עם גופים אלו מסתכנות בסנקציות משניות, דבר שמוביל לבידודם הכלכלי של אותם אתרי מסחר.\n\nהשלכות המהלך חורגות מעבר לבורסות הספציפיות שנסגרו. המקרה ממחיש את הקושי של רגולטורים מקומיים, כפי שניתן לראות במקרה של הרשות המפקחת על נכסים וירטואליים באיחוד האמירויות (VARA), שביצעה פעולות אכיפה נגד Shelbit כבר בינואר 2025 וביולי 2026, אך התקשתה לעצור את הפעילות לחלוטין. עבור משקיעים ומשתמשים, זוהי קריאת השכמה בנוגע לחשיבות הדירוג והאמינות של זירות המסחר שבהן הם פועלים. בחירה בבורסות מפוקחות, שקופות ובעלות מדיניות ציות (Compliance) קפדנית אינה רק עניין טכני או בירוקרטי, אלא הגנה בסיסית מפני מעורבות בלתי מכוונת במערכות שעלולות להיות חשופות לסנקציות בינלאומיות.\n\nלסיום, כדאי לזכור כי המאבק במימון לא חוקי נמצא בעדיפות עליונה של הממשל האמריקאי, כפי שמעידה העובדה שמחלקת המדינה מציעה פרס של עד 15 מיליון דולר עבור מידע שיוביל לשיבוש המנגנונים הפיננסיים של משמרות המהפכה. הלקח המרכזי עבור הקהילה שלנו הוא הצורך לשמור על זהירות יתרה בבחירת פלטפורמות מסחר. הידיעה אילו גופים פועלים תחת רגולציה נאותה ואילו מהווים סיכון משפטי היא חלק בלתי נפרד מניהול סיכונים חכם בעולם הקריפטו, במיוחד בתקופה שבה רשתות האכיפה הבינלאומיות הולכות ומתהדקות סביב זירות מסחר שאינן עומדות בסטנדרטים גלובליים.",
-      "terms_he": [
-        {
-          "term": "SDN List",
-          "explain": "רשימה שחורה של משרד האוצר האמריקאי הכוללת אנשים וארגונים שאסור לאזרחים וחברות בארה\"ב לבצע איתם עסקאות."
-        },
-        {
-          "term": "סנקציות משניות",
-          "explain": "צעדים כלכליים שננקטים נגד גופים זרים שאינם אמריקאים, בגלל קשריהם העסקיים עם גופים שכבר נמצאים תחת סנקציות."
-        }
-      ],
-      "points_he": [
-        "משרד האוצר האמריקאי משלב אכיפה על קריפטו כחלק מאסטרטגיה רחבה נגד מימון טרור.",
-        "השימוש ברשימת ה-SDN מנתק גופים מכל גישה למערכת הפיננסית האמריקאית.",
-        "משתמשים צריכים לוודא שבורסות הקריפטו שלהם פועלות תחת רגולציה מוכרת כדי להימנע מסיכוני סנקציות.",
-        "האכיפה נגד ערוצי 'בנקאות צללים' דיגיטליים צפויה להימשך ולהחריף."
-      ],
-      "meaning_he": "האירוע מדגיש את המעבר של הקריפטו מהשוליים למרכז המערכת הגיאופוליטית, שבה זירות מסחר עלולות להפוך ליעדי אכיפה מרכזיים במאבקי כוח בין-מדינתיים.",
-      "gen_v": 6
     },
     {
       "id": "1kzbjp3",
@@ -288,23 +342,6 @@
       "lang": "en",
       "date": "2026-08-07T20:01:50.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/fa3a3248270751b64e0a4b76078e1b509a9e34ab-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "11l0lph",
-      "title": "Bitcoin Payment Service BTCPay Warns Critical Flaw Is Under Active Attack",
-      "link": "https://decrypt.co/375159/bitcoin-payment-service-btcpay-critical-flaw-active-attack",
-      "summary": "Bitcoin company BTCPay Server told users to install the latest version of the server and replace credentials that may have been exposed.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-07T20:00:34.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/bitcoin-crack-decrypt-style-gID_7.jpg",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
@@ -549,28 +586,6 @@
       "gen_v": 6
     },
     {
-      "id": "15v3kep",
-      "title": "Breez Announces Glow, an Open Source Bitcoin to Stablecoins Progressive Web App",
-      "link": "https://bitcoinmagazine.com/business/breez-announces-glow-an-open-source-bitcoin-to-stablecoins-progressive-web-app",
-      "summary": "Bitcoin Magazine Breez Announces Glow, an Open Source Bitcoin to Stablecoins Progressive Web App Breez’s new open-source Glow PWA turns Bitcoin into everyday money. Users send stablecoins from their BTC balance via…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-08-06T20:07:16.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/photo_2026-08-06-15.05.34.jpeg",
-      "title_he": "חוויית משתמש חדשה בביטקוין: אפליקציית Glow מבית Breez",
-      "brief_he": "חברת Breez משיקה את Glow, אפליקציה המשלבת ארנק ביטקוין עם סטייבלקוין ומנגנון אימות מודרני, במטרה להנגיש את הטכנולוגיה לקהל הרחב.",
-      "commentary_he": "הניסיון להפוך את השימוש בביטקוין ליומיומי ונגיש הוא אחד האתגרים המרכזיים בתעשייה, במיוחד עבור משתמשים שאינם טכניים. לאחרונה הושקה אפליקציית Glow, פרויקט בקוד פתוח של חברת Breez, המנסה לגשר על הפער בין המורכבות הטכנית של רשת הביטקוין לבין הציפיות של הצרכן המודרני מאפליקציות תשלומים. המטרה המוצהרת של הפרויקט היא לאפשר למשתמשים לשלוח סטייבלקוין מתוך יתרת הביטקוין שלהם, תוך הסתמכות על תשתית ה-Lightning Network, מבלי שהמשתמש יצטרך להתמודד עם המורכבות הטכנית שמאחורי הקלעים. עבור מי שעוקב אחר התפתחות האקו-סיסטם, מדובר בניסיון מעניין להציע חוויית תשלומים מוכרת, הדומה לזו של אפליקציות בנקאיות או פינטק מסורתיות, תוך שמירה על עקרונות הליבה של עולם הקריפטו.\n\nעל פי הפרסום של Bitcoin Magazine באוגוסט 2026, האפליקציה מאפשרת למשתמשים להחזיק בנכסים דיגיטליים ולבצע המרות ביניהם באמצעות ה-SDK של Breez. אחד החידושים המרכזיים הוא השימוש בתקן Passkey, שמחליף את הצורך בניהול מורכב של מפתחות גישה או ביטויים סודיים (Seed Phrases), מתוך מטרה להפחית את חסמי הכניסה. בנוסף, האפליקציה תומכת בשליחה וקבלה של תשלומים באמצעות Lightning addresses, מה שמאפשר להעביר כספים בכתובות שנראות כמו כתובות אימייל. המערכת משלבת שירותים כמו Cash App ו-MoonPay כדי לאפשר כניסה מהירה של משתמשים חדשים, ומאפשרת שימוש בסטייבלקוין בשם USDB, המונפק על ידי חברת Brale Inc. לפי הדיווח, USDB מגובה בנכסים כמו איגרות חוב ממשלתיות (T-bills) ומזומן, ומציע אפשרות להרוויח תשואה של עד 6% APY מפעילות בבורסת Flashnet.\n\nההיבט המעניין כאן הוא השימוש בסטייבלקוין שמוגדר כ-\"Bitcoin native\", כלומר כזה שפועל על גבי רשת הביטקוין עצמה דרך פרוטוקול Spark. בניגוד לסטייבלקוין שרצים על גבי רשתות אחרות ומצריכים גשרים (Bridges) שעלולים להוות נקודת תורפה, כאן הסטייבלקוין נשען על מסילות הביטקוין. עבור מפתח אפליקציות, היכולת להשתמש ב-SDK של Breez מאפשרת לבנות מוצרים פיננסיים על גבי ביטקוין בלי להשקיע משאבים אדירים בפיתוח התשתית הבסיסית. מדובר בגישה שונה מהסטנדרט המקובל ב-DeFi, שבו לרוב נדרשת אינטראקציה מורכבת עם חוזים חכמים ברשתות כמו את'ריום.\n\nעם זאת, חשוב להסתכל על התמונה המלאה ועל הסיכונים הכרוכים במוצרים מסוג זה. למרות שהאפליקציה היא בקוד פתוח ומאפשרת ביקורת על הקוד, השימוש ב-USDB כרוך בהסתמכות על גורם מנפיק (Brale Inc) ועל רגולציה שעדיין נמצאת בתהליכי הטמעה, כמו ה-GENIUS Act שצפוי להיכנס לתוקף ב-2027. המשתמשים נדרשים להבין שהנוחות של שימוש בסטייבלקוין על גבי ביטקוין אינה מבטלת את הסיכונים הכרוכים בנכסים דיגיטליים או את התלות בבורסות וגופים פיננסיים המעורבים בתהליך. כמו בכל מוצר חדשני, יש לשקול את האיזון בין חוויית המשתמש המשופרת לבין המורכבות של הכלים הפיננסיים שמתחת למכסה המנוע.\n\nלסיכום, Glow מסמנת מגמה של התבגרות טכנולוגית שבה התשתית של הביטקוין מתחילה לשמש כבסיס ליישומים שאינם רק \"אגירת ערך\", אלא כלים תפעוליים לשימוש יומיומי. עבור הקהילה, זהו תזכורת לכך שהחדשנות בתחום נעה לא רק סביב מחירים, אלא סביב שיפור דרמטי ביכולת של הציבור הרחב לתקשר עם רשתות מבוזרות. ככל שכלים כאלה יהפכו לזמינים ופשוטים יותר, כך נראה יותר יישומים שמשלבים את יתרונות הביטקוין עם הסטנדרטים של עולם הפינטק המוכר.",
-      "terms_he": [],
-      "points_he": [
-        "שימוש בתקני Passkey מפשט את הגישה לארנקים אך דורש הבנה של מנגנוני הגיבוי החדשים.",
-        "סטייבלקוין המגובה בנכסים ריאליים על גבי רשת הביטקוין מציע גיוון בשימוש בנכסי קריפטו.",
-        "פיתוח מבוסס קוד פתוח מאפשר לקהילה לבחון את אבטחת המוצר באופן שקוף.",
-        "השילוב בין רשתות Lightning לבין שירותי המרה מקל על הכניסה לעולם ה-DeFi."
-      ],
-      "meaning_he": "המהלך מדגים כיצד טכנולוגיית הביטקוין עוברת משלב של נכס ספקולטיבי לשלב של תשתית תשלומים נגישה, תוך שימוש בסטייבלקוין ככלי יציב בתוך המערכת.",
-      "gen_v": 6
-    },
-    {
       "id": "gc1yzd",
       "title": "Robinhood Chain's DEX Volume Fell 72% While Transactions And Deposits Set Records",
       "link": "https://thedefiant.io/news/blockchains/robinhood-chains-dex-volume-fell-72-while-transactions-and-deposits-set-records",
@@ -594,37 +609,6 @@
         "השוק עובר לעיתים מפעילות ספקולטיבית לשימוש פונקציונלי ברשת."
       ],
       "meaning_he": "המקרה מדגים כיצד פלטפורמות פיננסיות מבוזרות יכולות לשמור על צמיחה בבסיס המשתמשים שלהן גם כאשר נפח המסחר הפיננסי חווה תנודתיות.",
-      "gen_v": 6
-    },
-    {
-      "id": "frz2q8",
-      "title": "Senate Whip Barrasso Becomes Latest Lawmaker to Support Crypto Clarity Act, But Time May Be Running Out",
-      "link": "https://bitcoinmagazine.com/news/barrasso-supports-clarity-act",
-      "summary": "Bitcoin Magazine Senate Whip Barrasso Becomes Latest Lawmaker to Support Crypto Clarity Act, But Time May Be Running Out While Republicans are urging lawmakers to get the bill over the line, there isn't much time left…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-08-06T19:43:15.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Senate-Whip-Barrasso-Becomes-Latest-Lawmaker-to-Support-Crypto-Clarity-Act-But-Time-May-Be-Running-Out.jpg",
-      "title_he": "המרוץ נגד השעון: הדיונים על ה-Clarity Act בוושינגטון מגיעים לנקודת רתיחה",
-      "brief_he": "הדיונים על ה-Clarity Act בארה\"ב נמשכים, כאשר מחוקקים בכירים פועלים לקדם את החקיקה לפני היציאה לפגרת הקיץ.",
-      "commentary_he": "הדיון סביב ה-Clarity Act בארצות הברית משקף את המורכבות שבה ניצב הממשל האמריקאי בניסיונו לגבש מסגרת רגולטורית ברורה לשוק הנכסים הדיגיטליים. החקיקה, שנועדה להעניק ודאות משפטית וכלכלית לחברות ולמשקיעים בתחום הבלוקצ'יין, נמצאת כעת במוקד של מאבק פוליטי אינטנסיבי. עבור הקהילה העסקית והמשקיעים, מדובר בצומת דרכים משמעותי: אישור החוק עשוי להוות את אבן הפינה להמשך הפיתוח הטכנולוגי תחת הגנה מוסדרת, בעוד שעיכובים נוספים עלולים להשאיר את התעשייה בערפל משפטי מתמשך. החשיבות של מהלך זה חורגת מעבר לשוק האמריקאי לבדו, שכן להחלטות שמתקבלות בוושינגטון יש השפעה גלובלית על האופן שבו מדינות אחרות בוחרות לאמץ או להגביל טכנולוגיות פיננסיות מבוזרות.\n\nעל פי הדיווח ב-Bitcoin Magazine מה-6 באוגוסט 2026, הסנאטור ג'ון באראסו, המכהן כ-Senate Majority Whip, הצטרף לקריאות להעביר את הצעת החוק בדחיפות לפני היציאה לפגרה בת חמישה שבועות. באראסו הדגיש כי לאחר העברת ה-Genius Act בשנה שעברה, שהיה צעד משמעותי ראשון בתחום, הגיע הזמן להשלים את המלאכה עם ה-Clarity Act. למרות האופטימיות בקרב חלק מהמחוקקים הרפובליקנים, המצב בשטח מורכב יותר. על פי פרסומים, הסנאטור תום טיליס ציין כי הבית הלבן טרם השיב לעדכונים האחרונים בטיוטת החוק, מה שמעלה סימני שאלה בנוגע לסיכויים להביא את הנושא להצבעה לפני פתיחת הפגרה. נכון לעכשיו, הצעת החוק עברה בבית הנבחרים, אך הנוסח הנוכחי כולל הרחבות משמעותיות שנוספו בעקבות דרישות של חברי קונגרס דמוקרטים.\n\nהקונטקסט הרחב של חקיקה זו טמון במחלוקות פוליטיות וכלכליות עמוקות. מאז יולי, נוסח החוק עבר שינויים שנועדו להגביר את השקיפות, כולל סעיפים האוסרים על עובדי ממשל ובני משפחותיהם להנפיק או לקדם נכסי קריפטו, צעד שנועד להפיג חששות מאתיקה לקויה. עם זאת, קבוצת מחוקקים דמוקרטים הביעה הסתייגות בכתב, בטענה שהתיקונים אינם מספקים. במקביל, הלובי הבנקאי מפעיל לחצים כבדים סביב סוגיית התשואות על סטייבלקוינס (Stablecoins) שמשולמות ללקוחות על ידי חברות קריפטו, סוגיה שיוצרת התנגשות ישירה עם חברות מובילות כמו Coinbase. הדינמיקה הזו מדגימה כיצד אינטרסים כלכליים מסורתיים וחדשים נאבקים על המקום שלהם בתוך מסגרת החוק המתגבשת.\n\nהשלכות העיכובים הללו רחבות. השוק מגיב לכל תנודה בחדשות הרגולטוריות, ולעיתים קרובות אנחנו רואים תנודתיות גבוהה המושפעת מהציפייה להכרעות פוליטיות. עבור המשקיע הפרטי, חשוב להבין שה-Clarity Act אינו רק מסמך טכני; הוא הכלי שיגדיר את כללי המשחק העתידיים. הסיכון העיקרי שנותר הוא הקיפאון החקיקתי שעלול להוביל לכך שהנושא יידחה לחודשים ארוכים, מה שישאיר את השוק בתוך ואקום רגולטורי. עם זאת, דמויות מפתח כמו הסנאטורית סינתיה לומיס והסנאטור טים סקוט ממשיכים להביע ביטחון בכך שהצבעה תתקיים, ייתכן אף תוך הארכת מושב הסנאט בימים נוספים מעבר למתוכנן.\n\nלסיכום, הדיונים על ה-Clarity Act ממחישים את העבודה הסיזיפית הנדרשת להטמעת טכנולוגיה חדשה בתוך מערכות משפטיות ותיקות. עבור הקהילה שלנו, מדובר בתזכורת לכך שהשקעה בנכסים דיגיטליים דורשת מעקב מתמיד לא רק אחר הגרפים, אלא גם אחר תהליכי קבלת ההחלטות בדרגים הגבוהים ביותר. היכולת להבין את השפעת הרגולציה על השוק היא חלק בלתי נפרד מניהול סיכונים מושכל ומקצועי. נמשיך לעקוב אחר ההתפתחויות בוושינגטון ככל שהתמונה תתבהר בימים הקרובים.",
-      "terms_he": [
-        {
-          "term": "Stablecoin",
-          "explain": "מטבע דיגיטלי שערכו צמוד לנכס יציב, לרוב דולר אמריקאי, כדי לצמצם תנודתיות."
-        },
-        {
-          "term": "Senate Majority Whip",
-          "explain": "תפקיד פוליטי בכיר בסנאט האמריקאי האחראי על גיוס קולות והבטחת נוכחות של חברי המפלגה בהצבעות."
-        }
-      ],
-      "points_he": [
-        "ה-Clarity Act נועד להסדיר את שוק הנכסים הדיגיטליים בארה\"ב ולהעניק ודאות רגולטורית.",
-        "קיימת מחלוקת פוליטית סביב סעיפי אתיקה ומודלים של תשואות בסטייבלקוינס, המעכבים את החקיקה.",
-        "השוק מגיב בתנודתיות לדיווחים על התקדמות או עיכובים באישור החוק בקונגרס.",
-        "המשך המעקב אחר הליכי החקיקה חיוני להבנת המגמות המאקרו-כלכליות המשפיעות על עולם הקריפטו."
-      ],
-      "meaning_he": "החקיקה הזו עשויה להוות אבן דרך לאימוץ מוסדי של נכסים דיגיטליים בארה\"ב, מה שישפיע באופן ישיר על הנזילות והיציבות של השוק הגלובלי שבו פועלים גם משקיעים ישראלים.",
       "gen_v": 6
     },
     {
@@ -660,36 +644,6 @@
       "points_he": [],
       "meaning_he": null,
       "gen_v": null
-    },
-    {
-      "id": "28vp73",
-      "title": "Uniswap Ships A Memecoin Launchpad On Robinhood Chain, Topped By $FRONG Token Minted Six Days Early",
-      "link": "https://thedefiant.io/news/defi/uniswap-pools-trade-launchpad-live-frong-memecoin",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-08-05T23:05:59.000Z",
-      "image": "https://cdn.thedefiant.io/frog-thumbnail-jpg-bc6e5faa-ff6e-4921-a20c-1df0d7a8f642.jpg",
-      "title_he": "Uniswap ו-Robinhood: המפגש בין עולם ה-DeFi להנפקת מטבעות קלה",
-      "brief_he": "Uniswap משיקה כלי להנפקת מטבעות חדשים על גבי רשת ה-L3 של Robinhood, צעד שמדגיש את המפגש בין עולמות ה-DeFi למסחר הקמעונאי.",
-      "commentary_he": "Uniswap, הבורסה המבוזרת המובילה, ביצעה צעד משמעותי במאמציה להנגיש את עולם ה-DeFi למשתמשים רבים יותר, כשהשיקה פלטפורמה ייעודית להנפקת מטבעות (Launchpad) על גבי הרשת של Robinhood. מהלך זה, שבוצע על גבי תשתית ה-Arbitrum Orbit L3, מציב את Uniswap בלב המערכת האקולוגית של Robinhood, המנסה למצב את עצמה כשחקנית מרכזית בתחום הנכסים הדיגיטליים. עבור מי שעוקב אחר התפתחות התחום, מדובר בשינוי כיוון מעניין: היכולת להשיק נכסים דיגיטליים בצורה פשוטה ומהירה בתוך רשת הנתמכת על ידי גוף פיננסי מוכר, מהווה גשר פוטנציאלי בין עולם המטבעות הדיגיטליים לבין קהל משקיעים רחב יותר, שעד כה נרתע מהמורכבות הטכנית של פלטפורמות מבוזרות.\n\nלפי הדיווח של The Defiant, ההשקה לוותה בתקרית טכנית שהדגישה את האתגרים הכרוכים בפרויקטים בשלבים מוקדמים. המטבע הראשון שזכה לתשומת לב רבה, ה-$FRONG, הוטבע (Minted) והושק כשישה ימים לפני המועד המתוכנן להשקת הפלטפורמה עצמה. חריגה זו בלוחות הזמנים ממחישה את הדינמיקה המהירה, לעיתים חסרת המעצורים, של עולם הממטבעות (Memecoins). הפלטפורמה של Uniswap, שנועדה להקל על יצירת נכסים אלו, מבקשת לייעל את התהליך הטכני שבו משתמשים יכולים להנפיק מטבעות חדשים ללא צורך בידע בתכנות חוזים חכמים מורכבים. השימוש ב-L3 של Robinhood מאפשר ביצוע עסקאות בעלויות נמוכות משמעותית בהשוואה לרשת האת'ריום הראשית, מה שהופך את התחום לנגיש יותר למשתמשים קטנים.\n\nכדי להבין את המשמעות של המהלך, כדאי להסתכל על ההקשר הרחב של Launchpads. בעבר, השקת פרויקט חדש דרשה משאבים טכניים משמעותיים, ידע בקידוד ואבטחה, ומעורבות של גורמים מתווכים. כיום, כלים כמו זה של Uniswap מאפשרים לכל אדם להפוך למנפיק של נכס דיגיטלי בלחיצת כפתור. בעוד שהטכנולוגיה מאחורי זה היא מבוזרת ומתקדמת, המטרה היא פשטות. עבור Robinhood, מדובר בצעד אסטרטגי להגדלת נפח הפעילות ברשת שלהם, כאשר הם מנסים למשוך מפתחים ומשתמשים שמחפשים את השילוב בין המהירות והנזילות של ה-DeFi לבין הממשק המוכר של חברת ברוקראז' גדולה.\n\nעם זאת, המעבר לכלים פשוטים להנפקת מטבעות נושא עמו סיכונים מובנים. שוק הממטבעות מאופיין בתנודתיות קיצונית, ולעיתים קרובות מדובר בנכסים ללא ערך פונדנציאלי ברור. כאשר פלטפורמה מאפשרת הנפקה כה קלה, היא עלולה למשוך גם פרויקטים בעלי אופי ספקולטיבי או הונאתי. משקיעים צריכים להיות מודעים לכך שהטכנולוגיה אמנם מאובטחת ברמת הפרוטוקול, אך הנכסים עצמם אינם נהנים מהגנות רגולטוריות מסורתיות. החיבור של Uniswap ל-Robinhood Chain מעלה שאלות לגבי האחריות של הפלטפורמות הללו: האם הן משמשות רק כצינור טכני, או שמא הן נושאות באחריות כלפי הציבור במקרה של כשלים בנכסים שמונפקים על גביהן?\n\nלסיכום, היוזמה המשותפת של Uniswap ו-Robinhood היא תזכורת לכך שתחום הבלוקצ'יין ממשיך להתבגר ולחפש דרכים להגיע לקהל המיינסטרים. הניסיון להוריד את חסמי הכניסה להנפקת נכסים הוא חלק בלתי נפרד מהחזון של Web3, אך כפי שראינו במקרה של ה-$FRONG, הטכנולוגיה תמיד רצה מהר יותר מהנהלים. עבור מי שבוחן את השוק, המפתח נותר כפי שהיה תמיד: הבנה מעמיקה של הפלטפורמה שבה פועלים, זהירות מופלגת מול נכסים חדשים ומסקרנים, ושמירה על גישה ביקורתית כלפי כל הזדמנות שמופיעה בתדירות כה גבוהה בשוק המטבעות הדיגיטליים.",
-      "terms_he": [
-        {
-          "term": "Launchpad",
-          "explain": "פלטפורמה טכנולוגית המאפשרת למפתחים להשיק פרויקטים חדשים ולמשקיעים גישה ראשונית לרכישת טוקנים."
-        },
-        {
-          "term": "L3 (Layer 3)",
-          "explain": "שכבת פיתוח נוספת מעל רשת הבלוקצ'יין, המיועדת לייעול מהירות העסקאות והפחתת עלויות."
-        }
-      ],
-      "points_he": [
-        "השקת פלטפורמות להנפקת מטבעות על ידי שחקניות גדולות מורידה דרמטית את חסמי הכניסה למפתחים ומנפיקים.",
-        "השימוש ברשתות L3 מאפשר פעילות בנפח גבוה בעלויות נמוכות, מה שמשפר את חוויית המשתמש ב-DeFi.",
-        "הקלות הטכנית בהנפקת מטבעות מעלה את הסיכון לחשיפה לנכסים תנודתיים או ספקולטיביים במיוחד."
-      ],
-      "meaning_he": "המהלך מסמן את ההתמזגות ההולכת וגוברת בין פלטפורמות מסחר פיננסי מסורתיות לבין התשתית המבוזרת של הבלוקצ'יין, מה שמקרב את ה-DeFi למשתמש הממוצע.",
-      "gen_v": 6
     },
     {
       "id": "1hhw895",
