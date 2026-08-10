@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T09:13:34.528Z",
+  "updated": "2026-08-10T12:55:25.699Z",
   "count": 46,
   "sources": [
     "Decrypt",
@@ -8,6 +8,74 @@
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "1qd1qr5",
+      "title": "Morning Minute: Bitcoin ETFs See Biggest Inflows Since May",
+      "link": "https://decrypt.co/375194/morning-minute-bitcoin-etfs-see-biggest-inflows-since-may",
+      "summary": "And the ETH inflows were even bigger, when factoring in market cap.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-10T12:32:19.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/etf-decrypt-style-01-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "7qy4py",
+      "title": "Strategy Sells $109M in Bitcoin as Dollar Reserve Tops $4.6B",
+      "link": "https://decrypt.co/375196/strategy-sells-109m-in-bitcoin-as-dollar-reserve-tops-4-6b",
+      "summary": "All of the proceeds went into a $109 million STRC buyback, while the company sold six times as much again in its own stock.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-10T12:24:48.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/strategy-logo-x-twitter-2-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "15gaxr",
+      "title": "Bitcoin ETFs Draw $854M Over Five Days as Rate-Hike Bets Fade",
+      "link": "https://decrypt.co/375192/bitcoin-etfs-draw-854m-over-five-days-as-rate-hike-bets-fade",
+      "summary": "Daily totals shrank as the week wore on, and analysts are split on whether the return of institutional money marks a genuine turn.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-10T12:14:57.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/bitcoin-etf-decrypt-style-01-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1xp8ogv",
+      "title": "Standard Chartered Sees $4T Tokenization Driving Chainlink to $200 by 2030",
+      "link": "https://decrypt.co/375189/standard-chartered-sees-4t-tokenization-driving-chainlink-to-200-by-2030",
+      "summary": "The bank has now set 2030 targets for Uniswap, Aave, Morpho and Chainlink, all resting on one 37x forecast for DeFi growth.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-10T10:19:06.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/chainlink-decrypt-style-01-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "1funwi4",
       "title": "Bybit Sues North Korea Over $1.5B Hack, Wins Order Freezing Assets",
@@ -246,28 +314,6 @@
       "gen_v": null
     },
     {
-      "id": "1vsj4ma",
-      "title": "Flock Wanted to Turn 350,000 Uber Drivers Into a Nationwide Plate-Scanning Fleet",
-      "link": "https://decrypt.co/375149/flock-cameras-uber-drivers-nationwide-plate-scanning-fleet",
-      "summary": "A leaked Flock presentation shows the surveillance firm pitching a plan to pull license-plate data from rideshare and delivery drivers.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-07T19:18:41.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/03/decrypt-style-shhh-gID_7.png",
-      "title_he": "הטכנולוגיה בשירות האכיפה: ניתוח פרשת Flock והשלכותיה על הפרטיות",
-      "brief_he": "חשיפת תוכנית של חברת Flock Safety להפיכת מאות אלפי רכבים אזרחיים למערך ניטור לוחית רישוי נייד מעוררת דיון ציבורי נוקב על גבולות המעקב.",
-      "commentary_he": "בעידן שבו טכנולוגיה וביטחון אישי מצטלבים, עולה לעיתים קרובות השאלה היכן עובר הגבול בין הגנה על הציבור לבין פגיעה בפרטיות. פרסום לאחרונה חשף כי חברת Flock Safety, העוסקת בטכנולוגיות אכיפה, בחנה תוכנית שאפתנית להפוך מאות אלפי כלי רכב אזרחיים – ממוניות של Uber ו-Lyft ועד לרכבי משלוחים – למערך נייד של קוראי לוחיות רישוי. התוכנית, שהוצגה למשרד התובע הכללי של ג'ורג'יה, הציעה לעשות שימוש במצלמות הדרך של חברת Nexar, שכבר מותקנות במאות אלפי רכבים, כדי לתעד ולסרוק בזמן אמת את לוחיות הרישוי של כל רכב שחולף בדרך. אמנם החברה הצהירה כי העסקה מעולם לא יצאה לפועל, אך עצם קיומה של היוזמה מדגיש את השאיפה של חברות טכנולוגיה להרחיב את טביעת הרגל שלהן במרחב הציבורי.\n\nעל פי הנתונים המפורטים בדיווח, Flock Safety הגיעה באפריל האחרון לשווי שוק של כ-8.4 מיליארד דולר, ומוצריה – מצלמות סטטיות המותקנות על עמודים – כבר פרוסים בלמעלה מ-5,000 קהילות ברחבי ארצות הברית. בעוד שהמודל הקיים מתמקד בנקודות קבועות, הרעיון להשתמש בצי של 350,000 כלי רכב היה אמור להסיר את המצלמות מהעמודים ולהפוך אותן לניידות, ובכך ליצור רשת מעקב רציפה ודינמית המכסה אזורים נרחבים. הניסיון של החברה להרחיב את השפעתה מגיע בתקופה מאתגרת עבורה: ביולי האחרון, משטרת לוס אנג'לס (LAPD) החליטה שלא לחדש את החוזה שלה עם החברה, תוך שהיא מציינת חששות כבדים בנוגע להגנה על חירויות האזרח.\n\nהרקע לדיון הציבורי טמון בשינוי המהותי שחל בתפיסת המעקב הטכנולוגי. בעבר, מעקב היה מוגבל לציוד משטרתי ייעודי, אך כיום, השימוש בנתונים הנאספים על ידי גורמים פרטיים לצרכי אכיפה מעורר התנגדות עזה. דיווחים של רשת CNN העלו מקרים שבהם שוטרים השתמשו לרעה במערכת, מה שהוביל להתפטרותם או למעצרם. מנגד, קבוצות לזכויות אזרח כמו EPIC קוראות לקונגרס לאסור על שימוש במערכות זיהוי לוחיות רישוי אוטומטיות (ALPR), ומדינות כמו וושינגטון כבר העבירו חקיקה המגבילה את השימוש בהן. גם במישור המשפטי הנושא אינו יורד מהפרק, כאשר שופט פדרלי אישר לאחרונה המשך דיון בתביעה הטוענת כי המצלמות מפרות את התיקון הרביעי לחוקה האמריקאית, בהסתמך על פסיקות קודמות של בית המשפט העליון לגבי מעקב ללא צו.\n\nהשלכות המקרה רחבות בהרבה מהטכנולוגיה עצמה. הן נוגעות בשאלת הבעלות על המידע שנאסף על ידי חברות פרטיות והיכולת של רשויות המדינה לגשת אליו. עבור משקיעים ומתעניינים בתחום ה-Tech, מדובר בתזכורת לכך שחדשנות טכנולוגית אינה פועלת בחלל ריק. רגולציה מחמירה, לחץ ציבורי ושינויים בתפיסה החברתית של מושג ה'פרטיות' משפיעים באופן ישיר על כדאיותן של השקעות ועל היתכנותן של מודלים עסקיים המבוססים על איסוף נתונים המוני. כאשר חברה גדולה כמו Flock נתקלת בהתנגדות רחבה, זהו איתות לכלל השוק על הצורך בזהירות רבה יותר בפריסת מוצרים פולשניים.\n\nלסיכום, הסיפור של Flock Safety מדגיש את המתח התמידי בין יעילות טכנולוגית לערכי יסוד דמוקרטיים. עבור מי שעוקבת אחרי התפתחות עולם הטכנולוגיה, הלקח העיקרי הוא שפתרונות טכנולוגיים המציעים 'קיצורי דרך' לאכיפה עשויים להיתקל במחסומים משפטיים וציבוריים בלתי צפויים. השוק מתחיל לתמחר את הסיכונים הללו, והשיח הציבורי בנושא הופך למשמעותי לא פחות מהפיתוח ההנדסי עצמו.",
-      "terms_he": [],
-      "points_he": [
-        "הטכנולוגיה מאפשרת מעקב בהיקפים חסרי תקדים, אך נתקלת בהתנגדות ציבורית ומשפטית גוברת.",
-        "הערכת שווי של חברה בודדת אינה מבודדת אותה מהשפעות רגולטוריות ושינויים בדעת הקהל.",
-        "השימוש בנתונים פרטיים לצרכי אכיפה ממשלתיים נמצא במוקד ויכוח חוקתי עמוק בארה\"ב.",
-        "העולם עובר לכיוון של הגבלת מעקב אוטומטי, מה שעשוי להשפיע על חברות בתחום ה-AI והסנסורים."
-      ],
-      "meaning_he": "המקרה מדגים כיצד חדשנות טכנולוגית בתחום איסוף הנתונים נתקלת במחסומי רגולציה ופרטיות, מה שמשפיע ישירות על סיכוני ההשקעה ועל עתיד המודלים העסקיים המבוססים על Big Data.",
-      "gen_v": 6
-    },
-    {
       "id": "1f99chp",
       "title": "Coldcard Bitcoin Hack: Victims Report Median Loss of 1 BTC as Theft Tops $111 Million",
       "link": "https://bitcoinmagazine.com/news/coldcard-victims-report-median-loss-1btc",
@@ -307,36 +353,6 @@
       "gen_v": null
     },
     {
-      "id": "1pgt9qi",
-      "title": "XRP at a Crossroads as Senate Punts on Clarity Act",
-      "link": "https://decrypt.co/375136/xrp-price-crossroads-senate-punts-clarity-act",
-      "summary": "XRP is taking the Clarity Act news harder than the rest of the crypto market. Here's why.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-07T17:36:41.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/xrp-decrypt-style-02-gID_7.jpg",
-      "title_he": "האתגרים המשפטיים של XRP: בין ציפיות רגולטוריות למציאות בשטח",
-      "brief_he": "דחיית הדיונים על ה-Clarity Act בסינאט האמריקאי מעוררת אי-ודאות סביב מטבע ה-XRP בעוד השוק מחפש בהירות משפטית.",
-      "commentary_he": "התנודתיות בשוק הקריפטו היא לעיתים קרובות פונקציה של ציפיות רגולטוריות, וכאשר אלו מתבדות, השוק מגיב בהתאם. לאחרונה, החלטת הסינאט לסיים את מושב הדיונים מבלי להעלות להצבעה את ה-Clarity Act דחתה למעשה את האפשרות להסדרה מבנית של השוק לפחות עד חודש ספטמבר. עבור משקיעים ופעילים בתחום, מדובר באיתות שאי-הוודאות המלווה את התעשייה ימשיך ללוות אותנו בתקופה הקרובה, כאשר השוק מנסה לנחש את מועד העדכון הבא במפת הדרכים הרגולטורית האמריקאית. בעוד שמרבית הנכסים הדיגיטליים הגיבו לחדשות באדישות יחסית, ה-XRP בלט לשלילה, מה שמדגיש את הרגישות המיוחדת של הנכס הזה לסוגיות משפטיות.\n\nעל פי הדיווחים, בעוד שמטבעות אחרים רשמו תנודות מתונות, ה-XRP חווה ירידה של 2.05%, מה שהפך אותו לנכס החלש ביותר מבין המטבעות המובילים במונחי שווי שוק באותה עת. נכון לדיווח, המטבע נסחר סביב רמה של 1.028 דולר, עם שווי שוק כולל של כ-64 מיליארד דולר. ניתוח טכני של המגמות מראה כי המטבע נמצא במגמת ירידה עקבית מאז שנת 2025, כאשר הוא התרחק משיאים קודמים של 3 דולר. נתון המדאיג חלק מהסוחרים הוא הופעת 'צלב מוות' (Death Cross) בגרפים, שבו הממוצע הנע ל-50 ימים חוצה כלפי מטה את הממוצע הנע ל-200 ימים. בנוסף, מדד ה-RSI עומד על 35.9, מה שמעיד על מומנטום שלילי עם פוטנציאל להמשך ירידות לפני שקונים משמעותיים יחליטו להיכנס לשוק.\n\nהקשר הרחב של סוגיית ה-Clarity Act טמון בשאלה הקריטית: האם נכסים מסוימים מסווגים כניירות ערך או כסחורות. הצעת החוק נועדה להעביר נכסים כמו XRP, Solana ו-Dogecoin תחת פיקוח ה-CFTC, גוף הנתפס בקהילת הקריפטו כפחות מחמיר מה-SEC, שניהל מאבק משפטי ארוך שנים נגד חברת Ripple. עבור Ripple, מדובר במאבק על עצם ההגדרה המשפטית של הנכס, שכן פסיקה או חקיקה ברורה יסיימו את 'מצב הלימבו' המשפטי בו נמצא המטבע. ללא חקיקה כזו, בורסות וגופים מוסדיים נאלצים לפעול תחת עננה של אי-ודאות, מה שמשפיע ישירות על הנזילות והאמון של המשקיעים בטווח הארוך.\n\nמנקודת מבט רחבה יותר, השוק מנסה להבין את כוחו של המומנטום בנכסים דיגיטליים כאשר אין בסיס חקיקתי מוצק. בעוד שסוחרים מסוימים עדיין מביעים אופטימיות בטווח הקצר, כפי שמשתקף בנתוני השוק של Myriad, שבהם נרשמה הסתברות של 77% לכך שהמטבע יישאר מעל רף ה-1 דולר במהלך סוף השבוע, המציאות הטכנית מציירת תמונה זהירה הרבה יותר. הסיכון המרכזי הוא שבירה של רמת התמיכה הפסיכולוגית של 1 דולר, שעלולה להוביל את המטבע לרמות שפל שלא נראו מאז תחילת שנת 2024, סביב 0.9153 דולר. נראה כי השוק מתמחר כרגע את הסיכון שדחיית החקיקה תמשך מעבר למצופה, מה שמעמיד את המשקיעים במבחן סבלנות לא פשוט.\n\nלסיכום, הסיפור של XRP הוא תזכורת לכך שהשקעות בבלוקצ'יין אינן מנותקות מהמציאות הפוליטית והמשפטית. בעוד שטכנולוגיה יכולה להציע פתרונות פורצי דרך, האימוץ המוסדי והיציבות נותרים תלויים בהחלטות רגולטוריות שמתקבלות בחדרי הסינאט. עבור מי שעוקב אחר התחום, המסקנה היא שיש להפריד בין הפוטנציאל הטכנולוגי לבין המציאות הרגולטורית המשתנה, ולהיות מודעים לכך שהמחיר בשוק משקף לעיתים קרובות את הפער בין הציפייה לבין מה שמתקבל בפועל במישור המשפטי.",
-      "terms_he": [
-        {
-          "term": "Clarity Act",
-          "explain": "הצעת חוק אמריקאית שנועדה להגדיר בצורה ברורה אילו מטבעות דיגיטליים נחשבים לניירות ערך ואילו לסחורות."
-        },
-        {
-          "term": "Death Cross",
-          "explain": "תבנית טכנית בגרף מחירים שבה ממוצע נע לטווח קצר חוצה כלפי מטה ממוצע נע לטווח ארוך, מה שנתפס לעיתים כאות למגמה שלילית."
-        }
-      ],
-      "points_he": [
-        "אי-ודאות רגולטורית משפיעה ישירות על מחיר הנכס, לעיתים יותר מאשר היבטים טכנולוגיים.",
-        "ניתוח טכני של ממוצעים נעים (כמו צלב מוות) מספק אינדיקציה למגמת השוק הנוכחית.",
-        "החלטות חקיקה בארה\"ב הן גורם מפתח להסרת חסמים עבור משקיעים מוסדיים ובורסות."
-      ],
-      "meaning_he": "האירוע מדגיש כיצד החלטות בסינאט האמריקאי משפיעות באופן ישיר על שווי השוק של נכסים דיגיטליים, ומזכיר למשקיעים שהרגולציה היא אחד הגורמים המשפיעים ביותר על עתיד התעשייה.",
-      "gen_v": 6
-    },
-    {
       "id": "smveq4",
       "title": "Rarible Launches Solana NFT Marketplace With Claynosaurz as First Collection",
       "link": "https://thedefiant.io/news/nfts-and-web3/rarible-launches-solana-nft-marketplace-with-claynosaurz-as-first-collection",
@@ -371,23 +387,6 @@
       "gen_v": null
     },
     {
-      "id": "drgrvn",
-      "title": "Hackers Use BNB Chain to Spread Malware Through Fake CAPTCHAs",
-      "link": "https://decrypt.co/375133/hackers-use-bnb-chain-spread-malware-fake-captchas",
-      "summary": "Microsoft said compromised websites are retrieving malicious instructions from the blockchain before tricking visitors into running them on Windows devices.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-07T16:36:59.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/Binance-BNB-BSC-DecryptStyle-1-scaled-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "bf9x0y",
       "title": "Bitcoin Shrugs off Coldcard Hack and Clarity Act Delays, Price Chops Higher as Investors Buy ETFs",
       "link": "https://bitcoinmagazine.com/news/bitcoin-price-shrugs-off-coldcard-hack",
@@ -396,23 +395,6 @@
       "lang": "en",
       "date": "2026-08-07T16:29:44.000Z",
       "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Bitcoin-Shrugs-off-Coldcard-Hack-and-Clarity-Act-Delays-Price-Chops-Higher.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "rs2ec6",
-      "title": "Bitcoin Still in Death Cross as Jobs Miss Cuts Rate-Hike Odds",
-      "link": "https://decrypt.co/375118/bitcoin-price-death-cross-jobs-miss-rate-hike-odds",
-      "summary": "A soft July payrolls print pulled September rate-hike odds down. It gives investors in risk assets hope, but Bitcoin remains in bear territory.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-07T16:07:12.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-10-gID_7.png",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
