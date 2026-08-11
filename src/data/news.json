@@ -1,18 +1,103 @@
 {
-  "updated": "2026-08-10T20:36:55.370Z",
+  "updated": "2026-08-11T01:14:10.641Z",
   "count": 46,
   "sources": [
-    "Bitcoin Magazine",
-    "Decrypt",
     "The Defiant",
+    "Decrypt",
+    "Bitcoin Magazine",
     "Bitcoin Embassy TLV"
   ],
   "items": [
     {
+      "id": "1aanctt",
+      "title": "Bitcoin's BIP Editors Remove Luke Dashjr Two Days After BIP-110 Fork Stalled",
+      "link": "https://thedefiant.io/news/blockchains/bitcoin-bip-editors-remove-luke-dashjr-after-bip-110-fork-stalled",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-08-10T22:40:11.000Z",
+      "image": "https://cdn.thedefiant.io/dashjr-thumbnail-jpg-a83d65bf-9e55-4c05-a483-55e133156da5.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1eclrpa",
+      "title": "Vitalik Buterin Says Ethereum Is Betting Its Future on Quantum Security and AI",
+      "link": "https://decrypt.co/375285/vitalik-buterin-ethereum-betting-future-quantum-ai",
+      "summary": "Ethereum’s updated roadmap puts quantum resistance, privacy and AI-assisted formal verification at the center of the network’s technical ambitions.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-10T21:48:22.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/vitalik-buterin-ethereum-decrypt-style-05-1-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "u7mey",
+      "title": "Two Prediction Markets Shut Down Hours Apart as Kalshi and Polymarket Take 93% of Volume",
+      "link": "https://thedefiant.io/news/defi/two-prediction-markets-shut-down-hours-apart-as-kalshi-and-polymarket-take-93-of-volume",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-08-10T21:22:51.000Z",
+      "image": "https://cdn.thedefiant.io/0b3b067ef4a5d0ff2567b3625223bf523dfb2a04-2048x1152-avif-4a5a4054-5341-4d08-93a6-5a5063112699.avif",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1knkb2w",
+      "title": "Blockstream Debuts Swaps, Allowing Bitcoiners to Move Between Lightning and Main Network With Ease",
+      "link": "https://bitcoinmagazine.com/news/blockstream-debuts-bitcoin-swaps-lightning",
+      "summary": "Bitcoin Magazine Blockstream Debuts Swaps, Allowing Bitcoiners to Move Between Lightning and Main Network With Ease Following the suspension of Boltz, Blocksteam is debuting a feature allowing trustless Bitcoin swaps.…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-08-10T21:18:27.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Blockstream-Debuts-Swaps-Allowing-Bitcoiners-to-Move-Between-Lightning-and-Main-Network-With-Ease.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "mtxl3m",
+      "title": "Bitcoin ATMs Pulled in Australia as Regulators Signal Wider Crackdown",
+      "link": "https://decrypt.co/375282/bitcoin-atms-pulled-australia-regulators-crackdown",
+      "summary": "AUSTRAC has suspended the registration of the operator running 96 of Australia's roughly 1,800 crypto ATMs, effective August 9.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-10T21:02:43.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/05/decrypt-style-bitcoin-atm-cropped-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
       "id": "1ncbc3s",
-      "title": "BTCPay Server Offers 3 Bitcoin Bounty for Recovery of Stolen Funds After Wallet Exploit",
+      "title": "BTCPay Server Offers a 3 Bitcoin Bounty for Recovery of Stolen Funds After Wallet Exploit",
       "link": "https://bitcoinmagazine.com/news/btcpay-server-offers-bitcoin-bounty",
-      "summary": "Bitcoin Magazine BTCPay Server Offers 3 Bitcoin Bounty for Recovery of Stolen Funds After Wallet Exploit The open-source payment processor is funding a recovery bounty worth 10% of any funds returned, capped at 3…",
+      "summary": "Bitcoin Magazine BTCPay Server Offers a 3 Bitcoin Bounty for Recovery of Stolen Funds After Wallet Exploit The open-source payment processor is funding a recovery bounty worth 10% of any funds returned, capped at 3…",
       "source": "Bitcoin Magazine",
       "lang": "en",
       "date": "2026-08-10T20:26:55.000Z",
@@ -332,40 +417,6 @@
       "gen_v": null
     },
     {
-      "id": "1qd1qr5",
-      "title": "Morning Minute: Bitcoin ETFs See Biggest Inflows Since May",
-      "link": "https://decrypt.co/375194/morning-minute-bitcoin-etfs-see-biggest-inflows-since-may",
-      "summary": "And the ETH inflows were even bigger, when factoring in market cap.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-10T12:32:19.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/etf-decrypt-style-01-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "7qy4py",
-      "title": "Strategy Sells $109M in Bitcoin as Dollar Reserve Tops $4.6B",
-      "link": "https://decrypt.co/375196/strategy-sells-109m-in-bitcoin-as-dollar-reserve-tops-4-6b",
-      "summary": "All of the proceeds went into a $109 million STRC buyback, while the company sold six times as much again in its own stock.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-10T12:24:48.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/strategy-logo-x-twitter-2-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "1g1drl",
       "title": "Trump Media Pulls Back From Crypto Deals: Report",
       "link": "https://bitcoinmagazine.com/news/trump-media-pulls-back-from-crypto-deals",
@@ -543,27 +594,6 @@
       "gen_v": null
     },
     {
-      "id": "t4ztsy",
-      "title": "Bitcoin ETFs Add Nearly $800 Million in the Wake of Coldcard Exploit",
-      "link": "https://bitcoinmagazine.com/news/bitcoin-etfs-800-million-coldcard",
-      "summary": "Bitcoin Magazine Bitcoin ETFs Add Nearly $800 Million in the Wake of Coldcard Exploit One of the biggest Bitcoin security stories of the year unfolded last week as a firmware exploit affecting certain Coldcard hardware…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-08-07T16:00:50.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Bitcoin-ETFs-Add-Nearly-800-Million-in-the-Wake-of-Coldcard-Exploit.jpg",
-      "title_he": "עולם ההשקעות המוסדיות: זרימות ההון ל-ETFs של ביטקוין נמשכות למרות אירועי אבטחה",
-      "brief_he": "בעוד שפרצת אבטחה בפתרונות אחסון עצמי עוררה דיון בתעשייה, נתונים מצביעים על המשך ביקוש מוסדי חזק לקרנות סל של ביטקוין.",
-      "commentary_he": "השבוע האחרון בשוק הקריפטו הציב בפני המשקיעים מראה כפולה: מחד, אירוע אבטחה משמעותי שנגע למוצרי אחסון חומרה פופולריים, ומאידך, עקביות יוצאת דופן בהתנהלות השוק המוסדי. האירוע סביב פרצת הקושחה במוצרי Coldcard העלה מחדש לסדר היום הציבורי את סוגיית האחריות האישית והאבטחה התפעולית בניהול נכסים דיגיטליים. עבור משקיעים רבים, מדובר בתזכורת לכך שניהול עצמי של ביטקוין דורש מיומנות טכנית וערנות מתמדת. עם זאת, השאלה המרכזית עבור המתבוננים מהצד הייתה האם אירוע כזה ירתיע את הגופים המוסדיים או ישנה את דפוסי ההשקעה שלהם בטווח הקצר. נראה כי התשובה לשאלה זו, לפחות על פי הנתונים האחרונים, היא שהשוק המוסדי פועל על פי לוחות זמנים ואסטרטגיות שונים לחלוטין.\n\nעל פי הדיווח של ה-Bitcoin For Corporations ETF Dashboard, במהלך שבעת ימי המסחר האחרונים רשמו קרנות הסל (ETFs) של ביטקוין בארצות הברית כניסות הון נטו מרשימות של כ-790.6 מיליון דולר. הנתונים מראים כי מעל מיליארד דולר זרמו לתוך הקרנות הללו, בעוד שפדיונות עמדו על כ-212.7 מיליון דולר. יום המסחר ב-31 ביולי היה היום היחיד שרשם תזרים שלילי במהלך התקופה, עם יציאה של 212.7 מיליון דולר, אך כבר בימים שלאחר מכן חזרו הקונים לפעילות אינטנסיבית. ב-3 באוגוסט נרשמה כניסה של 170.1 מיליון דולר, ב-4 באוגוסט 207.8 מיליון דולר, ב-5 באוגוסט 241.6 מיליון דולר וב-6 באוגוסט 99.4 מיליון דולר. מדובר באחד השבועות החזקים ביותר מבחינת תזרים הון בחודשים האחרונים.\n\nבראש רשימת המגייסים ניצבת קרן IBIT של BlackRock, שהמשיכה להוביל את השוק עם כניסות הון מצטברות של 757.5 מיליון דולר במהלך שבעת הימים האמורים. מדובר ברצף של ארבעה ימי מסחר חיוביים ברציפות עבור הקרן, כאשר ביום המסחר האחרון לבדו נוספו לה 128.3 מיליון דולר. קרנות נוספות כמו FBTC של Fidelity ו-BITB של Bitwise רשמו גם הן תוספות צנועות יותר, מה שמעיד על כך שהביקוש אינו מוגבל לשחקן אחד בלבד אלא נפרס על פני מספר אפיקי השקעה מוסדיים. העובדה שזרמי ההון נותרו חיוביים בסיכום שבועי מצביעה על כך שהשוק המוסדי אינו מגיב בהכרח לכל כותרת חדשותית באותו אופן שבו מגיב הסוחר הקמעונאי.\n\nחשוב להבין כי זרימת הון לקרנות סל מספקת תמונה על הפעילות בשוק, אך אינה חושפת את המניעים הפסיכולוגיים של המשקיעים. קשה לקבוע בוודאות האם הקונים ראו בפרצת האבטחה הזדמנות רכישה, התעלמו ממנה, או פשוט המשיכו בתוכנית השקעה ארוכת טווח שנקבעה מראש. עם זאת, העובדה המרכזית היא שהביקוש המוסדי הוכיח עמידות. עבור משקיעים, ההבחנה בין אחסון עצמי, שבו הפרט נושא בכל האחריות, לבין השקעה דרך קרנות סל מוסדיות, היא קריטית. כל אפיק מגיע עם פרופיל סיכון ושיקולים תפעוליים שונים, והשבוע האחרון הדגיש כיצד מוסדות בוחרים באפיקים מוסדרים כדי לצמצם את החשיפה לסיכוני אבטחה ישירים.\n\nלסיכום, הנתונים מלמדים כי למרות רעשי הרקע והכותרות סביב אבטחת מידע, האמון המוסדי בביטקוין כנכס השקעה נותר איתן. עבור הקהילה שלנו, מדובר בשיעור חשוב על הפרדה בין אירועים טכניים נקודתיים לבין מגמות מאקרו-כלכליות. בעוד שאנו ממשיכות לעקוב אחר ההתפתחויות הטכנולוגיות, חשוב להבין כי הכלים המוסדיים מספקים כיום חלון הצצה ברור לביקוש העולמי, וזהו כלי עבודה חיוני לכל מי שבוחנת את השוק בצורה רחבה ומעמיקה.",
-      "terms_he": [],
-      "points_he": [
-        "השוק המוסדי הראה עמידות גבוהה וזרמי הון חיוביים למרות כותרות שליליות על אבטחה.",
-        "קרנות הסל של ביטקוין משמשות כאינדיקטור מרכזי לפעילות הון מוסדית, ללא קשר למניעי המשקיעים.",
-        "קיימת הבחנה ברורה בין סיכוני אחסון עצמי לבין השקעה דרך מוצרים מוסדרים."
-      ],
-      "meaning_he": "הנתונים מראים כי למרות אירועי אבטחה, הביקוש המוסדי לביטקוין ממשיך לצמוח, מה שמעיד על הבשלה של השוק ותפיסתו כנכס לגיטימי לטווח ארוך.",
-      "gen_v": 6
-    },
-    {
       "id": "yrn5st",
       "title": "Black Lake Launches Harbor Verify to Bring Verifiable Credit to Onchain Markets",
       "link": "https://thedefiant.io/news/tradfi-and-fintech/black-lake-harbor-verify-onchain-credit-verification",
@@ -579,58 +609,6 @@
       "points_he": [],
       "meaning_he": null,
       "gen_v": null
-    },
-    {
-      "id": "ccyqxf",
-      "title": "ether.fi Removes Restaking From weETH, Nearing A Full EigenLayer Exit",
-      "link": "https://thedefiant.io/news/defi/etherfi-removes-restaking-from-weeth-nearing-full-eigenlayer-exit",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-08-06T21:16:01.000Z",
-      "image": "https://cdn.thedefiant.io/wallet-drain-thumbnail-jpg-a248c6c3-5c43-403e-a525-8fb3ba5df386.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "jvih93",
-      "title": "Uniswap's New Launchpad Out-Launched Pons On Its First Day On Robinhood Chain",
-      "link": "https://thedefiant.io/news/defi/uniswaps-new-launchpad-out-launched-pons-on-its-first-day-on-robinhood-chain",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-08-06T20:22:19.000Z",
-      "image": "https://cdn.thedefiant.io/uniswap-launchpad-thumbnail-v2-jpg-a9e160ed-f566-43ab-a7a8-b5df60c0de79.jpg",
-      "title_he": "הנגשת הביטקוין: אפליקציית Glow החדשה משלבת ארנק וסטייבלקוינס",
-      "brief_he": "אפליקציית Glow החדשה מבית Breez מציעה ממשק פתוח למשתמשי ביטקוין, המאפשר ניהול סטייבלקוינס ושימוש בטכנולוגיית Passkey במקום משפטי גיבוי מורכבים.",
-      "commentary_he": "התפתחות משמעותית נרשמה לאחרונה בתחום הארנקים הדיגיטליים, עם השקתה של אפליקציית Glow מבית חברת Breez. המערכת החדשה, שפותחה בשיתוף פעולה עם Bitcoin Spark, נועדה לגשר על הפער שבין רשת הביטקוין לבין עולם הסטייבלקוינס (מטבעות יציבים), תוך דגש על חוויית משתמש פשוטה ונגישה. עבור משתמשים המבקשים לשמור על שליטה עצמית בנכסיהם מבלי להתמודד עם המורכבות הטכנית הגבוהה שאפיינה את התחום בשנים האחרונות, מדובר בשינוי כיוון משמעותי. המטרה המוצהרת היא להפוך את השימוש בביטקוין ליומיומי ואינטואיטיבי יותר, תוך שימוש בתשתיות פתוחות המאפשרות למפתחים לבנות על גבי הרשת בקלות רבה יותר.\n\nעל פי הדיווח ב-Bitcoin Magazine, האפליקציה מציעה מגוון יכולות טכניות מתקדמות המוטמעות בתוך ממשק פשוט. Glow משתמשת בתקן ה-Passkey, המאפשר למשתמשים להימנע משימוש בביטויי גיבוי (seed phrases) מורכבים, תוך שמירה על עקרון ה-self-custody, כלומר שליטה מלאה של המשתמש על מפתחותיו. המערכת תומכת בביצוע תשלומים ברשת ה-Lightning, ומאפשרת למשתמשים להמיר את החזקות הביטקוין שלהם לערך דולרי באמצעות סטייבלקוינס כמו USDT או USDC. בנוסף, האפליקציה מאפשרת שימוש ב-USDB, מטבע יציב המגובה בנכסים דולריים ומבוסס על פרוטוקול הביטקוין. על פי הפרסום, מחזיקי USDB עשויים ליהנות מתשואה שנתית (APY) של עד 6%, שמקורה ברווחי בורסת ה-DeFi בשם Flashnet. האפליקציה זמינה להורדה בחנויות האפליקציות של אפל ואנדרואיד כתוכנת קוד פתוח תחת רישיון MIT.\n\nהרקע למהלך זה טמון בצורך הגובר של משתמשים בשילוב בין יציבות לבין טכנולוגיית הבלוקצ'יין. הביטקוין, למרות מעמדו כנכס לשימור ערך, סובל מתנודתיות גבוהה המקשה על השימוש בו כאמצעי תשלום שוטף. על ידי הטמעת היכולת להמיר ביטקוין לסטייבלקוינס בצורה חלקה, האפליקציה מבקשת לספק פתרון ביניים למשתמשים שרוצים להישאר בתוך האקו-סיסטם של הביטקוין אך זקוקים ליציבות של דולר דיגיטלי. השימוש ב-Passkey הוא חלק ממגמה רחבה יותר בעולם הטכנולוגיה, המנסה לנטוש סיסמאות מסורתיות לטובת מנגנוני אימות מאובטחים ופשוטים יותר, דבר שצפוי להפחית משמעותית את רף הכניסה עבור משתמשים שאינם מומחים טכנולוגיים.\n\nעם זאת, חשוב להסתכל על הנתונים וההבטחות בזהירות הנדרשת. בעוד שהתשואה המוצעת של 6% נראית אטרקטיבית, יש להבין כי מדובר ברווחים המגיעים מפעילות מורכבת של בורסות DeFi, אשר טומנת בחובה סיכונים הכוללים חשיפה לחוזים חכמים, סיכוני נזילות ורגולציה. יתרה מכך, הדיווח מציין כי תאימות המטבע USDB לתקני ה-GENIUS Act טרם ניתנת לאימות מלא, שכן הרגולציה הרלוונטית צפויה להיכנס לתוקף רק בשנת 2027. עבור המשתמש, המשמעות היא שנוחות הממשק אינה מבטלת את הצורך בביצוע בדיקת נאותות מעמיקה לגבי הפרוטוקולים שבהם הוא משתמש. עולם הפיננסים המבוזר מתקדם במהירות, אך הסיכונים המובנים בו נותרים בעינם, וכל פלטפורמה חדשה דורשת בחינה של המנגנונים הכלכליים המניעים אותה מאחורי הקלעים.\n\nלסיכום, השקת Glow מדגישה את הכיוון שאליו צועדת התעשייה: הפשטה של הטכנולוגיה כדי להפוך אותה לנגישה לקהל הרחב. עבור קהילת הקריפטו, מדובר בתזכורת לכך שחדשנות אינה עוסקת רק בטכנולוגיה עצמה, אלא באופן שבו היא משרתת את המשתמש הקצה. בעוד שהכלים הופכים לידידותיים יותר, האחריות האישית על הבנת הסיכונים והתנהלות פיננסית מושכלת נשארת נחלת המשתמש. ככל שהכלים הללו ימשיכו להתפתח, היכולת להבחין בין פתרונות יציבים לבין כאלו הנשענים על מודלים פיננסיים מורכבים תהיה המפתח להשתתפות בטוחה ומושכלת בכלכלה הדיגיטלית החדשה.",
-      "terms_he": [
-        {
-          "term": "Passkey",
-          "explain": "תקן אבטחה דיגיטלי המאפשר התחברות מאובטחת ללא צורך בסיסמה או בביטויי גיבוי מורכבים."
-        },
-        {
-          "term": "Self-custody",
-          "explain": "ניהול ושליטה ישירה של המשתמש על מפתחות הארנק שלו, ללא תלות בגורם צד ג' או בורסה."
-        },
-        {
-          "term": "PWA (Progressive Web App)",
-          "explain": "אפליקציית אינטרנט המציעה חוויית שימוש הדומה ליישומון מותקן, אך פועלת ישירות דרך הדפדפן."
-        }
-      ],
-      "points_he": [
-        "השימוש ב-Passkey מחליף את הצורך בניהול ביטויי גיבוי מורכבים, מה שמקל על אבטחת הארנק.",
-        "האפליקציה מאפשרת גישה לסטייבלקוינס מתוך יתרת הביטקוין, מה שמספק הגנה מפני תנודתיות.",
-        "חשוב לזכור שתשואות ב-DeFi, גם כשהן מוצגות באפליקציות נוחות, טומנות בחובן סיכונים טכניים ורגולטוריים.",
-        "פרויקטים של קוד פתוח מאפשרים שקיפות, אך כדאי לבחון את המנגנונים הכלכליים שעליהם הם מתבססים."
-      ],
-      "meaning_he": "הפיתוח מדגיש את המגמה העולמית להנגשת הבלוקצ'יין לקהל הרחב באמצעות שיפור חוויית המשתמש, מה שמפחית את חסמי הכניסה הטכניים.",
-      "gen_v": 6
     },
     {
       "id": "1hhw895",
