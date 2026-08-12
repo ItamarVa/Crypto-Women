@@ -1,13 +1,115 @@
 {
-  "updated": "2026-08-11T20:39:46.554Z",
+  "updated": "2026-08-12T01:22:25.911Z",
   "count": 46,
   "sources": [
-    "Bitcoin Magazine",
     "Decrypt",
+    "Bitcoin Magazine",
     "The Defiant",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "1aaeo9u",
+      "title": "Another OpenAI Exec Quits in Leadership Shake-Up as AI Giant Eyes IPO",
+      "link": "https://decrypt.co/375381/openai-exec-brad-lightcap-quits-leadership-shake-up-ipo",
+      "summary": "The former operating chief is starting a new venture following several departures across the ChatGPT developer’s leadership and safety teams.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-11T22:04:06.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "13ee653",
+      "title": "Regulators To Push Pro-Crypto Initiatives Following Clarity Act Delay",
+      "link": "https://bitcoinmagazine.com/news/regulators-push-pro-crypto-clarity-act",
+      "summary": "Bitcoin Magazine Regulators To Push Pro-Crypto Initiatives Following Clarity Act Delay A vote on the Clarity Act last week stalled. Still, pro-crypto regulators have now said they aim to unveil plans to help the digital…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-08-11T21:36:25.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Regulators-To-Push-Pro-Crypto-Initiatives-Following-Clarity-Act-Delay-.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "e0n03y",
+      "title": "BTCPay Backers Offer Bitcoin Bounty After Wallet Exploit",
+      "link": "https://decrypt.co/375376/btcpay-bitcoin-bounty-critical-wallet-exploit",
+      "summary": "The reward aims to recover Bitcoin stolen after attackers gained access to connected LND wallets.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-11T21:16:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-pixel-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1fzokg9",
+      "title": "The Bull and Bear Case for Solana’s Next Price Move",
+      "link": "https://decrypt.co/375364/solana-price-death-cross-bull-bear-case-next-move",
+      "summary": "Solana is holding its 50-day average after a pullback from August's $90 spike, but the death cross above it keeps pressure pointed down.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-11T20:46:04.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/solana-decrypt-style-01-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "ikkbti",
+      "title": "CFTC Sues Goliath Ventures Over Alleged $397M DeFi Liquidity Pool Ponzi",
+      "link": "https://thedefiant.io/news/regulation/cftc-sues-goliath-ventures-over-alleged-397m-defi-liquidity-pool-ponzi",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-08-11T20:45:26.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/58ddc0b93abed641affd349ad6b12a6076a3a88b-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1q3kav9",
+      "title": "Riot Signs $9.1B, 20-Year AI Data Center Lease at Its Texas Bitcoin Mine",
+      "link": "https://thedefiant.io/news/tradfi-and-fintech/riot-signs-9-1b-20-year-ai-data-center-lease-at-its-texas-bitcoin-mine",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-08-11T20:44:01.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/bb35a838bffb1b072e2d68e6d31e4a4ce7803d53-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "1mheru0",
       "title": "Should Bitcoin Companies Build USD Reserves? Understanding The Truth",
@@ -119,13 +221,17 @@
       "lang": "en",
       "date": "2026-08-11T18:25:14.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-09-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
+      "title_he": "ההשקעות בנכסים דיגיטליים: ניתוח הדוחות הכספיים של Trump Media",
+      "brief_he": "חברת Trump Media מדווחת על הפסדים רבעוניים משמעותיים כתוצאה מתנודתיות בשוק הקריפטו, ובוחנת מחדש את אסטרטגיית ניהול האוצר שלה.",
+      "commentary_he": "הדיווח הכספי האחרון של חברת Trump Media & Technology Group, החברה האם של פלטפורמת Truth Social, מספק הצצה מעניינת לאתגרים הניצבים בפני תאגידים המשלבים נכסים דיגיטליים במאזן שלהם. על פי הפרסומים, החברה רשמה ברבעון השני של 2026 הפסד נקי של 238 מיליון דולר, נתון המהווה עלייה חדה לעומת הפסד של כ-20 מיליון דולר בלבד בתקופה המקבילה אשתקד. עבור משקיעים ומתעניינים בתחום, המקרה הזה מדגיש כיצד חשיפה לנכסים תנודתיים עשויה להשפיע על השורה התחתונה של חברה ציבורית, גם כאשר מדובר בתאגיד הפועל בתחום הטכנולוגיה והמדיה.\n\nבניתוח מעמיק של המספרים העולים מהדוח, עולה כי מרבית ההפסד אינו נובע מפעילות תפעולית שוטפת או ממכירת נכסים בפועל, אלא ממה שמכונה \"הפסדים לא ממומשים\" (unrealized losses). על פי הדיווח, מתוך סך ההפסד הרבעוני, מעל 190 מיליון דולר מיוחסים לירידת ערך על הנייר של נכסים דיגיטליים וניירות ערך. אם נסתכל על המחצית הראשונה של שנת 2026 כולה, ההפסדים הקשורים לנכסים דיגיטליים מסתכמים בכ-361 מיליון דולר. נכון ל-30 ביוני 2026, החזקות הקריפטו של החברה הצטמקו בשיעור של יותר מ-33%, והן עומדות על כ-598 מיליון דולר, מתוכם כ-558 מיליון דולר בביטקוין והיתרה באסימון Cronos של Crypto.com. לצד זאת, מעניין לציין כי הכנסות החברה דווקא צמחו ב-89% והגיעו לכ-2 מיליון דולר, מה שמעיד על דינמיקה מורכבת בין פעילות הליבה לבין ניהול האוצר.\n\nכדי להבין את הרקע, חשוב לזכור שחברות רבות אימצו בשנים האחרונות אסטרטגיית \"אוצר ביטקוין\" כדרך לגיוון נכסים או כניסיון למקסם ערך עבור בעלי המניות. עם זאת, כאשר השוק חווה תנודתיות, אותן החזקות הופכות למנוף שעלול להעיב על המאזן המאוחד. במקרה של Trump Media, החברה ציינה כי היא פועלת לאמץ אסטרטגיית אוצר \"ממושמעת\" יותר, צעד שנועד לנהל את הסיכונים הכרוכים בתנודות המחירים החריפות של השוק. מדובר בשינוי גישה שמתרחש אצל שחקנים רבים בשוק המוסדי, שמבינים כי החזקת נכסים דיגיטליים דורשת מנגנוני ניהול סיכונים מתוחכמים הרבה יותר מאשר החזקת מזומן או ניירות ערך מסורתיים.\n\nההשלכות של מדיניות זו באות לידי ביטוי גם בשינויים אסטרטגיים שביצעה החברה לאחרונה. על פי הדיווח, Trump Media בחרה לסגת מתוכניות קודמות להקמת חברת אוצר מבוססת CRO, וסיימה את ההסכם הרחב יותר שהיה לה עם בורסת Crypto.com. ההחלטה מגיעה על רקע תנאי השוק המאתגרים והצורך של החברה להתמקד ביוזמות צמיחה ליבתיות, תוך הפחתת חשיפה לסיכונים חיצוניים שאינם קשורים ישירות למוצר המדיה שלה. מהלך זה מהווה תזכורת לכך שחברות ציבוריות נמצאות תחת זכוכית מגדלת של בעלי המניות, וכל החלטה על הקצאת הון לנכסים דיגיטליים נבחנת לא רק דרך פוטנציאל הרווח, אלא גם דרך היציבות הפיננסית הכוללת של התאגיד.\n\nלסיכום, הסיפור של Trump Media מדגים כיצד שוק הקריפטו ממשיך להשפיע על המגזר התאגידי בדרכים בלתי צפויות. עבור מי שעוקב אחר התחום, המסר המרכזי אינו בהכרח אזהרה מפני נכסים דיגיטליים, אלא דגש על חשיבות הניהול המקצועי והממושמע של האוצר התאגידי. תנודתיות היא חלק בלתי נפרד מהנוף הדיגיטלי, וחברות שבוחרות לשלב נכסים אלו בתיק שלהן נדרשות להפגין גמישות אסטרטגית ויכולת הסתגלות מהירה למציאות משתנה, בדיוק כפי שעושה כעת Trump Media בדרכה להתייעלות.",
       "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "points_he": [
+        "הפסדים לא ממומשים בדו\"חות כספיים אינם בהכרח הפסד מזומן, אך הם משקפים את החשיפה לתנודתיות השוק.",
+        "ניהול אוצר תאגידי דורש אסטרטגיה ברורה המפרידה בין פעילות הליבה העסקית לבין השקעות בנכסים דיגיטליים.",
+        "חברות ציבוריות נוטות לבצע התאמות מהירות במודלים העסקיים שלהן כאשר תנאי השוק משתנים באופן קיצוני."
+      ],
+      "meaning_he": "המקרה מדגיש את המורכבות של חברות ציבוריות המשלבות ביטקוין ונכסים דיגיטליים במאזן שלהן, ומדגים את הצורך בניהול סיכונים מושכל גם עבור תאגידים גדולים.",
+      "gen_v": 6
     },
     {
       "id": "1orpudr",
@@ -366,83 +472,6 @@
       "gen_v": null
     },
     {
-      "id": "rt4gx0",
-      "title": "Morning Minute: Saylor's Strategy Sells Bitcoin for Second Week in a Row",
-      "link": "https://decrypt.co/375304/morning-minute-saylors-strategy-sells-bitcoin-for-second-week-in-a-row",
-      "summary": "Strategy dumped $108M in BTC at a loss and a whopping $650M of MSTR stock, and yet MSTR stock barely flinched. What gives?",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-11T12:22:13.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/michael-saylor-bitcoin-nashville-decrypt-style-gID_7.jpg",
-      "title_he": "אסטרטגיית המזומנים של MicroStrategy: מכירות ביטקוין וחיזוק המאזן",
-      "brief_he": "חברת MicroStrategy ממשיכה למכור ביטקוין ולגייס הון דרך מניות כדי לבנות רזרבות מזומנים משמעותיות ולהפחית סיכונים פיננסיים.",
-      "commentary_he": "התנהלותה של חברת MicroStrategy, בראשותו של מייקל סיילור, ממשיכה לעורר עניין בשווקים, במיוחד לאור השינויים האחרונים באסטרטגיית ניהול הנכסים שלה. על פי דיווח המבוסס על מסמך 8-K שהוגש לאחרונה, החברה ביצעה מכירות של 1,690 מטבעות ביטקוין בסכום כולל של כ-108.6 מיליון דולר. פעולה זו מסמנת שבוע שלישי ברציפות של מכירות, מה שמעיד על שינוי טקטי במדיניות הפיננסית של החברה. חשוב לציין כי מכירות אלו התבצעו במחיר ממוצע של 64,262 דולר למטבע, מחיר הנמוך משמעותית מבסיס העלות המקורי של החברה, שעומד על כ-75,385 דולר. המשמעות היא שהחברה בוחרת לממש נכסים בהפסד ריאלי כדי להשיג יעדים פיננסיים אחרים.\n\nהנתונים העולים מהדיווח מצביעים על כך שהכספים שהתקבלו ממכירת הביטקוין שימשו לרכישה חוזרת של מניות בכורה מסוג STRC, מהלך שנועד לייצב את מבנה ההון של החברה. במקביל, MicroStrategy הגבירה את קצב מכירת מניותיה הרגילות (MSTR), כאשר במהלך השבוע האחרון מכרה מניות בשווי של כ-653.1 מיליון דולר. כתוצאה מפעולות אלו, צברה החברה רזרבות מזומנים מרשימות העומדות כיום על כ-4.65 מיליארד דולר, לעומת 4 מיליארד דולר בשבוע שקדם לכך. על פי הערכות החברה, רזרבות אלו מעניקות לה \"טווח נשימה\" של כשנתיים וחצי, המאפשר לה לעמוד בהתחייבויותיה הכוללות דיבידנדים ותשלומי ריבית, המוערכים בכ-1.76 מיליארד דולר בשנה, ללא צורך במכירות נוספות של ביטקוין או הנפקת מניות חדשות.\n\nהרקע למהלכים אלו טמון בשאיפתו המוצהרת של סיילור להפוך את נייר הערך STRC למה שהוא מכנה \"האייפון של הנכסים הדיגיטליים\". מבחינה אסטרטגית, החברה מנסה ליצור איזון בין החזקת ביטקוין כנכס ליבה לבין יצירת יציבות תזרימית שאינה תלויה בתנודתיות השוק. מאז יולי האחרון, החברה מכרה מניות בשווי של כ-1.9 מיליארד דולר מבלי לבצע רכישות חדשות של ביטקוין, מהלך שבאופן תיאורטי היה עלול להוביל ללחץ שלילי כבד על מחיר המניה. עם זאת, המציאות בשטח הראתה תמונה שונה, שכן מחיר מניית MSTR הצליח להתייצב ואף לרשום עלייה של כ-20% מהשפל שנרשם בסוף חודש יוני, כשהיא נסחרת סביב רמת ה-100 דולר למניה.\n\nהתמונה הרחבה יותר מעלה שאלות לגבי יחסי הגומלין בין שווי החברה לבין הנכסים שהיא מחזיקה. על אף הדילול המתמשך של המניות והמכירות החוזרות של ביטקוין, נראה שהמשקיעים מגלים אמון ביכולת של MicroStrategy לנהל את המאזן שלה בצורה מושכלת. העובדה שהחברה מצליחה להחזיק רזרבות מזומנים כה משמעותיות מפחיתה את הסיכון הפיננסי המיידי, מה שמאפשר לה לפעול מתוך עמדת כוח ולא מתוך מצוקה. ייתכן שסיילור מתכנן להמשיך בתהליך מכירת הביטקוין עד להגעה ליעד של החזרת ערך מניות ה-STRC לערכן הנקוב, מה שעשוי לשנות את הדינמיקה של המניה בשוק ולהפוך אותה לנכס אטרקטיבי יותר עבור משקיעים מוסדיים.\n\nלסיכום, הפעילות של MicroStrategy מדגישה את החשיבות של ניהול סיכונים מחושב בעולם הקריפטו. בעוד שהחברה מזוהה באופן הדוק עם ביטקוין, היא מוכיחה שגם גופים המאמינים בנכס הדיגיטלי חייבים לשמור על גמישות פיננסית. עבור משקיעים, המקרה הזה מהווה תזכורת לכך שחברות ציבוריות הפועלות בתחום משלבות שיקולים של שוק ההון המסורתי עם אסטרטגיות קריפטו, וכי הצלחה לטווח ארוך דורשת יותר מאשר רק החזקת הנכס – היא דורשת ניהול אקטיבי של מזומנים, התחייבויות ומבנה הון.",
-      "terms_he": [
-        {
-          "term": "8-K",
-          "explain": "דו\"ח שחברות ציבוריות בארה\"ב מחויבות להגיש לרשות ניירות ערך כדי לעדכן על אירועים משמעותיים שמשפיעים על מצבן הפיננסי."
-        },
-        {
-          "term": "דילול מניות",
-          "explain": "תהליך שבו חברה מנפיקה מניות חדשות, מה שמקטין את אחוז האחזקה היחסי של בעלי המניות הקיימים."
-        }
-      ],
-      "points_he": [
-        "MicroStrategy הגדילה את רזרבות המזומנים שלה ל-4.65 מיליארד דולר באמצעות מכירת מניות וביטקוין.",
-        "החברה משתמשת בתזרימים אלו כדי להפחית סיכונים פיננסיים ולהחזיר את מניות הבכורה לערכן הנקוב.",
-        "למרות מכירות הביטקוין, מחיר מניית MSTR הראה יציבות ואף עלייה, מה שמעיד על אמון המשקיעים באסטרטגיה הפיננסית של החברה."
-      ],
-      "meaning_he": "המקרה מדגים כיצד חברות גדולות המושקעות בביטקוין מנהלות את הסיכונים שלהן באמצעות כלים פיננסיים מסורתיים כדי להבטיח הישרדות וצמיחה לאורך זמן.",
-      "gen_v": 6
-    },
-    {
-      "id": "9jpup0",
-      "title": "North Korea Now Leans on Crime Networks to Launder Stolen Crypto: RUSI",
-      "link": "https://decrypt.co/375305/north-korea-now-leans-on-crime-networks-to-launder-stolen-crypto-rusi",
-      "summary": "Once its proceeds mix with scam money, exchanges struggle to separate proliferation finance from ordinary laundering, the paper warns.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-11T12:02:42.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/north-korea-missiles-dprk-decrypt-style-gID_7.jpg",
-      "title_he": "הקשר בין פשיעת סייבר להלבנת הון: האתגרים במימון צפון קוריאני",
-      "brief_he": "מחקר חדש חושף כיצד גורמים מצפון קוריאה משלבים כספי פריצות למערכות קריפטו בתוך רשתות פשיעה מאורגנות כדי לטשטש עקבות.",
-      "commentary_he": "הניסיונות של צפון קוריאה לממן את תוכניותיה דרך פריצות למערכות קריפטו הופכים למורכבים ומתוחכמים יותר. על פי מחקר שפורסם על ידי המכון המלכותי לשירותים מאוחדים (RUSI), המשטר הצפון קוריאני עבר להשתמש ברשתות הלבנת הון המשמשות גם ארגוני פשיעה ורשתות הונאה, מה שמקשה מאוד על גופי האכיפה לעקוב אחר נתיבי הכסף. במהלך התקופה שבין ינואר 2024 לספטמבר 2025, הוערך כי המשטר גנב נכסים דיגיטליים בשווי של לפחות 2.8 מיליארד דולר. הבעיה המרכזית אינה רק הפריצה עצמה, אלא השלב שבו הכספים הופכים למטבע פיאט, שם הם מתערבבים עם רווחים מהונאות \"פיג-בוצ'רינג\" (pig butchering) ופעילות עבריינית אחרת.\n\nהנתונים מצביעים על כך שהשיטה כוללת העברת בעלות על המטבעות הגנובים בין גורמים שונים, לעיתים במחיר מוזל, כדי ליצור מסך עשן. חוקרים מציינים כי לאחר פריצת הענק לבורסת Bybit, שבה נגנבו כ-1.5 מיליארד דולר, רוב הכספים הועברו דרך שירותים מבוזרים (DeFi) לפני שהומרו למטבעות רשמיים. גורמים עבריינים, הכוללים רשתות של סוחרי עמית-לעמית (P2P) ואנשי קש מהפיליפינים, אינדונזיה וסין, פועלים בתיאום כדי לפרק סכומים גדולים לחתיכות קטנות – לעיתים של כ-7,000 דולר או 30,000 דולר – כדי להימנע מהפעלת מערכות התרעה של בנקים ובורסות. מדובר במבצע לוגיסטי רחב היקף שבו מעורבים גם בנקים סיניים ששימשו כצינור להעברת הכספים, כפי שזוהו על ידי צוותי ניטור סנקציות בינלאומיים.\n\nההשלכות של פעילות זו הן הרסניות עבור היכולת של המערכת הפיננסית להתגונן. ברגע שהכספים הנגנבים נכנסים לתוך המערכת העבריינית הכללית, קשה מאוד להבדיל בין \"מימון תפוצה\" (הקשור למשטרים עוינים) לבין הלבנת הון פלילית רגילה. צוותי ציות בבורסות ומוסדות פיננסיים נתקלים בקושי לזהות את המקור האמיתי של הכספים, שכן החשבונות שמהם מתבצעת המשיכה שייכים לרוב לאנשים תמימים שגויסו כ\"פרדות כסף\" (money mules) או לזהויות גנובות. התחכום עולה מדרגה כאשר אותם גורמים מפעילים תמיכה טכנית מזויפת מול הבורסות, עם עשרות פניות שירות כדי לשחרר עסקאות מוקפאות, מה שמקשה על זיהוי דפוסי פעולה חשודים בזמן אמת.\n\nהמצב הנוכחי מציב אתגר רגולטורי משמעותי. מחברי הדו\"ח קוראים לסטנדרטיזציה של הליכי זיהוי לקוח (KYC) ושיתוף מודיעין הדוק יותר בין בורסות לקריפטו לבין בנקים מסורתיים. המטרה היא להטמיע מזהים ייחודיים להעברות של ספקי שירותי נכסים וירטואליים (VASP), שיאפשרו לבנקים לקבל התראה מוקדמת. עם זאת, התמונה העגומה משתקפת במקרה של Bybit, שהצליחה להשיב או להקפיא רק חלק קטן מהכספים שנגנבו – כ-78.9 מיליון דולר בלבד מתוך 1.5 מיליארד דולר. זהו שיעור השבה של כ-5% בלבד, מה שמדגיש את הקושי הממשי של קורבנות הפריצות לשחזר את כספם לאחר שהם עברו דרך רשתות ההלבנה.\n\nלסיכום, העלייה בשימוש ברשתות עברייניות להלבנת כספי קריפטו מדגישה כי המאבק במימון טרור ופשיעה הוא מרוץ חימוש טכנולוגי. המעבר של צפון קוריאה לשימוש בשיטות מתוחכמות, המערבות רשתות של בנקים ופרדות כסף גלובליות, מחייב את קהילת הקריפטו לאמץ סטנדרטים גבוהים יותר של שקיפות וציות. עבור המשתמש הממוצע, זוהי תזכורת לכך שהאבטחה של בורסות ריכוזיות אינה רק עניין של הגנה מפני פריצה ישירה, אלא גם תלויה ביכולת של המערכת לזהות זרימות כספים חשודות לפני שהן נעלמות בתוך המערכת הפיננסית הגלובלית.",
-      "terms_he": [
-        {
-          "term": "פיג-בוצ'רינג",
-          "explain": "סוג של הונאת השקעות מתוחכמת שבה הקורבן נבנה לאורך זמן עד שהוא 'נשחט' (מרוקנים את כספו)."
-        },
-        {
-          "term": "VASP",
-          "explain": "ספק שירותי נכסים וירטואליים, מונח רגולטורי המתייחס לבורסות, ארנקים וגופים שמנהלים נכסי קריפטו."
-        }
-      ],
-      "points_he": [
-        "צפון קוריאה מנצלת רשתות הלבנת הון של פשיעה מאורגנת כדי להסתיר גניבות ענק של קריפטו.",
-        "השימוש ב'פרדות כסף' ובסכומי העברה קטנים מאפשר למשטר לעקוף מגבלות של בנקים ובורסות.",
-        "היכולת להשיב כספים גנובים נותרה נמוכה מאוד, עם שיעורי השבה של אחוזים בודדים בלבד במקרי פריצה גדולים."
-      ],
-      "meaning_he": "הסיפור מדגיש את המורכבות של רגולציית הקריפטו הגלובלית ואת הצורך בשיתוף פעולה בין-מדינתי כדי למנוע ניצול של המערכת הפיננסית למימון פעולות עוינות.",
-      "gen_v": 6
-    },
-    {
-      "id": "13u8hh1",
-      "title": "Coinbase Opens UK Derivatives Trading With Up to 50x Leverage",
-      "link": "https://decrypt.co/375301/coinbase-opens-uk-derivatives-trading-with-up-to-50x-leverage",
-      "summary": "Futures, perpetuals and options spanning crypto, commodities, equities and FX, limited to clients who qualify as professional investors.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-11T09:58:44.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Coinbase_logo-nft-nyc-decrypt-style-scaled-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "1aanctt",
       "title": "Bitcoin's BIP Editors Remove Luke Dashjr Two Days After BIP-110 Fork Stalled",
       "link": "https://thedefiant.io/news/blockchains/bitcoin-bip-editors-remove-luke-dashjr-after-bip-110-fork-stalled",
@@ -545,23 +574,6 @@
       "gen_v": null
     },
     {
-      "id": "gb6uey",
-      "title": "TD Cowen Gives Crypto Clarity Act a 25% Chance of Passing This Fall",
-      "link": "https://bitcoinmagazine.com/news/td-cowen-gives-clarity-act-25-of-passing",
-      "summary": "Bitcoin Magazine TD Cowen Gives Crypto Clarity Act a 25% Chance of Passing This Fall The long-awaited crypto market structure bill isn't dead — but chances it passes are slim, the bank said. This post TD Cowen Gives…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-08-10T17:28:33.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/TD-Cowen-Says-Clarity-Not-Likely-to-Pass.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "mhfdoq",
       "title": "Ether Products Lead $600M Crypto ETP Flow Rebound in July",
       "link": "https://thedefiant.io/news/tradfi-and-fintech/ether-products-lead-600m-crypto-etp-flow-rebound-in-july",
@@ -570,40 +582,6 @@
       "lang": "en",
       "date": "2026-08-10T17:08:29.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/d12285c1ff07a626a19b66df19485c3081dbb89d-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1z47hv",
-      "title": "Vitalik Buterin's Ethereum Roadmap Prioritizes Quantum Readiness and Privacy",
-      "link": "https://thedefiant.io/news/blockchains/vitalik-buterin-s-ethereum-roadmap-prioritizes-quantum-readiness-and-privacy",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-08-10T17:06:00.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/f87521bef92d16443e6754718efafd940f711f60-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "gd9513",
-      "title": "BIP-110 Bitcoin Fork Stalls at Two Blocks as Its Only Miner Quits",
-      "link": "https://thedefiant.io/news/blockchains/bip-110-bitcoin-fork-stalls-at-two-blocks-as-its-only-miner-quits",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-08-10T16:15:22.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/133a1a4c1aa912f46590907e1684a7a1cd431ace-2048x1152.png",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
