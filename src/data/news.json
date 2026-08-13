@@ -1,13 +1,74 @@
 {
-  "updated": "2026-08-13T09:08:14.030Z",
+  "updated": "2026-08-13T12:57:44.577Z",
   "count": 46,
   "sources": [
+    "Decrypt",
     "The Defiant",
     "Bitcoin Magazine",
-    "Decrypt",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "11acuks",
+      "title": "Morning Minute: The SEC Plans Rules for Tokenized Stocks",
+      "link": "https://decrypt.co/375547/morning-minute-the-sec-plans-rules-for-tokenized-stocks",
+      "summary": "The new framework could be announced as soon as Friday, in what could be the biggest development for crypto this year.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-13T11:53:17.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/11/paul-s-atkins-sec-chair-decrypt-style-gID_7.jpg",
+      "title_he": "המהלך המפתיע של ה-SEC: לקראת רגולציה למניות מבוססות בלוקצ'יין",
+      "brief_he": "רשות ניירות הערך האמריקאית בוחנת מתווה חדש שיאפשר מסחר במניות בטוקניזציה, צעד שעשוי לשנות את פני שוק ההון.",
+      "commentary_he": "הדיונים במסדרונות הרגולציה בארצות הברית עוברים תפנית מעניינת שמשפיעה ישירות על עתיד הנכסים הדיגיטליים. על פי דיווחים בבלומברג, רשות ניירות הערך האמריקאית (SEC) מתכננת להציג בטווח הזמן המיידי שתי יוזמות משמעותיות בתחום הקריפטו, זאת בזמן שחקיקה מסודרת בנושא בבית הנבחרים נותרה תקועה. המהלך המדובר כולל הצעה למסגרת רגולטורית תחת הכותרת \"Regulation Crypto\", שתאפשר לפרויקטים לגייס הון באמצעות הנפקת טוקנים ללא צורך ברישום מלא כניירות ערך, וחשוב מכך – \"פטור חדשנות\" מיוחד עבור מניות בטוקניזציה. מדובר בשינוי גישה שעלול להוות את אחת ההתפתחויות המשמעותיות ביותר עבור השוק בשנים האחרונות, שכן הוא מעניק גושפנקה רגולטורית לתחום שעד כה פעל במידה רבה באזור אפור.\n\nהפרטים הטכניים של המתווה המסתמן מצביעים על שאיפה לאפשר למניות של חברות מוכרות, דוגמת טסלה, אנבידיה ואפל, לעבור תהליך של טוקניזציה כך שיוכלו להיסחר על גבי רשתות בלוקצ'יין בצורה רציפה, 24 שעות ביממה, עם התחשבנות (Settlement) כמעט מיידית ובגדלים חלקיים. על פי הפרסום, הטוקנים הללו צפויים לשקף את החשיפה הכלכלית למניה, אך לא יעניקו זכויות הצבעה או דיבידנדים – ויתור שמהווה את הבסיס לטיפול הרגולטורי המקל שה-SEC שוקלת להעניק. מדובר במימוש של חזון \"Project Crypto\" של יושב ראש הרשות, פול אטקינס, שמטרתו ליצור גשר בין עולם הפיננסים המסורתי לטכנולוגיית הבלוקצ'יין מבלי לוותר על עקרונות הפיקוח הבסיסיים.\n\nהרקע למהלך הזה נעוץ בהתפתחות המואצת של תחום הנכסים מהעולם האמיתי (RWA - Real World Assets), שהפך השנה לאחד המנועים המרכזיים לצמיחה ברשתות בלוקצ'יין. פלטפורמות כמו Robinhood Chain רשמו זינוק משמעותי בנפחי הפעילות שלהן במהלך הקיץ האחרון, וגופים מוסדיים ענקיים כמו בלאקרוק כבר החלו להשיק קרנות מבוססות טוקנים על גבי רשתות את'ריום וסולאנה. במקביל, הבורסה לניירות ערך בניו יורק (NYSE) פועלת לבניית פלטפורמת התחשבנות משלה על גבי הבלוקצ'יין, וחברות תשתית כמו Circle משלבות כוחות עם ענקיות תשלומים דוגמת ויזה ומאסטרקארד. עד כה, רוב הפעילות הזו התנהלה מחוץ לארצות הברית או תחת מגבלות משפטיות כבדות, מה שמנע ממשקיעים אמריקאים גישה ישירה למוצרים הללו.\n\nההשלכות של מהלך כזה עשויות להיות מרחיקות לכת. אם אכן יאושר הפטור המדובר, הדבר יעניק לשוק ה-RWA את הבהירות המשפטית שחסרה לו כל כך. עבור משקיעים, מדובר באפשרות לחשיפה לנכסים מסורתיים בכלים דיגיטליים מתקדמים, מה שעשוי להגדיל משמעותית את הנזילות ואת יעילות המסחר. עם זאת, חשוב להישאר זהירים: מדובר בתחום חדשני שעדיין נמצא בשלבי עיצוב, והסיכונים הכרוכים בטכנולוגיה, אבטחת רשתות ושינויים רגולטוריים פתאומיים נותרים בעינם. ההיסטוריה של שוק הקריפטו מלמדת כי הבטחות רגולטוריות אינן תמיד מתממשות כפי שהשוק מצפה, ולכן יש לבחון את המהלכים הללו בעין ביקורתית ומפוכחת.\n\nלסיכום, אנו עדים לניסיון מוסדי מובהק להכניס את טכנולוגיית הבלוקצ'יין לתוך המערכת הפיננסית הקיימת. עבור מי שעוקבת אחרי התחום, זהו סימן לכך שהדיון עבר משאלת ה\"אם\" לשאלת ה\"איך\". ההתמקדות של ה-SEC בטוקניזציה של מניות מאותתת כי המודל של מסחר דיגיטלי נתפס כעת כחלק בלתי נפרד מהעתיד של שוקי ההון. ככל שהפרטים יתבהרו, נצטרך להמשיך ולעקוב אחר האופן שבו המנגנונים הללו ייושמו בפועל, תוך הבנה שהמרחק בין הודעה רגולטורית לבין מוצר עובד בשטח עשוי להיות רצוף אתגרים טכניים ומשפטיים.",
+      "terms_he": [],
+      "points_he": [
+        "ה-SEC בוחנת פטור שיאפשר מסחר במניות טוקניזציה ללא רישום ניירות ערך מלא.",
+        "המהלך מתמקד בנכסים שאינם מעניקים זכויות הצבעה או דיבידנדים.",
+        "מדובר בצעד משמעותי להנגשת נכסים מהעולם האמיתי (RWA) למשקיעים בבלוקצ'יין.",
+        "הטכנולוגיה צפויה לאפשר מסחר 24/7 והתחשבנות מיידית."
+      ],
+      "meaning_he": "המהלך מסמן את הכניסה הרשמית של שוקי ההון המסורתיים לטכנולוגיית הבלוקצ'יין, מה שעשוי להוביל לאימוץ רחב יותר של נכסים דיגיטליים בקרב גופים מוסדיים ומשקיעים פרטיים כאחד.",
+      "gen_v": 6
+    },
+    {
+      "id": "1ymknos",
+      "title": "Twitch Turns On Amazon AI Training by Default: 'Nobody Would Opt In'",
+      "link": "https://decrypt.co/375535/twitch-turns-on-amazon-ai-training-by-default-nobody-would-opt-in",
+      "summary": "Twitch's chief product officer says he does not know whether content had already been used for training before the setting appeared.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-13T11:42:27.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/08/twitch-decrypt-style-gID_7.jpg",
+      "title_he": "פרטיות בעידן ה-AI: המדיניות החדשה של Twitch מעוררת שאלות",
+      "brief_he": "פלטפורמת הסטרימינג Twitch מאפשרת לאמזון לאמן מודלי בינה מלאכותית על תוכן של יוצרים כברירת מחדל, מהלך שעורר ביקורת רבה בקהילה.",
+      "commentary_he": "סוגיית השימוש בתוכן גולשים לצורך אימון מודלי בינה מלאכותית (AI) עומדת בלב דיון ציבורי וטכנולוגי סוער, וכעת מגיעה גם לפתחה של קהילת הסטרימרים. השבוע הודיעה פלטפורמת Twitch, הנמצאת בבעלות אמזון, על עדכון מדיניות המאפשר לחברה להשתמש בתוכן שנוצר על ידי המשתמשים – כולל שידורים חיים, קליפים, צ'אטים ותכני וידאו – כדי לאמן את מודלי הבינה המלאכותית של תאגיד הענק. העדכון, שהוגדר כהוספת \"בקרת שליטה\", מופעל כברירת מחדל לכל המשתמשים. המשמעות היא שכל מי שמשדר בפלטפורמה מסכים למעשה, אלא אם פעל באופן אקטיבי כדי לבטל זאת, שהחומרים שלו ישמשו לשיפור היכולות של המודלים של אמזון, החל משיפור יכולות זיהוי דיבור ועד ליצירת טקסט ותמונה.\n\nההודעה על המדיניות החדשה לוותה בהבהרות מצד הנהלת החברה, אשר ניסתה להרגיע את הרוחות בשידור חי מול הקהילה. עם זאת, התשובות שניתנו העלו שאלות נוספות מאשר פתרו אותן. מייק מינטון, מנהל המוצר הראשי ב-Twitch, נשאל מדוע הבחירה לאימון מודלים הוגדרה כברירת מחדל ולא כבחירה אקטיבית של המשתמש (Opt-in). תשובתו הייתה כנה באופן חריג: \"אם זה היה בבחירה אקטיבית, אף אחד לא היה בוחר בזה\". אמירה זו משקפת את המתח המובנה בין הצורך של חברות הטכנולוגיה בכמויות עצומות של נתונים לאימון מודלים, לבין הרצון של יוצרי התוכן לשמור על השליטה והפרטיות של היצירה שלהם. כאשר נשאל מינטון אם תוכן שכבר הועלה לפלטפורמה שימש בעבר לאימון, הוא הודה שאינו יודע, שכן אין לו גישה מלאה לכל פעולות האימון שמבצעת אמזון ברקע.\n\nחשוב להבין את היקף התוכן המדובר. Twitch מהווה מאגר עצום של אינטראקציה אנושית, הכוללת אלפי שעות של קול, פנים, ושיחות טקסט בזמן אמת. עבור חברות AI, מדובר במכרה זהב של נתונים שקשה להשיג ממקורות אחרים. המדיניות החדשה מאפשרת לאמזון להשתמש בנתונים הללו כדי לשפר מודלים שיכולים, בסופו של דבר, ליצור תוכן דומה או להחליף חלק מהפעולות של היוצרים עצמם. הניסיון של Twitch להציג את הצעד ככזה שנועד לשפר את שירותי הפלטפורמה, כמו כתוביות אוטומטיות, נתקל בהתנגדות מצד יוצרים שמרגישים שהזכויות שלהם על התוכן שהם מייצרים נשחקות ללא הסכמה מפורשת.\n\nהשקיפות סביב התהליך נותרה חלק מהבעיה. על פי הדיווחים, לא ניתן לדעת אילו ערוצים משמשים לאימון ואילו לא, ואין שקיפות מלאה לגבי היקף השימוש בנתונים לאחר שהמשתמש בוחר באופציית ה-Opt-out. יתרה מכך, החברה מציינת כי חלק מהפונקציות הנדרשות לפעילות התקינה של הפלטפורמה, כמו AutoMod, אינן ניתנות לניתוק גם אם המשתמש בחר שלא להשתתף באימון מודלים, מה שיוצר אזור אפור בניהול הפרטיות האישית. עבור יוצרים רבים, מדובר בהחלטה אסטרטגית האם להמשיך ולהשתמש בפלטפורמה שמשנה את כללי המשחק באופן חד-צדדי, או לחפש אלטרנטיבות ששמות את פרטיות היוצר במרכז.\n\nלסיכום, המקרה של Twitch מדגיש את החשיבות של מודעות דיגיטלית מצד המשתמשים. בעידן שבו הבינה המלאכותית צמאה לנתונים, ברירת המחדל של פלטפורמות טכנולוגיות נוטה לעיתים קרובות לטובת איסוף מידע מקסימלי. עבור מי שיוצרת תוכן ברשת, ההמלצה היא תמיד לבדוק את הגדרות הפרטיות והאבטחה באופן תקופתי. המדיניות של Twitch היא תזכורת לכך שמה שמועלה לרשת אינו תמיד נמצא בשליטתנו המלאה, ושעלינו להיות ערניים לשינויים בתנאי השירות של הפלטפורמות שאנו צורכות ומשתמשות בהן ככלי עבודה.",
+      "terms_he": [],
+      "points_he": [
+        "Twitch מפעילה כברירת מחדל אימון מודלי AI על תוכן משתמשים.",
+        "הגדרות הפרטיות מאפשרות לבטל (Opt-out) את ההשתתפות באימון.",
+        "הנהלת החברה הודתה שהגדרת ברירת המחדל נועדה להבטיח היקף נתונים גדול.",
+        "חשוב לבדוק את הגדרות האבטחה והפרטיות בכל פלטפורמה שבה אתן פעילות."
+      ],
+      "meaning_he": "המקרה מדגיש את המאבק על בעלות ופרטיות של תוכן גולשים בעידן הבינה המלאכותית, ומזכיר ליוצרים ולמשתמשים את החשיבות של שליטה על המידע האישי שלהם.",
+      "gen_v": 6
+    },
+    {
+      "id": "1a0k1lo",
+      "title": "CEO of Crypto Lender Delio Gets 15 Years Over $49M Fraud",
+      "link": "https://decrypt.co/375531/ceo-of-crypto-lender-delio-gets-15-years-over-49m-fraud",
+      "summary": "A botched search of the platform's server host cost prosecutors the bulk of their case, cutting it from 2,800 alleged victims to about 1,100.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-13T10:16:50.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Jail-cell-2-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "1crtmz5",
       "title": "Securitize’s Tokenized Assets Hit $4.3 Billion as Revenue Falls",
@@ -440,23 +501,6 @@
       "gen_v": 6
     },
     {
-      "id": "1jzu73w",
-      "title": "Crypto-Backed Loans, Explained: How to Unlock Cash Without Selling Your Bitcoin",
-      "link": "https://decrypt.co/375428/crypto-backed-loans-explained-how-to-unlock-cash-without-selling-your-bitcoin",
-      "summary": "A fixed-rate crypto-backed loan lets you borrow against BTC, ETH, or SOL while keeping your coins. Here's how they work.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-12T15:54:16.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/08/crypto-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "vbnacs",
       "title": "Bitwise Cuts 14% of Staff as Client Assets Fall to $9 Billion",
       "link": "https://thedefiant.io/converge/cefi/bitwise-cuts-14-of-staff-as-client-assets-fall-to-9-billion",
@@ -491,23 +535,6 @@
       "gen_v": null
     },
     {
-      "id": "e5kvvf",
-      "title": "Why Bitcoin Barely Moved Even as US Inflation Cools to 3.4%",
-      "link": "https://decrypt.co/375411/why-bitcoin-barely-moved-us-cpi-inflation-cools",
-      "summary": "The tamest U.S. inflation print in months left crypto markets flat, with Bitcoin shrugging off the data hit. Here's why.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-12T15:07:56.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-town-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "7tnwdg",
       "title": "Harmony Patches Pre-Staking Quorum and Receipt-Replay Flaws After ONE Mint Claim",
       "link": "https://thedefiant.io/news/hacks/harmony-patches-pre-staking-quorum-and-receipt-replay-flaws-after-one-mint-claim",
@@ -516,23 +543,6 @@
       "lang": "en",
       "date": "2026-08-12T14:23:00.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/7f4e80102a94a8d141632085cec6c325d0f9b803-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "p16pyt",
-      "title": "A Routing Bug Took Solana 86% of the Way to Losing Finality",
-      "link": "https://decrypt.co/375404/a-routing-bug-took-solana-86-of-the-way-to-losing-finality",
-      "summary": "A malformed default route at a single hosting provider took almost 29% of staked SOL offline, against a 33% threshold.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-12T14:13:07.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/solana-decrypt-style-04-gID_7.png",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
