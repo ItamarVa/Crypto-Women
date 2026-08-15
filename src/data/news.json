@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T16:18:51.505Z",
+  "updated": "2026-08-15T20:17:43.845Z",
   "count": 46,
   "sources": [
     "Decrypt",
@@ -8,6 +8,23 @@
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "1ssio02",
+      "title": "Apple Turns to Alibaba to Help Build AI Model for China",
+      "link": "https://decrypt.co/375724/apple-alibaba-build-ai-model-china",
+      "summary": "Apple is pairing its in-house model with Alibaba’s Qwen as it prepares to bring Apple Intelligence to Chinese iPhones.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-15T17:01:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/05/apple-logo-decrypy-style-01-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "198a9iy",
       "title": "Meta Patents Cameras That Recognize Faces and Log Your Actions",
@@ -320,23 +337,6 @@
       "lang": "en",
       "date": "2026-08-14T12:38:39.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1rt26nn",
-      "title": "Morning Minute: Tether Finally Gets An Audit",
-      "link": "https://decrypt.co/375625/morning-minute-tether-finally-gets-an-audit",
-      "summary": "It seems Tether passed, putting an end to the longest-running open criticism of the leading stablecoin company.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-14T11:45:39.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-conf-paolo-ardonio-tether-decrypt-style-gID_7.png",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
