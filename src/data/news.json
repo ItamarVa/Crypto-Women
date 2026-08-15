@@ -1,13 +1,47 @@
 {
-  "updated": "2026-08-15T12:26:38.013Z",
+  "updated": "2026-08-15T16:18:51.505Z",
   "count": 46,
   "sources": [
-    "Bitcoin Magazine",
     "Decrypt",
+    "Bitcoin Magazine",
     "The Defiant",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "198a9iy",
+      "title": "Meta Patents Cameras That Recognize Faces and Log Your Actions",
+      "link": "https://decrypt.co/375698/meta-patents-cameras-recognize-faces-log-actions",
+      "summary": "The filing would turn raw footage into labeled clips of who did what, without anyone opting in.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-15T15:01:05.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "17wzliu",
+      "title": "Trump-Linked World Liberty Gets Conditional Bank Charter for USD1 Stablecoin",
+      "link": "https://decrypt.co/375726/trump-world-liberty-bank-charter-usd1-stablecoin",
+      "summary": "The proposed World Liberty Trust Company would take over issuance of the USD1 stablecoin from BitGo.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-15T13:01:04.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/Trump-Coin-decrypt-style-01-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "1cl347w",
       "title": "Edelman Financial, Tudor Investment Reveal Significant Bitcoin Holdings",
@@ -209,13 +243,22 @@
       "lang": "en",
       "date": "2026-08-14T16:23:20.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/bitcoin-mining-decrypt-style-04-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "מגמת המעבר: חברות כריית ביטקוין משנות כיוון לטובת תשתיות בינה מלאכותית",
+      "brief_he": "חברת Hyperscale Data מכרה חלק משמעותי מאחזקות הביטקוין שלה כדי לממן הרחבת מרכזי נתונים המיועדים לבינה מלאכותית.",
+      "commentary_he": "בשבועות האחרונים אנו עדים למגמה הולכת וגוברת בקרב חברות כריית ביטקוין ציבוריות: הסטת משאבים ומיקוד עסקי מתחום כריית המטבעות לעבר תמיכה בתשתיות בינה מלאכותית (AI). חברת Hyperscale Data, הנסחרת בבורסת ה-NYSE American תחת הסימול GPUS, היא הדוגמה האחרונה לכך. החברה הודיעה על מכירה של כ-685 יחידות ביטקוין, מהלך שנועד להזרים הון נזיל לטובת פיתוח מרכז הנתונים שלה במישיגן. צעד זה מעלה שאלות מעניינות לגבי האופן שבו חברות שצמחו על בסיס הכלכלה הדיגיטלית מתאימות את עצמן לדרישות הטכנולוגיות החדשות של השוק, תוך ניסיון לאזן בין החזקת נכסים תנודתיים לבין השקעה בתשתיות פיזיות יציבות יותר.\n\nעל פי הדיווח הרשמי של החברה, המכירה הניבה כ-43 מיליון דולר. הנהלת Hyperscale Data ציינה כי המהלך אינו נובע מחוסר אמון בביטקוין, אלא משיקולי הקצאת הון אסטרטגיים. כחלק מהמהלך, החברה הצליחה לצמצם את חובותיה בכ-30 מיליון דולר, מה שמעניק לה גמישות פיננסית רבה יותר בטווח הארוך. נכון לעכשיו, החברה מחזיקה ב-275 יחידות ביטקוין, ירידה משמעותית מהמלאי הקודם שעמד על כ-960 יחידות. יו\"ר החברה, מילטון אולט, הדגיש כי החברה מתכננת להמשיך בפעילות כריית הביטקוין שלה, ואף עשויה להשתמש בהכנסות עתידיות כדי לשקם את יתרות המטבע שלה בהתאם לתנאי השוק, אך המיקוד המיידי מוסט למיצוי הפוטנציאל של מרכז הנתונים במישיגן.\n\nכדי להבין את הרקע למהלך הזה, יש להסתכל על הדמיון הטכנולוגי בין כריית ביטקוין לבינה מלאכותית. שתיהן דורשות משאבי מחשוב עצומים, מערכות קירור מתוחכמות וגישה זולה ורציפה לחשמל. חברות כרייה רבות גילו כי המתקנים שהקימו עבור פעילות הבלוקצ'יין מתאימים באופן כמעט מושלם לדרישות של מרכזי נתונים עבור מודלי שפה גדולים ועיבוד נתונים מסיבי. במובן זה, המעבר של Hyperscale Data אינו מדובר בנטישת התחום, אלא בניצול יתרון לגודל: הפיכת אתרי כרייה קיימים לחוות שרתים מודרניות עבור חברות טכנולוגיה, תוך גיוון מקורות ההכנסה של החברה.\n\nההשלכות של המהלך רחבות יותר מפעילותה של חברה בודדת. אנליסטים בשוק, דוגמת מתיו סיגל מחברת VanEck, ציינו בעבר כי חברות כרייה יושבות על \"מכרה זהב\" של תשתיות אנרגיה ונדל\"ן תעשייתי. בעוד שתחום הכרייה נחשב לעיתים למסוכן בגלל התנודתיות של מחירי הביטקוין, שירותי מחשוב עבור AI נתפסים כביקוש יציב וצומח. חברות נוספות כמו Bitdeer ו-MARA כבר ביצעו מהלכים דומים, כאשר האחרונה מכרה ביטקוין בשווי של כ-1.5 מיליארד דולר מוקדם יותר השנה כדי לממן תשתיות AI. עם זאת, המשקיעים צריכים להיות מודעים לסיכונים: המעבר דורש השקעות הון משמעותיות בתחזוקה ובשדרוג חומרה, ואין ערובה לכך שהביקוש לשירותי AI ימשיך לצמוח באותו קצב מסחרר.\n\nלסיכום, הסיפור של Hyperscale Data מדגים כיצד שוק הקריפטו וה-AI מתחילים להשתלב זה בזה ברמה התשתיתית. עבור המשקיע או המתעניין, חשוב להבין כי חברות אלו אינן רק \"מכונות ביטקוין\", אלא גופים מורכבים המנהלים סיכונים ומשאבים. בעוד המכירה של המטבעות עשויה להיראות כצעד מפתיע למי שדוגל בשיטת ה-HODL, עבור הנהלת החברה מדובר באסטרטגיה של בניית ערך מוחשי לטווח ארוך. ככל שהתעשייה תתפתח, סביר להניח שנראה עוד חברות כרייה הופכות לספקיות תשתיות טכנולוגיות, מה שמשנה את הדינמיקה של השקעה במניות קריפטו.",
+      "terms_he": [
+        {
+          "term": "GPUS",
+          "explain": "הסימול (טיקר) של חברת Hyperscale Data בבורסה, המצביע על המיקוד שלה בעיבוד נתונים."
+        }
+      ],
+      "points_he": [
+        "חברות כרייה מנצלות את התשתית הפיזית שלהן כדי להתרחב לתחום ה-AI.",
+        "מכירת ביטקוין על ידי חברות ציבוריות נועדה לעיתים קרובות לשיפור מאזן פיננסי והפחתת חובות.",
+        "השקעה בחברות כרייה מחייבת הבנה של המודל העסקי החדש, שאינו מתבסס רק על מחיר הביטקוין."
+      ],
+      "meaning_he": "המגמה מעידה על התבגרות תעשיית הכרייה, שהופכת לחלק מתשתית המחשוב העולמית הרחבה, דבר שעשוי להפחית את התלות הבלעדית בתנודתיות המטבעות.",
+      "gen_v": 6
     },
     {
       "id": "1ip5wey",
@@ -294,40 +337,6 @@
       "lang": "en",
       "date": "2026-08-14T11:45:39.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-conf-paolo-ardonio-tether-decrypt-style-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "12y9kke",
-      "title": "SEC Shelves Crypto Rule Meeting Days After Senate Punted Clarity Act",
-      "link": "https://decrypt.co/375622/sec-shelves-crypto-rule-meeting-days-after-senate-punted-clarity-act",
-      "summary": "No replacement date has been set for the meeting, which was cancelled due to an “unforeseen scheduling issue.”",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-14T10:39:39.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/12/SEC2-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1tsdt7n",
-      "title": "Kalshi Ordered to Block Washington Bets Days After CFTC Backed It",
-      "link": "https://decrypt.co/375619/kalshi-ordered-to-block-washington-bets-days-after-cftc-backed-it",
-      "summary": "A King County judge gave the exchange until August 19 to stop offering sports, election and politics wagers in the state.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-14T09:50:40.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/kalshi-logo-decrypt-style-gID_7.png",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
