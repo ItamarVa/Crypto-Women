@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T12:27:29.306Z",
+  "updated": "2026-08-16T16:18:41.642Z",
   "count": 46,
   "sources": [
     "Decrypt",
@@ -8,6 +8,40 @@
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "mk18un",
+      "title": "Gemini 3.7 Flash Review: Google's Cheap Model Isn’t Dumb Anymore",
+      "link": "https://decrypt.co/375730/gemini-3-7-flash-review-google-cheap-model",
+      "summary": "Three weeks after a Flash release that couldn't produce a working file, Google's budget tier zero-shots a playable game. It still can't reason, and a free 27B model still writes better.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-16T16:00:05.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-2-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "ki3rr7",
+      "title": "People Are Turning to AI for Mental Health, California Wants It Banned",
+      "link": "https://decrypt.co/375725/california-bill-ban-ai-chatbots-therapy-mental-health",
+      "summary": "A California bill is awaiting an Assembly vote to \"place guardrails\" around AI chatbots and prevent them from acting as therapists.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-16T14:01:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-09-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "1ssio02",
       "title": "Apple Turns to Alibaba to Help Build AI Model for China",
@@ -318,23 +352,6 @@
       "gen_v": null
     },
     {
-      "id": "j3w8kf",
-      "title": "Fake LinkedIn Crypto Job Scams Have Cost $11.8M: Singapore",
-      "link": "https://decrypt.co/375653/fake-linkedin-crypto-job-scams-have-cost-11-8m-singapore",
-      "summary": "Malware planted during a bogus coding assessment harvested a session token, bypassing multi-factor authentication to reach a code repository.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-14T14:55:29.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/12/malware-decrypt-style-02-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "6kcp8g",
       "title": "What the CLARITY Act Actually Does for Bitcoin",
       "link": "https://bitcoinmagazine.com/takes/what-the-clarity-act-actually-does-for-bitcoin",
@@ -343,23 +360,6 @@
       "lang": "en",
       "date": "2026-08-14T14:09:26.000Z",
       "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/What-the-CLARITY-Act-Actually-Does-for-Bitcoin.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "18r55ec",
-      "title": "Ireland’s New AML Strategy Brings ‘Enhanced Checks’ on Private Crypto Wallets",
-      "link": "https://decrypt.co/375628/irelands-new-aml-strategy-brings-enhanced-checks-on-private-crypto-wallets",
-      "summary": "The country's first strategy of its kind also brings stricter due diligence for firms dealing with overseas crypto companies.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-14T12:38:39.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
