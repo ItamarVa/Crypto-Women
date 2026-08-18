@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T08:30:42.926Z",
+  "updated": "2026-08-18T12:34:19.500Z",
   "count": 46,
   "sources": [
     "Decrypt",
@@ -8,6 +8,40 @@
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "1c7nj57",
+      "title": "Chainalysis Sues US Government Over $94.6M ICE Contract Handed to Rival TRM Labs",
+      "link": "https://decrypt.co/375843/chainalysis-sues-us-government-ice-contract-trm-labs",
+      "summary": "The bid protest, filed in the U.S. Court of Federal Claims, challenges ICE's sole-source award for blockchain forensic tools, pitting the two biggest names in crypto tracing against each other.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-18T11:31:04.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/justice-decrypt-style-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "3yj1yj",
+      "title": "Bitpanda Hit With Europe's First Published MiCA Penalty in Austria",
+      "link": "https://decrypt.co/375841/bitpanda-europe-first-mica-penalty",
+      "summary": "Austria's Financial Market Authority fined the Vienna-based exchange 70,000 euros for procedural and disclosure breaches, an early marker of how EU regulators intend to enforce the bloc's new crypto rulebook.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-18T09:31:04.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/eu-flag-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "1x950gb",
       "title": "Kraken Parent Payward Joins Glasswing, Gets Access to Claude Mythos to Hunt Security Flaws",
@@ -407,23 +441,6 @@
       "gen_v": null
     },
     {
-      "id": "adp9nt",
-      "title": "Tom Lee’s Bitmine Buys Another $19 Million in Ethereum as Stash Nears 5% of Total Supply",
-      "link": "https://decrypt.co/375768/tom-lee-bitcoin-buys-19-million-ethereum",
-      "summary": "The firm says it's 96% of the way to owning 5% of Ethereum's total supply, according to Chairman Tom Lee.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-17T15:47:59.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/11/tom-lee-fundstrat-decrypt-style-02-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "j6g1tp",
       "title": "SafePal Breach Exposes 39,798 Buyers as Stolen Records Hit Cybercrime Forum",
       "link": "https://thedefiant.io/news/security/safepal-breach-exposes-39-798-customers-stolen-records-for-sale",
@@ -449,23 +466,6 @@
       "lang": "en",
       "date": "2026-08-17T14:23:17.000Z",
       "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Strategy-MSTR-Sells-Bitcoin-for-First-Time-in-Years-as-Bitcoin-Price-Tumbles.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "9x8072",
-      "title": "Hackers Are Abusing a macOS Screen Sharing Flaw to Secretly Mine Monero",
-      "link": "https://decrypt.co/375749/hackers-macos-screen-sharing-secretly-mine-monero",
-      "summary": "The Dutch cyber agency says attackers exploited an authentication flaw in macOS Screen Sharing to gain root access and plant Monero miners, with public proof-of-concept code now circulating.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-17T13:31:04.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Crime-crypto-decrypt-style-01-gID_7.png",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
