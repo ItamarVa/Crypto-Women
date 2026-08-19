@@ -1,13 +1,166 @@
 {
-  "updated": "2026-08-19T12:35:01.622Z",
+  "updated": "2026-08-19T16:25:52.530Z",
   "count": 46,
   "sources": [
     "Decrypt",
-    "The Defiant",
     "Bitcoin Magazine",
+    "The Defiant",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "1qwcsze",
+      "title": "Bitcoin Surges Toward $70K as $1.14 Billion in Crypto Shorts Get Rekt in an Hour",
+      "link": "https://decrypt.co/375955/bitcoin-surges-70k-billion-crypto-shorts-rekt-hour",
+      "summary": "A White House sitdown with crypto's biggest names and softer Fed signals lit the fuse. But the charts show why the pain for bears might not be over yet.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-19T16:10:04.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/Bitcoin-decrypt-style-21-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "19obkp6",
+      "title": "Coinbase Adds 50x Crypto Perps to Base App Through Hyperliquid",
+      "link": "https://decrypt.co/375921/coinbase-50x-crypto-perps-base-app-hyperliquid",
+      "summary": "The Hyperliquid integration gives eligible Base App users access to more than 290 perpetual futures markets.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-19T16:00:06.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Coinbase-phone-decrypt-style-01-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1yvas9m",
+      "title": "Bitcoin Blasts Past $68,000 After US Treasury Doubles Debt Buybacks",
+      "link": "https://bitcoinmagazine.com/news/bitcoin-blasts-past-68000",
+      "summary": "Bitcoin Magazine Bitcoin Blasts Past $68,000 After US Treasury Doubles Debt Buybacks Bitcoin blew past $68,000 on Wednesday, jumping nearly 3% over a 24-hour period after news dropped that the U.S. Treasury planned to…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-08-19T15:53:42.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Bitcoin-Blasts-Past-68000-After-US-Treasury-Doubles-Debt-Buybacks.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "3hlg0k",
+      "title": "Bitcoin’s Volatility May Be Down But Expect a ‘Meaningful Move’ Soon, Says Fidelity",
+      "link": "https://bitcoinmagazine.com/news/bitcoin-volatility-is-down-says-fidelity",
+      "summary": "Bitcoin Magazine Bitcoin’s Volatility May Be Down But Expect a ‘Meaningful Move’ Soon, Says Fidelity Bitcoin isn't moving. Analysts think that's a sign it could soon do something significant. This post Bitcoin’s…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-08-19T15:05:32.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Bitcoins-Volatility-May-Be-Down-But-Expect-a-Meaningful-Move-Soon-Says-Fidelity.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1udttif",
+      "title": "HSBC and Standard Chartered Complete First Live Transaction on Swift Blockchain Ledger",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/hsbc-and-standard-chartered-complete-first-live-transaction-on-swift-blockchain-ledger",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-08-19T14:45:42.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/99cc8a512d598baf6557417269a16fd91847bd3f-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "16f0668",
+      "title": "Maya Protocol Exploit Drains $1.7 Million From Shared Liquidity",
+      "link": "https://thedefiant.io/news/hacks/maya-protocol-exploit-drains-1-7-million-from-shared-liquidity",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-08-19T14:43:24.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/9db3a64f6b9a3c6276e14a7c24922d0710dda0ed-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1j51x2v",
+      "title": "Morning Minute: SEC Brings Clarity to Crypto",
+      "link": "https://decrypt.co/375949/morning-minute-sec-clarity-crypto-token-fundraising",
+      "summary": "If the proposed rules are formalized, it could lead to an ICO boom in the U.S.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-19T14:30:24.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/12/SEC2-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1m46us3",
+      "title": "Gnosis Chain to Abandon Its Validator Set and Settle to Ethereum",
+      "link": "https://thedefiant.io/news/blockchains/gnosis-chain-to-abandon-its-validator-set-and-settle-to-ethereum",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-08-19T14:25:49.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/978cad4057229cab4a683fcc33d4db071c114b47-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "18u8j3q",
+      "title": "Chinese InsurTech Firm Zhibao Adds 2,380 Bitcoin in $154.7M Treasury Pivot",
+      "link": "https://decrypt.co/375935/china-zhibao-bitcoin-treasury-pivot",
+      "summary": "The Shanghai-based InsurTech firm closed a $154.7 million private placement funded entirely in crypto, with investors contributing Bitcoin directly rather than cash.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-19T13:31:04.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-10-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "lxzhn2",
       "title": "Alleged $165M Crypto Ponzi Mastermind Deported From Fiji to US",
@@ -201,13 +354,27 @@
       "lang": "en",
       "date": "2026-08-18T20:25:05.000Z",
       "image": "https://cdn.thedefiant.io/sec-defiant-thumbnail-jpg-589b4eab-a990-458f-94f6-e28248720ccc.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "שינוי מגמה: ה-SEC מציגה מתווה רגולטורי חדש לגיוסי הון באמצעות טוקנים",
+      "brief_he": "רשות ניירות הערך האמריקאית מקדמת הצעה להסדרת גיוסי הון במטבעות דיגיטליים, תוך יצירת מסלולים פטורים מרישום מלא תחת תנאים מסוימים.",
+      "commentary_he": "הנוף הרגולטורי של שוק הנכסים הדיגיטליים בארצות הברית חווה לאחרונה תפנית משמעותית. רשות ניירות הערך האמריקאית (SEC) פרסמה טיוטה להצעה חדשה בשם \"Regulation Crypto Assets\", שמטרתה להגדיר מסגרת ברורה יותר עבור פרויקטים המבקשים לגייס הון באמצעות הנפקת טוקנים. צעד זה מהווה חריגה מהגישה הקודמת של הרשות, שהתמקדה בעיקר באכיפה משפטית של חוקי ניירות ערך קיימים על פרויקטים בתחום הקריפטו. עבור הקהילה שלנו, מדובר בהתפתחות שראוי לעקוב אחריה, שכן היא מסמנת ניסיון ראשוני של הרגולטור להכיר במאפיינים הייחודיים של טכנולוגיית הבלוקצ'יין תוך ניסיון לאזן בין הגנה על המשקיעים לבין עידוד חדשנות טכנולוגית.\n\nעל פי פרטי ההצעה, ה-SEC מבקשת ליצור שני מסלולי פטור מרישום מלא כניירות ערך. המסלול הראשון מאפשר לסטארט-אפים לגייס עד 5 מיליון דולר בטוקנים לאורך תקופה של ארבע שנים. המסלול השני, השאפתני יותר, מאפשר גיוס של עד 75 מיליון דולר בכל תקופה של 12 חודשים, אך הוא מותנה בהגשת דוחות כספיים שוטפים ושקיפות מוגברת כלפי הציבור. בשני המקרים, חברות יידרשו לעמוד בדרישות גילוי נאות, כאשר חוקי המניעה של הונאה ומניפולציות בשוק ימשיכו לחול ללא שינוי. חידוש מרכזי בהצעה הוא מנגנון ה-\"Safe Harbor\" (חוף מבטחים) המותנה, המאפשר לטוקן שהיה קשור בעבר לחוזה השקעה, להשתחרר מהגדרה זו לאחר שהפרויקט מגיע לשלב שבו הוא אינו תלוי עוד בעבודת הניהול המרכזית של המנפיקים. מדובר בניסיון טכני לפתור את אחת הסוגיות המשפטיות הסבוכות ביותר בתחום – מתי נכס דיגיטלי מפסיק להיות נייר ערך והופך למוצר צריכה או כלי שירות.\n\nהתזמון של הצעה זו אינו מקרי. היא מגיעה בעת שחקיקה מקיפה יותר, המכונה ה-\"Clarity Act\", נתקלה במבוי סתום בקונגרס האמריקאי. חוק זה, שנועד להסדיר באופן רשמי את רוב הפעילות בתחום הקריפטו, נדחה פעם אחר פעם עקב מחלוקות פוליטיות. יו\"ר ה-SEC, פול אטקינס, הבהיר כי בכוונת הרשות לפעול באופן עצמאי כדי לספק ודאות לשוק, כל עוד המחוקק אינו מצליח לגבש מסגרת כוללת. נראה שהרשות מבינה כי היעדר כללים ברורים פוגע לא רק ביזמים, אלא גם ביכולת של המערכת הפיננסית האמריקאית להישאר תחרותית בעולם שבו טכנולוגיית ה-Web3 הופכת לחלק מהכלכלה הגלובלית.\n\nלצד צעדי ה-SEC, סוכנויות פדרליות נוספות מקדמות רגולציה משלהן. משרד האוצר האמריקאי, למשל, פועל ליישום חוק ה-GENIUS, שצפוי להטיל דרישות רישוי מחמירות על מנפיקי סטייבלקוין החל משנת 2027, עם הגבלות נוספות על פלטפורמות מסחר החל מ-2028. שילוב זה של מהלכים מעיד על כך שהתקופה של \"המערב הפרוע\" ברגולציה הפיננסית האמריקאית מתקרבת לסיומה. עם זאת, החששות נותרו בעינם: דרישות הדיווח והציות עלולות להיות יקרות ומורכבות מדי עבור פרויקטים קטנים או מבוזרים, מה שעלול להוביל לריכוזיות גדולה יותר בתעשייה, שבה רק גופים בעלי משאבים כספיים משמעותיים יוכלו לעמוד בנטל הרגולטורי.\n\nחשוב לזכור כי בשלב זה מדובר בהצעה בלבד, הפתוחה להערות הציבור למשך 60 יום. תהליך זה הוא הזדמנות עבור התעשייה להשפיע על הנוסח הסופי של הכללים. עבורנו כמשקיעים וכמתעניינים בתחום, המסקנה העיקרית היא שאין מדובר בפתרון קסם, אלא בשלב נוסף בתהליך ההתבגרות של השוק. סביבה רגולטורית מוסדרת אמנם מפחיתה סיכונים מסוימים, אך היא גם משנה את כללי המשחק שבהם פועלים היזמים. כפי שהדגישה הנציבה הסטר פירס, מדובר בצעד אחד בדרך ארוכה, וחשוב להמשיך ולבחון כיצד הכללים הללו ייושמו בפועל בשטח.",
+      "terms_he": [
+        {
+          "term": "Safe Harbor",
+          "explain": "מנגנון משפטי המאפשר לפעילות מסוימת להיות פטורה מרגולציה מחמירה, בתנאי שהיא עומדת בקריטריונים מוגדרים מראש."
+        },
+        {
+          "term": "חוזה השקעה",
+          "explain": "מונח משפטי המשמש לבחינה האם נכס מסוים נחשב לנייר ערך, לרוב על בסיס ציפייה לרווחים ממאמציהם של אחרים."
+        }
+      ],
+      "points_he": [
+        "ה-SEC מציעה מסלולי פטור מגיוס הון מלא עבור פרויקטים המגייסים עד 5 או 75 מיליון דולר, בכפוף לדרישות שקיפות.",
+        "הצעה למנגנון 'חוף מבטחים' מאפשרת לטוקנים להשתחרר מהגדרתם כנייר ערך ברגע שהפרויקט הופך למבוזר או עצמאי.",
+        "הצעד מגיע על רקע קיפאון בחקיקת ה-Clarity Act בקונגרס, מה שמעיד על רצון הרשות לקבוע עובדות בשטח.",
+        "קיימת תקופת הערות ציבור של 60 יום, המהווה חלון הזדמנויות עבור גורמים בתעשייה להשפיע על תוכן התקנות."
+      ],
+      "meaning_he": "ההצעה מסמנת מעבר מגישה של אכיפה משפטית נוקשה למודל רגולטורי מובנה, דבר שעשוי להוביל ליציבות גדולה יותר בשוק הקריפטו האמריקאי בטווח הארוך.",
+      "gen_v": 6
     },
     {
       "id": "1go21zn",
@@ -261,27 +428,6 @@
       "gen_v": null
     },
     {
-      "id": "1094kqq",
-      "title": "Trump Family Crypto Firm Tied to Chinese AI Models US Government Called a Security Risk",
-      "link": "https://decrypt.co/375887/trump-crypto-firm-chinese-ai-government-called-security-risk",
-      "summary": "WorldClaw accepts World Liberty’s USD1 stablecoin while offering AI models from Chinese companies facing U.S. national security restrictions.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-18T18:36:04.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/Trump-decrypt-style-05-scaled-gID_7.jpeg",
-      "title_he": "הממשק בין מטבעות דיגיטליים לבינה מלאכותית: בחינת השותפות של World Liberty Financial",
-      "brief_he": "שיתוף הפעולה בין מיזם הקריפטו של משפחת טראמפ לבין פלטפורמת AI המציעה מודלים סיניים מעלה שאלות מורכבות על רגולציה וביטחון לאומי.",
-      "commentary_he": "העולם הטכנולוגי נדרש לאחרונה לעסוק בשאלה כיצד ממשקים בין תעשיית הבלוקצ'יין לבין עולם הבינה המלאכותית (AI) עשויים להשפיע על המשתמשים. לאחרונה דווח על שיתוף פעולה בין מיזם הקריפטו World Liberty Financial, הנתמך על ידי משפחת טראמפ, לבין חברת ה-AI WorldClaw. המיזם, ששם דגש על השימוש במטבע היציב USD1, מאפשר כעת למשתמשים לשלם עבור שירותי בינה מלאכותית באמצעות מטבע זה. עבור משקיעים ומשתמשים בקהילה, מדובר באירוע המדגיש עד כמה חשוב להבין לא רק את הטכנולוגיה שמאחורי הפרויקטים, אלא גם את המבנה העסקי והשותפויות הגלובליות שנרקמות סביבם.\n\nעל פי הפרסומים, המערכת של WorldClaw מציעה גישה ל-90 מודלי בינה מלאכותית שונים, מתוכם 43 מודלים פותחו על ידי חברות טכנולוגיה סיניות, בהן ענקיות כמו Alibaba ו-Baidu. המורכבות עולה כאשר בוחנים את הסטטוס של חברות אלו בארצות הברית. לפי הדיווחים, מספר חברות המופיעות בפלטפורמה, דוגמת Z.ai (לשעבר Zhipu AI), נוספו לרשימת הישויות של משרד המסחר האמריקאי, מה שמגביל את הגישה שלהן לטכנולוגיות אמריקאיות. בנוסף, משרד ההגנה האמריקאי סימן חברות כגון Alibaba ו-Baidu ככאלו הפועלות תחת הגדרות ביטחוניות שנויות במחלוקת. דובר מטעם World Liberty Financial ציין בתגובה כי השותפות היא עניין עסקי מקובל וכי הפלטפורמה מספקת מודלים ממקורות מגוונים, בדומה לחברות טכנולוגיה אמריקאיות אחרות.\n\nההקשר הרחב של נושא זה נעוץ במתחים הגיאופוליטיים שבין ארצות הברית לסין בתחום הבינה המלאכותית. הממשל האמריקאי מנהל בשנים האחרונות מדיניות של הגבלת יצוא טכנולוגי ופיקוח מחמיר על מודלים שעלולים לשמש למטרות צבאיות או אסטרטגיות. כאשר פרויקט קריפטו שמשפיע על הציבור האמריקאי משתלב עם פלטפורמות המציעות מודלים של חברות תחת מגבלות אלו, נוצרת סביבה של חוסר ודאות רגולטורית. עבור המשתמש הממוצע, חשוב להבין שכל שימוש בשירותים אלו כרוך לעיתים בהסכמה עקיפה לסטנדרטים של אותן חברות פיתוח, מה שמעלה שאלות של פרטיות ואבטחת מידע בטווח הארוך.\n\nמעבר לסוגיות הפוליטיות, קיימת דאגה טכנולוגית ממשית בנוגע לשימוש במודלים הללו. חברת הבינה המלאכותית Anthropic העלתה טענות קשות על כך שחברות סיניות מסוימות ביצעו מה שמכונה 'התקפות זיקוק' (Distillation attacks) על מודלים אמריקאים. על פי הדיווחים, נעשה שימוש בכ-24,000 חשבונות פיקטיביים כדי להפיק למעלה מ-16 מיליון אינטראקציות עם מודל Claude של Anthropic, במטרה 'ללמוד' את התנהגות המודל ולהעתיק את יכולותיו. אירועים אלו גרמו לחברות טכנולוגיה מובילות לפנות לקונגרס בבקשה להחמיר את הפיקוח על ייצוא מודלים ולפעול נגד גניבת קניין רוחני טכנולוגי, מה שמעמיד את המשתמשים בנקודת מבט בוחנת כלפי כל פלטפורמה המשלבת מודלים אלו ללא בקרה קפדנית.\n\nלסיכום, הסיפור של World Liberty ו-WorldClaw מזכיר לנו שהחדשנות בתחום הבלוקצ'יין לא מתקיימת בחלל ריק. היא מושפעת מהחלטות ממשלתיות, תחרות גלובלית וסיכוני אבטחה שקשה לעיתים לזהות ממבט ראשון. עבור חברי הקהילה שלנו, המסר הוא ברור: לפני שבוחרים להשתמש בפלטפורמה המשלבת שירותי AI עם נכסים דיגיטליים, יש לבצע בדיקת נאותות לא רק על הפרויקט עצמו, אלא גם על המקורות הטכנולוגיים שמרכיבים את המערכות שלו. היכולת להבחין בין קידמה טכנולוגית אמיתית לבין חשיפה לסיכונים מיותרים היא אבן היסוד של השקעה מושכלת בעידן הנוכחי.",
-      "terms_he": [],
-      "points_he": [
-        "הבנה ששיתופי פעולה ב-Web3 יכולים להוביל לחשיפה לסיכונים גיאופוליטיים.",
-        "חשיבות בדיקת המקורות הטכנולוגיים מאחורי כלי בינה מלאכותית.",
-        "מודעות לתופעת ה-Distillation כסיכון אבטחה משמעותי במודלי AI."
-      ],
-      "meaning_he": "המקרה מדגים כיצד סוגיות של ביטחון לאומי ורגולציה גלובלית מחלחלות לתוך עולם הקריפטו, ומחייבות משקיעים לגלות ערנות גבוהה יותר כלפי השותפויות של הפרויקטים שבהם הם מעורבים.",
-      "gen_v": 6
-    },
-    {
       "id": "1v1qlyk",
       "title": "Bitcoin’s Wild Swings Go Quiet, Even as the Bears Won’t Let Go",
       "link": "https://bitcoinmagazine.com/news/bitcoin-volatility-dampens-vaneck",
@@ -299,23 +445,6 @@
       "gen_v": null
     },
     {
-      "id": "erf1dv",
-      "title": "Bitcoin Wallet Maker BitBox Says AI Found Severe Flaws in Firmware",
-      "link": "https://decrypt.co/375886/bitcoin-wallet-bitbox-ai-severe-flaws-firmware",
-      "summary": "The Swiss hardware-wallet maker found two severe bugs with the help of frontier AI models, and warns that older firmware leaves you exposed.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-18T18:06:42.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-04-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "179phlo",
       "title": "Bitcoin as Digital Real Estate: An Excerpt from Leon Wankum’s Digital Real Estate",
       "link": "https://bitcoinmagazine.com/bitcoin-books/bitcoin-as-digital-real-estate-an-excerpt-from-leon-wankums-digital-real-estate",
@@ -324,23 +453,6 @@
       "lang": "en",
       "date": "2026-08-18T17:55:43.000Z",
       "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/ChatGPT-Image-Aug-18-2026-12_52_29-PM.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1apiod9",
-      "title": "Google Is Paying $10 Million to Use Spirit Airlines Data to Train Its AI Models",
-      "link": "https://decrypt.co/375883/google-spirit-airlines-data-train-ai",
-      "summary": "The bankrupt airline’s internal communications and business records could soon be used to improve Google’s AI systems.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-18T17:19:44.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/05/decrypt-style-google-3-gID_7.png",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
@@ -401,23 +513,6 @@
       "gen_v": null
     },
     {
-      "id": "15gpt0t",
-      "title": "Citi to Launch Bitcoin Custody as Wall Street Pushes Deeper Into Crypto",
-      "link": "https://decrypt.co/375880/citi-bitcoin-custody-wall-street-crypto",
-      "summary": "The banking giant plans to let institutional clients hold Bitcoin and traditional assets through the same custody framework.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-18T15:56:05.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/citi-decrypt-style-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "hamjyr",
       "title": "Citi to Debut Bitcoin Custody for Institutional Investors",
       "link": "https://bitcoinmagazine.com/news/citi-to-debut-bitcoin-custody",
@@ -426,30 +521,27 @@
       "lang": "en",
       "date": "2026-08-18T15:24:52.000Z",
       "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Citi-to-Debut-Bitcoin-Custody-for-Institutional-Investors.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1bh465n",
-      "title": "The Pack Is the Painting: Evil Biscuit and the Schizocollage Movement Come to Hong Kong",
-      "link": "https://bitcoinmagazine.com/culture/the-pack-is-the-painting-evil-biscuit-and-the-schizocollage-movement-come-to-hong-kong",
-      "summary": "Bitcoin Magazine The Pack Is the Painting: Evil Biscuit and the Schizocollage Movement Come to Hong Kong In 1956, at an exhibition hall in Tokyo, a Japanese artist named Saburō Murakami ran through a row of paper…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-08-18T12:45:19.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Evil-Biscuit-and-the-Schizocollage-Movement-Come-to-Hong-Kong.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "המוסדות הפיננסיים מעמיקים אחיזה: סיטי בנק משיק שירות משמורת לביטקוין",
+      "brief_he": "ענקית הבנקאות סיטי בנק מצטרפת למגמה המוסדית ומשיקה פתרון טכנולוגי לניהול אחזקות ביטקוין לצד נכסים מסורתיים.",
+      "commentary_he": "ההתפתחות של שוק הנכסים הדיגיטליים עוברת בשנים האחרונות תהליך הדרגתי אך עקבי של מיסוד, כאשר המחסומים בין עולם המימון המסורתי לבין הטכנולוגיה של הבלוקצ'יין הולכים ומטשטשים. השבוע התבשרנו על צעד משמעותי נוסף בכיוון זה, כאשר סיטי בנק, מוסד פיננסי ענק המנהל נכסים בשווי מוערך של כ-2.8 טריליון דולר, הכריז על השקת שירות חדש בשם Custody+. שירות זה, הצפוי להיכנס לפעילות מלאה בהמשך השנה הנוכחית, נועד לאפשר למשקיעים מוסדיים לנהל את אחזקות הביטקוין שלהם בתוך אותה מסגרת טכנולוגית שבה הם מנהלים נכסים פיננסיים מסורתיים, ובכך לייתר את הצורך בפיצול מערכות עבודה מורכבות.\n\nעל פי הפרסומים הרשמיים, המוצר החדש נבנה במטרה לצמצם את העיכובים התפעוליים המוכרים בשוק הדיגיטלי כיום. השירות יאפשר ללקוחות המוסדיים לבצע את כל פעולות ניהול הנכסים – החל מהפקדות וסליקה ועד לניהול מטבע חוץ, מזומן ונתונים – תחת זרימה עבודה אחת ואחידה. כריס קוקס, ראש חטיבת שירותי המשקיעים בסיטי, ציין כי המטרה היא לבנות תשתית שתבטל את ה'חיכוך' המאפיין את העבודה עם נכסים דיגיטליים כיום. המשקיעים ייהנו מנראות רציפה ומיידית על כלל הפעולות שלהם, תוך גמישות לשלב נכסים דיגיטליים נוספים או לפתח פתרונות ייעודיים על גבי התשתית של הבנק, מה שמהווה קפיצת מדרגה משמעותית בהשוואה לשימוש בארנקים נפרדים או במערכות משמורת עצמאיות שאינן מתממשקות ליתר הפעילות הפיננסית של הגוף המוסדי.\n\nהמהלך של סיטי אינו מגיע בחלל ריק, אלא כחלק מאסטרטגיה רחבה יותר של הבנק בתחום הבלוקצ'יין. בשנים האחרונות הבנק פועל בפיתוח שירותים דומים, דוגמת ה-Citi Token Services, המאפשרים העברות כספים חוצות גבולות בזמן אמת באמצעות פיקדונות שעברו טוקניזציה. בנוסף, הבנק נמצא בשיתופי פעולה עם מוסדות פיננסיים גלובליים אחרים, ביניהם גולדמן זאקס, דויטשה בנק ובנק אוף אמריקה, במטרה לבחון הנפקה של מוצרי סטייבלקוין (Stablecoin) עתידיים. מנכ\"לית סיטי, ג'יין פרייזר, התבטאה לאחרונה בנוגע לחקיקה האמריקאית הממשמשת ובאה, ה-'Clarity Act', המבקשת להגדיר בצורה ברורה אילו נכסים דיגיטליים ייחשבו כניירות ערך ואילו כסחורות. לדבריה, הבנק רואה בעצמו מוביל בתחום הנכסים הדיגיטליים ושואף לקדם חקיקה מאוזנת שתספק ודאות רגולטורית להמשך הפעילות.\n\nההשלכות של מהלך כזה עבור השוק רחבות. כאשר בנק בסדר גודל של סיטי נכנס לתחום המשמורת, הוא מספק מעטפת של אמינות ורגולציה שהייתה חסרה עבור גופים מוסדיים רבים שחששו עד כה מהסיכונים הכרוכים בטיפול עצמאי בנכסים דיגיטליים. עם זאת, חשוב להזכיר כי גם עם תשתית של בנק מסורתי, השקעה בנכסים דיגיטליים טומנת בחובה סיכונים שוק מובנים ואינה חפה מתנודתיות. החיבור של סיטי לעולם הבלוקצ'יין מעיד על כך שהבנקים לא רק מגיבים לביקוש מצד לקוחותיהם, אלא מבינים שהטכנולוגיה עצמה מציעה התייעלות תפעולית אמיתית, גם אם הדרך להטמעה מלאה עוד רצופה באתגרים רגולטוריים וטכנולוגיים.\n\nלסיכום, הכניסה של שחקנים דומיננטיים לתחום המשמורת לביטקוין מצביעה על התבגרות של המערכת הפיננסית. עבור משקיעים מוסדיים, מדובר בשיפור משמעותי ביכולת לנהל תיק נכסים מגוון בצורה מאובטחת ומסודרת יותר. עבור הקהילה שלנו, זוהי הוכחה נוספת לכך שהתשתית הטכנולוגית של הבלוקצ'יין הופכת לחלק אינטגרלי מהכלכלה העולמית, גם אם הדרך אל האימוץ המלא עודה בעיצומה.",
+      "terms_he": [
+        {
+          "term": "משמורת (Custody)",
+          "explain": "שירות של גוף פיננסי השומר על נכסים דיגיטליים עבור לקוחותיו ומבטיח את אבטחתם."
+        },
+        {
+          "term": "טוקניזציה",
+          "explain": "תהליך המרת זכויות בנכס פיננסי לטוקן דיגיטלי המנוהל על גבי רשת בלוקצ'יין."
+        }
+      ],
+      "points_he": [
+        "סיטי בנק משיק את Custody+, פתרון המשלב ניהול ביטקוין עם נכסים מסורתיים.",
+        "השירות נועד לייעל תהליכים תפעוליים עבור משקיעים מוסדיים ולחסוך את הצורך במערכות נפרדות.",
+        "המהלך משתלב במגמה רחבה של בנקי ענק המפתחים תשתיות בלוקצ'יין וטוקניזציה.",
+        "התקדמות החקיקה בארה\"ב (כמו ה-Clarity Act) מהווה זרז משמעותי ליכולת של מוסדות פיננסיים לפעול בתחום."
+      ],
+      "meaning_he": "המהלך מסמן את המעבר של הביטקוין מנכס ספקולטיבי לשוליים למרכיב לגיטימי בניהול תיקי השקעות מוסדיים גלובליים, דבר שמחזק את הלגיטימציה של התחום כולו.",
+      "gen_v": 6
     },
     {
       "id": "1i9g6it",
@@ -495,23 +587,6 @@
       "lang": "en",
       "date": "2026-08-17T21:40:00.000Z",
       "image": "https://cdn.thedefiant.io/ansem-thumbnail-jpg-5488d28c-6ba5-4f78-a560-2a483b7be868.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "cyq95n",
-      "title": "Losses Top $115M In Coldcard Bitcoin Hack: Galaxy Research",
-      "link": "https://bitcoinmagazine.com/news/losses-top-115-million-in-coldcard-hack",
-      "summary": "Bitcoin Magazine Losses Top $115M In Coldcard Bitcoin Hack: Galaxy Research The amount of bitcoin stolen has been confirmed at $115 million, according to Galaxy Digital's latest figures. This post Losses Top $115M In…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-08-17T21:32:34.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Losses-Top-115M-In-Coldcard-Bitcoin-Hack-Galaxy-Research.jpg",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
@@ -602,76 +677,6 @@
         "יש להתייחס לשווקי חיזוי כאל כלים פיננסיים מורכבים בעלי סיכון גבוה, הדורשים הבנה של מנגנוני הפעולה שלהם."
       ],
       "meaning_he": "הירידה בעניין הציבורי מדגישה את הפער בין טכנולוגיה מבטיחה לבין אימוץ המוני, ומזכירה למשקיעים להבחין בין פלטפורמות בנות קיימא לבין כאלו שנשענות על טרנדים חולפים.",
-      "gen_v": 6
-    },
-    {
-      "id": "1o3fgu0",
-      "title": "Compound Foundation Names Coinbase And Anchorage Alumni To Run $52 Million Institutional Push",
-      "link": "https://thedefiant.io/news/defi/compound-foundation-52m-institutional-credit-leadership",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-08-17T17:49:57.000Z",
-      "image": "https://cdn.thedefiant.io/compound-thumbnail-jpg-2d2a06bf-082b-4b5d-b67f-2a045c4a6300.jpg",
-      "title_he": "ארה\"ב מניעה את גלגלי הרגולציה: הממשל מבקש הצעות למימוש ה-GENIUS Act",
-      "brief_he": "משרד האוצר האמריקאי פתח בהליך התייעצות ציבורית לקראת יישום החוק להסדרת מטבעות יציבים, צעד משמעותי לקראת מתן ודאות לענף הקריפטו.",
-      "commentary_he": "התפתחות משמעותית נרשמה השבוע בגישת הממשל האמריקאי כלפי נכסים דיגיטליים, כאשר משרד האוצר הודיע על פתיחת הליך להגשת הערות ציבוריות בנוגע ליישום ה-GENIUS Act. מדובר בחקיקה מרכזית שנחתמה על ידי הנשיא דונלד טראמפ בשנת 2025, וכעת, עם התקרבות מועדי היישום הרשמיים, מבקש הממשל לקבל קלט ממומחים ומשתתפים בשוק כדי לעצב את כללי המשחק המדויקים. עבור מי שעוקבת אחרי התחום, הצעד הזה מסמן את המעבר מדיונים תיאורטיים על רגולציה לביצוע פרקטי של מסגרת חוקית שנועדה להגדיר מי רשאי להנפיק מטבעות יציבים (Stablecoins) ומהן חובות הדיווח החלות עליו. המהלך משקף את הרצון של המערכת הפיננסית האמריקאית להטמיע את הטכנולוגיה תוך שמירה על יציבות המערכת המוניטרית.\n\nעל פי הדיווח של \"Bitcoin Magazine\", משרד האוצר האמריקאי מדגיש את החשיבות של יצירת ודאות רגולטורית שתאפשר לעסקים לפעול בביטחון. לפי הודעת המזכיר סקוט בסנט, הממשל פועל בנחישות כדי להוציא לפועל את הוראות ה-GENIUS Act, כאשר התאריך המיועד לתחילת התוקף של החוק הוא ה-18 בינואר 2027. החל ממועד זה, הנפקת מטבע יציב לתשלומים בארצות הברית תהיה מותנית בקבלת רישיון פדרלי או מדינתי מתאים. בנוסף, החוק כולל איסורים מחמירים יותר על הצעות ומכירות של מטבעות מסוימים, שייכנסו לתוקף החל מה-18 ביולי 2028. הממשל מבקש כעת תשובות לשאלות קריטיות, כמו הגדרת המונחים המדויקים בחוק, מתי בדיוק נחשב מטבע כ\"מונפק\", ומהן חובות הבדיקה הנאותה (Due Diligence) שצריכים ספקי שירותים דיגיטליים להפעיל כלפי מנפיקים זרים.\n\nהרקע לחקיקה זו טמון בצורך להבטיח גיבוי הולם למטבעות יציבים, אשר מהווים את הגשר בין המערכת הפיננסית המסורתית לכלכלת הבלוקצ'יין. על פי ה-GENIUS Act, מנפיקים מחויבים לגבות את האסימונים בנכסים בטוחים דוגמת אגרות חוב של ממשלת ארצות הברית, תוך הצגת דוחות עיתיים על הרזרוות שלהם. דרישה זו נועדה למנוע תרחישים של חוסר נזילות או קריסה של מטבעות יציבים, תופעה שחווינו בעבר בשוק הקריפטו. השאיפה היא לא רק להגן על המשתמשים, אלא גם לחזק את מעמדו של הדולר האמריקאי כמטבע הרזרבה העולמי, תוך ניצול הטכנולוגיה כדי להישאר בחזית הפיננסית העולמית.\n\nהתמונה הרחבה יותר מעידה על תחרות גלובלית גוברת. הנשיא טראמפ הצהיר לאחרונה כי העברת חקיקה מסוג זה, לצד חוקים נוספים כמו ה-Clarity Act שנדון בבית הנבחרים, היא הכרחית כדי להבטיח את הבכורה הטכנולוגית של ארה\"ב מול מעצמות כמו סין. עם זאת, הדרך ליישום מלא אינה חפה מקשיים; ה-Clarity Act, למשל, חווה עיכובים בלוח הזמנים של ההצבעות, מה שמעיד על מורכבות התהליך הפוליטי והדיונים המקצועיים סביב מבנה השוק הדיגיטלי. הניסיון האמריקאי ליצור \"בירת קריפטו\" עולמית דורש איזון עדין בין עידוד חדשנות טכנולוגית לבין הבטחת הגנה על הצרכן ושלמות המערכת הפיננסית.\n\nלסיכום, הצעד של משרד האוצר הוא תזכורת לכך שהרגולציה היא לא רק מכשול, אלא לעיתים קרובות התנאי ההכרחי לצמיחה בת-קיימא של שוק מוסדי. עבור מי שפועלת בשוק, המעקב אחר הליך ההתייעצות הזה הוא חיוני, שכן התשובות שיינתנו למשרד האוצר יקבעו את אופי הפעילות של מטבעות יציבים בשנים הקרובות. בעוד שהדיונים הפוליטיים עשויים להימשך, הכיוון ברור: הממשל האמריקאי פועל ליצירת מסגרת משפטית ברורה, שנועדה להפוך את השימוש בנכסים דיגיטליים לחלק לגיטימי ומוסדר מהכלכלה המודרנית.",
-      "terms_he": [],
-      "points_he": [
-        "משרד האוצר האמריקאי פתח בתהליך התייעצות ציבורית ליישום ה-GENIUS Act.",
-        "החוק מחייב גיבוי מלא של מטבעות יציבים בנכסים בטוחים וחובת דיווח שוטפת.",
-        "החל מינואר 2027, הנפקת מטבע יציב בארה\"ב תדרוש רישיון פדרלי או מדינתי.",
-        "המהלך נועד לחזק את מעמד הדולר ולהבטיח ודאות רגולטורית בשוק האמריקאי."
-      ],
-      "meaning_he": "ההתפתחויות בארה\"ב משפיעות על כל השוק הגלובלי, שכן הסטנדרטים האמריקאיים נוטים להפוך לתו תקן בינלאומי עבור נכסים דיגיטליים.",
-      "gen_v": 6
-    },
-    {
-      "id": "ga237k",
-      "title": "Fake World Assets Opens Its Gacha Pool to New NFT Collections",
-      "link": "https://thedefiant.io/news/nfts-and-web3/fake-world-assets-opens-its-gacha-pool-to-new-nft-collections",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-08-17T17:37:44.000Z",
-      "image": "https://cdn.thedefiant.io/fwa-gacha-thumbnail-jpg-c146061a-fdd4-4560-8c0f-fd0f78c41d1f.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1vsv5te",
-      "title": "Stripe’s Reported $7 Billion OpenRouter Deal Buys Micropayments Without a Blockchain",
-      "link": "https://thedefiant.io/news/tradfi-and-fintech/stripe-openrouter-deal-micropayments-without-blockchain",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-08-17T15:52:20.000Z",
-      "image": "https://cdn.thedefiant.io/stripe-openrouter-thumbnail-jpg-adb980bf-2b8c-44bf-a36c-5ee3178c01fb.jpg",
-      "title_he": "עסקת הענק של Stripe והחיבור בין בינה מלאכותית לתשתיות תשלומים",
-      "brief_he": "דיווחים על רכישת פלטפורמת ה-AI OpenRouter על ידי ענקית התשלומים Stripe משקפים את המרוץ אחר שליטה בזרמי הכספים של עידן הבינה המלאכותית.",
-      "commentary_he": "עולם הטכנולוגיה עוקב בעניין רב אחר הדיווחים האחרונים על עסקת ענק פוטנציאלית בתחום הבינה המלאכותית, במסגרתה ענקית התשלומים Stripe עשויה לרכוש את פלטפורמת OpenRouter לפי שווי מוערך של כ-7 מיליארד דולר. עבור מי שעוקבת אחרי התפתחות האינטרנט והתשתית הפיננסית שעליו, מדובר בצעד שמסמן יותר מאשר רק רכישה טכנולוגית רגילה. Stripe, שביססה את מעמדה כעמוד השדרה של סליקת אשראי עבור מיליוני עסקים ברחבי העולם, מבינה ככל הנראה שהדלק של הכלכלה הדיגיטלית החדשה הוא לא רק עסקאות מסורתיות, אלא הגישה למודלי שפה ובינה מלאכותית. הצטרפותה של פלטפורמה כמו OpenRouter, המאפשרת למפתחים לגשת למגוון רחב של מודלי בינה מלאכותית תחת ממשק אחד, מציבה את Stripe בעמדת מפתח בתוך שרשרת הערך של ה-AI.\n\nעל פי הדיווחים שפורסמו בתקשורת הכלכלית העולמית, הסכום המדובר של 7 מיליארד דולר משקף את האמון העצום ש-Stripe רוחשת לתחום ה-AI. OpenRouter פועלת כסוג של 'אגרגטור' למודלי שפה, מה שמאפשר למשתמשים לעבור בין מודלים שונים בצורה חלקה ולשלם לפי שימוש. עבור Stripe, שפועלת מזה שנים להנגשת שירותים פיננסיים מורכבים למפתחים, מדובר בשידוך טבעי. אם הדיווחים אכן יתממשו, Stripe תהפוך לא רק למתווך של כסף, אלא גם למתווך של כוח מחשוב ואינטליגנציה מלאכותית, מה שמאפשר לה לבצע אופטימיזציה של תשלומים בתוך סביבות עבודה שבהן המשתמש נדרש לשלם סכומים זעירים – מיקרו-תשלומים – על כל שאילתה או פעולה מול המודל.\n\nההקשר הרחב של המהלך הזה מעורר שאלות מרתקות עבור קהילת הקריפטו והבלוקצ'יין. במשך שנים, הנרטיב המרכזי בעולם ה-Web3 היה שמיקרו-תשלומים הם בעיה שרק הבלוקצ'יין יכול לפתור ביעילות, בגלל עלויות העמלה הנמוכות והיכולת לבצע טרנזקציות גלובליות ללא תלות בבנקים. עם זאת, המהלך של Stripe מציע אלטרנטיבה שונה לחלוטין: שימוש בתשתית הפיננסית הקיימת, המוכרת והיציבה, כדי להטמיע את המיקרו-תשלומים הללו בתוך האפליקציות עצמן. במקום להעביר מטבעות דיגיטליים בארנקים מבוזרים, המשתמשים ימשיכו להשתמש בכרטיסי אשראי או בממשקי תשלום מסורתיים, בעוד Stripe דואגת לחלק האחורי (Back-end) של התשלום, מה שמאפשר לה להציע חוויית משתמש חלקה בהרבה עבור הצרכן הממוצע.\n\nעם זאת, חשוב להסתכל על התמונה המלאה ולבחון גם את הסיכונים והמורכבויות הכרוכים בכך. העובדה שחברה בסדר גודל של Stripe בוחרת להשקיע בפתרון מרוכז של בינה מלאכותית מדגישה את המגמה של ריכוזיות בעולם הטכנולוגיה. בעוד שהבלוקצ'יין מציע שקיפות וביזור, עסקאות מסוג זה מחזקות את כוחן של הפלטפורמות הגדולות להחזיק במידע ובזרימת הכספים. ייתכן שבעתיד נראה מאבק בין מודלים של תשלומים מבוזרים לבין 'המסלול המהיר' והיעיל שמציעות חברות פינטק מסורתיות. עבור יזמיות ויזמים בתחום, האתגר יהיה להבין האם התשתית הזו תהיה פתוחה באמת, או שמא מדובר בגן סגור שנועד להשאיר את המשתמשים בתוך המערכת האקולוגית של Stripe בלבד.\n\nלסיכום, העסקה המדווחת מהווה תזכורת לכך שהמהפכה הבאה לא תתרחש רק בשכבת הפרוטוקול, אלא בשכבת היישום והתשלומים. עבור מי שעוקבת אחרי השוק, המסקנה היא ברורה: הכלכלה של ה-AI דורשת מודלים עסקיים חדשים, ומי שתשלוט בתשתית שמאפשרת את זרימת הכסף בין המודלים למשתמשים, תהיה בעלת השפעה משמעותית על האופן שבו נשתמש בטכנולוגיה בשנים הקרובות. מומלץ להמשיך ולעקוב אחר התפתחויות אלו, שכן הן משרטטות את קווי המתאר של התשתית הכלכלית החדשה שנוצרת לנגד עינינו, הרחק מאור הזרקורים של המטבעות הדיגיטליים המוכרים.",
-      "terms_he": [
-        {
-          "term": "מיקרו-תשלומים (Micropayments)",
-          "explain": "ביצוע עסקאות בסכומים זעירים מאוד, לעיתים של סנטים בודדים, עבור שירותים דיגיטליים."
-        },
-        {
-          "term": "אגרגטור (Aggregator)",
-          "explain": "פלטפורמה המרכזת שירותים או מוצרים ממקורות שונים במקום אחד כדי להקל על המשתמש."
-        }
-      ],
-      "points_he": [
-        "התכנסות של פינטק ו-AI יוצרת הזדמנויות חדשות למודלים של מיקרו-תשלומים.",
-        "חברות תשתית פיננסית מסורתיות מנסות להוביל את תחום התשלומים עבור מודלי שפה.",
-        "התחרות בין פתרונות תשלום מבוזרים לבין פלטפורמות מרכזיות צפויה להתעצם בשנים הקרובות.",
-        "יעילות חוויית המשתמש מהווה גורם מכריע באימוץ טכנולוגיות חדשות על ידי הקהל הרחב."
-      ],
-      "meaning_he": "העסקה משקפת כיצד ענקיות הפינטק מנסות להבטיח את שליטתן בתשתית הכלכלית של עידן ה-AI, מה שמאתגר את התפיסה שמיקרו-תשלומים הם נחלת הבלוקצ'יין בלבד.",
       "gen_v": 6
     },
     {
