@@ -1,13 +1,64 @@
 {
-  "updated": "2026-08-19T20:22:12.158Z",
+  "updated": "2026-08-20T00:54:30.187Z",
   "count": 46,
   "sources": [
     "Decrypt",
-    "The Defiant",
     "Bitcoin Magazine",
+    "The Defiant",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "1agubul",
+      "title": "Bitcoin's Sharpest Rally in Five Months Flips Markets From Bearish to Coin Flip",
+      "link": "https://decrypt.co/376030/bitcoin-rally-flips-markets-bearish-coin-flip",
+      "summary": "Bitcoin's steepest daily gain since March caught traders off guard, and Myriad's pump-or-dump market swung from 70-30 odds to nearly even in a single day.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-19T22:18:01.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin_bull-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1uektdj",
+      "title": "Trump Says AI Could Be 'Bigger Than the Internet' as He Pushes Light-Touch Regulation",
+      "link": "https://decrypt.co/376026/trump-ai-bigger-than-internet-light-touch-regulation",
+      "summary": "The president said the U.S. is far ahead of China in artificial intelligence and defended the rapid construction of data centers and power plants needed to fuel the industry.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-19T21:36:50.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-09-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "e0460r",
+      "title": "Trump Urges Senate to Pass Crypto’s CLARITY Act, Teases More Bitcoin Buys",
+      "link": "https://bitcoinmagazine.com/news/trump-teases-bitcoin-buys",
+      "summary": "Bitcoin Magazine Trump Urges Senate to Pass Crypto’s CLARITY Act, Teases More Bitcoin Buys After gathering with digital asset executives, Trump urged lawmakers to get the crypto market structure bill over the line. This…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-08-19T20:39:25.000Z",
+      "image": "https://www.youtube.com/embed/T9omos50y8k",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "1lbx1c5",
       "title": "Trump Calls on Congress to Pass 'Fair Version' of Clarity Act at White House Crypto Meeting",
@@ -68,13 +119,27 @@
       "lang": "en",
       "date": "2026-08-19T19:16:04.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/kalshi-logo-decrypt-style-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "התרחבות שוקי החיזוי: קאלשי לוטשת עיניים לחוזים עתידיים על נחושת",
+      "brief_he": "פלטפורמת החיזוי קאלשי הגישה בקשה רגולטורית להוספת חוזים עתידיים תמידיים על מחיר הנחושת, צעד המצביע על שינוי אסטרטגי.",
+      "commentary_he": "עולם שוקי החיזוי, שבו משתמשים מנבאים תוצאות של אירועים פוליטיים או חברתיים, נמצא בתהליך של טרנספורמציה משמעותית. חברת קאלשי (Kalshi), אחת השחקניות הבולטות בתחום, הגישה לאחרונה בקשה רשמית לוועדת המסחר בחוזים עתידיים על סחורות בארצות הברית (CFTC) להשקת חוזים עתידיים תמידיים (Perpetual Futures) על מחיר הנחושת. מהלך זה מסמן את כוונתה של החברה להרחיב את טווח פעילותה מעבר לניבוי אירועים בלבד ולחדור עמוק יותר לתחום הנגזרים הפיננסיים המסורתיים, כפי שעשתה מוקדם יותר השנה עם קבלת האישור להצעת חוזים דומים על הביטקוין. עבור משקיעים וצופים מהצד, מדובר בהתפתחות מעניינת המטשטשת את הגבולות שבין פלטפורמות הימורים מבוססות אירועים לבין בורסות פיננסיות מן המניין.\n\nעל פי הדיווח, החוזה המוצע, המכונה COPPERPERP, נועד לעקוב אחר מחיר הנחושת בשוק הספוט במונחים של דולר אמריקאי לליברה. כדי להבטיח דיוק ומניעת מניפולציות, קאלשי מתכננת להסתמך על נתוני מחיר המגיעים מה-Pyth Network, רשת נתונים מבוססת בלוקצ'יין המאגדת מידע ממגוון רחב של בורסות, עושי שוק ומוסדות פיננסיים. ייחודם של ה'חוזים התמידיים' נעשה בולט כאן: בניגוד לחוזים עתידיים מסורתיים בעלי תאריך פקיעה קשיח, חוזים אלו מאפשרים לסוחרים להחזיק בפוזיציות שלהם ללא הגבלת זמן, מבלי להידרש לגלגול החוזה (Rolling) למועד עתידי. מנגנון זה מתבסס על תשלומים תקופתיים בין הצדדים (Long ו-Short) כדי לשמור על מחיר החוזה צמוד למחיר הנכס הבסיסי, תוך התחשבות בכך שההתחשבנות היא כספית בלבד ולא כוללת אספקה פיזית של המתכת עצמה.\n\nהבחירה בנחושת כנכס בסיס אינה מקרית. מדובר במתכת תעשייתית קריטית שביקוש לה נמצא בשיאו בשל תפקידה המרכזי בתשתיות חשמל, בנייה, רכבים חשמליים, מוצרי אלקטרוניקה ומרכזי נתונים התומכים בטכנולוגיות בינה מלאכותית. בעוד שסוחרים כבר נהנים מגישה לנחושת דרך בורסות גדולות ומבוססות כמו ה-COMEX של קבוצת CME, הבורסה למתכות של לונדון (LME) ובורסת החוזים העתידיים של שנגחאי, הכניסה של פלטפורמה כמו קאלשי עשויה להנגיש את המסחר הזה לקהלים חדשים או להציע מבנה עלויות ותפעול שונה. עם זאת, המהלך מגיע בתקופה לא פשוטה עבור החברה, שכן רק לאחרונה הורה שופט בוושינגטון לקאלשי להפסיק להציע הימורים על אירועי ספורט, פוליטיקה ובחירות במדינה, מה שמגביר את הצורך שלה בגיוון תחומי הפעילות לעבר מוצרים פיננסיים 'קלאסיים' יותר.\n\nהשלכות המהלך רחבות יותר מאשר רק הוספת נכס למסחר. קאלשי מצטרפת למגמה גוברת של פלטפורמות חיזוי, כמו המתחרה פולימרקט (Polymarket), המצהירות על כוונתן להציע חוזים תמידיים על מניות של חברות מובילות כמו Nvidia ו-Coinbase. התחרות הזו מעידה על רצון להפוך את שוקי החיזוי לחלק בלתי נפרד מהארגז הכלים של הסוחר המודרני, אך היא גם מעלה שאלות רגולטוריות מורכבות. המעבר מ'חיזוי תוצאות' ל'מסחר בנגזרים' מציב את החברות הללו תחת פיקוח הדוק יותר של רשויות השוק, מה שדורש מהן רמת שקיפות גבוהה יותר ויציבות טכנולוגית שאין לה מקום לטעויות.\n\nלסיכום, עבור מי שעוקבת אחרי התפתחות המערכת האקולוגית של הבלוקצ'יין והפיננסים, המקרה של קאלשי הוא דוגמה לניסיון של חברות צעירות להגדיר מחדש את גבולות שוק ההון. בעוד שהטכנולוגיה מאפשרת גמישות ונגישות גבוהה, התלות בנתונים חיצוניים והממשק עם הרגולציה המסורתית נותרים האתגרים המרכזיים. מומלץ להמשיך לעקוב אחר החלטות ה-CFTC בנושא, שכן הן יכתיבו האם המגמה הזו תהפוך לסטנדרט או שתיתקל במחסומים נוספים בדרכה.",
+      "terms_he": [
+        {
+          "term": "חוזה תמידי (Perpetual Future)",
+          "explain": "סוג של חוזה עתידי ללא תאריך סיום, המאפשר להחזיק בפוזיציה לאורך זמן תוך שימוש במנגנון תשלומים לשמירה על מחיר צמוד לנכס הבסיס."
+        },
+        {
+          "term": "שוק ספוט (Spot Market)",
+          "explain": "שוק שבו מתבצע מסחר מיידי בנכס במחיר השוק הנוכחי, עם מסירה מיידית של הנכס או התחשבנות כספית."
+        }
+      ],
+      "points_he": [
+        "קאלשי שואפת להתרחב מעבר להימורים על אירועים לטובת מוצרים פיננסיים מסורתיים כמו חוזים עתידיים על סחורות.",
+        "חוזים תמידיים (Perpetuals) מאפשרים מסחר בנכסים ללא תאריך פקיעה, מה שמגדיל את הגמישות לסוחרים.",
+        "השימוש בנתוני צד שלישי (Pyth Network) מדגיש את החשיבות של אמינות המידע בחוזים מבוססי בלוקצ'יין.",
+        "הרגולציה בארה\"ב מהווה גורם מכריע בהצלחת המעבר של פלטפורמות אלו לשווקים הפיננסיים הממוסדים."
+      ],
+      "meaning_he": "המהלך מסמל את הניסיון של פלטפורמות חיזוי להפוך לבורסות פיננסיות מלאות, דבר שמקרב את עולם הקריפטו והבלוקצ'יין למסחר בנכסים תעשייתיים גלובליים.",
+      "gen_v": 6
     },
     {
       "id": "97c6fs",
@@ -85,13 +150,27 @@
       "lang": "en",
       "date": "2026-08-19T19:11:09.000Z",
       "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Bitcoin-Shortsellers-Get-Destroyed-With-1.7B-in-Positions-Liquidated-Following-BTC-Price-Jump.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "טלטלה בשוק הנגזרים: למעלה מ-1.7 מיליארד דולר בפוזיציות שורט חוסלו",
+      "brief_he": "קפיצה פתאומית במחיר הביטקוין הובילה לחיסול מאסיבי של פוזיציות שורט בהיקף של 1.7 מיליארד דולר בתוך יממה.",
+      "commentary_he": "התנודתיות בשוק הקריפטו, שהייתה נמוכה באופן חריג במהלך החודש האחרון, נשברה בפתאומיות ביום רביעי האחרון. לאחר תקופה של שקט יחסי, מחיר הביטקוין רשם זינוק מרשים, כשהוא מתקרב לרף ה-70,000 דולר. הזינוק הזה לא עבר ללא השלכות דרמטיות על הסוחרים: על פי נתוני Coinglass, פוזיציות שורט – כלומר, הימורים על ירידת מחיר הביטקוין – בהיקף כולל של כ-1.7 מיליארד דולר חוסלו בתוך 24 שעות בלבד. העוצמה של המהלך התבטאה בכך שרוב מוחלט של החיסולים, כ-1.5 מיליארד דולר, התרחש בטווח זמן קצר של ארבע שעות בלבד, מה שמעיד על אפקט 'שורט סקוויז' (Short Squeeze) קלאסי, שבו עליית מחיר מהירה מאלצת סוחרים לסגור פוזיציות בלית ברירה, מה שדוחף את המחיר עוד יותר למעלה.\n\nהביטקוין, שנסחר לאחרונה סביב רמת ה-68,253 דולר לאחר עלייה של למעלה מ-5% בתוך יממה, נהנה מרוח גבית חזקה מצד גורמי מאקרו כלכליים. אחד הגורמים המרכזיים שצוינו בפרסומים הוא הצהרתו של שר האוצר האמריקאי, סקוט בסנט, על תוכנית להכפלת היקף הרכישות החוזרות של חוב ממשלתי. מהלך זה נועד להרגיע את התשואות על איגרות החוב, שטיפסו לרמות שלא נראו מזה כמעט שני עשורים. כאשר התשואות ארוכות הטווח יורדות, עלות ההזדמנות של החזקת נכסים שאינם מניבים ריבית, כמו ביטקוין וזהב, קטנה משמעותית. שינוי זה במדיניות המוניטרית יצר סביבה נוחה יותר עבור נכסי סיכון (Risk-on assets), מה שהוביל לזרימת הון מחודשת לשוק הקריפטו.\n\nמעבר לגורמים הכלכליים, נראה כי השוק הגיב גם לציפיות רגולטוריות חיוביות. ביום רביעי דווח כי נשיא ארצות הברית, דונלד טראמפ, צפוי לקיים פגישה עם מנהלים בכירים בתעשיית הקריפטו ושוקי החיזוי בבית הלבן. אף על פי שחקיקה מרכזית כמו ה-Clarity Act נדחתה, קיימת תחושה בקרב גורמים בתעשייה כי הרגולטורים מחפשים דרכים לקדם מסגרות עבודה ברורות יותר. בנוסף, רשות ניירות ערך האמריקאית (SEC) פרסמה הצעה למסגרת רגולטורית חדשה להנפקות נכסי קריפטו, צעד שנתפס כהתקדמות חיובית, גם אם עדיין מדובר בשלבים ראשוניים. השילוב בין מדיניות פיסקאלית מרחיבה לבין ניצני אופטימיות רגולטורית יצר תמהיל עוצמתי שדחף את המחיר מעלה.\n\nחשוב להבין כי למרות האופטימיות, השוק נותר חשוף לסיכונים משמעותיים. העובדה שביטקוין היה במצב של תנודתיות נמוכה כל כך זמן רב יצרה 'סיר לחץ' שבו כל תנועה חדה מובילה לשרשרת אירועים כמו אלו שראינו ביום רביעי. עבור משקיעים, אירועים מסוג זה הם תזכורת לכך ששוקי הקריפטו עדיין מושפעים מאוד מהחלטות של בנקים מרכזיים, ממדיניות ממשלתית ומסנטימנט השוק הכללי. החיסולים בהיקף של 1.7 מיליארד דולר הם עדות לכך שהמינוף בשוק – השימוש בכסף מושאל כדי להגדיל חשיפה – נותר גבוה, וכי תנועות מחיר חדות יכולות למחוק פוזיציות של סוחרים לא זהירים תוך דקות.\n\nלסיכום, הזינוק האחרון בביטקוין והחיסולים הנלווים אליו מדגישים את המורכבות של השוק הנוכחי. לא מדובר רק בביקוש טכני לנכס, אלא במפגש בין צרכי המדיניות המוניטרית האמריקאית לבין השאיפה של התעשייה ללגיטימציה רגולטורית. עבור מי שעוקבת אחרי התחום, המסקנה העיקרית היא שחשוב להביט מעבר למחיר היומי ולבחון את התמונה המאקרו-כלכלית הגדולה יותר, שכן היא זו שלעיתים קרובות מכתיבה את הטון למחיר הדיגיטלי.",
+      "terms_he": [
+        {
+          "term": "חיסול (Liquidation)",
+          "explain": "סגירה כפויה של פוזיציית מסחר ממונפת על ידי הבורסה כאשר הון העצמי של הסוחר יורד מתחת לרף מסוים עקב תנועת מחיר נגד הפוזיציה."
+        },
+        {
+          "term": "שורט סקוויז (Short Squeeze)",
+          "explain": "מצב שבו עליית מחיר מהירה מאלצת סוחרים שהימרו על ירידת מחיר לקנות את הנכס כדי לסגור את ההפסדים, מה שמאיץ את עליית המחיר."
+        }
+      ],
+      "points_he": [
+        "חיסולי שורט בהיקף של 1.7 מיליארד דולר מעידים על מינוף גבוה בשוק ועל רגישות לתנועות מחיר חדות.",
+        "מדיניות האוצר האמריקאי בנוגע לרכישת חוב ממשלתי משפיעה ישירות על האטרקטיביות של נכסים כמו ביטקוין.",
+        "הציפיות לפגישות רגולטוריות בדרגים גבוהים תורמות לסנטימנט חיובי בקרב משקיעים.",
+        "תנודתיות נמוכה לאורך זמן עלולה להוביל להתפרצויות מחיר חדות עקב הצטברות פוזיציות ממונפות."
+      ],
+      "meaning_he": "האירוע מדגיש את הקשר ההדוק בין החלטות מאקרו-כלכליות בארה\"ב לבין תנועות המחירים בשוק הקריפטו, ומהווה תזכורת לסיכונים הכרוכים במינוף גבוה.",
+      "gen_v": 6
     },
     {
       "id": "1evnb0",
@@ -332,40 +411,6 @@
       "gen_v": null
     },
     {
-      "id": "lxzhn2",
-      "title": "Alleged $165M Crypto Ponzi Mastermind Deported From Fiji to US",
-      "link": "https://decrypt.co/375933/crypto-ponzi-mastermind-deported-fiji-us",
-      "summary": "Edward Zimbardi allegedly lured thousands of investors into \"The Crypto Program\" with promises of 25% monthly returns before fleeing to Fiji.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-19T11:31:04.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/crime_jail-handcuffs-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "d0ugyu",
-      "title": "Winklevoss-Backed Cypherpunk Launches 'World's Largest' Zcash Mining Fleet",
-      "link": "https://decrypt.co/375926/winklevoss-cypherpunk-zcash-mining-fleet",
-      "summary": "The Nasdaq-listed privacy firm launched Cypherpunk Mining through a $33.33 million equity deal with Winklevoss Capital, adding roughly 18% of the Zcash network's hashrate to accelerate its treasury ambitions.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-19T09:31:03.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/03/cameron-tyler-winklevoss-twins-decrypt-style-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "gt8wxm",
       "title": "Hayden Adams Says AMMs Will Win The Biggest Markets. A Former XTX Trader Says They're Going To Zero",
       "link": "https://thedefiant.io/news/defi/hayden-adams-correlated-pairs-amms-market-makers",
@@ -538,23 +583,6 @@
       "lang": "en",
       "date": "2026-08-18T16:49:08.000Z",
       "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Bitcoin-Is-Down-but-Assets-Role-as-Global-Monetary-Alternative-Remains-Says-BlackRock.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "psupjt",
-      "title": "Hunting Down the Coldcard Hacker. Wave 1 Thief May Be Known to FBI",
-      "link": "https://bitcoinmagazine.com/technical/hunting-down-the-coldcard-hacker-wave-1-thief-may-be-known-to-fbi",
-      "summary": "Bitcoin Magazine Hunting Down the Coldcard Hacker. Wave 1 Thief May Be Known to FBI Clay Garrett’s investigation matched the 1,082.65 BTC sweeps to a major data provider’s internal logs with “extraordinary specificity.”…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-08-18T16:02:05.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/tn-2.webp",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
