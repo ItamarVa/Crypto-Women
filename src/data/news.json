@@ -1,13 +1,132 @@
 {
-  "updated": "2026-08-20T20:22:59.637Z",
+  "updated": "2026-08-21T00:57:54.128Z",
   "count": 46,
   "sources": [
+    "The Defiant",
     "Decrypt",
     "Bitcoin Magazine",
-    "The Defiant",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "10qv1m0",
+      "title": "Optimism Redirects $49.7 Million Airdrop Reserve After Late Deciding Vote",
+      "link": "https://thedefiant.io/news/blockchains/optimism-redirects-49-7-million-airdrop-reserve-after-late-deciding-vote",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-08-20T22:54:21.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/0dfd625aaaf2ea6075a4765979a3c39056a2248a-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1bubmjv",
+      "title": "Arbitrum Activates Elara With Optional Compliance Filters for Dedicated Chains",
+      "link": "https://thedefiant.io/news/blockchains/arbitrum-activates-elara-with-optional-compliance-filters-for-dedicated-chains",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-08-20T22:50:28.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/a02412d0cba00b4a563050c3bca9af7de39fde8e-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "w1ju8a",
+      "title": "Tensions Flare as CME, Kalshi Execs Clash Over Prediction Markets in DC",
+      "link": "https://decrypt.co/376158/tensions-flare-cme-kalshi-clash-prediction-markets-dc",
+      "summary": "CME Group Chairman Terry Duffy and Kalshi co-founder Luana Lopes Lara traded barbs during a CFTC meeting over prediction markets, manipulation, and regulatory standards.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-20T22:32:11.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt_style_kalshi-02-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "uc31b6",
+      "title": "Bitcoin Could Attract More Buyers As Fast Money Is Washed Out, Says Lyn Alden",
+      "link": "https://bitcoinmagazine.com/news/bitcoin-price-to-rise-says-lyn-alden",
+      "summary": "Bitcoin Magazine Bitcoin Could Attract More Buyers As Fast Money Is Washed Out, Says Lyn Alden While Bitcoin may not be \"out of the woods\" just yet, Macro expert Lyn Alden thinks new buyers could be entering the market…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-08-20T21:16:08.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2025/05/Lyn-Alden.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1nlfcie",
+      "title": "Open Source vs. Source-Available: What the Coldcard Failure Teaches About Bitcoin Software Incentives",
+      "link": "https://bitcoinmagazine.com/culture/open-source-vs-source-available-what-the-coldcard-failure-teaches-about-bitcoin-software-incentives",
+      "summary": "Bitcoin Magazine Open Source vs. Source-Available: What the Coldcard Failure Teaches About Bitcoin Software Incentives FOSS rests on four essential freedoms defined by the Free Software Foundation and the Open Source…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-08-20T20:49:28.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/tn-3.webp",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "p0uisq",
+      "title": "What's Next for Bitcoin After Historic Rally? Experts Weigh In",
+      "link": "https://decrypt.co/376155/what-next-for-bitcoin-price-experts-weigh-in",
+      "summary": "Bitcoin's surge above $72,000 wiped out billions in bearish bets, but analysts say fresh buying will be needed to keep the rally going.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-20T20:40:56.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-glasses-decrypt-style-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "7u94it",
+      "title": "Iranian Hacking Crew Charged in Sprawling Theft Case — Including $6M Bitcoin Ransom",
+      "link": "https://bitcoinmagazine.com/news/iran-hackers-hit-with-criminal-charges",
+      "summary": "Bitcoin Magazine Iranian Hacking Crew Charged in Sprawling Theft Case — Including $6M Bitcoin Ransom A $10 million reward is being offered by the feds for information on the defendants. This post Iranian Hacking Crew…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-08-20T20:27:54.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Iranian-Hacking-Crew-Charged-in-Sprawling-Theft-Case-—-Including-6M-Bitcoin-Ransom.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "7dz58g",
       "title": "Bitcoin Is Pumping But Prediction Market Traders Aren't Convinced",
@@ -204,13 +323,26 @@
       "lang": "en",
       "date": "2026-08-20T13:31:05.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/hacker3-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "מלכודות פישינג חדשות: כך מתחזים אתרים לבדיקת תאימות של ארנקים דיגיטליים",
+      "brief_he": "גל של אתרים מזויפים המציגים את עצמם כשירותי בדיקת הלבנת הון מנסה להערים על משתמשים ולגנוב גישה לנכסיהם הדיגיטליים.",
+      "commentary_he": "בעולם שבו אבטחת מידע היא תנאי סף לכל פעילות פיננסית, צצה לאחרונה תופעה מדאיגה של אתרים המתחזים לשירותי בדיקת תאימות (AML - Anti-Money Laundering). על פי דוח שפורסם לאחרונה על ידי חברת אבטחת הסייבר Malwarebytes, נוכלים מקימים פלטפורמות שנראות ככלים לגיטימיים לבדיקת היסטוריית ארנקים, במטרה לשכנע משתמשים לחבר את הארנק שלהם. חשוב להבין כי מדובר בשינוי אסטרטגי בשיטות הפישינג: במקום לשלוח לינקים חשודים במייל, הנוכלים מציעים שירות טכנולוגי שנראה מקצועי ומהימן, ובכך מנצלים את הרצון הטבעי של משקיעים לוודא שהנכסים שלהם אינם מעורבים בפעילות חשודה. עבור משתמש ממוצע, זוהי תזכורת לכך שהמרחב הדיגיטלי דורש ערנות מתמדת, גם כאשר השירות נראה טכני ומקצועי לחלוטין.\n\nהשיטה שמתוארת בדוח מבוססת על יצירת מצג שווא שבו המשתמש נדרש 'לחבר את הארנק' (Connect Wallet) כדי לבצע את הבדיקה. בפועל, בדיקת AML לגיטימית אמורה לדרוש רק את הכתובת הציבורית של הארנק, ללא כל צורך בחיבור ישיר או בחתימה על עסקאות. על פי הממצאים, האתרים המזויפים מבצעים תהליך של 'סימולציה' עם הודעות התקדמות פיקטיביות, ובמקרים מסוימים אף דורשים עמלה קטנה כדי להציג תוצאה של 'סיכון נמוך'. ברגע שהמשתמש מאשר את החיבור ומאשר הרשאות, הנוכלים מקבלים את האפשרות לראות את יתרת הנכסים בארנק ולנסות לבצע עסקאות משיכה. המקצועיות של האתרים הללו, המשתמשים בלוגואים של שירותים מוכרים כמו AMLBot, מקשה על זיהוי מיידי של ההונאה.\n\nברקע הדברים, עומדת העובדה כי התחום של הלבנת הון הפך לנושא מרכזי ברגולציה על נכסים דיגיטליים. משקיעים רבים חוששים להחזיק בנכסים שייתכן והיו מעורבים בעבר בפעילות עבריינית, שכן הדבר עלול להוביל לחסימת הארנק בבורסות מרכזיות. הנוכלים מנצלים בדיוק את החשש הזה. המקרה הנוכחי מצטרף לשורת אירועים שדווחו לאחרונה, ביניהם ניסיונות פישינג נגד משתמשי חברות חומרה מוכרות ופלטפורמות גיימינג. לפי הנתונים המובאים בדוח, גורמים עוינים משתמשים בתבניות עיצוב חוזרות, מה שמעיד על פעילות מאורגנת שמטרתה להפיק רווחים מהירים על ידי ניצול חוסר המודעות של המשתמשים בנוגע להרשאות שהם מעניקים.\n\nהשלכות של אירועים כאלו הן רחבות ומשפיעות על האמון במערכת. כאשר משתמש מאשר הרשאה לחוזה חכם זדוני, העסקה היא לרוב בלתי הפיכה. Malwarebytes מדגישים כי אם משתמש נפל קורבן והעניק הרשאות, עליו לפעול במהירות כדי לבטל אותן דרך כלים ייעודיים לניהול הרשאות (Token Allowance Checkers). במידה והמשתמש הזין את מילות השחזור או את המפתח הפרטי שלו, הארנק נחשב לפרוץ לחלוטין, וההמלצה המקצועית היא להעביר את הנכסים שנותרו לארנק חדש עם מפתחות שנוצרו בסביבה בטוחה. זהו אינו רק סיכון טכני, אלא סיכון פיננסי משמעותי שמחייב אימוץ של הרגלי עבודה בטוחים.\n\nלסיכום, האסטרטגיה הנכונה אינה פחד, אלא הקפדה על כללי אבטחה בסיסיים. לעולם אין לחבר ארנק לאתר שאינו מוכר או שאינו דורש אך ורק את הכתובת הציבורית שלכם. בדיקת תאימות של ארנק היא פעולה פסיבית שאינה מצריכה גישה לתוכן הארנק. ככל שהטכנולוגיה הופכת מורכבת יותר, כך גם שיטות ההונאה משתכללות, מה שמחייב אותנו כמשקיעים להישאר מעודכנים בשיטות הפעולה של גורמים עוינים ולהטיל ספק בכל אתר שמבקש גישה לארנק הפרטי שלנו. שמירה על הפרדה בין ארנקים המיועדים לשימוש יומיומי לבין ארנקים המיועדים לאחסון ארוך טווח יכולה להוות שכבת הגנה נוספת וחשובה.",
+      "terms_he": [
+        {
+          "term": "פישינג (Phishing)",
+          "explain": "שיטת הונאה המשתמשת באתרים או הודעות מתחזות כדי להוציא מידע רגיש או גישה לנכסים מהמשתמש."
+        },
+        {
+          "term": "הרשאות (Permissions)",
+          "explain": "אישור שנותן בעל ארנק לחוזה חכם לבצע פעולות על נכסיו, לעיתים ללא הגבלה."
+        }
+      ],
+      "points_he": [
+        "שירותי בדיקת AML לגיטימיים דורשים רק את הכתובת הציבורית של הארנק ולא את חיבור הארנק עצמו.",
+        "חיבור ארנק לאתר לא ידוע מאפשר לנוכלים לראות את הנכסים ולפתות אתכם לאשר עסקאות זדוניות.",
+        "במקרה של חשש לפריצה, יש לפעול מיידית לביטול הרשאות (Revoke) או להעברת הנכסים לארנק חדש."
+      ],
+      "meaning_he": "העלייה בשיטות פישינג מתוחכמות מדגישה את הצורך באוריינות סייבר בסיסית בקרב משקיעים, שכן טעות אחת בהרשאות עלולה להוביל לאובדן בלתי הפיך של נכסים.",
+      "gen_v": 6
     },
     {
       "id": "1936yl4",
@@ -235,23 +367,6 @@
       "gen_v": 6
     },
     {
-      "id": "9opk6s",
-      "title": "Banking Regulator Races to Finalize GENIUS Act Stablecoin Rules",
-      "link": "https://decrypt.co/376048/banking-regulator-occ-genius-act-stablecoin-rules-november",
-      "summary": "OCC Comptroller Jonathan Gould told the Wyoming Blockchain Symposium the agency is moving at a rapid pace to beat a January statutory deadline, after already missing an earlier July target.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-20T09:31:03.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/jonathan-gould-office-of-the-comptroller-of-the-currency-occ-decrypt-style-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "1xk33ce",
       "title": "Trump Says CFTC Working to Onshore Hyperliquid",
       "link": "https://thedefiant.io/news/regulation/trump-says-cftc-working-to-onshore-hyperliquid",
@@ -260,30 +375,26 @@
       "lang": "en",
       "date": "2026-08-20T02:44:48.000Z",
       "image": "https://cdn.thedefiant.io/pasted-1787193878861-png-b17214c6-311b-4264-80cb-45920af40662.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1agubul",
-      "title": "Bitcoin's Sharpest Rally in Five Months Flips Markets From Bearish to Coin Flip",
-      "link": "https://decrypt.co/376030/bitcoin-rally-flips-markets-bearish-coin-flip",
-      "summary": "Bitcoin's steepest daily gain since March caught traders off guard, and Myriad's pump-or-dump market swung from 70-30 odds to nearly even in a single day.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-19T22:18:01.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin_bull-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "חקיקת ה-CLARITY Act והשיח על עתודות ביטקוין: עדכונים מהזירה הפוליטית בארה\"ב",
+      "brief_he": "הנשיא טראמפ דוחף לאישור חקיקה להסדרת שוק הנכסים הדיגיטליים ורומז על בחינת צבירת ביטקוין כחלק מהאסטרטגיה הממשלתית.",
+      "commentary_he": "הדיונים סביב מעמדו של הביטקוין והנכסים הדיגיטליים בארצות הברית עלו שלב נוסף השבוע, כאשר הנשיא דונלד טראמפ קרא למחוקקים להעביר את חקיקת ה-Clarity Act. במהלך פגישה עם בכירי התעשייה שנערכה ביום רביעי, הדגיש טראמפ את חשיבות החקיקה כצעד הכרחי לשמירה על עליונותה הטכנולוגית של ארה\"ב, במיוחד מול תחרות גוברת מצד סין. הצעת החוק, שנועדה ליצור מסגרת ברורה להבחנה בין נכסים דיגיטליים שונים – כגון סחורות, ניירות ערך או מטבעות יציבים – עומדת במוקד הדיונים הציבוריים מזה זמן רב. על פי הדיווחים, ההצבעה על החקיקה, שתוכננה במקור לאוגוסט, נדחתה לחודש ספטמבר, מה שמעיד על המורכבות הפוליטית שעדיין אופפת את הנושא בקונגרס.\n\nמעבר לנושא החקיקה, דבריו של הנשיא בנוגע לאפשרות של צבירת ביטקוין על ידי הממשל משכו תשומת לב רבה. כאשר נשאל במישרין על האפשרות שהממשל יגדיל את אחזקותיו בביטקוין, השיב טראמפ כי הנושא נבחן וציין כי הנכס הדיגיטלי מסייע בהפחתת הלחץ על הדולר האמריקאי. חשוב להבהיר כי נכון להיום, הממשל כבר מחזיק בביטקוין שמקורו בפעולות אכיפת חוק, אך אין מדיניות רשמית של רכישת הנכס בשוק החופשי. צו נשיאותי שנחתם בשנה שעברה קבע כי אין למכור את הביטקוין הקיים, אך הוא אינו מחייב את הממשל לבצע רכישות חדשות. עם זאת, האמירות האחרונות מסמנות שינוי בטון, שכן טראמפ הביע תמיכה גלויה בשימוש בביטקוין כאמצעי תשלום, תוך שהוא מציין כי הציבור מתחיל להעדיף אותו על פני מזומן.\n\nהרקע לחקיקה הוא רצון ליצור ודאות רגולטורית שתאפשר לחברות טכנולוגיה ופיננסים לפעול בתוך ארה\"ב ללא חשש מתביעות או רגולציה מעורפלת. ה-Clarity Act עבר בבית הנבחרים בשנה שעברה, אך נתקל במבוי סתום בסנאט, בין היתר בשל חילוקי דעות מול הלובי הבנקאי וחששות של חלק מהמחוקקים לגבי מנגנוני תשואה בפלטפורמות קריפטו. בנוסף, חילופי האשמות בין המפלגות על עיכוב מכוון של החקיקה הוסיפו נדבך של מורכבות פוליטית. כעת, נראה כי הממשל מנסה ליצור מומנטום חדש סביב הנושא, מתוך הבנה שאימוץ טכנולוגיות אלו הוא חלק בלתי נפרד ממובילות גלובלית בעולמות ה-AI ושווקי החיזוי.\n\nהשלכות המהלכים הללו הן משמעותיות עבור המשקיעים. בעוד שהחקיקה עשויה להוביל ליציבות רבה יותר, יש לזכור כי התהליך הפוליטי הוא דינמי ובלתי צפוי. הצהרות של מנהיגים על צבירת ביטקוין אכן מייצרות עניין רב, אך הן אינן מהוות הבטחה לשינוי מדיניות מהיר. משקיעים מנוסים מבינים כי השוק מגיב בחיוב לסימנים של לגיטימציה רגולטורית, אך הדרך לאישור חוק מורכב בקונגרס האמריקאי רצופה מכשולים. במקביל, הנתונים מראים כי זרימת הכספים לקרנות סל (ETFs) של ביטקוין נמשכת, מה שמעיד על עניין מוסדי גובר שאינו תלוי אך ורק בהצהרות פוליטיות.\n\nלסיכום, אנו נמצאים בתקופה שבה הקריפטו הופך מנושא טכנולוגי צדדי למרכיב מרכזי בשיח הכלכלי והפוליטי בארה\"ב. המעקב אחר התקדמות ה-Clarity Act בספטמבר יהיה בעל חשיבות רבה להבנת כיוון השוק בשנים הבאות. עבור הקהילה, המסר המרכזי הוא להמשיך ולעקוב אחר העובדות בשטח – החקיקה והחלטות המדיניות – ולא רק אחר הכותרות המלהיבות. היכולת להפריד בין רטוריקה פוליטית לבין שינויים רגולטוריים בפועל היא מיומנות קריטית לכל מי שפועל במרחב הדיגיטלי כיום.",
+      "terms_he": [
+        {
+          "term": "Clarity Act",
+          "explain": "הצעת חוק אמריקאית שנועדה להגדיר את המעמד הרגולטורי של נכסים דיגיטליים (סחורות לעומת ניירות ערך)."
+        },
+        {
+          "term": "רגולציה (Regulation)",
+          "explain": "מערכת חוקים וכללים ממשלתיים המגדירים את גבולות הפעילות של גופים פיננסיים בשוק."
+        }
+      ],
+      "points_he": [
+        "ה-Clarity Act שואף ליצור מסגרת רגולטורית ברורה לנכסים דיגיטליים בארה\"ב.",
+        "הדיון על רכישת ביטקוין על ידי הממשל נמצא בבחינה, אך אין עדיין התחייבות רשמית לרכישות חדשות.",
+        "ההצבעה על החקיקה נדחתה לספטמבר, מה שמעיד על המורכבות הפוליטית סביב הסדרת השוק."
+      ],
+      "meaning_he": "קידום חקיקה בארה\"ב עשוי להוות אבן דרך לאימוץ מוסדי גלובלי של נכסים דיגיטליים ולהשפיע על תפיסת הביטקוין כנכס אסטרטגי.",
+      "gen_v": 6
     },
     {
       "id": "e0460r",
@@ -402,23 +513,6 @@
       "gen_v": null
     },
     {
-      "id": "3hlg0k",
-      "title": "Bitcoin’s Volatility May Be Down But Expect a ‘Meaningful Move’ Soon, Says Fidelity",
-      "link": "https://bitcoinmagazine.com/news/bitcoin-volatility-is-down-says-fidelity",
-      "summary": "Bitcoin Magazine Bitcoin’s Volatility May Be Down But Expect a ‘Meaningful Move’ Soon, Says Fidelity Bitcoin isn't moving. Analysts think that's a sign it could soon do something significant. This post Bitcoin’s…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-08-19T15:05:32.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Bitcoins-Volatility-May-Be-Down-But-Expect-a-Meaningful-Move-Soon-Says-Fidelity.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "1udttif",
       "title": "HSBC and Standard Chartered Complete First Live Transaction on Swift Blockchain Ledger",
       "link": "https://thedefiant.io/converge/tradfi-and-fintech/hsbc-and-standard-chartered-complete-first-live-transaction-on-swift-blockchain-ledger",
@@ -504,37 +598,6 @@
       "gen_v": null
     },
     {
-      "id": "dbx64q",
-      "title": "BitBox Warns Bitcoiners After Discovering ‘Severe’ Vulnerability In Firmware",
-      "link": "https://bitcoinmagazine.com/news/bitbox-warns-users-about-vulnerability",
-      "summary": "Bitcoin Magazine BitBox Warns Bitcoiners After Discovering ‘Severe’ Vulnerability In Firmware Bitcoin wallet manufacturer BitBox has told users it was able to fix “severe vulnerabilities” with its hardware wallet’s…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-08-18T21:06:52.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/BitBox-Warns-Bitcoiners-After-Discovering-Severe-Vulnerability-In-Firmware.jpg",
-      "title_he": "עדכוני אבטחה בארנקי חומרה: מה חשוב לדעת בעקבות פרסומי BitBox",
-      "brief_he": "יצרנית ארנקי החומרה BitBox פרסמה תיקון אבטחה קריטי למכשיריה ומדגישה את חשיבות העדכון השוטף לשמירה על נכסים דיגיטליים.",
-      "commentary_he": "ניהול עצמי של נכסים דיגיטליים דורש לא רק הבנה בסיסית של טכנולוגיית הבלוקצ'יין, אלא גם רמה גבוהה של ערנות לביטחון המכשירים שבהם אנחנו משתמשים. בשבוע האחרון, יצרנית הארנקים הקרים השוויצרית BitBox פרסמה עדכון תוכנה קריטי, שהזכיר לקהילת המשקיעים שגם בפתרונות הנחשבים למאובטחים ביותר, תחזוקה שוטפת היא חלק בלתי נפרד מאסטרטגיית ההגנה. עבור מי שבוחרת להחזיק את המפתחות הפרטיים שלה בעצמה, הבנת חשיבותם של עדכוני הקושחה היא מיומנות בסיסית וקריטית, שכן לעיתים הפער בין בטיחות מוחלטת לבין פרצה פוטנציאלית נסגר בדיוק על ידי העדכונים הללו.\n\nלפי הדיווח של החברה מ-17 באוגוסט 2026, BitBox הצליחה לזהות ולתקן מספר פגיעויות אבטחה משמעותיות שנמצאו במערכות שלה. החברה הדגישה כי לא דווח על מקרי גניבה של כספי משתמשים וכי אין סיבה לבהלה, אך המליצה לכל המשתמשים לעדכן את גרסת ה-Firmware במכשירם דרך ה-BitBoxApp באופן מיידי. הפגיעויות שאותרו היו מורכבות: אחת מהן הייתה עשויה לאפשר לתוקף להטעות את המשתמש ולהתקין קושחה זדונית שתוביל בסופו של דבר להוצאת כספים מהארנק, בעוד שפגיעות אחרת שנמצאה במכשירים מסדרת ה-Multi התייחסה לשחיתות זיכרון, דבר שעלול היה לאפשר הרצת קוד זדוני. חשוב לציין כי דגם ה-Bitcoin-only של BitBox לא הושפע מהפרצות הללו, שכן הוא אינו מכיל את הקוד שנמצא פגיע.\n\nכדי להבין את משמעות האירוע, יש להסתכל על האופן שבו ארנק חומרה עובד. בבסיסו, זהו מחשב קטן ומבודד שנועד להגן על המפתחות הפרטיים שלנו מפני האינטרנט. עם זאת, התוכנה שמפעילה את המכשיר – ה-Firmware – היא זו שמנהלת את התקשורת עם העולם החיצון ואת החתימה על העסקאות. כאשר מתגלה באג בקוד הזה, הוא הופך לנקודת תורפה. העובדה ש-BitBox גילתה את הפרצות במסגרת ביקורות פנימיות ופרסמה עדכון תיקון מהיר, שקיבל את השם Dixence, היא עדות לסטנדרטים של שקיפות בענף, אך היא גם מדגישה את הצורך של המשתמשים בערנות – העדכון לא מתבצע מעצמו, והמשתמשת נדרשת לבצע את הפעולה באופן יזום דרך הממשק הרשמי של האפליקציה.\n\nהאירוע הזה מגיע על רקע טלטלה רחבה יותר בתחום האבטחה של ארנקי חומרה. לאחרונה, משתמשי מכשיר ה-Coldcard של חברת Coinkite הקנדית חוו אובדן כספים בהיקף משמעותי, כאשר על פי נתוני Galaxy Research, מדובר בנזק מאומת של כ-115 מיליון דולר בביטקוין, אם כי ייתכן שהמספר גבוה אף יותר. במקרה של Coldcard, מדובר היה בבאג שפגע במנגנון יצירת ה-Seed, מה שאפשר לתוקפים לנחש את ביטויי השחזור של המשתמשים. בניגוד למקרה של Coldcard, שחייב משתמשים רבים להעביר את כספם לארנקים חדשים כדי להימנע מפריצה, ב-BitBox מדובר בתיקון תוכנתי גרידא. ההבדל הזה מדגיש את העובדה שסיכונים טכנולוגיים הם חלק בלתי נפרד מהמרחב הזה, וכי לא כל פגיעות דורשת נטישת המכשיר, אלא ניהול סיכונים מושכל.\n\nהלקח העיקרי עבורנו כקהילה הוא הצורך לאמץ שגרת תחזוקה קבועה לציוד הטכנולוגי שלנו. בעידן שבו אנחנו מנהלות הון דיגיטלי באופן עצמאי, היכולת לעקוב אחר הודעות רשמיות של יצרני הארנקים ולבצע עדכונים בזמן היא קו ההגנה הראשון. אין כאן צורך בחרדה, אלא בהתנהלות מחושבת: מעבר על עדכוני אבטחה, שימוש בערוצים רשמיים בלבד לעדכון התוכנה, והבנה של סוג המכשיר שברשותנו. בסופו של דבר, הטכנולוגיה נועדה להעניק לנו ריבונות פיננסית, אך ריבונות זו מחייבת אותנו לקחת אחריות מלאה על התחזוקה של הכספת הדיגיטלית שלנו.",
-      "terms_he": [
-        {
-          "term": "Firmware (קושחה)",
-          "explain": "תוכנה המוטמעת בתוך חומרה ומנהלת את פעולתה הבסיסית."
-        },
-        {
-          "term": "Seed (ביטוי שחזור)",
-          "explain": "רצף מילים המשמש כגיבוי לשחזור המפתחות הפרטיים של הארנק."
-        }
-      ],
-      "points_he": [
-        "הקפידו תמיד לעדכן את קושחת הארנק (Firmware) דרך האפליקציה הרשמית בלבד.",
-        "היו ערניות להודעות אבטחה מצד יצרנית הארנק שברשותכן.",
-        "הבינו את מגבלות המכשיר שלכן – לא כל פגיעות מחייבת העברת כספים לארנק חדש.",
-        "העדיפו רכישת מכשירים מחברות המבצעות ביקורות אבטחה פנימיות ושקופות."
-      ],
-      "meaning_he": "האירוע מדגיש כי עצמאות פיננסית בעולם הקריפטו מחייבת אחריות טכנולוגית מתמדת; עדכוני תוכנה הם חלק בלתי נפרד מהגנה על הנכסים שלנו.",
-      "gen_v": 6
-    },
-    {
       "id": "1a6bkr4",
       "title": "Tenev Pushes for Tokenized Stocks in America",
       "link": "https://thedefiant.io/converge/tradfi-and-fintech/vlad-tenev-pushes-for-tokenized-stocks-in-america",
@@ -581,75 +644,6 @@
       ],
       "meaning_he": "ההצעה מסמנת מעבר מגישה של אכיפה משפטית נוקשה למודל רגולטורי מובנה, דבר שעשוי להוביל ליציבות גדולה יותר בשוק הקריפטו האמריקאי בטווח הארוך.",
       "gen_v": 6
-    },
-    {
-      "id": "1mjsoid",
-      "title": "SEC Proposes Crypto Rulebook as Clarity Act Stalls",
-      "link": "https://bitcoinmagazine.com/news/sec-proposes-crypto-rules",
-      "summary": "Bitcoin Magazine SEC Proposes Crypto Rulebook as Clarity Act Stalls Regulators are pushing ahead with legislation despite the Clarity Act stalling. This post SEC Proposes Crypto Rulebook as Clarity Act Stalls first…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-08-18T19:46:11.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/05/SEC-Delaying-Plan-to-Allow-Crypto-Versions-of-US-Stocks-Report.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1i9g6it",
-      "title": "Omnichain Launchpad Printr Shuts Down, Cancels Token Launch And Airdrop",
-      "link": "https://thedefiant.io/news/defi/printr-launchpad-wind-down-cancels-tge-airdrop",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-08-17T22:13:41.000Z",
-      "image": "https://cdn.thedefiant.io/printr-thumbnail-jpg-9e2f38cf-5633-4b5c-8c25-f5601eba8d51.jpg",
-      "title_he": "אבטחת נכסים דיגיטליים: ניתוח פרשת הפריצה לארנקי Coldcard",
-      "brief_he": "דוח מחקר חדש של Galaxy Research חושף את היקף הפגיעה במשתמשי ארנקי Coldcard בשל כשל טכני בייצור מפתחות פרטיים.",
-      "commentary_he": "אבטחת נכסים בעולם הקריפטו מבוססת במידה רבה על ההנחה שארנקים פיזיים (Hardware Wallets) מספקים הגנה מקסימלית על המפתחות הפרטיים של המשתמשים. עם זאת, אירועים אחרונים מדגישים כי גם הפתרונות שנחשבו לבטוחים ביותר אינם חסינים מפני תקלות תוכנה מורכבות. על פי דיווח של Galaxy Research מאוגוסט 2026, היקף הביטקוין שנגנב ממשתמשי ארנקי Coldcard של חברת Coinkite הגיע ללפחות 115 מיליון דולר. אירוע זה מעורר שאלות משמעותיות בקהילה לגבי תהליכי הפיתוח, העדכונים והשקיפות הנדרשים מחברות שמציעות פתרונות משמרת עצמית (Self-custody), ומזכיר לכל משקיע כי ניהול הון דורש ערנות מתמדת לפרטים טכניים, גם כאשר מדובר בציוד שנחשב לסטנדרט בתעשייה.\n\nלפי נתוני Galaxy Research, האומדן המדויק של הנזק מתבסס על מחיר הביטקוין בעת ביצוע הגניבות בפועל. החברה ציינה כי היא יצרה קשר עם למעלה מ-200 קורבנות במטרה להעניק להם תמיכה מקצועית ולאסוף מידע מודיעיני על דפוסי הפעולה של התוקפים. על פי הדיווח, מדובר במתקפה רחבת היקף שבוצעה על ידי לפחות 15 קבוצות תקיפה שונות שפעלו באופן עצמאי. הנתונים מצביעים על כך שחלק ניכר מהכספים שנגנבו – כ-88% מהם – היו נכסים שנשמרו ללא תנועה במשך שנה אחת לפחות, מה שמעיד על כך שהתוקפים התמקדו בתיקי השקעות ארוכי טווח. יתרה מכך, Galaxy Research מעריכה כי היקף הנזק הכולל עלול להאמיר מעבר ל-130 מיליון דולר ככל שייחשפו פרטים נוספים על היקף הפריצה.\n\nהגורם הטכני לפרצה, כפי שפורסם על ידי חברת Coinkite עצמה, נעוץ בבאג בתוכנה (Firmware) של דגמי Coldcard Mk3. החל מגרסה 4.0.1 שהופצה במרץ 2021, התגלה כי תהליך יצירת מפתחות הארנק (Seed generation) לא עשה שימוש במחולל מספרים אקראיים אמיתי (True Random Number Generator) כפי שהיה אמור, אלא נסוג למחולל תוכנה חלש יותר (Pseudorandom Number Generator). במילים פשוטות, הפגם הזה אפשר לתוקפים לנחש את ביטוי הגישה (Seed phrase) של המשתמשים, מה שהפך את ההגנה של הארנק ללא רלוונטית. החברה הודתה כי הבעיה נותרה ללא מענה לאורך זמן, והשפעתה הפוטנציאלית גדלה ככל ששוחררו גרסאות תוכנה נוספות, מה שמעיד על חשיבותם הקריטית של תהליכי בקרת איכות קפדניים במוצרים מסוג זה.\n\nהשלכות האירוע חורגות מעבר להפסד הכספי המיידי. הן מדגישות את הסיכון הטמון בשימוש בטכנולוגיה סגורה שאינה עוברת ביקורת חיצונית מספקת בזמן אמת, ואת האתגרים בניהול סיכונים עבור משקיעים פרטיים. בעוד שרבים בוחרים בארנקי חומרה כדי להימנע מסיכוני צד ג' (כמו בורסות ריכוזיות), המקרה הנוכחי מוכיח שגם בארנק חומרה יש פוטנציאל לכשל מערכתי. הניסיון להעריך את היקף הפגיעה מול 200 קורבנות מדגים את הקושי המובנה בניהול אירועי אבטחה בעולם מבוזר, שבו אין גורם מרכזי אחד שיכול להשיב כספים או להקפיא פעולות חשודות. עבור משקיעים, המשמעות היא הצורך להשתמש באסטרטגיות אחסון מגוונות, ולא להסתמך על נקודת כשל בודדת (Single Point of Failure).\n\nבמבט קדימה, האירוע מהווה תזכורת חיונית לצורך בעדכוני תוכנה שוטפים ובבחינה מעמיקה של כלי האבטחה שבהם אנו משתמשים. בעקבות הפרסומים, משקיעים רבים החלו להעביר את נכסיהם לפתרונות אחסון חלופיים, כולל העברה זמנית לבורסות תחת פיקוח הדוק, כדי לצמצם חשיפה נוספת. הלקח המרכזי הוא שבתחום שבו האחריות על הכסף היא אישית ומוחלטת, המודעות לאיכות התוכנה והחומרה היא חלק בלתי נפרד מאסטרטגיית ההשקעה. מומלץ לכל מי שמחזיק ארנק חומרה לוודא כי גרסת התוכנה שלו מעודכנת, לעקוב אחר הודעות רשמיות של יצרני הארנקים ולשקול תמיד את רמת הסיכון מול רמת הנוחות של הפתרון הנבחר.",
-      "terms_he": [
-        {
-          "term": "Firmware",
-          "explain": "תוכנה המוטמעת בתוך חומרה ייעודית ומנהלת את פעולתה הבסיסית."
-        },
-        {
-          "term": "Seed generation",
-          "explain": "תהליך יצירת רצף המילים המשמש כשחזור ראשי למפתחות הפרטיים של הארנק."
-        },
-        {
-          "term": "Self-custody",
-          "explain": "ניהול עצמאי של מפתחות הגישה לנכסים דיגיטליים ללא תלות בגורם שלישי."
-        }
-      ],
-      "points_he": [
-        "היקף הנזק מהפריצה ל-Coldcard מוערך בלפחות 115 מיליון דולר.",
-        "הפרצה נבעה מכשל טכני בתוכנה (Firmware) שפגע באקראיות של יצירת מפתחות פרטיים.",
-        "מומלץ לבדוק עדכוני גרסה לארנקים פיזיים באופן תדיר ולעקוב אחר הודעות היצרן.",
-        "גיוון באמצעי האחסון הוא כלי מפתח להפחתת סיכוני אבטחה בניהול נכסים דיגיטליים."
-      ],
-      "meaning_he": "האירוע מדגיש שגם פתרונות הנחשבים ל'סטנדרט הזהב' באבטחת ביטקוין אינם חסינים מטעויות תוכנה, ומדגיש את החשיבות של ניהול סיכונים אקטיבי עבור כל משקיע.",
-      "gen_v": 6
-    },
-    {
-      "id": "1jx2sv7",
-      "title": "Ansem Launches Site Where Teams Buy His Attention With Airdrops",
-      "link": "https://thedefiant.io/news/tokens/ansem-z500-index-teams-airdrop-supply-ansem-holders",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-08-17T21:40:00.000Z",
-      "image": "https://cdn.thedefiant.io/ansem-thumbnail-jpg-5488d28c-6ba5-4f78-a560-2a483b7be868.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
     },
     {
       "id": "1hhw895",
