@@ -1,13 +1,47 @@
 {
-  "updated": "2026-08-22T12:27:35.675Z",
+  "updated": "2026-08-22T16:18:36.631Z",
   "count": 46,
   "sources": [
+    "Decrypt",
     "The Defiant",
     "Bitcoin Magazine",
-    "Decrypt",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "x3a7xq",
+      "title": "AI Has Made Bitcoin Software a Target—This Group Is Fighting Back",
+      "link": "https://decrypt.co/376296/bitcoin-target-ai-red-team-group-fighting-back",
+      "summary": "A group of 20-odd developers is scanning the Bitcoin ecosystem for AI-discoverable flaws, warning that cheap, powerful models have handed attackers unprecedented reach.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-22T15:31:04.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-specs-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1ctnbb7",
+      "title": "A Third of the Post-ChatGPT Web Is AI-Written, Pew Finds",
+      "link": "https://decrypt.co/376271/chatgpt-web-ai-written-pew",
+      "summary": "Pew Research scanned nearly half a million webpages with an AI detector and found the fingerprints concentrated on .com domains—and multiplying fast.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-22T13:31:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-04-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "1g2m2mu",
       "title": "Solana Activates 350-Millisecond Slots on Mainnet",
@@ -371,23 +405,6 @@
       "gen_v": null
     },
     {
-      "id": "1tvdeci",
-      "title": "Binance Opens the Door to AI Agents That Can Trade Crypto for You",
-      "link": "https://decrypt.co/376161/binance-ai-agents-trade-crypto",
-      "summary": "Binance Agent OS connects tools like ChatGPT and Claude directly to the exchange's markets, though safeguards wall agents off from user funds—and leave much of the oversight to users themselves.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-21T09:31:05.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/binance-decrypt-syle-01-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "10qv1m0",
       "title": "Optimism Redirects $49.7 Million Airdrop Reserve After Late Deciding Vote",
       "link": "https://thedefiant.io/news/blockchains/optimism-redirects-49-7-million-airdrop-reserve-after-late-deciding-vote",
@@ -427,23 +444,6 @@
       "lang": "en",
       "date": "2026-08-20T22:50:28.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/a02412d0cba00b4a563050c3bca9af7de39fde8e-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "w1ju8a",
-      "title": "Tensions Flare as CME, Kalshi Execs Clash Over Prediction Markets in DC",
-      "link": "https://decrypt.co/376158/tensions-flare-cme-kalshi-clash-prediction-markets-dc",
-      "summary": "CME Group Chairman Terry Duffy and Kalshi co-founder Luana Lopes Lara traded barbs during a CFTC meeting over prediction markets, manipulation, and regulatory standards.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-20T22:32:11.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt_style_kalshi-02-gID_7.png",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
@@ -610,13 +610,27 @@
       "lang": "en",
       "date": "2026-08-19T14:45:42.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/99cc8a512d598baf6557417269a16fd91847bd3f-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "סימני דרך חדשים בבנקאות המסורתית: HSBC ו-Standard Chartered בוחנים את תשתית הבלוקצ'יין של Swift",
+      "brief_he": "בנקים גלובליים מובילים השלימו עסקאות חיות על גבי רשת הבלוקצ'יין של Swift, צעד שמסמן התקדמות משמעותית במודרניזציה של התשלומים הבין-לאומיים.",
+      "commentary_he": "עולם הבנקאות המסורתי נמצא בתקופה של שינוי מבני עמוק, שבו טכנולוגיית הבלוקצ'יין מפסיקה להיות כלי השמור לקהילת הקריפטו בלבד והופכת לחלק מהתשתית של המוסדות הפיננסיים הגדולים בעולם. לאחרונה, הבנקים הבינלאומיים HSBC ו-Standard Chartered רשמו ציון דרך טכנולוגי כאשר השלימו בהצלחה עסקה חיה על גבי רשת הבלוקצ'יין של Swift. המהלך הזה אינו רק כותרת טכנית; הוא מסמן את המעבר מהתנסויות תיאורטיות ב'סביבות ארגז חול' (Sandbox) לביצוע פעולות אופרטיביות מלאות בתוך המערכת הבנקאית הגלובלית, מהלך שיש לו פוטנציאל להשפיע על האופן שבו הון עובר בין מדינות ובין מוסדות פיננסיים בצורה מהירה ושקופה יותר.\n\nעל פי הפרסומים של The Defiant, המהלך הזה התמקד בשימוש בטכנולוגיית ה-DLT (Distributed Ledger Technology) כדי להאיץ ולייעל את תהליכי הסליקה של תשלומים חוצי-גבולות. Swift, הגוף האחראי על רשת ההודעות הפיננסיות המרכזית בעולם, פועל בשנים האחרונות כדי לפתור את אחת הבעיות הכרוניות של המערכת הפיננסית: חוסר היעילות והעלויות הגבוהות הכרוכות בהעברות בנקאיות בין בנקים שונים במדינות שונות. העסקה החיה בין HSBC לבין Standard Chartered מהווה הוכחת היתכנות לכך שתשתית הבלוקצ'יין יכולה להשתלב בתוך המערכות הקיימות, מבלי לדרוש מהבנקים לזנוח את כל התשתית הישנה שלהם, אלא לשדרג אותה באמצעות שכבת טכנולוגיה מודרנית שמפחיתה את הצורך בתווך מיותר ובבדיקות ידניות מורכבות.\n\nכדי להבין את החשיבות של האירוע, יש להסתכל על האופן שבו בנקאות חוצת-גבולות מתנהלת כיום. כיום, העברת כספים בין מדינות עוברת דרך רשת של 'בנקים כתבים' (Correspondent Banks), שבה כל צומת בדרך מוסיף עלויות, זמן וסיכוני טעויות. בלוקצ'יין מאפשר יצירת 'מקור אמת' אחד שבו כל הצדדים רואים את הנתונים בזמן אמת, מה שמייתר את הצורך בהתאמות חשבונאיות ארוכות ומסורבלות. עבור המערכת הפיננסית, אימוץ הטכנולוגיה הזו על ידי ענקיות כמו HSBC ו-Standard Chartered הוא הוכחה לכך שהתעשייה מחפשת פתרונות טכנולוגיים כדי להישאר רלוונטית בעידן של תחרות גוברת מצד פלטפורמות פינטק ופתרונות מבוססי מטבעות דיגיטליים של בנקים מרכזיים (CBDC).\n\nעם זאת, חשוב להסתכל על התמונה הרחבה ולשמור על פרופורציות. למרות ההתקדמות הטכנולוגית, המעבר המלא לבלוקצ'יין בבנקאות הוא תהליך רב-שלבי הכרוך באתגרים רגולטוריים כבדים, אבטחת מידע קפדנית ושאלות של אינטראופרביליות – היכולת של רשתות בלוקצ'יין שונות לדבר זו עם זו בצורה מאובטחת. הבנקים הגדולים אינם ממהרים להפקיר את המערכות הקיימות שלהם; הם נוקטים בגישה שמרנית ומדודה של שילוב טכנולוגיה תוך שמירה על כללי הציות (Compliance) המחמירים ביותר. הסיכונים כאן אינם קשורים לתנודתיות של מחירי נכסים דיגיטליים, אלא לסיכוני אימוץ טכנולוגי, יציבות מערכתית והתאמה לרגולציה בין-לאומית משתנה, שעדיין נמצאת בשלבי גיבוש בנוגע לשימוש ב-DLT לצרכי סליקה.\n\nבשורה התחתונה, האירוע הזה מלמד אותנו שהבלוקצ'יין הופך לסטנדרט תשתיתי בעולם הפיננסי הקלאסי. עבורנו, כמי שעוקבות אחרי השוק, מדובר בתזכורת לכך שהערך האמיתי של טכנולוגיית הבלוקצ'יין טמון ביכולת שלה לייעל תהליכים מורכבים ולחסוך בעלויות תפעוליות, ולא רק בנכסים ספקולטיביים. ככל שהמוסדות הפיננסיים הגדולים ימשיכו להטמיע את הטכנולוגיה הזו בתוך הליבה העסקית שלהם, כך גובר הסיכוי לראות בעתיד מערכת פיננסית גלובלית שקופה, מהירה ונגישה יותר, שבה השורה התחתונה של העסקה היא המרכז, ולא המתווכים שבדרך.",
+      "terms_he": [
+        {
+          "term": "DLT (Distributed Ledger Technology)",
+          "explain": "טכנולוגיית פנקס מבוזר המאפשרת רישום ותיעוד עסקאות על גבי רשת מחשבים ללא צורך בגוף מרכזי מנהל."
+        },
+        {
+          "term": "סליקה (Settlement)",
+          "explain": "תהליך השלמת העסקה והעברת הבעלות על הנכס או הכספים בין הצדדים המעורבים."
+        }
+      ],
+      "points_he": [
+        "השימוש בבלוקצ'יין בבנקאות נועד לייעל תהליכי סליקה ולחסוך בעלויות תפעוליות.",
+        "המעבר ל-DLT מאפשר שקיפות גבוהה יותר וצמצום של התערבות בנקים מתווכים בתהליכי העברת כספים.",
+        "מוסדות פיננסיים גדולים פועלים בגישה זהירה ומדורגת של שילוב טכנולוגיה קיימת עם חדשנות, תוך דגש על רגולציה.",
+        "אימוץ טכנולוגי על ידי בנקים גלובליים מהווה אינדיקציה משמעותית לבשלות הטכנולוגיה מחוץ למגזר הקריפטו הטהור."
+      ],
+      "meaning_he": "ההתפתחות הזו מסמנת את חדירת טכנולוגיית הבלוקצ'יין ללב המיינסטרים הפיננסי, מה שמעיד על שינוי ארוך טווח בשיטות העבודה של המערכת הבנקאית הגלובלית.",
+      "gen_v": 6
     },
     {
       "id": "1hhw895",
