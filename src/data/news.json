@@ -1,13 +1,30 @@
 {
-  "updated": "2026-08-23T12:29:06.878Z",
+  "updated": "2026-08-23T16:20:43.971Z",
   "count": 46,
   "sources": [
-    "The Defiant",
     "Decrypt",
+    "The Defiant",
     "Bitcoin Magazine",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "d7zctx",
+      "title": "Robot Brains Could Have Their ‘ChatGPT Moment’ by 2027, ACE Robotics Chairman Says",
+      "link": "https://decrypt.co/376265/robot-brains-chatgpt-moment-ace-robotics",
+      "summary": "The breakthrough could come from AI models that help robots understand and interact with the physical world, though widespread adoption may still be years away.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-23T14:31:04.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-robots-decrypt-style-01-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "6znydo",
       "title": "Eric Trump Denies New Coin Launch as TRUMP Jumps 38%",
@@ -418,23 +435,6 @@
       "lang": "en",
       "date": "2026-08-21T14:31:55.000Z",
       "image": "https://cdn.thedefiant.io/sun-wlfi-thumbnail-jpg-aa654cb4-df4a-4523-9675-910c25fdeba0.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "bc4aeb",
-      "title": "Morning Minute: CFTC Will Give Crypto Clarity If Congress Won’t",
-      "link": "https://decrypt.co/376174/morning-minute-cftc-crypto-clarity-act",
-      "summary": "Meanwhile crypto majors and alts continue to soar, with BTC nearing $80k and alts like Pump and ZEC putting up big candles.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-21T14:27:31.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/cftc-decrypt-style-01-gID_7.jpg",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
