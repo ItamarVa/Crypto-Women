@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T16:20:43.971Z",
+  "updated": "2026-08-23T20:16:53.314Z",
   "count": 46,
   "sources": [
     "Decrypt",
@@ -8,6 +8,23 @@
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "183fbm9",
+      "title": "63% of Religious Books on Amazon Are Likely AI-Written, Study Finds",
+      "link": "https://decrypt.co/376295/religious-books-amazon-ai-written-study",
+      "summary": "Witchcraft books had the highest rate of likely AI-generated content at 78%, according to an Originality.ai analysis of more than 2,000 titles.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-23T16:31:04.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/amazon-logo-1-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "d7zctx",
       "title": "Robot Brains Could Have Their ‘ChatGPT Moment’ by 2027, ACE Robotics Chairman Says",
@@ -384,23 +401,6 @@
       "lang": "en",
       "date": "2026-08-21T15:03:45.000Z",
       "image": "https://cdn.thedefiant.io/illuvium-thumbnail-jpg-96428edb-0056-4ceb-a8f5-bfd5ab97a8ef.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "f9htaf",
-      "title": "Bitcoin Climbs Higher as $1.2 Billion in Shorts Liquidated",
-      "link": "https://decrypt.co/376183/bitcoin-price-higher-1-2-billion-shorts-liquidated",
-      "summary": "The largest cryptocurrency surged 7.9% in a day to around $77,000, triggering a short squeeze that wiped out roughly $1.21 billion in bearish bets amid a wave of favorable news from Washington.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-21T14:57:28.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-decrypt-style-23-gID_7.jpg",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
