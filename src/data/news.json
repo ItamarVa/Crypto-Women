@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T08:42:04.170Z",
+  "updated": "2026-08-24T12:40:43.287Z",
   "count": 46,
   "sources": [
     "Decrypt",
@@ -8,6 +8,40 @@
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "1fd9yuv",
+      "title": "Pakistan Sets September 5 Deadline for Crypto Firms to Register",
+      "link": "https://decrypt.co/376318/pakistan-sets-september-5-deadline-for-crypto-firms-to-register",
+      "summary": "Anyone serving Pakistani users since March must apply for clearance by September 5, then incorporate locally to keep going.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-24T12:14:27.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-pakistan-flag-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "jetyxp",
+      "title": "Bitcoin's Next Test Is $80,000 as Jackson Hole Meeting Looms",
+      "link": "https://decrypt.co/376315/bitcoins-next-test-is-80000-as-jackson-hole-meeting-looms",
+      "summary": "Kevin Warsh gives his first Jackson Hole keynote as Fed chair on Friday, with futures now pricing a September rate hike at 36%.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-24T10:49:00.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/Bitcoin-decrypt-style-21-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "183fbm9",
       "title": "63% of Religious Books on Amazon Are Likely AI-Written, Study Finds",
@@ -311,45 +345,6 @@
       "lang": "en",
       "date": "2026-08-21T16:59:45.000Z",
       "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Pakistans-Crypto-Pitch.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "nl5dbo",
-      "title": "Bitcoin ETFs Just Had Their Biggest Day Since May—BlackRock Took 83% of It",
-      "link": "https://decrypt.co/376211/bitcoin-etfs-biggest-day-since-may",
-      "summary": "U.S. spot Bitcoin ETFs pulled in $606 million Thursday, the biggest haul since May. And altcoin funds finally showed up too.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-21T16:29:01.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/bitcoin-etf-decrypt-style-01-gID_7.jpg",
-      "title_he": "זרימות שיא לקרנות הסל של ביטקוין: תמונת מצב של הון מוסדי",
-      "brief_he": "שוק קרנות הסל של הביטקוין בארה\"ב רשם את יום המסחר החזק ביותר מאז חודש מאי, עם זרם הון מצטבר משמעותי.",
-      "commentary_he": "בימים האחרונים נרשמה תנועה ערה בשוק קרנות הסל (ETFs) של הביטקוין בארצות הברית, כאשר על פי נתוני SoSoValue, יום חמישי האחרון הניב כניסות הון בהיקף של 606.29 מיליון דולר. מדובר ביום המסחר החזק ביותר עבור מכשירים פיננסיים אלו מאז הראשון במאי, נתון המצטרף לרצף של ארבעה ימי מסחר חיוביים שהוסיפו לקופת הקרנות כ-1.61 מיליארד דולר בסך הכל. אוגוסט מסתמן כחודש החזק ביותר עבור אפיק זה בשנת 2026, עם צבירה של 2.07 מיליארד דולר, כשהוא מתקרב לשיא שנרשם באפריל שעמד על 1.97 מיליארד דולר, וזאת עוד בטרם הסתיימו ימי המסחר של החודש.\n\nבחינה מעמיקה של הנתונים מגלה כי הריכוזיות בקרנות אלו נותרה גבוהה. קרן IBIT של ענקית ניהול הנכסים BlackRock משכה 502.99 מיליון דולר מתוך הסכום הכולל ביום חמישי, נתח המהווה כ-83% מההון שנכנס לכלל הקטגוריה באותו יום. לשם השוואה, קרנות אחרות כמו FBTC של Fidelity רשמו כניסות צנועות יותר של 64.74 מיליון דולר, בעוד שקרן HODL של VanEck רשמה יציאת הון של 3.59 מיליון דולר. הנתונים מצביעים על כך שבעוד שהעניין בביטקוין חוצה מוסדות פיננסיים, המשקיעים מעדיפים במידה רבה את השחקניות הגדולות ביותר בשוק, מה שיוצר לעיתים קושי עבור קרנות קטנות יותר לשמור על כדאיות כלכלית.\n\nכדי להבין את המשמעות של המספרים הללו, חשוב לזכור שקרנות סל מאפשרות למשקיעים להיחשף למחיר הביטקוין מבלי להחזיק במטבע באופן ישיר בארנק דיגיטלי. מנפיק הקרן מחזיק בנכס הבסיס, והמשקיע מחזיק ביחידה המייצגת שווי זה. מודל זה הפך לאחד הכלים הפופולריים ביותר עבור משקיעים מוסדיים ופרטיים מאז השקת הקרנות בתחילת 2024. עם זאת, התחום אינו חסין מסיכונים תפעוליים; החודש ראינו לראשונה סגירה של קרן סל לביטקוין – Hashdex DEFI – שנסגרה לאחר שלא הצליחה לגייס מספיק הון לכיסוי עלויות התפעול שלה, מה שמזכיר לנו כי גם במוצרים פיננסיים מוסדיים קיימת חשיבות לניהול סיכונים ובדיקת יציבות המנפיק.\n\nהתמונה הרחבה יותר כוללת גם את שוק האת'ריום, שרשם כניסות הון של כ-221 מיליון דולר ביום חמישי, נתון חיובי משמעותי מאז אוקטובר 2025. יתרה מכך, נראה כי העניין התרחב גם לנכסים אחרים, כאשר קרנות המבוססות על XRP ו-Solana רשמו עליות בכניסות ההון. יחד עם זאת, חשוב להסתכל על הנתונים בהקשר של השוק הכולל; נכסי הנטו של קרנות הסל לביטקוין הגיעו ל-90.16 מיליארד דולר, המהווים כ-6.18% משווי השוק הכולל של הביטקוין. נתון זה מעיד על השפעה גוברת של המכשירים הפיננסיים על התנודתיות והנזילות של נכס הבסיס, תופעה שכל משקיע בשוק הקריפטו צריך לקחת בחשבון.\n\nלסיכום, בעוד שהמספרים מצביעים על אמון מחודש והמשך כניסת הון מוסדי, השוק עדיין נמצא בתהליך של התייצבות. הביטקוין, שנסחר סביב רמות של 77,000 דולר, מראה תנודתיות המשקפת את המורכבות של הכלכלה הגלובלית והשפעתן של החלטות מדיניות, כגון תוכניות רכישה חוזרת של אג\"ח מצד משרד האוצר האמריקאי הצפויות להתחיל בספטמבר. עבור המשקיע הפרטי, ההתפתחויות הללו הן תזכורת לכך שהשוק הופך למתוחכם יותר, אך גם כזה שדורש מעקב אחר נתונים רשמיים וקריאה זהירה של המפה הפיננסית, מעבר לכותרות המיידיות.",
-      "terms_he": [],
-      "points_he": [
-        "קרנות הסל של הביטקוין ממשיכות לרכז את עיקר הפעילות המוסדית בשוק.",
-        "קיימת העדפה ברורה של המשקיעים לקרנות ענק (כמו BlackRock) על פני שחקנים קטנים יותר.",
-        "התנועה בשוק הקריפטו הופכת ליותר מבוססת נתונים ומושפעת מהחלטות מאקרו-כלכליות.",
-        "סגירתה של קרן Hashdex מהווה תזכורת לכך שגם מוצרים פיננסיים מוסדיים כפופים לשיקולי כדאיות עסקיים."
-      ],
-      "meaning_he": "העלייה בנפח המסחר בקרנות סל מעידה על כך שהביטקוין הופך לנכס פיננסי ממוסד יותר, מה שמגביר את הקשר בין שוק הקריפטו לשווקים הפיננסיים המסורתיים.",
-      "gen_v": 6
-    },
-    {
-      "id": "gl27rw",
-      "title": "XRP Erases Its Most Bearish Signal—And the Ripple-Linked Coin Is Flying",
-      "link": "https://decrypt.co/376186/xrp-price-erases-death-cross",
-      "summary": "The token spent all August trapped under a bearish crossover. Today it closed above both moving averages for the first time since the pattern formed.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-21T15:39:02.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/xrp-decrypt-style-04-gID_7.jpg",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
