@@ -1,13 +1,98 @@
 {
-  "updated": "2026-08-25T12:38:29.077Z",
+  "updated": "2026-08-25T16:31:02.037Z",
   "count": 46,
   "sources": [
-    "Decrypt",
-    "Bitcoin Magazine",
     "The Defiant",
+    "Bitcoin Magazine",
+    "Decrypt",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "ztttg8",
+      "title": "Pendle Oracle Move Liquidates $36 Million",
+      "link": "https://thedefiant.io/news/defi/pendle-oracle-move-liquidates-usd36-million",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-08-25T16:19:44.000Z",
+      "image": "https://cdn.thedefiant.io/pendle-thumbnail-jpg-93c36cca-a8ac-4717-8fe9-4ae34211ed2b.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1f4weoc",
+      "title": "The Human Rights Foundation Announces Support for 16 Projects Worldwide",
+      "link": "https://bitcoinmagazine.com/news/human-rights-foundation-issues-more-grants",
+      "summary": "Bitcoin Magazine The Human Rights Foundation Announces Support for 16 Projects Worldwide The Human Rights Foundation has announced 500 million satoshis in new grants through its Bitcoin Development Fund. This post The…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-08-25T16:00:00.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2025/05/Human-Rights-Foundation-Donates-800-Million-Satoshis-To-22-Worldwide-Bitcoin-And-Freedom-Projects.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "67d4xp",
+      "title": "Bitcoin Tops $81,000 — Is the Debasement Trade Back?",
+      "link": "https://bitcoinmagazine.com/markets/bitcoin-surges-is-debasement-trade-back",
+      "summary": "Bitcoin Magazine Bitcoin Tops $81,000 — Is the Debasement Trade Back? Bitcoin reached over $80,000 for the first time since January. This post Bitcoin Tops $81,000 — Is the Debasement Trade Back? first appeared on…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-08-25T15:14:28.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Pics-1.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "15uu8zj",
+      "title": "Crypto Fund Founder Convicted of Fraud Over Fake Trading Bot",
+      "link": "https://decrypt.co/376441/crypto-fund-founder-convicted-of-fraud-over-fake-trading-bot",
+      "summary": "Japheth Dillman told investors that Block Bits Capital's \"Autotrader\" software was finished and running, and took nearly $1 million.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-25T14:56:10.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "zd2ytm",
+      "title": "Dozens of Fake Firefox Wallet Extensions Linked to Crypto-Stealing Malware",
+      "link": "https://decrypt.co/376432/dozens-of-fake-firefox-wallet-extensions-linked-to-crypto-stealing-malware",
+      "summary": "Forty are confirmed malicious, impersonating OKX, Rabby and TronLink to harvest recovery phrases from anyone who types one in.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-08-25T14:10:05.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/malware-code-decrypt-style-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "1wgkqsu",
       "title": "Grayscale Launches Zcash ETF Following Critical Privacy Flaw That Rocked the Cryptocurrency",
@@ -16,7 +101,7 @@
       "source": "Decrypt",
       "lang": "en",
       "date": "2026-08-25T12:01:03.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/zcash-decrypt-style-03-gID_7.jpg",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/zcash-gID_7.jpg",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
@@ -157,13 +242,30 @@
       "lang": "en",
       "date": "2026-08-24T21:26:43.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/2050645d38f2933ed5ada185dc4dfc115cae1849-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "התעלומה שמאחורי Ox Alpha: מודל הבינה המלאכותית שכבש את הקהילה הטכנולוגית",
+      "brief_he": "מודל בינה מלאכותית חדש ואנונימי בשם Ox Alpha מציג ביצועים חריגים במבחני תכנות ומעורר סקרנות רבה סביב מקורו ויכולותיו הטכניות.",
+      "commentary_he": "בתקופה האחרונה, תחום הבינה המלאכותית ממשיך לייצר הפתעות שמשנות את הדינמיקה של השוק כמעט בן לילה. אחת התופעות המעניינות ביותר שנצפו לאחרונה היא הופעתו של מודל המכונה Ox Alpha, אשר הופיע ללא כל התראה מוקדמת או זיהוי של החברה שעומדת מאחוריו. המודל, שהוצג בפלטפורמת OpenRouter ב-20 באוגוסט, הצליח תוך זמן קצר מאוד למשוך את תשומת הלב של מפתחים ואנליסטים כאחד. עבור מי שעוקב אחר ההתפתחויות הטכנולוגיות, מדובר בדוגמה נוספת לאופן שבו שוק ה-AI הופך לתחרותי, מהיר ולעיתים גם מסתורי, כאשר חברות מובילות בוחרות בשיטות שיווק לא קונבנציונליות כדי להשיק טכנולוגיות חדשות.\n\nהנתונים שמלווים את ההשקה הזו מרשימים למדי, במיוחד בהשוואה למודלים מוכרים בשוק. על פי הפרסומים, Ox Alpha הצליח להגיע לציון של 80% בביצוע משימות תכנות במבחן DeepSWE – מדד המודד את יכולת הסוכן לפתור בעיות ב-GitHub בניסיון ראשון. לצורך ההשוואה, נתונים אלו מציבים אותו לפני מודלים כמו Claude Fable 5, שהגיע ל-65%, ו-GPT-5.6 Sol, שסיים עם 52% בלבד. המודל, שמוצע כרגע בחינם, תומך בזיכרון הקשר (Context Window) של כמיליון טוקנים ומסוגל לעבד קלט של טקסט, תמונה ווידאו. בנוסף, נטען כי התשתית ערוכה להתמודד עם היקפי שימוש אדירים, עם יכולת עיבוד של עד קוואדריליון טוקנים ביום, מה שמרמז על תמיכה טכנית משמעותית מאחורי הקלעים.\n\nהמושג \"מודל בסטלת\" (Stealth Model) הפך לשיטת עבודה מוכרת בתעשייה, במיוחד בקרב מעבדות מחקר סיניות. הרעיון הוא להשיק מערכת ללא שיוך רשמי כדי לאסוף נתוני שימוש מהעולם האמיתי (Real-world data) לפני ההשקה הרשמית והצהרתית. מדובר באסטרטגיה המאפשרת לחברות לבחון את המודל שלהן בסביבה חיה, מבלי להתחייב למיתוג או לציפיות של הקהל הרחב בשלב מוקדם מדי. גם דמויות בכירות בתעשייה, כמו מנכ\"ל Stripe פטריק קוליסון, התייחסו ליכולות המודל והגדירו אותן כמרשימות, מה שסייע לדחוף את Ox Alpha למרכז הדיון המקצועי תוך שעות ספורות בלבד.\n\nככל שהפופולריות של המודל עלתה, כך גבר משחק הניחושים סביב זהותו. מפתחים ואנליסטים ניסו לקשור אותו למעבדות מוכרות כמו מיקרוסופט, גוגל או עליבאבא, אך רוב ההשערות נפסלו לאחר בדיקות מעמיקות. החקירה הטכנית התמקדה בטביעת האצבע הדיגיטלית של המודל, ובמיוחד בטוקנייזר שלו. על פי ניתוחים שפורסמו, קיים דמיון מובהק בין המבנה של Ox Alpha לבין המודלים של חברת Zhipu AI, ובאופן ספציפי למשפחת GLM-5.3. ייתכן שמדובר בגרסה משודרגת ורב-מודלית של המודל המוכר, מה שמוביל חלק מהמומחים לכנותו GLM-5.3 Flash. עם זאת, נכון לעכשיו, חברת Zhipu AI טרם הגיבה רשמית לפרסומים בנושא.\n\nעבור מי שבוחן את שוק ה-AI, המקרה של Ox Alpha מדגיש את הצורך בזהירות ובשיקול דעת. אמנם הביצועים בבחינות (Benchmarks) נראים מצוינים, אך חשוב לזכור שמדובר במדדים מוגבלים ולא תמיד משקפים את היציבות או את איכות הפלט בשימוש עסקי מורכב. בנוסף, היעדר אכיפה של מבנה פלט (JSON Schema) במודל הנוכחי מהווה מחסום משמעותי עבור מפתחים שזקוקים לתוצרים מובנים. כקהילה, עלינו להמשיך ולעקוב אחר ההתפתחויות הללו לא מתוך התלהבות מהכותרות, אלא מתוך הבנה מעמיקה של היכולות הטכנולוגיות וההשלכות שלהן על עתיד פיתוח הסוכנים האוטונומיים.",
+      "terms_he": [
+        {
+          "term": "Tokens",
+          "explain": "יחידות המידע הבסיסיות שבאמצעותן מודל שפה מעבד טקסט וקלט אחר."
+        },
+        {
+          "term": "Stealth Model",
+          "explain": "מודל בינה מלאכותית המושק ללא הצהרה רשמית על זהות המפתחת כדי לאסוף נתוני שימוש מהשטח."
+        },
+        {
+          "term": "Context Window",
+          "explain": "כמות המידע המקסימלית שהמודל מסוגל 'לזכור' ולהתייחס אליה בבת אחת בזמן עיבוד נתון."
+        }
+      ],
+      "points_he": [
+        "ביצועים ב-Benchmarks הם כלי עזר, אך אינם ערובה לאיכות בשימוש יומיומי מורכב.",
+        "אסטרטגיית ה-Stealth Launch הפכה לכלי נפוץ אצל חברות המעוניינות בבדיקות שטח ללא מיתוג.",
+        "היעדר שקיפות באשר למקור המודל מחייב משנה זהירות בשימוש במידע רגיש או בבניית תשתית עליו."
+      ],
+      "meaning_he": "האירוע מדגים את התחרות העזה בשוק הבינה המלאכותית ואת הדרכים הלא-שגרתיות שבהן חברות בוחרות להשיק טכנולוגיות חדשות כדי לצבור יתרון תחרותי.",
+      "gen_v": 6
     },
     {
       "id": "iepuzs",
@@ -278,40 +380,6 @@
       "gen_v": null
     },
     {
-      "id": "127rwli",
-      "title": "Hyperliquid Hits Record High as $1.2 Billion Token Unlock Looms",
-      "link": "https://decrypt.co/376375/hypeliquid-price-record-high-token-unlock",
-      "summary": "Hyperliquid's token is riding a record into its largest remaining supply release.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-24T18:30:27.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/05/hyperliquid-hype-decrypt-style-03-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1aknwd",
-      "title": "Zcash Hits Eight-Year High as Futures Bets Nearly Double",
-      "link": "https://decrypt.co/376372/zcash-eight-year-high-price-futures-bets",
-      "summary": "ZEC broke above $880 while open interest in perpetual futures climbed to $1.8 billion.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-08-24T17:50:35.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/zcash-decrypt-style-03-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "dkbiz3",
       "title": "Bitcoin Rally Accelerates, With $80,000 in Sight After ETFs Have Stellar Week",
       "link": "https://bitcoinmagazine.com/markets/bitcoin-nears-80000-after-etf-action",
@@ -371,13 +439,31 @@
       "lang": "en",
       "date": "2026-08-22T17:08:34.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/17dc6b1fe8b157172275c20a4a80882d71a0d3ba-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "גל חדש של השקעות מוסדיות: ניתוח המומנטום הנוכחי בשוק הביטקוין",
+      "brief_he": "ניתוח של פירמת ההשקעות Pantera Capital מצביע על זרימת 'כסף חכם' לשוק הביטקוין בעקבות התפתחויות רגולטוריות ושינויים במדיניות המוניטרית בארה\"ב.",
+      "commentary_he": "השיח סביב שוק הקריפטו חווה בחודשים האחרונים תנודות משמעותיות, אך נראה כי התמונה המקרו-כלכלית מתחילה להשתנות עבור המשקיעים המוסדיים. בראיון שהעניק לאחרונה קוסמו ג'יאנג, מנהל תיק השקעות בפירמה האמריקאית Pantera Capital, עלה כי השוק נמצא בתהליך של היפוך מגמה ברור. ג'יאנג מציין כי משקיעים, שעד כה העדיפו להישאר על הגדר או אפילו להחזיק בפוזיציות שורט, מתחילים לשנות את עמדתם ולהפנות הון משמעותי לעבר הביטקוין. המעבר הזה נתפס בעיניו לא רק כגל של אופטימיות רגעית, אלא כהכרה גוברת בערכו של הנכס כטכנולוגיה פיננסית בעלת חשיבות אסטרטגית ארוכת טווח. עבור משקיעים מן השורה, מדובר בסימן לכך שהשוק עובר משלב של ספקולציה טהורה לשלב שבו גופים גדולים מתחילים לבנות את החשיפה שלהם בצורה מחושבת.\n\nהנתונים בשטח משקפים את השינוי הזה בצורה ברורה. על פי הפרסום, הביטקוין רשם עלייה מרשימה של למעלה מ-23% במהלך שבוע אחד בלבד, כשהוא מגיע לשיא של 79,319 דולר ביום שישי האחרון. נכון לזמן הדיווח, המחיר התייצב סביב רמה של 77,412 דולר, לאחר תקופה ממושכת של דשדוש מתחת לקו ה-65,000 דולר במהלך חודשי יוני ויולי. ג'יאנג מציין כי רמת ההתנגדות הבאה של הנכס עשויה לעמוד סביב 80,000 דולר. המספרים הללו, המבוססים על דוחות השוק של Pantera Capital, מדגישים את העובדה שהמומנטום השתנה מהותית, כאשר הזרמת ההון המוסדי – המכונה לעיתים 'כסף חכם' – היא זו שמספקת את הדלק לעלייה הנוכחית. עם זאת, יש לזכור כי גם בתוך מגמות עלייה כאלה, תנודתיות היא חלק בלתי נפרד מהטריטוריה וייתכנו תיקונים טכניים בדרך.\n\nברקע העלייה הזו עומדים כמה גורמים פוליטיים וכלכליים משמעותיים בארה\"ב. ראשית, נרשמה התקדמות במישור הרגולטורי; הנשיא דונלד טראמפ קיים פגישות עם בכירי התעשייה וקרא למחוקקים לקדם את ה-'Clarity Act'. חקיקה זו, שמטרתה להגדיר בצורה ברורה אילו נכסים דיגיטליים נמצאים תחת פיקוח ה-SEC ואילו תחת ה-CFTC, נחשבת לאבן דרך קריטית עבור התעשייה, והצבעה עליה צפויה להתקיים בספטמבר. במקביל, שר האוצר האמריקאי, סקוט בסנט, הודיע על כוונה להכפיל את היקף הרכישות החוזרות של אג\"ח ממשלתי לטווח ארוך. ככלל, נכסים שאינם מניבים ריבית, כגון ביטקוין וזהב, נוטים להגיב בחיוב לשינויים במדיניות המוניטרית שמרמזים על הגדלת נזילות או שינויים בשוק החוב.\n\nמעבר לגורמים הפוליטיים, קיימים יסודות טכנולוגיים שתומכים בראייה החיובית של ג'יאנג. לפי הניתוח, צמיחה בשימוש ב-stablecoins, התפתחות של שווקי חיזוי, עליה בשימוש בחוזים עתידיים תמידיים (perpetual futures) והממשק ההולך וגדל בין עולם הקריפטו לבינה מלאכותית (AI), כולם מהווים נדבכים שתומכים בערכו של הביטקוין. אלו אינם רק מושגים תיאורטיים, אלא תשתיות שמתחילות להבשיל וליצור ערך ממשי בתוך המערכת האקולוגית. השילוב בין אימוץ מוסדי לבין פיתוח טכנולוגי שיוצר שימושים חדשים הוא זה שיוצר, לטענת המומחים, בסיס איתן יותר לביקוש מאשר בתקופות קודמות שבהן השוק נשען בעיקר על הייפ.\n\nלסיכום, התמונה העולה מהניתוח היא של שוק שנמצא בתהליך של התבגרות. בעוד שהעלייה במחיר מושכת את תשומת הלב הציבורית, חשוב להסתכל מעבר לגרפים ולבחון את השינויים המבניים שקורים ברקע – הן ברמה הרגולטורית והן ברמה המוניטרית. עבור המשקיעים, הלקח העיקרי הוא הצורך להפריד בין התנודות היומיות לבין המגמות ארוכות הטווח. כפי שמציין הדיווח, האופטימיות אינה מבוססת על משאלות לב, אלא על תנועת הון מוסדי ועל התפתחויות רגולטוריות שעשויות להעניק לשוק ודאות גדולה יותר בעתיד. כמובן, בדומה לכל נכס השקעה, אין ערובה לעליות נוספות, והחלטות השקעה צריכות תמיד להתבצע מתוך הבנה מעמיקה של הסיכונים והיכרות עם המטרות האישיות של כל משקיע ומשקיעה.",
+      "terms_he": [
+        {
+          "term": "Clarity Act",
+          "explain": "הצעת חוק אמריקאית שנועדה להסדיר את הפיקוח הרגולטורי על נכסים דיגיטליים ולספק ודאות משפטית לתעשייה."
+        },
+        {
+          "term": "Bond Buybacks",
+          "explain": "רכישה חוזרת של איגרות חוב על ידי הממשלה, מהלך שמשפיע על הנזילות בשוק ועל הריביות."
+        },
+        {
+          "term": "Perpetual Futures",
+          "explain": "חוזים עתידיים ללא תאריך פקיעה, המאפשרים למשקיעים להחזיק בפוזיציות על מחיר הנכס לאורך זמן."
+        }
+      ],
+      "points_he": [
+        "הכניסה של 'כסף חכם' (מוסדי) מצביעה על שינוי בפוזיציות של שחקנים גדולים בשוק.",
+        "התפתחויות רגולטוריות בארה\"ב, בדגש על ה-Clarity Act, מהוות קטליזטור משמעותי ליציבות השוק.",
+        "השילוב בין בינה מלאכותית לבין תשתיות קריפטו יוצר ערך מוסף שתומך בביקוש ארוך טווח.",
+        "שינויים במדיניות המוניטרית של משרד האוצר האמריקאי משפיעים ישירות על התנהגות נכסים כמו ביטקוין."
+      ],
+      "meaning_he": "הדיווח מדגיש כי השוק עובר משלב של ספקולציה לשלב של הטמעה מוסדית, מה שמחזק את הצורך של משקיעים לעקוב אחר תהליכים רגולטוריים ומקרו-כלכליים ולא רק אחרי תנודות מחיר.",
+      "gen_v": 6
     },
     {
       "id": "1g2m2mu",
@@ -461,40 +547,6 @@
       "lang": "en",
       "date": "2026-08-21T17:51:59.000Z",
       "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Bitcoin-Has-Its-Best-Week-Since-2023-as-Shortsellers-Continue-To-Get-Wiped-Out.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "uxreba",
-      "title": "Pakistan’s Crypto Pitch: “Come Build Here” as Virtual Assets Act Moves Forward",
-      "link": "https://bitcoinmagazine.com/news/pakistan-tells-companies-to-build-there",
-      "summary": "Bitcoin Magazine Pakistan’s Crypto Pitch: “Come Build Here” as Virtual Assets Act Moves Forward Pakistan has announced a new regulatory framework for crypto after banning the asset class for close to a decade,…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-08-21T16:59:45.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Pakistans-Crypto-Pitch.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "13jzj68",
-      "title": "Bitcoin Price Roars Towards $80,000 Following Positive Regulatory News, US Buyback Pledge",
-      "link": "https://bitcoinmagazine.com/news/bitcoin-surges-towards-80000",
-      "summary": "Bitcoin Magazine Bitcoin Price Roars Towards $80,000 Following Positive Regulatory News, US Buyback Pledge Bitcoin has continued its rocket upwards, and blew past $79,000 on Friday. This post Bitcoin Price Roars Towards…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-08-21T15:24:23.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/08/Bitcoin-Price-Roars-Towards-80000-Following-Positive-Regulatory-News-US-Buyback-Pledge.jpg",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
@@ -601,23 +653,6 @@
       ],
       "meaning_he": "המקרה מדגים את הקושי של המערכת הפיננסית הקלאסית לעכל את המודלים החדשים שצומחים מעולם הקריפטו, ומשקף את המאבק על הגדרת הגבולות בין פיננסים לבין הימורים בעידן הדיגיטלי.",
       "gen_v": 6
-    },
-    {
-      "id": "1bubmjv",
-      "title": "Arbitrum Activates Elara With Optional Compliance Filters for Dedicated Chains",
-      "link": "https://thedefiant.io/news/blockchains/arbitrum-activates-elara-with-optional-compliance-filters-for-dedicated-chains",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-08-20T22:50:28.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/a02412d0cba00b4a563050c3bca9af7de39fde8e-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
     },
     {
       "id": "1hhw895",
