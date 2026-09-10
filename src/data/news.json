@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T08:36:17.690Z",
+  "updated": "2026-09-10T15:41:39.416Z",
   "count": 46,
   "sources": [
     "The Defiant",
@@ -15,7 +15,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-09-10T08:33:22.000Z",
+      "date": "2026-09-10T15:38:35.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/70bddc713c02d2b15c4fce8dfe9223bda0bd2192-2048x1152.png",
       "title_he": "התנודתיות בשוק הביטקוין: ניתוח הקשר בין מדיניות הריבית לזרימת ההון ל-ETFs",
       "brief_he": "לאחר רצף עליות מרשים שהונע על ידי קרנות סל, שוק הביטקוין מציג סימני התמתנות בעקבות הצהרות מצד הפדרל ריזרב ונתוני מאקרו משתנים.",
@@ -36,7 +36,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-09-10T08:33:22.000Z",
+      "date": "2026-09-10T15:38:35.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/6d9fbb8531c1aa6addad885741ca06e35d79f654-2048x1152.png",
       "title_he": "ביטקוין לאחר הראלי: מבט טכני ומקרו-כלכלי על השוק",
       "brief_he": "לאחר חודש אוגוסט חזק, הביטקוין מתמודד עם צמתים טכניים משמעותיים ושינויים במדיניות המוניטרית של הפדרל ריזרב.",
@@ -59,6 +59,176 @@
       ],
       "meaning_he": "הניתוח מדגיש את הפער בין המומנטום הטכני לבין המציאות המאקרו-כלכלית, ומזכיר למשקיעים כי גם בשווקים שוריים, אירועים חיצוניים כמו החלטות ריבית הם גורמי סיכון מרכזיים.",
       "gen_v": 6
+    },
+    {
+      "id": "1p7vwf1",
+      "title": "Anthropic Discloses Fourth Claude Hacking Incident as Debate Around Regulation Grows",
+      "link": "https://decrypt.co/377889/anthropic-discloses-fourth-claude-hacking-incident-as-debate-around-regulation-grows",
+      "summary": "The company now says attacks during security tests exposed model behavior failures, after initially emphasizing errors in its testing infrastructure.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-09-10T15:33:11.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-anthropic-claude-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "14956e1",
+      "title": "Latitude Raises $35 Million For Local Stablecoin Off-Ramps",
+      "link": "https://thedefiant.io/converge/defi/latitude-35-million-series-a-stablecoin-local-rails",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-09-10T14:20:39.000Z",
+      "image": "https://cdn.thedefiant.io/global-dollar-thumbnail-jpg-65d7cd56-57cc-4447-8944-d80bc5213ce8.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "220sp7",
+      "title": "U.S. Bank Issues Its Own Stablecoin On Stellar",
+      "link": "https://thedefiant.io/converge/defi/us-bank-usbdc-stablecoin-stellar-cross-border-pilot",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-09-10T14:14:04.000Z",
+      "image": "https://cdn.thedefiant.io/stellar-rwa-thumbnail-jpg-e3d7e00f-d473-4569-b090-e53be093ace0.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "xr5k5y",
+      "title": "Tether And Fasanara Seed A $400 Million Private Credit Fund",
+      "link": "https://thedefiant.io/news/defi/tether-fasanara-400-million-private-credit-fund",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-09-10T14:11:50.000Z",
+      "image": "https://cdn.thedefiant.io/tether-thumbnail-jpg-875d3d24-21b7-4d02-8feb-57dbd6a341b3.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "12ugymk",
+      "title": "Nasdaq Invests $100 Million in Kraken Parent Payward",
+      "link": "https://thedefiant.io/news/cefi/nasdaq-invests-100-million-in-kraken-parent-payward",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-09-10T14:08:58.000Z",
+      "image": "https://cdn.thedefiant.io/kraken-nasdaq-jpg-44fd4cd6-1522-4329-ae93-76320162e1d5.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "ikofz9",
+      "title": "Bitcoin at $400K by 2030 Still 'Reasonable Target': Coinbase CEO",
+      "link": "https://decrypt.co/377875/bitcoin-at-400k-by-2030-still-reasonable-target-coinbase-ceo",
+      "summary": "Brian Armstrong argues the bottom is in, a year into the downturn, with the next halving roughly 18 months out.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-09-10T13:04:27.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/brian-armstrong-coinbase-decrypt-style-2-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1lq9rd9",
+      "title": "The Quantum Issue: WTF Is Quantum Computing?",
+      "link": "https://bitcoinmagazine.com/print/the-quantum-issue-wtf-is-quantum-computing",
+      "summary": "Bitcoin Magazine The Quantum Issue: WTF Is Quantum Computing? From The Quantum Issue: A high level look at quantum computer, what it even is, and how it is different from conventional computing. This post The Quantum…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-09-10T13:00:00.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/09/Quantum-Issue-Article-Header-2400x1400-WTF-is-Quantum-Computing.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "uyov28",
+      "title": "Morning Minute: Hunter Biden’s LAPTOP Crashes",
+      "link": "https://decrypt.co/377867/morning-minute-hunter-bidens-laptop-crashes",
+      "summary": "The meme coin plunged on its debut, as recent alt leaders and many onchain darlings slipped in a nasty day for crypto.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-09-10T12:10:48.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/09/hunter-biden-decrypt-style-02-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1aw963p",
+      "title": "Nasdaq Invests $100M in Kraken Parent Payward at $21B Valuation",
+      "link": "https://decrypt.co/377864/nasdaq-invests-100m-in-kraken-parent-payward-at-21b-valuation",
+      "summary": "Deutsche Börse's April stake implied a $13.3 billion valuation. Five months on, Nasdaq is paying at $21 billion.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-09-10T11:28:55.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/kraken-decrypt-style-01-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1c1c575",
+      "title": "Vitalik Buterin Pushes Ethereum Plan to Slash Quantum-Safe Privacy Costs",
+      "link": "https://decrypt.co/377857/vitalik-buterin-pushes-ethereum-plan-to-slash-quantum-safe-privacy-costs",
+      "summary": "Buterin wants EIP-8288 in I-star, the upgrade after Hegota, and adopting it would make RISC-V Ethereum's canonical instruction set.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-09-10T10:11:52.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Vitalik-Buterin-DecryptStyle3-scaled-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
     },
     {
       "id": "1rfyrjg",
@@ -343,23 +513,6 @@
       "gen_v": null
     },
     {
-      "id": "1qt16xm",
-      "title": "Bitcoin Gives Back Its Overnight Gain As Brent Tops $100",
-      "link": "https://thedefiant.io/converge/markets/bitcoin-gives-back-overnight-gain-brent-tops-100-sep-9-2026",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-09-09T16:55:20.000Z",
-      "image": "https://cdn.thedefiant.io/pasted-1788973038426-png-d2f31754-1367-4e52-8e5f-81ad46cdd55f.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "r9ysrh",
       "title": "While Bitcoin Devs Debate Next Moves, IonQ Unveils Superion 256 Quantum Computer",
       "link": "https://decrypt.co/377737/bitcoin-debate-ionq-quantum-computer",
@@ -368,13 +521,26 @@
       "lang": "en",
       "date": "2026-09-09T16:46:05.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/google-quantum-decrypt-style-01-2-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "המרוץ הקוונטי והשפעתו על עתיד אבטחת הביטקוין: הצצה לטכנולוגיה החדשה",
+      "brief_he": "חברת IonQ הציגה את המחשב הקוונטי החדש שלה, מה שמעלה שאלות לגבי עמידות ההצפנה של הביטקוין בעתיד הרחוק.",
+      "commentary_he": "בעוד עולם הקריפטו מתמקד בתנודות המחיר ובאימוץ מוסדי, חזית טכנולוגית אחרת מתקדמת בקצב מהיר שעלול להשפיע על יסודות האבטחה של הרשתות המבוזרות. חברת IonQ, הנסחרת בבורסה, הודיעה השבוע על פיתוח המחשב הקוונטי 'Superion 256', צעד שלדברי החברה מהווה פריצת דרך בייצור המוני של מעבדים קוונטיים. המחשב החדש, הצפוי להיות זמין למסירה ב-2027, מתוכנן לעבוד בשיטות ייצור סטנדרטיות של תעשיית השבבים, מה שמאפשר לראשונה ייצור של מאות יחידות במקום בנייה ידנית של מכונה בודדת. עבור הקהילה שלנו, זוהי הזדמנות לבחון את הממשק שבין התפתחות המחשוב הקוונטי לבין אבטחת הביטקוין, נושא שעולה מדי פעם לכותרות אך דורש הבנה מאוזנת ונטולת בהלה.\n\nהטכנולוגיה של IonQ מתבססת על שימוש ב-qubits (קוביטים), שהם יחידות המידע הבסיסיות של המחשוב הקוונטי. בניגוד לביט של מחשב רגיל שיכול להיות רק 0 או 1, הקוביט יכול לייצג מצבים מורכבים יותר, מה שמאפשר למחשב לבצע חישובים מסוימים במהירות אדירה. על פי הדיווח, החברה הצליחה לתכנן את השבבים כך שהם מיוצרים בעלויות נמוכות יותר ובמחזור פיתוח מהיר משמעותית – כחודשיים לעומת תשעה חודשים בעבר. עם 256 קוביטים, IonQ שואפת ליצור פלטפורמה ניתנת לשדרוג, כאשר בטווח הארוך החברה מכוונת ל-10,000 קוביטים כדי להדגים מחשוב עמיד בפני שגיאות, יעד שהיא מציבה לשנת 2027-2028.\n\nהקשר לביטקוין טמון בחשש התיאורטי שמחשב קוונטי רב-עוצמה יוכל יום אחד לפצח את האלגוריתמים המצפינים את מפתחות הגישה של המשתמשים. אם מחשב כזה יצליח לחשב את המפתח הפרטי מתוך המפתח הציבורי החשוף בבלוקצ'יין, הוא יוכל תיאורטית 'לגנוב' כספים מארנקים ישנים או לא מאובטחים. עם זאת, מומחים מדגישים כי אנו עדיין רחוקים מאוד מהיכולת הזו. המערכות הנוכחיות, כולל ה-Superion 256, אינן מגיעות לרמה הנדרשת כדי לאיים על הצפנת ה-256-bit שבה משתמש הביטקוין. המרחק בין מחשב של 256 קוביטים לבין מחשב שמסוגל להריץ את 'אלגוריתם שור' (Shor's Algorithm) בהיקף שיסכן את הרשת הוא עצום, שכן נדרשים קוביטים רבים נוספים שיהיו חסינים מפני רעשים ושגיאות חישוב.\n\nהתעשייה אינה עומדת מנגד וממתינה לאיום. קיימת מודעות גוברת בקרב מפתחי הליבה של הביטקוין לצורך ב'הצפנה פוסט-קוונטית' (Post-Quantum Cryptography). כבר כיום, גופים כמו Galaxy השקיעו מיליוני דולרים במחקר ופיתוח של כלים שיגנו על הרשת מפני איומים עתידיים. הרעיון הוא לשדרג את פרוטוקול הביטקוין כך שישתמש באלגוריתמים שגם מחשבים קוונטיים לא יוכלו לפצח בקלות. העובדה שהקהילה והמפתחים מתחילים לעסוק בכך שנים מראש היא עדות לחוסן המבני של הביטקוין – היכולת להתפתח ולהשתפר מול אתגרים טכנולוגיים מתהווים.\n\nלסיכום, ההתקדמות של IonQ היא הישג הנדסי מרשים שיוביל לשינויים ביישומי בינה מלאכותית, מחקר תרופות ומדע החומרים. עם זאת, אין סיבה לבהלה בקרב משקיעי הקריפטו. האיום הקוונטי על ביטקוין הוא נושא למחקר אקדמי ולתכנון אסטרטגי לטווח ארוך, ולא סכנה מיידית לערך הנכסים שלנו. כפי שראינו לאורך ההיסטוריה של הרשת, ביטקוין הוכיח יכולת הסתגלות גבוהה. המעקב אחר ההתפתחויות הללו הוא חלק מהאחריות שלנו כמשקיעים אינטליגנטיים: להבין את הטכנולוגיה, להפריד בין רעש לסיכון ממשי, ולהמשיך לפעול מתוך ידע מעמיק ולא מתוך חרדה מול כותרות מפוצצות.",
+      "terms_he": [
+        {
+          "term": "קוביט (Qubit)",
+          "explain": "יחידת המידע הבסיסית במחשוב קוונטי, המסוגלת להחזיק מצבים מורכבים יותר מביט רגיל."
+        },
+        {
+          "term": "הצפנה פוסט-קוונטית",
+          "explain": "אלגוריתמים מתמטיים שתוכננו להיות עמידים בפני התקפות של מחשבים קוונטיים בעתיד."
+        }
+      ],
+      "points_he": [
+        "התפתחות המחשוב הקוונטי היא תהליך ארוך טווח שאינו מהווה איום מיידי על אבטחת הביטקוין.",
+        "מפתחי הביטקוין כבר עוסקים במחקר ופיתוח של הצפנה פוסט-קוונטית כמענה לאיומים עתידיים.",
+        "מחשבים קוונטיים כמו ה-Superion 256 נועדו לשיפור חישובים מדעיים, לא לפריצת רשתות בלוקצ'יין."
+      ],
+      "meaning_he": "ההתקדמות הטכנולוגית בקוונטים ממחישה את הצורך של רשתות מבוזרות להישאר גמישות ולעדכן את פרוטוקולי האבטחה שלהן כדי להבטיח עמידות גם מול טכנולוגיות עתידניות.",
+      "gen_v": 6
     },
     {
       "id": "1wh0fdr",
@@ -392,180 +558,6 @@
       "points_he": [],
       "meaning_he": null,
       "gen_v": null
-    },
-    {
-      "id": "160i2k9",
-      "title": "Arbitrum Watchdog Seeks Permanent Bans For Three Grant Recipients",
-      "link": "https://thedefiant.io/news/defi/arbitrum-watchdog-seeks-permanent-bans-three-grant-recipients",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-09-09T16:25:49.000Z",
-      "image": "https://cdn.thedefiant.io/arb-dao-thumbnail-jpg-75df4979-66d2-47a0-b78d-0cf62961e85b.jpg",
-      "title_he": "הסיכונים הפיזיים בעולם הנכסים הדיגיטליים: דגשים בעקבות אירוע טרגי",
-      "brief_he": "מקרה טרגי במקסיקו מדגיש את החשיבות של שמירה על דיסקרטיות וביטחון פיזי עבור מחזיקי קריפטו.",
-      "commentary_he": "עולם הקריפטו נתפס לעיתים קרובות כמרחב דיגיטלי מופשט, שבו האיומים המרכזיים הם פריצות סייבר, פישינג או תנודות חדות בשווקים. עם זאת, אירועים אחרונים מזכירים לנו כי כאשר ערכם של נכסים דיגיטליים הופך לממשי וגבוה, הם עלולים למשוך תשומת לב מסוכנת גם בעולם הפיזי. הדיווחים האחרונים ממקסיקו, על רצח המוזיקאי ג'ונתן מלנדז ובני משפחתו על רקע ניסיון להשתלט על ארנק קר, מציבים מראה מטרידה בפני הקהילה הגלובלית ומדגישים כי אבטחת מידע אינה מסתכמת רק בהגנה על סיסמאות ומפתחות פרטיים, אלא גם בשמירה על פרופיל נמוך בנוגע להחזקות אישיות.\n\nעל פי הפרסומים הרשמיים במקסיקו, המקרה אירע ב-1 בספטמבר בעיר אטיזאפאן דה סרגוסה. על פי החשד, שני גברים תכננו את הפריצה לביתו של מלנדז, חבר להקת Camilo Séptimo, לאחר שסברו כי הם ימצאו שם ארנק קר המכיל סכומים של מיליוני דולרים בביטקוין. הרשויות זיהו את החשודים כדייגו סבסטיאן וג'ררדו. לפי הדיווח, דייגו סבסטיאן ניצל את היכרותו המוקדמת עם מלנדז כדי להשיג גישה לבית, ואף הציע לשותפו סכום של 2 מיליון פזו, שהם שווי ערך לכ-118 אלף דולר, בתמורה לסיוע בהשגת המטבעות הדיגיטליים. המעצר של השניים בוצע ב-2 בספטמבר, לאחר שהאירוע הסתיים בתוצאות טרגיות שגבו את חייהם של המוזיקאי, אשתו ההרה, בתם הקטנה ועובדת המשק בביתם.\n\nכדי להבין את הרקע הטכני, חשוב להבהיר כי ארנק קר (Cold Wallet) הוא התקן חומרה – דוגמת Ledger, Trezor או Coldcard – שנועד לשמור על המפתחות הפרטיים במצב של 'אופליין', כלומר ללא חיבור לאינטרנט. טכנולוגיה זו מספקת הגנה מצוינת מפני התקפות סייבר מתוחכמות, אך היא אינה מעניקה הגנה מפני איומים פיזיים. מרגע שהתוקף מבין שברשותו של אדם נמצאים נכסים בעלי ערך רב, הארנק הקר הופך למטרה פיזית. העובדה שהמפתחות נשמרים על התקן פיזי הופכת את בעל ההתקן למוקד של לחץ או איומים, מצב שבו הטכנולוגיה עצמה אינה יכולה לספק מענה ביטחוני.\n\nהנתונים מצביעים על כך שלא מדובר באירוע מבודד. חברת ניתוח הבלוקצ'יין Chainalysis תיעדה לא פחות מ-46 התקפות אלימות הקשורות לקריפטו עד אמצע שנת 2026, כאשר סך הגניבות באירועים אלו נאמד ביותר מ-30 מיליון דולר בחצי השנה הראשונה בלבד. על פי הנתונים, כ-37% מהתקריות הללו התרחשו בבתים פרטיים, מה שמעיד על מגמה מדאיגה של פשיעה מכוונת נגד מחזיקי נכסים דיגיטליים. דוגמה נוספת למגמה זו התרחשה ביוני האחרון, כאשר שני אחים בטקסס הודו כי פרצו לבית משפחה במינסוטה ואיימו עליהם בנשק במשך שעות, עד שאילצו את האב להעביר להם יותר מ-8 מיליון דולר בנכסים דיגיטליים.\n\nלסיכום, הסיפור הטרגי הזה מדגיש את הצורך בזהירות יתרה בכל הנוגע לחשיפת החזקות פיננסיות, ובמיוחד נכסים דיגיטליים. עבור קהילת המשקיעים, השיעור הוא חד וברור: דיסקרטיות היא חלק בלתי נפרד מאסטרטגיית ניהול הסיכונים. בעוד שהטכנולוגיה מאפשרת עצמאות פיננסית חסרת תקדים, היא גם דורשת מאיתנו להיות מודעים לסביבה הפיזית שבה אנחנו חיים. בטיחות אישית צריכה לעמוד בראש סדר העדיפויות, עוד לפני כל החלטה על אופן אחסון הנכסים. שמירה על צניעות בנוגע למצב הפיננסי היא לא רק עצה לחיים, אלא כלי הגנה מהותי בעידן הדיגיטלי הנוכחי.",
-      "terms_he": [
-        {
-          "term": "ארנק קר (Cold Wallet)",
-          "explain": "התקן חומרה חיצוני השומר מפתחות פרטיים ללא חיבור לאינטרנט כדי להגן עליהם מפני פריצות רשת."
-        }
-      ],
-      "points_he": [
-        "הגנה דיגיטלית (ארנק קר) אינה מחליפה את הצורך בביטחון פיזי בבית.",
-        "חשיפת החזקות קריפטו משמעותיות בפני גורמים לא רצויים עלולה להפוך אתכם למטרה.",
-        "סטטיסטיקות מראות עלייה בתקיפות פיזיות נגד מחזיקי קריפטו, כאשר חלק משמעותי מהן מתרחש בבתים פרטיים.",
-        "יש לשמור על פרטיות בנוגע להשקעות ולא לשתף מידע על היקף ההחזקות עם גורמים שאינם מהימנים."
-      ],
-      "meaning_he": "האירוע מדגיש את הצורך בפרטיות ושמירה על פרופיל נמוך כחלק בלתי נפרד מאסטרטגיית אבטחה של מחזיקי קריפטו.",
-      "gen_v": 6
-    },
-    {
-      "id": "181egwv",
-      "title": "Mexican Musician and Family Killed Over Bitcoin Cold Wallet Believed to Hold Millions",
-      "link": "https://decrypt.co/377795/mexican-family-killed-bitcoin-cold-wallet",
-      "summary": "Mexican prosecutors allege suspects targeted Camilo Séptimo keyboardist Jonathan Meléndez and his family while searching for a cold wallet they believed contained millions in Bitcoin.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-09-09T16:16:04.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/crime_jail-handcuffs-gID_7.png",
-      "title_he": "דינמיקה של 'מם-קוין': ניתוח המקרה של מטבע ה-LAPTOP",
-      "brief_he": "השקת מטבע המם LAPTOP מדגימה את הסיכונים הגבוהים והתנודתיות הקיצונית המאפיינים נכסים ספקולטיביים.",
-      "commentary_he": "השוק הדיגיטלי מוכיח שוב ושוב כי הוא מסוגל לייצר תנועות מחיר חדות שקשה להסבירן בכלים כלכליים מסורתיים. השקת המטבע LAPTOP, שזכה לתשומת לב רבה בשל שמו השנוי במחלוקת, מספקת מקרה בוחן לימודי על האופן שבו פועלים מטבעות מם (Meme Coins) והסכנות הטמונות בהם עבור משקיעים לא מנוסים. המטבע, שהושק על רשת ה-Base של Coinbase, חווה תנודתיות חריפה תוך דקות ספורות מרגע הופעתו בשוק, מה שמהווה תזכורת לכך שמה שנראה כהזדמנות רווח מהירה עלול להסתיים בהפסדים משמעותיים עבור רוב המשתתפים.\n\nעל פי הדיווחים של חברת המודיעין הבלוקצ'יין Arkham, המטבע הושק בשעות הבוקר של יום רביעי. בתוך שתי דקות בלבד מהשקתו, זינק מחירו לשיא של 190.81 דולר. הנתון המעניין ביותר, כפי שצוין בפרסום, היה הפער העצום בין הערכת השווי המלאה (FDV) של המטבע, שהגיעה לכ-144 מיליארד דולר, לבין הנזילות בפועל בבריכת המסחר, שעמדה על 48,000 דולר בלבד. פער זה הוא גורם קריטי ליציבות המטבע; כאשר יש מעט מאוד נזילות מול שווי שוק תיאורטי כה גבוה, כל פעולת מכירה משמעותית מובילה לקריסה מיידית של המחיר. אכן, תוך שעה בלבד, המטבע איבד כ-90% מערכו ונסחר סביב 4.77 דולר, כאשר בהמשך היום התייצב באזור ה-1.97 דולר – ירידה של כ-99% מהשיא.\n\nכדי להבין את התופעה, יש להכיר את המנגנון של מטבעות מם. בניגוד לנכסים בעלי ערך פונדמנטלי, מטבעות מסוג זה נשענים לרוב על תרבות אינטרנט, ספקולציות וטרנדים רגעיים. במקרה של LAPTOP, הדינמיקה הייתה קלאסית: זינוק מהיר שהונע על ידי ספקולנטים ובוטים (אלגוריתמי מסחר אוטומטיים), ולאחריו 'מכירת חיסול' של המשקיעים המוקדמים שהצליחו לממש רווחים על חשבון אלו שנכנסו בשלב מאוחר יותר. נתונים על השרשרת הראו כי בעוד שמשקיע אחד הצליח להפוך השקעה ראשונית לרווח משמעותי של מעל מיליון דולר בתוך דקות, משקיעים אחרים מצאו את עצמם עם ירידת ערך של עשרות אלפי דולרים בתוך שעה אחת בלבד.\n\nההיסטוריה של מטבעות מם פוליטיים מעידה על כך שמדובר בתבנית חוזרת. מטבעות קודמים, כמו מטבע ה-TRUMP שהושק בינואר 2025, חוו מסלול דומה: זינוק ראשוני לשיאים ולאחריו צניחה עקבית. לפי ההערכות, מיליון מחזיקים הפסידו במצטבר כ-3.81 מיליארד דולר על מטבע זה. העובדה שיוצרי LAPTOP ניסו לשלב מנגנוני 'איירדרופ' (חלוקת מטבעות בחינם) למחזיקי מטבעות עבר שהפסידו כסף, היא ניסיון ליצור אמון בקהילה, אך היא אינה משנה את העובדה שהבסיס הכלכלי של המטבע נותר ספקולטיבי מאוד. השוואות שנעשו בפרסומים למיזמים טכנולוגיים מסורתיים מדגישות שגם בשוק ההון, לא כל הנפקה מבטיחה רווח למשקיעים בטווח הקצר, אולם בשוק הקריפטו, המהירות שבה נוצרים ומחוקים נכסים היא חסרת תקדים.\n\nהשורה התחתונה עבור הקהילה היא חשיבות הזהירות. השקעה בנכסים בתחילת דרכם, ללא תשתית טכנולוגית או ערך ממשי מעבר לספקולציה, היא פעולה בעלת סיכון גבוה במיוחד. המקרה של LAPTOP מדגים כיצד שוק מבוזר יכול לפעול נגד משקיע לא מנוסה שפועל מתוך פחד מהחמצה (FOMO). לפני שמקבלים החלטה להשקיע בנכס כזה, חשוב לבחון לא רק את המחיר, אלא את הנזילות, את המנגנונים הכלכליים ואת העובדה שרוב המטבעות הללו מסתיימים בירידות חדות. השכלה פיננסית, הבנה של סיכונים והימנעות מרדיפה אחרי טרנדים חולפים הם הכלים הטובים ביותר להגנה על ההון האישי בעולם הקריפטו.",
-      "terms_he": [
-        {
-          "term": "נזילות (Liquidity)",
-          "explain": "היכולת לקנות או למכור נכס במהירות מבלי להשפיע באופן דרמטי על המחיר שלו."
-        },
-        {
-          "term": "מטבע מם (Meme Coin)",
-          "explain": "מטבע דיגיטלי שנוצר בהשראת תרבות אינטרנט או בדיחה, לרוב ללא ערך טכנולוגי או שימושי מוגדר."
-        },
-        {
-          "term": "FDV (Fully Diluted Valuation)",
-          "explain": "שווי השוק המלא של כל המטבעות שיהיו קיימים אי פעם, גם אם הם עדיין לא הופצו לשוק."
-        }
-      ],
-      "points_he": [
-        "השקעה במטבעות מם מאופיינת בתנודתיות קיצונית וסיכון גבוה לאובדן הון כמעט מוחלט.",
-        "פער גדול בין הערכת שווי (FDV) לבין נזילות בפועל הוא סימן אזהרה משמעותי ליציבות המטבע.",
-        "פעילות של 'בוטים' וספקולנטים בשלב ההשקה מותירה לעיתים קרובות את המשקיעים הקטנים עם הפסדים כבדים.",
-        "מומלץ לבחון את המבנה הכלכלי של הנכס ולא להסתמך על הייפ או פופולריות רגעית."
-      ],
-      "meaning_he": "המקרה מדגים את חשיבות הניתוח המושכל של נזילות ושקיפות בנכסים דיגיטליים, ומזהיר מפני הסיכונים הטמונים בספקולציות מבוססות הייפ.",
-      "gen_v": 6
-    },
-    {
-      "id": "1ohmdqj",
-      "title": "Hunter Biden's LAPTOP Meme Coin Crashes 99% on Debut",
-      "link": "https://decrypt.co/377783/hunter-biden-laptop-meme-coin-crashes",
-      "summary": "LAPTOP hit a $190.81 peak within minutes of launching on Base, then shed roughly 99% as thin liquidity met a wave of selling.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-09-09T15:47:09.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/09/hunter-biden-decrypt-style-01-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "19sm652",
-      "title": "Hunter Biden's LAPTOP Falls 99% In Three Hours To TRUMP's Valuation",
-      "link": "https://thedefiant.io/news/tokens/hunter-biden-laptop-falls-99-percent-three-hours-trump-valuation",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-09-09T15:45:48.000Z",
-      "image": "https://cdn.thedefiant.io/laptop-thumbnail-jpg-501c44d6-5aaf-47fd-bafc-eee3b4d12099.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1shczc4",
-      "title": "Prediction Markets Abandon Cheap Oil as Brent Passes $100",
-      "link": "https://decrypt.co/377766/prediction-markets-abandon-cheap-oil-as-brent-passes-100",
-      "summary": "Myriad's $120 side overtook $55 at the start of September, while Polymarket puts WTI reaching $100 this month at 59%.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-09-09T15:15:01.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/09/oil-market-decrypt-style-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1q4zrzu",
-      "title": "Consensys Is Splitting in Two as MetaMask Goes Its Own Way",
-      "link": "https://decrypt.co/377768/consensys-split-metamask-new-institutional-crypto-company",
-      "summary": "Consensys Software Inc. will become MetaMask, while a newly formed Consensys will take over the firm's Ethereum protocols and institutional blockchain infrastructure business.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-09-09T15:07:24.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/06/decrypt-style-metamask-fox-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "bsg6q6",
-      "title": "Consensys Software Inc. Splits In Two, Rebrands As MetaMask",
-      "link": "https://thedefiant.io/news/defi/consensys-software-inc-splits-in-two-rebrands-as-metamask",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-09-09T15:00:08.000Z",
-      "image": "https://cdn.thedefiant.io/pasted-1788965616029-png-5b73fdbf-1972-4ae8-bbd4-1cf880fc96dd.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "qgxpb5",
-      "title": "German Finance Ministry Drafts 25% Tax on Crypto Gains From 2027",
-      "link": "https://decrypt.co/377764/german-finance-ministry-drafts-25-tax-on-crypto-gains-from-2027",
-      "summary": "Anything bought before 2027 keeps the twelve-month exemption, so the change lands only on Germany's future crypto buyers.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-09-09T14:37:18.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/cryptocurrency-world-decrypt-style-gID_7.jpg",
-      "title_he": "שינויים במיסוי הקריפטו בגרמניה: מה צפוי למשקיעים?",
-      "brief_he": "גרמניה מקדמת הצעת חוק להטלת מס קבוע של 25% על רווחי קריפטו החל משנת 2027, תוך שמירה על הסטטוס הקיים לנכסים שנרכשו לפני מועד זה.",
-      "commentary_he": "המערכת הפיננסית הגרמנית עומדת בפני שינוי משמעותי בכל הנוגע למיסוי נכסים דיגיטליים, מהלך שעשוי להשפיע על האופן שבו משקיעים מקומיים מתכננים את אסטרטגיית ההשקעות שלהם בשנים הקרובות. על פי דיווחים שפורסמו לאחרונה, משרד האוצר הגרמני גיבש טיוטת חוק המבקשת להחיל מס אחיד בשיעור של 25% על רווחי הון ממכירת מטבעות קריפטוגרפיים. הצעד הזה מסמן התרחקות מהגישה הנוכחית של המדינה, שעד כה אפשרה פטור מלא ממס על רווחי קריפטו למי שהחזיק בנכסים מעבר לתקופה של שנים-עשר חודשים. המהלך נתפס כניסיון של הרגולטור הגרמני להשוות את מעמדו של הקריפטו לנכסים פיננסיים מסורתיים אחרים, כגון מניות או דיבידנדים.\n\nלפי פרטי הטיוטה, החוק צפוי להיכנס לתוקף בראשון בינואר 2027, והוא יחול אך ורק על נכסים דיגיטליים שיירכשו החל מתאריך זה ואילך. משמעות הדבר היא שמדובר בשינוי צופה פני עתיד: כל מי שמחזיק כיום בביטקוין או בנכסים אחרים יוכל להמשיך ליהנות מהפטור הקיים תחת הכללים הנוכחיים, מה שמעניק רשת ביטחון למשקיעים ותיקים. החל מ-2028, מתוכננת כניסתו של מנגנון ניכוי מס במקור, שבו פלטפורמות ומתווכים פיננסיים ידווחו ויגבו את המס ישירות מהמקור, בדומה לאופן שבו מתנהל כיום המיסוי על הכנסות מהון בגרמניה. ההערכות הממשלתיות מדברות על הכנסות ממס בסך 160 מיליון אירו בשנת 2028, עם צפי לעלייה ל-350 מיליון אירו בשנה עד 2031.\n\nהרקע למהלך טמון בטענה של משרד האוצר הגרמני כי שוק הקריפטו הגיע לבגרות מספקת, וכי אין עוד הצדקה להעניק לו מעמד מס מועדף המזכיר נכסים כמו עתיקות או יצירות אמנות. בטיוטה מצוין כי נכסים דיגיטליים מייצגים כיום אפיק השקעה הוני פרטי לכל דבר ועניין. עם זאת, המהלך עורר ביקורת בקרב גורמים בתעשייה, הטוענים כי הטלת מס על רווחים לטווח ארוך עלולה לפגוע דווקא במשקיעים השקולים ולא רק בספקולנטים שחיפשו רווח מהיר. יתרה מכך, הצעת החוק מבהירה כי הכנסות מפעילויות כמו סטייקינג (Staking) והלוואות קריפטו ימוסו אף הן כהכנסה הונית, מה שסוגר פרצה משפטית שקיימה עד כה אי-ודאות סביב מיסוי הכנסות אלו.\n\nחשוב לציין כי המערכת הגרמנית מציעה גם הקלות מסוימות בתוך המתווה החדש. בדומה למיסוי על מניות, משקיעים יוכלו לקזז הפסדים כנגד רווחים, וכן יחול פטור בסיסי למשקיעים קטנים בסך 1,000 אירו. בנוסף, נכסים כמו NFT, טוקנים של אבטחה (Security Tokens) וחלק מהסטייבלקוינס יישארו מחוץ למשטר המס החדש הזה, לפחות בשלב זה. עבור משקיעים, המשמעות היא שהצורך בתיעוד מדויק של מחירי הרכישה ותאריכי הרכישה הופך לקריטי יותר מאי פעם. מי שלא יוכל להציג הוכחות לרכישה יחויב במס מלא על סכום המכירה, מה שמדגיש את החשיבות של ניהול רישומים מסודר כבר היום.\n\nלסיכום, בעוד שהשינוי בגרמניה נראה כצעד רגולטורי מתבקש מצד הממשלה, הוא מציב רף חדש של אחריות על כתפי המשקיע. התקופה שנותרה עד 2027 היא חלון זמן משמעותי שבו משקיעים יכולים לבחון את תיק הנכסים שלהם ולהבין כיצד השינויים יבואו לידי ביטוי במאזן האישי שלהם. ככל שהתחום הופך לחלק בלתי נפרד מהכלכלה הגלובלית, סביר להניח שנראה מדינות נוספות מאמצות מודלים דומים של מיסוי, מה שמעיד על הצורך של הקהילה להכיר לא רק בטכנולוגיה, אלא גם בהשלכות הפיננסיות והמשפטיות של ההחזקות שלהם.",
-      "terms_he": [
-        {
-          "term": "ניכוי מס במקור",
-          "explain": "מנגנון שבו הגוף המשלם (בורסה או בנק) מעביר את המס ישירות לרשויות המס בטרם הכסף מגיע לחשבון המשקיע."
-        }
-      ],
-      "points_he": [
-        "השינוי יחול רק על נכסים שיירכשו החל מה-1 בינואר 2027.",
-        "הפטור הקיים למחזיקים לטווח ארוך (מעל שנה) נותר בתוקף עבור נכסים קיימים.",
-        "המס החדש יכלול אפשרות לקיזוז הפסדים כנגד רווחים, בדומה למניות.",
-        "ניהול רישומים של תאריכי ומחירי רכישה הופך לחיוני לצורך התחשבנות עתידית."
-      ],
-      "meaning_he": "המהלך הגרמני מסמל את התבגרות הרגולציה על שוק הקריפטו באירופה, ומדגיש את החשיבות של התנהלות פיננסית מסודרת ומתועדת עבור משקיעים פרטיים.",
-      "gen_v": 6
     },
     {
       "id": "gloxw6",
@@ -651,36 +643,6 @@
       "points_he": [],
       "meaning_he": null,
       "gen_v": null
-    },
-    {
-      "id": "kqnum5",
-      "title": "Strategy Halted Its Bitcoin Buys Again Last Week",
-      "link": "https://bitcoinmagazine.com/news/strategy-halted-bitcoin-buys-last-week",
-      "summary": "Bitcoin Magazine Strategy Halted Its Bitcoin Buys Again Last Week The largest corporate holder of bitcoin is instead focusing on buying back its stock and building up its cash reserves. This post Strategy Halted Its…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-09-08T15:38:26.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/03/Strategy-MSTR-Breaks-13-Week-Bitcoin-Buying-Streak-Holdings-Hold-at-762099-BTC.jpg",
-      "title_he": "אסטרטגיית אוצר: מדוע החברה הגדולה בעולם בהחזקות ביטקוין משנה כיוון",
-      "brief_he": "חברת Strategy, המחזיקה בכמות הגדולה ביותר של ביטקוין בקרב תאגידים, בחרה לעצור שוב את רכישות הנכס לטובת חיזוק המאזן ורכישה עצמית של מניותיה.",
-      "commentary_he": "הדיווח האחרון על החלטתה של חברת Strategy לעצור זמנית את רכישות הביטקוין שלה מעורר עניין רב בקרב משקיעים העוקבים אחר השילוב בין ניהול אוצר תאגידי לבין נכסים דיגיטליים. החברה, שהפכה לשם נרדף לאסטרטגיה של אימוץ ביטקוין כנכס מילואים מרכזי, הודיעה כי היא עוצרת את הרכישות השוטפות פעם נוספת. צעד זה מגיע זמן קצר לאחר שחודשו הרכישות לאחר הפסקה של עשרה שבועות. במקום להמשיך ברכישת הביטקוין, החברה מפנה משאבים לרכישה חוזרת של מניותיה והגדלת תוכנית רכישת ניירות הערך הדיגיטליים שלה, מהלך שמסמן סדרי עדיפויות מורכבים יותר בניהול ההון התאגידי הנוכחי. על פי הפרסום, מדובר במהלך אסטרטגי המכוון לאיזון המאזן ולא רק להגדלת החשיפה לנכס הדיגיטלי. על פי הדיווח, החברה השקיעה כ-176 מיליון דולר ברכישה חוזרת של מניותיה (STRC) והגדילה את תוכנית הרכישה של ניירות הערך הדיגיטליים שלה ממיליארד דולר לשני מיליארד דולר. נכון ל-7 בספטמבר 2026, החברה מחזיקה ב-845,050 מטבעות ביטקוין בשווי שוק העולה על 66 מיליארד דולר, לצד רזרבות של 6.5 מיליארד דולר במזומן. הביטקוין שבידי החברה נרכשו במחיר ממוצע שנגזר מהשקעה כוללת של כ-63.73 מיליארד דולר. נתונים אלו מדגישים את קנה המידה העצום של הפעילות, המציב את החברה כשחקנית דומיננטית בשוק המטבעות הדיגיטליים. ההחלטה על השהיית הרכישות אינה חדשה לחלוטין עבור החברה, שכן כבר ביוני האחרון היא בחרה לעצור את הצבירה כדי לבנות חיץ מזומנים ולנהל את החשיפה שלה באופן אקטיבי יותר. המנכ\"ל, פונג לה, הסביר כי המהלכים נועדו להבטיח מאזן חסין, המאפשר לחברה גמישות פיננסית גם בתנאי שוק משתנים. למרות הפסד רבעוני של 8.22 מיליארד דולר שדווח ביולי, הנהלת החברה מדגישה כי מדובר בהפסד על הנייר בלבד וכי האסטרטגיה ארוכת הטווח נותרה יציבה. ההשוואה של המנכ\"ל לגופים פיננסיים מסורתיים מעידה על תפיסת החברה את עצמה לא רק כחברת תוכנה שפנתה לביטקוין, אלא כגוף המנהל אוצר אסטרטגי עבור בעלי המניות שלה. עבור משקיעים, החשיפה לביטקוין דרך מניית החברה (MSTR) מהווה חלופה להחזקה ישירה במטבע, המאפשרת ליהנות מתנודתיות השוק תוך מעורבות של גוף תאגידי מנוהל. הבנת המהלכים של Strategy דורשת הסתכלות רחבה על האופן שבו תאגידים משלבים נכסים דיגיטליים בתוך מבנה הון מסורתי. בניגוד למשקיע הפרטי, חברה ציבורית מחויבת למדדים נוספים כמו שווי מניה, דירוג אשראי ויחסי נזילות. השימוש בביטקוין ככלי להגנה מפני אינפלציה, כפי שהוגדר על ידי החברה מאז 2020, פוגש כעת מציאות שבה ניהול מזומנים ורכישות מניות חוזרות הופכים לחיוניים לא פחות לצורך שמירה על ערך בעלי המניות. השוק מגיב לשינויים הללו באופן מיידי, כפי שניתן היה לראות בירידת ערך המניה לאחר ההודעה, דבר המעיד על רגישות המשקיעים לכל שינוי בתוואי הצבירה של הביטקוין בחברה. לסיכום, המקרה של Strategy מהווה מקרה בוחן מרתק לניהול אוצר מודרני בעולם הדיגיטלי. החברה מדגימה כיצד ניתן לשלב החזקות אסטרטגיות ארוכות טווח בנכסים דיגיטליים עם ניהול פיננסי טקטי הכולל רכישות חוזרות וחיזוק רזרבות. עבור מי שעוקב אחר התחום, זהו תזכורת לכך שגם כשמדובר בטכנולוגיה פורצת דרך, הכללים הבסיסיים של ניהול סיכונים, נזילות ושקיפות פיננסית נותרים אבני הראשה של כל פעילות כלכלית יציבה.",
-      "terms_he": [
-        {
-          "term": "רכישה עצמית (Buyback)",
-          "explain": "תהליך שבו חברה רוכשת את המניות של עצמה מהשוק, מה שמקטין את היצע המניות ומעלה לעיתים את ערך המניות שבידי הציבור."
-        },
-        {
-          "term": "מאזן (Balance Sheet)",
-          "explain": "דו\"ח פיננסי המציג את הנכסים, ההתחייבויות וההון העצמי של החברה בנקודת זמן מסוימת."
-        }
-      ],
-      "points_he": [
-        "החברה ממשיכה להחזיק בכמות משמעותית של 845,050 ביטקוין, מה שהופך אותה למחזיקה התאגידית הגדולה ביותר.",
-        "האסטרטגיה של החברה עברה מ'צבירה בלבד' לניהול מאזן משולב הכולל רכישות מניות חוזרות וחיזוק מזומנים.",
-        "ניהול אוצר תאגידי מחייב גמישות והתחשבות בצרכי נזילות, גם כשמדובר באסטרטגיה ארוכת טווח של החזקת ביטקוין."
-      ],
-      "meaning_he": "התנהלות החברה משקפת את האבולוציה של חברות ציבוריות באימוץ נכסים דיגיטליים כחלק מניהול האוצר הארגוני, תוך איזון בין חזון ארוך טווח לבין צרכי שוק מיידיים.",
-      "gen_v": 6
     },
     {
       "id": "1hhw895",
