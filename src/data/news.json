@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-11T18:57:47.857Z",
+  "updated": "2026-09-11T22:11:19.485Z",
   "count": 46,
   "sources": [
     "The Defiant",
-    "Bitcoin Magazine",
     "Decrypt",
+    "Bitcoin Magazine",
     "Bitcoin Embassy TLV"
   ],
   "items": [
@@ -15,7 +15,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-09-11T18:54:26.000Z",
+      "date": "2026-09-11T22:08:25.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/70bddc713c02d2b15c4fce8dfe9223bda0bd2192-2048x1152.png",
       "title_he": "התנודתיות בשוק הביטקוין: ניתוח הקשר בין מדיניות הריבית לזרימת ההון ל-ETFs",
       "brief_he": "לאחר רצף עליות מרשים שהונע על ידי קרנות סל, שוק הביטקוין מציג סימני התמתנות בעקבות הצהרות מצד הפדרל ריזרב ונתוני מאקרו משתנים.",
@@ -36,7 +36,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-09-11T18:54:26.000Z",
+      "date": "2026-09-11T22:08:25.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/6d9fbb8531c1aa6addad885741ca06e35d79f654-2048x1152.png",
       "title_he": "ביטקוין לאחר הראלי: מבט טכני ומקרו-כלכלי על השוק",
       "brief_he": "לאחר חודש אוגוסט חזק, הביטקוין מתמודד עם צמתים טכניים משמעותיים ושינויים במדיניות המוניטרית של הפדרל ריזרב.",
@@ -67,7 +67,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-09-11T18:54:26.000Z",
+      "date": "2026-09-11T22:08:25.000Z",
       "image": "https://cdn.thedefiant.io/crypto-down-thumbnail-jpg-7e080037-2eb9-485b-b9ad-6bf814972aab.jpg",
       "title_he": "בין נתוני אינפלציה להחלטות פדרליות: התנהלות השוק סביב הריבית",
       "brief_he": "נתוני האינפלציה האחרונים בארה\"ב יצרו תנודתיות בשוק הקריפטו, בעוד המשקיעים ממתינים להחלטת הריבית הקרובה של הפדרל ריזרב.",
@@ -81,6 +81,79 @@
       ],
       "meaning_he": "הבנת הקשר בין המדיניות המוניטרית האמריקאית לשוק הקריפטו חיונית לכל משקיע שרוצה לנווט בתבונה בתקופות של אי-ודאות כלכלית גלובלית.",
       "gen_v": 6
+    },
+    {
+      "id": "1u3yf9e",
+      "title": "Cyberattacks on Law Firms Nearly Double as Stolen Documents Hit the Dark Web",
+      "link": "https://decrypt.co/378094/cyberattacks-law-firms-stolen-documents-dark-web",
+      "summary": "Greenberg Traurig said documents were posted to the dark web, while BakerHostetler recorded a near-doubling of law-firm incidents in 2025.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-09-11T21:45:05.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Hacker-hack-decrypt-style-04-gID_7.jpg",
+      "title_he": "מגמת עלייה במתקפות סייבר נגד משרדי עורכי דין וחברות טכנולוגיה",
+      "brief_he": "דיווחים על פריצות נתונים רחבות היקף במשרדי עורכי דין ובחברות קריפטו מדגישים את החשיבות הגוברת של אבטחת מידע אישי בעידן הדיגיטלי.",
+      "commentary_he": "המרחב הדיגיטלי הופך למורכב יותר עבור גופים המחזיקים במידע רגיש, כאשר השנה החולפת סימנה מגמה מדאיגה של עלייה במתקפות סייבר ממוקדות. משרדי עורכי דין בינלאומיים, המחזיקים לעיתים קרובות במסמכים חסויים של תאגידים ולקוחות פרטיים, הפכו ליעד מרכזי עבור תוקפים. על פי דיווחים שפורסמו לאחרונה, המגמה הזו אינה פוסחת גם על התעשייה שלנו, כאשר חברות קריפטו ובסיסי נתונים של משתמשים מוצאים את עצמם בקו האש, מה שמחייב את כולנו, כמשקיעים וכמשתמשים, לבחון מחדש את הדרך שבה אנו מנהלים את המידע האישי שלנו.\n\nעל פי הדיווח של סוכנות רויטרס, משרד עורכי הדין Greenberg Traurig אישר כי גורם לא מורשה השיג גישה למסמכים מסוימים ופרסם אותם ברשת האפלה. במקביל, נתונים מתוך דוח האבטחה של פירמת BakerHostetler לשנת 2026 מצביעים על זינוק משמעותי: בשנת 2025 טיפלה הפירמה בכמעט 60 אירועי סייבר שונים במשרדי עורכי דין, כמעט פי שניים בהשוואה לשנת 2024. הדיווח מוסיף כי מקרים דומים נרשמו בקרב פירמות נוספות, בהן Taft Stettinius & Hollister, Herbert Smith Freehills Kramer ו-Goodwin Procter, שם נחשפו פרטים רגישים כגון מספרי ביטוח לאומי ורשומות רפואיות. בתחום הקריפטו, חברת Coinbase דיווחה במאי 2025 על פריצה שחשפה מידע אישי של כ-69,461 משתמשים, בעוד שחברת Ledger אישרה בראשית 2026 כי דליפת נתונים אצל שותפה עסקית חשפה מידע על הזמנות לקוחותיה. בחודש אוגוסט האחרון, חברת SafePal דיווחה על פרצה שחשפה פרטים של כ-39,798 משתמשים, וזמן קצר לאחר מכן, חברת Trezor התמודדה עם ניסיונות פישינג מתוחכמים המבוססים על פריצה לספק שירותי הדוא\"ל החיצוני שלה.\n\nחשוב להבין את הרקע הטכנולוגי והעסקי שמאחורי אירועים אלו. משרדי עורכי דין מהווים יעד אטרקטיבי עבור תוקפים בשל עושר המידע שהם מרכזים, אך גם חברות קריפטו נתונות תחת לחץ מתמיד. בעוד שרשתות הבלוקצ'יין עצמן נותרות מאובטחות ברובן, נקודות התורפה נמצאות לעיתים קרובות בממשקים מול צדדים שלישיים, בשירותי תמיכה או במערכות מסחר משלימות. התוקפים משתמשים בטכניקות של הנדסה חברתית ופישינג, המהוות, לפי הדוחות, כ-30% מכלל אירועי האבטחה שנרשמו ב-2025. ההתקפות הללו מנצלות לא פעם את האמון שנותנים המשתמשים במותגים גדולים ומוכרים, תוך שליחת התראות שווא על פרצות אבטחה כביכול כדי לדלות פרטי גישה.\n\nהשלכות המגמה הזו מרחיקות לכת. עבור המשתמש, מדובר לא רק בסכנה פיננסית, אלא גם בחשיפה של מידע אישי שעלול לשמש למתקפות עתידיות ממוקדות יותר. העובדה שחברות כמו Coinbase בחרו לסרב לדרישות כופר של 20 מיליון דולר והעדיפו להציע פרס על מידע שיוביל למעצר התוקפים, מעידה על ניסיון לשנות את כללי המשחק מול הפורצים, אך אין בכך כדי להבטיח הגנה מלאה. הסיכונים קיימים, וההנחה הבסיסית צריכה להיות שכל מערכת דיגיטלית, מתוחכמת ככל שתהיה, עשויה להכיל פרצות פוטנציאליות.\n\nהשורה התחתונה היא שאין תחליף לערנות אישית. כקהילה שפועלת בסביבה טכנולוגית, עלינו לאמץ הרגלי אבטחה מחמירים, כגון שימוש באימות דו-שלבי, הקפדה על הפרדת ארנקים וחשבונות, וזהירות יתרה מכל הודעה או התראה המבקשת פרטים אישיים, גם אם היא נראית רשמית. אבטחה אינה פרויקט חד-פעמי, אלא תהליך מתמשך של שמירה על נכסינו ופרטיותנו בעולם הולך ונהיה דיגיטלי.",
+      "terms_he": [],
+      "points_he": [
+        "השתמשו באימות דו-שלבי (2FA) בכל חשבון פיננסי או שירות קריפטו.",
+        "הימנעו מלחיצה על קישורים בהתראות אבטחה; גשו תמיד ישירות לאתר הרשמי דרך הדפדפן.",
+        "הפרידו בין ארנקים המיועדים למסחר פעיל לבין ארנקים המיועדים לאחסון לטווח ארוך.",
+        "זכרו שחברות לגיטימיות לעולם לא יבקשו מכם את מפתח השחזור (seed phrase) של הארנק שלכם."
+      ],
+      "meaning_he": "העלייה בפריצות סייבר מדגישה שגם השירותים המאובטחים ביותר חשופים לסיכונים; עלינו להניח שמידע אישי דלף ולנקוט בצעדי הגנה פרואקטיביים באופן קבוע.",
+      "gen_v": 6
+    },
+    {
+      "id": "oylh7",
+      "title": "Bitcoin’s ‘Unusual Mix’: Bearish Inflation Print, Bullish Buyback Failure",
+      "link": "https://bitcoinmagazine.com/news/bitcoin-has-unusual-mix-says-coinshares",
+      "summary": "Bitcoin Magazine Bitcoin’s ‘Unusual Mix’: Bearish Inflation Print, Bullish Buyback Failure A new CoinShares report said bitcoin's price could be hurt in the short-term but benefit in the long-term. This post Bitcoin’s…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-09-11T21:22:59.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/09/Pics-1-7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "qk48s2",
+      "title": "Blockstream Tells Hackers To Return Remaining Bitcoin Stolen in Liquid Theft",
+      "link": "https://bitcoinmagazine.com/news/blockstream-tells-demands-bitcoin",
+      "summary": "Bitcoin Magazine Blockstream Tells Hackers To Return Remaining Bitcoin Stolen in Liquid Theft White hat hackers targeted Blocksteam's Liquid sidechain, taking over 4,000 bitcoins. They want to keep some of the bitcoins…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-09-11T21:13:48.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/09/Pics-19.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1gfijrl",
+      "title": "Bitcoin Golden Cross Flickers Off as Rate-Hike Bets Firm Up",
+      "link": "https://decrypt.co/378081/bitcoin-golden-cross-flickers-off",
+      "summary": "A rapidly changing interest rates market has changed the near-term outlook on the Bitcoin chart. Here’s why.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-09-11T20:53:39.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/crypto-trading-decrypt-style-02-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
     },
     {
       "id": "1wmcj9t",
@@ -202,9 +275,9 @@
       "gen_v": null
     },
     {
-      "id": "1w2p9ca",
+      "id": "10ofmn8",
       "title": "Bitcoin Price Spikes, Shrugs off Hot US Inflation Data",
-      "link": "https://bitcoinmagazine.com/news/bitcoin-price-spikes-on-hot-inflation-data",
+      "link": "https://bitcoinmagazine.com/markets/bitcoin-price-spikes-on-hot-inflation-data",
       "summary": "Bitcoin Magazine Bitcoin Price Spikes, Shrugs off Hot US Inflation Data The price of bitcoin is up, despite the fact that an interest rate hike could be just around the corner. This post Bitcoin Price Spikes, Shrugs off…",
       "source": "Bitcoin Magazine",
       "lang": "en",
@@ -454,40 +527,6 @@
       "gen_v": 6
     },
     {
-      "id": "1h23ye4",
-      "title": "DeepSeek's New Model Nearly Matches GPT-6 Astra on Design—at 1.4% of the Cost",
-      "link": "https://decrypt.co/377917/deepseek-openai-gpt-6-astra-design-benchmark",
-      "summary": "OpenDesign put 13 AI models through the same design tasks. DeepSeek V4.1 Flash landed a point and a half behind GPT-6 Astra and roughly 70 times cheaper.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-09-10T21:16:03.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/08/china-deepSeek-AI-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1cc3z37",
-      "title": "AI Agents Just Slashed the Cost of a Quantum Attack on Bitcoin",
-      "link": "https://decrypt.co/377925/ai-agents-slash-cost-quantum-attack-bitcoin",
-      "summary": "The ECDSA.Fail challenge cut a resource benchmark for one component of a potential quantum attack by 86%.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-09-10T20:34:50.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-19-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "k0jf0t",
       "title": "Updated Crypto Clarity Act Starts Circulating Days Before Key Vote",
       "link": "https://bitcoinmagazine.com/news/updated-clarity-act-starts-circulating",
@@ -606,57 +645,6 @@
       "points_he": [],
       "meaning_he": null,
       "gen_v": null
-    },
-    {
-      "id": "u9t6z7",
-      "title": "Coinbase CEO Brian Armstrong Says Clarity Act Will Pass — And That Bitcoin Bottom Is In",
-      "link": "https://bitcoinmagazine.com/news/bitcoin-bottom-is-in-says-brian-armstrong",
-      "summary": "Bitcoin Magazine Coinbase CEO Brian Armstrong Says Clarity Act Will Pass — And That Bitcoin Bottom Is In The Coinbase chief reiterated his prediction that bitcoin hitting $400,000 by 2030 was realistic. This post…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-09-10T16:24:43.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/09/image6_1920x1080.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1lq9rd9",
-      "title": "The Quantum Issue: WTF Is Quantum Computing?",
-      "link": "https://bitcoinmagazine.com/print/the-quantum-issue-wtf-is-quantum-computing",
-      "summary": "Bitcoin Magazine The Quantum Issue: WTF Is Quantum Computing? From The Quantum Issue: A high level look at quantum computer, what it even is, and how it is different from conventional computing. This post The Quantum…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-09-10T13:00:00.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/09/Quantum-Issue-Article-Header-2400x1400-WTF-is-Quantum-Computing.png",
-      "title_he": "מחשוב קוונטי והביטקוין: בין איום תיאורטי למציאות טכנולוגית",
-      "brief_he": "סקירה של טכנולוגיית המחשוב הקוונטי והשלכותיה העתידיות על אבטחת רשת הביטקוין.",
-      "commentary_he": "בעולם הטכנולוגיה, המונח 'מחשוב קוונטי' מעורר לא פעם תגובות מעורבות – החל מסקרנות אינטלקטואלית ועד לחשש עמוק לגבי עתיד האבטחה הדיגיטלית. עבור משקיעים ופעילים בשוק הקריפטו, השאלה המרכזית אינה רק מהו מחשב קוונטי, אלא האם הטכנולוגיה הזו מהווה איום קיומי על היסודות שעליהם נשען הביטקוין. כדי להבין את הסוגיה, יש להפריד בין תפיסת המחשוב הקלאסית, המוכרת לנו מחיי היומיום, לבין הפיזיקה המורכבת שעליה מבוסס המחשוב הקוונטי. האבטחה של הביטקוין מבוססת על ההנחה הבסיסית שאדם המחזיק במפתח פרטי הוא היחיד שיכול לחתום על עסקאות, כל עוד הוא שומר על סודיות המפתח. המחשוב הקוונטי מאתגר את ההנחה הזו בשל יכולתו לעבד מידע בדרכים שחורגות מהחישוב הליניארי המסורתי.\n\nכדי להמחיש את ההבדל, נבחן את אופן הפעולה של מחשב קלאסי. מחשבים רגילים פועלים על בסיס ביטים, שהם יחידות מידע המיוצגות כ-0 או 1. כל פעולה, מחישוב פשוט ועד יצירת מפתח הצפנה, מתבצעת באופן ליניארי – צעד אחר צעד. כאשר מדובר בניסיון לנחש מפתח פרטי של ביטקוין, מדובר במשימה בלתי אפשרית מבחינה חישובית. מרחב האפשרויות של מפתחות פרטיים הוא עצום, ומגיע ל-2 בחזקת 256, מספר שקשה לתפוס את גודלו. לפי הדיווח, מדובר בערך של כ-115,792,089,237,316,195,423,570,985,008,687,907,853,269,984,665,640,564,039,457,584,007,913,129,639,936 אפשרויות. מחשב קלאסי יצטרך לנסות כל אפשרות כזו בנפרד, מה שדורש כוח עיבוד וזמן שמעבר לכל יכולת פיזיקלית הקיימת כיום ביקום.\n\nכאן נכנסת לתמונה הטכנולוגיה הקוונטית. בניגוד למחשב הקלאסי, המחשב הקוונטי אינו מוגבל למצבים בדידים של 0 ו-1. יחידת המידע הבסיסית שלו, הקיוביט (Qubit), יכולה להימצא בסופרפוזיציה – מצב שבו היא מייצגת גם 0 וגם 1 בו-זמנית כל עוד היא לא נצפתה. בנוסף, הקיוביטים נהנים מתכונה המכונה 'שזירה קוונטית' (Entanglement), המאפשרת להם להיות מקושרים זה לזה בצורה שמשנה את אופן העיבוד של נתונים מורכבים. המחשב הקוונטי אינו פשוט 'מחשב מהיר יותר', אלא כלי שמשתמש בעקרונות הפיזיקה כדי לבצע סוגים מסוימים של חישובים ביעילות שאין לה אח ורע במחשוב הקלאסי, מה שמאפשר לו, תיאורטית, לדלג על שלבים שחוסמים את המחשוב המסורתי.\n\nההשלכות של יכולות אלו על עולם ההצפנה הן נושא למחקר אקדמי וטכנולוגי נרחב. אף שאין כיום מחשב קוונטי בעל עוצמה מספקת כדי לסכן את רשת הביטקוין, הדיון בנושא נותר רלוונטי כחלק מההערכות ארוכות הטווח של עולם הבלוקצ'יין. החשש נובע מכך שמחשב קוונטי עתידי יוכל, תיאורטית, לבצע 'קיצורי דרך' מתמטיים שיאפשרו לו לפענח מפתחות הצפנה שכרגע נחשבים לבלתי ניתנים לפריצה. עם זאת, חשוב להדגיש כי מדובר באיום עתידי שטרם התממש. התפתחות הטכנולוגיה הקוונטית אינה מתרחשת בואקום; ככל שהיא מתקדמת, כך מתפתחות גם שיטות הצפנה עמידות לקוונטים (Post-Quantum Cryptography), שנועדו להגן על רשתות דיגיטליות מפני איומים מסוג זה.\n\nלסיכום, הבנה של הממשק בין מחשוב קוונטי לקריפטו דורשת מבט מפוכח ונטול בהלה. נכון לעכשיו, הביטקוין נותר מאובטח, והאיום הקוונטי נשאר בגדר סוגיה טכנית מורכבת הנמצאת תחת ניטור מתמיד של הקהילה המדעית והקריפטוגרפית. עבור המשקיע הסביר, הערך המוסף טמון בהכרה בכך שהטכנולוגיה היא תחום דינמי ומשתנה. המעקב אחר התפתחויות אלו אינו נועד לייצר חרדה, אלא להעמיק את הידע המקצועי על המערכת שבה אנו פועלים, ולהבין כיצד היא מסתגלת לאתגרים טכנולוגיים חדשים עם הזמן.",
-      "terms_he": [
-        {
-          "term": "קיוביט (Qubit)",
-          "explain": "יחידת המידע הבסיסית במחשוב קוונטי, המסוגלת לייצג 0 ו-1 בו-זמנית בזכות עקרונות פיזיקליים."
-        },
-        {
-          "term": "סופרפוזיציה",
-          "explain": "מצב בפיזיקה קוונטית שבו חלקיק נמצא ביותר ממצב אחד בו-זמנית, עד לרגע המדידה."
-        },
-        {
-          "term": "שזירה קוונטית",
-          "explain": "תופעה שבה חלקיקים הופכים למקושרים כך שמצבם של אחד משפיע על השני באופן מיידי, ללא קשר למרחק."
-        }
-      ],
-      "points_he": [
-        "מחשוב קוונטי אינו 'מחשב רגיל ומהיר יותר', אלא טכנולוגיה הפועלת לפי עקרונות פיזיקליים שונים לחלוטין.",
-        "אבטחת הביטקוין נשענת על הקושי המתמטי העצום לנחש מפתח פרטי מתוך מרחב אפשרויות אסטרונומי.",
-        "האיום הקוונטי נותר בשלב זה עיוני בלבד, ללא יישום מעשי המאיים על רשת הביטקוין כיום."
-      ],
-      "meaning_he": "הבנת הפוטנציאל והמגבלות של מחשוב קוונטי חיונית למשקיעים ארוכי טווח, שכן היא מאפשרת להפריד בין איומים טכנולוגיים אמיתיים לבין רעשי רקע בשוק.",
-      "gen_v": 6
     },
     {
       "id": "1hhw895",
