@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T14:50:00.710Z",
+  "updated": "2026-09-12T18:03:32.841Z",
   "count": 46,
   "sources": [
     "The Defiant",
@@ -15,7 +15,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-09-12T14:47:19.000Z",
+      "date": "2026-09-12T18:00:40.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/70bddc713c02d2b15c4fce8dfe9223bda0bd2192-2048x1152.png",
       "title_he": "התנודתיות בשוק הביטקוין: ניתוח הקשר בין מדיניות הריבית לזרימת ההון ל-ETFs",
       "brief_he": "לאחר רצף עליות מרשים שהונע על ידי קרנות סל, שוק הביטקוין מציג סימני התמתנות בעקבות הצהרות מצד הפדרל ריזרב ונתוני מאקרו משתנים.",
@@ -36,7 +36,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-09-12T14:47:19.000Z",
+      "date": "2026-09-12T18:00:40.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/6d9fbb8531c1aa6addad885741ca06e35d79f654-2048x1152.png",
       "title_he": "ביטקוין לאחר הראלי: מבט טכני ומקרו-כלכלי על השוק",
       "brief_he": "לאחר חודש אוגוסט חזק, הביטקוין מתמודד עם צמתים טכניים משמעותיים ושינויים במדיניות המוניטרית של הפדרל ריזרב.",
@@ -67,7 +67,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-09-12T14:47:19.000Z",
+      "date": "2026-09-12T18:00:40.000Z",
       "image": "https://cdn.thedefiant.io/crypto-down-thumbnail-jpg-7e080037-2eb9-485b-b9ad-6bf814972aab.jpg",
       "title_he": "בין נתוני אינפלציה להחלטות פדרליות: התנהלות השוק סביב הריבית",
       "brief_he": "נתוני האינפלציה האחרונים בארה\"ב יצרו תנודתיות בשוק הקריפטו, בעוד המשקיעים ממתינים להחלטת הריבית הקרובה של הפדרל ריזרב.",
@@ -81,6 +81,88 @@
       ],
       "meaning_he": "הבנת הקשר בין המדיניות המוניטרית האמריקאית לשוק הקריפטו חיונית לכל משקיע שרוצה לנווט בתבונה בתקופות של אי-ודאות כלכלית גלובלית.",
       "gen_v": 6
+    },
+    {
+      "id": "f4tr3q",
+      "title": "Revolut Leaks Passports, Bitcoin Transaction Histories to Fake Government Request",
+      "link": "https://decrypt.co/378114/revolut-passports-bitcoin-activity-data-breach",
+      "summary": "The fintech company fulfilled a fraudulent information request sent from a government agency's own email domain, exposing ID documents and full crypto transaction histories for a \"limited\" number of users.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-09-12T17:01:04.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/revolut-decrypt-style-01-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "3nol9j",
+      "title": "GPT-6 Astra Users Say OpenAI's Newest Model Got Dumber. It Happened Before, Too",
+      "link": "https://decrypt.co/378101/gpt-6-astra-openai-model-dumber-nerfed",
+      "summary": "A week after launch, complaints are rolling in from users that GPT-6 Astra has been nerfed. OpenAI's last model went through the same cycle in July.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-09-12T16:01:04.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png",
+      "title_he": "האם כלי ה-AI מאבדים מהחדות שלהם? סוגיית הביצועים של GPT-6 Astra",
+      "brief_he": "משתמשים מדווחים על ירידה בביצועי המודל החדש של OpenAI, מה שמעורר דיון ער על תהליכי אופטימיזציה ועל הציפיות שלנו מטכנולוגיות בינה מלאכותית.",
+      "commentary_he": "בשבוע האחרון, קהילת מפתחי ומשתמשי הבינה המלאכותית סוערת סביב דיווחים על ירידה בביצועיו של המודל החדש, GPT-6 Astra. רק לפני ימים ספורים, המודל הציג יכולות מרשימות בבנייה מורכבת של מנועי משחקים ופתרון בעיות קוד, אך כעת נשמעים קולות רבים ברשתות החברתיות הטוענים כי המודל הפך ל'טיפש יותר'. תופעה זו, המכונה לעיתים בקרב המשתמשים 'הלובוטומיה של אחרי ההשקה', אינה חדשה בעולם ה-AI, אך היא מעוררת שאלות מהותיות על האופן שבו חברות כמו OpenAI מנהלות את המודלים שלהן לאחר שהם מגיעים לידי הציבור הרחב. המשתמשים מדווחים על תשובות מהירות יותר אך פחות איכותיות, ועל קושי גובר להגיע לתוצאות שהושגו בקלות רבה יותר בימים הראשונים להשקה.\n\nהתלונות ממוקדות ומפורטות. מפתחים שערכו השוואות בין קוד שנכתב ביום ההשקה לבין קוד שנכתב כעת, מדווחים על רגרסיה ברורה ביכולות הלוגיות של המודל. אחד המושגים שעלו לדיון הוא ה-'Juice Value' – מונח לא רשמי המתאר את כמות כוח המחשוב שחברה מקצה לכל שאילתה. החשד הרווח בקרב המשתמשים הוא שחברות מקטינות את משאבי המחשוב לאחר תקופת ה'הייפ' הראשונית כדי לחסוך בעלויות, מה שמוביל לירידה מורגשת באיכות התוצרים. עם זאת, לא כולם מסכימים עם הקביעה הזו; יש הטוענים כי מדובר בהטיה פסיכולוגית, שכן המשתמשים הופכים לביקורתיים יותר ככל שההתלהבות הראשונית דועכת והם מתחילים לבחון את המערכת לעומק.\n\nחשוב לציין כי זו אינה הפעם הראשונה שחברה בתחום ה-AI ניצבת בפני ביקורת כזו. גם המודל הקודם של OpenAI, GPT-5.6 Sol, ספג ביקורת דומה ביולי האחרון, כאשר משתמשים טענו כי מצב ה-'Reasoning' שלו הפך לשטחי יותר. בזמנו, הנהלת החברה הכחישה כי בוצעה החלשה מכוונת של המודל, אך אישרה כי מתבצעים ניסויים ב-'Reasoning Effort' – הגדרה השולטת במספר הצעדים שהמודל מבצע לפני שהוא מספק תשובה. ייתכן כי מה שנתפס כ'ירידה ברמה' הוא למעשה ניסיון של החברה לאזן בין מהירות, עלות ודיוק, איזון שמשתנה כל הזמן בהתאם לעומס על השרתים ולמשוב מהמשתמשים.\n\nהשלכות המקרה הזה רחבות יותר מאשר רק תסכול של מפתחים. הן נוגעות לאמינות של כלים שאנו מסתמכים עליהם בעבודה יומיומית. אם מודל משנה את התנהגותו באופן בלתי צפוי, קשה לבנות עליו תהליכי עבודה יציבים. בעולם שבו טכנולוגיות חדשות מושקות בקצב מסחרר, המשתמשים לומדים שגם למוצרים המבטיחים ביותר יש מגבלות, ושעקביות היא לעיתים קרובות מאתגרת יותר מאשר ביצועים בשיא היכולת. הדיון הזה דוחף את הקהילה לדרוש יותר שקיפות מצד OpenAI ואחרות – לא רק לגבי מה המודל יכול לעשות, אלא גם לגבי המגבלות שלו והשינויים שמתבצעים בו 'מתחת למכסה המנוע'.\n\nלסיכום, הדינמיקה סביב GPT-6 Astra היא תזכורת לכך שאנחנו עדיין נמצאים בשלבים מוקדמים של מהפכת הבינה המלאכותית. הציפיות שלנו, כמשתמשים, גבוהות מאוד, לעיתים אולי גבוהות מדי ביחס ליכולות הטכנולוגיות הנוכחיות. בעוד שהוויכוח על 'החלקת' ביצועים נמשך, כדאי לשמור על גישה פרגמטית: לבחון כל תוצר של AI בעין ביקורתית, ולא להסתמך עליו באופן עיוור. טכנולוגיה היא כלי עבודה, וכמו בכל כלי, עלינו להכיר את נקודות החוזק והתורפה שלו, ולהסתגל לשינויים המתרחשים תוך כדי תנועה.",
+      "terms_he": [
+        {
+          "term": "Quantization",
+          "explain": "תהליך של צמצום משקלי המודל כדי להקטין את צריכת הזיכרון וכוח המחשוב שלו."
+        },
+        {
+          "term": "AGI",
+          "explain": "בינה מלאכותית כללית, מצב תיאורטי שבו מכונה מסוגלת לבצע כל משימה קוגניטיבית שאדם יכול לבצע."
+        }
+      ],
+      "points_he": [
+        "משתמשים מדווחים על ירידה באיכות התוצרים של GPT-6 Astra בהשוואה לימי ההשקה הראשונים.",
+        "השערות לגבי הפחתת 'כוח המחשוב' (Juice Value) מעוררות דיון על ניהול משאבים של חברות AI.",
+        "תופעת ה'נרפינג' (Nerfing) מוכרת בתעשייה ועשויה לנבוע מניסיונות אופטימיזציה של החברות.",
+        "הציפיות הגבוהות של המשתמשים והמעבר מהתלהבות לביקורת משפיעים על תפיסת איכות המודלים."
+      ],
+      "meaning_he": "האירוע מדגיש את החשיבות של הבנת הדינמיקה בין חברות הבינה המלאכותית למשתמשים, ומזכיר לקהילה לפתח חשיבה ביקורתית כלפי כלים טכנולוגיים שמשתנים ללא התראה.",
+      "gen_v": 6
+    },
+    {
+      "id": "1j2dki9",
+      "title": "Crypto Billionaires Hand Reform UK $97M in Record Donations",
+      "link": "https://decrypt.co/378107/crypto-billionaires-hand-reform-uk-97m-in-record-donations",
+      "summary": "Ben Delo and Christopher Harborne each gave £36 million, and between them beat what every UK party raised last year.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-09-12T15:51:15.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/nigel-farage-reform-uk-decrypt-style-03-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "185qhb9",
+      "title": "GTA Mod Adds Flock Cameras—And Lets Players Destroy Them",
+      "link": "https://decrypt.co/377997/gta-mod-flock-cameras-players-destroy",
+      "summary": "The surveillance mod on GTA V brings the privacy fight to Los Santos, where players can demolish the cameras tracking them.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-09-12T15:01:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2023/08/gta5-1-Cropped-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
     },
     {
       "id": "44x666",
@@ -409,88 +491,6 @@
       "points_he": [],
       "meaning_he": null,
       "gen_v": null
-    },
-    {
-      "id": "ahycpx",
-      "title": "Morning Minute: AI Agents Cut BTC Quantum Attack Benchmark by 86%",
-      "link": "https://decrypt.co/377948/morning-minute-ai-agents-cut-btc-quantum-attack-benchmark-by-86",
-      "summary": "Crypto majors are shaky ahead of this morning’s CPI print, but onchain is heating up for another big potential weekend.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-09-11T12:10:23.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/quantum-decrypt-style-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1c41q3d",
-      "title": "EU Regulator Says Prediction Markets Are 'Rife With Inside Trading'",
-      "link": "https://decrypt.co/377947/eu-regulator-says-prediction-markets-are-rife-with-inside-trading",
-      "summary": "ESMA also asks why Kalshi and Polymarket block some EU countries but not others, and notes VPNs get around the blocks.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-09-11T12:06:24.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/prediction-market-decrypt-style-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "y8deka",
-      "title": "Albuquerque Bans Bitcoin ATMs, Giving Operators 45 Days to Remove Them",
-      "link": "https://decrypt.co/377939/albuquerque-bans-bitcoin-atms-giving-operators-45-days-to-remove-them",
-      "summary": "A councilor said 90% of crypto kiosk transactions in the city are tied to fraud, calling the machines a conduit for crime.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-09-11T10:10:41.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/05/decrypt-style-bitcoin-atm-cropped-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "149wcno",
-      "title": "Sam Bankman-Fried Asks Supreme Court to Overturn FTX Fraud Conviction",
-      "link": "https://decrypt.co/377931/sam-bankman-fried-asks-supreme-court-to-overturn-ftx-fraud-conviction",
-      "summary": "SBF’s lawyers say he was barred from arguing customers lost nothing, and call the $11 billion forfeiture an \"crushing fine.\"",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-09-11T09:04:11.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/sam-bankman-fried-ftx-sbf-decrypt-style-gID_7.jpg",
-      "title_he": "הערעור של סם בנקמן-פריד לבית המשפט העליון: בין טענות משפטיות למציאות בשטח",
-      "brief_he": "מייסד FTX מבקש מבית המשפט העליון בארה\"ב לבטל את הרשעתו בהונאה, בטענה שהלקוחות קיבלו את כספם בחזרה.",
-      "commentary_he": "הפרשה שהסעירה את עולם הקריפטו מגיעה לפתחו של בית המשפט העליון בארה\"ב, לאחר שמייסד בורסת FTX, סם בנקמן-פריד, הגיש עתירה רשמית לביטול הרשעתו. בנקמן-פריד, המרצה כיום עונש מאסר של 25 שנים, מנסה לערער על פסק הדין שניתן נגדו לאחר משפט מתוקשר במנהטן. המהלך המשפטי הזה מגיע לאחר שפאנל של שלושה שופטים בערכאת הערעורים אישר את ההרשעה בחודש יוני האחרון, מה שמותיר בפניו אפשרויות מוגבלות מאוד מבחינה משפטית. לפי הדיווח ב'ניו יורק טיימס', מדובר בצעד המוגדר כבעל סיכויים נמוכים, שכן בית המשפט העליון נוהג לדון רק באחוז קטן מאוד מהתיקים המוגשים לפתחו בכל שנה.\n\nבבסיס העתירה עומדת טענה מרכזית של צוות ההגנה של בנקמן-פריד: הלקוחות לא איבדו את כספם בפועל. לטענת עורכי הדין, בתי המשפט בערכאות הנמוכות מנעו מהם להציג ראיות לכך שבקופת החברה היו תמיד מספיק נכסים כדי להשיב את הפיקדונות, דבר שקרה בפועל במסגרת תוכנית פשיטת הרגל של FTX, כולל ריבית. עם זאת, התביעה דוחה את הטיעון הזה מכל וכל. משרד המשפטים האמריקאי הבהיר במהלך המשפט כי מדובר בהונאה מתוכננת של לקוחות ומשקיעים, שכללה מעילה במיליארדי דולרים, ללא קשר לשאלה האם הכסף הוחזר בדיעבד. בנוסף, העתירה תוקפת את גובה הקנס שהוטל עליו, 11 מיליארד דולר, בטענה שמדובר בעונש מופרז המפר את התיקון השמיני לחוקה האמריקאית.\n\nכדי להבין את גודל הנפילה, יש לחזור אחורה לימי השיא של FTX. החברה, שהוקמה ב-2019, הפכה לאחת הבורסות המוכרות בעולם עם הערכת שווי של כ-32 מיליארד דולר, בין היתר בזכות קמפיינים שיווקיים רחבי היקף וחסויות לספורט. הכל התמוטט בנובמבר 2022 בעקבות משבר נזילות חריף, לאחר שהתברר כי כספי לקוחות שימשו לכיסוי הפסדים של חברת המסחר הפרטית של בנקמן-פריד, Alameda Research. הליכי פשיטת הרגל שבאו בעקבות זאת השתמשו במחירי שוק של נובמבר 2022, תקופה שבה מחיר הביטקוין עמד על כ-16,000 דולר בלבד, מה שמעיד על הפער בין הערך הדולרי שהוחזר ללקוחות לבין הערך הפוטנציאלי של הנכסים במונחי שוק נוכחיים.\n\nבמקביל למאבק המשפטי בבית המשפט העליון, בנקמן-פריד פועל באפיקים נוספים, אם כי ללא הצלחה מרובה. הוא הגיש בקשה לחנינה לנשיא דונלד טראמפ, אך נראה כי דרך זו סגורה בפניו. טראמפ הצהיר בינואר כי לא ישקול חנינה כזו, וגם הסנאט האמריקאי הביע התנגדות נחרצת לנושא ביולי האחרון. המעורבות הפוליטית של בנקמן-פריד בעבר, שכללה תרומות של כ-40 מיליון דולר במחזור הבחירות של 2021-2022 למפלגה הדמוקרטית, הפכה אותו לאחת הדמויות המושמצות ביותר בוושינגטון, מה שמקשה עליו למצוא תמיכה פוליטית כלשהי.\n\nהעתירה הנוכחית מהווה אולי את הניסיון האחרון של בנקמן-פריד לשנות את גזר דינו. בעוד שהקהילה המשפטית והפיננסית ממתינה להחלטת בית המשפט העליון, המקרה הזה נותר תזכורת משמעותית לחשיבות של שקיפות, הפרדת נכסים וניהול סיכונים בעולם הקריפטו. עבור המשקיעים, הלקח המרכזי מהפרשה הוא שהחזר כספי עתידי, חשוב ככל שיהיה, אינו מוחק את העובדה שנעשה שימוש לרעה בכספי הלקוחות. נכון לעכשיו, בית המשפט העליון טרם רמז אם בכוונתו לקחת את התיק לדיון, מה שמשאיר את בנקמן-פריד מאחורי סורג ובריח לפחות לעת עתה.",
-      "terms_he": [
-        {
-          "term": "פשיטת רגל (Bankruptcy)",
-          "explain": "תהליך משפטי המאפשר לחברה לנהל את החובות שלה תחת פיקוח כדי להשיב כספים לנושים."
-        },
-        {
-          "term": "חנינה (Clemency)",
-          "explain": "סמכות של הרשות המבצעת להפחית עונש או להעניק מחילה לאדם שהורשע בפלילים."
-        }
-      ],
-      "points_he": [
-        "החזרת כספי לקוחות אינה מבטלת את עבירת ההונאה המקורית לפי החוק האמריקאי.",
-        "הערעור מתמקד בטענה משפטית על גובה הקנס ובמניעת הצגת ראיות במהלך המשפט.",
-        "הסיכויים שבית המשפט העליון יקבל את התיק נמוכים מאוד מבחינה סטטיסטית.",
-        "הפרשה מדגישה את הסיכון הטמון בניהול כספי לקוחות בבורסות ריכוזיות."
-      ],
-      "meaning_he": "המקרה של FTX הפך לאבן דרך רגולטורית שמעצבת את היחס של המערכת המשפטית האמריקאית כלפי בורסות קריפטו. הדיון המשפטי הנוכחי בוחן את הגבול שבין ניהול כושל להונאה פלילית מכוונת.",
-      "gen_v": 6
     },
     {
       "id": "gym5cl",
