@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T15:12:40.436Z",
+  "updated": "2026-09-19T18:22:57.787Z",
   "count": 46,
   "sources": [
     "The Defiant",
@@ -15,7 +15,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-09-19T15:09:23.000Z",
+      "date": "2026-09-19T18:19:46.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/70bddc713c02d2b15c4fce8dfe9223bda0bd2192-2048x1152.png",
       "title_he": "התנודתיות בשוק הביטקוין: ניתוח הקשר בין מדיניות הריבית לזרימת ההון ל-ETFs",
       "brief_he": "לאחר רצף עליות מרשים שהונע על ידי קרנות סל, שוק הביטקוין מציג סימני התמתנות בעקבות הצהרות מצד הפדרל ריזרב ונתוני מאקרו משתנים.",
@@ -36,7 +36,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-09-19T15:09:23.000Z",
+      "date": "2026-09-19T18:19:46.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/6d9fbb8531c1aa6addad885741ca06e35d79f654-2048x1152.png",
       "title_he": "ביטקוין לאחר הראלי: מבט טכני ומקרו-כלכלי על השוק",
       "brief_he": "לאחר חודש אוגוסט חזק, הביטקוין מתמודד עם צמתים טכניים משמעותיים ושינויים במדיניות המוניטרית של הפדרל ריזרב.",
@@ -67,7 +67,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-09-19T15:09:23.000Z",
+      "date": "2026-09-19T18:19:46.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/d9fe4e96e641c8439ae6ba3032ba5ac6af9623cc-2048x1152.png",
       "title_he": null,
       "brief_he": null,
@@ -84,7 +84,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-09-19T15:09:23.000Z",
+      "date": "2026-09-19T18:19:46.000Z",
       "image": "https://cdn.thedefiant.io/crypto-down-thumbnail-jpg-7e080037-2eb9-485b-b9ad-6bf814972aab.jpg",
       "title_he": "בין נתוני אינפלציה להחלטות פדרליות: התנהלות השוק סביב הריבית",
       "brief_he": "נתוני האינפלציה האחרונים בארה\"ב יצרו תנודתיות בשוק הקריפטו, בעוד המשקיעים ממתינים להחלטת הריבית הקרובה של הפדרל ריזרב.",
@@ -98,6 +98,40 @@
       ],
       "meaning_he": "הבנת הקשר בין המדיניות המוניטרית האמריקאית לשוק הקריפטו חיונית לכל משקיע שרוצה לנווט בתבונה בתקופות של אי-ודאות כלכלית גלובלית.",
       "gen_v": 6
+    },
+    {
+      "id": "1iybffo",
+      "title": "How the Clarity Act's Defeat Handed the SEC and CFTC the Wheel on Crypto",
+      "link": "https://decrypt.co/378688/how-clarity-act-defeat-sec-cftc-wheel-crypto",
+      "summary": "The Clarity Act failed to advance in the Senate, shifting the industry’s focus to a new wave of action from the SEC and CFTC.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-09-19T17:01:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/US-Capitol-decrypt-style-04-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "3z5ilz",
+      "title": "Bitcoin's Sharpest Rally in Two Years Ran Almost Entirely on Short Liquidations",
+      "link": "https://decrypt.co/378686/bitcoin-sharpest-rally-two-years-short-liquidations",
+      "summary": "A Glassnode and Bybit report found Bitcoin climbed 24.6% in five August days even as active leverage fell, with short positions supplying 89% of every liquidated dollar.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-09-19T16:01:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-chart-decrypt-style-01-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
     },
     {
       "id": "15r5s92",
@@ -510,40 +544,6 @@
       "gen_v": null
     },
     {
-      "id": "oj5bxb",
-      "title": "UAE, Sweden Arrest Seven Over $7.1M Crypto Laundering Ring Linked to Contract Killings",
-      "link": "https://decrypt.co/378611/uae-sweden-arrest-seven-over-7-1m-crypto-laundering-ring-linked-to-contract-killings",
-      "summary": "Investigators say tracing the network's crypto transactions exposed links to organized crime and murder-for-hire.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-09-18T09:57:33.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/crypto-crime-decrypt-style-1-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1l8206a",
-      "title": "Treasury Sanctions Crypto Exchange Behind Iran's Bitcoin Tolls on Hormuz Ships",
-      "link": "https://decrypt.co/378604/treasury-sanctions-crypto-exchange-behind-irans-bitcoin-tolls-on-hormuz-ships",
-      "summary": "OFAC says hundreds of millions of dollars in Bitcoin moved through BitBank to the Revolutionary Guards in two months.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-09-18T09:01:55.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "n7rz7d",
       "title": "Dan Hillery: Digital Credit Could Rival BTC’s $1.5 Trillion Market Cap",
       "link": "https://bitcoinmagazine.com/videos/dan-hillery-digital-credit-could-rival-btcs-1-5-trillion-market-cap",
@@ -603,13 +603,27 @@
       "lang": "en",
       "date": "2026-09-17T19:24:01.000Z",
       "image": "https://www.youtube.com/embed/OjlodF9XE68",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "עתיד הנכסים הדיגיטליים: השוואה בין ביטקוין לזהב בעידן ה-ETF",
+      "brief_he": "אנליסט בכיר מעריך כי קרנות הסל של ביטקוין עשויות לעקוף את קרנות הזהב בטווח הארוך, על רקע שינויים בהעדפות דור המשקיעים הצעיר.",
+      "commentary_he": "שוק ההשקעות העולמי עובר בשנים האחרונות תהליך מואץ של מודרניזציה, כאשר נקודת המפנה המרכזית עבור עולם המטבעות הדיגיטליים הייתה השקת קרנות הסל (ETFs) על הביטקוין בשנת 2024. מכשירים פיננסיים אלו, שזכו לאישור לאחר עשור של דיונים ממושכים מול הרשות לניירות ערך האמריקאית, שינו את האופן שבו גופים מוסדיים ומשקיעים פרטיים ניגשים לנכס הדיגיטלי. עבור משקיעים רבים, המעבר מנכסים מסורתיים לנכסים טכנולוגיים אינו רק עניין של תשואה, אלא חלק מתפיסת עולם רחבה יותר הנוגעת לשמירה על ערך הכסף בעולם של אי-ודאות מאקרו-כלכלית. הבנת הדינמיקה הזו חיונית לכל מי שמבקש לבחון את המקום של הביטקוין בתיק ההשקעות המודרני, שכן היא מסמנת את התבגרותו של התחום מנישה טכנולוגית לכדי נכס פיננסי לגיטימי ונגיש.\n\nעל פי הערכתו של אריק בלצ'ונאס, אנליסט בכיר בתחום קרנות הסל בבלומברג, הפוטנציאל הטמון בקרנות הסל של הביטקוין הוא משמעותי ביותר, עד כדי כך שהוא צופה כי הן עשויות להגיע להיקף נכסים הגדול פי שלושה מזה של קרנות הסל המבוססות על זהב. על פי נתוני Coinglass, קרנות אלו כבר מנהלות כיום כמעט 100 מיליארד דולר, הישג מרשים בהתחשב בכך שהן הושקו רק בשנה שעברה. בלצ'ונאס מציין כי בעוד שהזהב מלווה את האנושות במשך כ-5,000 שנה ומהווה עוגן של ערך היסטורי, הביטקוין, בהיותו בן 17 בלבד, מתפקד כיום כגרסה הדיגיטלית המודרנית של אותו נכס. ההשוואה המספרית הזו אינה רק תיאורטית, אלא מעידה על האמון המצטבר של השוק בביטקוין ככלי פיננסי יציב יחסית.\n\nהרקע לשינוי המגמה הזה נעוץ במידה רבה במה שמכונה \"מסחר פיחות המטבע\" (debasement trade). משקיעים, במיוחד בקרב הדורות הצעירים, מביעים חשש גובר מהוצאות ממשלתיות מוגזמות ומהשחיקה בכוח הקנייה של המטבעות הפיאט. בעוד הזהב שימש במשך דורות כמקלט בטוח בתקופות של אינפלציה, הביטקוין מציע יתרון טכנולוגי: עמידות בפני צנזורה ויכולת להימנע מהחרמה ממשלתית. בלצ'ונאס מדגיש כי הדורות הצעירים, שגדלו בסביבה של חובות ממשלתיים גואים, עשויים לראות בביטקוין אלטרנטיבה מועדפת. עבורם, הנכס אינו רק השקעה ספקולטיבית, אלא אמצעי להגנה על ההון האישי מפני החלטות פוליטיות וכלכליות שהם תופסים כפוגעניות בערך כספם.\n\nעם זאת, התמונה הרחבה כוללת גם את סוגיית התנודתיות, שנותרה אחד האתגרים המשמעותיים ביותר לאימוץ מוסדי נרחב. הדיווח מציין כי שנת 2025 הייתה השנה הפחות תנודתית בהיסטוריה הקצרה של הביטקוין, מגמה שבלצ'ונאס רואה בה סימן חיובי ומקדים. לטענתו, ככל שהביטקוין יהפוך לפחות תנודתי ומתאם התנהגותו יהיה דומה יותר לזה של הזהב, כך יגדל הסיכוי שגופים מוסדיים גדולים יתחילו לראות בו נכס בטוח ומקובל. ברגע שיושג אותו \"רגע של שינוי\" (inflection point), שבו הביטקוין ייתפס כחלק לגיטימי מתיק השקעות שמרני, ייתכן שנראה זרימת הון משמעותית שתשנה את מאזן הכוחות בשוק הנכסים האלטרנטיביים.\n\nלסיכום, העובדה שקרנות הסל של הביטקוין צומחות בקצב כזה מעידה על שינוי עמוק בהעדפות המשקיעים. בעוד שהסיכון עדיין קיים והתנודתיות אינה נעלמת כליל, המעבר מנכסים פיזיים לנכסים דיגיטליים נראה כחלק מתהליך אבולוציוני רחב יותר של המערכת הפיננסית. עבור המשקיע הפרטי, החוכמה אינה בחיפוש אחר רווח מהיר, אלא בהבנת התפקיד של הנכסים הללו ככלים לניהול סיכונים לטווח ארוך. כפי שעולה מהנתונים, השוק מתבגר, והכלים העומדים לרשות המשקיעים הופכים למתוחכמים ומגוונים יותר מאי פעם.",
+      "terms_he": [
+        {
+          "term": "פיחות מטבע (Currency Debasement)",
+          "explain": "תהליך שבו הערך הריאלי של המטבע נשחק, לרוב עקב הדפסת כסף מוגברת או מדיניות ממשלתית שמובילה לאינפלציה."
+        },
+        {
+          "term": "נכס שמירת ערך (Store of Value)",
+          "explain": "נכס ששומר על כוח הקנייה שלו לאורך זמן, בדומה לזהב או מתכות יקרות אחרות."
+        }
+      ],
+      "points_he": [
+        "קרנות הסל של ביטקוין צברו היקף ניהול נכסים של כ-100 מיליארד דולר מאז השקתן ב-2024.",
+        "השוואה היסטורית: בעוד הזהב משמש כנכס שמירת ערך במשך אלפי שנים, הביטקוין מציע פתרון דיגיטלי מודרני בן 17 שנים.",
+        "צמצום התנודתיות בביטקוין הוא גורם מפתח שעשוי להוביל להגברת האמון מצד גופים מוסדיים גדולים.",
+        "הביטקוין נתפס על ידי דורות צעירים כגידור מפני אינפלציה ופיחות בערך המטבעות המסורתיים."
+      ],
+      "meaning_he": "התפתחות שוק ה-ETFs לביטקוין מסמנת את הפיכתו של הנכס לחלק מהמיינסטרים הפיננסי, עובדה המשפיעה על האופן שבו גם משקיעים ישראלים יכולים לשלב נכסים דיגיטליים בתיק ההשקעות שלהם בצורה מוסדרת.",
+      "gen_v": 6
     },
     {
       "id": "13wwp3y",
