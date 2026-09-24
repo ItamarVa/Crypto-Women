@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T22:38:50.863Z",
+  "updated": "2026-09-24T02:39:19.541Z",
   "count": 46,
   "sources": [
     "The Defiant",
@@ -15,7 +15,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-09-23T22:36:20.000Z",
+      "date": "2026-09-24T02:37:19.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/70bddc713c02d2b15c4fce8dfe9223bda0bd2192-2048x1152.png",
       "title_he": "התנודתיות בשוק הביטקוין: ניתוח הקשר בין מדיניות הריבית לזרימת ההון ל-ETFs",
       "brief_he": "לאחר רצף עליות מרשים שהונע על ידי קרנות סל, שוק הביטקוין מציג סימני התמתנות בעקבות הצהרות מצד הפדרל ריזרב ונתוני מאקרו משתנים.",
@@ -36,7 +36,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-09-23T22:36:20.000Z",
+      "date": "2026-09-24T02:37:19.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/6d9fbb8531c1aa6addad885741ca06e35d79f654-2048x1152.png",
       "title_he": "ביטקוין לאחר הראלי: מבט טכני ומקרו-כלכלי על השוק",
       "brief_he": "לאחר חודש אוגוסט חזק, הביטקוין מתמודד עם צמתים טכניים משמעותיים ושינויים במדיניות המוניטרית של הפדרל ריזרב.",
@@ -67,7 +67,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-09-23T22:36:20.000Z",
+      "date": "2026-09-24T02:37:19.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/d9fe4e96e641c8439ae6ba3032ba5ac6af9623cc-2048x1152.png",
       "title_he": null,
       "brief_he": null,
@@ -84,7 +84,7 @@
       "summary": "",
       "source": "The Defiant",
       "lang": "en",
-      "date": "2026-09-23T22:36:20.000Z",
+      "date": "2026-09-24T02:37:19.000Z",
       "image": "https://cdn.thedefiant.io/crypto-down-thumbnail-jpg-7e080037-2eb9-485b-b9ad-6bf814972aab.jpg",
       "title_he": "בין נתוני אינפלציה להחלטות פדרליות: התנהלות השוק סביב הריבית",
       "brief_he": "נתוני האינפלציה האחרונים בארה\"ב יצרו תנודתיות בשוק הקריפטו, בעוד המשקיעים ממתינים להחלטת הריבית הקרובה של הפדרל ריזרב.",
@@ -98,6 +98,23 @@
       ],
       "meaning_he": "הבנת הקשר בין המדיניות המוניטרית האמריקאית לשוק הקריפטו חיונית לכל משקיע שרוצה לנווט בתבונה בתקופות של אי-ודאות כלכלית גלובלית.",
       "gen_v": 6
+    },
+    {
+      "id": "13wxjbo",
+      "title": "Anthropic Says Claude Found Something Big in DNA. It Just Doesn't Know What",
+      "link": "https://decrypt.co/379128/anthropic-claude-found-something-big-dna-doesnt-know-what",
+      "summary": "Anthropic says Claude autonomously found a new CRISPR-like enzyme system. Even Dario Amodei admits nobody knows what it actually does.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-09-23T22:56:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/03/decrypt-style-anthropic-dario-amodei-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
     },
     {
       "id": "1h3zl7n",
@@ -289,13 +306,27 @@
       "lang": "en",
       "date": "2026-09-23T19:36:15.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/zcash-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "כניסתה של Zcash לשווקים האירופיים: צעד נוסף לעבר נגישות מוסדית",
+      "brief_he": "21Shares השיקה מוצר פיננסי (ETP) ראשון מסוגו באירופה המאפשר חשיפה מוסדית למטבע הפרטיות Zcash.",
+      "commentary_he": "השבוע נרשמה התפתחות משמעותית עבור עולם המטבעות הדיגיטליים, כאשר חברת 21Shares רשמה למסחר את מוצר ה-ETP (Exchange Traded Product) הראשון באירופה המבוסס על מטבע הפרטיות Zcash. המוצר, שזכה לסימול ZCASH, החל להיסחר בבורסות Euronext בפריז ובאמסטרדם החל מה-22 בספטמבר. עבור משקיעים מוסדיים ופרטיים כאחד, מדובר בשינוי אופן הגישה לנכסים דיגיטליים: המעבר מרכישה ישירה של מטבעות בבורסות קריפטו, הדורשת ניהול מורכב של ארנקים דיגיטליים ומפתחות פרטיים, למסחר דרך חשבונות השקעה מסורתיים, הוא מגמה שתופסת תאוצה ומנגישה את השוק לקהלים רחבים יותר.\n\nעל פי הפרסומים של 21Shares, המוצר החדש נהנה מגיבוי פיזי מלא, כלומר הכספים מושקעים בנכס הבסיס עצמו המוחזק על ידי גורם משמורן (Custodian), במקרה זה חברת BitGo. דמי הניהול השנתיים של המוצר עומדים על 2.5%, שיעור גבוה יחסית בהשוואה למוצרי ETP של ביטקוין או את'ריום הקיימים באותן בורסות. ביום המסחר הראשון, נרשמו כ-5,000 יחידות שהונפקו, עם שווי נכסים מנוהל שהוערך ב-100 אלף דולר. מבחינת ביצועי המחיר של ZEC בשוק, נרשמה תנודתיות גבוהה סביב ההשקה: המטבע הגיע לשיא תוך-יומי של כ-1,680 דולר ביום רביעי, לפני שנסוג לרמה של כ-1,522 דולר, ירידה של כ-6.6% באותו יום מסחר. נתונים אלו מגיעים על רקע הזינוק המשמעותי של המטבע השנה, אשר עלה ביותר מ-2,700% מתחילת השנה, מה שמציב את שווי השוק שלו באזור ה-27.5 מיליארד דולר.\n\nכדי להבין את חשיבות הצעד, יש להבחין בין Zcash למטבעות כמו ביטקוין או את'ריום. בעוד שהרשתות של האחרונים שקופות מטבען, ומאפשרות מעקב אחר כל עסקת העברה בבלוקצ'יין, Zcash מציע מנגנון \"פרטיות אופציונלית\" המאפשר למשתמשים להסתיר את פרטי השולח, המקבל וסכום העסקה. טכנולוגיה זו, המבוססת על הוכחות באפס ידע (Zero-Knowledge Proofs), הפכה אותו למוקד משיכה עבור משקיעים המחפשים איזון בין היתרונות הטכנולוגיים של הבלוקצ'יין לבין הצורך בפרטיות פיננסית. המודל הכלכלי של הרשת נשאר נאמן למקורותיו: הוא שומר על תקרת היצע של 21 מיליון מטבעות ועל מנגנון ה-Halving (חציית התגמול לכורים) המוכר מביטקוין, החלטה שזכתה לאחרונה לתמיכה גורפת של 98.9% בקרב הקהילה.\n\nהמהלך של 21Shares מגיע בעקבות מגמה רחבה יותר של הכשרת נכסי פרטיות על ידי מוסדות פיננסיים. עוד באוגוסט, חברת Grayscale המירה את קרן ה-Zcash Trust הוותיקה שלה ל-ETF בשם ZCSH, הנסחר בבורסת NYSE Arca בארה\"ב. הצלחת המהלך של Grayscale, שמשך למעלה מ-233 מיליון דולר וצבר נכסים בשווי של כ-890 מיליון דולר, משקפת ביקוש מוסדי מתמשך. עם זאת, חשוב לזכור כי השקעה במכשירי ETP מביאה עמה סיכונים ייחודיים, מעבר לתנודתיות המובנית של שוק הקריפטו. דמי הניהול הגבוהים והתלות בגורמי צד ג' (המשמורנים והמנפיקים) מחייבים את המשקיע לבחון האם הנוחות התפעולית מצדיקה את העלויות העודפות בהשוואה לאחזקה ישירה.\n\nלסיכום, השקת ה-ETP באירופה מסמנת שלב נוסף בבגרות של שוק נכסי הפרטיות. עבור המשקיע הישראלי או הבינלאומי, המעוניין להיחשף לנכס זה ללא סיכוני האבטחה הכרוכים בניהול ארנקים קרים, מוצרים אלו מספקים פתרון סדור ומפוקח. עם זאת, יש להמשיך ולעקוב אחר הרגולציה המשתנה סביב מטבעות פרטיות, שכן הרשויות בעולם עודן בוחנות את האיזון בין החדשנות הטכנולוגית לבין דרישות הציות והשקיפות הפיננסית.",
+      "terms_he": [
+        {
+          "term": "ETP",
+          "explain": "מכשיר פיננסי הנסחר בבורסה ועוקב אחר מחיר של נכס בסיס."
+        },
+        {
+          "term": "Custodian",
+          "explain": "גוף פיננסי מוסמך האחראי על שמירה מאובטחת של הנכסים הדיגיטליים עבור המשקיעים."
+        }
+      ],
+      "points_he": [
+        "מוצרי ETP מאפשרים גישה לנכסים דיגיטליים דרך חשבונות ברוקראז' מסורתיים.",
+        "Zcash נבדל ממטבעות אחרים ביכולתו להציע עסקאות מוצפנות ופרטיות.",
+        "דמי ניהול במוצרי ETP של נכסי נישה עשויים להיות גבוהים משמעותית מקרנות ביטקוין.",
+        "השקעה דרך ETP אינה מהווה בעלות ישירה על המטבעות עצמם אלא על מכשיר פיננסי המגובה בהם."
+      ],
+      "meaning_he": "המהלך מסמן הכרה מוסדית גוברת בנכסי פרטיות, ומדגיש את המעבר של עולם הקריפטו לעבר כלי השקעה מוסדרים הנגישים למשקיעים מהשורה.",
+      "gen_v": 6
     },
     {
       "id": "4n90iy",
@@ -468,14 +499,14 @@
       "gen_v": null
     },
     {
-      "id": "1iaxn7o",
-      "title": "Bitcoin Dips, But Its Forks Are Flying Again",
-      "link": "https://decrypt.co/379048/bitcoin-dips-but-forks-are-flying-bch-bsv",
-      "summary": "A CME futures listing and a fresh Grayscale ETF filing sent Bitcoin's two biggest forks soaring, even as the flagship coin cooled off its seven-month high.",
-      "source": "Decrypt",
+      "id": "110rn1q",
+      "title": "Raiffeisen Bank International to Roll Out Bitcoin Services Across Europe in Expanded Bitpanda Deal",
+      "link": "https://bitcoinmagazine.com/news/raiffeisen-to-roll-out-bitcoin-trading",
+      "summary": "Bitcoin Magazine Raiffeisen Bank International to Roll Out Bitcoin Services Across Europe in Expanded Bitpanda Deal The Austrian firm is the latest European bank to roll out crypto trading. This post Raiffeisen Bank…",
+      "source": "Bitcoin Magazine",
       "lang": "en",
-      "date": "2026-09-23T15:56:03.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-decrypt-style-28-gID_7.png",
+      "date": "2026-09-23T15:54:50.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/09/image15_1920x1080.jpg",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
@@ -485,14 +516,14 @@
       "gen_v": null
     },
     {
-      "id": "110rn1q",
-      "title": "Raiffeisen Bank International to Roll Out Bitcoin Services Across Europe in Expanded Bitpanda Deal",
-      "link": "https://bitcoinmagazine.com/news/raiffeisen-to-roll-out-bitcoin-trading",
-      "summary": "Bitcoin Magazine Raiffeisen Bank International to Roll Out Bitcoin Services Across Europe in Expanded Bitpanda Deal The Austrian firm is the latest European bank to roll out crypto trading. This post Raiffeisen Bank…",
-      "source": "Bitcoin Magazine",
+      "id": "d1wq3k",
+      "title": "Synthetic vs. Direct Tokenized Stocks: Who Wins After The SEC Exemption?",
+      "link": "https://thedefiant.io/podcasts-and-videos/podcast/synthetic-vs-direct-tokenized-stocks-who-wins-after-the-sec-exemption",
+      "summary": "",
+      "source": "The Defiant",
       "lang": "en",
-      "date": "2026-09-23T15:54:50.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/09/image15_1920x1080.jpg",
+      "date": "2026-09-23T14:30:00.000Z",
+      "image": "https://cdn.thedefiant.io/thumbnail-episode2-v3-jpg-2b298a1d-fea9-499c-9bad-55b6c2fc0d99.jpg",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
@@ -551,23 +582,6 @@
       ],
       "meaning_he": "הטוקניזציה עשויה לשנות את הדרך שבה משקיעים קמעונאיים מנהלים הון וממנפים נכסים, ובכך לצמצם פערים שנוצרו על ידי מערכות פיננסיות מיושנות וריכוזיות.",
       "gen_v": 6
-    },
-    {
-      "id": "zgk5er",
-      "title": "Ondo Opens In-Kind Minting for Tokenized US Stocks",
-      "link": "https://thedefiant.io/converge/tradfi-and-fintech/ondo-opens-in-kind-minting-for-tokenized-us-stocks",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-09-23T14:00:55.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/18216ad01e697f66c220e870b1ba10bea2c3372c-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
     },
     {
       "id": "17s3e9h",
