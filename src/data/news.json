@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T02:57:39.266Z",
+  "updated": "2026-09-25T09:17:55.155Z",
   "count": 46,
   "sources": [
     "The Defiant",
@@ -8,6 +8,23 @@
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "1wtdn0g",
+      "title": "Block Adds Bitcoin Lightning to x402 Standard",
+      "link": "https://thedefiant.io/news/infrastructure/block-adds-bitcoin-lightning-to-x402-standard",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-09-25T02:55:22.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/c3d6ea8580724b95a87e7caf022001fb88952c2e-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "206ook",
       "title": "Ethereum Draft Proposes Compliance Controls for Confidential RWA Tokens",
@@ -430,23 +447,6 @@
       "lang": "en",
       "date": "2026-09-24T17:19:11.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/e4f96b38e5c62fb61cf571331c4f554dd29cb1a0-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "witoov",
-      "title": "Cross-Border Stablecoin Flows Jump 77.5% but Remain Concentrated",
-      "link": "https://thedefiant.io/news/markets/cross-border-stablecoin-flows-jump-77-5-but-remain-concentrated",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-09-24T17:09:01.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/da115558f6c23ce72078667716c0ed07189a59f3-2048x1152.png",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
