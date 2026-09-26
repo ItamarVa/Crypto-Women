@@ -1,13 +1,81 @@
 {
-  "updated": "2026-09-26T09:01:38.377Z",
+  "updated": "2026-09-26T15:33:27.183Z",
   "count": 46,
   "sources": [
-    "The Defiant",
-    "Decrypt",
     "Bitcoin Magazine",
+    "Decrypt",
+    "The Defiant",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "8q4lux",
+      "title": "Grant Cardone: Real Estate “Armageddon” Is Here – Why BITCOIN is the Hedge",
+      "link": "https://bitcoinmagazine.com/news/grant-cardone-real-estate-armageddon-is-here-why-bitcoin-is-the-hedge",
+      "summary": "Bitcoin Magazine Grant Cardone: Real Estate “Armageddon” Is Here – Why BITCOIN is the Hedge Grant Cardone explains how a massive shift in commercial real estate created the perfect opportunity to aggressively accumulate…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-09-26T15:23:26.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/09/Grant-Cardone-Real-Estate-22Armageddon22-Is-Here-–-Why-BITCOIN-is-the-Hedge-.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "y7m0wq",
+      "title": "AI Agents Are Racing to Make Quantum-Safe Bitcoin Cheap—And Winning",
+      "link": "https://decrypt.co/379378/ai-agents-racing-make-quantum-safe-bitcoin-cheap",
+      "summary": "An open competition run by StarkWare, Yukon Research, and Eigen Labs drove the estimated cost of building a quantum-safe Bitcoin transaction from about $320 to roughly $67, with AI models topping the leaderboards.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-09-26T15:01:05.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/Bitcoin-decrypt-style-23-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "16ylqs8",
+      "title": "Solana’s Alpenglow Goes Live on Devnet Ahead of Mainnet Migration",
+      "link": "https://thedefiant.io/news/blockchains/solana-s-alpenglow-goes-live-on-devnet-ahead-of-mainnet-migration",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-09-26T14:37:38.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/23ebab853e70f117c40becc7cb81c50953455d7e-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1tkx9il",
+      "title": "Google Just Made Free 1080p AI Video Generation Available to Anyone",
+      "link": "https://decrypt.co/379353/google-free-1080p-ai-video-generation",
+      "summary": "Google Vids now lets any Google account holder generate free HD AI video using Gemini Omni 1.1 Flash, with new scene, timing, and watermark controls.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-09-26T13:01:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/05/decrypt-style-google-3-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "cthwwe",
       "title": "AlphaFi Winds Down After Oracle Error, With Sui Foundation Support",
@@ -423,23 +491,6 @@
       "gen_v": null
     },
     {
-      "id": "rc6gi1",
-      "title": "Fed Proposes Capital Charges and Bank Approval Rules for Stablecoins",
-      "link": "https://thedefiant.io/converge/regulation/fed-proposes-capital-charges-and-bank-approval-rules-for-stablecoins",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-09-25T14:20:39.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/3c435e4acd13e6bdfedfbcdec1268437a294525e-2048x1152.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "4lck0r",
       "title": "Strategy Wants Its Preferred Stock Dividends to Accrue 365 Days a Year",
       "link": "https://decrypt.co/379309/strategy-wants-its-preferred-stock-dividends-to-accrue-365-days-a-year",
@@ -482,40 +533,6 @@
       "lang": "en",
       "date": "2026-09-25T13:16:03.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-morgan-stanley-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "18g6v12",
-      "title": "Morning Minute: BlackRock Leans Deeper Into Tokenization with Ondo",
-      "link": "https://decrypt.co/379292/morning-minute-blackrock-leans-deeper-into-tokenization-with-ondo",
-      "summary": "The biggest financial institutions in the world are bringing more products onchain, and the pace is accelerating.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-09-25T13:04:06.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/larry-fink-blackrock-decrypt-style-03-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1bnlzu4",
-      "title": "Defense Secretary Pete Hegseth Holds Bitcoin in a Coinbase Wallet, Filing Shows",
-      "link": "https://decrypt.co/379290/defense-secretary-pete-hegseth-holds-bitcoin-in-a-coinbase-wallet-filing-shows",
-      "summary": "Two entries in his annual disclosure put the holding somewhere between $16,000 and $65,000, alongside more than $1 million in cash.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-09-25T12:01:15.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/09/pete-hegseth-decrypt-style-gID_7.jpg",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
@@ -591,37 +608,6 @@
       "points_he": [],
       "meaning_he": null,
       "gen_v": null
-    },
-    {
-      "id": "1roog4g",
-      "title": "Saifedean Ammous: The Bond Crisis & Bitcoin’s Rise as a True Macro Asset",
-      "link": "https://bitcoinmagazine.com/videos/saifedean-ammous-the-bond-crisis-bitcoins-rise-as-a-true-macro-asset",
-      "summary": "Bitcoin Magazine Saifedean Ammous: The Bond Crisis & Bitcoin’s Rise as a True Macro Asset Falling volatility is Bitcoin's most bullish signal right now, according to Saifedean Ammous. This post Saifedean Ammous: The…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-09-24T19:21:38.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/09/Saifedean-Ammous-The-Bond-Crisis-Bitcoins-Rise-as-a-True-Macro-Asset-.jpg",
-      "title_he": "התנודתיות של הביטקוין בירידה: סימנים להתבגרות הנכס בשוק המאקרו",
-      "brief_he": "ניתוח של התנודתיות הפוחתת בשוק הביטקוין והמשמעויות של הפיכתו לנכס מאקרו מוסדי על פי תפיסתו של סייפדין אמוס.",
-      "commentary_he": "השיח סביב הביטקוין עבר בשנים האחרונות תהליך הדרגתי של שינוי, כאשר מוקד הדיון הוסט מניסיונות ניבוי תנודות המחיר לניתוח מעמדו של הנכס בתוך המערכת הפיננסית הגלובלית. לפי ניתוח שהוצג לאחרונה על ידי הכלכלן סייפדין אמוס ב-Bitcoin Magazine, אחד הסימנים המובהקים ביותר לכך שהביטקוין הופך לנכס מאקרו משמעותי הוא דווקא הירידה ברמת התנודתיות שלו. עבור משקיעים מוסדיים ומנהלי כספים, תנודתיות קיצונית היא לעיתים קרובות מחסום כניסה משמעותי, שכן היא מקשה על שילוב הנכס בתיקי השקעות מגוונים. כאשר הביטקוין מפגין יציבות רבה יותר בהשוואה לעברו, הוא הופך לנגיש יותר עבור גופים המחפשים גידור מול אי-ודאות מאקרו-כלכלית, ובכך משתנה אופיו של השוק כולו.\n\nהנתונים המוצגים בפרסום מדגישים את המגמה הזו באמצעות בחינת שיעורי הירידה מהשיא (Drawdowns) לאורך המחזורים האחרונים. על פי הדיווח, בעוד שבעבר ראינו ירידות חדות שהגיעו לשיעורים של כ-87%, במחזורים הבאים הנתונים הצטמצמו ל-77%, ובמחזור הנוכחי נמדדה ירידה של כ-54% בלבד. נתון זה אינו רק מספר יבש, אלא מעיד על שינוי בהרכב המשקיעים: פחות משקיעים הפועלים באמצעות מינוף גבוה בנקודות השיא, ויותר משקיעים ארוכי טווח שמחזיקים בנכס מתוך ראייה אסטרטגית. במקביל, הדיון המקצועי עוסק כיום גם בחוב הלאומי של ארצות הברית, העומד על כ-40 טריליון דולר, ובהשפעת תשואות אגרות החוב על שוקי ההון, מה שמעמיד את הביטקוין באור שונה כנכס שאינו תלוי במדיניות פיסקאלית של מדינה בודדת.\n\nכדי להבין את התהליך הזה, יש להסתכל על מנגנון ה'חצייה' (Halving) שממשיך להניע את המחזוריות בת ארבע השנים המוכרת של הביטקוין. אמוס מציין כי למרות שהשוק נוטה להגיב למחזורים אלו, ייתכן שעם הזמן כוחות השוק – באמצעות פעולות ארביטראז' ושינויים בביקוש המוסדי – יביאו לטשטוש הדרגתי של העונתיות הזו. בנוסף, נבחנת התופעה של כורי ביטקוין המפנים משאבים וטכנולוגיה למרכזי נתונים של בינה מלאכותית (AI), מה שמצביע על גיוון תפעולי וחיפוש אחר מקורות הכנסה יציבים יותר עבור תשתיות הכרייה, במיוחד בתקופות של לחץ על רווחיות הרשת.\n\nהתמונה הרחבה כוללת גם את המתח שבין המערכת הבנקאית המסורתית לבין הכלכלה הדיגיטלית. השימוש בסטייבלקוינס (Stablecoins) כגשר בין העולם הפיאטי לבין עולם הקריפטו מציב אתגרים חדשים, במיוחד סביב סיכוני הנזילות של אגרות חוב ממשלתיות המשמשות כבטוחות. ככל שהביטקוין נתפס פחות כנכס ספקולטיבי ויותר כנכס מאקרו, כך הדיון הופך למורכב יותר ונוגע בסוגיות של ריסון פיסקאלי, עתודות ערך גלובליות והיכולת של שוק חופשי לפעול ללא תלות בבנקים מרכזיים. עם זאת, חשוב לזכור כי מדובר בשוק שעדיין נמצא בתהליכי התפתחות, וסיכונים רגולטוריים וטכנולוגיים נותרים חלק בלתי נפרד מהנוף.\n\nלסיכום, המעבר של הביטקוין מנכס בעל תנודתיות קיצונית לנכס מאקרו מוסדי הוא תהליך איטי אך עקבי. עבור המשקיע הפרטי, ההבנה שהשוק מתבגר ומפגין יציבות רבה יותר מהווה תזכורת לכך שהחלטות השקעה צריכות להתבסס על ניתוח מעמיק של התנאים המאקרו-כלכליים, ולא רק על תנודות מחיר קצרות טווח. כפי שעולה מהניתוח של אמוס, המפתח להבנת השלב הנוכחי טמון בהכרה בכך שהביטקוין אינו עוד אי בודד בפיננסים העולמיים, אלא חלק ממערכת שלובה המגיבה לשינויים בחוב, בריבית ובביקוש המוסדי לנכסים חלופיים.",
-      "terms_he": [
-        {
-          "term": "Drawdown",
-          "explain": "ירידה באחוזים מהשיא של הנכס עד לנקודת השפל שלו בתקופה מסוימת."
-        },
-        {
-          "term": "ארביטראז'",
-          "explain": "ניצול פערי מחירים של אותו נכס בשווקים שונים כדי להפיק רווח ללא סיכון משמעותי."
-        }
-      ],
-      "points_he": [
-        "ירידה עקבית בתנודתיות הביטקוין מעידה על התבגרות השוק ועל פוטנציאל גבוה יותר לאימוץ מוסדי.",
-        "הנתונים מראים ירידה בשיעורי ה-Drawdown במחזורים האחרונים, מה שמעיד על יציבות גדולה יותר של מחזיקי הנכסים.",
-        "הקשר בין הביטקוין למדדי מאקרו כמו חוב לאומי ותשואות אגרות חוב הופך למשמעותי יותר מאי פעם.",
-        "גיוון פעילות של כורי ביטקוין לתחומי ה-AI מסמל שינוי אסטרטגי בחיפוש אחר יציבות תפעולית."
-      ],
-      "meaning_he": "עבור קהילת המשקיעים, הדיווח ממחיש כיצד הביטקוין משתלב בשיח הכלכלי העולמי, תוך מעבר מנכס ספקולטיבי לנכס מאקרו מוסדי.",
-      "gen_v": 6
     },
     {
       "id": "1hhw895",
