@@ -1,13 +1,30 @@
 {
-  "updated": "2026-09-25T23:03:04.619Z",
+  "updated": "2026-09-26T03:00:51.245Z",
   "count": 46,
   "sources": [
-    "Decrypt",
     "The Defiant",
+    "Decrypt",
     "Bitcoin Magazine",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "cthwwe",
+      "title": "AlphaFi Winds Down After Oracle Error, With Sui Foundation Support",
+      "link": "https://thedefiant.io/news/defi/alphafi-winds-down-after-oracle-error-with-sui-foundation-support",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-09-26T00:27:19.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/e8d1ec3c2c11c87854a6192ea85705ed71f3b884-2048x1152.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "10sxx2f",
       "title": "US Prosecutors Want $84.2 Million From a Bank Tied to Tether",
@@ -490,23 +507,6 @@
       "lang": "en",
       "date": "2026-09-25T12:01:15.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2026/09/pete-hegseth-decrypt-style-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1wtdn0g",
-      "title": "Block Adds Bitcoin Lightning to x402 Standard",
-      "link": "https://thedefiant.io/news/infrastructure/block-adds-bitcoin-lightning-to-x402-standard",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-09-25T02:55:22.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/c3d6ea8580724b95a87e7caf022001fb88952c2e-2048x1152.png",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
