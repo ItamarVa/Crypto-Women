@@ -1,13 +1,52 @@
 {
-  "updated": "2026-10-03T09:39:47.004Z",
+  "updated": "2026-10-03T15:35:56.575Z",
   "count": 46,
   "sources": [
+    "Decrypt",
     "The Defiant",
     "Bitcoin Magazine",
-    "Decrypt",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "4o2fp9",
+      "title": "Trump Is Hosting Yet Another Meme Coin Dinner: Here Are the Details",
+      "link": "https://decrypt.co/380002/trump-third-meme-coin-dinner-details",
+      "summary": "The TRUMP meme coin project is inviting its top 185 holders to a Nov. 22 gala dinner with President Trump two weeks after ethics disputes over his crypto interests helped stall the Clarity Act in the Senate.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-10-03T15:01:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-10-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "177w69w",
+      "title": "The Pope Has Thoughts on AI Art—And They're Not Flattering",
+      "link": "https://decrypt.co/379983/pope-leo-human-art-ai-creation",
+      "summary": "The pontiff says algorithms \"lack the spark of humanity,\" and the Vatican wants to renew an alliance with artists and cultural institutions to protect it.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-10-03T13:01:04.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/11/pope-leo-xiv-decrypt-style-gID_7.jpg",
+      "title_he": "בין אלגוריתמים ליצירה: הוותיקן מציב גבולות לאמנות ה-AI",
+      "brief_he": "האפיפיור ליאו ה-14 מזהיר מפני אובדן 'ניצוץ האנושיות' באמנות המיוצרת על ידי מכונות, ומדגיש את ההבדל המהותי בין יצירה אנושית לחישובים סטטיסטיים.",
+      "commentary_he": "הדיון על מקומה של הבינה המלאכותית ביצירה האמנותית מקבל זווית חדשה ובלתי צפויה מכיוונו של הוותיקן. לאחרונה, פרסם האפיפיור ליאו ה-14 מסר ברשת X, בו הוא טוען לקיומו של 'הבדל אונטולוגי' – כלומר הבדל במהות העצם – בין יצירה אנושית לבין תוצרים המופקים על ידי מכונות. לפי דבריו, בעוד שאלגוריתמים מסוגלים לייצר דימויים מורכבים המבוססים על חישובים סטטיסטיים של מיליוני תמונות, הם חסרים את 'ניצוץ האנושיות' המהווה את הבסיס ליצירת אמנות אמיתית. עמדה זו אינה משמשת רק כהערה אסתטית, אלא כקריאה לחידוש הברית בין הכנסייה לאמנים במטרה להגן על הערכים האנושיים בעידן טכנולוגי מתקדם.\n\nהאפיפיור מדגיש כי הבעיה אינה רק באיכות התוצר, אלא בתהליך הייצור עצמו. המכונה, לפי תפיסתו, פועלת על סמך דפוסים שנלמדו ממאגרי נתונים עצומים של יצירות קיימות, ללא ניסיון חיים, רגש או כוונה. גישה זו משתלבת עם פעילות רחבה יותר של הוותיקן בנושא: במאי האחרון פרסם האפיפיור את האנציקליקה 'Magnifica Humanitas', מסמך רשמי המוקדש להגנה על האדם בעידן ה-AI, ובמקביל הוקמה ועדה מיוחדת בתוך הוותיקן לתיאום המדיניות בנושא. במהלך נאום בפריז בספטמבר, חזר והדגיש האפיפיור כי מדע וטכנולוגיה, ללא הנחיה מצד המצפון, עלולים להוביל את האנושות למסלולים שאינם מטיבים עם הפרט.\n\nהסוגיה המרכזית שעל הפרק היא שאלת הבעלות וההגדרה של יצירתיות, שהפכה בשנים האחרונות גם לוויכוח משפטי וכלכלי בעל משקל רב. בארה\"ב, למשל, נדחה ניסיון של בית המשפט העליון לשמוע את תיק Thaler v. Perlmutter, ובכך נותר על כנו פסק דין הקובע כי זכויות יוצרים דורשות יוצר אנושי – תנאי סף שאינו מתקיים ביצירות המופקות במלואן על ידי מערכות AI. פסיקה זו משפיעה ישירות על אמנים ויוצרים המבקשים להגן על עבודתם מפני שימוש לא מורשה במודלי אימון, ומדגישה את הצורך בהבחנה חדה בין סיוע טכנולוגי לבין החלפה מלאה של היד המכוונת.\n\nבמקביל לדיון התאורטי, השוק מגיב בדרכים מעשיות. פלטפורמות כמו Cara, המגדירות את עצמן כרשתות פורטפוליו המיועדות לשמור על יצירות אנושיות מחוץ למאגרי אימון של בינה מלאכותית, צברו תאוצה משמעותית עם קרוב ל-900,000 משתמשים נכון ליוני 2024. נתון זה מעיד על כך שציבור היוצרים והצרכנים אינו נשאר אדיש לשינויים, וכי קיים ביקוש גובר ל'אותנטיות' שניתן לאמת את מקורה האנושי. מנגד, הניסיונות לזהות תוצרי AI בעזרת כלים אוטומטיים מתגלים כלא פעם כבעייתיים, כאשר לעיתים גם מסמכים היסטוריים או כתבי יד אנושיים מסומנים בטעות כתוצרי מכונה, מה שמעיד על המורכבות שבניסיון להכפיף יצירה אנושית למדדים אלגוריתמיים.\n\nלסיכום, העמדה שמציג הוותיקן מצטרפת לשיח רחב יותר על משמעות האנושיות בעולם שבו הגבולות הטכנולוגיים הולכים ונמוגים. ההבנה כי לא כל מה שנראה כתוצר איכותי הוא אכן תוצר של אינטלקט או רגש היא קריטית, במיוחד עבור מי שפועל בזירות שבהן הדיגיטציה היא כלי עבודה מרכזי. עבור הקהילה שלנו, המסר הוא ברור: הטכנולוגיה היא כלי רב עוצמה, אך הבחנה בין תהליכים סטטיסטיים לבין יצירה אנושית בעלת משמעות היא מיומנות קריטית שתידרש לכל מי שרוצה להבין את הערך האמיתי של הנכסים והתכנים שאנו צורכים ויוצרים ב-Web3 ומעבר לו.",
+      "terms_he": [],
+      "points_he": [
+        "קיימת הבחנה מהותית בין יצירה המבוססת על ניסיון חיים לבין תוצר המבוסס על סטטיסטיקה.",
+        "החקיקה הנוכחית בתחום זכויות היוצרים דורשת מעורבות אנושית כבסיס להגנה משפטית.",
+        "צמיחת פלטפורמות כמו Cara מעידה על ביקוש גובר לתוכן אנושי מאומת בעידן ה-AI.",
+        "השימוש בכלי זיהוי AI אינו חף מטעויות ודורש שיקול דעת אנושי משלים."
+      ],
+      "meaning_he": "הדיון מדגיש את החשיבות של 'אותנטיות' ובעלות אנושית על נכסים דיגיטליים, נושא מרכזי בעולם ה-NFT והקריפטו שבו הערך של יצירה נקשר לעיתים קרובות לזהות היוצר.",
+      "gen_v": 6
+    },
     {
       "id": "cec0hf",
       "title": "Hyperliquid’s USDC Yield Program Gets $14.6 Million for HYPE Buybacks",
@@ -499,23 +538,6 @@
       "gen_v": null
     },
     {
-      "id": "j0g1oz",
-      "title": "Spanish Police Arrest 16-Year-Old Accused of Running KillSec Ransomware Group",
-      "link": "https://decrypt.co/379913/spanish-police-arrest-16-year-old-accused-of-running-killsec-ransomware-group",
-      "summary": "A second suspect faces extradition to Puerto Rico, while Investigators are tracing the proceeds of ransoms the group demanded in crypto.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-10-02T09:12:54.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/crime_jail-handcuffs-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "zpuva0",
       "title": "Frank Holmes: They Will Print $100 Trillion – Why to Buy Bitcoin & Gold",
       "link": "https://bitcoinmagazine.com/videos/frank-holmes-they-will-print-100-trillion-why-to-buy-bitcoin-gold",
@@ -524,23 +546,6 @@
       "lang": "en",
       "date": "2026-10-01T21:34:00.000Z",
       "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/10/Frank-Holmes-They-Will-Print-100-Trillion-Why-to-Buy-Bitcoin-Gold-.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "2jo7ex",
-      "title": "Zcash Drops 21% From Recent High—Here’s Why the Rally May Not Be Over",
-      "link": "https://decrypt.co/379901/zcash-price-drops-etf-flows-rally",
-      "summary": "ZEC is 21% off its $1,698 peak after ETF outflows and a suspected North Korean heist routed money through its shielded pool. Is the run over, or will traders buy the dip?",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-10-01T21:31:03.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/zcash-decrypt-style-03-gID_7.jpg",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
