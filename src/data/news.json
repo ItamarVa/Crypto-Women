@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T10:23:29.588Z",
+  "updated": "2026-10-04T16:22:01.297Z",
   "count": 46,
   "sources": [
     "Decrypt",
@@ -8,6 +8,57 @@
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "ftugnx",
+      "title": "Banking Group Sues to Block Crypto's 'Side Door' Into the Banking System",
+      "link": "https://decrypt.co/380017/banking-group-sues-block-crypto-side-door-banking",
+      "summary": "The Independent Community Bankers of America argues the OCC's national trust charters give crypto firms a \"side door into the banking system\" without the safeguards that bind traditional banks.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-10-04T16:01:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/banks2-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "znosd9",
+      "title": "'Uptober' Starts Green as Bitcoin ETFs Draw $134 Million",
+      "link": "https://decrypt.co/380007/uptober-starts-green-bitcoin-etfs-draw-134-million",
+      "summary": "Spot Bitcoin ETFs took in $134.4 million over the first two trading days of October, rebounding from a Sept. 30 outflow as a weak jobs report cooled Fed rate-hike bets.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-10-04T15:01:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-05-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "16gp77j",
+      "title": "'We Have Identified You, Sir': Near Intents Recovers $3.8 Million After 48-Hour Ultimatum",
+      "link": "https://decrypt.co/380014/near-intents-recovers-3-8-million-after-48-hour-ultimatum",
+      "summary": "Near Intents said the roughly $3.8 million drained in an exploit on Thursday was returned in full, a day after the team said it had identified the attacker and gave them 48 hours to return the funds.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-10-04T13:01:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Crime-crypto-decrypt-style-01-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "1uryd94",
       "title": "Chainalysis Used AI to Trace the $387M Bitget Hack Back to North Korea",
@@ -325,30 +376,17 @@
       "lang": "en",
       "date": "2026-10-02T17:47:06.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Ethereum-decrypt-style-03-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
+      "title_he": "סופו של ה-Layer-2: רשת Blast מודיעה על סגירת פעילותה",
+      "brief_he": "רשת ה-Layer-2 Blast, שגייסה בעבר מיליארדי דולרים, הודיעה על הפסקת פעילותה בשל חוסר כדאיות כלכלית וקוראת למשתמשים למשוך את נכסיהם.",
+      "commentary_he": "עולם הבלוקצ'יין ידע בשנים האחרונות גל פיתוח מואץ של פתרונות שכבה שנייה (Layer-2) על גבי את'ריום, שמטרתם להפוך את הרשת למהירה וזולה יותר. אחד השמות הבולטים בתחום זה היה Blast, פרויקט שזכה לתשומת לב רבה עם השקתו בנובמבר 2023. אולם, השבוע הגיעה הכרזה מפתיעה מצד צוות הפיתוח: הרשת נסגרת. ההחלטה התקבלה לאחר הערכה מחודשת של המודל העסקי, כאשר לטענת הצוות, עלויות התפעול של הרשת עלו על ההכנסות שהיא מייצרת, ללא נתיב ברור לקיימות כלכלית בטווח הארוך. עבור המשתמשים, מדובר בתזכורת נוספת לכך שגם פרויקטים מתוקשרים היטב אינם חסינים בפני האתגרים המובנים של השוק הדיגיטלי.\n\nעל פי הפרסום הרשמי של Blast, המשתמשים נדרשים להעביר את נכסיהם בחזרה לרשת האם של את'ריום בהקדם האפשרי. התאריך הקריטי שנקבע הוא ה-26 באוקטובר 2024; עד אז, ניתן לבצע את המשיכה דרך הממשק הידידותי של האתר. בשיא הצלחתו, הפרויקט משך סכומים משמעותיים, כאשר על פי נתוני הדיווח, נעולים בו מעל 2.3 מיליארד דולר בשיאו, עם השקעה של 20 מיליון דולר בסיבוב ה-Seed בהובלת קרן Paradigm. הדרך לא הייתה חלקה: ביוני האחרון חולקו אסימוני BLAST בשווי מוערך של 354 מיליון דולר, מהלך שהותיר משתמשים רבים מאוכזבים ביחס לציפיותיהם. כעת, לאחר שהנזילות צנחה בשיעור של כ-30% מהשיא, החברה מבצעת תהליך מורכב של משיכת נכסים מפרוטוקול הסטייקינג Lido, מה שיביא להשהיית משיכות למשך כשבוע לפני פתיחתן המחודשת.\n\nכדי להבין את המקרה של Blast, חשוב להסתכל על האקו-סיסטם של את'ריום. רשתות Layer-2 הוקמו כדי לפתור את בעיית העומס על הרשת הראשית, אך השוק הפך לצפוף ותחרותי מאוד. Blast הציעה מודל ייחודי של תשואה אוטומטית על יתרי את'ריום וסטייבלקוינס, מהלך שמשך משקיעים רבים עוד לפני שהרשת הושקה רשמית. עם זאת, התחזוקה של תשתיות כאלו דורשת הוצאות תפעוליות גבוהות, החל מאבטחת הרשת ועד לתחזוקת ה-Bridge (הגשר) המאפשר העברת נכסים בין רשתות. כאשר היקף הפעילות והעמלות שנגבות אינם מצדיקים את העלויות הללו, פרויקטים מוצאים את עצמם בנקודת קצה שבה הסגירה הופכת לאופציה ההגיונית ביותר.\n\nBlast אינה לבדה במגמה זו של נסיגה מהשוק. לאורך השנה האחרונה ראינו פרויקטים נוספים כמו Zero Network של ארנק Zerion ו-Silicon Network שנסגרו או עצרו הפקדות. יתרה מכך, המגמה אינה פוסחת גם על בורסות ופלטפורמות מסחר, כאשר גופים כמו CoinEx הודיעו על הפסקת פעילות. עבור המשקיע או המשתמש הממוצע, התמונה המצטיירת היא של תהליך \"ניקוי\" טבעי בשוק. פרויקטים שנבנו על בסיס ציפיות מנופחות או מודלים כלכליים שאינם בני-קיימא מתקשים לשרוד את התקופה הנוכחית, מה שמוביל לקונסולידציה של התעשייה סביב פתרונות חזקים ומבוססים יותר.\n\nלסיום, המקרה של Blast מדגיש את החשיבות של ניהול סיכונים עצמאי בתוך עולם הקריפטו. משיכת הנכסים לאחר ה-26 באוקטובר תתבצע באמצעות אינטראקציה ישירה עם החוזים החכמים של ה-Bridge, פעולה הדורשת ידע טכני בסיסי וזהירות רבה. המסקנה המרכזית עבורנו כקהילה היא הצורך לעקוב לא רק אחרי התשואות המובטחות, אלא גם אחרי הבריאות הכלכלית של הפלטפורמות שבהן אנו בוחרים להפקיד את הוננו. בעולם שבו הטכנולוגיה משתנה במהירות, היכולת לזהות סימנים של חוסר יציבות היא מיומנות קריטית לכל משקיעה ומשקיע.",
       "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1wx81s7",
-      "title": "Nvidia Hits Record High as Market Value Reaches $5.7 Trillion",
-      "link": "https://decrypt.co/379959/nvidia-hits-record-high-market-value-5-7-trillion",
-      "summary": "The AI chipmaker's stock topped its May peak on Friday, helped by a record $150 billion buyback and a weak jobs report that cooled bets on Fed rate hikes.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-10-02T17:30:40.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt-style-nvidia-jensen-huang-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "points_he": [
+        "יש למשוך את הנכסים מהפלטפורמה לפני ה-26 באוקטובר כדי להימנע מפעולות מורכבות מול חוזים חכמים.",
+        "סגירת Blast מצטרפת למגמת התייעלות וצמצום בשוק ה-Layer-2, שבו פרויקטים רבים מתקשים להגיע לרווחיות.",
+        "ניהול סיכונים דורש בדיקת היתכנות כלכלית של הפרויקט, ולא רק התבססות על הבטחות לתשואה או אירדרופים."
+      ],
+      "meaning_he": "המקרה מדגים את חשיבות הדירוג והקיימות הכלכלית של פרויקטים בתחום התשתיות (L2), ומזכיר למשתמשים כי ניהול נכסים עצמאי דורש דריכות מתמדת גם מול פרויקטים שנראו בתחילה כהצלחה גדולה.",
+      "gen_v": 6
     },
     {
       "id": "1g4wvsz",
@@ -376,23 +414,6 @@
       "lang": "en",
       "date": "2026-10-02T16:57:35.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/af02f0cf25883c2317324d2617effaac2e0c5723-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "13f9fco",
-      "title": "Bitcoin Heads Higher on Macro Moves: Where Does BTC Go Next?",
-      "link": "https://decrypt.co/379936/bitcoin-heads-higher-fed-jobs-where-does-btc-go-next",
-      "summary": "A jobs report miss just erased the odds of an October rate hike, and BTC is now knocking on the door of its yearly ceiling.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-10-02T16:45:52.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-mountain-decrypt-style-gID_7.png",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
@@ -519,27 +540,6 @@
       "points_he": [],
       "meaning_he": null,
       "gen_v": null
-    },
-    {
-      "id": "ifayjl",
-      "title": "'Uptober' Off With a Bang as Bitcoin Surges to $86K",
-      "link": "https://decrypt.co/379932/uptober-off-with-a-bang-as-bitcoin-surges-to-86k",
-      "summary": "Cooler inflation and two dovish Fed speakers have shifted the odds toward a rate hold, with payrolls due and CPI landing on October 14.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-10-02T12:58:25.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png",
-      "title_he": "אוקטובר בסימן עלייה: ביטקוין מגיב לנתוני האינפלציה",
-      "brief_he": "הביטקוין פותח את החודש במגמת עלייה משמעותית על רקע שינוי בציפיות השוק מהפדרל ריזרב ונתוני אינפלציה מעודדים.",
-      "commentary_he": "התקופה האחרונה בשוק הקריפטו מתאפיינת בתנודתיות המלווה בנתונים מאקרו-כלכליים מרתקים. בתחילת אוקטובר, נרשמה עלייה בערכו של הביטקוין, שנסחר סביב רמה של 86,757 דולר, נתון המשקף עלייה של 3% בטווח של 24 שעות ו-2% בסיכום שבועי. עבור משקיעים ומעקב אחר השוק, מדובר בשינוי מגמה מעניין, במיוחד לאחר חודש ספטמבר שבאופן מסורתי נחשב לחודש מאתגר עבור נכסי סיכון. העלייה הנוכחית מתרחשת בזמן שהשוק מנתח מחדש את מדיניות הריבית של הבנק המרכזי האמריקאי, הפדרל ריזרב, לקראת החלטתם הקרובה בסוף החודש. הבנת הקשר בין נתוני המאקרו לבין תנועות המחיר של הנכסים הדיגיטליים היא קריטית לכל מי שבוחנת את השוק בצורה מפוכחת ומקצועית. המהלך הנוכחי נתמך לא רק במומנטום של השוק, אלא גם בשינוי מהותי בתחזיות האנליסטים בנוגע למדיניות המוניטרית. על פי הדיווח, מדד ה-PCE (מדד הוצאות הצריכה הפרטית) הליבה של חודש אוגוסט עמד על 3.0%, נמוך מהציפיות המוקדמות שעמדו על 3.3%. כתוצאה מכך, הכלים המוניטריים של ה-CME FedWatch מצביעים כעת על הסתברות של כ-74% לכך שהפדרל ריזרב יבחר להותיר את הריבית ללא שינוי בפגישתו ב-28 באוקטובר, זאת לעומת הסתברות של 35.8% בלבד שנרשמה שבוע קודם לכן. הנתונים מראים כי השוק מתחיל לתמחר אפשרות של עצירה בהעלאות הריבית, מה שבאופן היסטורי נחשב לגורם חיובי עבור נכסי סיכון כגון ביטקוין. גם גזרת ה-ETFs של הביטקוין מציגה נתונים מעניינים, עם כניסות הון של 6.34 מיליארד דולר במהלך הרבעון השלישי, לפי נתוני SoSoValue, מה שמעיד על כך שמוסדות פיננסיים גדולים ממשיכים לשלב את הנכס בתיקי ההשקעות של לקוחותיהם. המעבר של השוק מציפייה להעלאות ריבית מתמשכות לציפייה ליציבות הוא תהליך שמתרחש על בסיס נתונים רציפים, ביניהם נתוני התעסוקה והאינפלציה. לפי הדיווח, דרישות האבטלה ירדו לרמה של 197,000 בשבוע שהסתיים ב-26 בספטמבר, הנתון הנמוך ביותר מאז מרץ 2023, בעוד הדו\"ח הרשמי על התעסוקה הצביע על תוספת של 29,000 משרות בלבד בספטמבר, נתון חלש מהתחזיות. השילוב בין אינפלציה מתונה לבין שוק עבודה שמתחיל להראות סימני האטה מעלה שאלות לגבי הכיוון של הכלכלה האמריקאית. אנליסטים בשוק, כמו איליה קלצ'ב מחברת Nexo, מציינים כי התקררות האינפלציה ללא קריסה בשוק העבודה היא תרחיש חיובי עבור נכסים פיננסיים, וביטקוין בתוכם. עם זאת, חשוב להדגיש כי מדובר בסביבה מורכבת וכי החלטות הריבית של ה-Fed נותרו גורם אי-ודאות משמעותי. היסטורית, חודשי אוקטובר ונובמבר נחשבו לחודשים חזקים עבור הביטקוין, תופעה המכונה לעיתים 'Uptober', עם תשואה ממוצעת של 18% בחודש אוקטובר לאורך העשור האחרון. עם זאת, ניתוח מקצועי מחייב התייחסות לסיכונים: תשואות אגרות החוב ל-10 שנים נמצאות ברמות הגבוהות ביותר מאז 2002, וכל נתון אינפלציה חריג או שינוי במדיניות המוניטרית עלול להחזיר את הלחץ על השוק. המשקיע המנוסה נדרש להסתכל מעבר לכותרות היומיות ולבחון את התמונה המלאה של הקצאת נכסים וניהול סיכונים. לסיכום, שוק הקריפטו מתמודד כעת עם סביבה מאקרו-כלכלית דינמית, שבה נתונים כלכליים משפיעים ישירות על הסנטימנט. בעוד שהעלייה האחרונה מעודדת, היא מדגישה את הצורך בהבנה מעמיקה של הקשר בין הכלכלה המסורתית לבין שוק הנכסים הדיגיטליים, תוך שמירה על משמעת השקעה וזהירות מול תנודתיות שוק שעלולה להשתנות בכל רגע בהתאם לנתוני המאקרו הבאים.",
-      "terms_he": [],
-      "points_he": [
-        "התנודתיות בביטקוין מושפעת ישירות מנתוני אינפלציה וציפיות לריבית הפד.",
-        "הזרמת הון ל-ETFs של ביטקוין ברבעון השלישי מעידה על אימוץ מוסדי מתמשך.",
-        "היסטורית, חודש אוקטובר נחשב לחודש חיובי בשוק, אך יש לקחת בחשבון את גובה תשואות אגרות החוב."
-      ],
-      "meaning_he": "הבנת המאקרו-כלכלה חיונית לכל משקיע בקריפטו, שכן השוק כבר אינו מבודד מהחלטות ריבית ונתוני תעסוקה גלובליים.",
-      "gen_v": 6
     },
     {
       "id": "zpuva0",
