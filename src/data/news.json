@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T03:23:02.672Z",
+  "updated": "2026-10-11T10:31:47.482Z",
   "count": 46,
   "sources": [
     "The Defiant",
@@ -8,6 +8,23 @@
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "a27c8k",
+      "title": "COLDCARD Warns of Phishing Post on Its Official X Account",
+      "link": "https://thedefiant.io/news/security/coldcard-warns-of-phishing-post-on-its-official-x-account",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-11T09:38:29.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/50f1c46ea7f1e0c3bf756f417b69a177efb3bb28-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "nf7htm",
       "title": "Filecoin Nears End of Six-Year Vesting, Removing 68 Million FIL in Annual Releases",
@@ -273,23 +290,6 @@
       "lang": "en",
       "date": "2026-10-10T09:44:06.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/0d12103c2b7e25fce0d2c5e18559f2225f895a03-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "syoaba",
-      "title": "AERO Rallies 48% in Four Weeks, Outpacing Bitcoin and Ether",
-      "link": "https://thedefiant.io/news/markets/aero-rallies-48-in-four-weeks-outpacing-bitcoin-and-ether",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-10T09:33:08.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/dcb762fa965bf9f1273acb609d035c780afc1951-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
