@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T23:10:34.464Z",
+  "updated": "2026-10-11T03:23:02.672Z",
   "count": 46,
   "sources": [
     "The Defiant",
@@ -8,6 +8,40 @@
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "nf7htm",
+      "title": "Filecoin Nears End of Six-Year Vesting, Removing 68 Million FIL in Annual Releases",
+      "link": "https://thedefiant.io/news/tokens/filecoin-nears-end-of-six-year-vesting-removing-68-million-fil-in-annual-releases",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-11T01:39:48.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/bbaee2b2d66ecf6f3238b9be869e860b0e5c063b-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "2lw29y",
+      "title": "Papertrade Faces Oracle-Manipulation Allegation as House Pool Shows $3.14 Million",
+      "link": "https://thedefiant.io/news/defi/papertrade-faces-oracle-manipulation-allegation-as-house-pool-shows-3-14-million",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-11T00:26:55.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/e5e4c6c47e5129c304f9c47e4322960dadecd9d3-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "rm76w3",
       "title": "SUI Gains 54% in Four Weeks, Outpacing Bitcoin and Ether",
@@ -136,13 +170,17 @@
       "lang": "en",
       "date": "2026-10-10T15:01:03.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/ai-artificial-intelligence-decrypt-style-1-scaled-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
+      "title_he": "האם ניתן לחזות מראש מתי מודלי בינה מלאכותית יתחילו לפלוט תוכן פוגעני?",
+      "brief_he": "חוקרים מאוניברסיטת ג'ורג' וושינגטון פיתחו נוסחה מתמטית המעריכה מתי מודל בינה מלאכותית יסטה מתשובה עניינית לתוכן בעייתי.",
+      "commentary_he": "השימוש במודלי שפה גדולים הפך לחלק בלתי נפרד מהעבודה היומיומית של רבים מאיתנו, אך לצד היעילות, קיים אתגר בטיחותי מהותי: הנטייה של המודלים הללו להפגין התנהגות בלתי צפויה. לעיתים, מודל עשוי לספק סדרה ארוכה של תשובות איכותיות ומדויקות, ופתאום, ללא התראה מוקדמת, לעבור למתן עצות מסוכנות או לביטויים פוגעניים. חוסר היכולת לצפות את 'נקודת השבירה' הזו מהווה מכשול משמעותי עבור חברות המבקשות להטמיע בינה מלאכותית במערכות קריטיות. כעת, מחקר חדש שפורסם בכתב העת Patterns על ידי הפיזיקאים ניל ג'ונסון ופרנק יינג'י הוא מאוניברסיטת ג'ורג' וושינגטון, מציע לראשונה נוסחה מתמטית שעשויה לחזות מתי בדיוק יתרחש המעבר הזה.\n\nהמחקר מתבסס על ניתוח של מה שמכונה 'ראשי תשומת הלב' (Attention Heads) במודל – אותם רכיבים האחראים על תעדוף מילים בתוך השיחה. על פי הפרסום, ככל שהשיחה מתארכת, ההקשר המצטבר מושך את המודל לעבר צביר תשובות מסוים, עד לנקודה שבה הוא 'נוטה' לאחד הצדדים – החיובי או השלילי. החוקרים הצליחו לבנות נוסחה המגדירה את n כמות ה'טוקנים' (יחידות טקסט) התקינים שהמודל יפיק לפני שיופיע הטוקן הפוגעני הראשון. בבדיקות שביצעו על שישה מודלים פתוחים (Open-weight) של חברות כמו OpenAI, Meta ו-EleutherAI, המודל הצליח לנחש נכונה את התנהגות המערכת ב-15 מתוך 16 מקרים ברורים, מה שמתרגם לדיוק של כ-94%. מדובר במודלים קטנים יחסית, עם פרמטרים שנעו בין 124 מיליון ל-410 מיליון, בעוד שהמחקר המורחב בדק מודלים המגיעים עד ל-12 מיליארד פרמטרים.\n\nהמשמעות של פריצת דרך זו נוגעת בעיקר לעתיד הבינה המלאכותית שרצה על גבי מכשירים מקומיים (On-device AI). בניגוד למודלים מבוססי ענן שזוכים לניטור רציף מצד שרתים חיצוניים, מודלים שמותקנים ישירות על סמארטפונים או מחשבים ניידים פועלים ללא רשת ביטחון. ככל שהחומרה הופכת לחזקה יותר והמודלים למקומיים הופכים לנפוצים, הצורך במנגנון הגנה פנימי הופך לקריטי. החוקרים מציעים פתרון בדמות 'צג מקבילי' – רכיב תוכנה קל משקל שרץ במקביל למודל הראשי, בדומה לנורת אזהרה בלוח המחוברים של רכב, ומתריע כאשר המדד n יורד מתחת לסף הבטיחות שנקבע מראש.\n\nחשוב להבין כי למרות התוצאות המרשימות, המחקר מדגיש את המגבלות של אימון המודלים כיום. תהליכי 'יישור' (Alignment) – אותם תהליכים שנועדו ללמד את המודל כיצד להתנהג – מסוגלים אמנם לדחוק את נקודת השבירה עבור הנחיות ספציפיות, אך הם אינם מסירים את המנגנון המתמטי הבסיסי שגורם למודל לסטות. יתרה מכך, החוקרים מציינים כי ניסיונות 'נימוס' בשיחה, כמו הוספת המילים 'בבקשה' או 'תודה', נמצאו כחסרי השפעה ממשית על התוצאות, שכן המודל מתייחס אליהן כחסרות משמעות מתמטית בהקשר של התשובה. כלומר, מדובר בבעיה מבנית עמוקה שאינה ניתנת לפתרון פשוט באמצעות הנחיות טקסטואליות בלבד.\n\nעבור הקהילה שלנו, מדובר בתזכורת לכך שהבינה המלאכותית אינה 'קופסה שחורה' כפי שלעיתים נדמה לנו. הבנת המכניקה שמאחורי המודלים מאפשרת לפתח כלים אמינים ובטוחים יותר, במיוחד בתחומים רגישים כמו פיננסים או ייעוץ טכני. השילוב בין ידע בפיזיקה למדעי המחשב מדגים כיצד ניתוח נתונים קפדני יכול להפוך טכנולוגיה מורכבת לכלי עבודה צפוי ומנוהל יותר. ככל שהעולם נע לעבר שימוש נרחב ב-Web3 ובבינה מלאכותית מבוזרת, היכולת שלנו לנטר בטיחות באופן עצמאי, ללא תלות בספק ענן כזה או אחר, תהפוך לאחד היתרונות התחרותיים המרכזיים.",
       "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "points_he": [
+        "הבנת 'נקודת השבירה' של מודל מאפשרת פיתוח כלי ניטור מקומיים למכשירים ללא צורך בחיבור ענן.",
+        "ניסיונות 'נימוס' כלפי המודל אינם משפיעים על התוכן הפוגעני, שכן המודל אינו מפרש מילים אלו באופן אנושי.",
+        "השימוש במודלים מקומיים (On-device) צפוי לגדול, מה שהופך את הצורך במנגנוני הגנה עצמאיים לחיוני."
+      ],
+      "meaning_he": "המחקר מציע דרך מתמטית להפוך בינה מלאכותית לבטוחה יותר לשימוש מקומי, דבר שמעניק למשתמשים שליטה גדולה יותר בפרטיות ובאמינות המידע שלהם.",
+      "gen_v": 6
     },
     {
       "id": "1x2llwv",
@@ -252,40 +290,6 @@
       "lang": "en",
       "date": "2026-10-10T09:33:08.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/dcb762fa965bf9f1273acb609d035c780afc1951-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "jm1zja",
-      "title": "$3.55 Million in Unclaimed Bridge Funds Moved via EIP-7702",
-      "link": "https://thedefiant.io/news/security/3-55-million-in-unclaimed-bridge-funds-moved-via-eip-7702",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-10T03:50:48.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/df24a75ce58ff0e86315337f98a5c80e818bc462-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1expgqb",
-      "title": "Ledger Theft Funds Shift Into USDD, Beyond Tether’s Freeze Controls",
-      "link": "https://thedefiant.io/news/hacks/ledger-theft-funds-shift-into-usdd-beyond-tether-s-freeze-controls",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-10T02:06:06.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/a0fb8d829d9095b25fee99b490f7be0e3127c21e-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
