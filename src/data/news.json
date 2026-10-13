@@ -1,13 +1,115 @@
 {
-  "updated": "2026-10-12T20:46:10.740Z",
+  "updated": "2026-10-13T05:00:16.757Z",
   "count": 46,
   "sources": [
     "The Defiant",
-    "Decrypt",
     "Bitcoin Magazine",
+    "Decrypt",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "2vt7ha",
+      "title": "Crypto Trader ‘Realist’ Reports Knifepoint Robbery at UK Home",
+      "link": "https://thedefiant.io/news/hacks/crypto-trader-realist-reports-knifepoint-robbery-at-uk-home",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-13T04:36:19.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/801c6ebaec9fbf8fe7bcfef62358902e084b41eb-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "quc0g",
+      "title": "Moscow Exchange to Launch Bitcoin Trading, Testing Underway",
+      "link": "https://bitcoinmagazine.com/news/moscow-exchange-to-debut-bitcoin-trading",
+      "summary": "Bitcoin Magazine Moscow Exchange to Launch Bitcoin Trading, Testing Underway Russia in recent months has paved the way to allow its citizens to trade bitcoin. This post Moscow Exchange to Launch Bitcoin Trading, Testing…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-10-12T22:10:39.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/09/Pics-28.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "hhavlk",
+      "title": "South Korean Lender Jeonbuk Bank to Offer Bitcoin-Backed Loans",
+      "link": "https://bitcoinmagazine.com/news/south-korea-bank-offers-bitcoin-loans",
+      "summary": "Bitcoin Magazine South Korean Lender Jeonbuk Bank to Offer Bitcoin-Backed Loans The South Korean bank has become the first in the country to offer the bitcoin-related service. This post South Korean Lender Jeonbuk Bank…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-10-12T22:06:36.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/09/Bitcoin-Kimchi-Premium-Is-Back-as-Price-Spikes-Higher-in-South-Korea.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "kh2w6x",
+      "title": "AI Will Hit 40% of Jobs, IMF Warns. Young People Are First in Line",
+      "link": "https://decrypt.co/380789/ai-hit-40-percent-jobs-imf-warns-young-people-first",
+      "summary": "IMF chief Kristalina Georgieva says AI investment is holding global growth near 3%, with Asian chipmakers winning big, while warning of a 'slow-moving tsunami' for young workers.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-10-12T21:46:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-ai-jobs-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "7dg40v",
+      "title": "Standard Chartered Will Hold Ripple's Stablecoin in Dubai—And Let Clients Trade With It Without Moving It",
+      "link": "https://decrypt.co/380776/standard-chartered-hold-ripple-rlusd-stablecoin-dubai",
+      "summary": "The bank's Dubai branch now offers custody for Ripple's RLUSD stablecoin and plans a link with LMAX that lets institutions post it as trading collateral while the coins stay put.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-10-12T21:16:03.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/ripple-logo-decrypt-style-01-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1pnivnt",
+      "title": "Meta's New Muse Wonder Finally Puts Zuckerberg in the Frontier AI Race",
+      "link": "https://decrypt.co/380768/meta-muse-wonder-zuckerberg-frontier-ai-race",
+      "summary": "Meta's new flagship beats GPT-6 Astra and Claude on memory, legal and marathon coding tests, but independent rankings still put Anthropic's Opus 5.5 on top.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-10-12T20:46:04.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/meta-logo-gID_7.png",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "4mhsus",
       "title": "Robinhood Reports $15B in Stock Token Trading as Chain Passes 100 Days",
@@ -85,13 +187,23 @@
       "lang": "en",
       "date": "2026-10-12T19:46:03.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/gaming-decrypt-style-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "הנדסה לאחור בעידן ה-AI: הכלי שמשנה את כללי המשחק בפיתוח תוכנה",
+      "brief_he": "כלי הקוד הפתוח REA מאפשר לבינה מלאכותית לנתח קוד בינארי, מה שמוביל לפריצת דרך בשימוש בתוכנות ופיתוח אלטרנטיבות.",
+      "commentary_he": "בשבועות האחרונים, פרויקט קוד פתוח בשם REA (קיצור של Reverse Engineer Anything) עורר עניין רב בקהילת המפתחים, לאחר שזינק מ-10,000 כוכבים ב-GitHub ל-100,000 בתוך פחות משבוע. הכלי החדשני הזה משלב בין סוכני קוד מבוססי בינה מלאכותית לבין כלים מקצועיים להנדסה לאחור, כמו Ghidra שפותח על ידי ה-NSA. הרעיון בבסיס REA הוא לאפשר למודלי שפה גדולים לנתח קוד מכונה – אותו קוד בינארי שמעבדים קוראים אך בני אדם מתקשים לפענח – ולתרגם אותו להבנה אנושית. המערכת עושה שימוש בתקן הנקרא MCP (Model Context Protocol), שמאפשר לבינה מלאכותית להתחבר לכלים חיצוניים ולבצע פעולות מורכבות של ניתוח מבנה התוכנה, מה שפותח דלת לאפשרויות שעד כה דרשו מומחיות טכנית נדירה וזמן רב.\n\nהפופולריות של הכלי נובעת מהיכולת שלו לפשט תהליכים מורכבים. משתמשים עושים בו שימוש כדי לבצע הנדסה לאחור למשחקים, ליצור פורטים של תוכנות למערכות הפעלה שונות, ואף לבנות אלטרנטיבות חופשיות לתוכנות מסחריות יקרות. דוגמה בולטת היא פרויקט 'ArtCraft', סט של אפליקציות קוד פתוח שנכתבו בשפת Rust ונועדו להוות חלופה לתוכנות של Adobe, שנבנו תוך שימוש בבינה מלאכותית כדי לנתח את אופן הפעולה של התוכנות המקוריות מבלי להפר זכויות יוצרים. היוצרים משתמשים בגישה המכונה 'Clean Room Design', שבה הקוד נכתב מחדש מאפס בהתבסס על התצפיות של ה-AI על התנהגות התוכנה, ולא על העתקת הקוד המקורי עצמו. גישה זו נחשבת למסלול משפטי בטוח יותר, המאפשר יצירת מוצרים מתחרים ללא העתקה ישירה של קניין רוחני.\n\nההשלכות של REA חורגות הרבה מעבר למשחקי מחשב או פיתוח תוכנה נישתי. היכולת להשתמש ב-AI כדי להבין כיצד תוכנות עובדות מבפנים משנה את יחסי הכוחות בין חברות תוכנה גדולות לבין הקהילה. כאשר כלי שמסוגל לנתח קוד הופך לנגיש לציבור הרחב, החסם הטכני שבעבר הגן על תוכנות קנייניות מפני תחרות מצטמצם דרמטית. עם זאת, יש כאן גם צד מורכב. בעוד שהפרויקט מציע הזדמנויות לחדשנות, הוא גם מעלה שאלות אתיות ומשפטיות לגבי גבולות השימוש בבינה מלאכותית לניתוח מוצרים מוגנים. מפתח הפרויקט עצמו מקפיד לציין כי הכלי אינו מבטיח שחזור מדויק של קוד המקור, אלא מסייע בהבנת הלוגיקה, מה שמדגיש את הזהירות שבה יש לגשת לכלים כאלו.\n\nברמה הרחבה יותר, REA הוא דוגמה לדרך שבה טכנולוגיות מבוזרות ובינה מלאכותית משתלבות יחד כדי להעצים את המשתמש הקצה. בעבר, הנדסה לאחור הייתה נחלתם של מומחי אבטחת מידע או מפתחי ליבה מנוסים בלבד. כיום, כלי כמו REA מאפשר לכל מפתח מוכשר להבין מערכות מורכבות ולבנות עליהן פתרונות חדשים. זהו שינוי פרדיגמה שמשפיע על כל תעשיית התוכנה, שכן הוא מאלץ חברות לחשוב מחדש על האופן שבו הן מגינות על הטכנולוגיה שלהן ועל הדרך שבה הן מתמחרות את שירותיהן מול הקהילה.\n\nלסיכום, בעוד שההתלהבות סביב REA ברשתות החברתיות וב-GitHub היא מובנת, חשוב לזכור שמדובר בטכנולוגיה בחיתוליה. השימוש בבינה מלאכותית לניתוח קוד בינארי דורש מיומנות ושיקול דעת, במיוחד בכל הנוגע להיבטים חוקיים של זכויות יוצרים. עם זאת, אין ספק כי הכלים הללו ימשיכו להשתכלל, והם צפויים להוות זרז משמעותי לפיתוח תוכנות חופשיות ונגישות יותר בשנים הקרובות. עבור הקהילה שלנו, מדובר בהזדמנות לעקוב אחר האופן שבו הבינה המלאכותית דמוקרטיזציה של ידע טכני, והשפעתה על התחרות בשוק התוכנה המסורתי.",
+      "terms_he": [
+        {
+          "term": "הנדסה לאחור (Reverse Engineering)",
+          "explain": "תהליך של ניתוח מוצר תוכנה כדי להבין את דרך פעולתו ללא גישה לקוד המקור המקורי."
+        }
+      ],
+      "points_he": [
+        "השפעת הבינה המלאכותית על ניתוח מערכות קיימות.",
+        "חשיבות גישת ה-Clean Room למניעת הפרות זכויות יוצרים.",
+        "עלייתן של אלטרנטיבות קוד פתוח לתוכנות מסחריות.",
+        "דמוקרטיזציה של הנדסה לאחור לקהל מפתחים רחב."
+      ],
+      "meaning_he": "הכלי מעיד על עוצמת ה-AI ביכולת לפשט תהליכים טכניים מורכבים, מה שמשנה את הדינמיקה בין חברות תוכנה גדולות לבין הקהילה הטכנולוגית ומעודד תחרותיות.",
+      "gen_v": 6
     },
     {
       "id": "14j3urz",
@@ -383,23 +495,6 @@
       "gen_v": null
     },
     {
-      "id": "1yv7tp8",
-      "title": "Buyer Reports Second Tampered Ledger From MediaMarkt, Calls for Recall",
-      "link": "https://thedefiant.io/news/security/buyer-reports-second-tampered-ledger-from-mediamarkt-calls-for-recall",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-12T15:21:38.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/3c95d98352f4d247d4b0f4173b96509c33638895-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "31qx80",
       "title": "Ark Invest’s Lorenzo Valente: Bitcoin’s 5-Year Forecast – Stablecoin & Gold Impacts",
       "link": "https://bitcoinmagazine.com/videos/ark-invests-lorenzo-valente-bitcoins-5-year-forecast-stablecoin-gold-impacts",
@@ -468,57 +563,6 @@
       "gen_v": null
     },
     {
-      "id": "97j2gm",
-      "title": "Bitcoin Ranges Near $83K as Traders Look to US Inflation Data",
-      "link": "https://decrypt.co/380669/bitcoin-ranges-near-83k-as-traders-look-to-us-inflation-data",
-      "summary": "October rate-hike odds have slumped, but analysts say Treasury yields at two-decade highs are still keeping a lid on risk appetite.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-10-12T11:41:50.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-decrypt-style-25-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "iewwa8",
-      "title": "UK Freezes $12M London Penthouse of Alleged Prince Group Finance Chief",
-      "link": "https://decrypt.co/380661/uk-freezes-12m-london-penthouse-of-alleged-prince-group-finance-chief",
-      "summary": "Thet Li is accused of running the finances of a scam empire tied to $14 billion in Bitcoin the U.S. has moved to seize.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-10-12T10:12:48.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/judge-decrypt-style-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1uh3y16",
-      "title": "Tokenized Stocks Show Real Demand But Remain Volatile and Illiquid, IMF Finds",
-      "link": "https://decrypt.co/380653/tokenized-stocks-show-real-demand-but-remain-volatile-and-illiquid-imf-finds",
-      "summary": "An IMF analysis found that more than half of tokenized stock trading happens outside U.S. market hours, though the roughly $2.3 billion market remains more volatile and less liquid than traditional equities.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-10-11T17:11:03.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/Chart4_red-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "qqfsxz",
       "title": "Bitcoin Life Insurer Meanwhile Raises $37.5M as Wealthy Families Look to Pass On Their BTC",
       "link": "https://bitcoinmagazine.com/news/meanwhile-bitcoin-raises-37-million",
@@ -551,54 +595,6 @@
       "points_he": [],
       "meaning_he": null,
       "gen_v": null
-    },
-    {
-      "id": "1cgmjvl",
-      "title": "Here’s How Not To Screw up Your Bitcoin Privacy",
-      "link": "https://bitcoinmagazine.com/news/seth-for-privacy-bitcoin-tips",
-      "summary": "Bitcoin Magazine Here’s How Not To Screw up Your Bitcoin Privacy Speaking on the Bitcoin Rails podcast, Cake Wallet’s Seth for Privacy said people need to take more precautions to protect their identities when using the…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-10-09T20:02:39.000Z",
-      "image": "https://www.youtube.com/embed/A7Di925wFEU",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1y435kn",
-      "title": "Bitcoin ETFs Shed $729M in Two Days as Investors Reverse Course",
-      "link": "https://bitcoinmagazine.com/markets/bitcoin-etfs-shed-729-million-in-two-days",
-      "summary": "Bitcoin Magazine Bitcoin ETFs Shed $729M in Two Days as Investors Reverse Course Investors have fast cashed out of bitcoin exchange-traded funds this week. It’s showing in the price. This post Bitcoin ETFs Shed $729M in…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-10-09T17:11:16.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/10/Bitcoin-ETFs-Shed-729M-in-Two-Days-as-Investors-Reverse-Course.jpg",
-      "title_he": "תנודות בשוק ה-ETFs: משקיעים מקטינים חשיפה לקרנות הסל של ביטקוין",
-      "brief_he": "יציאה משמעותית של כספים מקרנות סל (ETF) של ביטקוין בארה\"ב מעוררת דיון על השפעת גורמים גיאופוליטיים וכלכליים על שוק הנכסים הדיגיטליים.",
-      "commentary_he": "השבוע האחרון בשוק הקריפטו האמריקאי אופיין בתנודתיות ניכרת, כאשר משקיעים מוסדיים ופרטיים כאחד החלו בצעד של צמצום חשיפה לקרנות הסל (Spot Bitcoin ETFs). על פי נתונים של Farside Investors, נרשמה יציאה של כ-729 מיליון דולרים מקרנות אלו בתוך יומיים בלבד – יום רביעי וחמישי. הקרנות המנוהלות על ידי גופים פיננסיים משמעותיים כמו BlackRock, Fidelity, Morgan Stanley ו-ARK 21-Shares חוו כולן פדיונות משמעותיים, מה שהוביל ללחץ כלפי מטה על מחירו של הביטקוין. נתונים אלו מגיעים לאחר פתיחת שבוע שבה דווקא נרשמה מגמה חיובית, עם רכישות שחצו את רף ה-119 מיליון דולרים ביום שלישי, מה שמדגיש את המהירות שבה הסנטימנט בשוק יכול להשתנות בתגובה לאירועים חיצוניים.\n\nהסיבות ליציאת ההון מקרנות הסל אינן מבודדות, ונראה כי הן קשורות למספר גורמי סיכון שחברו יחד. הדיווחים על אפשרות להעלאת ריבית נוספת על ידי הפדרל ריזרב יצרו אי-ודאות, שכן ריבית גבוהה יותר מצמצמת את הנזילות בשוק ומקשה על נכסי סיכון כמו ביטקוין. במקביל, המתיחות הגיאופוליטית במזרח התיכון, בדגש על עליית מחירי הנפט בעקבות אירועים במיצר הורמוז, השפיעה על השווקים הגלובליים. ככל שמחירי האנרגיה עולים, כך גובר החשש מאינפלציה דביקה, מה שמוביל משקיעים להעריך שהבנק המרכזי האמריקאי יבחר במדיניות מוניטרית מרסנת יותר. מחיר הביטקוין הגיב לירידות אלו, כאשר נסחר לאחרונה באזור ה-82,688 דולרים, ירידה של יותר מ-3% בטווח שבעת הימים האחרונים, זאת לאחר שרק בשבוע שעבר התקרב לרף ה-90,000 דולרים.\n\nחשוב להבין את המנגנון שבו פועלות קרנות הסל והקשר שלהן לשוק הביטקוין הרחב. קרנות אלו מאפשרות למשקיעים להיחשף למחיר הביטקוין ללא צורך בהחזקה ישירה של המטבע, מה שהפך אותן לצינור מרכזי לכניסת הון מוסדי. כאשר הקרנות מוכרות את הביטקוין שברשותן כדי לספק פדיונות למשקיעים, הדבר יוצר לחץ מכירה ישיר בשוק. עם זאת, ההיסטוריה מלמדת כי הקשר בין ריבית למחיר הביטקוין אינו תמיד ליניארי. בחודש שעבר, למשל, למרות הצהרות נוקשות מצד הפד והעלאת ריבית, מחיר הביטקוין דווקא רשם עליות ימים לאחר מכן. לכן, התגובה הנוכחית נראית יותר כביטוי לחשש קצר-טווח מאשר כשינוי מבני ארוך-טווח בביקוש לביטקוין כנכס.\n\nבמבט רחב יותר, שנת 2026 ממשיכה להציב אתגרים עבור המשקיעים. הביטקוין נמצא כיום כ-34% מתחת לשיא כל הזמנים שלו, העומד על 126,080 דולרים. למרות שהשוק בילה את רוב השנה בתנאי שוק דוביים (Bear Market), אנליסטים רבים מצביעים על נתונים המעידים על פוטנציאל להתאוששות, במיוחד לאחר מהלכי העליות שנצפו בחודשים אוגוסט וספטמבר. השוק נותר רגיש מאוד לחדשות גיאופוליטיות, והדוגמה הנוכחית ממחישה כיצד גם משקיעי קרנות סל, שלרוב נחשבים לשמרנים יותר ממשקיעי קריפטו ישירים, מגיבים בחדות לשינויים במאזן הכוחות הכלכלי העולמי.\n\nלמשקיע העצמאי, האירועים האחרונים מהווים תזכורת לכך שהשקעה בנכסים דיגיטליים אינה מתרחשת בחלל ריק. הבנת הקשר בין מדיניות מוניטרית, מחירי אנרגיה וזרימות הון דרך מכשירים פיננסיים מסורתיים היא חיונית לניהול תיק השקעות מושכל. אין מדובר רק בטכנולוגיה של הבלוקצ'יין, אלא בחיבור העמוק שלה לכלכלה העולמית. כפי שראינו, גם תקופות שנחשבות היסטורית לחיוביות עבור השוק, כמו חודש אוקטובר, אינן חסינות מאירועים חיצוניים שיכולים לשנות את כיוון הרוח בטווח הקצר.",
-      "terms_he": [
-        {
-          "term": "Spot Bitcoin ETF",
-          "explain": "קרן סל העוקבת אחר מחיר הביטקוין ומחזיקה בנכס הבסיס באופן ישיר."
-        },
-        {
-          "term": "נזילות (Liquidity)",
-          "explain": "היכולת לקנות או למכור נכס במהירות מבלי להשפיע באופן דרמטי על מחירו."
-        }
-      ],
-      "points_he": [
-        "השקעה דרך קרנות סל מושפעת ישירות מאירועי מאקרו כמו החלטות ריבית ומחירי נפט.",
-        "זרימות הון מקרנות ה-ETF משפיעות על הנזילות והמחיר של הביטקוין בשוק הפתוח.",
-        "התנודתיות הנוכחית מדגישה את החשיבות של ראייה ארוכת טווח מעבר לדיווחים על פדיונות יומיים.",
-        "הקשר בין נכסי קריפטו לכלכלה המסורתית מתהדק, ואירועים גיאופוליטיים משפיעים על שניהם באופן דומה."
-      ],
-      "meaning_he": "האירוע מדגים כיצד שוק הקריפטו הפך לחלק אינטגרלי מהמערכת הפיננסית הגלובלית, כאשר החלטות של משקיעים מוסדיים מושפעות כעת מאותם גורמים שמשפיעים על שוקי המניות והאג\"ח.",
-      "gen_v": 6
     },
     {
       "id": "1hhw895",
