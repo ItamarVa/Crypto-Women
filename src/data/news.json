@@ -1,13 +1,47 @@
 {
-  "updated": "2026-10-14T03:03:31.843Z",
+  "updated": "2026-10-14T09:14:43.167Z",
   "count": 46,
   "sources": [
-    "Bitcoin Magazine",
     "The Defiant",
+    "Bitcoin Magazine",
     "Decrypt",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "112rnai",
+      "title": "PancakeSwap Proposes 88% LP Fee Share and 69% CAKE Emissions Cut",
+      "link": "https://thedefiant.io/news/defi/pancakeswap-proposes-88-lp-fee-share-and-69-cake-emissions-cut",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-14T08:01:08.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/8a9d1627c4d8ed72e8052299eec5e9f8caac460b-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "ma94gt",
+      "title": "Standard Chartered Launches Bitcoin and Ether Trading for Affluent UAE Clients",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/standard-chartered-launches-bitcoin-and-ether-trading-for-affluent-uae-clients",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-14T06:12:46.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/767e3ee0904af508a78f754674a31fc9cae7891c-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "1pezh9r",
       "title": "Kraken Parent Payward Wins Full Dubai License, Plans UAE Launch",
@@ -187,13 +221,27 @@
       "lang": "en",
       "date": "2026-10-13T19:38:12.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/bitcoin-whale-decrypt-style-02-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "תנועה משמעותית בכתובת ביטקוין רדומה: מה ניתן ללמוד מהעברה של 377 מיליון דולר",
+      "brief_he": "ארנק ביטקוין שהיה רדום מאז שנת 2020 העביר את מלוא יתרתו, המסתכמת בכ-4,581 מטבעות, מה שמעורר תשומת לב בשוק בנוגע לאסטרטגיות החזקה ארוכות טווח.",
+      "commentary_he": "בתחום הבלוקצ'יין, תנועות של ארנקים גדולים, המכונים לעיתים 'לווייתנים', הן תמיד אירוע שמושך תשומת לב מצד אנליסטים ומשקיעים. לאחרונה, ארנק ביטקוין שלא ביצע פעילות משמעותית מאז מרץ 2020 העביר את מלוא יתרתו – 4,581.94 מטבעות ביטקוין – לכתובות חדשות. מהלך זה, שהתרחש ב-12 באוקטובר, מדגיש את השקיפות המוחלטת של רשת הביטקוין, המאפשרת לכל משתמש לעקוב אחר תנועות הון בסדרי גודל משמעותיים בזמן אמת, גם כאשר מדובר בנכסים שנרכשו לפני שנים רבות ונשמרו בקור. עבור המשקיע הממוצע, אירועים מסוג זה מהווים תזכורת לכך שמאחורי כל גרף מחיר עומדים משתמשים בעלי אסטרטגיות שונות, לעיתים כאלו הנפרסות על פני מחזורים כלכליים שלמים.\n\nעל פי הדיווחים המבוססים על נתוני הבלוקצ'יין, היתרה שהועברה נאמדה בשווי של כ-377 מיליון דולר בעת ביצוע העסקה. המטבעות המדוברים נרכשו במקור במרץ 2020, תקופה שבה מחיר הביטקוין עמד על כ-8,830 דולר למטבע, כך שהשווי ההתחלתי של ההחזקה עמד על כ-40.5 מיליון דולר בלבד. העסקה פוצלה לחמש כתובות יעד שונות, כאשר ארבע מהן קיבלו בדיוק 1,000 ביטקוין כל אחת, והחמישית קיבלה את היתרה שנותרה. עלות העסקה, שבוצעה בבלוק 971,126, הייתה זניחה ועמדה על כ-732 סאטושי (היחידה הקטנה ביותר של ביטקוין), סכום המקביל לכ-60 סנט בלבד, מה שמדגים את היעילות הטכנולוגית של הרשת גם בהעברות של מאות מיליוני דולרים.\n\nההיסטוריה של ארנק זה מספקת שיעור מאלף על סבלנות בשוק תנודתי. במהלך השנים שחלפו מאז 2020, המטבעות הללו שרדו מספר משברים משמעותיים, החל מהטלטלה הכלכלית עם פרוץ מגפת הקורונה, דרך האיסור הסיני על כריית ביטקוין ב-2021, ועד לקריסות של פלטפורמות מרכזיות כמו FTX, צלזיוס וטרה ב-2022. בתקופות אלו, ערך התיק חווה תנודות חריפות, כאשר שוויו ירד ועלה בהתאם למחיר השוק, אך הבעלים בחר להחזיק את הנכס לאורך כל הדרך. עבור משקיעים, מדובר בדוגמה מובהקת לגישת ה-'HODL' – החזקה לטווח ארוך ללא קשר לרעשי הרקע של השוק, אשר הניבה רווחים משמעותיים של פי עשרה בקירוב מאז יום הרכישה.\n\nמעבר לעצם ההעברה, הארנק חשף גם היבטים טכניים מעניינים הקשורים לאבטחה. לאורך השנים, הכתובת קיבלה עשרות הפקדות קטנות של 'אבק' (Dust) – סכומים מזעריים שנועדו לעיתים לניסיונות של זיהוי או הונאה. אחד הניסיונות הבולטים כלל כתובת שנראתה דומה לכתובת הארנק במטרה להטעות את הבעלים בבואו לבצע העברה, טכניקה המוכרת בשם 'הרעלת כתובות' (Address Poisoning). בעל הארנק הפגין ערנות ולא נפל למלכודת זו, מה שמוכיח כי גם עבור מחזיקים גדולים, אבטחה אישית וזהירות בניהול הארנק נותרות קריטיות. העובדה שהארנק העביר את כל יתרתו רק עכשיו מעלה שאלות לגבי מניעי הבעלים – האם מדובר בסידור מחדש של אבטחה, הכנה למכירה, או העברה לנאמנות, נותר, כאמור, בגדר הערכות בלבד.\n\nלסיכום, הסיפור של הלווייתן הזה אינו רק סיפור על רווחים גדולים, אלא על המשמעת הנדרשת להשקעה בשוק הנכסים הדיגיטליים. בעוד שהשוק נוטה להתרגש מתנועות גדולות ולחפש בהן סימנים למגמות עתידיות, חשוב לזכור כי כל העברה היא החלטה אינדיבידואלית של בעל נכס, שאינה מעידה בהכרח על המגמה הכללית של השוק. עבור הקהילה שלנו, המעקב אחר נתונים אלו מספק הבנה מעמיקה יותר על הדינמיקה של הבלוקצ'יין, תוך שמירה על גישה שקולה ומבוססת עובדות, הרחק מהספקולציות שלעיתים מאפיינות את השיח סביב המטבעות הדיגיטליים.",
+      "terms_he": [
+        {
+          "term": "לווייתן (Whale)",
+          "explain": "כינוי למשקיע או גוף המחזיק בכמות גדולה מאוד של מטבעות דיגיטליים, שיכולה להשפיע על תנודות השוק."
+        },
+        {
+          "term": "הרעלת כתובות (Address Poisoning)",
+          "explain": "טכניקת הונאה שבה תוקף יוצר כתובת הדומה לכתובת של המשתמש כדי לגרום לו לשלוח כספים לכתובת התוקף בטעות."
+        }
+      ],
+      "points_he": [
+        "תנועות של ארנקים גדולים אינן מעידות בהכרח על כוונה למכור, אלא עשויות לשקף ניהול אבטחה פנימי.",
+        "שקיפות הבלוקצ'יין מאפשרת לכל משתמש לעקוב אחר נתונים אובייקטיביים של השוק ללא צורך בתיווך.",
+        "החזקה לטווח ארוך (HODL) דורשת עמידות בפני תנודות שוק חריפות, כפי שהוכח במחזורים של השנים האחרונות.",
+        "יש לנקוט משנה זהירות מול 'הפצעות' או 'אבק' בכתובות ארנקים כדי להימנע מניסיונות הונאה."
+      ],
+      "meaning_he": "האירוע מדגיש את החשיבות של הבנת הדינמיקה של 'לווייתנים' בשוק, ומזכיר למשקיעים כי תנועות גדולות בבלוקצ'יין הן נתונים טכניים שאינם מהווים בהכרח אינדיקציה למכירה מיידית.",
+      "gen_v": 6
     },
     {
       "id": "wezxia",
@@ -272,40 +320,6 @@
       "lang": "en",
       "date": "2026-10-13T19:10:25.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/80cc69b40aec3193e7bbfb7d08c769b91b0bd378-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1mycxra",
-      "title": "MediaMarktSaturn Pulls Ledger Products Amid Tampering Reports",
-      "link": "https://thedefiant.io/news/security/mediamarktsaturn-pulls-ledger-products-amid-tampering-reports",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-13T19:09:53.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/16b97eea12561823689b7238a45df2904908c02a-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1e7992a",
-      "title": "Blockchain.com Seeks CFTC Licenses for US Derivatives and Prediction Markets",
-      "link": "https://thedefiant.io/converge/regulation/blockchain-com-seeks-cftc-licenses-for-us-derivatives-and-prediction-markets",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-13T19:03:30.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/d96c7c17c6f0191eb585300b2a5f84e5eb32ab0d-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
