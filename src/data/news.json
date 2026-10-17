@@ -1,13 +1,30 @@
 {
-  "updated": "2026-10-16T22:26:34.476Z",
+  "updated": "2026-10-17T02:35:46.416Z",
   "count": 46,
   "sources": [
-    "Bitcoin Magazine",
     "The Defiant",
+    "Bitcoin Magazine",
     "Decrypt",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "18kxgtb",
+      "title": "Kevin Boon Succeeds Evan Cheng as Mysten Labs CEO",
+      "link": "https://thedefiant.io/news/people/kevin-boon-succeeds-evan-cheng-as-mysten-labs-ceo",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-16T23:52:16.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/6c14603fd3e46c884cf9a120637f1d011ac3d05c-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "fpryi5",
       "title": "Poetic Justice: Scammer Lost $5M in Bitcoin After Being Targeted by Ledger Thieves",
@@ -425,23 +442,6 @@
       "lang": "en",
       "date": "2026-10-16T15:00:40.000Z",
       "image": "https://cdn.sanity.io/images/6oftkxoa/production/823e657621ec4079774a9902352439a7e0884bee-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "oo08qw",
-      "title": "INJ Surges 27%, Outpacing NEAR and Sei",
-      "link": "https://thedefiant.io/news/markets/inj-surges-27-outpacing-near-and-sei",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-16T14:58:50.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/ee9ffbbda81db6e672d9a5cb17bdb6df6ebac982-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
