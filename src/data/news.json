@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T18:08:05.473Z",
+  "updated": "2026-10-17T22:01:55.314Z",
   "count": 46,
   "sources": [
     "The Defiant",
@@ -8,6 +8,23 @@
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "jw7nzu",
+      "title": "French Assembly Backs Tax on Crypto-to-Stablecoin Swaps by One Vote",
+      "link": "https://thedefiant.io/news/regulation/french-assembly-backs-tax-on-crypto-to-stablecoin-swaps-by-one-vote",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-17T19:42:21.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/1bee00214e51a15f438f0e7eb82faac4bedd0dee-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "mxh4s7",
       "title": "Injective Activates Fixed Gas Costs for Exchange Transactions",
@@ -426,23 +443,6 @@
       "lang": "en",
       "date": "2026-10-16T17:48:06.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-09-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1t6caq2",
-      "title": "STRK’s L1 Bet: Eli Ben-Sasson on Starknet’s Exit Plan",
-      "link": "https://thedefiant.io/podcasts-and-videos/podcast/strk-s-l1-bet-eli-ben-sasson-on-starknet-s-exit-plan",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-16T17:33:25.000Z",
-      "image": "https://cdn.thedefiant.io/thumbnail-episode2-v3-jpg-04685755-fc1d-4f40-bf9d-75681d96b775.jpg",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
