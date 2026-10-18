@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T08:31:43.537Z",
+  "updated": "2026-10-18T15:16:26.995Z",
   "count": 46,
   "sources": [
     "The Defiant",
@@ -8,6 +8,74 @@
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "oyqx5",
+      "title": "Qubic Halts Network After $1.3 Million Wallet Drain",
+      "link": "https://thedefiant.io/news/hacks/qubic-halts-network-after-1-3-million-wallet-drain",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-18T15:09:55.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/b507bb4476121195fca84edbe41c2c8da0c55f25-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1igwsum",
+      "title": "Bitcoin ETFs Shed Nearly $1 Billion in Two Weeks as Uptober Stays Red",
+      "link": "https://decrypt.co/381246/bitcoin-etfs-shed-nearly-1-billion-two-weeks-uptober-red",
+      "summary": "Bitcoin ETFs lost a net $228.6 million this week, following a $681.1 million drain the week before and pushing October deep into the red.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-10-18T15:01:04.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1j8z5yu",
+      "title": "Banks Hold a Lever Over Stablecoin Adoption, BIS Economists Say",
+      "link": "https://decrypt.co/381253/banks-hold-a-lever-over-stablecoin-adoption-bis-economists-say",
+      "summary": "A Bank for International Settlements working paper found that stablecoin growth slows when U.S. banks raise deposit rates, with Circle’s USDC most sensitive.",
+      "source": "Decrypt",
+      "lang": "en",
+      "date": "2026-10-18T13:01:04.000Z",
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/money-printer-decrypt-style-scaled-gID_7.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "12gt69w",
+      "title": "Cysic Halts Bridge After Unauthorized Mint of 10 Million CYS",
+      "link": "https://thedefiant.io/news/hacks/cysic-halts-bridge-after-unauthorized-mint-of-10-million-cys",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-18T11:10:38.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/5e05ec60609a9fd3965b297d9dbecdf53b8a0277-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "jw7nzu",
       "title": "French Assembly Backs Tax on Crypto-to-Stablecoin Swaps by One Vote",
@@ -367,23 +435,6 @@
       "gen_v": null
     },
     {
-      "id": "gpnlz3",
-      "title": "SEI Perpetual Futures Trade on CFTC-Regulated OG.com Markets",
-      "link": "https://thedefiant.io/news/cefi/sei-perpetual-futures-trade-on-cftc-regulated-og-com-markets",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-16T18:32:37.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/343d31053203dd4789f2d12fd7bf848a3b49d114-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "kiylqm",
       "title": "Hot Inflation Data Puts Bitcoin Under Pressure, but ‘Difficult’ Isn’t ‘Bearish’: CoinShares",
       "link": "https://bitcoinmagazine.com/news/bitcoin-under-pressure-says-coinshares",
@@ -409,23 +460,6 @@
       "lang": "en",
       "date": "2026-10-16T18:16:04.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/strategy-logo-x-twitter-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1ybtncu",
-      "title": "Karpelès Reports Ledger Implants in Devices From Two More Resellers",
-      "link": "https://thedefiant.io/news/security/karpel-s-reports-ledger-implants-in-devices-from-two-more-resellers",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-16T18:13:04.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/2c7328a3c195f2329b0319a898f4a199c5c05c56-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
@@ -494,40 +528,6 @@
       "lang": "en",
       "date": "2026-10-16T16:32:41.000Z",
       "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/06/Strategy-MSTR-Sells-Bitcoin-for-First-Time-in-Years-as-Bitcoin-Price-Tumbles.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "wg8qbc",
-      "title": "Bitcoin Bounces, But Where Does It Go Next? Here’s What the Charts Say",
-      "link": "https://decrypt.co/381150/bitcoin-price-rebounds-where-next-charts",
-      "summary": "Technical indicators suggest the bullish trend remains intact, but prediction market traders are sending mix signals.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-10-16T16:06:05.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-decrypt-style-28-gID_7.png",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "19dq8u4",
-      "title": "Three Canadian Armed Forces Members Charged in Kidnapping of Crypto Exchange Owner",
-      "link": "https://decrypt.co/381148/three-canadian-armed-forces-members-charged-in-kidnapping-of-crypto-exchange-owner",
-      "summary": "Police seized guns, silencers and more than 2,000 rounds of ammunition, nearly all of it allegedly stolen from the Canadian military.",
-      "source": "Decrypt",
-      "lang": "en",
-      "date": "2026-10-16T15:43:58.000Z",
-      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Handcuffs-gID_7.png",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
@@ -814,13 +814,27 @@
       "lang": "he",
       "date": "2023-02-28T22:11:54.000Z",
       "image": null,
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "היסטוריה חקוקה באבן דיגיטלית: תופעת ה'גרפיטי' על גבי הבלוקצ'יין של ביטקוין",
+      "brief_he": "הבלוקצ'יין של ביטקוין משמש לא רק להעברת מטבעות, אלא גם כארכיון קבוע שבו ניתן להטמיע מידע דיגיטלי, עובדה המעוררת דיון מקצועי על יעילות הרשת.",
+      "commentary_he": "רשת הביטקוין נתפסת לרוב כמערכת תשלומים מבוזרת, אך במבט מעמיק יותר, היא מהווה מאגר נתונים ציבורי, פתוח ובלתי ניתן לשינוי. הליבה של הטכנולוגיה הזו היא שקיפות: כל משתתף ברשת יכול להוריד עותק של היסטוריית הטרנזקציות מאז הקמתה ב-2009 ולוודא שהכללים נשמרים. עם זאת, לצד תנועות המטבע השגרתיות, נרשמה לאורך השנים תופעה מעניינת המכונה לעיתים 'גרפיטי' על גבי שרשרת הבלוקים. מדובר בהטמעה של נתונים שרירותיים, טקסטים או אפילו קבצי תמונה בתוך הבלוקים עצמם, פעולה שמשתמשת במרחב הדיגיטלי של הרשת למטרות שאינן בהכרח פיננסיות. עבור מי שעוקב אחר התפתחות הטכנולוגיה, חשוב להבין כיצד התנהגות זו משתלבת במבנה המבוזר של הרשת ומהן המשמעויות שלה על תחזוקת המערכת לאורך זמן.\n\nהנתונים מלמדים על היקף התופעה: 14 שנים לאחר השקת הרשת, גודלו של מאגר הנתונים המלא עומד על למעלה מ-500GB. בממוצע, בכל עשר דקות נוצר בלוק חדש, מה שמוביל לקצב של כ-144 בלוקים ביום. בתוך המרחב הזה, נרשמו לאורך השנים פיסות מידע מגוונות. הטרנזקציה הראשונה עצמה, שבוצעה על ידי סטושי נקמוטו, הכילה את הכותרת מהעיתון 'The Times' מ-3 בינואר 2009. דוגמאות בולטות נוספות כוללות את הבלוק מספר 138,725 משנת 2011, שבו קודדה אמנות ASCII לזכרו של הטכנולוג לן ססמן, וכן צמד טרנזקציות מחודש מאי 2011 שהכילו יחד קובץ JPEG של לוגו הביטקוין בגודל 13KB. במקרים אלו, המידע מחולק לטרנזקציות שונות בתוך הבלוקצ'יין, מה שמדגים את היכולת הטכנית להשתמש ברשת כשרת אחסון מבוזר לכל דבר.\n\nהרקע הטכני לתופעה נעוץ באופי הפתוח של הבלוקצ'יין. כפי שכל משתמש יכול לשלם עמלה לכורים כדי שיכללו את פעולת העברת הביטקוין שלו בבלוק, כך ניתן לשלם כדי להכליל מידע נוסף בתוך הטרנזקציה. המערכת תוכננה להיות עמידה ונגישה, כך שברגע שמידע נרשם ונכרה בבלוק, הוא משוכפל על פני אלפי צמתים ברחבי העולם, מה שהופך את מחיקתו למשימה בלתי אפשרית כמעט. עם זאת, התפיסה המקורית של נקמוטו הייתה שונה; כבר ב-2010 הוא הביע הסתייגות משימוש ברשת למטרות שאינן קשורות ישירות לביטקוין, מחשש שזה יכביד על הרשת ויקשה על משתמשים להריץ צומת מלא על גבי חומרה ביתית פשוטה. העיקרון המנחה היה לשמור על דרישות סף נמוכות ככל האפשר כדי להבטיח ביזור אמיתי.\n\nהדיון סביב 'הגרפיטי' הדיגיטלי נוגע במתח שבין גמישות הטכנולוגיה לבין יציבותה. מצד אחד, היכולת לשמור נתונים באופן בלתי ניתן למחיקה היא עוצמתית, אך מצד שני, היא מעלה שאלות של עומס וניצול משאבים. כמענה לניסיונות העמסה של הרשת במידע מיותר, הוטמע הפתרון הטכני המכונה OP_RETURN. מדובר בסוג של כתובת ביטקוין ייעודית שמאפשרת הטמעה של כמות קטנה מאוד של נתונים (עד 80 בתים) מבלי לאפשר למטבעות לצאת ממנה. יתרונו של OP_RETURN הוא בכך שהוא מסמן את הנתונים ככאלו שאינם דורשים שמירה ארוכת טווח מצמתים המשתמשים בטכניקת 'Pruning' (צמצום נתונים), ובכך הוא מונע את הניפוח המיותר של מסד הנתונים של הרשת מבלי לפגוע ביכולת הווידוא של הטרנזקציות התקינות.\n\nלסיכום, השימוש בבלוקצ'יין כאמצעי לאחסון נתונים הוא עדות ליצירתיות של הקהילה הטכנולוגית, אך הוא גם מזכיר לנו את החשיבות של יציבות המערכת. הביטקוין הוכיח לאורך השנים שהוא מסוגל להסתגל לאתגרים מבלי לאבד את עקרונות היסוד שלו. עבור המשקיע או המשתמש הממוצע, חשוב להכיר את המורכבות הזו – המערכת אינה רק כלי פיננסי, אלא תשתית טכנולוגית חיה שמתפתחת תוך איזון מתמיד בין פונקציונליות לבין שמירה על אופייה כמערכת מבוזרת, יעילה ונגישה לכל.",
+      "terms_he": [
+        {
+          "term": "OP_RETURN",
+          "explain": "פונקציה בביטקוין המאפשרת להוסיף כמות קטנה של מידע לבלוק, תוך סימון הנתונים ככאלו שניתן להתעלם מהם לצורכי חיסכון במקום."
+        },
+        {
+          "term": "Pruning",
+          "explain": "טכניקה המאפשרת לצמתים ברשת למחוק היסטוריה ישנה של טרנזקציות כדי לחסוך בשטח אחסון, תוך שמירה על תקינות הרשת."
+        }
+      ],
+      "points_he": [
+        "הבלוקצ'יין של ביטקוין הוא ארכיון קבוע שאינו ניתן למחיקה, מה שהופך אותו למקום אטרקטיבי להטמנת מידע דיגיטלי.",
+        "הטמעת נתונים שרירותיים עלולה להכביד על הרשת ולפגוע בביזור שלה, ולכן קיימים מנגנונים טכניים לניהול העומס.",
+        "פרוטוקול OP_RETURN מהווה כלי יעיל המאפשר הכללת מידע מוגבל בטרנזקציות מבלי לפגוע ביציבות הצמתים ברשת.",
+        "הפער בין החזון המקורי של רשת תשלומים לבין השימוש הטכנולוגי בפועל הוא חלק בלתי נפרד מהאבולוציה של הביטקוין."
+      ],
+      "meaning_he": "הבנת היכולת להטמיע נתונים בבלוקצ'יין עוזרת להבין את עוצמת הטכנולוגיה מעבר לעולם הפיננסי, אך גם את המגבלות שנועדו לשמור על הרשת ככלי נגיש לכולם.",
+      "gen_v": 6
     }
   ]
 }
