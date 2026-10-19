@@ -1,13 +1,30 @@
 {
-  "updated": "2026-10-19T02:51:07.599Z",
+  "updated": "2026-10-19T09:33:09.623Z",
   "count": 46,
   "sources": [
-    "Decrypt",
     "The Defiant",
+    "Decrypt",
     "Bitcoin Magazine",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "550xpf",
+      "title": "JPMorgan Extends JPM Coin to Ethereum for Institutional Clients",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/jpmorgan-extends-jpm-coin-to-ethereum-for-institutional-clients",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-19T07:53:33.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/a79f16e568b7a6879b1ba0f191e852c3d7fc0575-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "1b9jht9",
       "title": "MapQuest Now Shows Drivers Where Flock Cameras Are Watching",
@@ -365,23 +382,6 @@
       "lang": "en",
       "date": "2026-10-16T22:12:36.000Z",
       "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/10/Pics-16.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "rr8us9",
-      "title": "Anthropic Says Claude Traced NIST Curve Seeds to 1990s Timestamps",
-      "link": "https://thedefiant.io/news/security/anthropic-says-claude-traced-nist-curve-seeds-to-1990s-timestamps",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-16T21:32:28.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/65693db1236ff83e2954b3e8721da229bb5556b6-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
