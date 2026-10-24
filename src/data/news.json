@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T18:35:41.980Z",
+  "updated": "2026-10-24T22:16:22.338Z",
   "count": 46,
   "sources": [
     "The Defiant",
@@ -8,6 +8,40 @@
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "14gxgys",
+      "title": "X100 Exploit Proceeds Split Into Four 400-ETH Wallets",
+      "link": "https://thedefiant.io/news/hacks/x100-exploit-proceeds-split-into-four-400-eth-wallets",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-24T19:41:15.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/386422fa78c8a665dad38232738d81223c1af8b8-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "16x406q",
+      "title": "Keystone Website Breach Exposes Customer Addresses and Order Details",
+      "link": "https://thedefiant.io/news/security/keystone-website-breach-exposes-customer-addresses-and-order-details",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-24T19:06:10.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/d6fd9c8373eb1a2a1070daa6a8ad288f9a7d709b-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "mgx7xm",
       "title": "Electrum Patches Wallet Flaw Exploited Through Malicious Servers",
@@ -251,23 +285,6 @@
       "gen_v": null
     },
     {
-      "id": "1u8oh7v",
-      "title": "Kraken Scraps Monero Withdrawal Questionnaires, Keeps XMR Listed",
-      "link": "https://thedefiant.io/news/cefi/kraken-scraps-monero-withdrawal-questionnaires-keeps-xmr-listed",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-24T02:22:37.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/f473a3a973d1f5683cb3884ceba7068794bbbfa6-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "1ytlb04",
       "title": "NY Seeks $1.37 Billion Judgment Against Operators of NovaTech Crypto Ponzi Scheme",
       "link": "https://bitcoinmagazine.com/news/ny-seeks-1-37-b-judgement-novatech",
@@ -310,23 +327,6 @@
       "lang": "en",
       "date": "2026-10-23T21:16:03.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/Israel-Flag-DecryptStyle-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "kne7pp",
-      "title": "Argentine Judge Dismisses LIBRA Criminal Case Against Milei and 10 Others",
-      "link": "https://thedefiant.io/news/regulation/argentine-judge-dismisses-libra-criminal-case-against-milei-and-10-others",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-23T21:06:51.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/236d0776ae180dd9f50359c77827390fe2f990ff-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
