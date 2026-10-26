@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T02:43:09.368Z",
+  "updated": "2026-10-26T09:36:40.580Z",
   "count": 46,
   "sources": [
     "The Defiant",
@@ -8,6 +8,40 @@
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "1q21jtf",
+      "title": "Consensys Warns Ethereum Operators of eMudhra Signing Risks",
+      "link": "https://thedefiant.io/news/security/consensys-warns-ethereum-operators-of-emudhra-signing-risks",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-26T08:53:32.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/1a040ac31468693c52f874b169b55b3ff475dd7f-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1sey2i6",
+      "title": "Foundation Links Passport Phishing Emails to Compromised Cloudflare API Keys",
+      "link": "https://thedefiant.io/news/security/foundation-links-passport-phishing-emails-to-compromised-cloudflare-api-keys",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-26T04:06:03.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/df0acdf667ac66b4541a0c26db32f5e274cd7390-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "18mbwab",
       "title": "How a DAO Vote Becomes a Treasury Transfer",
@@ -247,23 +281,6 @@
       "gen_v": null
     },
     {
-      "id": "18z2jlq",
-      "title": "Third X100 Exploit Transaction Pulls 550,000 X From Uniswap Pool",
-      "link": "https://thedefiant.io/news/hacks/third-x100-exploit-transaction-pulls-550-000-x-from-uniswap-pool",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-24T15:17:43.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/eaa842f528d1929176a4142e36d378e049924725-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "p2vlmf",
       "title": "Game Publishers Have Pushed to Cut Discs Since 2007, Infinity Ward Veteran Says",
       "link": "https://decrypt.co/381674/game-publishers-have-pushed-to-cut-discs-since-2007-infinity-ward-veteran-says",
@@ -283,23 +300,6 @@
       ],
       "meaning_he": "הסיפור מדגיש את המעבר המורכב לכלכלה מבוססת רישיונות דיגיטליים, נושא שרלוונטי מאוד גם לעולם ה-Web3 וה-NFT, שם שאלת הבעלות האמיתית היא לב העניין.",
       "gen_v": 6
-    },
-    {
-      "id": "1qh7x83",
-      "title": "X100 Exploit Nets 4.85 Million USDT After Governance Takeover",
-      "link": "https://thedefiant.io/news/hacks/x100-exploit-nets-4-85-million-usdt-after-governance-takeover",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-24T14:58:09.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/bb14c0f7a740eefefa4aa8532e46a4caa0250320-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
     },
     {
       "id": "eefymz",
