@@ -1,13 +1,47 @@
 {
-  "updated": "2026-10-26T23:32:52.205Z",
+  "updated": "2026-10-27T03:17:52.299Z",
   "count": 46,
   "sources": [
-    "Decrypt",
-    "The Defiant",
     "Bitcoin Magazine",
+    "The Defiant",
+    "Decrypt",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "v7s9qk",
+      "title": "Cold Storage Goes South: bitcoin++ Announces Antarctica Edition",
+      "link": "https://bitcoinmagazine.com/news/cold-storage-bitcoin-antarctica",
+      "summary": "Bitcoin Magazine Cold Storage Goes South: bitcoin++ Announces Antarctica Edition bitcoin++ is planning its first cold-storage edition on a 13-day expedition to the Antarctic Peninsula. This post Cold Storage Goes South:…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-10-27T00:00:04.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/10/bitcoin-Announces-Antarctica-Edition.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "bbrt3w",
+      "title": "Ripple Wins Final OCC Trust Bank Approval for RLUSD Reserves and Custody",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/ripple-wins-final-occ-trust-bank-approval-for-rlusd-reserves-and-custody",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-26T23:37:47.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/0df7ec173f90e67af09c0ede74dcfc851bf6119f-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "5y15nn",
       "title": "Canada’s Draft Stablecoin Rules Cap Redemption Fees at 1% and Ban Yield",
@@ -468,23 +502,6 @@
       "gen_v": null
     },
     {
-      "id": "11ubcxk",
-      "title": "Sony-Backed Soneium Plans Native Token in Tokenized-IP Push",
-      "link": "https://thedefiant.io/news/blockchains/sony-backed-soneium-plans-native-token-in-tokenized-ip-push",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-26T14:52:58.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/32f4b8a1caf98b1c7bd70212d1a987c71fcd65c5-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "sukft7",
       "title": "Bitcoin’s Bear Market Is Over, Galaxy Says",
       "link": "https://bitcoinmagazine.com/markets/bitcoins-bear-market-is-over-galaxy-says",
@@ -568,28 +585,6 @@
       "points_he": [],
       "meaning_he": null,
       "gen_v": null
-    },
-    {
-      "id": "xoss5s",
-      "title": "PHP Hack: How Bitcoin Will Respond to the “Cyber Pandemic”",
-      "link": "https://bitcoinmagazine.com/videos/php-hack-how-bitcoin-will-respond-to-the-cyber-pandemic",
-      "summary": "▶ Bitcoin Magazine PHP Hack: How Bitcoin Will Respond to the “Cyber Pandemic” As global sites go offline over PHP flaws, Bitcoin Magazine's Shinobi explains memory bugs, AI-driven hacking speeds, and whether Bitcoin…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-10-26T13:21:59.000Z",
-      "image": "https://img.youtube.com/vi/yMxOKp7Zv7g/hqdefault.jpg",
-      "title_he": "אבטחת מידע בעידן של פגיעות תוכנה: מבט על אירועי ה-PHP האחרונים",
-      "brief_he": "פרצות אבטחה ב-PHP מעלות שאלות על חוסנה של התשתית הדיגיטלית העולמית ועל עמידות המערכות של ביטקוין מולן.",
-      "commentary_he": "המרחב הדיגיטלי העולמי מתמודד בימים האחרונים עם אתגר משמעותי בעקבות גילוי פרצות אבטחה בשפת התכנות PHP, שפה המהווה את עמוד השדרה של חלק ניכר מהאינטרנט כפי שאנו מכירים אותו. דיווחים שפורסמו לאחרונה מצביעים על כך שאתרי ממשל בצרפת ובפינלנד, לצד אתרי בתי חולים בהולנד, נאלצו לרדת מהאוויר או להגביל גישה בעקבות ניסיונות ניצול של פרצות אלו. חברות אבטחה כמו Cloudflare מדווחות על עלייה משמעותית בתעבורה זדונית שמנסה לאתר שרתים שלא עודכנו, מה שהוביל את הסוכנות הלאומית לאבטחת סייבר בבריטניה להמליץ לארגונים לנתק מערכות פגיעות אם אין ביכולתם לבצע תיקון מיידי. עבור הקהילה שלנו, מדובר בתזכורת חשובה לכך שהתשתית הטכנולוגית שעל גבה רצה הכלכלה המודרנית אינה חסינה, וכי ניהול סיכונים הוא חלק בלתי נפרד מהפעילות המקוונת.\n\nלפי הדיווחים המקצועיים, מה שמייחד את גל התקיפות הנוכחי הוא המהירות שבה הבינה המלאכותית (AI) מסייעת לתוקפים. מומחי אבטחה מצביעים על כך שכלי AI מסוגלים כיום לסרוק קוד, לזהות חולשות ולפתח כלי ניצול בתוך שעות ספורות בלבד, מה שמקצר משמעותית את \"חלון ההזדמנויות\" שבין פרסום הפרצה לבין התקיפה בפועל. הבעיה המרכזית ב-PHP, לפי הניתוח הטכני, נעוצה בניהול לקוי של זיכרון במערכות מורכבות, מה שמאפשר לתוקפים להריץ קוד לא מורשה. בעוד שבעבר תהליך כזה דרש זמן ומומחיות אנושית רבה, כיום ה-AI מבצעת את מרבית העבודה השחורה, מה שהופך את קצב התקיפות למהיר הרבה יותר ממה שהכרנו בעבר. זוהי התפתחות שמשנה את פני אבטחת המידע, שכן ארגונים נדרשים כעת לתגובה מהירה פי כמה כדי להישאר מוגנים.\n\nבתוך הדיון הזה, עולה השאלה המתבקשת: האם רשת הביטקוין חשופה לאיומים דומים? מומחים בתחום, כפי שעלה בשיח המקצועי האחרון של Bitcoin Magazine, מדגישים כי ארכיטקטורת הביטקוין שונה מהותית. הפיתוח של Bitcoin Core ושל ספריות קריטיות כמו libsecp256k1 מתבצע באופן שמרני, איטי ומבוקר מאוד. בעוד שבעולם התוכנה הכללי חלה דחיפות לשחרר גרסאות במהירות (\"Move fast and break things\"), עולם הביטקוין מתעדף יציבות ואבטחה על פני קצב פיתוח מהיר. הגישה הזו, שלעיתים סופגת ביקורת על היותה \"איטית\", הוכיחה את עצמה לאורך השנים כחומה בצורה מול סוגים שונים של פרצות שפקדו פלטפורמות אחרות. אין זה אומר שביטקוין חסין לחלוטין, אך מנגנוני הקונצנזוס והבדיקות המרובות הופכים את הכנסת הקוד לרשת לקשה ומורכבת הרבה יותר.\n\nעם זאת, גם אם הרשת עצמה נותרת איתנה, המשתמשים בקצה עדיין עומדים בפני סיכונים. העובדה שתוכנות עזר או ארנקים דיגיטליים עשויים להסתמך על ספריות קוד פגיעות מחייבת אותנו לנקוט משנה זהירות. מומחי האבטחה ממליצים כעת, יותר מתמיד, על שימוש בפתרונות \"אחסון קר\" (Cold Storage) – כלומר, שמירת מפתחות פרטיים מחוץ למכשירים המחוברים לאינטרנט באופן קבוע. כמו כן, שימוש בארנקי Multisig (חתימה מרובה) והקפדה על עדכוני תוכנה מהימנים הם צעדים בסיסיים שיכולים להפחית את הסיכון משמעותית. האיום אינו רק טכני; הוא דורש מאיתנו, כמשקיעים וכמשתמשים, להבין את שרשרת האספקה של התוכנה שאנו משתמשים בה ולהיות מודעים לנקודות התורפה של המכשירים שלנו.\n\nלסיכום, העידן שבו הבינה המלאכותית משמשת ככלי מרכזי בידי תוקפים מחייב אותנו לשינוי תפיסתי. האבטחה אינה מצב סטטי אלא תהליך מתמשך של עדכון, למידה והגנה אקטיבית. עבור קהילת הקריפטו, הלקח המרכזי הוא שהטכנולוגיה עליה אנו נשענים דורשת הבנה מעמיקה של עקרונות האבטחה הבסיסיים. היכולת להבחין בין סיכון מערכתי ברשת לבין סיכון הנובע מהתנהלות אישית היא המפתח לשמירה על הנכסים הדיגיטליים שלנו בעולם שהופך למורכב ומהיר יותר מדי יום.",
-      "terms_he": [],
-      "points_he": [
-        "הסתמכות על תוכנות קוד פתוח מחייבת מעקב אחר עדכוני אבטחה שוטפים.",
-        "שימוש באחסון קר (Cold Storage) נותר הדרך היעילה ביותר להגנה על נכסים.",
-        "הבינה המלאכותית מאיצה את גילוי הפרצות, מה שמחייב תגובה טכנולוגית מהירה יותר מארגונים.",
-        "פיתוח מבוקר ושמרני בביטקוין מספק הגנה משמעותית בהשוואה למערכות תוכנה גנריות."
-      ],
-      "meaning_he": "האירועים האחרונים מדגישים את הצורך באוריינות סייבר בסיסית לכל משתמש קריפטו, ומדגישים מדוע הגישה השמרנית של הביטקוין היא יתרון אסטרטגי ולא חיסרון.",
-      "gen_v": 6
     },
     {
       "id": "1hhw895",
