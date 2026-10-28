@@ -1,13 +1,98 @@
 {
-  "updated": "2026-10-27T23:29:16.058Z",
+  "updated": "2026-10-28T03:35:59.629Z",
   "count": 46,
   "sources": [
-    "Decrypt",
     "The Defiant",
+    "Decrypt",
     "Bitcoin Magazine",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "1sq9o4l",
+      "title": "Coinbase Denies Systems Breach, Cites Amplitude Contact-Data Incident",
+      "link": "https://thedefiant.io/news/cefi/coinbase-denies-systems-breach-cites-amplitude-contact-data-incident",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-28T03:16:33.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/269c9293c63238723b69ae916a3d8fb33cedeae8-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1fzysz1",
+      "title": "Tranche Vault on Avalanche Drained of 1.01 Million USDC",
+      "link": "https://thedefiant.io/news/hacks/tranche-vault-on-avalanche-drained-of-1-01-million-usdc",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-28T01:11:39.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/e34707405e260bf0bd6577b094de1222161561cb-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "t1kq5x",
+      "title": "Datavault Shares Plunge Nearly 50% After Biconomy Bitcoin Disclosure",
+      "link": "https://thedefiant.io/converge/cefi/datavault-shares-plunge-nearly-50-after-biconomy-bitcoin-disclosure",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-28T00:56:05.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/33ab646d56b37fed2103b4a482eacf9212f21a8d-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1qco7wy",
+      "title": "Solflare Validator Stops Earning Rewards After Provider Security Incident",
+      "link": "https://thedefiant.io/news/security/solflare-validator-stops-earning-rewards-after-provider-security-incident",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-28T00:29:33.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/1bf7025cc1686d9cad477ec5ae23d192116dc8cd-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1nxsq8d",
+      "title": "IPX Names Ja Rule President of Its Celebrity Board of Advisors and Founding Member",
+      "link": "https://thedefiant.io/news/tradfi-and-fintech/ipx-names-ja-rule-president-celebrity-board-of-advisors",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-28T00:12:35.000Z",
+      "image": "https://cdn.thedefiant.io/ipx-ja-rule-cover-jpg-c025b5dc-0e01-4d9d-a2b6-f2cf10b0c105.jpg",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "1a1d9d9",
       "title": "China's Stock Market Has Lost $2.4 Trillion as Investors Doubt Its AI Boom Will Ever Pay Off",
@@ -349,40 +434,6 @@
       "gen_v": null
     },
     {
-      "id": "1fq7rtw",
-      "title": "Aave vs. Bitso USDC Prime: What Lenders Hold and What Limits Exits",
-      "link": "https://thedefiant.io/news/defi/aave-vs-bitso-usdc-prime-what-lenders-hold-and-what-limits-exits",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-27T17:14:45.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/e42b04e9a9a20a0f6270366a78cd278fd3cd73ca-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "mg9318",
-      "title": "CFTC Sues Utah to Block Prediction-Market Enforcement",
-      "link": "https://thedefiant.io/news/regulation/cftc-sues-utah-to-block-prediction-market-enforcement",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-27T17:06:19.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/35e4060ba81f4ca8481b9570927be646e48b6df9-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "1btgeom",
       "title": "A $3M Hedge, a Midterm Test and Retail's Rise: Prediction Markets at NEXTPredict",
       "link": "https://decrypt.co/381955/a-3m-hedge-a-midterm-test-and-retails-rise-prediction-markets-at-nextpredict",
@@ -417,23 +468,6 @@
       "gen_v": null
     },
     {
-      "id": "7zsovu",
-      "title": "Predict.fun Pledges Full Refunds for Roughly 400,000 USDT Theft",
-      "link": "https://thedefiant.io/news/hacks/predict-fun-pledges-full-refunds-for-roughly-400-000-usdt-theft",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-27T16:50:46.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/46da4c394be41eb7fb4b7a2e7f6520d154f490c3-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "16iv7za",
       "title": "Ten Decrees: Old Masters, New Money",
       "link": "https://bitcoinmagazine.com/culture/ten-decrees-old-masters-new-money",
@@ -451,23 +485,6 @@
       "gen_v": null
     },
     {
-      "id": "y9uw1w",
-      "title": "Myriad Voids 10 Prediction Markets After Admin-Wallet Compromise",
-      "link": "https://thedefiant.io/news/hacks/myriad-voids-10-prediction-markets-after-admin-wallet-compromise",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-27T16:41:18.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/867aeb1659a2f393134070315edbc610c5ed69f6-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "yta63",
       "title": "SoFi Stock (SOFI) Soars 15% on Record Quarter, Crypto Reaches 503,000 Products",
       "link": "https://bitcoinmagazine.com/news/sofi-stock-sofi-soars-15-on-record-quarter",
@@ -476,23 +493,6 @@
       "lang": "en",
       "date": "2026-10-27T15:56:57.000Z",
       "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/10/SoFi-Stock-SOFI-Soars-15-on-Record-Quarter-Crypto-Reaches-503000-Products.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1a4rtkn",
-      "title": "NEAR Adds Confidential Jio Pre-IPO Trading Ahead of Listing",
-      "link": "https://thedefiant.io/news/defi/near-adds-confidential-jio-pre-ipo-trading-ahead-of-listing",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-27T15:45:04.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/9a4fdaed88609c82c500a6e62e8a2e26aabf4360-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
@@ -702,13 +702,31 @@
       "lang": "he",
       "date": "2023-09-11T19:07:31.000Z",
       "image": null,
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "מנגנון הפעולה של רשת הברק: צלילה טכנית לעיבוד עסקאות ביטקוין",
+      "brief_he": "סקירה מעמיקה על המבנה הטכני של רשת הברק (Lightning Network) וכיצד היא מאפשרת העברת ביטקוין מהירה ומאובטחת בשכבה השנייה.",
+      "commentary_he": "המעבר מתיאוריה למימוש מעשי הוא האתגר המשמעותי ביותר בכל פיתוח טכנולוגי, ורשת הברק (Lightning Network) אינה יוצאת מן הכלל. בעוד שרבים מכירים את היתרונות של הרשת – מהירות העברה גבוהה ועמלות אפסיות – חשוב להבין את המנגנונים המאפשרים זאת \"מתחת למכסה המנוע\". רשת הברק אינה מחליפה את רשת הביטקוין, אלא פועלת כשכבה נוספת המאפשרת לבצע אינספור עסקאות מבלי להעמיס על הבלוקצ'יין הראשי בכל פעולה ופעולה. עבור משתמשים המבקשים להעמיק בהבנת המערכת, היכרות עם אופן ניהול המאזנים והאבטחה הקריפטוגרפית היא צעד הכרחי להבנת האופן שבו ביטקוין הופך ממכשיר השקעה לשיטת תשלום יומיומית.\n\nעל פי הפרסומים המקצועיים בנושא, כפי שהוצגו על ידי איגוד הביטקוין הישראלי, המבנה הטכני של הרשת מתבסס על ארבעה סוגי טרנזקציות עיקריים שנועדו לנהל את המחזוריות של הערוצים. הטרנזקציות הללו כוללות את טרנזקציית התקצוב (Funding transaction), שפותחת את הערוץ ומפקידה כספים לכתובת מרובת-חתימות, וטרנזקציית ההתחייבות (Commitment transaction), המהווה את לב המערכת ומאפשרת לעדכן את המאזנים בכל פעם שמתבצעת העברה. בנוסף, קיימות טרנזקציות HTLC (Hashed Time-Locked Contracts) המאפשרות ניתוב תשלומים מאובטח, וטרנזקציות סגירה המסדירות את החזרת הכספים לרשת הביטקוין המרכזית. שיפור מהותי שבוצע ברשת המודרנית הוא המעבר משימוש בסיסי ב-multisig להכפלת נקודות על עקומה אליפטית, צעד שהופך את התהליך ליעיל ואינטואיטיבי יותר.\n\nהיבט קריטי באבטחת הרשת הוא היכולת לבטל טרנזקציות ישנות כדי למנוע מצבי הונאה, תהליך המכונה לעיתים Breach Remedy. כדי להבטיח שהרשת תהיה אמינה גם במקרים שבהם צד אחד מנסה לפעול בזדון או פשוט מפסיק להגיב, נעשה שימוש ב\"זוגות מפתחות ביטול\". בניגוד למערכות ריכוזיות שבהן נדרש אמון במתווך, כאן המערכת בנויה כך שכל צד מחזיק במפתחות המאפשרים לו להגן על כספו ולבטל מצבים לא תקינים. השימוש בטכניקות של ECDSA (אלגוריתם חתימה דיגיטלית של עקומה אליפטית) מאפשר יצירת חתימות המבטיחות שרק הצדדים המורשים יוכלו לאשר את עדכון המאזנים, וזאת תוך שמירה על רמת אבטחה המקבילה לזו של רשת הביטקוין עצמה.\n\nברמה החשבונאית, ניתן להסתכל על כל טרנזקציית התחייבות כעל דף מצב עדכני המנהל את היתרות של אליס ובוב. המערכת עושה שימוש נרחב ב\"סקריפטים\" של ביטקוין כדי להבטיח שכל יחידת ביטקוין בערוץ תנוצל אך ורק לפי התנאים המוסכמים. קיימים סוגים שונים של Outputs (תוצרים) בתוך הטרנזקציות הללו: חלקם מייצגים את היתרה המקומית של המשתמש, חלקם את היתרה של הצד השני, וחלקם מיועדים להעברות נכנסות או יוצאות (HTLC). מבנה זה מאפשר לנהל את זרימת הכספים בזמן אמת, כאשר הרשת מוודאת שהמאזן הכולל נשמר תמיד בהתאם למה שהופקד בעת פתיחת הערוץ, תוך מניעת כפל הוצאות.\n\nלסיכום, רשת הברק מייצגת את האבולוציה של הביטקוין לכיוון של אמצעי חליפין גמיש ומהיר. ההבנה כיצד נפתחים, מתעדכנים ונסגרים ערוצים מעניקה תמונה רחבה יותר על הסיבות לכך שהרשת נחשבת לפיתוח פורץ דרך בעולם ה-Web3. עבור מי שעוקב אחר התפתחות האקו-סיסטם, חשוב לזכור כי מדובר בטכנולוגיה מורכבת הנמצאת בתהליך שיפור מתמיד. היציבות והאבטחה של רשת הברק תלויות לא רק בקוד, אלא גם בהבנה העמוקה של המשתמשים את הכלים העומדים לרשותם, מה שמחזק את הצורך בהמשך למידה והעמקה טכנית בקרב הקהילה.",
+      "terms_he": [
+        {
+          "term": "HTLC",
+          "explain": "מנגנון חוזה חכם המבטיח שהעברת כספים תתבצע רק אם תנאים מסוימים, כגון הצגת סוד קריפטוגרפי, מתקיימים בזמן מוגדר."
+        },
+        {
+          "term": "ECDSA",
+          "explain": "אלגוריתם מתמטי המשמש ליצירת חתימות דיגיטליות, המאפשר לאמת בעלות על ארנקי ביטקוין ואישור טרנזקציות בצורה מאובטחת."
+        },
+        {
+          "term": "Multisig",
+          "explain": "כתובת שדורשת מספר חתימות פרטיות שונות כדי לאשר העברת כספים, מה שמוסיף שכבת אבטחה נוספת."
+        }
+      ],
+      "points_he": [
+        "רשת הברק אינה מחליפה את הביטקוין אלא פועלת כשכבת תשלומים מהירה מעליו.",
+        "ניהול המאזנים מתבצע באמצעות טרנזקציות התחייבות שמתעדכנות בכל העברה.",
+        "מנגנוני ביטול (Revocation) מבטיחים הגנה מפני ניסיונות הונאה של משתתפים ברשת.",
+        "השימוש ב-HTLC מאפשר ניתוב תשלומים אמין מבלי להעמיס על הבלוקצ'יין הראשי."
+      ],
+      "meaning_he": "הבנת המנגנונים הטכניים של רשת הברק חיונית לכל מי שרוצה להבין כיצד ביטקוין מתפתח ככלי תשלום גלובלי, מעבר להיותו נכס השקעה. עבור הקהילה שלנו, מדובר בתשתית שמאפשרת את הכלכלה הדיגיטלית של העתיד.",
+      "gen_v": 6
     },
     {
       "id": "2856bi",
