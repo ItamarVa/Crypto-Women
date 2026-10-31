@@ -1,13 +1,30 @@
 {
-  "updated": "2026-10-31T03:43:38.206Z",
+  "updated": "2026-10-31T10:09:45.254Z",
   "count": 46,
   "sources": [
-    "Bitcoin Magazine",
     "The Defiant",
+    "Bitcoin Magazine",
     "Decrypt",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "gg39vb",
+      "title": "Curve Volume Halves to $425 Million as 3pool's USDT Tilt Eases",
+      "link": "https://thedefiant.io/news/defi/curve-volume-halves-to-425-million-as-3pool-s-usdt-tilt-eases",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-10-31T05:27:13.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/416c5275c88c7721c889552625e97aa0727b682f-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "1jnqd8c",
       "title": "MSTR Q3 2026 Earnings Call: Analyst Q&A",
@@ -459,23 +476,6 @@
       "lang": "en",
       "date": "2026-10-30T14:13:15.000Z",
       "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/10/Blockchain-Firms-Link-North-Korea-to-6.3-Billion-Binance-Hack-.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1au1l7o",
-      "title": "Aave Reopens Markets but Keeps Nine Assets at Zero LTV",
-      "link": "https://thedefiant.io/news/defi/aave-reopens-markets-but-keeps-nine-assets-at-zero-ltv",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-10-30T14:07:56.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/ee127d1b504d1c4f105d68ad33df22d9f8ba5754-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
       "title_he": null,
       "brief_he": null,
       "commentary_he": null,
