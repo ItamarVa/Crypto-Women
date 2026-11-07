@@ -1,13 +1,95 @@
 {
-  "updated": "2026-11-06T21:16:06.171Z",
+  "updated": "2026-11-07T04:07:31.959Z",
   "count": 46,
   "sources": [
-    "Decrypt",
     "The Defiant",
     "Bitcoin Magazine",
+    "Decrypt",
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "amhdax",
+      "title": "Dinari Promises Anthropic dShares on IPO Day, Including for US Investors",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/dinari-promises-anthropic-dshares-on-ipo-day-including-for-us-investors",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-11-07T00:00:13.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/489ee1efa8b58789eae4a9a3fc48d7972b8279cf-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1tzd4zy",
+      "title": "MEXC Says Withdrawals Continue as FinCEN Orders US Financial Cutoff",
+      "link": "https://thedefiant.io/news/cefi/mexc-says-withdrawals-continue-as-fincen-orders-us-financial-cutoff",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-11-07T00:00:11.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/629b79200268c68fcc094c1f9b56df733e5aad00-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "11fabwv",
+      "title": "Aave Labs Acquires Avon Team to Develop Fixed-Rate Lending",
+      "link": "https://thedefiant.io/news/defi/aave-labs-acquires-avon-team-to-develop-fixed-rate-lending",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-11-06T22:09:37.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/7d7f9d63c34b807952174d155e5e4249d5effe2f-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1jqfds6",
+      "title": "U.S. Treasury Cuts Off MEXC From U.S. Financial System Over Alleged $16 Billion in Illicit Flows",
+      "link": "https://bitcoinmagazine.com/news/fincen-cuts-off-mexc-us-financial-system",
+      "summary": "Bitcoin Magazine U.S. Treasury Cuts Off MEXC From U.S. Financial System Over Alleged $16 Billion in Illicit Flows FinCEN issued a final order under section 9714(a) that will bar U.S. financial institutions from sending…",
+      "source": "Bitcoin Magazine",
+      "lang": "en",
+      "date": "2026-11-06T21:28:56.000Z",
+      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/07/U.S.-Senator-Clarity-Act-is-Almost-There-Treasury-Secretary-Puts-It-at-the-1-Yard-Line.jpg",
+      "title_he": "צעדי אכיפה נגד בורסת הקריפטו MEXC: משרד האוצר האמריקאי חוסם גישה למערכת הפיננסית",
+      "brief_he": "משרד האוצר האמריקאי הטיל מגבלות מחמירות על בורסת הקריפטו MEXC בשל מעורבותה לכאורה בהעברות כספים לא חוקיות בהיקף של 16 מיליארד דולר.",
+      "commentary_he": "הזירה הרגולטורית סביב עולם הנכסים הדיגיטליים ממשיכה להתהדק, כאשר צעד משמעותי הגיע בסוף השבוע האחרון מצד משרד האוצר האמריקאי. הרשת לאכיפת פשעים פיננסיים (FinCEN) פרסמה צו סופי המנתק את בורסת הקריפטו הבינלאומית MEXC מהמערכת הבנקאית של ארצות הברית. מדובר בצעד המדגיש את הנחישות של הרשויות האמריקאיות לפעול נגד פלטפורמות מסחר שאינן עומדות בסטנדרטים של ציות ואיסור הלבנת הון, תוך התמקדות בבורסות שעל פי החשד משמשות כצינורות לעקיפת סנקציות בינלאומיות. עבור משקיעים ופעילים בתחום, המהלך הזה מהווה תזכורת לכך שהמרחב הדיגיטלי אינו פועל בחלל ריק, וכי מדינות ריבוניות מפעילות כלים משפטיים וכלכליים עוצמתיים כדי להשפיע על המערכת.\n\nעל פי הפרסומים הרשמיים, הטענות נגד MEXC הן חמורות ומפורטות. משרד האוצר האמריקאי טוען כי הבורסה אפשרה העברות כספים לא חוקיות בהיקף של לפחות 16 מיליארד דולר בתקופה שבין מאי 2021 למאי 2026. חלק משמעותי מפעילות זו, כ-1.5 מיליארד דולר, נקשר לעקיפת סנקציות שהוטלו על רוסיה. בנוסף, עלו טענות לגבי העברות בהיקף של כ-22 מיליון דולר שקשורות לבנק המרכזי של איראן ולמשמרות המהפכה. הדו\"ח מציין כי הבורסה המשיכה לעבד פעולות מול גורמים רוסיים שסומנו על ידי הרשויות עוד לפני שנים, מה שמעיד, על פי הדיווח, על כשלים עמוקים במערכות הבקרה והציות של הפלטפורמה.\n\nהצו הופעל מכוח חוק המאבק בהלבנת הון רוסית (Combating Russian Money Laundering Act), והוא נכנס לתוקף 30 יום לאחר פרסומו הרשמי ברשומות הפדרליות. חשוב להבין את המשמעות הטכנית: אין מדובר בסנקציה רגילה של ה-OFAC, אלא בצעד ממוקד שמונע ממוסדות פיננסיים אמריקאיים להעביר כספים לבורסה או ממנה. המשמעות היא ניתוק כמעט מוחלט של ה\"צינורות\" הפיננסיים המקשרים את הבורסה לדולר האמריקאי. MEXC, שנוסדה ב-2018 ודורגה כאחת מ-20 הבורסות הגדולות בעולם במונחי נפח מסחר, נאלצת כעת להתמודד עם מציאות חדשה שבה הגישה שלה לשוק האמריקאי נחסמת באופן רשמי, מה שעלול להשפיע על נזילות ועל אמון השוק.\n\nברקע הדברים עומדת \"מבצע כלכלי מנודה\" (Operation Economic Outcast), קמפיין רחב יותר של הממשל האמריקאי שנועד למנוע ממשטרים הנמצאים תחת סנקציות להשתמש בנכסים דיגיטליים כדי לעקוף את המערכת הפיננסית הגלובלית. המקרה של MEXC אינו מבודד; רגולטורים במדינות נוספות, בהן בריטניה והונג קונג, כבר הביעו בעבר דאגות לגבי פעילותה של הבורסה בשטחן ללא רישיונות מתאימים. העובדה שבורסה בסדר גודל כזה, עם נפח מסחר יומי שדווח על למעלה ממיליארד דולר ועתודות של כ-5 מיליארד דולר, מגיעה למסלול התנגשות כזה, מעידה על האתגר הגדול של גופים ריכוזיים בעולם הקריפטו: איזון בין נגישות גלובלית לבין עמידה בכללי הציות הקפדניים של המעצמות הכלכליות.\n\nעבור הקהילה שלנו, חשוב לזכור כי המקרה הזה מדגיש את החשיבות של בחירת זירות מסחר מפוקחות ושקופות. ככל שהרגולציה הופכת למורכבת יותר, הסיכון בשימוש בפלטפורמות שפועלות באזורי אפור משפטיים גדל. בעוד שהמשתמשים הקצה עשויים שלא להיפגע ישירות מהצו הזה בטווח הקצר, המהלך מצביע על מגמה ברורה שבה המערכת הפיננסית המסורתית והעולם הדיגיטלי הופכים ליותר ויותר שלובים, וכללי המשחק הישנים של \"הכל מותר\" מפנים את מקומם למציאות של פיקוח הדוק. מומלץ תמיד לבחון את רמת הציות והרישוי של כל בורסה שבה אתן פועלות, ולזכור ששקיפות היא לא רק מילה יפה, אלא מרכיב קריטי בביטחון הנכסים שלכן.",
+      "terms_he": [
+        {
+          "term": "FinCEN",
+          "explain": "הרשת לאכיפת פשעים פיננסיים בארה\"ב, גוף במשרד האוצר האחראי על מאבק בהלבנת הון ומימון טרור."
+        },
+        {
+          "term": "OFAC",
+          "explain": "המשרד לבקרת נכסים זרים בארה\"ב, האמון על אכיפת סנקציות כלכליות על מדינות וגורמים מסוימים."
+        }
+      ],
+      "points_he": [
+        "החלטות רגולטוריות נגד בורסות קריפטו משפיעות על כלל השוק ועל היכולת להעביר כספים ממוסדות פיננסיים.",
+        "חשיבות הציות (Compliance) הופכת לפרמטר מרכזי בהערכת סיכונים של בורסות קריפטו.",
+        "פעילות מול מדינות תחת סנקציות עלולה להוביל לחסימה גורפת מהמערכת הפיננסית האמריקאית.",
+        "מומלץ להעדיף זירות מסחר מפוקחות ובעלות רגולציה ברורה כדי להימנע מסיכוני חסימה."
+      ],
+      "meaning_he": "המקרה מדגים כיצד הממשל האמריקאי משתמש בכלים פיננסיים כדי להטיל סגר על פלטפורמות קריפטו שאינן עומדות בסטנדרטים של איסור הלבנת הון, מה שמשפיע על כלל השוק הגלובלי.",
+      "gen_v": 6
+    },
     {
       "id": "3k7p8u",
       "title": "Treasury Cuts Crypto Exchange MEXC Off From US Financial System",
@@ -417,40 +499,6 @@
       "gen_v": null
     },
     {
-      "id": "jh2t8l",
-      "title": "Crypto 401(k) Rule Enters Final White House Review",
-      "link": "https://thedefiant.io/converge/regulation/crypto-401-k-rule-enters-final-white-house-review",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-11-06T14:39:57.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/568432f79613b57c2345652fc671c5279d84075d-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "1n8evga",
-      "title": "Rotki Founder Says Gnosis Pay Exposed His Address, Card and Wallet Details",
-      "link": "https://thedefiant.io/news/security/rotki-founder-says-gnosis-pay-exposed-his-address-card-and-wallet-details",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-11-06T14:34:02.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/53bb685a7b4fe093283cea1ab387e5d7b00bb37d-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "lgmuvo",
       "title": "Bitcoin Price Holds Near $75,000 After Hot October Jobs Report",
       "link": "https://bitcoinmagazine.com/markets/bitcoin-price-holds-near-75800-jobs",
@@ -488,23 +536,6 @@
       ],
       "meaning_he": "האירוע מדגים כיצד בורסות קריפטו מנהלות משברים בזמן אמת, ומזכיר למשקיעים שמרכזיות הפלטפורמה היא נקודת תורפה פוטנציאלית שיש לקחת בחשבון בניהול תיק ההשקעות.",
       "gen_v": 6
-    },
-    {
-      "id": "pa6soq",
-      "title": "What Are Crypto Derivatives? Futures, Perpetuals and Options Explained",
-      "link": "https://thedefiant.io/news/markets/what-are-crypto-derivatives-futures-perpetuals-and-options-explained",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-11-06T14:16:18.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/85117cf93db750ee7d59bc49002c609c0ed4897b-2048x1152.png?w=800&amp;fit=max&amp;fm=jpg&amp;q=70&amp;bg=ffffff",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
     },
     {
       "id": "v07bpv",
@@ -575,23 +606,6 @@
       "gen_v": null
     },
     {
-      "id": "t2qcn4",
-      "title": "Bitcoin Price Trades Near $76,000 as Nasdaq Tumbles into Correction",
-      "link": "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-76000-nasdaq",
-      "summary": "Bitcoin Magazine Bitcoin Price Trades Near $76,000 as Nasdaq Tumbles into Correction Bitcoin price held near $76,000 Thursday afternoon as the Nasdaq sank deeper into a correction, crypto liquidations topped $1 billion…",
-      "source": "Bitcoin Magazine",
-      "lang": "en",
-      "date": "2026-11-05T21:46:35.000Z",
-      "image": "https://bitcoinmagazine.com/wp-content/uploads/2026/11/Bitcoin-Price-Trades-Near-76000-Nasdaq-Correction.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "1hhw895",
       "title": "עדכון: אסיפה כללית – איגוד הביטקוין הישראלי",
       "link": "https://bitcoin.org.il/%d7%90%d7%a1%d7%99%d7%a4%d7%94-%d7%9b%d7%9c%d7%9c%d7%99%d7%aa-%d7%90%d7%99%d7%92%d7%95%d7%93-%d7%94%d7%91%d7%99%d7%98%d7%a7%d7%95%d7%99%d7%9f-%d7%94%d7%99%d7%a9%d7%a8%d7%90%d7%9c%d7%99/",
@@ -617,13 +631,26 @@
       "lang": "he",
       "date": "2025-03-17T12:31:39.000Z",
       "image": null,
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "זהירות מהונאות: כיצד מזהים התחזות לנציגי בורסות קריפטו",
+      "brief_he": "נוכלים מתחזים לנציגי שירות של בורסות מוכרות כדי להשיג גישה לארנקים דיגיטליים של משתמשים; כך תגנו על עצמכם.",
+      "commentary_he": "בעולם הפיננסים הדיגיטליים, האחריות על ביטחון הנכסים מוטלת בראש ובראשונה על המשתמש עצמו. לאחרונה אנו עדים לגל של ניסיונות הונאה מתוחכמים המנצלים את חוסר הניסיון של משקיעים חדשים, תוך התחזות לנציגי שירות של זירות מסחר גלובליות ומוכרות, דוגמת ביננס או קראקן. על פי הפרסומים בתחום, הנוכלים משתמשים בטקטיקות של הנדסה חברתית כדי לייצר תחושת דחיפות וחרדה אצל הקורבן, מתוך מטרה להניע אותו לפעולות פזיזות שיובילו לחשיפת מפתחות הגישה לארנק שלו. חשוב להבין כי בורסות לגיטימיות לעולם לא יבקשו מהלקוח לבצע פעולות אבטחה מורכבות הכוללות העברת כספים לארנק חיצוני כחלק מ\"הליך הגנה\".\n\nעל פי הדיווחים, דפוס הפעולה של הנוכלים משלב שיחות טלפון, לעיתים ממספרים חסויים, המלוות לעיתים קרובות במבטא בריטי כבד ובשימוש בטכניקות של התחזות טכנולוגית – כמו הודעות SMS שנראות כאילו הן מגיעות מהבורסה הרשמית. הנוכלים מציגים את עצמם כנציגי אבטחה שמזהים פעילות חשודה בחשבון, כגון ניסיונות פריצה ממדינות זרות, ומנחים את המשתמש להעביר את כספיו ל\"ארנק בטוח\" חיצוני. נקודת העוקץ מגיעה כאשר הנוכל מבקש מהמשתמש לספק את ה-seed phrase – רצף של 12 עד 24 מילים המשמשות כמפתח הגישה היחיד והבלתי ניתן לשחזור לארנק. ברגע שמילים אלו עוברות לידי הנוכל, השליטה על הנכסים אובדת באופן מיידי ובלתי הפיך.\n\nההבנה של אופן פעולת הארנקים הדיגיטליים היא קו ההגנה הראשון של כל משקיע. ה-seed phrase הוא המפתח הפרטי שלכם, ומי שמחזיק בו הוא הבעלים של הכספים. ככלל אצבע, אף נציג שירות, מנהל בורסה או מומחה אבטחה לא יבקש מכם לעולם את רצף המילים הזה. יתרה מכך, כאשר אתם מקבלים פנייה מפתיעה מבורסה, הדרך הנכונה לפעול היא להתעלם מהקישורים שנשלחו בהודעה, ולגשת באופן עצמאי לאתר הבורסה הרשמי דרך דפדפן מאובטח או קישור ששמרתם מראש במועדפים. אם ישנה בעיית אבטחה אמיתית, היא תופיע בהתראות המערכת בתוך האזור האישי שלכם באתר הבורסה, ולא תדרוש שיחת טלפון דחופה עם נציג חיצוני.\n\nמעבר לזהירות בשיחות טלפון, מומלץ לאמץ מדיניות של הפרדת נכסים. זירות מסחר נועדו למסחר שוטף, ואין סיבה להחזיק בהן סכומים משמעותיים שאינם מיועדים לפעילות יומיומית. עבור השקעות לטווח ארוך, השימוש בארנקים קרים או ארנקים דיגיטליים בבעלותכם המלאה הוא הדרך הבטוחה ביותר, אך הוא דורש למידה מעמיקה של אופן הניהול שלהם. השקעת זמן בלימוד הטכנולוגיה אינה רק עניין טכני – היא כלי עבודה הכרחי להגנה על ההון שלכם בעולם דיגיטלי ללא מתווכים, שבו אין \"מרכז שירות לקוחות\" שיכול לבטל העברות שבוצעו על ידיכם בטעות או תחת לחץ.\n\nהסיכון בהונאות קריפטו אינו נובע מהטכנולוגיה עצמה, אלא מהפער שבין התחכום הטכנולוגי לבין המודעות של המשתמש. שמירה על קור רוח והטלת ספק בכל פנייה יזומה הם הכלים החשובים ביותר שלכם. אם נתקלתם בשיחה חשודה, אל תהססו לנתק ולפנות ישירות לערוצי התקשורת הרשמיים של הבורסה דרך אתר האינטרנט שלהם. בעולם שבו האחריות היא אישית, הידע הוא המגן הטוב ביותר מפני ניסיונות עוקץ שעלולים להסתיים באובדן כספי כואב. היו זהירים, בדקו פעמיים, ואל תמהרו לעולם למסור מידע רגיש, לא משנה כמה משכנע נשמע הצד השני בקו.",
+      "terms_he": [
+        {
+          "term": "Seed Phrase",
+          "explain": "רצף של 12-24 מילים המהוות את 'מפתח המאסטר' לארנק הקריפטו שלכם; חשיפתן פירושה איבוד שליטה על הכספים."
+        },
+        {
+          "term": "הנדסה חברתית",
+          "explain": "שיטת הונאה המבוססת על מניפולציה פסיכולוגית של אנשים כדי לגרום להם לבצע פעולות או לחשוף מידע סודי."
+        }
+      ],
+      "points_he": [
+        "נציגי בורסות לעולם לא יבקשו את ה-seed phrase שלכם.",
+        "הודעות SMS ומיילים ניתנים לזיוף בקלות; תמיד היכנסו לאתר הרשמי דרך הדפדפן.",
+        "החזיקו בבורסה רק סכומים המיועדים למסחר שוטף, והעבירו יתרות לארנק בבעלותכם."
+      ],
+      "meaning_he": "הונאות אלו מדגישות את החשיבות של עצמאות טכנולוגית; הבנת האופן שבו ארנקים עובדים היא ההגנה הטובה ביותר של המשקיע.",
+      "gen_v": 6
     },
     {
       "id": "1tjp9ns",
