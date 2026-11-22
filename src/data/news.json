@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T00:03:06.068Z",
+  "updated": "2026-11-22T12:14:18.487Z",
   "count": 46,
   "sources": [
     "The Defiant",
@@ -8,6 +8,74 @@
     "Bitcoin Embassy TLV"
   ],
   "items": [
+    {
+      "id": "1n8re50",
+      "title": "OpenRouter Drops Zero-Data-Retention Labels From Affected MiniMax Endpoints",
+      "link": "https://thedefiant.io/frontier/ai/openrouter-drops-zero-data-retention-labels-from-affected-minimax-endpoints",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-11-22T06:10:26.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/23771c8279ccff78bc17d2c29fd3e92b93e0cdb5-2816x1584.webp?fm=webp&amp;q=85",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "vekm7r",
+      "title": "MUFG Details Canton Test for Intraday JGB Repo Funding",
+      "link": "https://thedefiant.io/converge/tradfi-and-fintech/mufg-details-canton-test-for-intraday-jgb-repo-funding",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-11-22T04:25:54.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/381534a511aa70b3892a3ba98298755d59492e39-2048x1152.webp?fm=webp&amp;q=85",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "1yozhkk",
+      "title": "Cysic Bridge Exploit Minted 10 Million Tokens on BNB",
+      "link": "https://thedefiant.io/news/hacks/cysic-bridge-exploit-minted-10-million-tokens-on-bnb",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-11-22T04:10:34.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/85b7ff5a8a2e1547ce88f1ff4038bea5c1167ee8-2048x1152.webp?fm=webp&amp;q=85",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
+    {
+      "id": "ztzx6q",
+      "title": "Fluidkey Says Unpatched Tool Enabled $1.6 Million Hack",
+      "link": "https://thedefiant.io/news/hacks/fluidkey-says-unpatched-tool-enabled-1-6-million-hack",
+      "summary": "",
+      "source": "The Defiant",
+      "lang": "en",
+      "date": "2026-11-22T02:49:00.000Z",
+      "image": "https://cdn.sanity.io/images/6oftkxoa/production/a6bb24a212b235c1145fdc31778ed501635d74dc-2048x1152.webp?fm=webp&amp;q=85",
+      "title_he": null,
+      "brief_he": null,
+      "commentary_he": null,
+      "terms_he": [],
+      "points_he": [],
+      "meaning_he": null,
+      "gen_v": null
+    },
     {
       "id": "1qoaa30",
       "title": "Together AI Discloses Prompt Leak After Dragos Study",
@@ -196,74 +264,6 @@
       "gen_v": null
     },
     {
-      "id": "t629y5",
-      "title": "Anthropic's IPO Premium Shrinks as Banks Draw Blame",
-      "link": "https://thedefiant.io/frontier/markets/anthropic-s-ipo-premium-shrinks-as-banks-draw-blame",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-11-21T15:55:22.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/6db1a8f94f009c18d2f36ff3f311bd2d42df1832-2816x1584.webp?fm=webp&amp;q=85",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "13uiukh",
-      "title": "Bitcoin Rebounds 10% Before Slipping Below $60,000",
-      "link": "https://thedefiant.io/news/markets/bitcoin-rebounds-10-before-slipping-below-60-000",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-11-21T15:24:47.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/eec9241bc60f66893c1fc56ecdad8b3b115fbc34-2048x1152.webp?fm=webp&amp;q=85",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "15n0h0m",
-      "title": "Coins.ph Halts Transfers With Self-Custody Wallets",
-      "link": "https://thedefiant.io/news/regulation/coins-ph-halts-transfers-with-self-custody-wallets",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-11-21T15:20:19.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/7b56849ce55deb14f3a8cbcf119e57e4f986c1fc-2048x1152.webp?fm=webp&amp;q=85",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
-      "id": "z0rx2s",
-      "title": "Kraken Says Trades Stand After Bitcoin’s CAD Plunge",
-      "link": "https://thedefiant.io/news/cefi/kraken-says-trades-stand-after-bitcoin-s-cad-plunge",
-      "summary": "",
-      "source": "The Defiant",
-      "lang": "en",
-      "date": "2026-11-21T15:00:22.000Z",
-      "image": "https://cdn.sanity.io/images/6oftkxoa/production/0c8e1a5119dd5914fea76f3c885f979728c48fab-2048x1152.webp?fm=webp&amp;q=85",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
-    },
-    {
       "id": "sx3xmq",
       "title": "Is the AI Bubble Finally Popping? Nvidia Crashes 48% as Wall Street Experts Sound the Alarm",
       "link": "https://decrypt.co/383754/ai-bubble-finally-popping-nvidia-crashes-48-wall-street-alarm",
@@ -272,13 +272,27 @@
       "lang": "en",
       "date": "2026-11-21T14:01:06.000Z",
       "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/stocks-gID_7.jpg",
-      "title_he": null,
-      "brief_he": null,
-      "commentary_he": null,
-      "terms_he": [],
-      "points_he": [],
-      "meaning_he": null,
-      "gen_v": null
+      "title_he": "האם בועת ה-AI מתחילה להתפוגג? טלטלה בשווקים והשפעתה על עולם הקריפטו",
+      "brief_he": "גל ירידות חריף בנאסד\"ק ובמניית אנבידיה מעורר שאלות על יציבות ה-AI, עם השלכות ישירות על שוק הקריפטו שנמצא בנסיגה.",
+      "commentary_he": "הפריחה הטכנולוגית המבוססת על בינה מלאכותית, שהובילה את השווקים בשנתיים האחרונות, ניצבת כעת בפני מבחן משמעותי. בשבוע האחרון ראינו ירידות חדות במדדים המרכזיים בוול סטריט, כאשר משקיעים מתחילים להטיל ספק בשאלה האם ההשקעות העצומות בתשתיות בינה מלאכותית יניבו את התשואות המצופות. מדד הנאסד\"ק, שספג מכה קשה, ננעל על רמה של 22,617.73 נקודות, ירידה שסימנה את השבוע הגרוע ביותר של המדד מאז שנת 2020 ומחקה את כל הרווחים שנצברו בו מתחילת 2026. עבור משקיעים, מדובר בתזכורת לכך שגם מגזרים שנראים כבלתי ניתנים לעצירה, חשופים לתיקונים אלימים כאשר הציפיות מתנתקות מהמציאות הכלכלית.\n\nהמספרים מספרים סיפור של נסיגה רוחבית. מניית אנבידיה, שהייתה הקטר של עליות ה-AI, צללה ב-14% ביום שישי בלבד, ובסיכום שבועי איבדה קרוב ל-23%. בסך הכל, המנייה נסחרת כעת במחיר של 125.53 דולר, ירידה של כ-47.5% מהשיא שרשמה באוקטובר. חברות טכנולוגיה נוספות ספגו מכות דומות, כאשר חברות כמו CoreWeave איבדו כ-80% מערכן מהשיא של 2025, ו-Oracle רשמה ירידה של כ-70%. גם הנפקת הענק של Anthropic, שגייסה 81 מיליארד דולר, לא הצליחה להחזיר את האופטימיות לשוק, שכן המניה איבדה גובה לאחר יום המסחר הראשון. תנודתיות זו משפיעה על סנטימנט השוק כולו, כאשר משקיעים בוחנים מחדש את החשיפה שלהם לנכסים עתירי סיכון.\n\nהטלטלה לא פסחה על עולם הקריפטו, שרבים קיוו כי יציג התאוששות יציבה בשנת 2026. הביטקוין נסחר בסוף השבוע סביב רמה של 58,895 דולר, ירידה של כ-9.8% במהלך השבוע, ומחיר המטבע רחוק כעת ביותר מ-50% מהשיא של 2025. שווי השוק הכולל של ענף המטבעות הדיגיטליים הצטמק לכ-2.01 טריליון דולר, לעומת שיא של מעל 4 טריליון דולר. מדד הפחד והחמדנות (Crypto Fear and Greed Index) צנח לרמה של 9, מה שמעיד על פחד קיצוני בקרב המשקיעים. נתונים אלו מחדדים את העובדה כי הביטקוין, למרות תכונותיו הייחודיות, מתנהג בעתות משבר כנכס פיננסי רגיש לכל דבר, המושפע ישירות מתנאי הנזילות הגלובליים.\n\nהתחזיות לעתיד הקרוב נראות פסימיות יותר מבעבר. לפי נתוני Polymarket, נכון לסוף השבוע, הסבירות לכניסה של תעשיית ה-AI למיתון מוגדר עומדת על כ-54% עד סוף 2026, ועל כ-65% עד מחצית 2027. מומחים פיננסיים, כמו אוון למונט מ-Acadian Asset Management, מצביעים על כך שכל ארבעת סימני האזהרה לבועה – הערכות שווי מופרזות, אמונה רחבה בפריצה טכנולוגית, הנפקות מוגברות וזרימת הון מאסיבית – מתקיימים כעת בו זמנית. סקר מנהלי קרנות של בנק אוף אמריקה מראה כי המשקיעים הפחיתו את החשיפה לטכנולוגיה בשיעור הגבוה ביותר מאז 2006, מה שמעיד על שינוי משמעותי בתיאבון הסיכון של הגופים המוסדיים הגדולים.\n\nלסיכום, התקופה הנוכחית מדגישה את הצורך בניהול סיכונים מושכל. עבור מי שעוקבת אחרי שוק הקריפטו, חשוב להבין כי הביטקוין אינו פועל בחלל ריק והוא מושפע ישירות מהדינמיקה של השווקים הפיננסיים הרחבים. כשהנזילות מצטמצמת והשוק עובר מ\"אופוריה של צמיחה\" לחיפוש אחר ערך ממשי, התנודתיות הופכת לחלק בלתי נפרד מהתהליך. העצה הטובה ביותר היא להישאר ממוקדת בבסיס הטכנולוגי והכלכלי של הנכסים שבידינו, ולא לתת לתנודות המחירים היומיות להכתיב החלטות אסטרטגיות ארוכות טווח.",
+      "terms_he": [
+        {
+          "term": "נזילות (Liquidity)",
+          "explain": "זמינות המזומנים בשוק המאפשרת קנייה ומכירה של נכסים ללא השפעה משמעותית על מחירם."
+        },
+        {
+          "term": "נכס סיכון (Risk Asset)",
+          "explain": "נכס פיננסי שמחירו נוטה להשתנות באופן משמעותי בתגובה לתנאי השוק, ומיועד להניב תשואה גבוהה תוך חשיפה להפסד."
+        }
+      ],
+      "points_he": [
+        "התנודתיות בשוק ה-AI משפיעה ישירות על נכסי סיכון כמו קריפטו.",
+        "מדד הפחד והחמדנות נמצא ברמה נמוכה מאוד, מה שמעיד על סנטימנט שלילי בשוק.",
+        "הביטקוין מציג מתאם גבוה עם שווקים מסורתיים בתקופות של הידוק מוניטרי.",
+        "ניהול סיכונים וסבלנות הם הכלים החשובים ביותר בתקופות של חוסר ודאות."
+      ],
+      "meaning_he": "הקריסה בשוק ה-AI והשפעתה על הקריפטו ממחישות עד כמה השוק הדיגיטלי הפך לחלק אינטגרלי מהמערכת הפיננסית העולמית, ולכן הוא רגיש לשינויים מאקרו-כלכליים.",
+      "gen_v": 6
     },
     {
       "id": "161qh72",
